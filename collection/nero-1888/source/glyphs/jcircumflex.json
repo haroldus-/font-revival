@@ -1,0 +1,6 @@
+{
+  "glyph": "jcircumflex",
+  "advance_width": 242,
+  "path": "M79 566 L218 565 V557 L207 554 L198 544 L192 528 V80 L190 -35 L180 -104 L141 -151 L82 -176 L24 -174 L32 -98 L44 -98 L53 -117 L79 -119 L96 -100 L104 -58 L106 245 L101 407 L106 442 L103 531 L98 547 L80 559 ZM53 682 L148 822 L244 682 L212 661 L149 753 L86 661 Z",
+  "notes": "Use the revised j stem with a circumflex replacing the dot. Centre the accent over the stem and lower it to a clear gap above the x-height. Preserve the 242-unit advance."
+}

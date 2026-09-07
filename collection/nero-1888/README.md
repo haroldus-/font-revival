@@ -4,7 +4,7 @@ A condensed, chiseled display face with pointed terminals, deep notches, and dra
 
 ![Nero 1888 specimen](specimens/preview.png)
 
-**1888 · Regular · Version 1.001 · 302 characters · MIT**
+**1888 · Regular · Version 1.002 · 302 characters · MIT**
 
 [OTF](fonts/Nero1888-Regular.otf) · [TTF](fonts/Nero1888-Regular.ttf) · [WOFF2](web/Nero1888-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 

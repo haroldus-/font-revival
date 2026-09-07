@@ -116,6 +116,23 @@ class WorkflowTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "embedding must be unrestricted"):
             revival.validate_family(self.family)
 
+    def test_comparison_embeds_both_revisions_of_the_same_family(self):
+        before = self.root / "before.ttf"
+        after = self.family / "fonts/Johnson1892-Regular.ttf"
+        shutil.copyfile(after, before)
+        revival.export_glyph(Namespace(id="johnson-1892", character="j"))
+        path = self.family / "source/glyphs/j.json"
+        data = json.loads(path.read_text())
+        data["path"] = "M20 0 L120 0 L120 700 L20 700 Z"
+        revival.write_json(path, data)
+        revival.build_family(self.family)
+        proof = self.root / "comparison.pdf"
+        revival.comparison(Namespace(id="johnson-1892", before=before, text="j ij ji", output=proof))
+        data = proof.read_bytes()
+        self.assertNotEqual(revival.digest(before), revival.digest(after))
+        for font in (before, after):
+            self.assertIn(revival.digest(font)[:12].encode(), data)
+
     def test_reference_path_cannot_escape_family(self):
         m = json.loads((self.family / "font.json").read_text())
         m["sources"][0]["file"] = "../../LICENSE"

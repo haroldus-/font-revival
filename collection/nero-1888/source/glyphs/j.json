@@ -1,0 +1,6 @@
+{
+  "glyph": "j",
+  "advance_width": 242,
+  "path": "M103 728 109 747 126 758 142 761 177 756 192 736 195 711 192 671 187 658 169 643H129L118 648L103 666ZM79 566 L218 565 V557 L207 554 L198 544 L192 528 V80 L190 -35 L180 -104 L141 -151 L82 -176 L24 -174 L32 -98 L44 -98 L53 -117 L79 -119 L96 -100 L104 -58 L106 245 L101 407 L106 442 L103 531 L98 547 L80 559 Z",
+  "notes": "Replace the attached right-pointing tail with a continuous stem and a left-turning chiseled hook. Preserve the observed i dot and upper stem vocabulary; retain the 242-unit advance. This is a stylistic reconstruction, since the supplied historical specimens do not show j."
+}

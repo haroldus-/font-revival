@@ -7,6 +7,7 @@ import argparse
 import copy
 import hashlib
 import html
+import io
 import json
 import math
 import re
@@ -201,12 +202,25 @@ def fit_pdf(c, text, name, size, x, y, width):
     c.drawString(x, y, text)
 
 
+def register_pdf_font(name, file):
+    # ReportLab caches faces by the internal PostScript name. Two revisions of
+    # the same family otherwise render as the first face in a comparison proof.
+    with TTFont(file, recalcTimestamp=False) as font:
+        unique_name = font["name"].getDebugName(6) + "-" + digest(Path(file))[:12]
+        font["name"].removeNames(nameID=6)
+        font["name"].setName(unique_name, 6, 3, 1, 0x409)
+        stream = io.BytesIO()
+        font.save(stream)
+    stream.seek(0)
+    pdfmetrics.registerFont(PDFont(name, stream))
+
+
 def specimen(path, m):
     folder = path / "specimens"
     folder.mkdir(exist_ok=True)
     ttf = path / "fonts" / f'{m["postscript_name"]}.ttf'
     pdfname = m["id"]
-    pdfmetrics.registerFont(PDFont(pdfname, str(ttf)))
+    register_pdf_font(pdfname, ttf)
     c = canvas.Canvas(str(folder / "specimen.pdf"), pagesize=(842, 595), invariant=1, pageCompression=1)
     c.setTitle(m["name"] + " | Font Revival specimen")
     c.setAuthor("Font Revival contributors")
@@ -502,7 +516,7 @@ def comparison(args):
     c.setTitle(m["name"] + " | Revision comparison")
     for index, (label, file) in enumerate((("Before", args.before), ("After", after))):
         name = f"comparison-{index}"
-        pdfmetrics.registerFont(PDFont(name, str(file)))
+        register_pdf_font(name, file)
         top = 550 - index * 280
         c.setFont("Helvetica", 11); c.drawString(40, top, m["name"] + " / " + label)
         for size, offset in [(84, 112), (36, 183), (20, 226)]:

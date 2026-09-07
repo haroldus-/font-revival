@@ -57,7 +57,7 @@
       "id": "nero-1888",
       "name": "Nero 1888",
       "style": "Regular",
-      "version": "1.001",
+      "version": "1.002",
       "postscript_name": "Nero1888-Regular",
       "year": 1888,
       "designer": "Julius Herriet, Sr. (attributed)",
@@ -91,7 +91,7 @@
         "tools": [
           "GPT-5.6 Sol"
         ],
-        "notes": "Historical impressions are cleaned and harmonised into one display master. Reconstructed characters are informed by the observed letters."
+        "notes": "Historical impressions are cleaned and harmonised into one display master. Reconstructed characters are informed by the observed letters. The j and jcircumflex were refined with a continuous stem and left-turning descender; see their editable glyph files and comparison proof."
       },
       "characters": 302,
       "glyphs": 306
