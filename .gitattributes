@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
+*.ttx linguist-generated=true
+catalog.json linguist-generated=true
+index.html linguist-generated=true
+collection/*/SHA256SUMS.txt linguist-generated=true

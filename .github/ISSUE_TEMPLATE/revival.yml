@@ -1,0 +1,24 @@
+name: Suggest a revival
+description: Bring a historical typeface to the collection.
+title: "[Revival] "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Typeface, date, and foundry
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Historical source
+      description: Provide a specimen URL, publication details, and page number.
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Public-domain evidence
+      description: Link the institution's rights statement or explain the historical publication basis.
+    validations:
+      required: true

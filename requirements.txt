@@ -1,0 +1,7 @@
+# Python 3.12. Build dependencies, including transitive dependencies, are pinned.
+brotli==1.2.0
+charset-normalizer==3.5.1
+fonttools==4.64.0
+pillow==12.3.0
+reportlab==5.0.1
+zopfli==0.4.3

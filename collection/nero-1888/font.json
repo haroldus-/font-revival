@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "nero-1888",
+  "name": "Nero 1888",
+  "style": "Regular",
+  "version": "1.001",
+  "postscript_name": "Nero1888-Regular",
+  "year": 1888,
+  "designer": "Julius Herriet, Sr. (attributed)",
+  "foundry": "James Conner’s Sons",
+  "description": "A condensed, chiseled display face with pointed terminals, deep notches, and dramatic descenders.",
+  "license": "MIT",
+  "sample_text": "The Manhattan Riding Academy",
+  "observed": "Capitals A C D E F G H I K L M N O P R S T U V W; lowercase a c d e f g h i l m n o p r s t u v x y; numerals 0–9.",
+  "reconstructed": "B J Q X Y Z and b j k q w z; modern punctuation, symbols, accented extensions and ligatures. Reconstructed forms follow the observed stroke vocabulary.",
+  "sources": [
+    {
+      "title": "The Inland Printer, vol. 6, no. 2 (November 1888), p. 141",
+      "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/140/mode/2up",
+      "file": "reference/nero-1888-inland-printer-page-141.png",
+      "rights": "US publication from 1888, beyond the maximum copyright term; scan supplied with the revival as public domain",
+      "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+    },
+    {
+      "title": "John Ryan Foundry, Latest and Standard Faces in Type (1894), p. 135",
+      "url": "https://archive.org/details/lateststandardfa00ryan/page/134/mode/2up",
+      "file": "reference/nero-1894-john-ryan-page-135.png",
+      "rights": "US publication from 1894, beyond the maximum copyright term; scan supplied with the revival as public domain",
+      "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+    }
+  ],
+  "revival": {
+    "contributors": [
+      "Harold",
+      "Font Revival contributors"
+    ],
+    "tools": [
+      "GPT-5.6 Sol"
+    ],
+    "notes": "Historical impressions are cleaned and harmonised into one display master. Reconstructed characters are informed by the observed letters."
+  }
+}

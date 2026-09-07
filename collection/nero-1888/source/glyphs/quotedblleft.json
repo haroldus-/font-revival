@@ -1,0 +1,6 @@
+{
+  "glyph": "quotedblleft",
+  "advance_width": 252,
+  "path": "M106 757 99 760 24 780 43 650 102 592 79 694ZM198 757 191 760 116 780 135 650 194 592 171 694Z",
+  "notes": "Restore the empty U+201C with two copies of the existing opening single quote, at the same rhythm and width as quotedblright."
+}

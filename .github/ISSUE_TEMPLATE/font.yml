@@ -1,0 +1,23 @@
+name: Improve a font
+description: Report a glyph, spacing, coverage, or source problem.
+title: "[Font] "
+body:
+  - type: input
+    id: family
+    attributes:
+      label: Family and version
+      placeholder: Nero 1888, 1.001
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What should improve?
+      description: Include the character, sample text, size, application, and an image or PDF if useful.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Historical evidence or proposed direction
+      description: Link any better specimen and explain what it shows.

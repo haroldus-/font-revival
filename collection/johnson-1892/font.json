@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "johnson-1892",
+  "name": "Johnson 1892",
+  "style": "Regular",
+  "version": "1.001",
+  "postscript_name": "Johnson1892-Regular",
+  "year": 1892,
+  "designer": "Herman Ihlenburg",
+  "foundry": "MacKellar, Smiths & Jordan",
+  "description": "An ornamental display face with rounded strokes, knob-ended curls, and an irregular rhythm.",
+  "license": "MIT",
+  "sample_text": "Picking Nasturtiums",
+  "observed": "A–Z, a–z and 0–9 from the 1892 patent and period foundry specimens. Larger impressions inform title-critical forms.",
+  "reconstructed": "Punctuation and symbols are newly drawn companions. Spacing is adapted for digital use.",
+  "sources": [
+    {
+      "title": "Herman Ihlenburg, US design patent D21,607 (1892), alphabet and figures",
+      "url": "https://patents.google.com/patent/USD21607S/en",
+      "file": "reference/1892-patent-alphabet-and-figures.png",
+      "rights": "Historical US patent plate; the patent states a seven-year term beginning 7 June 1892",
+      "rights_url": "https://patents.google.com/patent/USD21607S/en"
+    },
+    {
+      "title": "MacKellar, Smiths & Jordan, Specimens of Printing Types (1892), p. 274",
+      "url": "https://archive.org/details/specimensofprint00mackrich/page/n241/mode/2up",
+      "file": "reference/1892-msj-johnson-specimen.png",
+      "rights": "Internet Archive records this 1892 edition as NOT_IN_COPYRIGHT",
+      "rights_url": "https://archive.org/details/specimensofprint00mackrich"
+    },
+    {
+      "title": "H. Berthold specimen catalogue (1909), Zierschrift Skandia, p. 428",
+      "url": "https://resolver.staatsbibliothek-berlin.de/SBB000308EA00000263",
+      "file": "reference/1909-berthold-skandia-specimen.jpg",
+      "rights": "1909 historical printing, treated as public domain in the supplied source record; publication predates the maximum US term",
+      "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+    }
+  ],
+  "revival": {
+    "contributors": [
+      "Harold",
+      "Font Revival contributors"
+    ],
+    "tools": [
+      "GPT-5.6 Sol"
+    ],
+    "notes": "Historical scans were deskewed, debris removed, and outlines fitted to the impressions. Original baseline irregularities and curled terminals are retained."
+  }
+}

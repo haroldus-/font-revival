@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Johnson 1892";
+  src: url("./Johnson1892-Regular.woff2") format("woff2"),
+       url("./Johnson1892-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
