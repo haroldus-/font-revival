@@ -1,0 +1,6 @@
+{
+  "path": "M105 626C93 619 75 613 64 611C30 606 18 587 41 574C48 570 55 565 58 562C62 554 67 434 70 252C72 133 74 91 79 69C85 42 100 14 108 10C110 9 118 3 125 -3C146 -22 166 -27 213 -27C258 -27 262 -26 312 0C342 15 346 19 368 53C381 73 392 94 392 99C392 104 395 111 400 115C414 129 413 257 398 302C380 357 356 399 342 399C340 399 334 403 330 407C315 421 268 427 234 420C211 414 181 390 168 367L158 346L166 327C178 301 195 291 226 291H250L257 312C272 361 304 337 328 261C348 194 314 90 263 63C220 41 185 50 159 90L146 110L148 193C152 332 147 626 141 634C135 642 130 641 105 626Z",
+  "advance_width": 439,
+  "glyph": "b",
+  "notes": "Trace the 1892 patent alphabet; suppress scan-edge stair steps and retain only the main ink component. Discard isolated scan marks; the L target bounds exclude the stray triangle below its foot. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+}

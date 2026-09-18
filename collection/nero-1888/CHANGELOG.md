@@ -1,5 +1,13 @@
 # Changes
 
+## 1.003
+
+- Retrace C from the 72-point Inland Printer impression, removing the damaged inner terminal.
+- Retrace all ten figures from Ryan p. 135 with recorded speck filling and curve cleanup; preserve their advances and outline extents.
+- Apply the corrected C body to Ç, Ć, Ĉ, Ċ and Č while retaining every accent's geometry and position.
+- Add repeatable glyph-revision recipes, retained rights evidence, a [historical comparison](specimens/source-review.pdf), and a [before/after proof](specimens/source-revision-review.pdf).
+- Preserve character coverage, kerning, ligatures and the earlier j/ĵ corrections.
+
 ## 1.002
 
 - Redraw `j` with a continuous stem and a left-turning, chiseled descender; preserve the observed `i` dot and the existing advance width.

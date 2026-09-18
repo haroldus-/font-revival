@@ -3,7 +3,7 @@
   "id": "nero-1888",
   "name": "Nero 1888",
   "style": "Regular",
-  "version": "1.002",
+  "version": "1.003",
   "postscript_name": "Nero1888-Regular",
   "year": 1888,
   "designer": "Julius Herriet, Sr. (attributed)",
@@ -16,17 +16,17 @@
   "sources": [
     {
       "title": "The Inland Printer, vol. 6, no. 2 (November 1888), p. 141",
-      "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/140/mode/2up",
+      "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/n52/mode/1up",
       "file": "reference/nero-1888-inland-printer-page-141.png",
-      "rights": "US publication from 1888, beyond the maximum copyright term; scan supplied with the revival as public domain",
+      "rights": "US publication from November 1888, beyond the maximum 95-year term. Journal metadata retained in reference/printer-metadata.json.",
       "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
     },
     {
       "title": "John Ryan Foundry, Latest and Standard Faces in Type (1894), p. 135",
-      "url": "https://archive.org/details/lateststandardfa00ryan/page/134/mode/2up",
+      "url": "https://archive.org/details/lateststandardfa00ryan/page/135/mode/1up",
       "file": "reference/nero-1894-john-ryan-page-135.png",
-      "rights": "US publication from 1894, beyond the maximum copyright term; scan supplied with the revival as public domain",
-      "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+      "rights": "US publication from 1894, beyond the maximum 95-year term. Library of Congress rights statement retained in reference/ryan-rights.json.",
+      "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
     }
   ],
   "revival": {
@@ -35,8 +35,12 @@
       "Font Revival contributors"
     ],
     "tools": [
-      "GPT-5.6 Sol"
+      "GPT-5.6 Sol",
+      "Codex",
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
     ],
-    "notes": "Historical impressions are cleaned and harmonised into one display master. Reconstructed characters are informed by the observed letters. The j and jcircumflex were refined with a continuous stem and left-turning descender; see their editable glyph files and comparison proof."
+    "notes": "Historical impressions are cleaned and harmonised into one display master. Reconstructed characters are informed by the observed letters. The j and jcircumflex were refined with a continuous stem and left-turning descender; see their editable glyph files and comparison proof. C and all ten figures were retraced with recorded cleanup settings in 1.003. Five accented C forms share the corrected body while retaining their reconstructed accents. Source and before/after proofs accompany the revision; see source/METHOD.md."
   }
 }

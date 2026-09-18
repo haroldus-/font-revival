@@ -102,7 +102,8 @@ def trace(image, entry, potrace):
     x0, y0, x1, y1 = bounds.bounds
     scale = entry['height'] / (y1-y0)
     left, right = entry.get('bearings', [45, 45])
-    sx = scale * entry.get('width_scale', 1)
+    sx = (entry['ink_width'] / (x1-x0) if 'ink_width' in entry
+          else scale * entry.get('width_scale', 1))
     advance = entry.get('advance_width', round((x1-x0)*sx+left+right))
     if entry.get('center', False):
         left = (advance - (x1-x0)*sx) / 2
@@ -166,11 +167,17 @@ def assemble(family, drawings, aliases, output, features='', metrics=None):
     fb.save(output)
 
 
-def prepare(family, output, potrace):
+def require_potrace(potrace):
     version = subprocess.run([potrace, '--version'], check=True, capture_output=True, text=True).stdout
     if not version.startswith('potrace 1.16.'):
         raise ValueError('Source preparation requires Potrace 1.16.')
+
+
+def prepare(family, output, potrace):
+    require_potrace(potrace)
     manifest = json.loads((family/'source/tracing.json').read_text())
+    if manifest.get('mode') == 'glyph-revision':
+        raise ValueError('Use trace_revisions.py for a glyph-revision recipe.')
     images, drawings = {}, {}
     for ch, entry in manifest['glyphs'].items():
         file = family/entry['file']
