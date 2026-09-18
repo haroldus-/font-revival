@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Quaint Gothic 1894";
+  src: url("./QuaintGothic1894-Regular.woff2") format("woff2"),
+       url("./QuaintGothic1894-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

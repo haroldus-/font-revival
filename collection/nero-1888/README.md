@@ -15,7 +15,8 @@ and use `font-family: "Nero 1888"`. Designed for display sizes.
 
 ## Design
 
-**Designer:** Julius Herriet, Sr. (attributed)  
+**Designer:** Julius Herriet, Sr. (attributed)
+
 **Foundry:** James Conner’s Sons
 
 **Observed:** Capitals A C D E F G H I K L M N O P R S T U V W; lowercase a c d e f g h i l m n o p r s t u v x y; numerals 0–9.

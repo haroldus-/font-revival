@@ -1,4 +1,5 @@
 # Python 3.12. Build dependencies, including transitive dependencies, are pinned.
+# Optional historical source preparation: Potrace 1.16; see docs/TRACING.md.
 brotli==1.2.0
 charset-normalizer==3.5.1
 fonttools==4.64.0

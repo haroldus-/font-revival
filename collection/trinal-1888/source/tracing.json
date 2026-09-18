@@ -1,0 +1,618 @@
+{
+  "schema_version": 1,
+  "units_per_em": 1000,
+  "cap_height": 700,
+  "tool": "Potrace 1.16",
+  "glyphs": {
+    "&": {
+      "file": "reference/ryan-1894-p131.png",
+      "box": [
+        1065,
+        904,
+        1208,
+        1010
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        45,
+        45
+      ],
+      "notes": "20-point ampersand on printed page 131."
+    },
+    "0": {
+      "file": "reference/patent-plate.png",
+      "box": [
+        1710,
+        1948,
+        1765,
+        2024
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 4,
+      "notes": "Supplement from D18,671 plate, 9 October 1888. Largest connected ink component; see method notes for repairs."
+    },
+    "1": {
+      "file": "reference/inland-printer-1888-p138.png",
+      "box": [
+        491,
+        3322,
+        525,
+        3434
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 4, character 0. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "2": {
+      "file": "reference/inland-printer-1888-p138.png",
+      "box": [
+        547,
+        3322,
+        622,
+        3435
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 4, character 1. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "3": {
+      "file": "reference/inland-printer-1888-p138.png",
+      "box": [
+        2681,
+        3321,
+        2759,
+        3433
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 4, character 20. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "4": {
+      "file": "reference/inland-printer-1888-p138.png",
+      "box": [
+        2768,
+        3317,
+        2853,
+        3431
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 4, character 21. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "5": {
+      "file": "reference/ryan-1894-p131.png",
+      "box": [
+        264,
+        3077,
+        386,
+        3263
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 2, character 0. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "6": {
+      "file": "reference/patent-plate.png",
+      "box": [
+        1355,
+        1948,
+        1417,
+        2023
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 4,
+      "notes": "Supplement from D18,671 plate, 9 October 1888. Largest connected ink component; see method notes for repairs."
+    },
+    "7": {
+      "file": "reference/patent-plate.png",
+      "box": [
+        1442,
+        1948,
+        1500,
+        2023
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 4,
+      "notes": "Supplement from D18,671 plate, 9 October 1888. Largest connected ink component; see method notes for repairs."
+    },
+    "8": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        1675,
+        2229,
+        1740,
+        2325
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 8, character 8. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "9": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        1757,
+        2230,
+        1828,
+        2325
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 8, character 9. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "A": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        1060,
+        3194,
+        1178,
+        3323
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 1, character 4. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "B": {
+      "file": "reference/inland-printer-1888-p138.png",
+      "box": [
+        1733,
+        3103,
+        1831,
+        3217
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 3, character 7. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "C": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        1183,
+        2965,
+        1281,
+        3094
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 4. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "D": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        1790,
+        2964,
+        1908,
+        3093
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 9. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "E": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        934,
+        2963,
+        1036,
+        3092
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 2. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "F": {
+      "file": "reference/inland-printer-1888-p138.png",
+      "box": [
+        2156,
+        3318,
+        2242,
+        3432
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 4, character 16. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "G": {
+      "file": "reference/ryan-1894-p131.png",
+      "box": [
+        1572,
+        3057,
+        1739,
+        3250
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 2, character 7. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "H": {
+      "file": "reference/patent-plate.png",
+      "box": [
+        1577,
+        1535,
+        1645,
+        1610
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 4,
+      "notes": "Supplement from D18,671 plate, 9 October 1888. Largest connected ink component; see method notes for repairs."
+    },
+    "I": {
+      "file": "reference/ryan-1894-p131.png",
+      "box": [
+        1301,
+        3064,
+        1348,
+        3249
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        60,
+        60
+      ],
+      "notes": "Historical impression; candidate row 2, character 5. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "J": {
+      "file": "reference/patent-plate.png",
+      "box": [
+        1750,
+        1530,
+        1797,
+        1611
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 4,
+      "notes": "Supplement from D18,671 plate, 9 October 1888. Largest connected ink component; see method notes for repairs."
+    },
+    "L": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        1425,
+        2965,
+        1533,
+        3093
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 6. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "M": {
+      "file": "reference/ryan-1894-p131.png",
+      "box": [
+        519,
+        3072,
+        705,
+        3260
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 2, character 1. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "N": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        793,
+        2950,
+        916,
+        3094
+      ],
+      "height": 780,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 1. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "O": {
+      "file": "reference/ryan-1894-p131.png",
+      "box": [
+        733,
+        3068,
+        886,
+        3259
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 2, character 2. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "P": {
+      "file": "reference/inland-printer-1888-p138.png",
+      "box": [
+        947,
+        3105,
+        1038,
+        3218
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 3, character 0. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "Q": {
+      "file": "reference/patent-plate.png",
+      "box": [
+        1530,
+        1674,
+        1590,
+        1750
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 4,
+      "notes": "Supplement from D18,671 plate, 9 October 1888. Largest connected ink component; see method notes for repairs."
+    },
+    "R": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        1197,
+        3195,
+        1306,
+        3324
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 1, character 5. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "S": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        456,
+        3192,
+        544,
+        3321
+      ],
+      "height": 716,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 1, character 0. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "T": {
+      "file": "reference/inland-printer-1888-p138.png",
+      "box": [
+        2034,
+        3533,
+        2129,
+        3647
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 5, character 7. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "U": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        659,
+        2948,
+        761,
+        3092
+      ],
+      "height": 780,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 0. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "V": {
+      "file": "reference/inland-printer-1888-p138.png",
+      "box": [
+        855,
+        3304,
+        952,
+        3435
+      ],
+      "height": 780,
+      "y_min": -8,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 4, character 4. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "W": {
+      "file": "reference/patent-plate.png",
+      "box": [
+        1205,
+        1805,
+        1293,
+        1887
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 4,
+      "notes": "Supplement from D18,671 plate, 9 October 1888. Largest connected ink component; see method notes for repairs."
+    },
+    "X": {
+      "file": "reference/ryan-1894-p130.png",
+      "box": [
+        1054,
+        2964,
+        1166,
+        3092
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 3. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "Y": {
+      "file": "reference/patent-plate.png",
+      "box": [
+        1430,
+        1795,
+        1496,
+        1886
+      ],
+      "height": 780,
+      "y_min": -8,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 4,
+      "notes": "Supplement from D18,671 plate, 9 October 1888. Largest connected ink component; see method notes for repairs."
+    },
+    "Z": {
+      "file": "reference/patent-plate.png",
+      "box": [
+        1520,
+        1807,
+        1590,
+        1885
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 4,
+      "notes": "Supplement from D18,671 plate, 9 October 1888. Largest connected ink component; see method notes for repairs."
+    },
+    "K": {
+      "file": "reference/patent-plate.png",
+      "box": [
+        913,
+        1674,
+        976,
+        1748
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        45,
+        45
+      ],
+      "notes": "Evidence for the looped K. The damaged trace is replaced by the repaired drawing in companions.json."
+    }
+  }
+}

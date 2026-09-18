@@ -1,0 +1,322 @@
+{
+  "glyphs": {
+    " ": {
+      "path": "",
+      "advance_width": 300,
+      "notes": "Word space adapted for digital setting."
+    },
+    ".": {
+      "path": "M137 40C137 63.2 118.2 82 95 82C71.8 82 53 63.2 53 40C53 16.8 71.8 -2 95 -2C118.2 -2 137 16.8 137 40Z",
+      "advance_width": 190,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ",": {
+      "path": "M60 -110C125 -70 145 -20 141 44C137 110 46 110 47 43C47 4 86 -8 108 9C106 -27 91 -65 48 -90Z",
+      "advance_width": 190,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ":": {
+      "path": "M137 40C137 63.2 118.2 82 95 82C71.8 82 53 63.2 53 40C53 16.8 71.8 -2 95 -2C118.2 -2 137 16.8 137 40ZM137 415C137 438.2 118.2 457 95 457C71.8 457 53 438.2 53 415C53 391.8 71.8 373 95 373C118.2 373 137 391.8 137 415Z",
+      "advance_width": 190,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ";": {
+      "path": "M60 -110C125 -70 145 -20 141 44C137 110 46 110 47 43C47 4 86 -8 108 9C106 -27 91 -65 48 -90ZM137 415C137 438.2 118.2 457 95 457C71.8 457 53 438.2 53 415C53 391.8 71.8 373 95 373C118.2 373 137 391.8 137 415Z",
+      "advance_width": 190,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "!": {
+      "path": "M64 700H160L141 170H84ZM154 40C154 63.2 135.2 82 112 82C88.8 82 70 63.2 70 40C70 16.8 88.8 -2 112 -2C135.2 -2 154 16.8 154 40Z",
+      "advance_width": 224,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "?": {
+      "path": "M65 558C60 664 140 720 242 720C352 720 430 655 430 563C430 476 365 437 300 395C250 362 233 301 233 178H185C168 325 194 389 271 462C314 501 337 528 337 568C337 636 299 683 241 683C180 683 135 643 135 597C169 609 190 589 187 558C184 521 132 503 103 519C76 531 65 542 65 558ZM251 40C251 63.2 232.2 82 209 82C185.8 82 167 63.2 167 40C167 16.8 185.8 -2 209 -2C232.2 -2 251 16.8 251 40Z",
+      "advance_width": 490,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "-": {
+      "path": "M40 290h265v45h-265Z",
+      "advance_width": 345,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "_": {
+      "path": "M0 -145h600v42h-600Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "+": {
+      "path": "M70 335H270V535H315V335H515V290H315V90H270V290H70Z",
+      "advance_width": 585,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "=": {
+      "path": "M70 225h450v45h-450ZM70 405h450v45h-450Z",
+      "advance_width": 590,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "/": {
+      "path": "M35 -90L320 740H365L80 -90Z",
+      "advance_width": 400,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "\\": {
+      "path": "M35 740H80L365 -90H320Z",
+      "advance_width": 400,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "|": {
+      "path": "M80 -150h45v900h-45Z",
+      "advance_width": 205,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "(": {
+      "path": "M260 790C96 630 54 472 54 320C54 132 110 -24 260 -160L282 -139C162 31 141 171 141 320C141 465 162 614 282 769Z",
+      "advance_width": 340,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ")": {
+      "from": "(",
+      "transform": [
+        -1,
+        0,
+        0,
+        1,
+        340,
+        0
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 340
+    },
+    "[": {
+      "path": "M75 -150V780H300V745H160V-115H300V-150Z",
+      "advance_width": 340,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "]": {
+      "from": "[",
+      "transform": [
+        -1,
+        0,
+        0,
+        1,
+        340,
+        0
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 340
+    },
+    "{": {
+      "path": "M300 780C125 780 145 636 145 524V420C145 373 110 341 55 330V295C110 283 145 253 145 208V108C145 -6 125 -150 300 -150V-119C211 -111 222 -3 222 112V220C222 268 188 300 142 312C188 326 222 358 222 407V520C222 633 211 742 300 749Z",
+      "advance_width": 350,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "}": {
+      "from": "{",
+      "transform": [
+        -1,
+        0,
+        0,
+        1,
+        350,
+        0
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 350
+    },
+    "<": {
+      "path": "M500 590L65 337V288L500 35V93L125 312L500 532Z",
+      "advance_width": 560,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ">": {
+      "from": "<",
+      "transform": [
+        -1,
+        0,
+        0,
+        1,
+        560,
+        0
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 560
+    },
+    "^": {
+      "path": "M60 490L244 735H290L474 490H413L267 678L121 490Z",
+      "advance_width": 530,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "`": {
+      "path": "M80 800H173L292 635H252Z",
+      "advance_width": 360,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "~": {
+      "path": "M55 290C114 417 184 408 283 364C381 321 420 322 478 410L509 390C459 264 371 260 275 310C181 358 120 372 82 272Z",
+      "advance_width": 560,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "'": {
+      "path": "M75 700H158L138 465H95Z",
+      "advance_width": 230,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "\"": {
+      "path": "M65 700H140L123 465H83Z M215 700H290L273 465H233Z",
+      "advance_width": 355,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "*": {
+      "path": "M240 710H300L282 549L430 615L452 559L298 512L424 405L385 358L270 485L155 358L116 405L242 512L88 559L110 615L258 549Z",
+      "advance_width": 540,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "#": {
+      "path": "M185 700H226L194 492H365L397 700H438L406 492H515V450H399L369 254H483V212H362L330 0H289L321 212H150L118 0H77L109 212H30V254H116L146 450H63V492H153Z M187 450L157 254H328L358 450Z",
+      "advance_width": 555,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "%": {
+      "path": "M75 0L548 720H590L117 0Z M175 710C252 710 294 645 294 560C294 475 252 410 175 410C98 410 56 475 56 560C56 645 98 710 175 710Z M175 678C139 678 123 630 123 560C123 490 139 442 175 442C211 442 227 490 227 560C227 630 211 678 175 678Z M485 290C562 290 604 225 604 140C604 55 562 -10 485 -10C408 -10 366 55 366 140C366 225 408 290 485 290Z M485 258C449 258 433 210 433 140C433 70 449 22 485 22C521 22 537 70 537 140C537 210 521 258 485 258Z",
+      "advance_width": 665,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "@": {
+      "path": "M603 165C582 96 541 92 522 122C511 141 513 170 519 203C478 141 437 115 386 115C299 115 257 180 263 275C271 401 354 511 451 511C501 511 529 489 544 456L552 498H621L567 196C556 135 573 124 608 156C672 213 691 301 681 389C664 565 553 675 394 675C200 675 91 524 91 318C91 95 228 -33 421 -33C507 -33 584 -6 649 37L674 5C603 -46 516 -78 421 -78C193 -78 35 73 35 318C35 549 172 721 398 721C595 721 736 575 736 379C736 264 690 153 621 109C568 75 516 95 511 140Z M449 466C390 466 342 373 336 285C330 207 351 162 391 162C451 162 498 249 510 336C522 420 496 466 449 466Z",
+      "advance_width": 790,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "–": {
+      "path": "M40 290h500v45h-500Z",
+      "advance_width": 580,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "—": {
+      "path": "M40 290h900v45h-900Z",
+      "advance_width": 980,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "’": {
+      "from": ",",
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        600
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 190
+    },
+    "‘": {
+      "from": ",",
+      "transform": [
+        -1,
+        0,
+        0,
+        -1,
+        190,
+        600
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 190
+    },
+    "”": {
+      "path": "M60.0 490.0C125.0 530.0 145.0 580.0 141.0 644.0C137.0 710.0 46.0 710.0 47.0 643.0C47.0 604.0 86.0 592.0 108.0 609.0C106.0 573.0 91.0 535.0 48.0 510.0L60.0 490.0ZM240.0 490.0C305.0 530.0 325.0 580.0 321.0 644.0C317.0 710.0 226.0 710.0 227.0 643.0C227.0 604.0 266.0 592.0 288.0 609.0C286.0 573.0 271.0 535.0 228.0 510.0L240.0 490.0Z",
+      "advance_width": 370,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "“": {
+      "path": "M130.0 710.0C65.0 670.0 45.0 620.0 49.0 556.0C53.0 490.0 144.0 490.0 143.0 557.0C143.0 596.0 104.0 608.0 82.0 591.0C84.0 627.0 99.0 665.0 142.0 690.0L130.0 710.0ZM310.0 710.0C245.0 670.0 225.0 620.0 229.0 556.0C233.0 490.0 324.0 490.0 323.0 557.0C323.0 596.0 284.0 608.0 262.0 591.0C264.0 627.0 279.0 665.0 322.0 690.0L310.0 710.0Z",
+      "advance_width": 370,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "•": {
+      "path": "M275 340C275 386.94 236.94 425 190 425C143.06 425 105 386.94 105 340C105 293.06 143.06 255 190 255C236.94 255 275 293.06 275 340Z",
+      "advance_width": 380,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "…": {
+      "path": "M137 40C137 63.2 118.2 82 95 82C71.8 82 53 63.2 53 40C53 16.8 71.8 -2 95 -2C118.2 -2 137 16.8 137 40ZM327 40C327 63.2 308.2 82 285 82C261.8 82 243 63.2 243 40C243 16.8 261.8 -2 285 -2C308.2 -2 327 16.8 327 40ZM517 40C517 63.2 498.2 82 475 82C451.8 82 433 63.2 433 40C433 16.8 451.8 -2 475 -2C498.2 -2 517 16.8 517 40Z",
+      "advance_width": 570,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "K": {
+      "path": "M45 0V16H74V684H45V700H205V684H175V385C220 385 272 386 305 424C358 486 386 596 400 684H371V700H477V684H447C419 570 381 450 329 386C381 348 413 250 444 143C464 67 481 18 515 16V0H365V16H397C366 106 359 242 311 319C267 295 211 300 175 326V16H205V0Z M175 359C206 324 263 321 292 342C266 370 216 370 175 359Z",
+      "advance_width": 550,
+      "notes": "Hand reconstruction of the observed looped K on the damaged patent plate; stem and fork repaired, not an invented alternate."
+    },
+    "$": {
+      "path": "M465 609C393 674 291 708 202 664C109 619 111 530 177 482L374 354C493 274 506 144 413 54C322 -32 162 -20 66 71L89 121C181 39 291 23 357 76C426 131 392 212 329 252L145 374C37 445 36 578 112 651C207 742 359 720 467 656ZM251 -80v860h30v-860Z",
+      "advance_width": 530,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "0": {
+      "path": "M315 715C489 715 567 540 567 351C567 145 483 -8 315 -8C147 -8 63 145 63 351C63 540 141 715 315 715Z M315 675C203 675 153 523 153 351C153 166 203 32 315 32C427 32 477 166 477 351C477 523 427 675 315 675Z",
+      "advance_width": 630,
+      "notes": "Repaired closed oval observed in patent numeral 0; the lower-right scan dropout is not a stencil gap."
+    },
+    "Q": {
+      "path": "M300 708C470 708 553 549 553 352C553 154 470 -8 300 -8C130 -8 47 154 47 352C47 549 130 708 300 708Z M300 670C190 670 134 527 134 352C134 177 190 30 300 30C410 30 466 177 466 352C466 527 410 670 300 670Z M222 99C300 147 392 89 560 25L535 -17C410 12 328 113 222 83Z",
+      "advance_width": 602,
+      "notes": "Reconstruction of the observed patent form with scan-edge stair steps removed; preserves its historical structure and terminals."
+    },
+    "W": {
+      "path": "M45 700H187V684H155L338 141L461 519C434 541 414 546 393 549V567C443 577 475 599 492 641H508C525 599 557 577 607 567V549C586 546 566 541 539 519L662 141L841 684H809V700H922V684H890L673 0H636L493 444L350 0H314L78 684H45Z",
+      "advance_width": 967,
+      "notes": "Reconstruction of the observed patent form with scan-edge stair steps removed; preserves its historical structure and terminals."
+    },
+    "Z": {
+      "path": "M90 700H546V677L161 62C141 32 252 38 336 38C455 38 537 41 537 130C537 187 508 213 472 213C438 213 424 198 424 177C463 187 478 164 478 143C478 118 459 103 438 103C404 103 388 132 388 166C388 220 426 249 478 249C542 249 574 203 574 130C574 12 485 0 348 0H45V18L435 643C461 683 375 662 326 662H165C112 662 91 641 66 601H49Z",
+      "advance_width": 620,
+      "notes": "Reconstruction of the observed patent form with scan-edge stair steps removed; preserves its historical structure and terminals."
+    },
+    "6": {
+      "path": "M538 672C492 642 473 625 443 646C420 664 394 677 363 677C235 677 169 544 152 400C210 443 279 459 342 452C473 439 555 353 555 219C555 78 451 -8 315 -8C125 -8 48 112 48 321C48 533 162 708 350 708C422 708 478 680 538 687Z M151 359C146 339 145 317 145 292C145 119 204 30 315 30C412 30 468 105 468 219C468 333 409 412 315 414C255 415 199 393 151 359Z",
+      "advance_width": 603,
+      "notes": "Reconstruction of the observed patent form with scan-edge stair steps removed; preserves its historical structure and terminals."
+    },
+    "7": {
+      "path": "M92 700H542V676C428 483 337 304 329 139C327 82 331 75 404 90L281 -8C217 28 231 105 245 159C290 338 394 516 465 652H185C116 652 94 638 80 579H58Z",
+      "advance_width": 590,
+      "notes": "Reconstruction of the observed patent form with scan-edge stair steps removed; preserves its historical structure and terminals."
+    }
+  },
+  "aliases": {
+    "a": "A",
+    "b": "B",
+    "c": "C",
+    "d": "D",
+    "e": "E",
+    "f": "F",
+    "g": "G",
+    "h": "H",
+    "i": "I",
+    "j": "J",
+    "k": "K",
+    "l": "L",
+    "m": "M",
+    "n": "N",
+    "o": "O",
+    "p": "P",
+    "q": "Q",
+    "r": "R",
+    "s": "S",
+    "t": "T",
+    "u": "U",
+    "v": "V",
+    "w": "W",
+    "x": "X",
+    "y": "Y",
+    "z": "Z",
+    " ": " "
+  }
+}

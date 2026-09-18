@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "units_per_em": 1000,
+  "cap_height": 700,
+  "tool": "Potrace 1.16",
+  "glyphs": {
+    "$": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1587,
+        3231,
+        1735,
+        3480
+      ],
+      "height": 790,
+      "y_min": -65,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 1, character 4. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "1": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1899,
+        1284,
+        1927,
+        1332
+      ],
+      "height": 650,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 9, character 23. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "2": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1851,
+        1647,
+        1910,
+        1722
+      ],
+      "height": 650,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 7, character 15. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "4": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1775,
+        1646,
+        1839,
+        1720
+      ],
+      "height": 650,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 7, character 14. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "5": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1794,
+        2076,
+        1868,
+        2175
+      ],
+      "height": 650,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 5, character 10. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "6": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1704,
+        2074,
+        1784,
+        2176
+      ],
+      "height": 650,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 5, character 9. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "9": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1754,
+        3247,
+        1910,
+        3450
+      ],
+      "height": 650,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 1, character 5. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "A": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1346,
+        1901,
+        1443,
+        2027
+      ],
+      "height": 840,
+      "y_min": -140,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 4, character 9. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "B": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1230,
+        1179,
+        1276,
+        1231
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 8, character 14. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "C": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        423,
+        2926,
+        579,
+        3150
+      ],
+      "height": 720,
+      "y_min": -10,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 0. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "D": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        953,
+        2933,
+        1117,
+        3147
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 3. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "E": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        709,
+        2358,
+        829,
+        2516
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 2, character 2. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "F": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        430,
+        2358,
+        546,
+        2516
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 2, character 0. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "G": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1835,
+        2591,
+        1971,
+        2760
+      ],
+      "height": 720,
+      "y_min": -10,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 3, character 10. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "H": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1119,
+        2360,
+        1239,
+        2553
+      ],
+      "height": 840,
+      "y_min": -140,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 2, character 5. Crop coordinates in original scan pixels, x right / y down.",
+      "fill_holes": 65
+    },
+    "I": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1527,
+        2939,
+        1571,
+        3151
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        65,
+        65
+      ],
+      "notes": "Historical impression; candidate row 0, character 5. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "J": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1126,
+        1179,
+        1163,
+        1242
+      ],
+      "height": 840,
+      "y_min": -140,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 8, character 12. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "K": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1701,
+        1279,
+        1748,
+        1342
+      ],
+      "height": 840,
+      "y_min": -140,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 9, character 20. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "L": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        797,
+        2933,
+        932,
+        3146
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 2. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "M": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1444,
+        1508,
+        1542,
+        1601
+      ],
+      "height": 840,
+      "y_min": -140,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 6, character 11. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "N": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1606,
+        2938,
+        1755,
+        3151
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 6. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "O": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        590,
+        2930,
+        771,
+        3152
+      ],
+      "height": 720,
+      "y_min": -10,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 1. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "P": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        884,
+        2065,
+        968,
+        2191
+      ],
+      "height": 840,
+      "y_min": -140,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 5, character 2. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "R": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        562,
+        2359,
+        693,
+        2548
+      ],
+      "height": 840,
+      "y_min": -140,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 2, character 1. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "S": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1975,
+        2936,
+        2132,
+        3163
+      ],
+      "height": 720,
+      "y_min": -10,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 8. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "T": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        787,
+        2591,
+        914,
+        2782
+      ],
+      "height": 840,
+      "y_min": -140,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 3, character 2. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "U": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        690,
+        2064,
+        769,
+        2173
+      ],
+      "height": 720,
+      "y_min": -10,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 5, character 0. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "V": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1615,
+        2363,
+        1739,
+        2521
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 2, character 8. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "W": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1282,
+        2937,
+        1511,
+        3149
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 0, character 4. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "X": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1136,
+        960,
+        1176,
+        1012
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 10, character 10. Crop coordinates in original scan pixels, x right / y down."
+    },
+    "Y": {
+      "file": "reference/ryan-1894-p148.png",
+      "box": [
+        1274,
+        3228,
+        1451,
+        3441
+      ],
+      "height": 700,
+      "y_min": 0,
+      "bearings": [
+        42,
+        42
+      ],
+      "notes": "Historical impression; candidate row 1, character 3. Crop coordinates in original scan pixels, x right / y down."
+    }
+  }
+}

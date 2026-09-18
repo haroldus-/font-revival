@@ -15,7 +15,8 @@ and use `font-family: "Johnson 1892"`. Designed for display sizes.
 
 ## Design
 
-**Designer:** Herman Ihlenburg  
+**Designer:** Herman Ihlenburg
+
 **Foundry:** MacKellar, Smiths & Jordan
 
 **Observed:** A–Z, a–z and 0–9 from the 1892 patent and period foundry specimens. Larger impressions inform title-critical forms.

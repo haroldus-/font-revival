@@ -27,6 +27,11 @@ The imported XML master preserves the outlines, character map, spacing, kerning,
 and OpenType features. It is the common source for every release format. Additional
 tracing scripts and measurements can live alongside it under `source/`.
 
+For sources suitable for crop-based tracing, the optional [repeatable tracing
+tool](TRACING.md) records measurements and explicit companion drawings, then prepares
+the OTF for `import`. It also enables a generated historical-source comparison proof.
+It does not replace visual review or change the canonical TTX workflow.
+
 ## 3. Improve an existing family
 
 Save the current font before editing. For example:
