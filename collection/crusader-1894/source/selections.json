@@ -1,0 +1,461 @@
+{
+  "description": "Final measurements after visual selection and metric harmonisation. Tracing.json additionally records cleanup and spacing. Coordinates are retained image pixels, x right and y down.",
+  "glyphs": {
+    "$": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1741,
+        2417,
+        1813,
+        2552
+      ],
+      "height": 796,
+      "y_min": -108,
+      "notes": "Observed impression, measured row 4, sort 8. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "0": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1213,
+        3553,
+        1260,
+        3630
+      ],
+      "height": 703,
+      "y_min": -34,
+      "notes": "Observed impression, measured row 6, sort 7. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "1": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1842,
+        2420,
+        1885,
+        2539
+      ],
+      "height": 702,
+      "y_min": -31,
+      "notes": "Observed impression, measured row 4, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "2": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1632,
+        1790,
+        1734,
+        1911
+      ],
+      "height": 535,
+      "y_min": -12,
+      "notes": "Observed impression, measured row 2, sort 6. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "3": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1710,
+        771,
+        1873,
+        997
+      ],
+      "height": 696,
+      "y_min": -18,
+      "notes": "Observed impression, measured row 0, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "4": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1757,
+        1752,
+        1886,
+        1914
+      ],
+      "height": 717,
+      "y_min": -25,
+      "notes": "Observed impression, measured row 2, sort 7. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "5": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1996,
+        2420,
+        2068,
+        2545
+      ],
+      "height": 737,
+      "y_min": -67,
+      "notes": "Observed impression, measured row 4, sort 11. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "6": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1815,
+        3018,
+        1874,
+        3117
+      ],
+      "height": 701,
+      "y_min": -17,
+      "notes": "Observed impression, measured row 5, sort 8. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "7": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1909,
+        2426,
+        1983,
+        2543
+      ],
+      "height": 690,
+      "y_min": -55,
+      "notes": "Observed impression, measured row 4, sort 10. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "8": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1809,
+        1283,
+        1956,
+        1478
+      ],
+      "height": 699,
+      "y_min": -26,
+      "notes": "Observed impression, measured row 1, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "9": {
+      "file": "reference/ryan-104.png",
+      "box": [
+        236,
+        2483,
+        383,
+        2692
+      ],
+      "height": 724,
+      "y_min": -18,
+      "notes": "Observed impression, measured row 10, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "A": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        2365,
+        770,
+        2608,
+        1060
+      ],
+      "height": 893,
+      "y_min": -212,
+      "notes": "Observed impression, measured row 0, sort 8. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "B": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        2257,
+        3018,
+        2350,
+        3119
+      ],
+      "height": 715,
+      "y_min": -31,
+      "notes": "Observed impression, measured row 5, sort 13. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "C": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1145,
+        1749,
+        1289,
+        1915
+      ],
+      "height": 735,
+      "y_min": -30,
+      "notes": "Observed impression, measured row 2, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "D": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        2787,
+        1284,
+        2971,
+        1481
+      ],
+      "height": 706,
+      "y_min": -37,
+      "notes": "Observed impression, measured row 1, sort 10. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "E": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        2942,
+        774,
+        3138,
+        1006
+      ],
+      "height": 714,
+      "y_min": -45,
+      "notes": "Observed impression, measured row 0, sort 10. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "F": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        662,
+        761,
+        866,
+        991
+      ],
+      "height": 708,
+      "y_min": 1,
+      "notes": "Observed impression, measured row 0, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "G": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1644,
+        2199,
+        1764,
+        2323
+      ],
+      "height": 732,
+      "y_min": -55,
+      "notes": "Observed impression, measured row 3, sort 8. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "H": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        821,
+        1223,
+        1015,
+        1470
+      ],
+      "height": 885,
+      "y_min": 3,
+      "notes": "Observed impression, measured row 1, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "I": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1106,
+        761,
+        1200,
+        990
+      ],
+      "height": 705,
+      "y_min": 4,
+      "notes": "Observed impression, measured row 0, sort 2. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "J": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        2196,
+        3567,
+        2229,
+        3640
+      ],
+      "height": 827,
+      "y_min": -183,
+      "notes": "Observed impression, measured row 7, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "K": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1313,
+        1748,
+        1482,
+        1911
+      ],
+      "height": 721,
+      "y_min": -12,
+      "notes": "Observed impression, measured row 2, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "L": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1285,
+        1273,
+        1463,
+        1471
+      ],
+      "height": 710,
+      "y_min": -1,
+      "notes": "Observed impression, measured row 1, sort 2. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "M": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        2639,
+        770,
+        2906,
+        1000
+      ],
+      "height": 708,
+      "y_min": -27,
+      "notes": "Observed impression, measured row 0, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "N": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        2148,
+        765,
+        2378,
+        995
+      ],
+      "height": 708,
+      "y_min": -12,
+      "notes": "Observed impression, measured row 0, sort 7. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "O": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1048,
+        1271,
+        1248,
+        1473
+      ],
+      "height": 724,
+      "y_min": -8,
+      "notes": "Observed impression, measured row 1, sort 1. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "P": {
+      "file": "reference/ryan-104.png",
+      "box": [
+        475,
+        1493,
+        679,
+        1736
+      ],
+      "height": 715,
+      "y_min": -16,
+      "notes": "Observed impression, measured row 9, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "R": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1232,
+        763,
+        1468,
+        1059
+      ],
+      "height": 911,
+      "y_min": -209,
+      "notes": "Observed impression, measured row 0, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "S": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        644,
+        1745,
+        769,
+        1911
+      ],
+      "height": 735,
+      "y_min": -12,
+      "notes": "Observed impression, measured row 2, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "T": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        784,
+        1746,
+        950,
+        1908
+      ],
+      "height": 717,
+      "y_min": 1,
+      "notes": "Observed impression, measured row 2, sort 1. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "U": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        2366,
+        2203,
+        2486,
+        2324
+      ],
+      "height": 714,
+      "y_min": -61,
+      "notes": "Observed impression, measured row 3, sort 13. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "V": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        911,
+        3549,
+        992,
+        3626
+      ],
+      "height": 703,
+      "y_min": 3,
+      "notes": "Observed impression, measured row 6, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "W": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1576,
+        2827,
+        1739,
+        2926
+      ],
+      "height": 701,
+      "y_min": -47,
+      "notes": "Observed impression, measured row 8, sort 8. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "Y": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1447,
+        1274,
+        1654,
+        1472
+      ],
+      "height": 710,
+      "y_min": -4,
+      "notes": "Observed impression, measured row 1, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "♠": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        2894,
+        2462,
+        2961,
+        2507
+      ],
+      "height": 265,
+      "y_min": 158,
+      "notes": "Observed impression, measured row 4, sort 18. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "♣": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1515,
+        1797,
+        1587,
+        1861
+      ],
+      "height": 283,
+      "y_min": 209,
+      "notes": "Observed impression, measured row 2, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "♥": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1528,
+        843,
+        1605,
+        937
+      ],
+      "height": 289,
+      "y_min": 167,
+      "notes": "Observed impression, measured row 0, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "♦": {
+      "file": "reference/atf-crusader-full.png",
+      "box": [
+        1686,
+        1329,
+        1750,
+        1416
+      ],
+      "height": 312,
+      "y_min": 196,
+      "notes": "Observed impression, measured row 1, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    }
+  }
+}

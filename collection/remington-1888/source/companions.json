@@ -1,0 +1,252 @@
+{
+  "glyphs": {
+    " ": {
+      "path": "",
+      "advance_width": 600,
+      "notes": "Word space adapted for digital setting."
+    },
+    ";": {
+      "path": "M266 -110C331 -70 351 -20 347 44C343 110 252 110 253 43C253 4 292 -8 314 9C312 -27 297 -65 254 -90ZM343 415C343 438 324 457 301 457C278 457 259 438 259 415C259 392 278 373 301 373C324 373 343 392 343 415Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "!": {
+      "path": "M252 700 272 170H329L348 700ZM342 40C342 63 323 82 300 82C277 82 258 63 258 40C258 17 277 -2 300 -2C323 -2 342 17 342 40Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "?": {
+      "path": "M118 558C118 542 129 531 156 519C185 503 237 521 240 558C243 589 222 609 188 597C188 643 233 683 294 683C352 683 390 636 390 568C390 528 367 501 324 462C247 389 221 325 238 178H286C286 301 303 362 353 395C418 437 483 476 483 563C483 655 405 720 295 720C193 720 113 664 118 558ZM304 40C304 63 285 82 262 82C238 82 220 63 220 40C220 17 238 -2 262 -2C285 -2 304 17 304 40Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "_": {
+      "path": "M50 -145H550V-103H50V-145Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "+": {
+      "path": "M78 335V290H278V90H323V290H523V335H323V535H278V335Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "=": {
+      "path": "M75 225H525V270H75ZM75 405H525V450H75Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "/": {
+      "path": "M135 -90H180L465 740H420L135 -90Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "\\": {
+      "path": "M135 740 420 -90H465L180 740H135Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "|": {
+      "path": "M278 -150H323V750H278V-150Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "(": {
+      "path": "M392 790C228 630 186 472 186 320C186 132 242 -24 392 -160L414 -139C294 31 273 171 273 320C273 465 294 614 414 769Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ")": {
+      "path": "M208 790 186 769C306 614 327 465 327 320C327 171 306 31 186 -139L208 -160C358 -24 414 132 414 320C414 472 372 630 208 790Z",
+      "advance_width": 600,
+      "notes": "New companion drawing; no historical impression claimed."
+    },
+    "[": {
+      "path": "M188 -150H413V-115H273V745H413V780H188Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "]": {
+      "path": "M413 -150V780H188V745H328V-115H188V-150Z",
+      "advance_width": 600,
+      "notes": "New companion drawing; no historical impression claimed."
+    },
+    "{": {
+      "path": "M423 780C264 780 266 661 268 556C268 545 268 534 268 524V420C268 373 233 341 178 330V295C233 283 268 253 268 208V108C268 98 268 87 268 76C266 -31 264 -150 423 -150V-119C343 -112 344 -24 345 78C345 89 345 100 345 112V220C345 268 311 300 265 312C311 326 345 358 345 407V520C345 531 345 543 345 554C344 654 343 743 423 749Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "}": {
+      "path": "M178 780V749C258 743 257 654 256 554C256 543 256 531 256 520V407C256 358 290 326 336 312C290 300 256 268 256 220V112C256 100 256 89 256 78C257 -24 258 -112 178 -119V-150C337 -150 335 -31 333 76C333 87 333 98 333 108V208C333 253 368 283 423 295V330C368 341 333 373 333 420V524C333 534 333 545 333 556C335 661 337 780 178 780Z",
+      "advance_width": 600,
+      "notes": "New companion drawing; no historical impression claimed."
+    },
+    "<": {
+      "path": "M518 590 83 337V288L518 35V93L143 312L518 532Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ">": {
+      "path": "M83 590V532L458 312L83 93V35L518 288V337Z",
+      "advance_width": 600,
+      "notes": "New companion drawing; no historical impression claimed."
+    },
+    "^": {
+      "path": "M93 490H154L300 678L446 490H507L323 735H277Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "`": {
+      "path": "M194 800 366 635H406L287 800H194Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "~": {
+      "path": "M73 290 100 272C138 372 199 358 293 310C389 260 477 264 527 390L496 410C438 322 399 321 301 364C202 408 132 417 73 290Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "'": {
+      "path": "M259 700 279 465H322L342 700H259Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "*": {
+      "path": "M270 710 288 549 140 615 118 559 272 512 146 405 185 358 300 485 415 358 454 405 328 512 482 559 460 615 312 549 330 710Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "#": {
+      "path": "M213 700 181 492H91V450H174L144 254H58V212H137L105 0H146L178 212H349L317 0H358L390 212H511V254H397L427 450H543V492H434L466 700H425L393 492H222L254 700ZM215 450H386L356 254H185Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "%": {
+      "path": "M441 290C371 290 333 225 333 140C333 55 371 -10 441 -10C512 -10 550 55 550 140C550 225 512 290 441 290ZM159 710C88 710 50 645 50 560C50 475 88 410 159 410C229 410 267 475 267 560C267 645 229 710 159 710ZM67 0H106L537 720H499ZM441 258C474 258 489 210 489 140C489 70 474 22 441 22C409 22 394 70 394 140C394 210 409 258 441 258ZM159 678C191 678 206 630 206 560C206 490 191 442 159 442C126 442 111 490 111 560C111 630 126 678 159 678Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "@": {
+      "path": "M455 165 428 154C427 164 427 178 429 196L468 498H419L413 456C402 489 382 511 347 511C278 511 218 401 213 275C208 180 238 115 300 115C337 115 366 141 395 203C392 180 391 158 393 141L390 140C393 95 430 75 468 109C517 153 550 264 550 379C550 575 449 721 309 721C148 721 50 549 50 318C50 73 163 -78 325 -78C393 -78 455 -46 506 5L488 37C442 -6 387 -33 325 -33C188 -33 90 95 90 318C90 524 168 675 306 675C419 675 499 565 511 389C518 301 504 213 459 156C456 152 453 148 450 146C452 152 453 158 455 165ZM345 466C379 466 397 420 389 336C380 249 347 162 304 162C275 162 260 207 265 285C269 373 303 466 345 466Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "–": {
+      "path": "M50 290H550V335H50V290Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "—": {
+      "path": "M50 290H550V335H50V290Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "”": {
+      "path": "M176 490C241 530 261 580 257 644C253 710 162 710 163 643C163 604 202 592 224 609C222 573 207 535 164 510ZM356 490C421 530 441 580 437 644C433 710 342 710 343 643C343 604 382 592 404 609C402 573 387 535 344 510Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "“": {
+      "path": "M244 710C179 670 159 620 163 556C167 490 258 490 257 557C257 596 218 608 196 591C198 627 213 665 256 690ZM424 710C359 670 339 620 343 556C347 490 438 490 437 557C437 596 398 608 376 591C378 627 393 665 436 690Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "•": {
+      "path": "M385 340C385 387 347 425 300 425C253 425 215 387 215 340C215 293 253 255 300 255C347 255 385 293 385 340Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "…": {
+      "path": "M152 40C152 63 133 82 110 82C87 82 68 63 68 40C68 17 87 -2 110 -2C133 -2 152 17 152 40ZM342 40C342 63 323 82 300 82C277 82 258 63 258 40C258 17 277 -2 300 -2C323 -2 342 17 342 40ZM532 40C532 63 513 82 490 82C467 82 448 63 448 40C448 17 467 -2 490 -2C513 -2 532 17 532 40Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "E": {
+      "path": "M63 660H115V40H63V0H537V160H497V40H187V330H447V374H187V660H497V530H537V700H63Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "F": {
+      "path": "M63 660H115V40H63V0H283V40H187V330H447V374H187V660H497V530H537V700H63Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "K": {
+      "path": "M50 660H98V40H50V0H254V40H165V222L243 333L426 33H377V0H550V33H508L292 391L487 667H532V700H372V667H427L165 300V660H254V700H50Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "O": {
+      "path": "M252 691C159 668 126 636 86 529C-9 282 103 0 298 0C448 0 550 150 548 371C546 602 422 737 252 691ZM398 600C546 484 504 148 335 89C187 39 70 298 145 502C191 622 310 669 398 600Z",
+      "advance_width": 600,
+      "notes": "Inferred from observed 0; not an independently evidenced historical sort."
+    },
+    "Q": {
+      "path": "M247 691C156 668 123 636 84 529C-10 282 101 0 293 0C318 0 342 4 365 13C408 -61 461 -134 525 -155L550 -100C496 -87 440 -38 396 28C485 81 540 207 539 371C537 602 415 737 247 691ZM391 600C529 491 500 185 356 102C349 117 343 133 338 150L311 110C315 103 319 95 323 87C180 46 69 301 142 502C187 622 304 669 391 600Z",
+      "advance_width": 600,
+      "notes": "Inferred from observed O; not an independently evidenced historical sort."
+    },
+    "U": {
+      "path": "M50 700V660H121V196C121 58 183 -10 303 -10C424 -10 494 50 494 200V660H550V700H364V660H423V206C423 88 391 31 307 31C226 31 195 92 195 202V660H251V700Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "V": {
+      "path": "M50 700V660H96L264 0H332L505 660H550V700H391V660H451L315 112L187 660H246V700Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "W": {
+      "path": "M50 700V660H93L179 0H246L304 331L376 0H443L517 660H550V700H435V660H473L415 110L321 660H356V700H210V660H238L282 430L227 111L155 660H196V700Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "X": {
+      "path": "M52 700V660H91L249 357L91 40H50V0H219V40H159L283 293L408 40H347V0H550V40H497L340 347L499 660H545V700H380V660H429L307 413L198 660H247V700Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "Y": {
+      "path": "M50 700V660H112L276 330V40H207V0H410V40H344V329L498 660H550V700H386V660H435L310 386L195 660H241V700Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "Z": {
+      "path": "M84 700V554H120C123 601 125 658 169 658H407L69 50V0H531V155H493C488 91 483 42 444 42H180L516 649V700Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "j": {
+      "path": "M260 431H329V-67C329 -141 271 -176 214 -129L189 -166C275 -234 399 -168 399 -64V467H260ZM411 628C411 654 390 675 364 675C338 675 317 654 317 628C317 602 338 581 364 581C390 581 411 602 411 628Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "3": {
+      "path": "M108 581 163 558C197 622 241 664 313 664C384 664 421 615 421 543C421 451 369 392 285 392H235V346H288C377 346 433 290 433 194C433 100 382 36 294 36C218 36 167 81 133 156L84 136C118 39 198 -10 298 -10C428 -10 516 73 516 194C516 292 455 354 368 379C446 404 502 459 502 549C502 640 428 709 310 709C212 709 149 674 108 581Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "4": {
+      "path": "M348 700 83 243V195H356V40H296V0H490V40H429V195H517V240H429V700ZM147 240 356 586V240Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "5": {
+      "path": "M134 700 102 342 155 327C192 374 238 405 302 405C379 405 426 336 426 224C426 102 375 35 293 35C221 35 172 78 138 142L94 115C131 35 204 -10 293 -10C424 -10 506 86 506 229C506 365 434 465 313 465C252 465 206 446 168 407L185 642H483V700Z",
+      "advance_width": 600,
+      "notes": "Inferred form, drawn to match the observed stems and terminals."
+    },
+    "9": {
+      "path": "M383 26C584 122 608 580 418 674C175 794 -67 474 116 276C139 251 153 236 171 227C197 214 232 217 320 224C399 232 464 232 464 228C464 224 455 196 442 168C383 28 149 22 149 160C149 206 85 212 68 168C24 44 225 -47 383 26ZM153 354C63 460 172 638 325 638C377 638 464 528 464 464C464 300 259 226 153 354Z",
+      "advance_width": 600,
+      "notes": "Inferred from observed 6; not an independently evidenced historical sort."
+    },
+    "$": {
+      "path": "M234 699C166 688 103 609 103 534C103 456 158 399 284 342V101C251 107 217 126 185 156C105 233 85 228 85 126C85 22 114 -15 160 26C189 53 194 53 236 26C251 16 268 9 284 5V-80H316V0C415 -4 515 80 515 194C515 289 465 350 327 425C323 427 320 429 316 431V611C341 601 366 584 388 559C436 504 457 505 472 561C491 640 466 700 418 688C397 682 354 684 325 691C322 692 319 693 316 693V790H284V698C265 700 246 701 234 699ZM316 100V327C415 274 443 204 393 140C373 115 346 102 316 100ZM284 449C213 489 201 505 196 547C191 603 233 628 284 620V449Z",
+      "advance_width": 600,
+      "notes": "Inferred from observed S; not an independently evidenced historical sort."
+    }
+  },
+  "aliases": {
+    " ": " "
+  }
+}

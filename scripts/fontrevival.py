@@ -194,6 +194,13 @@ def to_truetype(otf):
                       underlinePosition=old_post.underlinePosition,
                       underlineThickness=old_post.underlineThickness,
                       isFixedPitch=old_post.isFixedPitch)
+    # Quadratic control points can extend beyond the cubic curve's tight bounds.
+    # Windows clipping limits must cover the bounds written to the TTF head too.
+    for glyph in glyphs.values():
+        glyph.recalcBounds(font['glyf'])
+        if glyph.numberOfContours:
+            font['OS/2'].usWinAscent = max(font['OS/2'].usWinAscent, glyph.yMax)
+            font['OS/2'].usWinDescent = max(font['OS/2'].usWinDescent, -glyph.yMin)
     return font
 
 
@@ -274,9 +281,12 @@ def source_review(path, m):
     manifest = path / "source" / "tracing.json"
     if not manifest.exists():
         return
-    entries = json.loads(manifest.read_text())["glyphs"]
+    recipe = json.loads(manifest.read_text())
+    entries = recipe["glyphs"]
     drawings = json.loads((path / "source" / "companions.json").read_text())["glyphs"]
-    chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789&$"
+    capitals_only = m.get("character_style") == "capitals-only"
+    chars = recipe.get("review_characters", "ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
+                       ("" if capitals_only else "abcdefghijklmnopqrstuvwxyz") + "0123456789&$")
     fontname = m["id"] + "-source-review"
     register_pdf_font(fontname, path / "fonts" / f'{m["postscript_name"]}.ttf')
     c = canvas.Canvas(str(path / "specimens" / "source-review.pdf"), pagesize=(842, 595), invariant=1)
@@ -308,7 +318,8 @@ def source_review(path, m):
         c.showPage()
     c.setFont("Helvetica", 14)
     c.drawString(36, 555, m["name"] + " / Words and spacing")
-    lines = [m["sample_text"], "AVATAR WAVY TYPE", "BANK QUARTZ 0123456789", "Mixed case maps to capitals."]
+    lines = recipe.get("review_words", [m["sample_text"], "AVATAR WAVY TYPE", "BANK QUARTZ 0123456789",
+                                       "Mixed case maps to capitals." if capitals_only else "Quick jigs, waltzes & rhythms."])
     for size, y, line in zip((64, 36, 24, 16), (430, 320, 225, 145), lines):
         c.setFont("Helvetica", 9)
         c.drawString(36, y+65, f"{size} pt maximum")
@@ -417,7 +428,7 @@ def catalog_outputs():
         links = " ".join(f'<a download href="{base}/{folder}/{m["postscript_name"]}.{ext}">{ext.upper()} <span aria-hidden="true">↗</span></a>'
                          for folder, ext in [("fonts", "otf"), ("fonts", "ttf"), ("web", "woff2")])
         cards.append(f'''<article class="font-card" id="{m["id"]}">
-  <div class="card-meta"><span>{e["year"]} / {e["foundry"]}</span><span>0{len(entries)}</span></div>
+  <div class="card-meta"><span>{e["year"]} / {e["foundry"]}</span><span>{len(entries):02d}</span></div>
   <h2 style="font-family:'{m["id"]}',serif">{e["name"]}</h2>
   <p class="description">{e["description"]}</p>
   <div class="type-sample" style="font-family:'{m["id"]}',serif" data-default="{e["sample_text"]}">{e["sample_text"]}</div>

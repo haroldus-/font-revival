@@ -58,14 +58,24 @@ def clean_crop(image, entry):
     crop = ImageOps.expand(crop, border=4, fill=255)
     crop = crop.filter(ImageFilter.GaussianBlur(entry.get('blur', 0.55)))
     mask = crop.point(lambda p: 0 if p < entry.get('threshold', 135) else 255)
+    erosion = entry.get('ink_erosion', 0)
+    if erosion:
+        mask = mask.filter(ImageFilter.MaxFilter(2 * erosion + 1))
     ink = components(mask, 0)
     if not ink:
         raise ValueError('No ink in crop: ' + str(entry['box']))
-    # These manifests select connected letters, not detached punctuation.
-    largest = max(ink, key=len)
+    # The default preserves earlier connected-letter recipes. Dots, ornamental
+    # islands and Hades's broken outlines need explicitly retained components.
+    if 'component_min_area' in entry:
+        selected = [part for part in ink if len(part) >= entry['component_min_area']]
+    else:
+        selected = sorted(ink, key=len, reverse=True)[:entry.get('keep_components', 1)]
+    if not selected:
+        raise ValueError('No components survive crop cleanup: ' + str(entry['box']))
     clean = Image.new('L', mask.size, 255)
-    for point in largest:
-        clean.putpixel(point, 0)
+    for part in selected:
+        for point in part:
+            clean.putpixel(point, 0)
     for component in components(clean, 255):
         if len(component) <= entry.get('fill_holes', 8):
             for point in component:
@@ -93,26 +103,37 @@ def trace(image, entry, potrace):
     scale = entry['height'] / (y1-y0)
     left, right = entry.get('bearings', [45, 45])
     sx = scale * entry.get('width_scale', 1)
+    advance = entry.get('advance_width', round((x1-x0)*sx+left+right))
+    if entry.get('center', False):
+        left = (advance - (x1-x0)*sx) / 2
     out = SVGPathPen(None)
     rec.replay(TransformPen(RoundingPen(out),
                            (sx, 0, 0, scale, left-x0*sx, entry.get('y_min', 0)-y0*scale)))
-    return {'path': out.getCommands(), 'advance_width': round((x1-x0)*sx+left+right)}
+    return {'path': out.getCommands(), 'advance_width': advance}
 
 
 def glyph_name(character):
     return UV2AGL.get(ord(character), f'uni{ord(character):04X}')
 
 
-def assemble(family, drawings, aliases, output, features=''):
+def assemble(family, drawings, aliases, output, features='', metrics=None):
     """Make a complete static CFF OTF for the standard import command."""
     m = fontrevival.metadata(family)
+    settings = metrics or {}
     cmap = {ord(ch): glyph_name(ch) for ch in drawings}
     for ch, target in aliases.items():
         cmap[ord(ch)] = glyph_name(target)
     missing = set(range(32, 127)) - cmap.keys()
     if missing:
         raise ValueError('Missing Basic Latin: ' + ''.join(chr(cp) for cp in sorted(missing)))
-    notdef = {'advance_width': 600, 'path': 'M60 0H540V700H60Z M100 40V660H500V40Z'}
+    fixed_width = None
+    if settings.get('monospaced'):
+        widths = {data['advance_width'] for data in drawings.values()}
+        if len(widths) != 1:
+            raise ValueError('Monospaced drawings must have one advance width.')
+        fixed_width = widths.pop()
+    notdef = {'advance_width': fixed_width if fixed_width is not None else 600,
+              'path': 'M60 0H540V700H60Z M100 40V660H500V40Z'}
     named = {'.notdef': notdef} | {glyph_name(ch): data for ch, data in drawings.items()}
     order = list(named)
     charstrings, metrics = {}, {}
@@ -123,7 +144,7 @@ def assemble(family, drawings, aliases, output, features=''):
         bounds = BoundsPen(None)
         parse_path(data['path'], bounds)
         metrics[name] = (data['advance_width'], round(bounds.bounds[0]) if bounds.bounds else 0)
-    fb = FontBuilder(1000, isTTF=False)
+    fb = FontBuilder(settings.get('units_per_em', 1000), isTTF=False)
     fb.setupGlyphOrder(order)
     fb.setupCharacterMap(cmap)
     fb.setupCFF(m['postscript_name'], {'FullName': m['name'], 'FamilyName': m['name'], 'Weight': 'Regular'}, charstrings, {})
@@ -131,9 +152,13 @@ def assemble(family, drawings, aliases, output, features=''):
     fb.setupHorizontalHeader(ascent=850, descent=-200, lineGap=100)
     fb.setupNameTable({'familyName': m['name'], 'styleName': 'Regular', 'psName': m['postscript_name']})
     fb.setupOS2(sTypoAscender=850, sTypoDescender=-200, sTypoLineGap=100,
-                usWinAscent=900, usWinDescent=220, sxHeight=700, sCapHeight=700,
+                usWinAscent=settings.get('win_ascent', 900),
+                usWinDescent=settings.get('win_descent', 220),
+                sxHeight=settings.get('x_height', 700), sCapHeight=settings.get('cap_height', 700),
                 usWeightClass=400, usWidthClass=5, fsType=0)
-    fb.setupPost()
+    fb.setupPost(isFixedPitch=int(settings.get('monospaced', False)))
+    if settings.get('monospaced'):
+        fb.font['CFF '].cff.topDictIndex[0].isFixedPitch = True
     if features:
         addOpenTypeFeaturesFromString(fb.font, features)
     fontrevival.normalize(fb.font, m)
@@ -164,7 +189,7 @@ def prepare(family, output, potrace):
             drawings[ch] = entry
     features_path = family/'source/features.fea'
     features = features_path.read_text() if features_path.exists() else ''
-    assemble(family, drawings, companions['aliases'], output, features)
+    assemble(family, drawings, companions['aliases'], output, features, manifest.get('font_metrics'))
     # The audit JSON is disposable output, not a second authoritative master.
     fontrevival.write_json(output.with_suffix('.paths.json'), drawings)
     print(f'Prepared {output}; import it with scripts/fontrevival.py import {family.name} {output}')

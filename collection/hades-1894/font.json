@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "hades-1894",
+  "name": "Hades 1894",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "Hades1894-Regular",
+  "year": 1894,
+  "designer": "Unidentified in the consulted primary specimens",
+  "foundry": "Central Type Foundry, St. Louis",
+  "description": "Open shadow contours for overprinting with Erebus 1894, with matching advances and kerning.",
+  "license": "MIT",
+  "sample_text": "WALNUT GROVES",
+  "observed": "The historical Hades specimens establish the open lower-left shadow construction and its pairing with Erebus. Retained comparison crops show BASKET, HOLDER, WALNUT and GROVES, plus figures 7 and 8. See Erebus 1894 for the underlying observed letterforms.",
+  "reconstructed": "Every outline is a new registered reconstruction: Erebus 1894 shifted 28 units left and down, minus its original silhouette. The offset is an optical interpretation of the historical edge weight, not a measured metal-type registration. Rare sorts follow Erebus’s documented inferences. Advances, character map and kerning match Erebus exactly; lowercase aliases capitals. Place both fonts at the same origin, size, tracking and line height. The source year does not assert a first release.",
+  "sources": [
+    {
+      "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 77",
+      "url": "https://archive.org/details/lateststandardfa00ryan/page/77/mode/1up",
+      "file": "reference/ryan-77.png",
+      "rights": "1894 US publication, beyond the maximum 95-year term. Library of Congress scan; institutional rights statement retained in reference/ryan-rights.json.",
+      "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+    },
+    {
+      "title": "American Type Founders, Collective Specimen Book (1895/96), printed p. 511",
+      "url": "https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-377-hades-series-central-type-foundry-publicdomain.pdf",
+      "file": "reference/atf-hades-full.png",
+      "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
+      "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+    }
+  ],
+  "revival": {
+    "contributors": [
+      "Font Revival contributors"
+    ],
+    "tools": [
+      "Codex",
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0",
+      "skia-pathops 0.9.0"
+    ],
+    "notes": "See source/registration.json, derive.py and METHOD.md. Reproduce the [registration proof](specimens/pairing.pdf) with source/proof.py after building both families."
+  },
+  "character_style": "capitals-only"
+}

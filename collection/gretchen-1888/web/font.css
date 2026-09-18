@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Gretchen 1888";
+  src: url("./Gretchen1888-Regular.woff2") format("woff2"),
+       url("./Gretchen1888-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

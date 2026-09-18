@@ -1,0 +1,950 @@
+{
+  "schema_version": 1,
+  "units_per_em": 1000,
+  "cap_height": 700,
+  "tool": "Potrace 1.16",
+  "font_metrics": {
+    "cap_height": 700,
+    "x_height": 590,
+    "monospaced": false
+  },
+  "glyphs": {
+    "2": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1587,
+        763,
+        1680,
+        1015
+      ],
+      "height": 686,
+      "y_min": -11,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 12. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "3": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1420,
+        1689,
+        1498,
+        1882
+      ],
+      "height": 683,
+      "y_min": -29,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 12. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "4": {
+      "file": "reference/ryan-133.png",
+      "box": [
+        1044,
+        2564,
+        1112,
+        2713
+      ],
+      "height": 673,
+      "y_min": 4,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 14, sort 12. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "5": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1365,
+        2497,
+        1424,
+        2640
+      ],
+      "height": 698,
+      "y_min": -48,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 13. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "6": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1506,
+        2498,
+        1565,
+        2640
+      ],
+      "height": 693,
+      "y_min": -48,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 15. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "7": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1434,
+        2497,
+        1500,
+        2640
+      ],
+      "height": 698,
+      "y_min": -48,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 14. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "8": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1514,
+        1689,
+        1592,
+        1882
+      ],
+      "height": 683,
+      "y_min": -29,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 13. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "9": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1692,
+        764,
+        1787,
+        1015
+      ],
+      "height": 683,
+      "y_min": -11,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 13. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "A": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        847,
+        1679,
+        942,
+        1921
+      ],
+      "height": 857,
+      "y_min": -167,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 6. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "B": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        553,
+        1988,
+        634,
+        2191
+      ],
+      "height": 728,
+      "y_min": -21,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 3, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "C": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1908,
+        2770,
+        1972,
+        2921
+      ],
+      "height": 725,
+      "y_min": -44,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 5, sort 15. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "D": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        612,
+        1140,
+        711,
+        1400
+      ],
+      "height": 708,
+      "y_min": -2,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "E": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        720,
+        1139,
+        804,
+        1399
+      ],
+      "height": 708,
+      "y_min": 0,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 1. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "F": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        373,
+        756,
+        450,
+        1015
+      ],
+      "height": 705,
+      "y_min": -11,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "G": {
+      "file": "reference/ryan-133.png",
+      "box": [
+        324,
+        987,
+        361,
+        1071
+      ],
+      "height": 728,
+      "y_min": -22,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 15, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "H": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1977,
+        2770,
+        2050,
+        2951
+      ],
+      "height": 869,
+      "y_min": -188,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 5, sort 16. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "I": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1290,
+        1140,
+        1344,
+        1399
+      ],
+      "height": 705,
+      "y_min": 0,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 6. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "K": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        965,
+        2770,
+        1038,
+        2921
+      ],
+      "height": 725,
+      "y_min": -44,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 5, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "L": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1844,
+        758,
+        1938,
+        1017
+      ],
+      "height": 705,
+      "y_min": -16,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 14. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "M": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1126,
+        1139,
+        1286,
+        1439
+      ],
+      "height": 817,
+      "y_min": -109,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "N": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1346,
+        1139,
+        1457,
+        1429
+      ],
+      "height": 790,
+      "y_min": -81,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 7. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "O": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1922,
+        1141,
+        2019,
+        1401
+      ],
+      "height": 708,
+      "y_min": -5,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 11. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "P": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1693,
+        1140,
+        1796,
+        1400
+      ],
+      "height": 708,
+      "y_min": -2,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "R": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1013,
+        1140,
+        1124,
+        1441
+      ],
+      "height": 820,
+      "y_min": -114,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "S": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        2344,
+        759,
+        2452,
+        1019
+      ],
+      "height": 708,
+      "y_min": -22,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 19. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "T": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        856,
+        756,
+        973,
+        1016
+      ],
+      "height": 708,
+      "y_min": -14,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "U": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        823,
+        1991,
+        916,
+        2192
+      ],
+      "height": 721,
+      "y_min": -24,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 3, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "V": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        2025,
+        1142,
+        2139,
+        1402
+      ],
+      "height": 708,
+      "y_min": -8,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 12. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "W": {
+      "file": "reference/ryan-133.png",
+      "box": [
+        145,
+        853,
+        205,
+        939
+      ],
+      "height": 745,
+      "y_min": -26,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 11, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "X": {
+      "file": "reference/ryan-133.png",
+      "box": [
+        1457,
+        732,
+        1496,
+        815
+      ],
+      "height": 719,
+      "y_min": -99,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 10, sort 21. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "Y": {
+      "file": "reference/ryan-133.png",
+      "box": [
+        786,
+        2073,
+        858,
+        2231
+      ],
+      "height": 714,
+      "y_min": -19,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 12, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "a": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1173,
+        798,
+        1269,
+        1016
+      ],
+      "height": 594,
+      "y_min": -14,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 8. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "b": {
+      "file": "reference/ryan-133.png",
+      "box": [
+        1249,
+        995,
+        1280,
+        1078
+      ],
+      "height": 719,
+      "y_min": -82,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 15, sort 23. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "c": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        949,
+        1710,
+        1027,
+        1881
+      ],
+      "height": 605,
+      "y_min": -26,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 7. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "d": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        614,
+        756,
+        703,
+        1015
+      ],
+      "height": 705,
+      "y_min": -11,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "e": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1081,
+        798,
+        1166,
+        1016
+      ],
+      "height": 594,
+      "y_min": -14,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 7. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "f": {
+      "file": "reference/ryan-133.png",
+      "box": [
+        834,
+        2313,
+        878,
+        2495
+      ],
+      "height": 835,
+      "y_min": -118,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 13, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "g": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1905,
+        1712,
+        1984,
+        1920
+      ],
+      "height": 736,
+      "y_min": -164,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 17. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "h": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        975,
+        756,
+        1073,
+        1058
+      ],
+      "height": 822,
+      "y_min": -128,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 6. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "i": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1938,
+        755,
+        1990,
+        1017
+      ],
+      "height": 710,
+      "y_min": -10,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 15. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "k": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1843,
+        2490,
+        1907,
+        2640
+      ],
+      "height": 732,
+      "y_min": -48,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 19. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "l": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        666,
+        1678,
+        705,
+        1880
+      ],
+      "height": 715,
+      "y_min": -22,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "m": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        457,
+        2509,
+        533,
+        2667
+      ],
+      "height": 771,
+      "y_min": -180,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 1. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "n": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        2300,
+        1712,
+        2384,
+        1926
+      ],
+      "height": 758,
+      "y_min": -185,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 21. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "o": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        453,
+        798,
+        530,
+        1015
+      ],
+      "height": 591,
+      "y_min": -11,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 1. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "p": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1197,
+        1710,
+        1274,
+        1918
+      ],
+      "height": 736,
+      "y_min": -157,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 10. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "r": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        539,
+        798,
+        609,
+        1016
+      ],
+      "height": 594,
+      "y_min": -14,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 2. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "s": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        705,
+        799,
+        800,
+        1017
+      ],
+      "height": 594,
+      "y_min": -16,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "t": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1269,
+        757,
+        1348,
+        1016
+      ],
+      "height": 705,
+      "y_min": -14,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "u": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        2466,
+        2513,
+        2529,
+        2640
+      ],
+      "height": 620,
+      "y_min": -48,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 28. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "v": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        1991,
+        800,
+        2088,
+        1018
+      ],
+      "height": 594,
+      "y_min": -19,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 16. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "y": {
+      "file": "reference/atf-grady-full.png",
+      "box": [
+        709,
+        1709,
+        784,
+        1917
+      ],
+      "height": 736,
+      "y_min": -153,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    }
+  }
+}

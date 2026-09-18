@@ -1,0 +1,11 @@
+{
+  "source_family": "erebus-1894",
+  "source_version": "1.000",
+  "offset": [
+    -28,
+    -28
+  ],
+  "operation": "translated silhouette minus original",
+  "units_per_em": 1000,
+  "geometry_tool": "skia-pathops 0.9.0"
+}

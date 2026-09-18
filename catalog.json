@@ -3,6 +3,308 @@
   "families": [
     {
       "schema_version": 1,
+      "id": "crusader-1894",
+      "name": "Crusader 1894",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Crusader1894-Regular",
+      "year": 1894,
+      "designer": "Unidentified in the consulted primary specimens",
+      "foundry": "Dickinson Type Foundery, Boston",
+      "description": "Uncial and Roman display capitals with crossed bowls, curled terminals and asymmetric strokes.",
+      "license": "MIT",
+      "sample_text": "CHARMING CONCERT",
+      "observed": "Directly sampled alphabet and figures: ABCDEFGHIJKLMNOPRSTUVWY0123456789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+      "reconstructed": "Inferred alphabet/figures: QXZ. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. The year identifies the specimen, not a claimed first release.",
+      "sources": [
+        {
+          "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 104",
+          "url": "https://archive.org/details/lateststandardfa00ryan/page/104/mode/1up",
+          "file": "reference/ryan-104.png",
+          "rights": "1894 US publication, beyond the maximum 95-year term. Library of Congress scan; institutional rights statement retained in reference/ryan-rights.json.",
+          "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+        },
+        {
+          "title": "American Type Founders, Collective Specimen Book (1895/96), printed p. 454",
+          "url": "https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-317-crusader-series-dickinson-type-foundery-publicdomain.pdf",
+          "file": "reference/atf-crusader-full.png",
+          "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
+          "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+        }
+      ],
+      "revival": {
+        "contributors": [
+          "Font Revival contributors"
+        ],
+        "tools": [
+          "Codex",
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0",
+          "skia-pathops 0.9.0"
+        ],
+        "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+      },
+      "character_style": "capitals-only",
+      "characters": 108,
+      "glyphs": 82
+    },
+    {
+      "schema_version": 1,
+      "id": "erebus-1894",
+      "name": "Erebus 1894",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Erebus1894-Regular",
+      "year": 1894,
+      "designer": "Unidentified in the consulted primary specimens",
+      "foundry": "Central Type Foundry, St. Louis",
+      "description": "Backslanted solid capitals with irregular extended strokes, coordinated with Hades 1894.",
+      "license": "MIT",
+      "sample_text": "WALNUT GROVES",
+      "observed": "Directly sampled alphabet and figures: ABCDEFGHIKLMNOPQRSTUVWXY12356789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+      "reconstructed": "Inferred alphabet/figures: JZ04. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. The year identifies the specimen, not a claimed first release.",
+      "sources": [
+        {
+          "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 76",
+          "url": "https://archive.org/details/lateststandardfa00ryan/page/76/mode/1up",
+          "file": "reference/ryan-76.png",
+          "rights": "1894 US publication, beyond the maximum 95-year term. Library of Congress scan; institutional rights statement retained in reference/ryan-rights.json.",
+          "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+        },
+        {
+          "title": "American Type Founders, Collective Specimen Book (1895/96), printed p. 510",
+          "url": "https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-376-erebus-series-central-type-foundry-publicdomain.pdf",
+          "file": "reference/atf-erebus-full.png",
+          "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
+          "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+        }
+      ],
+      "revival": {
+        "contributors": [
+          "Font Revival contributors"
+        ],
+        "tools": [
+          "Codex",
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0",
+          "skia-pathops 0.9.0"
+        ],
+        "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+      },
+      "character_style": "capitals-only",
+      "characters": 104,
+      "glyphs": 78
+    },
+    {
+      "schema_version": 1,
+      "id": "grady-1894",
+      "name": "Grady 1894",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Grady1894-Regular",
+      "year": 1894,
+      "designer": "Unidentified in the consulted primary specimens",
+      "foundry": "Dickinson Type Foundery, Boston",
+      "description": "Narrow, dark display letters with angular counters, curled terminals and true lowercase.",
+      "license": "MIT",
+      "sample_text": "Summer Festivities",
+      "observed": "Directly sampled alphabet and figures: ABCDEFGHIKLMNOPRSTUVWXYabcdefghiklmnoprstuvy23456789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+      "reconstructed": "Inferred alphabet/figures: JQZjqwxz01. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Uppercase and lowercase are distinct. The year identifies the specimen, not a claimed first release.",
+      "sources": [
+        {
+          "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 133",
+          "url": "https://archive.org/details/lateststandardfa00ryan/page/133/mode/1up",
+          "file": "reference/ryan-133.png",
+          "rights": "1894 US publication, beyond the maximum 95-year term. Library of Congress scan; institutional rights statement retained in reference/ryan-rights.json.",
+          "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+        },
+        {
+          "title": "American Type Founders, Collective Specimen Book (1895/96), printed p. 463",
+          "url": "https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-326-grady-series-dickinson-type-foundery-publicdomain.pdf",
+          "file": "reference/atf-grady-full.png",
+          "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
+          "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+        }
+      ],
+      "revival": {
+        "contributors": [
+          "Font Revival contributors"
+        ],
+        "tools": [
+          "Codex",
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0",
+          "skia-pathops 0.9.0"
+        ],
+        "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+      },
+      "character_style": "mixed-case",
+      "characters": 104,
+      "glyphs": 104
+    },
+    {
+      "schema_version": 1,
+      "id": "gretchen-1888",
+      "name": "Gretchen 1888",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Gretchen1888-Regular",
+      "year": 1888,
+      "designer": "Unidentified in the consulted primary specimens",
+      "foundry": "Lindsay Type Foundry, New York",
+      "description": "Ornamental mixed-case letters with looping terminals and long descending strokes.",
+      "license": "MIT",
+      "sample_text": "Flirtation Walk",
+      "observed": "Directly sampled alphabet and figures: ABCDEFGHILMNOPRSTUVWYabcdefghiklmnoprstuvxy1345678. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+      "reconstructed": "Inferred alphabet/figures: JKQXZjqwz029. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Uppercase and lowercase are distinct. The year identifies the specimen, not a claimed first release.",
+      "sources": [
+        {
+          "title": "The Inland Printer, vol. 6, no. 2 (November 1888), printed p. 140",
+          "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/n51/mode/1up",
+          "file": "reference/printer-140.png",
+          "rights": "1888 US journal, public domain under the maximum 95-year term. Faithful microfilm scan; issue and provenance retained in reference/printer-metadata.json.",
+          "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+        },
+        {
+          "title": "Lindsay Type Foundry, Specimen of Printing Types (1890), Gretchen sheet; JP2 member 0185, rotated clockwise 90 degrees",
+          "url": "https://archive.org/details/specimenofprinti00lind",
+          "file": "reference/lindsay-gretchen.png",
+          "rights": "Nineteenth-century US publication, beyond the maximum 95-year term. Library of Congress scan; institutional metadata retained with the reference.",
+          "rights_url": "https://archive.org/metadata/specimenofprinti00lind"
+        }
+      ],
+      "revival": {
+        "contributors": [
+          "Font Revival contributors"
+        ],
+        "tools": [
+          "Codex",
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0",
+          "skia-pathops 0.9.0"
+        ],
+        "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+      },
+      "character_style": "mixed-case",
+      "characters": 104,
+      "glyphs": 104
+    },
+    {
+      "schema_version": 1,
+      "id": "hades-1894",
+      "name": "Hades 1894",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Hades1894-Regular",
+      "year": 1894,
+      "designer": "Unidentified in the consulted primary specimens",
+      "foundry": "Central Type Foundry, St. Louis",
+      "description": "Open shadow contours for overprinting with Erebus 1894, with matching advances and kerning.",
+      "license": "MIT",
+      "sample_text": "WALNUT GROVES",
+      "observed": "The historical Hades specimens establish the open lower-left shadow construction and its pairing with Erebus. Retained comparison crops show BASKET, HOLDER, WALNUT and GROVES, plus figures 7 and 8. See Erebus 1894 for the underlying observed letterforms.",
+      "reconstructed": "Every outline is a new registered reconstruction: Erebus 1894 shifted 28 units left and down, minus its original silhouette. The offset is an optical interpretation of the historical edge weight, not a measured metal-type registration. Rare sorts follow Erebus’s documented inferences. Advances, character map and kerning match Erebus exactly; lowercase aliases capitals. Place both fonts at the same origin, size, tracking and line height. The source year does not assert a first release.",
+      "sources": [
+        {
+          "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 77",
+          "url": "https://archive.org/details/lateststandardfa00ryan/page/77/mode/1up",
+          "file": "reference/ryan-77.png",
+          "rights": "1894 US publication, beyond the maximum 95-year term. Library of Congress scan; institutional rights statement retained in reference/ryan-rights.json.",
+          "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+        },
+        {
+          "title": "American Type Founders, Collective Specimen Book (1895/96), printed p. 511",
+          "url": "https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-377-hades-series-central-type-foundry-publicdomain.pdf",
+          "file": "reference/atf-hades-full.png",
+          "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
+          "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+        }
+      ],
+      "revival": {
+        "contributors": [
+          "Font Revival contributors"
+        ],
+        "tools": [
+          "Codex",
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0",
+          "skia-pathops 0.9.0"
+        ],
+        "notes": "See source/registration.json, derive.py and METHOD.md. Reproduce the [registration proof](specimens/pairing.pdf) with source/proof.py after building both families."
+      },
+      "character_style": "capitals-only",
+      "characters": 104,
+      "glyphs": 78
+    },
+    {
+      "schema_version": 1,
+      "id": "jagged-1888",
+      "name": "Jagged 1888",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Jagged1888-Regular",
+      "year": 1888,
+      "designer": "Unidentified in the consulted primary specimens",
+      "foundry": "Dickinson Type Foundery, Boston",
+      "description": "Angular, lightly drawn display capitals following the historical No. 39 cut.",
+      "license": "MIT",
+      "sample_text": "PHILOSOPHY GRADE",
+      "observed": "Directly sampled alphabet and figures: ABCDEGHILMNOPQRSTUWY24568. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+      "reconstructed": "Inferred alphabet/figures: FJKVXZ01379. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. No. 39 only; Nos. 40 and 41 are separate cuts. The year identifies the specimen, not a claimed first release.",
+      "sources": [
+        {
+          "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 121",
+          "url": "https://archive.org/details/lateststandardfa00ryan/page/121/mode/1up",
+          "file": "reference/ryan-121.png",
+          "rights": "1894 US publication, beyond the maximum 95-year term. Library of Congress scan; institutional rights statement retained in reference/ryan-rights.json.",
+          "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+        },
+        {
+          "title": "American Type Founders, Collective Specimen Book (1895/96), printed p. 345",
+          "url": "https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-227-the-jagged-series-and-the-moxon-series-dickinson-type-foundery-publicdomain.pdf",
+          "file": "reference/atf-jagged-full.png",
+          "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
+          "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+        },
+        {
+          "title": "The Inland Printer, vol. 6, no. 2 (November 1888), printed p. 147",
+          "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/n58/mode/1up",
+          "file": "reference/printer-147.png",
+          "rights": "1888 US journal, public domain under the maximum 95-year term. Faithful microfilm scan; issue and provenance retained in reference/printer-metadata.json.",
+          "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+        },
+        {
+          "title": "American Type Founders, Desk Book of Printing Types (1898), printed p. 493; JP2 member 0487",
+          "url": "https://archive.org/details/deskbookofprinti00amer",
+          "file": "reference/desk-486.png",
+          "rights": "Nineteenth-century US publication, beyond the maximum 95-year term. Library of Congress scan; institutional metadata retained with the reference.",
+          "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+        }
+      ],
+      "revival": {
+        "contributors": [
+          "Font Revival contributors"
+        ],
+        "tools": [
+          "Codex",
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0",
+          "skia-pathops 0.9.0"
+        ],
+        "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+      },
+      "character_style": "capitals-only",
+      "characters": 104,
+      "glyphs": 78
+    },
+    {
+      "schema_version": 1,
       "id": "johnson-1892",
       "name": "Johnson 1892",
       "style": "Regular",
@@ -54,6 +356,54 @@
     },
     {
       "schema_version": 1,
+      "id": "marine-1894",
+      "name": "Marine 1894",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Marine1894-Regular",
+      "year": 1894,
+      "designer": "Unidentified in the consulted primary specimens",
+      "foundry": "Marder, Luse & Co., Chicago",
+      "description": "Rounded mixed-case display letters with crossed bowls and detached square and diamond details.",
+      "license": "MIT",
+      "sample_text": "Dear UNCLE Toby",
+      "observed": "Directly sampled alphabet and figures: ABCDEFGHIJKLMNOPQRSTUWabcdefghilmnoprstuvwyz1234567. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+      "reconstructed": "Inferred alphabet/figures: VXYZjkqx089. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Uppercase and lowercase are distinct. The year identifies the specimen, not a claimed first release.",
+      "sources": [
+        {
+          "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 100",
+          "url": "https://archive.org/details/lateststandardfa00ryan/page/100/mode/1up",
+          "file": "reference/ryan-100.png",
+          "rights": "1894 US publication, beyond the maximum 95-year term. Library of Congress scan; institutional rights statement retained in reference/ryan-rights.json.",
+          "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+        },
+        {
+          "title": "American Type Founders, Collective Specimen Book (1895/96), printed p. 428",
+          "url": "https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-292-marine-series-and-mansfield-series-marder-luse-foundry-publicdomain.pdf",
+          "file": "reference/atf-marine-full.png",
+          "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
+          "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+        }
+      ],
+      "revival": {
+        "contributors": [
+          "Font Revival contributors"
+        ],
+        "tools": [
+          "Codex",
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0",
+          "skia-pathops 0.9.0"
+        ],
+        "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+      },
+      "character_style": "mixed-case",
+      "characters": 104,
+      "glyphs": 104
+    },
+    {
+      "schema_version": 1,
       "id": "nero-1888",
       "name": "Nero 1888",
       "style": "Regular",
@@ -98,6 +448,54 @@
     },
     {
       "schema_version": 1,
+      "id": "oriole-1894",
+      "name": "Oriole 1894",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Oriole1894-Regular",
+      "year": 1894,
+      "designer": "Unidentified in the consulted primary specimens",
+      "foundry": "John Ryan Foundry, Baltimore (specimen seller)",
+      "description": "High-contrast ornamental capitals with incisions, curls and fine detached details.",
+      "license": "MIT",
+      "sample_text": "THE OLD OAK-BUCKET",
+      "observed": "Directly sampled alphabet and figures: ABCDEFGHIKLMNOPRSTUVWY0123456789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+      "reconstructed": "Inferred alphabet/figures: JQXZ. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. The year identifies the specimen, not a claimed first release.",
+      "sources": [
+        {
+          "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 107",
+          "url": "https://archive.org/details/lateststandardfa00ryan/page/107/mode/1up",
+          "file": "reference/ryan-107.png",
+          "rights": "1894 US publication, beyond the maximum 95-year term. Library of Congress scan; institutional rights statement retained in reference/ryan-rights.json.",
+          "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+        },
+        {
+          "title": "American Type Founders, Collective Specimen Book (1895/96), printed p. 506",
+          "url": "https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-372-american-bank-note-series-and-combination-celtic-series-and-monumental-ornamented-series-and-oriole-series-john-ryan-foundry-publicdomain.pdf",
+          "file": "reference/atf-oriole-full.png",
+          "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
+          "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+        }
+      ],
+      "revival": {
+        "contributors": [
+          "Font Revival contributors"
+        ],
+        "tools": [
+          "Codex",
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0",
+          "skia-pathops 0.9.0"
+        ],
+        "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+      },
+      "character_style": "capitals-only",
+      "characters": 104,
+      "glyphs": 78
+    },
+    {
+      "schema_version": 1,
       "id": "quaint-gothic-1894",
       "name": "Quaint Gothic 1894",
       "style": "Regular",
@@ -135,6 +533,47 @@
       "character_style": "capitals-only",
       "characters": 104,
       "glyphs": 78
+    },
+    {
+      "schema_version": 1,
+      "id": "remington-1888",
+      "name": "Remington 1888",
+      "style": "Regular",
+      "version": "1.000",
+      "postscript_name": "Remington1888-Regular",
+      "year": 1888,
+      "designer": "Unidentified in the consulted primary specimens",
+      "foundry": "Barnhart Brothers & Spindler, Chicago",
+      "description": "A monospaced metal-type imitation of typewriting, following the 12-point No. 2 cut.",
+      "license": "MIT",
+      "sample_text": "Paris, Ill., May 6th, 1887.",
+      "observed": "Directly sampled alphabet and figures: ABCDGHIJLMNPRSTabcdefghiklmnopqrstuvwxyz012678. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+      "reconstructed": "Inferred alphabet/figures: EFKOQUVWXYZj3459. Unobserved punctuation and symbols are newly drawn MIT project companions. Fixed-cell spacing and proportion harmonisation are new; there is no kerning. Uppercase and lowercase are distinct. 12-point No. 2 only; the 10-point cut is excluded. The year identifies the specimen, not a claimed first release.",
+      "sources": [
+        {
+          "title": "The Inland Printer, vol. 6, no. 2 (November 1888), printed p. 137",
+          "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/n48/mode/1up",
+          "file": "reference/printer-137.png",
+          "rights": "1888 US journal, public domain under the maximum 95-year term. Faithful microfilm scan; issue and provenance retained in reference/printer-metadata.json.",
+          "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+        }
+      ],
+      "revival": {
+        "contributors": [
+          "Font Revival contributors"
+        ],
+        "tools": [
+          "Codex",
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0",
+          "skia-pathops 0.9.0"
+        ],
+        "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+      },
+      "character_style": "mixed-case",
+      "characters": 104,
+      "glyphs": 104
     },
     {
       "schema_version": 1,

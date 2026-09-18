@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "tool": "Potrace 1.16",
+  "glyphs": {
+    "B": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        351,
+        769,
+        499,
+        1001
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "A": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        511,
+        769,
+        650,
+        1051
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "S": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        635,
+        769,
+        786,
+        1001
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "K": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        783,
+        769,
+        946,
+        1001
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "E": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        946,
+        769,
+        1087,
+        1038
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "T": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        1080,
+        769,
+        1243,
+        1001
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "8": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        1394,
+        769,
+        1544,
+        1001
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "7": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        1542,
+        769,
+        1683,
+        1001
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "H": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        1838,
+        729,
+        2024,
+        1056
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "O": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        2019,
+        769,
+        2172,
+        1001
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "L": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        2169,
+        769,
+        2340,
+        1001
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "D": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        2338,
+        769,
+        2493,
+        1001
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "R": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        2656,
+        769,
+        2829,
+        1004
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "W": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        563,
+        1098,
+        751,
+        1379
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "N": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        1075,
+        1137,
+        1248,
+        1379
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "U": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        1235,
+        1137,
+        1411,
+        1379
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "G": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        1663,
+        1137,
+        1828,
+        1379
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    },
+    "V": {
+      "file": "reference/atf-hades-full.png",
+      "box": [
+        2123,
+        1093,
+        2278,
+        1379
+      ],
+      "height": 700,
+      "bearings": [
+        45,
+        45
+      ],
+      "component_min_area": 5,
+      "notes": "Historical comparison only; registered outlines replace this trace via companions.json. See derive.py and METHOD.md."
+    }
+  },
+  "font_metrics": {
+    "cap_height": 700,
+    "x_height": 700,
+    "win_descent": 300
+  },
+  "review_words": [
+    "WALNUT GROVES",
+    "BASKET HOLDER",
+    "Erebus and Hades 0123456789",
+    "Overlay with identical origin, size and spacing."
+  ]
+}

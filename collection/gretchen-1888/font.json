@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "gretchen-1888",
+  "name": "Gretchen 1888",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "Gretchen1888-Regular",
+  "year": 1888,
+  "designer": "Unidentified in the consulted primary specimens",
+  "foundry": "Lindsay Type Foundry, New York",
+  "description": "Ornamental mixed-case letters with looping terminals and long descending strokes.",
+  "license": "MIT",
+  "sample_text": "Flirtation Walk",
+  "observed": "Directly sampled alphabet and figures: ABCDEFGHILMNOPRSTUVWYabcdefghiklmnoprstuvxy1345678. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+  "reconstructed": "Inferred alphabet/figures: JKQXZjqwz029. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Uppercase and lowercase are distinct. The year identifies the specimen, not a claimed first release.",
+  "sources": [
+    {
+      "title": "The Inland Printer, vol. 6, no. 2 (November 1888), printed p. 140",
+      "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/n51/mode/1up",
+      "file": "reference/printer-140.png",
+      "rights": "1888 US journal, public domain under the maximum 95-year term. Faithful microfilm scan; issue and provenance retained in reference/printer-metadata.json.",
+      "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+    },
+    {
+      "title": "Lindsay Type Foundry, Specimen of Printing Types (1890), Gretchen sheet; JP2 member 0185, rotated clockwise 90 degrees",
+      "url": "https://archive.org/details/specimenofprinti00lind",
+      "file": "reference/lindsay-gretchen.png",
+      "rights": "Nineteenth-century US publication, beyond the maximum 95-year term. Library of Congress scan; institutional metadata retained with the reference.",
+      "rights_url": "https://archive.org/metadata/specimenofprinti00lind"
+    }
+  ],
+  "revival": {
+    "contributors": [
+      "Font Revival contributors"
+    ],
+    "tools": [
+      "Codex",
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0",
+      "skia-pathops 0.9.0"
+    ],
+    "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+  },
+  "character_style": "mixed-case"
+}

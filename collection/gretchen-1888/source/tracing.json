@@ -1,0 +1,1105 @@
+{
+  "schema_version": 1,
+  "units_per_em": 1000,
+  "cap_height": 700,
+  "tool": "Potrace 1.16",
+  "font_metrics": {
+    "cap_height": 700,
+    "x_height": 500,
+    "monospaced": false
+  },
+  "glyphs": {
+    ".": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        2372,
+        2098,
+        2383,
+        2108
+      ],
+      "height": 82,
+      "y_min": -136,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 4, sort 36. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "1": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1672,
+        2181,
+        1685,
+        2264
+      ],
+      "height": 680,
+      "y_min": -34,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 5, sort 7. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "3": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1558,
+        1491,
+        1589,
+        1555
+      ],
+      "height": 685,
+      "y_min": -70,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 9, sort 9. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "4": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1984,
+        3046,
+        2063,
+        3169
+      ],
+      "height": 685,
+      "y_min": -80,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 2, sort 11. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "5": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1512,
+        1492,
+        1543,
+        1555
+      ],
+      "height": 675,
+      "y_min": -70,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 9, sort 8. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "6": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1766,
+        2181,
+        1808,
+        2266
+      ],
+      "height": 696,
+      "y_min": -51,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 5, sort 9. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "7": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1820,
+        2183,
+        1862,
+        2266
+      ],
+      "height": 680,
+      "y_min": -51,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 5, sort 10. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "8": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1910,
+        3044,
+        1971,
+        3169
+      ],
+      "height": 696,
+      "y_min": -80,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 2, sort 10. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "A": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1615,
+        2574,
+        1702,
+        2731
+      ],
+      "height": 857,
+      "y_min": -253,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 9. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "B": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1600,
+        2806,
+        1675,
+        2932
+      ],
+      "height": 688,
+      "y_min": 22,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 16. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "C": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1726,
+        2576,
+        1799,
+        2701
+      ],
+      "height": 683,
+      "y_min": -89,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 10. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "D": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1928,
+        2578,
+        2003,
+        2701
+      ],
+      "height": 672,
+      "y_min": -89,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 12. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "E": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        706,
+        2566,
+        786,
+        2689
+      ],
+      "height": 672,
+      "y_min": -24,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 1. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "F": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        536,
+        2797,
+        612,
+        2920
+      ],
+      "height": 672,
+      "y_min": 87,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 0. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "G": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1438,
+        690,
+        1471,
+        732
+      ],
+      "height": 650,
+      "y_min": -47,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 13, sort 0. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "H": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1563,
+        1850,
+        1611,
+        1959
+      ],
+      "height": 893,
+      "y_min": -233,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 3, sort 7. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "I": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1285,
+        2571,
+        1313,
+        2693
+      ],
+      "height": 666,
+      "y_min": -46,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 6. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "L": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        988,
+        3032,
+        1063,
+        3156
+      ],
+      "height": 691,
+      "y_min": -7,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 2, sort 1. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "M": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        2121,
+        2582,
+        2221,
+        2739
+      ],
+      "height": 857,
+      "y_min": -297,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 14. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "N": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1332,
+        2572,
+        1418,
+        2729
+      ],
+      "height": 857,
+      "y_min": -242,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 7. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "O": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1184,
+        2569,
+        1260,
+        2695
+      ],
+      "height": 688,
+      "y_min": -57,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 5. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "P": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1088,
+        2570,
+        1165,
+        2692
+      ],
+      "height": 666,
+      "y_min": -40,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 4. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "R": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1911,
+        1853,
+        1961,
+        1957
+      ],
+      "height": 852,
+      "y_min": -217,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 3, sort 12. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "S": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        805,
+        2567,
+        884,
+        2692
+      ],
+      "height": 683,
+      "y_min": -40,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 2. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "T": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        901,
+        2567,
+        990,
+        2691
+      ],
+      "height": 677,
+      "y_min": -35,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 3. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "U": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1167,
+        2177,
+        1215,
+        2261
+      ],
+      "height": 688,
+      "y_min": -10,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 5, sort 1. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "V": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1850,
+        515,
+        1883,
+        556
+      ],
+      "height": 634,
+      "y_min": -85,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 14, sort 0. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "W": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        568,
+        2565,
+        683,
+        2689
+      ],
+      "height": 677,
+      "y_min": -24,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 0. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "Y": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        2241,
+        2585,
+        2321,
+        2745
+      ],
+      "height": 874,
+      "y_min": -330,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 0, sort 15. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "a": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        832,
+        2839,
+        889,
+        2923
+      ],
+      "height": 459,
+      "y_min": 71,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 5. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "b": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        2303,
+        695,
+        2328,
+        735
+      ],
+      "height": 619,
+      "y_min": -93,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 15, sort 0. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "c": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        974,
+        1257,
+        1001,
+        1299
+      ],
+      "height": 450,
+      "y_min": -21,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 7, sort 5. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "d": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1484,
+        2015,
+        1522,
+        2099
+      ],
+      "height": 688,
+      "y_min": -62,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 4, sort 20. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "e": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        612,
+        2036,
+        648,
+        2094
+      ],
+      "height": 475,
+      "y_min": -21,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 4, sort 2. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "f": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1084,
+        1362,
+        1104,
+        1426
+      ],
+      "height": 685,
+      "y_min": -62,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 8, sort 16. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "g": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        2241,
+        2857,
+        2303,
+        2977
+      ],
+      "height": 655,
+      "y_min": -224,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 25. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "h": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        2320,
+        2818,
+        2377,
+        2978
+      ],
+      "height": 874,
+      "y_min": -229,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 26. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "i": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        673,
+        2797,
+        697,
+        2921
+      ],
+      "height": 677,
+      "y_min": 82,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 2. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "k": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1453,
+        2804,
+        1512,
+        2961
+      ],
+      "height": 857,
+      "y_min": -136,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 14. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "l": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        630,
+        2797,
+        654,
+        2920
+      ],
+      "height": 672,
+      "y_min": 87,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 1. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "m": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1094,
+        700,
+        1134,
+        728
+      ],
+      "height": 433,
+      "y_min": 15,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 16, sort 0. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "n": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1064,
+        2841,
+        1122,
+        2925
+      ],
+      "height": 459,
+      "y_min": 60,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 9. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "o": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        996,
+        2840,
+        1049,
+        2924
+      ],
+      "height": 459,
+      "y_min": 66,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 8. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "p": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1997,
+        1261,
+        2025,
+        1322
+      ],
+      "height": 653,
+      "y_min": -267,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 7, sort 28. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "r": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        716,
+        2838,
+        772,
+        2921
+      ],
+      "height": 453,
+      "y_min": 82,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 3. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "s": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1021,
+        2038,
+        1057,
+        2096
+      ],
+      "height": 475,
+      "y_min": -38,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 4, sort 10. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "t": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        782,
+        2804,
+        822,
+        2923
+      ],
+      "height": 650,
+      "y_min": 71,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 4. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "u": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1469,
+        1261,
+        1498,
+        1302
+      ],
+      "height": 439,
+      "y_min": -53,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 7, sort 16. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "v": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        569,
+        2036,
+        605,
+        2093
+      ],
+      "height": 467,
+      "y_min": -13,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 4, sort 1. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "x": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1390,
+        1260,
+        1420,
+        1301
+      ],
+      "height": 439,
+      "y_min": -42,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 7, sort 14. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "y": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1691,
+        2848,
+        1751,
+        2970
+      ],
+      "height": 666,
+      "y_min": -186,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 1, sort 17. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    },
+    "’": {
+      "file": "reference/lindsay-gretchen.png",
+      "box": [
+        1880,
+        3044,
+        1896,
+        3078
+      ],
+      "height": 189,
+      "y_min": 427,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.2,
+      "fill_holes": 1,
+      "notes": "Observed impression, measured row 2, sort 9. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 2,
+      "threshold": 185,
+      "tolerance": 0.2
+    }
+  }
+}

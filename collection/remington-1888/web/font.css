@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Remington 1888";
+  src: url("./Remington1888-Regular.woff2") format("woff2"),
+       url("./Remington1888-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

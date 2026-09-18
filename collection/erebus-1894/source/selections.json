@@ -1,0 +1,401 @@
+{
+  "description": "Final measurements after visual selection and metric harmonisation. Tracing.json additionally records cleanup and spacing. Coordinates are retained image pixels, x right and y down.",
+  "glyphs": {
+    "$": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1729,
+        1681,
+        1854,
+        1902
+      ],
+      "height": 948,
+      "y_min": -153,
+      "notes": "Observed impression, measured row 2, sort 8. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "1": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1938,
+        2524,
+        1990,
+        2649
+      ],
+      "height": 722,
+      "y_min": -23,
+      "notes": "Observed impression, measured row 3, sort 13. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "2": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1835,
+        3227,
+        1894,
+        3307
+      ],
+      "height": 731,
+      "y_min": 4,
+      "notes": "Observed impression, measured row 5, sort 19. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "3": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1985,
+        1703,
+        2103,
+        1875
+      ],
+      "height": 738,
+      "y_min": -37,
+      "notes": "Observed impression, measured row 2, sort 10. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "5": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1865,
+        1704,
+        1977,
+        1875
+      ],
+      "height": 734,
+      "y_min": -37,
+      "notes": "Observed impression, measured row 2, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "6": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1998,
+        2525,
+        2086,
+        2651
+      ],
+      "height": 728,
+      "y_min": -35,
+      "notes": "Observed impression, measured row 3, sort 14. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "7": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1825,
+        784,
+        1955,
+        994
+      ],
+      "height": 725,
+      "y_min": -18,
+      "notes": "Observed impression, measured row 0, sort 7. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "8": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1681,
+        781,
+        1824,
+        994
+      ],
+      "height": 736,
+      "y_min": -18,
+      "notes": "Observed impression, measured row 0, sort 6. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "9": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1774,
+        3227,
+        1830,
+        3308
+      ],
+      "height": 740,
+      "y_min": -5,
+      "notes": "Observed impression, measured row 5, sort 18. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "A": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        789,
+        784,
+        925,
+        1042
+      ],
+      "height": 891,
+      "y_min": -184,
+      "notes": "Observed impression, measured row 0, sort 1. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "B": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        612,
+        785,
+        771,
+        991
+      ],
+      "height": 711,
+      "y_min": -8,
+      "notes": "Observed impression, measured row 0, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "C": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        2506,
+        2527,
+        2595,
+        2653
+      ],
+      "height": 728,
+      "y_min": -47,
+      "notes": "Observed impression, measured row 3, sort 18. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "D": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        2616,
+        787,
+        2772,
+        995
+      ],
+      "height": 718,
+      "y_min": -22,
+      "notes": "Observed impression, measured row 0, sort 11. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "E": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1234,
+        784,
+        1404,
+        1016
+      ],
+      "height": 801,
+      "y_min": -94,
+      "notes": "Observed impression, measured row 0, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "F": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        886,
+        3226,
+        938,
+        3326
+      ],
+      "height": 913,
+      "y_min": -170,
+      "notes": "Observed impression, measured row 5, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "G": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1961,
+        1155,
+        2104,
+        1367
+      ],
+      "height": 741,
+      "y_min": -26,
+      "notes": "Observed impression, measured row 1, sort 6. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "H": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        2134,
+        741,
+        2304,
+        1045
+      ],
+      "height": 1050,
+      "y_min": -194,
+      "notes": "Observed impression, measured row 0, sort 8. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "I": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        2494,
+        1707,
+        2560,
+        1875
+      ],
+      "height": 721,
+      "y_min": -37,
+      "notes": "Observed impression, measured row 2, sort 13. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "K": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1066,
+        785,
+        1232,
+        992
+      ],
+      "height": 715,
+      "y_min": -11,
+      "notes": "Observed impression, measured row 0, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "L": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        2447,
+        786,
+        2615,
+        994
+      ],
+      "height": 718,
+      "y_min": -18,
+      "notes": "Observed impression, measured row 0, sort 10. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "M": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        2225,
+        1705,
+        2390,
+        1873
+      ],
+      "height": 721,
+      "y_min": -29,
+      "notes": "Observed impression, measured row 2, sort 11. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "N": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1349,
+        1156,
+        1519,
+        1363
+      ],
+      "height": 724,
+      "y_min": -12,
+      "notes": "Observed impression, measured row 1, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "O": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        2308,
+        784,
+        2443,
+        996
+      ],
+      "height": 732,
+      "y_min": -25,
+      "notes": "Observed impression, measured row 0, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "P": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        606,
+        1702,
+        727,
+        1869
+      ],
+      "height": 717,
+      "y_min": -12,
+      "notes": "Observed impression, measured row 2, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "Q": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        2080,
+        2775,
+        2170,
+        2936
+      ],
+      "height": 930,
+      "y_min": -254,
+      "notes": "Observed impression, measured row 4, sort 11. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "R": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        2938,
+        789,
+        3097,
+        996
+      ],
+      "height": 715,
+      "y_min": -25,
+      "notes": "Observed impression, measured row 0, sort 13. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "S": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        917,
+        783,
+        1061,
+        994
+      ],
+      "height": 729,
+      "y_min": -18,
+      "notes": "Observed impression, measured row 0, sort 2. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "T": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1377,
+        785,
+        1509,
+        993
+      ],
+      "height": 718,
+      "y_min": -15,
+      "notes": "Observed impression, measured row 0, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "U": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1520,
+        1156,
+        1675,
+        1366
+      ],
+      "height": 734,
+      "y_min": -23,
+      "notes": "Observed impression, measured row 1, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "V": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        2404,
+        1115,
+        2533,
+        1368
+      ],
+      "height": 885,
+      "y_min": -30,
+      "notes": "Observed impression, measured row 1, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "W": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        840,
+        1112,
+        1024,
+        1363
+      ],
+      "height": 878,
+      "y_min": -12,
+      "notes": "Observed impression, measured row 1, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "X": {
+      "file": "reference/ryan-76.png",
+      "box": [
+        673,
+        780,
+        741,
+        881
+      ],
+      "height": 875,
+      "y_min": -48,
+      "notes": "Observed impression, measured row 6, sort 1. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "Y": {
+      "file": "reference/atf-erebus-full.png",
+      "box": [
+        1748,
+        2500,
+        1832,
+        2649
+      ],
+      "height": 861,
+      "y_min": -23,
+      "notes": "Observed impression, measured row 3, sort 12. See selections.json. Baseline and size harmonised for this digital master."
+    }
+  }
+}

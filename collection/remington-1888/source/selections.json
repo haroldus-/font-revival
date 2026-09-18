@@ -1,0 +1,653 @@
+{
+  "description": "Final measurements after visual selection and metric harmonisation. Tracing.json additionally records cleanup and spacing. Coordinates are retained image pixels, x right and y down.",
+  "glyphs": {
+    "\"": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1106,
+        2658,
+        1129,
+        2678
+      ],
+      "height": 200,
+      "y_min": 490,
+      "notes": "Observed impression, measured row 3, sort 17. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "&": {
+      "file": "reference/printer-137.png",
+      "box": [
+        918,
+        2420,
+        954,
+        2457
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 1, sort 13. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    ",": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1704,
+        2392,
+        1712,
+        2407
+      ],
+      "height": 205,
+      "y_min": -120,
+      "notes": "Observed impression, measured row 0, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "-": {
+      "file": "reference/printer-137.png",
+      "box": [
+        855,
+        2558,
+        872,
+        2564
+      ],
+      "height": 55,
+      "y_min": 275,
+      "notes": "Observed impression, measured row 2, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    ".": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1887,
+        2390,
+        1894,
+        2398
+      ],
+      "height": 85,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "0": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1773,
+        3010,
+        1802,
+        3046
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 6, sort 33. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "1": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2330,
+        2364,
+        2345,
+        2399
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 18. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "2": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1772,
+        2773,
+        1799,
+        2809
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 4, sort 31. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "6": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2139,
+        2364,
+        2166,
+        2399
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 14. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "7": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2436,
+        2365,
+        2460,
+        2400
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 21. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "8": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2360,
+        2364,
+        2388,
+        2399
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 19. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    ":": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1304,
+        2430,
+        1312,
+        2457
+      ],
+      "height": 425,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 1, sort 22. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "A": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1962,
+        2538,
+        1993,
+        2575
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 2, sort 34. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "B": {
+      "file": "reference/printer-137.png",
+      "box": [
+        363,
+        2422,
+        394,
+        2459
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 1, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "C": {
+      "file": "reference/printer-137.png",
+      "box": [
+        361,
+        3247,
+        388,
+        3286
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 8, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "D": {
+      "file": "reference/printer-137.png",
+      "box": [
+        477,
+        2539,
+        509,
+        2577
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 2, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "G": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2180,
+        3600,
+        2208,
+        3636
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 11, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "H": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1140,
+        2656,
+        1170,
+        2694
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 3, sort 18. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "I": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1772,
+        2362,
+        1794,
+        2400
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 6. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "J": {
+      "file": "reference/printer-137.png",
+      "box": [
+        362,
+        2895,
+        388,
+        2934
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 5, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "L": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2031,
+        3599,
+        2061,
+        3636
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 11, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "M": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1989,
+        2363,
+        2020,
+        2399
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 11. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "N": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1622,
+        2656,
+        1652,
+        2693
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 3, sort 28. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "P": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1509,
+        2363,
+        1537,
+        2400
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "R": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1625,
+        3483,
+        1653,
+        3520
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 10, sort 26. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "S": {
+      "file": "reference/printer-137.png",
+      "box": [
+        999,
+        2420,
+        1023,
+        2460
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 1, sort 14. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "T": {
+      "file": "reference/printer-137.png",
+      "box": [
+        807,
+        3364,
+        834,
+        3403
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 9, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "a": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1547,
+        2371,
+        1574,
+        2399
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 1. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "b": {
+      "file": "reference/printer-137.png",
+      "box": [
+        656,
+        2773,
+        686,
+        2811
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 4, sort 6. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "c": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1075,
+        2546,
+        1097,
+        2575
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 2, sort 14. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "d": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1145,
+        2420,
+        1173,
+        2458
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 1, sort 18. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "e": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1221,
+        2429,
+        1247,
+        2458
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 1, sort 20. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "f": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2293,
+        2772,
+        2318,
+        2810
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 4, sort 41. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "g": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2586,
+        2544,
+        2613,
+        2581
+      ],
+      "height": 680,
+      "y_min": -200,
+      "notes": "Observed impression, measured row 2, sort 48. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "h": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2211,
+        2361,
+        2240,
+        2399
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 16. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "i": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1625,
+        2360,
+        1644,
+        2399
+      ],
+      "height": 680,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "k": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2107,
+        2655,
+        2132,
+        2693
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 3, sort 39. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "l": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1807,
+        2361,
+        1831,
+        2399
+      ],
+      "height": 700,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 7. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "m": {
+      "file": "reference/printer-137.png",
+      "box": [
+        430,
+        2901,
+        466,
+        2931
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 5, sort 2. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "n": {
+      "file": "reference/printer-137.png",
+      "box": [
+        475,
+        2430,
+        505,
+        2458
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 1, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "o": {
+      "file": "reference/printer-137.png",
+      "box": [
+        775,
+        2430,
+        800,
+        2458
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 1, sort 10. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "p": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1033,
+        2428,
+        1061,
+        2465
+      ],
+      "height": 680,
+      "y_min": -200,
+      "notes": "Observed impression, measured row 1, sort 15. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "q": {
+      "file": "reference/printer-137.png",
+      "box": [
+        548,
+        2666,
+        576,
+        2704
+      ],
+      "height": 680,
+      "y_min": -200,
+      "notes": "Observed impression, measured row 3, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "r": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1585,
+        2371,
+        1611,
+        2399
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 2. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "s": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1661,
+        2372,
+        1684,
+        2398
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "t": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2179,
+        2361,
+        2201,
+        2399
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 0, sort 15. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "u": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1407,
+        2548,
+        1435,
+        2575
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 2, sort 22. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "v": {
+      "file": "reference/printer-137.png",
+      "box": [
+        1184,
+        2547,
+        1212,
+        2575
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 2, sort 17. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "w": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2398,
+        2546,
+        2430,
+        2575
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 2, sort 43. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "x": {
+      "file": "reference/printer-137.png",
+      "box": [
+        658,
+        3021,
+        685,
+        3048
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 6, sort 6. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "y": {
+      "file": "reference/printer-137.png",
+      "box": [
+        2067,
+        2371,
+        2091,
+        2406
+      ],
+      "height": 680,
+      "y_min": -200,
+      "notes": "Observed impression, measured row 0, sort 13. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "z": {
+      "file": "reference/printer-137.png",
+      "box": [
+        997,
+        2666,
+        1018,
+        2693
+      ],
+      "height": 480,
+      "y_min": 0,
+      "notes": "Observed impression, measured row 3, sort 15. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "‘": {
+      "file": "reference/printer-137.png",
+      "box": [
+        555,
+        3369,
+        564,
+        3385
+      ],
+      "height": 200,
+      "y_min": 490,
+      "notes": "Observed impression, measured row 9, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "’": {
+      "file": "reference/printer-137.png",
+      "box": [
+        704,
+        3367,
+        712,
+        3380
+      ],
+      "height": 200,
+      "y_min": 490,
+      "notes": "Observed impression, measured row 9, sort 8. See selections.json. Baseline and size harmonised for this digital master."
+    }
+  }
+}
