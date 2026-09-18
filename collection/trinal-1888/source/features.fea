@@ -1,0 +1,18 @@
+# Modern spacing adjustments, not a claim about historical metal sorts.
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+feature kern {
+  pos A V -35;
+  pos A W -25;
+  pos A Y -35;
+  pos F A -20;
+  pos L T -25;
+  pos L V -25;
+  pos L Y -25;
+  pos T A -35;
+  pos T O -15;
+  pos V A -35;
+  pos W A -25;
+  pos Y A -35;
+  pos Y O -20;
+} kern;

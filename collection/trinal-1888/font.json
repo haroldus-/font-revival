@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "trinal-1888",
+  "name": "Trinal 1888",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "Trinal1888-Regular",
+  "year": 1888,
+  "designer": "William F. Capitain",
+  "foundry": "Marder, Luse & Co.",
+  "description": "Curled Victorian capitals with fine serifs, open bowls, and looping terminals, based on Trinal’s larger sizes.",
+  "license": "MIT",
+  "sample_text": "PENSION BUREAU",
+  "observed": "A–Z, 0–9 and ampersand, from the 1888 patent and named 1888/1894 specimens. The 24-point letters anchor the revival; documented 18- and 36-point impressions and the patent supply missing forms. K, Q, W, Z, 0, 6 and 7 are redrawn to repair damaged or rough patent impressions.",
+  "reconstructed": "Modern punctuation and symbols are newly drawn companions. Lowercase input aliases the capitals; this is a capitals-only display face. Spacing, kerning and harmonisation between optical sizes are new. The separate swash initial alphabet and small-size variants are not included.",
+  "sources": [
+    {
+      "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), p. 130",
+      "url": "https://archive.org/details/lateststandardfa00ryan/page/130/mode/1up",
+      "file": "reference/ryan-1894-p130.png",
+      "rights": "1894 US publication, beyond the 95-year maximum term. Library of Congress scan; Archive metadata states that the Library of Congress is unaware of copyright restrictions. Metadata evidence retained in reference/ryan-rights.json.",
+      "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+    },
+    {
+      "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), p. 131",
+      "url": "https://archive.org/details/lateststandardfa00ryan/page/131/mode/1up",
+      "file": "reference/ryan-1894-p131.png",
+      "rights": "1894 US publication, beyond the 95-year maximum term. Library of Congress scan; Archive metadata states that the Library of Congress is unaware of copyright restrictions. Metadata evidence retained in reference/ryan-rights.json.",
+      "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+    },
+    {
+      "title": "The Inland Printer, vol. 6, no. 2 (November 1888), pp. 138–139, Trinal advertisements",
+      "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/n49/mode/1up",
+      "file": "reference/inland-printer-1888-p138.png",
+      "rights": "US journal published in 1888; public domain under the maximum 95-year term. Internet Archive microfilm scan, a faithful reproduction of the historical page. Publication date and scan source retained in reference/printer-metadata.json.",
+      "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+    },
+    {
+      "title": "William F. Capitain, US design patent D18,671, plate and specification (9 October 1888)",
+      "url": "https://patents.google.com/patent/USD18671S/en",
+      "file": "reference/USD18671.pdf",
+      "rights": "1888 US patent publication, beyond the maximum copyright term; its specification grants a seven-year design patent term. Plate reproduced from the historical patent, not a later digital font.",
+      "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+    }
+  ],
+  "revival": {
+    "contributors": [
+      "Font Revival contributors"
+    ],
+    "tools": [
+      "Codex",
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "See source/METHOD.md and source/tracing.json for reproducible crop selection, cleanup, scaling and companion drawings. No modern font outlines were used."
+  },
+  "character_style": "capitals-only"
+}

@@ -68,6 +68,28 @@ class WorkflowTests(unittest.TestCase):
         revival.build_catalog()
         revival.check()
 
+    def test_catalog_render_is_read_only(self):
+        revival.build_catalog()
+        before = {name: (self.root / name).read_bytes() for name in ("catalog.json", "index.html")}
+        m = json.loads((self.family / "font.json").read_text())
+        m["sample_text"] = "A fresh & different sample"
+        revival.write_json(self.family / "font.json", m)
+        outputs = revival.catalog_outputs()
+        self.assertIn("A fresh &amp; different sample", outputs["index.html"])
+        self.assertEqual(m["sample_text"], json.loads(outputs["catalog.json"])["families"][0]["sample_text"])
+        for name, content in before.items():
+            self.assertEqual(content, (self.root / name).read_bytes())
+        self.assertEqual(self.root, revival.ROOT)
+
+    def test_single_family_check_still_rejects_stale_gallery(self):
+        revival.build_family(self.family)
+        revival.build_catalog()
+        with (self.root / "index.html").open("a") as out:
+            out.write("<!-- stale -->")
+        with self.assertRaisesRegex(ValueError, "index.html is stale"):
+            revival.check("johnson-1892")
+        self.assertEqual(self.root, revival.ROOT)
+
     def test_source_change_requires_rebuilt_outputs(self):
         revival.build_catalog()
         revival.export_glyph(Namespace(id="johnson-1892", character="j"))

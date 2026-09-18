@@ -27,6 +27,7 @@ from fontTools.svgLib.path import parse_path
 from fontTools.ttLib import TTFont
 from PIL import Image, ImageDraw, ImageFont
 from reportlab.lib.colors import HexColor
+from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont as PDFont
 from reportlab.pdfgen import canvas
@@ -268,6 +269,53 @@ def specimen(path, m):
     image.save(folder / "preview.png", optimize=False)
 
 
+def source_review(path, m):
+    """Pair documented crops with released glyphs, then show words at four sizes."""
+    manifest = path / "source" / "tracing.json"
+    if not manifest.exists():
+        return
+    entries = json.loads(manifest.read_text())["glyphs"]
+    drawings = json.loads((path / "source" / "companions.json").read_text())["glyphs"]
+    chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789&$"
+    fontname = m["id"] + "-source-review"
+    register_pdf_font(fontname, path / "fonts" / f'{m["postscript_name"]}.ttf')
+    c = canvas.Canvas(str(path / "specimens" / "source-review.pdf"), pagesize=(842, 595), invariant=1)
+    c.setTitle(m["name"] + " | Historical source review")
+    c.setAuthor("Font Revival contributors")
+    images = {}
+    for start in range(0, len(chars), 24):
+        c.setFont("Helvetica", 14)
+        c.drawString(36, 565, m["name"] + " / Source above, revival below")
+        c.setFont("Helvetica", 8)
+        c.drawString(36, 549, "Compare forms, not scale. Crops retain scan damage; drawings repair it. Coordinates: source/tracing.json.")
+        for i, ch in enumerate(chars[start:start+24]):
+            x, y = 36 + (i % 8)*97, 516 - (i // 8)*164
+            c.setFont("Helvetica", 9)
+            c.drawString(x, y, ch + (" / redrawn" if ch in drawings else " / traced"))
+            entry = entries.get(ch)
+            if entry:
+                file = path / entry["file"]
+                if file not in images:
+                    images[file] = Image.open(file).convert("RGB")
+                crop = images[file].crop(entry["box"])
+                factor = min(80/crop.width, 52/crop.height)
+                c.drawImage(ImageReader(crop), x, y-62, crop.width*factor, crop.height*factor)
+            else:
+                c.setFont("Helvetica", 8)
+                c.drawString(x, y-35, "Inferred companion")
+            c.setFont(fontname, 53)
+            c.drawString(x, y-122, ch)
+        c.showPage()
+    c.setFont("Helvetica", 14)
+    c.drawString(36, 555, m["name"] + " / Words and spacing")
+    lines = [m["sample_text"], "AVATAR WAVY TYPE", "BANK QUARTZ 0123456789", "Mixed case maps to capitals."]
+    for size, y, line in zip((64, 36, 24, 16), (430, 320, 225, 145), lines):
+        c.setFont("Helvetica", 9)
+        c.drawString(36, y+65, f"{size} pt maximum")
+        fit_pdf(c, line, fontname, size, 36, y, 770)
+    c.save()
+
+
 def family_readme(m, stats):
     ps = m["postscript_name"]
     sources = "\n".join(
@@ -280,7 +328,7 @@ def family_readme(m, stats):
 
 ![{m["name"]} specimen](specimens/preview.png)
 
-**{m["year"]} · {m["style"]} · Version {m["version"]} · {stats["characters"]} characters · MIT**
+**{m["year"]} · {m["style"]} · Version {m["version"]} · {stats["characters"]} characters{ ' · Capitals only' if m.get('character_style') == 'capitals-only' else ''} · MIT**
 
 [OTF](fonts/{ps}.otf) · [TTF](fonts/{ps}.ttf) · [WOFF2](web/{ps}.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -291,7 +339,8 @@ and use `font-family: "{m["name"]}"`. Designed for display sizes.
 
 ## Design
 
-**Designer:** {m["designer"]}  
+**Designer:** {m["designer"]}
+
 **Foundry:** {m["foundry"]}
 
 **Observed:** {m["observed"]}
@@ -345,6 +394,7 @@ def build_family(path):
         '  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n}\n')
     stats = {"characters": len(font.getBestCmap()), "glyphs": len(font.getGlyphOrder())}
     specimen(path, m)
+    source_review(path, m)
     shutil.copyfile(ROOT / "LICENSE", path / "LICENSE")
     (path / "README.md").write_text(family_readme(m, stats))
     (path / "SHA256SUMS.txt").write_text(checksums(path))
@@ -352,7 +402,8 @@ def build_family(path):
     return m | stats
 
 
-def build_catalog():
+def catalog_outputs():
+    """Render the catalog without writes or a temporary copy of the collection."""
     entries = []
     cards, styles = [], []
     for path in families():
@@ -370,14 +421,19 @@ def build_catalog():
   <h2 style="font-family:'{m["id"]}',serif">{e["name"]}</h2>
   <p class="description">{e["description"]}</p>
   <div class="type-sample" style="font-family:'{m["id"]}',serif" data-default="{e["sample_text"]}">{e["sample_text"]}</div>
-  <p class="coverage">{m["characters"]} characters · Regular · v{e["version"]}</p>
+  <p class="coverage">{m["characters"]} characters{ ' · Capitals only' if m.get('character_style') == 'capitals-only' else ''} · Regular · v{e["version"]}</p>
   <div class="downloads">{links}<a href="{base}/specimens/specimen.pdf">Specimen PDF ↗</a><a href="https://github.com/haroldus-/font-revival/tree/main/{base}">Sources ↗</a></div>
 </article>''')
-    write_json(ROOT / "catalog.json", {"schema_version": 1, "families": entries})
+    catalog = json.dumps({"schema_version": 1, "families": entries}, indent=2, ensure_ascii=False) + "\n"
     template = (ROOT / "site" / "index.template.html").read_text()
     for token, replacement in {"@@FONT_CSS@@": "\n".join(styles), "@@CARDS@@": "\n".join(cards), "@@COUNT@@": str(len(entries))}.items():
         template = template.replace(token, replacement)
-    (ROOT / "index.html").write_text(template)
+    return {"catalog.json": catalog, "index.html": template}
+
+
+def build_catalog():
+    for filename, content in catalog_outputs().items():
+        (ROOT / filename).write_text(content)
 
 
 def validate_family(path):
@@ -430,21 +486,11 @@ def check(slug=None):
             differences = sorted(str(p) for p in original.keys() | rebuilt.keys() if original.get(p) != rebuilt.get(p))
             if differences:
                 raise ValueError(f'{path.name}: rebuild differs: {", ".join(differences)}. Run build with requirements.txt.')
-    # Generate the index in an isolated root, including when checking one family.
-    global ROOT
-    original_root = ROOT
-    with tempfile.TemporaryDirectory(prefix="font-revival-catalog-") as temp:
-        temp_root = Path(temp)
-        shutil.copytree(ROOT / "collection", temp_root / "collection")
-        shutil.copytree(ROOT / "site", temp_root / "site")
-        try:
-            ROOT = temp_root
-            build_catalog()
-        finally:
-            ROOT = original_root
-        for file in ("catalog.json", "index.html"):
-            if (ROOT / file).read_bytes() != (temp_root / file).read_bytes():
-                raise ValueError(f"{file} is stale. Run build.")
+    # Check all cards even when checking one family. Rendering in memory avoids
+    # copying large historical scans and temporarily mutating the global ROOT.
+    for file, content in catalog_outputs().items():
+        if (ROOT / file).read_bytes() != content.encode():
+            raise ValueError(f"{file} is stale. Run build.")
     print("Rebuild matches every committed output.")
 
 

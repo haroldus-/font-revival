@@ -37,6 +37,37 @@ James Conner's Sons. Pointed terminals, deep notches, and dramatic descenders.
 [Specimen PDF](collection/nero-1888/specimens/specimen.pdf) ·
 [Sources & details](collection/nero-1888)
 
+### Quaint Gothic 1894
+
+Contrasting sans-serif capitals from the John Ryan specimen: narrow hairlines,
+long descending strokes, and a striking display rhythm. Lowercase input uses capitals.
+
+[![Quaint Gothic 1894 specimen](collection/quaint-gothic-1894/specimens/preview.png)](collection/quaint-gothic-1894)
+
+[OTF](collection/quaint-gothic-1894/fonts/QuaintGothic1894-Regular.otf) ·
+[TTF](collection/quaint-gothic-1894/fonts/QuaintGothic1894-Regular.ttf) ·
+[Webfont](collection/quaint-gothic-1894/web/) ·
+[Specimen PDF](collection/quaint-gothic-1894/specimens/specimen.pdf) ·
+[Source comparison](collection/quaint-gothic-1894/specimens/source-review.pdf) ·
+[Sources & details](collection/quaint-gothic-1894)
+
+### Trinal 1888
+
+William F. Capitain's curled capitals for Marder, Luse & Co., with fine serifs,
+open bowls, and looping terminals. Lowercase input uses capitals.
+
+[![Trinal 1888 specimen](collection/trinal-1888/specimens/preview.png)](collection/trinal-1888)
+
+[OTF](collection/trinal-1888/fonts/Trinal1888-Regular.otf) ·
+[TTF](collection/trinal-1888/fonts/Trinal1888-Regular.ttf) ·
+[Webfont](collection/trinal-1888/web/) ·
+[Specimen PDF](collection/trinal-1888/specimens/specimen.pdf) ·
+[Source comparison](collection/trinal-1888/specimens/source-review.pdf) ·
+[Sources & details](collection/trinal-1888)
+
+The [1894 Ryan / November 1888 survey](docs/PROSPECTS-1894-1888.md) records why
+these two were selected and the strongest candidates for later work.
+
 ## Use the fonts
 
 Download a release ZIP, or open a font link above and choose **Download raw file**.

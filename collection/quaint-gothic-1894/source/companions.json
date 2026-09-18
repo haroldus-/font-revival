@@ -1,0 +1,326 @@
+{
+  "glyphs": {
+    " ": {
+      "path": "",
+      "advance_width": 300,
+      "notes": "Word space adapted for digital setting."
+    },
+    ".": {
+      "path": "M137 40C137 63.2 118.2 82 95 82C71.8 82 53 63.2 53 40C53 16.8 71.8 -2 95 -2C118.2 -2 137 16.8 137 40Z",
+      "advance_width": 190,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ",": {
+      "path": "M60 -110C125 -70 145 -20 141 44C137 110 46 110 47 43C47 4 86 -8 108 9C106 -27 91 -65 48 -90Z",
+      "advance_width": 190,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ":": {
+      "path": "M137 40C137 63.2 118.2 82 95 82C71.8 82 53 63.2 53 40C53 16.8 71.8 -2 95 -2C118.2 -2 137 16.8 137 40ZM137 415C137 438.2 118.2 457 95 457C71.8 457 53 438.2 53 415C53 391.8 71.8 373 95 373C118.2 373 137 391.8 137 415Z",
+      "advance_width": 190,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ";": {
+      "path": "M60 -110C125 -70 145 -20 141 44C137 110 46 110 47 43C47 4 86 -8 108 9C106 -27 91 -65 48 -90ZM137 415C137 438.2 118.2 457 95 457C71.8 457 53 438.2 53 415C53 391.8 71.8 373 95 373C118.2 373 137 391.8 137 415Z",
+      "advance_width": 190,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "!": {
+      "path": "M64 700H160L141 170H84ZM154 40C154 63.2 135.2 82 112 82C88.8 82 70 63.2 70 40C70 16.8 88.8 -2 112 -2C135.2 -2 154 16.8 154 40Z",
+      "advance_width": 224,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "?": {
+      "path": "M65 558C60 664 140 720 242 720C352 720 430 655 430 563C430 476 365 437 300 395C250 362 233 301 233 178H185C168 325 194 389 271 462C314 501 337 528 337 568C337 636 299 683 241 683C180 683 135 643 135 597C169 609 190 589 187 558C184 521 132 503 103 519C76 531 65 542 65 558ZM251 40C251 63.2 232.2 82 209 82C185.8 82 167 63.2 167 40C167 16.8 185.8 -2 209 -2C232.2 -2 251 16.8 251 40Z",
+      "advance_width": 490,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "-": {
+      "path": "M40 290h265v45h-265Z",
+      "advance_width": 345,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "_": {
+      "path": "M0 -145h600v42h-600Z",
+      "advance_width": 600,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "+": {
+      "path": "M70 335H270V535H315V335H515V290H315V90H270V290H70Z",
+      "advance_width": 585,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "=": {
+      "path": "M70 225h450v45h-450ZM70 405h450v45h-450Z",
+      "advance_width": 590,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "/": {
+      "path": "M35 -90L320 740H365L80 -90Z",
+      "advance_width": 400,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "\\": {
+      "path": "M35 740H80L365 -90H320Z",
+      "advance_width": 400,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "|": {
+      "path": "M80 -150h45v900h-45Z",
+      "advance_width": 205,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "(": {
+      "path": "M260 790C96 630 54 472 54 320C54 132 110 -24 260 -160L282 -139C162 31 141 171 141 320C141 465 162 614 282 769Z",
+      "advance_width": 340,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ")": {
+      "from": "(",
+      "transform": [
+        -1,
+        0,
+        0,
+        1,
+        340,
+        0
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 340
+    },
+    "[": {
+      "path": "M75 -150V780H300V745H160V-115H300V-150Z",
+      "advance_width": 340,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "]": {
+      "from": "[",
+      "transform": [
+        -1,
+        0,
+        0,
+        1,
+        340,
+        0
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 340
+    },
+    "{": {
+      "path": "M300 780C125 780 145 636 145 524V420C145 373 110 341 55 330V295C110 283 145 253 145 208V108C145 -6 125 -150 300 -150V-119C211 -111 222 -3 222 112V220C222 268 188 300 142 312C188 326 222 358 222 407V520C222 633 211 742 300 749Z",
+      "advance_width": 350,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "}": {
+      "from": "{",
+      "transform": [
+        -1,
+        0,
+        0,
+        1,
+        350,
+        0
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 350
+    },
+    "<": {
+      "path": "M500 590L65 337V288L500 35V93L125 312L500 532Z",
+      "advance_width": 560,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    ">": {
+      "from": "<",
+      "transform": [
+        -1,
+        0,
+        0,
+        1,
+        560,
+        0
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 560
+    },
+    "^": {
+      "path": "M60 490L244 735H290L474 490H413L267 678L121 490Z",
+      "advance_width": 530,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "`": {
+      "path": "M80 800H173L292 635H252Z",
+      "advance_width": 360,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "~": {
+      "path": "M55 290C114 417 184 408 283 364C381 321 420 322 478 410L509 390C459 264 371 260 275 310C181 358 120 372 82 272Z",
+      "advance_width": 560,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "'": {
+      "path": "M75 700H158L138 465H95Z",
+      "advance_width": 230,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "\"": {
+      "path": "M65 700H140L123 465H83Z M215 700H290L273 465H233Z",
+      "advance_width": 355,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "*": {
+      "path": "M240 710H300L282 549L430 615L452 559L298 512L424 405L385 358L270 485L155 358L116 405L242 512L88 559L110 615L258 549Z",
+      "advance_width": 540,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "#": {
+      "path": "M185 700H226L194 492H365L397 700H438L406 492H515V450H399L369 254H483V212H362L330 0H289L321 212H150L118 0H77L109 212H30V254H116L146 450H63V492H153Z M187 450L157 254H328L358 450Z",
+      "advance_width": 555,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "%": {
+      "path": "M75 0L548 720H590L117 0Z M175 710C252 710 294 645 294 560C294 475 252 410 175 410C98 410 56 475 56 560C56 645 98 710 175 710Z M175 678C139 678 123 630 123 560C123 490 139 442 175 442C211 442 227 490 227 560C227 630 211 678 175 678Z M485 290C562 290 604 225 604 140C604 55 562 -10 485 -10C408 -10 366 55 366 140C366 225 408 290 485 290Z M485 258C449 258 433 210 433 140C433 70 449 22 485 22C521 22 537 70 537 140C537 210 521 258 485 258Z",
+      "advance_width": 665,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "@": {
+      "path": "M603 165C582 96 541 92 522 122C511 141 513 170 519 203C478 141 437 115 386 115C299 115 257 180 263 275C271 401 354 511 451 511C501 511 529 489 544 456L552 498H621L567 196C556 135 573 124 608 156C672 213 691 301 681 389C664 565 553 675 394 675C200 675 91 524 91 318C91 95 228 -33 421 -33C507 -33 584 -6 649 37L674 5C603 -46 516 -78 421 -78C193 -78 35 73 35 318C35 549 172 721 398 721C595 721 736 575 736 379C736 264 690 153 621 109C568 75 516 95 511 140Z M449 466C390 466 342 373 336 285C330 207 351 162 391 162C451 162 498 249 510 336C522 420 496 466 449 466Z",
+      "advance_width": 790,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "–": {
+      "path": "M40 290h500v45h-500Z",
+      "advance_width": 580,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "—": {
+      "path": "M40 290h900v45h-900Z",
+      "advance_width": 980,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "’": {
+      "from": ",",
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        600
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 190
+    },
+    "‘": {
+      "from": ",",
+      "transform": [
+        -1,
+        0,
+        0,
+        -1,
+        190,
+        600
+      ],
+      "append": "",
+      "notes": "New companion derived from another companion drawing; not an observed historical sort.",
+      "advance_width": 190
+    },
+    "”": {
+      "path": "M60.0 490.0C125.0 530.0 145.0 580.0 141.0 644.0C137.0 710.0 46.0 710.0 47.0 643.0C47.0 604.0 86.0 592.0 108.0 609.0C106.0 573.0 91.0 535.0 48.0 510.0L60.0 490.0ZM240.0 490.0C305.0 530.0 325.0 580.0 321.0 644.0C317.0 710.0 226.0 710.0 227.0 643.0C227.0 604.0 266.0 592.0 288.0 609.0C286.0 573.0 271.0 535.0 228.0 510.0L240.0 490.0Z",
+      "advance_width": 370,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "“": {
+      "path": "M130.0 710.0C65.0 670.0 45.0 620.0 49.0 556.0C53.0 490.0 144.0 490.0 143.0 557.0C143.0 596.0 104.0 608.0 82.0 591.0C84.0 627.0 99.0 665.0 142.0 690.0L130.0 710.0ZM310.0 710.0C245.0 670.0 225.0 620.0 229.0 556.0C233.0 490.0 324.0 490.0 323.0 557.0C323.0 596.0 284.0 608.0 262.0 591.0C264.0 627.0 279.0 665.0 322.0 690.0L310.0 710.0Z",
+      "advance_width": 370,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "•": {
+      "path": "M275 340C275 386.94 236.94 425 190 425C143.06 425 105 386.94 105 340C105 293.06 143.06 255 190 255C236.94 255 275 293.06 275 340Z",
+      "advance_width": 380,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "…": {
+      "path": "M137 40C137 63.2 118.2 82 95 82C71.8 82 53 63.2 53 40C53 16.8 71.8 -2 95 -2C118.2 -2 137 16.8 137 40ZM327 40C327 63.2 308.2 82 285 82C261.8 82 243 63.2 243 40C243 16.8 261.8 -2 285 -2C308.2 -2 327 16.8 327 40ZM517 40C517 63.2 498.2 82 475 82C451.8 82 433 63.2 433 40C433 16.8 451.8 -2 475 -2C498.2 -2 517 16.8 517 40Z",
+      "advance_width": 570,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "Q": {
+      "path": "M317 714C490 714 600 558 600 350C600 211 551 94 469 32L562 -130H459L379 -4C359 -9 338 -12 317 -12C141 -12 32 145 32 350C32 558 141 714 317 714Z M317 678C228 678 159 548 159 350C159 153 228 24 317 24C332 24 347 28 360 34L292 139L350 175L428 69C456 128 475 226 475 350C475 548 406 678 317 678Z",
+      "advance_width": 650,
+      "notes": "Q inferred from observed O and the long diagonal R; no Q appears on page 148."
+    },
+    "Z": {
+      "path": "M54 700H545V664L194 40H550V0H50V37L401 660H54Z",
+      "advance_width": 610,
+      "notes": "Z inferred from thin horizontals and heavy diagonal strokes; absent from the specimen."
+    },
+    "0": {
+      "from": "O",
+      "transform": [
+        0.91,
+        0,
+        0,
+        0.9,
+        0,
+        6
+      ],
+      "append": "",
+      "notes": "New companion derived from an observed form; not an independently observed historical sort.",
+      "advance_width": 620
+    },
+    "3": {
+      "path": "M61 589C138 660 228 676 306 652C411 619 452 519 390 436C364 402 330 382 289 370C401 356 456 284 451 190C443 64 340 -15 220 -8C149 -4 84 18 33 69L51 109C108 63 163 42 221 42C302 42 339 101 339 195C339 290 302 336 211 336H163V379H207C287 379 321 431 321 512C321 584 290 618 233 618C176 618 125 596 82 550Z",
+      "advance_width": 510,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "7": {
+      "path": "M48 650H515V607L224 0H94L441 600H48Z",
+      "advance_width": 560,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "8": {
+      "path": "M284 665C406 665 483 595 483 503C483 421 431 380 376 356C460 314 503 260 503 175C503 61 405 -10 276 -10C151 -10 55 50 55 153C55 240 115 294 185 329C114 367 78 419 78 493C78 595 167 665 284 665Z M279 628C213 628 170 582 170 522C170 443 242 415 330 376C379 411 399 447 399 501C399 576 355 628 279 628Z M233 307C171 265 148 220 148 165C148 78 204 30 280 30C358 30 407 74 407 136C407 224 322 267 233 307Z",
+      "advance_width": 560,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    },
+    "&": {
+      "path": "M431 649C358 711 234 724 160 668C80 609 89 512 153 421L181 382C90 340 42 281 42 185C42 65 137 -14 261 -14C351 -14 412 26 471 87L535 0H678L552 171L651 333H595L523 210L283 536C234 601 238 668 294 670C344 672 366 627 364 579H425Z M212 341L436 133C390 84 340 56 290 56C210 56 161 118 161 207C161 264 177 308 212 341Z",
+      "advance_width": 710,
+      "notes": "Newly drawn companion; not claimed as a historical sort."
+    }
+  },
+  "aliases": {
+    "a": "A",
+    "b": "B",
+    "c": "C",
+    "d": "D",
+    "e": "E",
+    "f": "F",
+    "g": "G",
+    "h": "H",
+    "i": "I",
+    "j": "J",
+    "k": "K",
+    "l": "L",
+    "m": "M",
+    "n": "N",
+    "o": "O",
+    "p": "P",
+    "q": "Q",
+    "r": "R",
+    "s": "S",
+    "t": "T",
+    "u": "U",
+    "v": "V",
+    "w": "W",
+    "x": "X",
+    "y": "Y",
+    "z": "Z",
+    " ": " "
+  }
+}

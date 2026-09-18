@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "quaint-gothic-1894",
+  "name": "Quaint Gothic 1894",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "QuaintGothic1894-Regular",
+  "year": 1894,
+  "designer": "Unidentified in the consulted historical specimen",
+  "foundry": "John Ryan Foundry (specimen seller)",
+  "description": "Contrasting sans-serif capitals with narrow hairlines and long descending strokes, revived from Ryan’s 1894 specimen.",
+  "license": "MIT",
+  "sample_text": "HISTORY OF AUSTRALIA",
+  "observed": "Capitals A–P and R–Y; figures 1, 2, 4, 5, 6, 9 and dollar sign on page 148. The 24–48-point impressions anchor the master; smaller impressions supply B, J, K, M, P and X.",
+  "reconstructed": "Q and Z; figures 0, 3, 7 and 8; punctuation and remaining symbols. Lowercase input aliases capitals, as this historical specimen shows a capitals-only face. Spacing, kerning and harmonisation between optical sizes are new. The 1894 suffix dates the source, not a claimed first release.",
+  "sources": [
+    {
+      "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), p. 148",
+      "url": "https://archive.org/details/lateststandardfa00ryan/page/148/mode/1up",
+      "file": "reference/ryan-1894-p148.png",
+      "rights": "1894 US publication, beyond the 95-year maximum term. Library of Congress scan; Archive metadata states that the Library of Congress is unaware of copyright restrictions. Metadata evidence retained in reference/ryan-rights.json.",
+      "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+    }
+  ],
+  "revival": {
+    "contributors": [
+      "Font Revival contributors"
+    ],
+    "tools": [
+      "Codex",
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0"
+    ],
+    "notes": "See source/METHOD.md and source/tracing.json for reproducible crop selection, cleanup, scaling and companion drawings. No modern font outlines were used."
+  },
+  "character_style": "capitals-only"
+}
