@@ -283,7 +283,9 @@ def source_review(path, m):
         return
     recipe = json.loads(manifest.read_text())
     entries = recipe["glyphs"]
-    drawings = json.loads((path / "source" / "companions.json").read_text())["glyphs"]
+    companions = path / "source" / "companions.json"
+    drawings = ({} if recipe.get("mode") == "glyph-revision" and not companions.exists()
+                else json.loads(companions.read_text())["glyphs"])
     capitals_only = m.get("character_style") == "capitals-only"
     chars = recipe.get("review_characters", "ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
                        ("" if capitals_only else "abcdefghijklmnopqrstuvwxyz") + "0123456789&$")

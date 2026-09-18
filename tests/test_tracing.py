@@ -73,6 +73,14 @@ class TracingTests(unittest.TestCase):
         parse_path(glyph['path'], bounds)
         self.assertEqual((125, -10, 475, 690), bounds.bounds)
         self.assertEqual(600, glyph['advance_width'])
+        with patch.object(tracing.subprocess, 'run', side_effect=fake_potrace):
+            glyph = tracing.trace(Image.new('L', (20, 20), 0), {
+                'box': [0, 0, 20, 20], 'height': 700, 'y_min': -10,
+                'ink_width': 280, 'bearings': [24, 24], 'advance_width': 328}, 'potrace')
+        bounds = BoundsPen(None)
+        parse_path(glyph['path'], bounds)
+        self.assertEqual((24, -10, 304, 690), bounds.bounds)
+        self.assertEqual(328, glyph['advance_width'])
 
     def test_mixed_case_monospaced_master_and_ttf_preserve_cells(self):
         glyphs = {chr(cp): {'advance_width': 720, 'path': 'M40 0H540V700H40Z'}

@@ -1,0 +1,6 @@
+{
+  "path": "M119 736C108 726 98 718 97 718C96 718 89 714 82 709C75 704 61 697 51 694C26 686 14 670 34 670C41 670 54 657 55 649C55 641 57 500 57 487C57 472 57 402 57 389C57 376 57 345 57 333C53 16 54 36 37 27C13 14 20 12 97 13C178 15 188 17 165 30C153 37 151 40 150 53C148 62 148 223 149 412C150 715 149 754 145 754C142 754 130 746 119 736Z",
+  "advance_width": 200,
+  "glyph": "1",
+  "notes": "Trace the 36-point numeral line, Ryan 1894 p. 135; fill isolated paper/grain holes up to 200 pixels and smooth counter edges. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+}

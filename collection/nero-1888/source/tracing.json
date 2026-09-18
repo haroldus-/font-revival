@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "mode": "glyph-revision",
+  "description": "Selected source-based corrections; the canonical master, character map and OpenType features are preserved.",
+  "review_characters": "C0123456789",
+  "review_words": [
+    "CICERO 0123456789",
+    "COMEDIES 1888 1894",
+    "ÇĆĈĊČ Cacao 234567890",
+    "Graceful Maneuvers. Cantering Steeds."
+  ],
+  "glyphs": {
+    "C": {
+      "file": "reference/nero-1888-inland-printer-page-141.png",
+      "box": [
+        1471,
+        3587,
+        1577,
+        3872
+      ],
+      "height": 754,
+      "y_min": 7,
+      "bearings": [
+        24,
+        24
+      ],
+      "advance_width": 309,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 200,
+      "tolerance": 0.5,
+      "ink_width": 261,
+      "notes": "Trace the 72-point C in COMEDIES, Inland Printer p. 141; repair the inner terminal burr. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "0": {
+      "file": "reference/nero-1894-john-ryan-page-135.png",
+      "box": [
+        2373,
+        1412,
+        2457,
+        1623
+      ],
+      "height": 745,
+      "y_min": 2,
+      "bearings": [
+        24,
+        24
+      ],
+      "advance_width": 326,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 200,
+      "tolerance": 0.5,
+      "ink_width": 278,
+      "notes": "Trace the 36-point numeral line, Ryan 1894 p. 135; fill isolated paper/grain holes up to 200 pixels and smooth counter edges. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "1": {
+      "file": "reference/nero-1894-john-ryan-page-135.png",
+      "box": [
+        644,
+        1411,
+        698,
+        1620
+      ],
+      "height": 741,
+      "y_min": 13,
+      "bearings": [
+        24,
+        24
+      ],
+      "advance_width": 200,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 200,
+      "tolerance": 0.5,
+      "ink_width": 152,
+      "notes": "Trace the 36-point numeral line, Ryan 1894 p. 135; fill isolated paper/grain holes up to 200 pixels and smooth counter edges. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "2": {
+      "file": "reference/nero-1894-john-ryan-page-135.png",
+      "box": [
+        713,
+        1407,
+        807,
+        1617
+      ],
+      "height": 753,
+      "y_min": 20,
+      "bearings": [
+        24,
+        24
+      ],
+      "advance_width": 349,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 200,
+      "tolerance": 0.5,
+      "ink_width": 301,
+      "notes": "Trace the 36-point numeral line, Ryan 1894 p. 135; fill isolated paper/grain holes up to 200 pixels and smooth counter edges. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "3": {
+      "file": "reference/nero-1894-john-ryan-page-135.png",
+      "box": [
+        814,
+        1405,
+        909,
+        1617
+      ],
+      "height": 756,
+      "y_min": 20,
+      "bearings": [
+        24,
+        24
+      ],
+      "advance_width": 360,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 200,
+      "tolerance": 0.5,
+      "ink_width": 312,
+      "notes": "Trace the 36-point numeral line, Ryan 1894 p. 135; fill isolated paper/grain holes up to 200 pixels and smooth counter edges. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "4": {
+      "file": "reference/nero-1894-john-ryan-page-135.png",
+      "box": [
+        916,
+        1393,
+        1024,
+        1624
+      ],
+      "height": 820,
+      "y_min": 0,
+      "bearings": [
+        24,
+        24
+      ],
+      "advance_width": 404,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 200,
+      "tolerance": 0.5,
+      "ink_width": 356,
+      "notes": "Trace the 36-point numeral line, Ryan 1894 p. 135; fill isolated paper/grain holes up to 200 pixels and smooth counter edges. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "5": {
+      "file": "reference/nero-1894-john-ryan-page-135.png",
+      "box": [
+        1025,
+        1407,
+        1119,
+        1619
+      ],
+      "height": 756,
+      "y_min": 17,
+      "bearings": [
+        24,
+        24
+      ],
+      "advance_width": 360,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 200,
+      "tolerance": 0.5,
+      "ink_width": 312,
+      "notes": "Trace the 36-point numeral line, Ryan 1894 p. 135; fill isolated paper/grain holes up to 200 pixels and smooth counter edges. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "6": {
+      "file": "reference/nero-1894-john-ryan-page-135.png",
+      "box": [
+        1981,
+        1411,
+        2072,
+        1621
+      ],
+      "height": 745,
+      "y_min": 9,
+      "bearings": [
+        24,
+        24
+      ],
+      "advance_width": 342,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 200,
+      "tolerance": 0.5,
+      "ink_width": 294,
+      "notes": "Trace the 36-point numeral line, Ryan 1894 p. 135; fill isolated paper/grain holes up to 200 pixels and smooth counter edges. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "7": {
+      "file": "reference/nero-1894-john-ryan-page-135.png",
+      "box": [
+        2084,
+        1411,
+        2168,
+        1637
+      ],
+      "height": 804,
+      "y_min": -49,
+      "bearings": [
+        24,
+        24
+      ],
+      "advance_width": 320,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 200,
+      "tolerance": 0.5,
+      "ink_width": 272,
+      "notes": "Trace the 36-point numeral line, Ryan 1894 p. 135; fill isolated paper/grain holes up to 200 pixels and smooth counter edges. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "8": {
+      "file": "reference/nero-1894-john-ryan-page-135.png",
+      "box": [
+        2178,
+        1412,
+        2265,
+        1623
+      ],
+      "height": 749,
+      "y_min": 2,
+      "bearings": [
+        24,
+        24
+      ],
+      "advance_width": 338,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 200,
+      "tolerance": 0.5,
+      "ink_width": 290,
+      "notes": "Trace the 36-point numeral line, Ryan 1894 p. 135; fill isolated paper/grain holes up to 200 pixels and smooth counter edges. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "9": {
+      "file": "reference/nero-1894-john-ryan-page-135.png",
+      "box": [
+        2273,
+        1412,
+        2361,
+        1623
+      ],
+      "height": 745,
+      "y_min": 2,
+      "bearings": [
+        24,
+        24
+      ],
+      "advance_width": 338,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 200,
+      "tolerance": 0.5,
+      "ink_width": 290,
+      "notes": "Trace the 36-point numeral line, Ryan 1894 p. 135; fill isolated paper/grain holes up to 200 pixels and smooth counter edges. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    }
+  },
+  "replace_bases": {
+    "C": [
+      "Cacute",
+      "Ccaron",
+      "Ccedilla",
+      "Ccircumflex",
+      "Cdotaccent"
+    ]
+  }
+}

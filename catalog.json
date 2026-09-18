@@ -308,7 +308,7 @@
       "id": "johnson-1892",
       "name": "Johnson 1892",
       "style": "Regular",
-      "version": "1.001",
+      "version": "1.002",
       "postscript_name": "Johnson1892-Regular",
       "year": 1892,
       "designer": "Herman Ihlenburg",
@@ -323,15 +323,15 @@
           "title": "Herman Ihlenburg, US design patent D21,607 (1892), alphabet and figures",
           "url": "https://patents.google.com/patent/USD21607S/en",
           "file": "reference/1892-patent-alphabet-and-figures.png",
-          "rights": "Historical US patent plate; the patent states a seven-year term beginning 7 June 1892",
+          "rights": "Historical US patent plate published 7 June 1892, beyond the maximum 95-year copyright term. The specification records a seven-year design-patent term. Evidence retained in reference/patent-rights.json.",
           "rights_url": "https://patents.google.com/patent/USD21607S/en"
         },
         {
           "title": "MacKellar, Smiths & Jordan, Specimens of Printing Types (1892), p. 274",
           "url": "https://archive.org/details/specimensofprint00mackrich/page/n241/mode/2up",
           "file": "reference/1892-msj-johnson-specimen.png",
-          "rights": "Internet Archive records this 1892 edition as NOT_IN_COPYRIGHT",
-          "rights_url": "https://archive.org/details/specimensofprint00mackrich"
+          "rights": "Internet Archive records this 1892 edition as NOT_IN_COPYRIGHT; metadata and copyright evidence retained in reference/msj-rights.json.",
+          "rights_url": "https://archive.org/metadata/specimensofprint00mackrich"
         },
         {
           "title": "H. Berthold specimen catalogue (1909), Zierschrift Skandia, p. 428",
@@ -339,6 +339,13 @@
           "file": "reference/1909-berthold-skandia-specimen.jpg",
           "rights": "1909 historical printing, treated as public domain in the supplied source record; publication predates the maximum US term",
           "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+        },
+        {
+          "title": "John Ryan Foundry, Latest and Standard Faces in Type (1894), printed p. 145; JP2 member 0151, corroborating the 60-point J",
+          "url": "https://archive.org/details/lateststandardfa00ryan/page/145/mode/1up",
+          "file": "reference/1894-ryan-johnson-page-145.png",
+          "rights": "US publication from 1894, beyond the maximum 95-year term. Library of Congress metadata retained in reference/ryan-rights.json. Lossless PNG conversion of the historical JP2 page; used for comparison, not as a new tracing source.",
+          "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
         }
       ],
       "revival": {
@@ -347,9 +354,13 @@
           "Font Revival contributors"
         ],
         "tools": [
-          "GPT-5.6 Sol"
+          "GPT-5.6 Sol",
+          "Codex",
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
         ],
-        "notes": "Historical scans were deskewed, debris removed, and outlines fitted to the impressions. Original baseline irregularities and curled terminals are retained."
+        "notes": "Historical scans were deskewed, debris removed, and outlines fitted to the impressions. Original baseline irregularities and curled terminals are retained. In 1.002, H J L P R b f p q were retraced from recorded crops, removing stray scan marks and smoothing damaged stems. J uses the larger 60-point MSJ impression. Existing advances and kerning are preserved; see source/METHOD.md and the source/before-after proofs."
       },
       "characters": 95,
       "glyphs": 96
@@ -407,7 +418,7 @@
       "id": "nero-1888",
       "name": "Nero 1888",
       "style": "Regular",
-      "version": "1.002",
+      "version": "1.003",
       "postscript_name": "Nero1888-Regular",
       "year": 1888,
       "designer": "Julius Herriet, Sr. (attributed)",
@@ -420,17 +431,17 @@
       "sources": [
         {
           "title": "The Inland Printer, vol. 6, no. 2 (November 1888), p. 141",
-          "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/140/mode/2up",
+          "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/n52/mode/1up",
           "file": "reference/nero-1888-inland-printer-page-141.png",
-          "rights": "US publication from 1888, beyond the maximum copyright term; scan supplied with the revival as public domain",
+          "rights": "US publication from November 1888, beyond the maximum 95-year term. Journal metadata retained in reference/printer-metadata.json.",
           "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
         },
         {
           "title": "John Ryan Foundry, Latest and Standard Faces in Type (1894), p. 135",
-          "url": "https://archive.org/details/lateststandardfa00ryan/page/134/mode/2up",
+          "url": "https://archive.org/details/lateststandardfa00ryan/page/135/mode/1up",
           "file": "reference/nero-1894-john-ryan-page-135.png",
-          "rights": "US publication from 1894, beyond the maximum copyright term; scan supplied with the revival as public domain",
-          "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+          "rights": "US publication from 1894, beyond the maximum 95-year term. Library of Congress rights statement retained in reference/ryan-rights.json.",
+          "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
         }
       ],
       "revival": {
@@ -439,9 +450,13 @@
           "Font Revival contributors"
         ],
         "tools": [
-          "GPT-5.6 Sol"
+          "GPT-5.6 Sol",
+          "Codex",
+          "Pillow 12.3.0",
+          "Potrace 1.16",
+          "fontTools 4.64.0"
         ],
-        "notes": "Historical impressions are cleaned and harmonised into one display master. Reconstructed characters are informed by the observed letters. The j and jcircumflex were refined with a continuous stem and left-turning descender; see their editable glyph files and comparison proof."
+        "notes": "Historical impressions are cleaned and harmonised into one display master. Reconstructed characters are informed by the observed letters. The j and jcircumflex were refined with a continuous stem and left-turning descender; see their editable glyph files and comparison proof. C and all ten figures were retraced with recorded cleanup settings in 1.003. Five accented C forms share the corrected body while retaining their reconstructed accents. Source and before/after proofs accompany the revision; see source/METHOD.md."
       },
       "characters": 302,
       "glyphs": 306

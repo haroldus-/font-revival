@@ -53,6 +53,35 @@ An entry may set `advance_width` and `center` for a fixed-width cell. The recipe
 `monospaced`; fixed-pitch masters
 must give every drawing the same advance, including spaces and punctuation.
 The assembler carries fixed-pitch metadata into CFF and TrueType outputs.
+`ink_width` sets an explicit horizontal outline extent when preserving an
+existing glyph's proportions; it takes precedence over `width_scale`.
+
+## Revising selected glyphs
+
+For an existing family, `scripts/trace_revisions.py` prepares individual glyph
+JSON files rather than a replacement font. Set `mode` to `glyph-revision` in
+`source/tracing.json`, record the selected crops and `notes`, and use
+`review_characters`/`review_words` to focus the historical proof.
+
+```sh
+python scripts/trace_revisions.py nero-1888 --output workspace/nero-edits
+```
+
+This command reads the original CFF master without applying existing overrides,
+preserves its glyph names and advances, and writes candidate edits only to the
+specified directory. It rejects a recipe that changes an advance. Review and
+copy the desired files into `source/glyphs/`, following the version, changelog,
+before/after and verification steps in [WORKFLOW.md](WORKFLOW.md).
+
+A `replace_bases` mapping may list dependent glyph names, such as Cacute for C.
+The helper requires an exact match for the original base contours (apart from
+equivalent explicit/implicit closing lines), replaces them with the new drawing,
+and keeps all other contours in place. A mismatch fails preparation. This is
+appropriate for flattened CFF accents sharing the same original body; translated
+or otherwise altered bases require separate reviewed edits. Revision recipes
+do not require a `companions.json`, and they do not assemble a new master.
+
+## Vector construction and review
 
 Optional vector construction uses `requirements-tracing.txt`, which additionally
 pins skia-pathops 0.9.0. `scripts/outline_geometry.py` resolves contour overlaps and

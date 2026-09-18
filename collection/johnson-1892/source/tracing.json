@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "mode": "glyph-revision",
+  "description": "Selected source-based corrections; the canonical master, character map and OpenType features are preserved.",
+  "review_characters": "HJLPRbfpq",
+  "review_words": [
+    "Johnson PRINTS",
+    "HARP JOLLY LIBRARY",
+    "baffle paper quarry",
+    "Picking Nasturtiums. Jaunts."
+  ],
+  "glyphs": {
+    "H": {
+      "file": "reference/1892-patent-alphabet-and-figures.png",
+      "box": [
+        987,
+        119,
+        1109,
+        333
+      ],
+      "height": 929,
+      "y_min": -210,
+      "bearings": [
+        28,
+        24
+      ],
+      "advance_width": 572,
+      "blur": 1.4,
+      "threshold": 145,
+      "fill_holes": 8,
+      "tolerance": 0.5,
+      "ink_width": 509,
+      "notes": "Trace the 1892 patent alphabet; suppress scan-edge stair steps and retain only the main ink component. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "J": {
+      "file": "reference/1892-msj-johnson-specimen.png",
+      "box": [
+        1627,
+        3973,
+        1856,
+        4452
+      ],
+      "height": 899,
+      "y_min": -214,
+      "bearings": [
+        28,
+        24
+      ],
+      "advance_width": 488,
+      "blur": 0.8,
+      "threshold": 145,
+      "fill_holes": 8,
+      "tolerance": 0.5,
+      "ink_width": 419,
+      "notes": "Trace the 60-point J in Jaunts, MSJ 1892 p. 274; use the larger impression for a continuous stem and round curl. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "L": {
+      "file": "reference/1892-patent-alphabet-and-figures.png",
+      "box": [
+        1393,
+        123,
+        1497,
+        275
+      ],
+      "height": 659,
+      "y_min": 23,
+      "bearings": [
+        77,
+        24
+      ],
+      "advance_width": 555,
+      "blur": 1.4,
+      "threshold": 145,
+      "fill_holes": 8,
+      "tolerance": 0.5,
+      "ink_width": 441,
+      "notes": "Trace the 1892 patent alphabet; suppress scan-edge stair steps and retain only the main ink component. Discard isolated scan marks; the L target bounds exclude the stray triangle below its foot. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "P": {
+      "file": "reference/1892-patent-alphabet-and-figures.png",
+      "box": [
+        1935,
+        111,
+        2045,
+        265
+      ],
+      "height": 663,
+      "y_min": 35,
+      "bearings": [
+        28,
+        24
+      ],
+      "advance_width": 519,
+      "blur": 1.4,
+      "threshold": 125,
+      "fill_holes": 8,
+      "tolerance": 0.5,
+      "ink_width": 454,
+      "notes": "Trace the 1892 patent alphabet; suppress scan-edge stair steps and retain only the main ink component. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md. Threshold 125 preserves the open channel between the curl and stem."
+    },
+    "R": {
+      "file": "reference/1892-patent-alphabet-and-figures.png",
+      "box": [
+        2173,
+        105,
+        2301,
+        309
+      ],
+      "height": 893,
+      "y_min": -184,
+      "bearings": [
+        28,
+        24
+      ],
+      "advance_width": 609,
+      "blur": 1.4,
+      "threshold": 145,
+      "fill_holes": 8,
+      "tolerance": 0.5,
+      "ink_width": 544,
+      "notes": "Trace the 1892 patent alphabet; suppress scan-edge stair steps and retain only the main ink component. Discard isolated scan marks; the L target bounds exclude the stray triangle below its foot. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "b": {
+      "file": "reference/1892-patent-alphabet-and-figures.png",
+      "box": [
+        159,
+        1113,
+        253,
+        1267
+      ],
+      "height": 666,
+      "y_min": -27,
+      "bearings": [
+        29,
+        24
+      ],
+      "advance_width": 439,
+      "blur": 1.4,
+      "threshold": 145,
+      "fill_holes": 8,
+      "tolerance": 0.5,
+      "ink_width": 381,
+      "notes": "Trace the 1892 patent alphabet; suppress scan-edge stair steps and retain only the main ink component. Discard isolated scan marks; the L target bounds exclude the stray triangle below its foot. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "f": {
+      "file": "reference/1892-patent-alphabet-and-figures.png",
+      "box": [
+        531,
+        1105,
+        595,
+        1259
+      ],
+      "height": 664,
+      "y_min": -9,
+      "bearings": [
+        28,
+        24
+      ],
+      "advance_width": 304,
+      "blur": 1.4,
+      "threshold": 145,
+      "fill_holes": 8,
+      "tolerance": 0.5,
+      "ink_width": 248,
+      "notes": "Trace the 1892 patent alphabet; suppress scan-edge stair steps and retain only the main ink component. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "p": {
+      "file": "reference/1892-patent-alphabet-and-figures.png",
+      "box": [
+        1353,
+        1141,
+        1447,
+        1297
+      ],
+      "height": 673,
+      "y_min": -227,
+      "bearings": [
+        28,
+        24
+      ],
+      "advance_width": 448,
+      "blur": 1.4,
+      "threshold": 145,
+      "fill_holes": 8,
+      "tolerance": 0.5,
+      "ink_width": 392,
+      "notes": "Trace the 1892 patent alphabet; suppress scan-edge stair steps and retain only the main ink component. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    },
+    "q": {
+      "file": "reference/1892-patent-alphabet-and-figures.png",
+      "box": [
+        1451,
+        1139,
+        1543,
+        1295
+      ],
+      "height": 676,
+      "y_min": -227,
+      "bearings": [
+        30,
+        24
+      ],
+      "advance_width": 439,
+      "blur": 1.4,
+      "threshold": 145,
+      "fill_holes": 8,
+      "tolerance": 0.5,
+      "ink_width": 381,
+      "notes": "Trace the 1892 patent alphabet; suppress scan-edge stair steps and retain only the main ink component. Preserve the original advance and rounded visible outline bounds. See source/METHOD.md."
+    }
+  }
+}

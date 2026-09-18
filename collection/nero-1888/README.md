@@ -4,7 +4,7 @@ A condensed, chiseled display face with pointed terminals, deep notches, and dra
 
 ![Nero 1888 specimen](specimens/preview.png)
 
-**1888 · Regular · Version 1.002 · 302 characters · MIT**
+**1888 · Regular · Version 1.003 · 302 characters · MIT**
 
 [OTF](fonts/Nero1888-Regular.otf) · [TTF](fonts/Nero1888-Regular.ttf) · [WOFF2](web/Nero1888-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -25,8 +25,8 @@ and use `font-family: "Nero 1888"`. Designed for display sizes.
 
 ## Sources
 
-1. [The Inland Printer, vol. 6, no. 2 (November 1888), p. 141](https://archive.org/details/sim_american-printer_1888-11_6_2/page/140/mode/2up) — US publication from 1888, beyond the maximum copyright term; scan supplied with the revival as public domain [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
-2. [John Ryan Foundry, Latest and Standard Faces in Type (1894), p. 135](https://archive.org/details/lateststandardfa00ryan/page/134/mode/2up) — US publication from 1894, beyond the maximum copyright term; scan supplied with the revival as public domain [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
+1. [The Inland Printer, vol. 6, no. 2 (November 1888), p. 141](https://archive.org/details/sim_american-printer_1888-11_6_2/page/n52/mode/1up) — US publication from November 1888, beyond the maximum 95-year term. Journal metadata retained in reference/printer-metadata.json. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
+2. [John Ryan Foundry, Latest and Standard Faces in Type (1894), p. 135](https://archive.org/details/lateststandardfa00ryan/page/135/mode/1up) — US publication from 1894, beyond the maximum 95-year term. Library of Congress rights statement retained in reference/ryan-rights.json. [Rights basis](https://archive.org/metadata/lateststandardfa00ryan).
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.

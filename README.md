@@ -22,6 +22,8 @@ Knob-ended curls, rounded strokes, and a deliberately irregular rhythm.
 [TTF](collection/johnson-1892/fonts/Johnson1892-Regular.ttf) ·
 [Webfont](collection/johnson-1892/web/) ·
 [Specimen PDF](collection/johnson-1892/specimens/specimen.pdf) ·
+[Source comparison](collection/johnson-1892/specimens/source-review.pdf) ·
+[Revision comparison](collection/johnson-1892/specimens/source-revision-review.pdf) ·
 [Sources & details](collection/johnson-1892)
 
 ### Nero 1888
@@ -35,6 +37,8 @@ James Conner's Sons. Pointed terminals, deep notches, and dramatic descenders.
 [TTF](collection/nero-1888/fonts/Nero1888-Regular.ttf) ·
 [Webfont](collection/nero-1888/web/) ·
 [Specimen PDF](collection/nero-1888/specimens/specimen.pdf) ·
+[Source comparison](collection/nero-1888/specimens/source-review.pdf) ·
+[Revision comparison](collection/nero-1888/specimens/source-revision-review.pdf) ·
 [Sources & details](collection/nero-1888)
 
 ### Quaint Gothic 1894
