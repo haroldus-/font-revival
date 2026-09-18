@@ -1,0 +1,401 @@
+{
+  "description": "Final measurements after visual selection and metric harmonisation. Tracing.json additionally records cleanup and spacing. Coordinates are retained image pixels, x right and y down.",
+  "glyphs": {
+    "-": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1375,
+        2424,
+        1424,
+        2473
+      ],
+      "height": 215,
+      "y_min": 220,
+      "notes": "Observed impression, measured row 0, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "0": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        1466,
+        3985,
+        1517,
+        4066
+      ],
+      "height": 717,
+      "y_min": -107,
+      "notes": "Observed impression, measured row 7, sort 9. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "1": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        927,
+        3972,
+        956,
+        4059
+      ],
+      "height": 770,
+      "y_min": -45,
+      "notes": "Observed impression, measured row 7, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "2": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        971,
+        3982,
+        1022,
+        4076
+      ],
+      "height": 832,
+      "y_min": -195,
+      "notes": "Observed impression, measured row 7, sort 1. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "3": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        1034,
+        3982,
+        1083,
+        4063
+      ],
+      "height": 717,
+      "y_min": -80,
+      "notes": "Observed impression, measured row 7, sort 2. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "4": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        1095,
+        3974,
+        1144,
+        4062
+      ],
+      "height": 779,
+      "y_min": -71,
+      "notes": "Observed impression, measured row 7, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "5": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        1156,
+        3973,
+        1205,
+        4064
+      ],
+      "height": 805,
+      "y_min": -89,
+      "notes": "Observed impression, measured row 7, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "6": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        1217,
+        3950,
+        1267,
+        4064
+      ],
+      "height": 710,
+      "y_min": -10,
+      "notes": "Observed impression, measured row 7, sort 5. See selections.json. Baseline and size harmonised for this digital master. Isolated dash above the figure is scan contamination and is erased."
+    },
+    "7": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        1282,
+        3980,
+        1328,
+        4078
+      ],
+      "height": 867,
+      "y_min": -213,
+      "notes": "Observed impression, measured row 7, sort 6. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "8": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        1342,
+        3984,
+        1389,
+        4081
+      ],
+      "height": 858,
+      "y_min": -240,
+      "notes": "Observed impression, measured row 7, sort 7. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "9": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        1403,
+        3950,
+        1452,
+        4065
+      ],
+      "height": 710,
+      "y_min": -10,
+      "notes": "Observed impression, measured row 7, sort 8. See selections.json. Baseline and size harmonised for this digital master. Isolated dash above the figure is scan contamination and is erased."
+    },
+    "A": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1115,
+        2344,
+        1223,
+        2563
+      ],
+      "height": 962,
+      "y_min": -175,
+      "notes": "Observed impression, measured row 0, sort 7. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "B": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1437,
+        2364,
+        1550,
+        2558
+      ],
+      "height": 852,
+      "y_min": -154,
+      "notes": "Observed impression, measured row 0, sort 10. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "C": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1686,
+        2345,
+        1786,
+        2528
+      ],
+      "height": 804,
+      "y_min": -22,
+      "notes": "Observed impression, measured row 0, sort 12. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "D": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        797,
+        2344,
+        909,
+        2525
+      ],
+      "height": 795,
+      "y_min": -9,
+      "notes": "Observed impression, measured row 0, sort 5. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "E": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        376,
+        2366,
+        482,
+        2525
+      ],
+      "height": 698,
+      "y_min": -9,
+      "notes": "Observed impression, measured row 0, sort 2. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "F": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        2007,
+        1703,
+        2088,
+        1829
+      ],
+      "height": 786,
+      "y_min": -109,
+      "notes": "Observed impression, measured row 15, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "G": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1598,
+        2632,
+        1706,
+        2814
+      ],
+      "height": 788,
+      "y_min": -6,
+      "notes": "Observed impression, measured row 2, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "H": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        242,
+        2367,
+        361,
+        2557
+      ],
+      "height": 835,
+      "y_min": -149,
+      "notes": "Observed impression, measured row 0, sort 1. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "I": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        957,
+        2653,
+        999,
+        2811
+      ],
+      "height": 684,
+      "y_min": 7,
+      "notes": "Observed impression, measured row 1, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "K": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1245,
+        2343,
+        1364,
+        2554
+      ],
+      "height": 927,
+      "y_min": -136,
+      "notes": "Observed impression, measured row 0, sort 8. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "L": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        684,
+        2366,
+        784,
+        2525
+      ],
+      "height": 698,
+      "y_min": -9,
+      "notes": "Observed impression, measured row 0, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "M": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        907,
+        3477,
+        1033,
+        3650
+      ],
+      "height": 803,
+      "y_min": -122,
+      "notes": "Observed impression, measured row 3, sort 2. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "N": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1018,
+        2630,
+        1145,
+        2834
+      ],
+      "height": 884,
+      "y_min": -93,
+      "notes": "Observed impression, measured row 1, sort 4. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "O": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        558,
+        2346,
+        671,
+        2532
+      ],
+      "height": 817,
+      "y_min": -39,
+      "notes": "Observed impression, measured row 0, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "P": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1071,
+        1323,
+        1134,
+        1401
+      ],
+      "height": 676,
+      "y_min": -22,
+      "notes": "Observed impression, measured row 16, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "R": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1625,
+        1704,
+        1719,
+        1839
+      ],
+      "height": 842,
+      "y_min": -172,
+      "notes": "Observed impression, measured row 11, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "S": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1221,
+        2632,
+        1339,
+        2842
+      ],
+      "height": 910,
+      "y_min": -127,
+      "notes": "Observed impression, measured row 2, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "T": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        112,
+        2367,
+        229,
+        2525
+      ],
+      "height": 694,
+      "y_min": -9,
+      "notes": "Observed impression, measured row 0, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "U": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1565,
+        2342,
+        1671,
+        2526
+      ],
+      "height": 808,
+      "y_min": -13,
+      "notes": "Observed impression, measured row 0, sort 11. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "V": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1039,
+        1138,
+        1109,
+        1229
+      ],
+      "height": 788,
+      "y_min": -49,
+      "notes": "Observed impression, measured row 19, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "W": {
+      "file": "reference/ryan-107.png",
+      "box": [
+        1138,
+        1692,
+        1275,
+        1819
+      ],
+      "height": 792,
+      "y_min": -47,
+      "notes": "Observed impression, measured row 14, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "Y": {
+      "file": "reference/atf-oriole-full.png",
+      "box": [
+        788,
+        3459,
+        901,
+        3628
+      ],
+      "height": 785,
+      "y_min": -19,
+      "notes": "Observed impression, measured row 3, sort 1. See selections.json. Baseline and size harmonised for this digital master."
+    }
+  }
+}

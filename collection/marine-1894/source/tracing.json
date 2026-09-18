@@ -1,0 +1,1001 @@
+{
+  "schema_version": 1,
+  "units_per_em": 1000,
+  "cap_height": 700,
+  "tool": "Potrace 1.16",
+  "font_metrics": {
+    "cap_height": 700,
+    "x_height": 500,
+    "monospaced": false
+  },
+  "glyphs": {
+    ",": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        711,
+        836,
+        720,
+        857
+      ],
+      "height": 285,
+      "y_min": -115,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 10, sort 9. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "1": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1859,
+        1510,
+        1915,
+        1646
+      ],
+      "height": 700,
+      "y_min": 2,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 12. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "2": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1927,
+        1109,
+        2051,
+        1285
+      ],
+      "height": 733,
+      "y_min": -19,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 7. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "3": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1794,
+        1111,
+        1909,
+        1289
+      ],
+      "height": 741,
+      "y_min": -36,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 6. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "4": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1720,
+        686,
+        1896,
+        906
+      ],
+      "height": 692,
+      "y_min": -4,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 7. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "5": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        261,
+        795,
+        299,
+        843
+      ],
+      "height": 651,
+      "y_min": 75,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 10, sort 0. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "6": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1909,
+        1840,
+        1971,
+        1937
+      ],
+      "height": 742,
+      "y_min": -30,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 3, sort 13. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "7": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1917,
+        678,
+        2091,
+        909
+      ],
+      "height": 727,
+      "y_min": -13,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 8. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "A": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        2581,
+        684,
+        2769,
+        904
+      ],
+      "height": 692,
+      "y_min": 2,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 11. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "B": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        2188,
+        684,
+        2366,
+        905
+      ],
+      "height": 695,
+      "y_min": -1,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 9. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "C": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1181,
+        1843,
+        1253,
+        1938
+      ],
+      "height": 727,
+      "y_min": -38,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 3, sort 5. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "D": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        662,
+        690,
+        826,
+        911
+      ],
+      "height": 695,
+      "y_min": -20,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 0. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "E": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        647,
+        1514,
+        751,
+        1653
+      ],
+      "height": 716,
+      "y_min": -35,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 0. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "F": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        1689,
+        2753,
+        1816,
+        2932
+      ],
+      "height": 698,
+      "y_min": -28,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 5, sort 9. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "G": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        2158,
+        1111,
+        2282,
+        1282
+      ],
+      "height": 712,
+      "y_min": -6,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 8. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "H": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        793,
+        1845,
+        876,
+        1935
+      ],
+      "height": 689,
+      "y_min": -15,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 3, sort 0. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "I": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1145,
+        1844,
+        1170,
+        1934
+      ],
+      "height": 689,
+      "y_min": -7,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 3, sort 4. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "J": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        1614,
+        687,
+        1648,
+        735
+      ],
+      "height": 713,
+      "y_min": -48,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 9, sort 18. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "K": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        1533,
+        1159,
+        1593,
+        1227
+      ],
+      "height": 707,
+      "y_min": -61,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 7, sort 13. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "L": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        2413,
+        1508,
+        2511,
+        1647
+      ],
+      "height": 716,
+      "y_min": -4,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 16. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "M": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        2749,
+        1508,
+        2883,
+        1643
+      ],
+      "height": 695,
+      "y_min": 17,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 19. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "N": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1560,
+        1113,
+        1683,
+        1285
+      ],
+      "height": 716,
+      "y_min": -19,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 5. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "O": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        2387,
+        680,
+        2563,
+        912
+      ],
+      "height": 730,
+      "y_min": -23,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 10. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "P": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        1456,
+        1303,
+        1511,
+        1372
+      ],
+      "height": 742,
+      "y_min": -126,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 8, sort 19. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "Q": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1385,
+        2150,
+        1439,
+        2226
+      ],
+      "height": 828,
+      "y_min": -122,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 14. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "R": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        970,
+        1845,
+        1050,
+        1937
+      ],
+      "height": 704,
+      "y_min": -30,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 3, sort 2. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "S": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        2965,
+        680,
+        3116,
+        911
+      ],
+      "height": 727,
+      "y_min": -20,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 13. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "T": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        2773,
+        673,
+        2948,
+        904
+      ],
+      "height": 727,
+      "y_min": 2,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 12. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "U": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1261,
+        1842,
+        1337,
+        1935
+      ],
+      "height": 712,
+      "y_min": -15,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 3, sort 6. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "W": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        816,
+        2744,
+        1000,
+        2928
+      ],
+      "height": 717,
+      "y_min": -12,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 5, sort 3. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "a": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        2299,
+        1164,
+        2411,
+        1282
+      ],
+      "height": 491,
+      "y_min": -6,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 9. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "b": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        1869,
+        2275,
+        1961,
+        2421
+      ],
+      "height": 723,
+      "y_min": -50,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 6, sort 11. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "c": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        1882,
+        810,
+        1917,
+        849
+      ],
+      "height": 529,
+      "y_min": -7,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 10, sort 34. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "d": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        706,
+        2151,
+        752,
+        2218
+      ],
+      "height": 730,
+      "y_min": -35,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 1. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "e": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        850,
+        757,
+        991,
+        914
+      ],
+      "height": 494,
+      "y_min": -29,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 1. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "f": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        1020,
+        1301,
+        1057,
+        1369
+      ],
+      "height": 731,
+      "y_min": -94,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 8, sort 12. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "g": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1637,
+        1554,
+        1748,
+        1694
+      ],
+      "height": 721,
+      "y_min": -246,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 11. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "h": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        1298,
+        1301,
+        1348,
+        1372
+      ],
+      "height": 763,
+      "y_min": -126,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 8, sort 17. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "i": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1472,
+        680,
+        1513,
+        907
+      ],
+      "height": 714,
+      "y_min": -7,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 5. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "l": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1682,
+        2149,
+        1699,
+        2215
+      ],
+      "height": 719,
+      "y_min": -2,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 20. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "m": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        1669,
+        810,
+        1733,
+        851
+      ],
+      "height": 556,
+      "y_min": -34,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 10, sort 30. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "n": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        768,
+        1553,
+        852,
+        1653
+      ],
+      "height": 515,
+      "y_min": -35,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 1. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "o": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1286,
+        753,
+        1439,
+        913
+      ],
+      "height": 503,
+      "y_min": -26,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 4. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "p": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1146,
+        1554,
+        1236,
+        1691
+      ],
+      "height": 705,
+      "y_min": -230,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 5. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "r": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1138,
+        754,
+        1272,
+        910
+      ],
+      "height": 491,
+      "y_min": -17,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 3. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "s": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1387,
+        1551,
+        1473,
+        1651
+      ],
+      "height": 515,
+      "y_min": -24,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 2, sort 8. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "t": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        998,
+        702,
+        1117,
+        915
+      ],
+      "height": 670,
+      "y_min": -32,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 0, sort 2. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "u": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1450,
+        2166,
+        1494,
+        2216
+      ],
+      "height": 545,
+      "y_min": -13,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 15. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "v": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        761,
+        2167,
+        802,
+        2218
+      ],
+      "height": 555,
+      "y_min": -35,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 2. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "w": {
+      "file": "reference/ryan-100.png",
+      "box": [
+        1707,
+        1318,
+        1773,
+        1372
+      ],
+      "height": 581,
+      "y_min": -126,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 8, sort 23. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "y": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        1708,
+        2165,
+        1757,
+        2233
+      ],
+      "height": 741,
+      "y_min": -198,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 4, sort 21. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    },
+    "z": {
+      "file": "reference/atf-marine-full.png",
+      "box": [
+        2426,
+        1170,
+        2522,
+        1283
+      ],
+      "height": 471,
+      "y_min": -11,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.55,
+      "fill_holes": 4,
+      "notes": "Observed impression, measured row 1, sort 10. See selections.json. Baseline and size harmonised for this digital master.",
+      "component_min_area": 5
+    }
+  }
+}

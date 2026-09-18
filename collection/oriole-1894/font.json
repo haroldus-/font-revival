@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "oriole-1894",
+  "name": "Oriole 1894",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "Oriole1894-Regular",
+  "year": 1894,
+  "designer": "Unidentified in the consulted primary specimens",
+  "foundry": "John Ryan Foundry, Baltimore (specimen seller)",
+  "description": "High-contrast ornamental capitals with incisions, curls and fine detached details.",
+  "license": "MIT",
+  "sample_text": "THE OLD OAK-BUCKET",
+  "observed": "Directly sampled alphabet and figures: ABCDEFGHIKLMNOPRSTUVWY0123456789. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+  "reconstructed": "Inferred alphabet/figures: JQXZ. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. The year identifies the specimen, not a claimed first release.",
+  "sources": [
+    {
+      "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 107",
+      "url": "https://archive.org/details/lateststandardfa00ryan/page/107/mode/1up",
+      "file": "reference/ryan-107.png",
+      "rights": "1894 US publication, beyond the maximum 95-year term. Library of Congress scan; institutional rights statement retained in reference/ryan-rights.json.",
+      "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+    },
+    {
+      "title": "American Type Founders, Collective Specimen Book (1895/96), printed p. 506",
+      "url": "https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-372-american-bank-note-series-and-combination-celtic-series-and-monumental-ornamented-series-and-oriole-series-john-ryan-foundry-publicdomain.pdf",
+      "file": "reference/atf-oriole-full.png",
+      "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
+      "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+    }
+  ],
+  "revival": {
+    "contributors": [
+      "Font Revival contributors"
+    ],
+    "tools": [
+      "Codex",
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0",
+      "skia-pathops 0.9.0"
+    ],
+    "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+  },
+  "character_style": "capitals-only"
+}

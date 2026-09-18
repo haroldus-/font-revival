@@ -1,0 +1,533 @@
+{
+  "schema_version": 1,
+  "units_per_em": 1000,
+  "cap_height": 700,
+  "tool": "Potrace 1.16",
+  "font_metrics": {
+    "cap_height": 700,
+    "x_height": 700,
+    "monospaced": false
+  },
+  "glyphs": {
+    "$": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1069,
+        902,
+        1109,
+        962
+      ],
+      "height": 739,
+      "y_min": -66,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 2,
+      "notes": "Observed impression, measured row 0, sort 12. See selections.json. Baseline and size harmonised for this digital master.",
+      "tolerance": 0.5,
+      "ink_erosion": 2
+    },
+    "2": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1537,
+        923,
+        1572,
+        979
+      ],
+      "height": 647,
+      "y_min": -29,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 16.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "4": {
+      "file": "reference/desk-486.png",
+      "box": [
+        247,
+        2219,
+        296,
+        2291
+      ],
+      "height": 704,
+      "y_min": -40,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 2,
+      "notes": "Observed impression, measured row 4, sort 0. See selections.json. Baseline and size harmonised for this digital master.",
+      "tolerance": 0.5,
+      "ink_erosion": 0
+    },
+    "5": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1490,
+        925,
+        1529,
+        981
+      ],
+      "height": 647,
+      "y_min": -53,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 15.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "6": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1114,
+        902,
+        1151,
+        961
+      ],
+      "height": 726,
+      "y_min": -54,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 2,
+      "notes": "Observed impression, measured row 0, sort 13. See selections.json. Baseline and size harmonised for this digital master.",
+      "tolerance": 0.5,
+      "ink_erosion": 2
+    },
+    "8": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1154,
+        904,
+        1194,
+        961
+      ],
+      "height": 702,
+      "y_min": -54,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 2,
+      "notes": "Observed impression, measured row 0, sort 14. See selections.json. Baseline and size harmonised for this digital master.",
+      "tolerance": 0.5,
+      "ink_erosion": 2
+    },
+    "A": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        952,
+        788,
+        994,
+        845
+      ],
+      "height": 658,
+      "y_min": -11,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 4.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "B": {
+      "file": "reference/desk-486.png",
+      "box": [
+        485,
+        2218,
+        542,
+        2291
+      ],
+      "height": 714,
+      "y_min": -40,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 2,
+      "notes": "Observed impression, measured row 4, sort 3. See selections.json. Baseline and size harmonised for this digital master.",
+      "tolerance": 0.5,
+      "ink_erosion": 0
+    },
+    "C": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        741,
+        787,
+        790,
+        846
+      ],
+      "height": 681,
+      "y_min": -23,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 0.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "D": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1354,
+        921,
+        1399,
+        979
+      ],
+      "height": 670,
+      "y_min": -29,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 13.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "E": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        797,
+        787,
+        839,
+        845
+      ],
+      "height": 670,
+      "y_min": -11,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 1.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "G": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1220,
+        788,
+        1266,
+        845
+      ],
+      "height": 658,
+      "y_min": -11,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 9.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "H": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        723,
+        920,
+        765,
+        978
+      ],
+      "height": 670,
+      "y_min": -18,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 1.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "I": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1003,
+        787,
+        1010,
+        844
+      ],
+      "height": 658,
+      "y_min": 0,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 5.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "L": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1112,
+        788,
+        1154,
+        846
+      ],
+      "height": 670,
+      "y_min": -23,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 7.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "M": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1722,
+        789,
+        1769,
+        846
+      ],
+      "height": 658,
+      "y_min": -23,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 19.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "N": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1025,
+        787,
+        1067,
+        845
+      ],
+      "height": 670,
+      "y_min": -11,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 6.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "O": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1163,
+        787,
+        1212,
+        847
+      ],
+      "height": 693,
+      "y_min": -35,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 8.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "P": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        675,
+        919,
+        715,
+        976
+      ],
+      "height": 658,
+      "y_min": 5,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 0.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "Q": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1503,
+        1013,
+        1562,
+        1074
+      ],
+      "height": 785,
+      "y_min": -79,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 2,
+      "notes": "Observed impression, measured row 1, sort 18. See selections.json. Baseline and size harmonised for this digital master.",
+      "tolerance": 0.5,
+      "ink_erosion": 2
+    },
+    "R": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        848,
+        787,
+        891,
+        844
+      ],
+      "height": 658,
+      "y_min": 0,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 2.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "S": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1467,
+        788,
+        1516,
+        848
+      ],
+      "height": 693,
+      "y_min": -46,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 14.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "T": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        899,
+        788,
+        946,
+        845
+      ],
+      "height": 658,
+      "y_min": -11,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 3.",
+      "tolerance": 0.5,
+      "threshold": 160
+    },
+    "U": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1562,
+        1014,
+        1609,
+        1072
+      ],
+      "height": 747,
+      "y_min": -53,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 2,
+      "notes": "Observed impression, measured row 1, sort 19. See selections.json. Baseline and size harmonised for this digital master.",
+      "tolerance": 0.5,
+      "ink_erosion": 2
+    },
+    "W": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1227,
+        902,
+        1287,
+        959
+      ],
+      "height": 702,
+      "y_min": -29,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.65,
+      "fill_holes": 2,
+      "notes": "Observed impression, measured row 0, sort 15. See selections.json. Baseline and size harmonised for this digital master.",
+      "tolerance": 0.5,
+      "ink_erosion": 2
+    },
+    "Y": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1108,
+        922,
+        1150,
+        979
+      ],
+      "height": 658,
+      "y_min": -29,
+      "bearings": [
+        45,
+        45
+      ],
+      "blur": 0.25,
+      "fill_holes": 2,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 9.",
+      "tolerance": 0.5,
+      "threshold": 160
+    }
+  }
+}

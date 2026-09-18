@@ -36,8 +36,11 @@ Each participating family keeps:
 The tracer caches each decoded image, works on small crops, blurs by 0.55 pixels,
 thresholds at 135, retains the largest connected ink component, and fills enclosed
 white specks of at most eight pixels. Per-glyph settings override these defaults.
-**This cleanup is for connected letters.** Detached dots or accents require
-separate treatment; do not use it blindly on arbitrary glyphs.
+For detached dots and ornaments, set `keep_components` to retain the largest N
+components, or `component_min_area` to retain all components above a pixel-area
+threshold. Inspect the result: pale hairlines may require a higher `threshold`
+and less `blur`. `ink_erosion` shrinks ink by an integer pixel radius before
+component selection; use it only to compensate for documented impression spread.
 
 Potrace fits cubic outlines with `alphamax=1`, `opttolerance=0.35`, `turdsize=0`
 and `unit=10`. The script reads its y-up paths, scales uniformly to the documented
@@ -45,9 +48,22 @@ height, moves them to the recorded baseline and sidebearing, and rounds to font
 units. No modern font is used to supply missing characters. Missing companions
 must be drawn explicitly and described honestly in `font.json`.
 
+An entry may set `advance_width` and `center` for a fixed-width cell. The recipe's
+`font_metrics` can set `cap_height`, `x_height`, `win_ascent`, `win_descent` and
+`monospaced`; fixed-pitch masters
+must give every drawing the same advance, including spaces and punctuation.
+The assembler carries fixed-pitch metadata into CFF and TrueType outputs.
+
+Optional vector construction uses `requirements-tracing.txt`, which additionally
+pins skia-pathops 0.9.0. `scripts/outline_geometry.py` resolves contour overlaps and
+constructs translated silhouette differences without a raster step. The Hades
+family's `source/derive.py` uses it to prepare a registered companion to Erebus.
+These tools are not required by normal builds or checks.
+
 `build` also generates `specimens/source-review.pdf` for these families. It pairs
 each capital and figure with its historical crop (or labels an inferred drawing),
-then shows words at four sizes. The normal specimen includes the full encoded
+then shows words at four sizes. Mixed-case families also compare lowercase.
+Recipes may override `review_characters` and `review_words`. The normal specimen includes the full encoded
 inventory. Review both, including punctuation and spacing, before accepting a
 master. Lowercase aliases are permitted for documented capitals-only designs;
 they must be visible in the metadata, README and gallery.

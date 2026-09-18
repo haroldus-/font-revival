@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "remington-1888",
+  "name": "Remington 1888",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "Remington1888-Regular",
+  "year": 1888,
+  "designer": "Unidentified in the consulted primary specimens",
+  "foundry": "Barnhart Brothers & Spindler, Chicago",
+  "description": "A monospaced metal-type imitation of typewriting, following the 12-point No. 2 cut.",
+  "license": "MIT",
+  "sample_text": "Paris, Ill., May 6th, 1887.",
+  "observed": "Directly sampled alphabet and figures: ABCDGHIJLMNPRSTabcdefghiklmnopqrstuvwxyz012678. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+  "reconstructed": "Inferred alphabet/figures: EFKOQUVWXYZj3459. Unobserved punctuation and symbols are newly drawn MIT project companions. Fixed-cell spacing and proportion harmonisation are new; there is no kerning. Uppercase and lowercase are distinct. 12-point No. 2 only; the 10-point cut is excluded. The year identifies the specimen, not a claimed first release.",
+  "sources": [
+    {
+      "title": "The Inland Printer, vol. 6, no. 2 (November 1888), printed p. 137",
+      "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/n48/mode/1up",
+      "file": "reference/printer-137.png",
+      "rights": "1888 US journal, public domain under the maximum 95-year term. Faithful microfilm scan; issue and provenance retained in reference/printer-metadata.json.",
+      "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+    }
+  ],
+  "revival": {
+    "contributors": [
+      "Font Revival contributors"
+    ],
+    "tools": [
+      "Codex",
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0",
+      "skia-pathops 0.9.0"
+    ],
+    "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+  },
+  "character_style": "mixed-case"
+}

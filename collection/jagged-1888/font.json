@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "jagged-1888",
+  "name": "Jagged 1888",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "Jagged1888-Regular",
+  "year": 1888,
+  "designer": "Unidentified in the consulted primary specimens",
+  "foundry": "Dickinson Type Foundery, Boston",
+  "description": "Angular, lightly drawn display capitals following the historical No. 39 cut.",
+  "license": "MIT",
+  "sample_text": "PHILOSOPHY GRADE",
+  "observed": "Directly sampled alphabet and figures: ABCDEGHILMNOPQRSTUWY24568. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
+  "reconstructed": "Inferred alphabet/figures: FJKVXZ01379. Unobserved punctuation and symbols are newly drawn MIT project companions. Spacing, kerning and optical-size harmonisation are new. Lowercase input aliases capitals. No. 39 only; Nos. 40 and 41 are separate cuts. The year identifies the specimen, not a claimed first release.",
+  "sources": [
+    {
+      "title": "John Ryan Foundry, Latest and Standard Faces in Type (September 1894), printed p. 121",
+      "url": "https://archive.org/details/lateststandardfa00ryan/page/121/mode/1up",
+      "file": "reference/ryan-121.png",
+      "rights": "1894 US publication, beyond the maximum 95-year term. Library of Congress scan; institutional rights statement retained in reference/ryan-rights.json.",
+      "rights_url": "https://archive.org/metadata/lateststandardfa00ryan"
+    },
+    {
+      "title": "American Type Founders, Collective Specimen Book (1895/96), printed p. 345",
+      "url": "https://www.galleyrack.com/images/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/atf-1896-specimens-of-type-garland-1981-smallpart-227-the-jagged-series-and-the-moxon-series-dickinson-type-foundery-publicdomain.pdf",
+      "file": "reference/atf-jagged-full.png",
+      "rights": "Historical 1895/96 US specimen page, public domain under the maximum 95-year term; scanned from the 1981 Garland facsimile. This reference contains only the nineteenth-century page, not the modern introduction. Rendered at 400 dpi in grayscale from the linked PDF.",
+      "rights_url": "https://www.circuitousroot.com/artifice/letters/press/noncomptype/typography/atf/atf-collective-specimen-garland-badscan/index.html"
+    },
+    {
+      "title": "The Inland Printer, vol. 6, no. 2 (November 1888), printed p. 147",
+      "url": "https://archive.org/details/sim_american-printer_1888-11_6_2/page/n58/mode/1up",
+      "file": "reference/printer-147.png",
+      "rights": "1888 US journal, public domain under the maximum 95-year term. Faithful microfilm scan; issue and provenance retained in reference/printer-metadata.json.",
+      "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+    },
+    {
+      "title": "American Type Founders, Desk Book of Printing Types (1898), printed p. 493; JP2 member 0487",
+      "url": "https://archive.org/details/deskbookofprinti00amer",
+      "file": "reference/desk-486.png",
+      "rights": "Nineteenth-century US publication, beyond the maximum 95-year term. Library of Congress scan; institutional metadata retained with the reference.",
+      "rights_url": "https://archive.org/metadata/deskbookofprinti00amer"
+    }
+  ],
+  "revival": {
+    "contributors": [
+      "Font Revival contributors"
+    ],
+    "tools": [
+      "Codex",
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0",
+      "skia-pathops 0.9.0"
+    ],
+    "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+  },
+  "character_style": "capitals-only"
+}

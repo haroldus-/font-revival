@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Crusader 1894";
+  src: url("./Crusader1894-Regular.woff2") format("woff2"),
+       url("./Crusader1894-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

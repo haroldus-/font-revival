@@ -1,0 +1,317 @@
+{
+  "description": "Final measurements after visual selection and metric harmonisation. Tracing.json additionally records cleanup and spacing. Coordinates are retained image pixels, x right and y down.",
+  "glyphs": {
+    "$": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1069,
+        902,
+        1109,
+        962
+      ],
+      "height": 739,
+      "y_min": -66,
+      "notes": "Observed impression, measured row 0, sort 12. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "2": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1537,
+        923,
+        1572,
+        979
+      ],
+      "height": 647,
+      "y_min": -29,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 16."
+    },
+    "4": {
+      "file": "reference/desk-486.png",
+      "box": [
+        247,
+        2219,
+        296,
+        2291
+      ],
+      "height": 704,
+      "y_min": -40,
+      "notes": "Observed impression, measured row 4, sort 0. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "5": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1490,
+        925,
+        1529,
+        981
+      ],
+      "height": 647,
+      "y_min": -53,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 15."
+    },
+    "6": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1114,
+        902,
+        1151,
+        961
+      ],
+      "height": 726,
+      "y_min": -54,
+      "notes": "Observed impression, measured row 0, sort 13. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "8": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1154,
+        904,
+        1194,
+        961
+      ],
+      "height": 702,
+      "y_min": -54,
+      "notes": "Observed impression, measured row 0, sort 14. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "A": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        952,
+        788,
+        994,
+        845
+      ],
+      "height": 658,
+      "y_min": -11,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 4."
+    },
+    "B": {
+      "file": "reference/desk-486.png",
+      "box": [
+        485,
+        2218,
+        542,
+        2291
+      ],
+      "height": 714,
+      "y_min": -40,
+      "notes": "Observed impression, measured row 4, sort 3. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "C": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        741,
+        787,
+        790,
+        846
+      ],
+      "height": 681,
+      "y_min": -23,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 0."
+    },
+    "D": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1354,
+        921,
+        1399,
+        979
+      ],
+      "height": 670,
+      "y_min": -29,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 13."
+    },
+    "E": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        797,
+        787,
+        839,
+        845
+      ],
+      "height": 670,
+      "y_min": -11,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 1."
+    },
+    "G": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1220,
+        788,
+        1266,
+        845
+      ],
+      "height": 658,
+      "y_min": -11,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 9."
+    },
+    "H": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        723,
+        920,
+        765,
+        978
+      ],
+      "height": 670,
+      "y_min": -18,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 1."
+    },
+    "I": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1003,
+        787,
+        1010,
+        844
+      ],
+      "height": 658,
+      "y_min": 0,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 5."
+    },
+    "L": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1112,
+        788,
+        1154,
+        846
+      ],
+      "height": 670,
+      "y_min": -23,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 7."
+    },
+    "M": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1722,
+        789,
+        1769,
+        846
+      ],
+      "height": 658,
+      "y_min": -23,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 19."
+    },
+    "N": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1025,
+        787,
+        1067,
+        845
+      ],
+      "height": 670,
+      "y_min": -11,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 6."
+    },
+    "O": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1163,
+        787,
+        1212,
+        847
+      ],
+      "height": 693,
+      "y_min": -35,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 8."
+    },
+    "P": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        675,
+        919,
+        715,
+        976
+      ],
+      "height": 658,
+      "y_min": 5,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 0."
+    },
+    "Q": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1503,
+        1013,
+        1562,
+        1074
+      ],
+      "height": 785,
+      "y_min": -79,
+      "notes": "Observed impression, measured row 1, sort 18. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "R": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        848,
+        787,
+        891,
+        844
+      ],
+      "height": 658,
+      "y_min": 0,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 2."
+    },
+    "S": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1467,
+        788,
+        1516,
+        848
+      ],
+      "height": 693,
+      "y_min": -46,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 14."
+    },
+    "T": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        899,
+        788,
+        946,
+        845
+      ],
+      "height": 658,
+      "y_min": -11,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 2, sort 3."
+    },
+    "U": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1562,
+        1014,
+        1609,
+        1072
+      ],
+      "height": 747,
+      "y_min": -53,
+      "notes": "Observed impression, measured row 1, sort 19. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "W": {
+      "file": "reference/atf-jagged-full.png",
+      "box": [
+        1227,
+        902,
+        1287,
+        959
+      ],
+      "height": 702,
+      "y_min": -29,
+      "notes": "Observed impression, measured row 0, sort 15. See selections.json. Baseline and size harmonised for this digital master."
+    },
+    "Y": {
+      "file": "reference/ryan-121.png",
+      "box": [
+        1108,
+        922,
+        1150,
+        979
+      ],
+      "height": 658,
+      "y_min": -29,
+      "notes": "No. 39 Ryan impression, selected to avoid the ink spread in the later ATF facsimile. Row 3, sort 9."
+    }
+  }
+}

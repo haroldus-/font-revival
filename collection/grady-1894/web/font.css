@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Grady 1894";
+  src: url("./Grady1894-Regular.woff2") format("woff2"),
+       url("./Grady1894-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

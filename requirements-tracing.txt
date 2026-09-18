@@ -1,0 +1,3 @@
+# Optional source preparation only. Normal release builds use committed TTX.
+-r requirements.txt
+skia-pathops==0.9.0

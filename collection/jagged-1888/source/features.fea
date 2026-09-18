@@ -1,0 +1,18 @@
+# New digital spacing; not historical metal-sort measurements.
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+feature kern {
+  pos A V -30;
+  pos A W -20;
+  pos A Y -30;
+  pos F A -20;
+  pos L T -25;
+  pos L V -25;
+  pos L Y -25;
+  pos T A -30;
+  pos T O -15;
+  pos V A -30;
+  pos W A -20;
+  pos Y A -30;
+  pos Y O -20;
+} kern;
