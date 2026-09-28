@@ -126,6 +126,9 @@ Each family has one editable OpenType XML master, optional individual glyph
 edits, a source record, and a changelog. The shared build produces OTF, TTF,
 WOFF, WOFF2, PDF and PNG specimens, checksums, and the browser gallery.
 The check command rebuilds in isolation and verifies the committed outputs.
+Run `python scripts/fontrevival.py sizecheck <family-id>` to audit character
+proportions before building. [Reviewed sizing limits](docs/SIZING.md) let the
+normal check command catch size regressions in every release format.
 
 ## Open by design
 

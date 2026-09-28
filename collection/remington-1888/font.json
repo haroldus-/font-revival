@@ -3,7 +3,7 @@
   "id": "remington-1888",
   "name": "Remington 1888",
   "style": "Regular",
-  "version": "1.001",
+  "version": "1.002",
   "postscript_name": "Remington1888-Regular",
   "year": 1888,
   "designer": "Unidentified in the consulted primary specimens",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "sample_text": "Paris, Ill., May 6th, 1887.",
   "observed": "Directly sampled alphabet and figures: ABCDGHIJLMNPRSTabcdefghiklmnopqrstuvwxyz012678. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.",
-  "reconstructed": "Inferred alphabet/figures: EFKOQUVWXYZj3459. Unobserved punctuation and symbols are newly drawn MIT project companions. Fixed-cell spacing and proportion harmonisation are new; there is no kerning. Uppercase and lowercase are distinct. 12-point No. 2 only; the 10-point cut is excluded. The year identifies the specimen, not a claimed first release.",
+  "reconstructed": "Inferred alphabet/figures: EFKOQUVWXYZj3459. Unobserved punctuation and symbols are newly drawn MIT project companions. Fixed-cell spacing and proportion harmonisation are new; there is no kerning. Uppercase and lowercase are distinct. 12-point No. 2 only; the 10-point cut is excluded. The year identifies the specimen, not a claimed first release. Version 1.002 restores the observed ascender-height t and gives e a new optical width/overshoot adjustment; see source/METHOD.md and source/glyphs/. No accented derivatives are encoded.",
   "sources": [
     {
       "title": "The Inland Printer, vol. 6, no. 2 (November 1888), printed p. 137",

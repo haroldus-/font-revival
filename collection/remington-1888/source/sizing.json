@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "notes": "Reviewed against Inland Printer p. 137, the 12-point Remington No. 2 showing, and the 1.002 sizing proofs. All ranges are font units, with room for curve conversion and optical overshoot. These are revival design limits, not literal measurements of the metal type. See METHOD.md.",
+  "rules": [
+    {
+      "characters": "*",
+      "advance_width": [600, 600],
+      "notes": "Every encoded character, including spaces and punctuation, retains the fixed 600-unit cell."
+    },
+    {
+      "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "y_max": [685, 725],
+      "notes": "Capitals and lining figures share the 700-unit top; Q's tail is checked separately."
+    },
+    {
+      "characters": "ABCDEFGHIJKLMNOPRSTUVWXYZ0123456789",
+      "y_min": [-15, 10],
+      "notes": "Baseline alignment allows small round overshoots."
+    },
+    {
+      "characters": "Q",
+      "y_min": [-165, -145],
+      "notes": "Retain the reconstructed Q's intentional descending tail."
+    },
+    {
+      "characters": "acemnorsuvwxz",
+      "y_max": [470, 495],
+      "y_min": [-10, 10],
+      "notes": "Lowercase bodies follow the 480-unit x-height, including the optically enlarged e."
+    },
+    {
+      "characters": "bdfhklt",
+      "y_max": [685, 715],
+      "y_min": [-10, 10],
+      "notes": "The observed t reaches the ascenders; it must not be reduced to x-height again."
+    },
+    {
+      "characters": "gpqy",
+      "y_max": [470, 490],
+      "y_min": [-210, -190],
+      "notes": "Descenders combine the lowercase body with an approximately 200-unit descent."
+    },
+    {
+      "characters": "ij",
+      "y_max": [660, 690],
+      "notes": "Dots sit slightly below the cap line; j is an explicitly inferred companion."
+    },
+    {
+      "characters": "i",
+      "y_min": [-10, 10],
+      "ink_width": [320, 355],
+      "notes": "Preserve the narrow observed i and its baseline."
+    },
+    {
+      "characters": "j",
+      "y_min": [-210, -180],
+      "ink_width": [210, 240],
+      "notes": "The narrow reconstructed j hook is intentional, not an x-height letter."
+    },
+    {
+      "characters": "e",
+      "y_max": [483, 492],
+      "y_min": [-10, -3],
+      "ink_width": [450, 470],
+      "notes": "Protect the reviewed optical enlargement: 460-unit width and 492-unit total height, with six-unit overshoots."
+    },
+    {
+      "characters": "t",
+      "ink_width": [380, 400],
+      "notes": "Restoring height must also restore width and stroke presence; vertical stretching alone leaves a thin t."
+    },
+    {
+      "characters": "cz",
+      "ink_width": [350, 395],
+      "notes": "The source supports narrower c and z; do not widen every lowercase letter to the same ink width."
+    },
+    {
+      "characters": "abdfghklmnopqrsuvwxy",
+      "ink_width": [410, 530],
+      "notes": "Reviewed lowercase ink widths, excluding documented narrow forms and the separately checked e and t."
+    },
+    {
+      "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ023456789",
+      "ink_width": [390, 535],
+      "notes": "Reviewed capital and figure widths; the narrow numeral one has its own limit."
+    },
+    {
+      "characters": "1",
+      "ink_width": [270, 300],
+      "notes": "The observed numeral one is narrow within its full fixed-width cell."
+    }
+  ]
+}

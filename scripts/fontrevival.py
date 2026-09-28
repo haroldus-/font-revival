@@ -16,6 +16,7 @@ import sys
 import tempfile
 import zipfile
 from pathlib import Path
+from statistics import median
 
 from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.boundsPen import BoundsPen
@@ -453,8 +454,132 @@ def build_catalog():
         (ROOT / filename).write_text(content)
 
 
+SIZE_METRICS = ("y_min", "y_max", "ink_width", "ink_height", "advance_width")
+
+
+def sizing_profile(path):
+    file = path / "source" / "sizing.json"
+    if not file.exists():
+        return None
+    profile = json.loads(file.read_text())
+    if not isinstance(profile, dict):
+        raise ValueError(f"{file}: sizing.json must contain a rule object.")
+    return profile
+
+
+def sizing_report(font, profile=None, character_style=None):
+    """Measure ink, suggest peer outliers, and enforce reviewed family limits.
+
+    Advance widths alone cannot detect a tiny drawing in a normal-sized cell.
+    BoundsPen measures curve extrema and resolves components in either outline
+    format. Top heights are compared separately from descenders and Q tails.
+    """
+    glyphs = font.getGlyphSet()
+    measurements = {}
+    for cp, name in sorted(font.getBestCmap().items()):
+        pen = BoundsPen(glyphs)
+        glyphs[name].draw(pen)
+        x0, y0, x1, y1 = pen.bounds or (0, 0, 0, 0)
+        measurements[chr(cp)] = {
+            "glyph": name, "codepoint": f"U+{cp:04X}",
+            "y_min": y0, "y_max": y1, "ink_width": x1 - x0,
+            "ink_height": y1 - y0, "advance_width": font["hmtx"][name][0],
+        }
+    warnings, violations = [], []
+    covered = set()
+
+    def finding(ch, metric, low, high, reason):
+        return {"character": ch, "glyph": measurements[ch]["glyph"],
+                "metric": metric, "actual": measurements[ch][metric],
+                "expected": [low, high], "reason": reason}
+
+    if profile is not None:
+        if (not isinstance(profile, dict) or profile.get("schema_version") != 1
+                or set(profile) - {"schema_version", "notes", "rules"}
+                or not isinstance(profile.get("rules"), list) or not profile["rules"]):
+            raise ValueError("sizing.json: expected schema_version 1 and nonempty rules.")
+        for rule in profile["rules"]:
+            if (not isinstance(rule, dict) or set(rule) - {*SIZE_METRICS, "characters", "notes"}
+                    or not isinstance(rule.get("characters"), str) or not rule["characters"]
+                    or not isinstance(rule.get("notes"), str) or not rule["notes"].strip()
+                    or not any(metric in rule for metric in SIZE_METRICS)):
+                raise ValueError("sizing.json: each rule needs characters, metric ranges and notes; unknown keys are invalid.")
+            chars = measurements if rule["characters"] == "*" else rule["characters"]
+            missing = set(chars) - measurements.keys()
+            if missing:
+                raise ValueError(f"sizing.json: unsupported characters {sorted(missing)!r}.")
+            covered.update(chars)
+            for metric in SIZE_METRICS:
+                if metric not in rule:
+                    continue
+                limits = rule[metric]
+                if (not isinstance(limits, list) or len(limits) != 2
+                        or any(type(v) not in (int, float) or not math.isfinite(v) for v in limits)
+                        or limits[0] > limits[1]):
+                    raise ValueError(f"sizing.json: {metric} needs a finite [minimum, maximum] range.")
+                low, high = limits
+                for ch in dict.fromkeys(chars):
+                    if not low <= measurements[ch][metric] <= high:
+                        violations.append(finding(ch, metric, low, high, rule["notes"]))
+
+    def peer_group(chars, metric, tolerance, label):
+        chars = [ch for ch in chars if ch in measurements and measurements[ch][metric] > 0]
+        if len(chars) < 3:
+            return None
+        target = median(measurements[ch][metric] for ch in chars)
+        low, high = target * (1 - tolerance), target * (1 + tolerance)
+        for ch in chars:
+            if not low <= measurements[ch][metric] <= high:
+                warnings.append(finding(ch, metric, low, high, f"{label}: peer median {target:.1f}"))
+        return target
+
+    peer_group("ABCDEFGHIJKLMNOPQRSTUVWXYZ", "y_max", .20, "capital tops")
+    peer_group("0123456789", "y_max", .20, "figure tops")
+    capitals_only = character_style == "capitals-only" or all(
+        ch in measurements and ch.upper() in measurements
+        and measurements[ch]["glyph"] == measurements[ch.upper()]["glyph"]
+        for ch in "abcdefghijklmnopqrstuvwxyz")
+    if not capitals_only:
+        x_height = peer_group("acemnorsuvwxz", "y_max", .20, "lowercase body tops")
+        ascender = peer_group("bdfhkl", "y_max", .20, "ascender tops")
+        peer_group("ceo", "ink_width", .25, "round lowercase widths")
+        if x_height and ascender and ascender > 1.15 * x_height and "t" in measurements:
+            low, high = x_height + .20 * (ascender - x_height), 1.15 * ascender
+            if not low <= measurements["t"]["y_max"] <= high:
+                warnings.append(finding("t", "y_max", low, high, "t should usually rise above the lowercase body"))
+    return {"units_per_em": font["head"].unitsPerEm, "measurements": measurements,
+            "profile_characters": len(covered), "warnings": warnings, "violations": violations}
+
+
+def sizing_message(item):
+    low, high = item["expected"]
+    return (f'{item["character"]!r} ({item["glyph"]}) {item["metric"]}={item["actual"]:.1f}; '
+            f'expected {low:.1f}..{high:.1f}: {item["reason"]}')
+
+
+def sizecheck(slug=None, json_output=False, strict=False):
+    reports = {}
+    for path in families(slug):
+        m = metadata(path)
+        with load_source(path, m) as font:
+            reports[path.name] = sizing_report(font, sizing_profile(path), m.get("character_style"))
+    if json_output:
+        print(json.dumps(reports, indent=2, ensure_ascii=False))
+    else:
+        for name, report in reports.items():
+            print(f'{name}: measured {len(report["measurements"])} characters in font units; '
+                  f'{report["profile_characters"]} covered by reviewed rules; '
+                  f'{len(report["violations"])} violations, {len(report["warnings"])} review warnings')
+            for label, key in (("ERROR", "violations"), ("REVIEW", "warnings")):
+                for item in report[key]:
+                    print(f"  {label}: {sizing_message(item)}")
+    if any(r["violations"] or (strict and r["warnings"]) for r in reports.values()):
+        raise ValueError("Character sizing check failed. Review the reported glyphs against the historical source.")
+
+
 def validate_family(path):
     m = metadata(path)
+    profile = sizing_profile(path)
     expected = None
     for folder, ext in [("fonts", "otf"), ("fonts", "ttf"), ("web", "woff"), ("web", "woff2")]:
         file = path / folder / f'{m["postscript_name"]}.{ext}'
@@ -489,9 +614,16 @@ def validate_family(path):
             for ch in m["sample_text"]:
                 if ord(ch) not in cmap:
                     raise ValueError(f"{file}: sample text uses unsupported character {ch!r}.")
+            sizes = sizing_report(font, profile, m.get("character_style"))
+            if sizes["violations"]:
+                raise ValueError(f"{file}: character sizing violations:\n" +
+                                 "\n".join(sizing_message(item) for item in sizes["violations"]))
+            if ext == "otf":
+                for item in sizes["warnings"]:
+                    print(f"Review sizing {path.name}: {sizing_message(item)}")
     if (path / "SHA256SUMS.txt").read_text() != checksums(path):
         raise ValueError(f"{path.name}: stale checksums. Run build.")
-    print(f"Validated {path.name}: formats, coverage, outlines, licensing and checksums")
+    print(f"Validated {path.name}: formats, coverage, outlines, sizing, licensing and checksums")
 
 
 def check(slug=None):
@@ -619,6 +751,10 @@ def main():
     for command in ("build", "check", "package"):
         sub = commands.add_parser(command)
         sub.add_argument("id", nargs="?")
+    sub = commands.add_parser("sizecheck", help="Audit source glyph sizes and enforce reviewed family limits")
+    sub.add_argument("id", nargs="?")
+    sub.add_argument("--json", action="store_true", help="Print all measurements and findings as JSON")
+    sub.add_argument("--strict", action="store_true", help="Also fail on heuristic review warnings")
     sub = commands.add_parser("new", help="Scaffold a family")
     sub.add_argument("id"); sub.add_argument("--name", required=True); sub.add_argument("--year", type=int, required=True)
     sub = commands.add_parser("import", help="Import an OTF into the shared editable source format")
@@ -635,6 +771,7 @@ def main():
                 build_family(path)
             build_catalog()
         elif args.command == "check": check(args.id)
+        elif args.command == "sizecheck": sizecheck(args.id, args.json, args.strict)
         elif args.command == "package": package(args.id)
         elif args.command == "new": new_family(args)
         elif args.command == "import": import_font(args)

@@ -20,6 +20,9 @@ Follow `docs/WORKFLOW.md` for both new families and revisions.
   before/after PDF with `compare`. Check dependent accents and related forms.
 - Preserve character coverage, family names, spacing, and OpenType features unless
   the task calls for changing them. Inspect a changed glyph in words and at multiple sizes.
+- Run `sizecheck` to review character proportions. Document intentional size ranges
+  in `source/sizing.json` using `docs/SIZING.md`; never normalise historical forms
+  merely to silence a heuristic warning.
 - Run `build`, `check`, and the tests. Inspect the PDF and PNG specimens and the
   browser gallery. Fix failures before calling the work finished.
 - Commit both editable sources and regenerated outputs. Never hand-edit generated

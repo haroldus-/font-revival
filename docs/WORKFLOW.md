@@ -24,6 +24,7 @@ least printable Basic Latin, then import it:
 
 ```sh
 python scripts/fontrevival.py import example-1890 workspace/Example1890-Regular.otf
+python scripts/fontrevival.py sizecheck example-1890
 python scripts/fontrevival.py build example-1890
 ```
 
@@ -49,6 +50,10 @@ If that glyph already has an edit file, edit the existing file. Change the SVG p
 and advance width in `source/glyphs/j.json`. Coordinates use the font's units per
 em, with positive y upwards. The `notes` field records the design rationale.
 Check related accented forms too; a `j` change may also require `jcircumflex`.
+Run `python scripts/fontrevival.py sizecheck <id>` on the editable source before
+building. Review flagged proportions against the scan; record intended size ranges
+in `source/sizing.json` so `check` can reject future regressions in every format.
+See [character sizing](SIZING.md) for rules, measurement reports and limitations.
 For broader changes, edit `source/font.ttx`, or intentionally replace it with
 `import ... --replace`. Existing glyph edits continue to apply over a replaced master;
 review them when replacing it.
@@ -89,7 +94,8 @@ TTF curves are derived from the cubic master with a maximum conversion error of
 0.5 font units. The build applies the MIT metadata and unrestricted embedding.
 
 `check` verifies character coverage, nonempty outlines, spacing across formats,
-license metadata, checksums, and a clean rebuild in a temporary directory.
+reviewed character sizing limits, license metadata, checksums, and a clean rebuild
+in a temporary directory. It also prints advisory size outliers for visual review.
 Python 3.12 and `requirements.txt` define the reference environment used by CI.
 Rendering may differ with platform font rasterizers; use the Linux CI environment
 for byte-for-byte comparisons. Source files and outputs are committed together.

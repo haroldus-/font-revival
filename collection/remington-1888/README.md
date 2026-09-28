@@ -4,7 +4,7 @@ A monospaced metal-type imitation of typewriting, following the 12-point No. 2 c
 
 ![Remington 1888 specimen](specimens/preview.png)
 
-**1888 · Regular · Version 1.001 · 104 characters · MIT**
+**1888 · Regular · Version 1.002 · 104 characters · MIT**
 
 [OTF](fonts/Remington1888-Regular.otf) · [TTF](fonts/Remington1888-Regular.ttf) · [WOFF2](web/Remington1888-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -21,7 +21,7 @@ and use `font-family: "Remington 1888"`. Designed for display sizes.
 
 **Observed:** Directly sampled alphabet and figures: ABCDGHIJLMNPRSTabcdefghiklmnopqrstuvwxyz012678. Additional observed symbols and exact crop/cleanup settings are enumerated in source/tracing.json.
 
-**Reconstructed:** Inferred alphabet/figures: EFKOQUVWXYZj3459. Unobserved punctuation and symbols are newly drawn MIT project companions. Fixed-cell spacing and proportion harmonisation are new; there is no kerning. Uppercase and lowercase are distinct. 12-point No. 2 only; the 10-point cut is excluded. The year identifies the specimen, not a claimed first release.
+**Reconstructed:** Inferred alphabet/figures: EFKOQUVWXYZj3459. Unobserved punctuation and symbols are newly drawn MIT project companions. Fixed-cell spacing and proportion harmonisation are new; there is no kerning. Uppercase and lowercase are distinct. 12-point No. 2 only; the 10-point cut is excluded. The year identifies the specimen, not a claimed first release. Version 1.002 restores the observed ascender-height t and gives e a new optical width/overshoot adjustment; see source/METHOD.md and source/glyphs/. No accented derivatives are encoded.
 
 ## Sources
 
