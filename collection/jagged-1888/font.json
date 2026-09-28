@@ -3,7 +3,7 @@
   "id": "jagged-1888",
   "name": "Jagged 1888",
   "style": "Regular",
-  "version": "1.000",
+  "version": "1.001",
   "postscript_name": "Jagged1888-Regular",
   "year": 1888,
   "designer": "Unidentified in the consulted primary specimens",
@@ -44,9 +44,6 @@
     }
   ],
   "revival": {
-    "contributors": [
-      "Font Revival contributors"
-    ],
     "tools": [
       "Codex",
       "Pillow 12.3.0",
@@ -54,7 +51,9 @@
       "fontTools 4.64.0",
       "skia-pathops 0.9.0"
     ],
-    "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings."
+    "notes": "Historical scans only. See source/METHOD.md, selections.json, tracing.json and companions.json for the reproducible preparation and explicit reconstructed drawings.",
+    "author": "Harold Lehmann"
   },
-  "character_style": "capitals-only"
+  "character_style": "capitals-only",
+  "copyright": "Copyright (c) 2026 Harold Lehmann"
 }

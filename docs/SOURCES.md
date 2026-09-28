@@ -6,8 +6,9 @@ title and page, stable URL, local reference file, rights assessment, and a link
 supporting that assessment. Record any uncertainty instead of inventing clearance.
 
 The [MIT License](../LICENSE) applies to project code, original documentation,
-digital font contributions, and original specimen layouts to the extent contributors
-hold rights in them. It permits commercial use, modification, embedding, and
+digital fonts, and original specimen layouts to the extent copyright subsists
+in them. Copyright in original project work is held by Harold Lehmann.
+The MIT license permits commercial use, modification, embedding, and
 redistribution with the notice. Historical material retains its existing rights
 status; the project does not claim ownership of underlying public-domain designs.
 
@@ -16,7 +17,7 @@ historical impressions, not the outlines of someone else's digital revival.
 Use scans whose reproduction status is documented; retain institution credits.
 
 Copyright, design rights, and names vary by jurisdiction. This project records
-evidence and grants the rights its contributors hold; it cannot promise the
+evidence and grants the rights its copyright holder owns; it cannot promise the
 absence of every third-party right worldwide. MIT does not grant trademark rights.
 
 Useful starting points:

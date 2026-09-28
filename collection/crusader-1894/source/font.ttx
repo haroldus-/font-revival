@@ -188,7 +188,7 @@
 
   <name>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
-      Copyright (c) 2026 Font Revival contributors. Historical design: Unidentified in the consulted primary specimens.
+      Copyright (c) 2026 Harold Lehmann. Historical design: Unidentified in the consulted primary specimens.
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
       Crusader 1894
@@ -209,7 +209,7 @@
       Crusader1894-Regular
     </namerecord>
     <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
-      Font Revival contributors
+      Harold Lehmann
     </namerecord>
     <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
       Unidentified in the consulted primary specimens
@@ -223,7 +223,7 @@
     <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
       MIT License
 
-Copyright (c) 2026 Font Revival contributors
+Copyright (c) 2026 Harold Lehmann
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -495,8 +495,8 @@ SOFTWARE.
     <minor value="0"/>
     <CFFFont name="Crusader1894-Regular">
       <version value="1.000"/>
-      <Notice value="Copyright (c) 2026 Font Revival contributors. Historical design: Unidentified in the consulted primary specimens."/>
-      <Copyright value="MIT License; see name table and accompanying LICENSE."/>
+      <Notice value="Copyright (c) 2026 Harold Lehmann. Historical design: Unidentified in the consulted primary specimens."/>
+      <Copyright value="Copyright (c) 2026 Harold Lehmann"/>
       <FullName value="Crusader 1894 Regular"/>
       <FamilyName value="Crusader 1894"/>
       <Weight value="Regular"/>

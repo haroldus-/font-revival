@@ -4,7 +4,7 @@ A condensed, chiseled display face with pointed terminals, deep notches, and dra
 
 ![Nero 1888 specimen](specimens/preview.png)
 
-**1888 · Regular · Version 1.003 · 302 characters · MIT**
+**1888 · Regular · Version 1.004 · 302 characters · MIT**
 
 [OTF](fonts/Nero1888-Regular.otf) · [TTF](fonts/Nero1888-Regular.ttf) · [WOFF2](web/Nero1888-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -30,7 +30,7 @@ and use `font-family: "Nero 1888"`. Designed for display sizes.
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.
-The digital revival is released under the included [MIT License](LICENSE).
+Copyright (c) 2026 Harold Lehmann. The digital revival is released under the included [MIT License](LICENSE).
 
 ## Build or improve
 

@@ -4,7 +4,7 @@ Rounded mixed-case display letters with crossed bowls and detached square and di
 
 ![Marine 1894 specimen](specimens/preview.png)
 
-**1894 · Regular · Version 1.000 · 104 characters · MIT**
+**1894 · Regular · Version 1.001 · 104 characters · MIT**
 
 [OTF](fonts/Marine1894-Regular.otf) · [TTF](fonts/Marine1894-Regular.ttf) · [WOFF2](web/Marine1894-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -30,7 +30,7 @@ and use `font-family: "Marine 1894"`. Designed for display sizes.
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.
-The digital revival is released under the included [MIT License](LICENSE).
+Copyright (c) 2026 Harold Lehmann. The digital revival is released under the included [MIT License](LICENSE).
 
 ## Build or improve
 

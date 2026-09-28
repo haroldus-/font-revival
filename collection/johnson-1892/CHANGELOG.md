@@ -1,5 +1,10 @@
 # Changes
 
+## 1.003
+
+- Update copyright and release metadata to Harold Lehmann; retain the MIT license.
+- Preserve glyph outlines, character coverage, spacing, and OpenType features.
+
 ## 1.002
 
 - Retrace H, L, P, R, b, f, p and q from measured 1892 patent crops, smoothing scan-edge steps and removing stray marks beneath L and R and beside b.

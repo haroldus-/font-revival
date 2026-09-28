@@ -3,11 +3,11 @@
 **Historical forms. Shared futures.**
 
 An open collection of historical typefaces, revived as usable digital fonts.
-Download them, make something with them, and help make them better.
+Download them, study their sources, and use them in your own work.
 
 [Browse & try the fonts](https://haroldus-.github.io/font-revival/) ·
 [Download releases](https://github.com/haroldus-/font-revival/releases) ·
-[Contribute](CONTRIBUTING.md) · [MIT License](LICENSE)
+[MIT License](LICENSE)
 
 ## The collection
 
@@ -117,19 +117,15 @@ Preview the collection with `python -m http.server 8000`, then open
 <http://localhost:8000>. Make downloadable ZIPs with
 `python scripts/fontrevival.py package`.
 
-## Add a revival. Improve a letter.
+## Editable sources
 
 Give your LLM historical scans or PDFs in `workspace/` and ask it to follow
 [AGENTS.md](AGENTS.md) and the [shared workflow](docs/WORKFLOW.md).
-The same process works locally, in a fork, and in a pull request.
 
 Each family has one editable OpenType XML master, optional individual glyph
 edits, a source record, and a changelog. The shared build produces OTF, TTF,
 WOFF, WOFF2, PDF and PNG specimens, checksums, and the browser gallery.
 The check command rebuilds in isolation and verifies the committed outputs.
-
-Start with [CONTRIBUTING.md](CONTRIBUTING.md). Small improvements are welcome:
-a better `j`, more faithful spacing, a newly discovered specimen, or a missing accent.
 
 ## Open by design
 
@@ -137,7 +133,9 @@ Use historical material with a documented public-domain basis. Trace historical
 sources directly and record which forms are observed and which are reconstructed.
 Each family's `font.json` records its sources and rights basis; historical
 reference material retains that status. Project code, documentation, and digital
-font contributions are [MIT licensed](LICENSE). See [source policy](docs/SOURCES.md).
+fonts are [MIT licensed](LICENSE). Copyright (c) 2026 Harold Lehmann.
+Historical public-domain designs and reference material retain their existing
+rights status. See [source policy](docs/SOURCES.md).
 
-The initial revivals were prepared with GPT-5.6 Sol. All contributions are
-reviewed through their sources, font files, and visual proofs.
+The initial revivals were prepared with GPT-5.6 Sol. The fonts are reviewed
+through their sources, font files, and visual proofs.

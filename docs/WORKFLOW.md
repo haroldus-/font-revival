@@ -1,5 +1,9 @@
 # The revival workflow
 
+Original project work uses Harold Lehmann's copyright notice and the repository
+MIT license. Keep historical designer credits and source rights distinct from
+copyright ownership.
+
 ## 1. Start from evidence
 
 Put the supplied scans, images, or PDFs in `workspace/`. Identify the typeface,
@@ -75,7 +79,7 @@ python -m http.server 8000
 Inspect the gallery at <http://localhost:8000>, the specimen PDF (including its full
 character inventory), and any review proofs. Compare against the historical sources.
 Check counters, overlaps, baseline, descenders, spacing, and words containing the changed
-forms. Then follow [CONTRIBUTING.md](../CONTRIBUTING.md) to submit a pull request.
+forms. Commit the editable sources and regenerated outputs together.
 
 ## Repeatability
 
@@ -97,4 +101,4 @@ for byte-for-byte comparisons. Source files and outputs are committed together.
 > sources and rights basis. Preserve the distinctive forms and mark reconstructions.
 > Use the shared source format and build commands. For revisions, include a version
 > bump, changelog, and before/after proof. Inspect the results and finish with passing
-> checks and a focused change ready for a pull request.
+> checks and a focused commit.

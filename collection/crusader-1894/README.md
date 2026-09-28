@@ -4,7 +4,7 @@ Uncial and Roman display capitals with crossed bowls, curled terminals and asymm
 
 ![Crusader 1894 specimen](specimens/preview.png)
 
-**1894 · Regular · Version 1.000 · 108 characters · Capitals only · MIT**
+**1894 · Regular · Version 1.001 · 108 characters · Capitals only · MIT**
 
 [OTF](fonts/Crusader1894-Regular.otf) · [TTF](fonts/Crusader1894-Regular.ttf) · [WOFF2](web/Crusader1894-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -30,7 +30,7 @@ and use `font-family: "Crusader 1894"`. Designed for display sizes.
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.
-The digital revival is released under the included [MIT License](LICENSE).
+Copyright (c) 2026 Harold Lehmann. The digital revival is released under the included [MIT License](LICENSE).
 
 ## Build or improve
 

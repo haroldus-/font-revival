@@ -9,7 +9,7 @@ from fontTools.ttLib import TTFont
 
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from fontrevival import register_pdf_font
+from fontrevival import COPYRIGHT_HOLDER, register_pdf_font
 
 
 def proof():
@@ -29,7 +29,7 @@ def proof():
         register_pdf_font(name, file)
     c = canvas.Canvas(str(families[1] / 'specimens/pairing.pdf'), pagesize=(842, 595), invariant=1)
     c.setTitle('Erebus 1894 + Hades 1894 | Registration proof')
-    c.setAuthor('Font Revival contributors')
+    c.setAuthor(COPYRIGHT_HOLDER)
     c.setFont('Helvetica', 18)
     c.drawString(36, 555, 'Erebus + Hades / One origin, two colours')
     c.setFont('Helvetica', 10)

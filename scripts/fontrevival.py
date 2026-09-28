@@ -34,6 +34,8 @@ from reportlab.pdfgen import canvas
 
 ROOT = Path(__file__).resolve().parents[1]
 EPOCH = 3850070400  # 2026-01-01 UTC in OpenType's 1904 epoch; fixed for builds.
+COPYRIGHT_HOLDER = "Harold Lehmann"
+COPYRIGHT_NOTICE = f"Copyright (c) 2026 {COPYRIGHT_HOLDER}"
 PAPER, INK, ACCENT = "#f4f0e7", "#24251f", "#a5422c"
 SLUG = re.compile(r"[a-z][a-z0-9]*(?:-[a-z0-9]+)*\Z")
 
@@ -76,6 +78,8 @@ def metadata(path):
         raise ValueError(f"{path}: font.json id must match its directory.")
     if m.get("schema_version") != 1 or m.get("license") != "MIT":
         raise ValueError(f"{path.name}: schema_version must be 1 and license MIT.")
+    if m.get("copyright") != COPYRIGHT_NOTICE:
+        raise ValueError(f"{path.name}: copyright must be {COPYRIGHT_NOTICE}.")
     if m["style"] != "Regular":
         raise ValueError("The current collection format supports one Regular style per family.")
     if any(ch in m["name"] for ch in ('"', '\\', '\n', '\r')):
@@ -120,12 +124,12 @@ def normalize(font, m):
     if bounds.bounds:
         font["OS/2"].usWinAscent = max(font["OS/2"].usWinAscent, math.ceil(bounds.bounds[3]))
         font["OS/2"].usWinDescent = max(font["OS/2"].usWinDescent, math.ceil(-bounds.bounds[1]))
-    copyright_text = "Copyright (c) 2026 Font Revival contributors. Historical design: " + m["designer"] + "."
+    copyright_text = COPYRIGHT_NOTICE + ". Historical design: " + m["designer"] + "."
     names = {
         0: copyright_text, 1: m["name"], 2: m["style"],
         3: f'{m["postscript_name"]};{m["version"]}',
         4: f'{m["name"]} {m["style"]}', 5: "Version " + m["version"],
-        6: m["postscript_name"], 8: "Font Revival contributors", 9: m["designer"],
+        6: m["postscript_name"], 8: COPYRIGHT_HOLDER, 9: m["designer"],
         10: m["description"], 11: "https://github.com/haroldus-/font-revival",
         13: (ROOT / "LICENSE").read_text().strip(),
         14: "https://opensource.org/license/mit",
@@ -144,7 +148,7 @@ def normalize(font, m):
         top.FamilyName = m["name"]
         top.FullName = names[4]
         top.Notice = copyright_text
-        top.Copyright = "MIT License; see name table and accompanying LICENSE."
+        top.Copyright = COPYRIGHT_NOTICE
 
 
 def apply_glyphs(font, folder):
@@ -231,7 +235,7 @@ def specimen(path, m):
     register_pdf_font(pdfname, ttf)
     c = canvas.Canvas(str(folder / "specimen.pdf"), pagesize=(842, 595), invariant=1, pageCompression=1)
     c.setTitle(m["name"] + " | Font Revival specimen")
-    c.setAuthor("Font Revival contributors")
+    c.setAuthor(COPYRIGHT_HOLDER)
     c.setFillColor(HexColor(PAPER)); c.rect(0, 0, 842, 595, fill=1, stroke=0)
     c.setFillColor(HexColor(ACCENT)); c.setFont("Helvetica", 10)
     c.drawString(42, 550, f'FONT REVIVAL     /     {m["year"]}     /     {m["version"]}')
@@ -293,7 +297,7 @@ def source_review(path, m):
     register_pdf_font(fontname, path / "fonts" / f'{m["postscript_name"]}.ttf')
     c = canvas.Canvas(str(path / "specimens" / "source-review.pdf"), pagesize=(842, 595), invariant=1)
     c.setTitle(m["name"] + " | Historical source review")
-    c.setAuthor("Font Revival contributors")
+    c.setAuthor(COPYRIGHT_HOLDER)
     images = {}
     for start in range(0, len(chars), 24):
         c.setFont("Helvetica", 14)
@@ -366,7 +370,7 @@ and use `font-family: "{m["name"]}"`. Designed for display sizes.
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.
-The digital revival is released under the included [MIT License](LICENSE).
+{m["copyright"]}. The digital revival is released under the included [MIT License](LICENSE).
 
 ## Build or improve
 
@@ -462,6 +466,13 @@ def validate_family(path):
                 raise ValueError(f"{file}: embedding must be unrestricted.")
             if font["head"].yMax > font["OS/2"].usWinAscent or -font["head"].yMin > font["OS/2"].usWinDescent:
                 raise ValueError(f"{file}: Windows line metrics would clip glyphs.")
+            expected_notice = COPYRIGHT_NOTICE + ". Historical design: " + m["designer"] + "."
+            if font['name'].getDebugName(0) != expected_notice or font['name'].getDebugName(8) != COPYRIGHT_HOLDER:
+                raise ValueError(f"{file}: copyright holder metadata mismatch.")
+            if "CFF " in font:
+                top = font["CFF "].cff.topDictIndex[0]
+                if top.Notice != expected_notice or top.Copyright != COPYRIGHT_NOTICE:
+                    raise ValueError(f"{file}: CFF copyright metadata mismatch.")
             if font['name'].getDebugName(13) != (ROOT / 'LICENSE').read_text().strip():
                 raise ValueError(f"{file}: missing MIT license metadata.")
             if font['name'].getDebugName(1) != m['name'] or font['name'].getDebugName(5) != 'Version ' + m['version']:
@@ -519,11 +530,11 @@ def new_family(args):
         "postscript_name": re.sub(r"[^A-Za-z0-9]", "", args.name) + "-Regular",
         "year": args.year, "designer": "TODO: historical designer or documented attribution",
         "foundry": "TODO: historical foundry", "description": "TODO: one sentence describing this revival",
-        "license": "MIT", "sample_text": "The quick brown fox jumps over the lazy dog",
+        "license": "MIT", "copyright": COPYRIGHT_NOTICE, "sample_text": "The quick brown fox jumps over the lazy dog",
         "observed": "TODO: characters directly evidenced by the historical sources",
         "reconstructed": "TODO: inferred or newly drawn characters; use None if all are observed",
         "sources": [{"title": "TODO", "url": "TODO", "rights": "TODO", "rights_url": "TODO", "file": "reference/TODO.png"}],
-        "revival": {"contributors": [], "tools": [], "notes": ""},
+        "revival": {"author": COPYRIGHT_HOLDER, "tools": [], "notes": ""},
     })
     (path / "CHANGELOG.md").write_text(f"# Changes\n\n## 1.000\n\n- Initial revival.\n")
     print(f"Created {path.relative_to(ROOT)}. Complete font.json, add references, then import an OTF master.")
@@ -573,6 +584,7 @@ def comparison(args):
     output.parent.mkdir(parents=True, exist_ok=True)
     c = canvas.Canvas(str(output), pagesize=(842, 595), invariant=1)
     c.setTitle(m["name"] + " | Revision comparison")
+    c.setAuthor(COPYRIGHT_HOLDER)
     for index, (label, file) in enumerate((("Before", args.before), ("After", after))):
         name = f"comparison-{index}"
         register_pdf_font(name, file)

@@ -1,5 +1,10 @@
 # Changes
 
+## 1.001
+
+- Update copyright and release metadata to Harold Lehmann; retain the MIT license.
+- Preserve glyph outlines, character coverage, spacing, and OpenType features.
+
 ## 1.000
 
 - Initial Grady 1894 revival with printable Basic Latin and typographic punctuation.

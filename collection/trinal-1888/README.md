@@ -4,7 +4,7 @@ Curled Victorian capitals with fine serifs, open bowls, and looping terminals, b
 
 ![Trinal 1888 specimen](specimens/preview.png)
 
-**1888 · Regular · Version 1.000 · 104 characters · Capitals only · MIT**
+**1888 · Regular · Version 1.001 · 104 characters · Capitals only · MIT**
 
 [OTF](fonts/Trinal1888-Regular.otf) · [TTF](fonts/Trinal1888-Regular.ttf) · [WOFF2](web/Trinal1888-Regular.woff2) · [PDF specimen](specimens/specimen.pdf) · [Changes](CHANGELOG.md)
 
@@ -32,7 +32,7 @@ and use `font-family: "Trinal 1888"`. Designed for display sizes.
 
 Source images are in `reference/`; the source record is [font.json](font.json).
 Historical reference material retains the rights status recorded there.
-The digital revival is released under the included [MIT License](LICENSE).
+Copyright (c) 2026 Harold Lehmann. The digital revival is released under the included [MIT License](LICENSE).
 
 ## Build or improve
 

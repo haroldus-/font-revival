@@ -1,4 +1,4 @@
-"""Exercise contributor operations and catch release regressions."""
+"""Exercise maintenance operations and catch release regressions."""
 
 import contextlib
 import importlib.util
@@ -137,6 +137,22 @@ class WorkflowTests(unittest.TestCase):
         font.save(path)
         with self.assertRaisesRegex(ValueError, "embedding must be unrestricted"):
             revival.validate_family(self.family)
+
+    def test_stale_copyright_is_rejected_in_name_and_cff_metadata(self):
+        path = self.family / "fonts/Johnson1892-Regular.otf"
+        original = path.read_bytes()
+        for table in ("name", "CFF "):
+            with self.subTest(table=table):
+                path.write_bytes(original)
+                font = TTFont(path, recalcTimestamp=False)
+                if table == "name":
+                    font["name"].setName("An obsolete copyright notice", 0, 3, 1, 0x409)
+                else:
+                    font["CFF "].cff.topDictIndex[0].Copyright = "An obsolete copyright notice"
+                font.save(path)
+                font.close()
+                with self.assertRaisesRegex(ValueError, "copyright.*mismatch"):
+                    revival.validate_family(self.family)
 
     def test_comparison_embeds_both_revisions_of_the_same_family(self):
         before = self.root / "before.ttf"

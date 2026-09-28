@@ -66,5 +66,5 @@ Archive item URLs, page links and rights evidence are in `font.json`. The Librar
 of Congress metadata and the journal's publication metadata are retained locally.
 The patent's specification grants seven years. All underlying publications are
 nineteenth-century US material; Circular 15A supplies the public-domain term basis.
-The MIT license covers the project's digital contributions, not a claim to ownership
+The MIT license covers the project's digital revival, not a claim to ownership
 of the historical pages.

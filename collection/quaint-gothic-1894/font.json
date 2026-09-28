@@ -3,7 +3,7 @@
   "id": "quaint-gothic-1894",
   "name": "Quaint Gothic 1894",
   "style": "Regular",
-  "version": "1.000",
+  "version": "1.001",
   "postscript_name": "QuaintGothic1894-Regular",
   "year": 1894,
   "designer": "Unidentified in the consulted historical specimen",
@@ -23,16 +23,15 @@
     }
   ],
   "revival": {
-    "contributors": [
-      "Font Revival contributors"
-    ],
     "tools": [
       "Codex",
       "Pillow 12.3.0",
       "Potrace 1.16",
       "fontTools 4.64.0"
     ],
-    "notes": "See source/METHOD.md and source/tracing.json for reproducible crop selection, cleanup, scaling and companion drawings. No modern font outlines were used."
+    "notes": "See source/METHOD.md and source/tracing.json for reproducible crop selection, cleanup, scaling and companion drawings. No modern font outlines were used.",
+    "author": "Harold Lehmann"
   },
-  "character_style": "capitals-only"
+  "character_style": "capitals-only",
+  "copyright": "Copyright (c) 2026 Harold Lehmann"
 }

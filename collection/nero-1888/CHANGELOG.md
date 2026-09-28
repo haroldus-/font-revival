@@ -1,5 +1,10 @@
 # Changes
 
+## 1.004
+
+- Update copyright and release metadata to Harold Lehmann; retain the MIT license.
+- Preserve glyph outlines, character coverage, spacing, and OpenType features.
+
 ## 1.003
 
 - Retrace C from the 72-point Inland Printer impression, removing the damaged inner terminal.
