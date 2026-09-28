@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "pilot",
+  "scope": {
+    "book": "specimenbookfrom00unse",
+    "printed_pages": [
+      217,
+      276
+    ]
+  },
+  "missing_printed_pages": [
+    217,
+    218
+  ],
+  "missing_evidence": "reference/archive-metadata.json: notes",
+  "entries": [
+    {
+      "icon_id": "boston-1889-4202",
+      "printed_page": 273,
+      "pdf_page": 281,
+      "specimen_number": "4202",
+      "status": "revived"
+    }
+  ],
+  "notes": "Only the user-selected pilot is inventoried. Remaining pages and specimens are pending a separate survey; repeated impressions and individual border pieces must be recorded during that survey."
+}

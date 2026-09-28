@@ -1,0 +1,116 @@
+# Boston Cuts 1889
+
+Historical ornaments and cuts from the Boston Type Foundry specimen of 1889. The first pilot is Father Christmas, No. 4202.
+
+![Historical scan beside the vector revival](specimens/preview.png)
+
+**1 icon(s) · Version 1.002 · MIT**
+
+[SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BostonCuts1889-Regular.otf) · [TTF](fonts/BostonCuts1889-Regular.ttf) · [WOFF2](web/BostonCuts1889-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
+
+[Three-tone SVGs](svg/multitone/) · [Three-tone sprite](web/icons-multitone.svg) · [Transparent multitone PNGs](png/multitone/)
+
+## Use in HTML
+
+[Download the web bundle (ZIP)](downloads/boston-cuts-1889-web.zip), unzip it, and place
+the extracted `collection` folder beside your HTML file. Keep its subfolders
+together. The examples below then work as written; adjust the paths if you move
+the folder elsewhere. The bundle contains SVGs, PNGs, fonts, CSS, instructions
+and the license. No JavaScript or font installation is needed for SVG use.
+
+### Tritone image — works from disk too
+
+The individual SVG displays all three tones at their default strengths, with a
+transparent background. Change `height` to resize it; the proportions are retained.
+
+```html
+<img src="collection/boston-cuts-1889/svg/multitone/boston-1889-4202.svg"
+     alt="Father Christmas" height="96">
+```
+
+An `<img>` has its own colour context: page CSS cannot recolour its internal
+regions. For a decorative image beside a text label, use `alt=""` instead.
+
+### Tritone sprite — customise every tone
+
+Copy `web/icons-multitone.svg` and use the following complete example on an
+HTTP(S) page served from the same origin as the sprite. It draws dark primary ink
+and two strengths of red. Each colour and opacity can be changed independently.
+
+```html
+<style>
+  .revival-cut {
+    display: inline-block;
+    font-size: 96px;
+    height: 1em;
+    width: 0.954590em;
+    vertical-align: middle;
+    --fr-primary-color: #24251f;
+    --fr-secondary-color: #a5422c;
+    --fr-tertiary-color: #a5422c;
+    --fr-primary-opacity: 1;
+    --fr-secondary-opacity: 0.55;
+    --fr-tertiary-opacity: 0.25;
+  }
+</style>
+<svg class="revival-cut" role="img" aria-label="Father Christmas">
+  <use href="collection/boston-cuts-1889/web/icons-multitone.svg#boston-1889-4202"></use>
+</svg>
+```
+
+Use the same secondary and tertiary colour and opacity for a two-tone appearance.
+The defaults are primary 100%, secondary 55% and tertiary 25%; these are separate
+vector regions, not a gradient. The tone assignments interpret the historical
+impression. A transparent PNG of the default tones is also provided.
+
+External SVG sprites can be blocked on `file://` pages. To customise tones on a
+page opened from disk, open the individual SVG in a text editor, copy its complete
+`<svg>…</svg>` markup into your HTML, and add `class="revival-cut"` to that SVG.
+The same CSS above then applies to its inline paths. Keep its `viewBox` and paths.
+The gallery itself uses inline SVG so its previews work directly from disk.
+
+### Monochrome icon font
+
+Copy the whole `web/` folder, including CSS and webfonts. Standard icon fonts show
+the solid artwork; use the SVG examples above for tritone artwork.
+
+```html
+<link rel="stylesheet" href="collection/boston-cuts-1889/web/icons.css">
+<span class="fr-icon fr-boston-1889-4202" aria-hidden="true"
+      style="font-size:96px;color:#a5422c"></span>
+<span>Season’s greetings</span>
+```
+
+The example hides a decorative icon from screen readers and supplies visible
+text. For an icon that conveys meaning on its own, use `role="img"` and an
+`aria-label` instead of `aria-hidden`. Font size and colour use ordinary CSS.
+
+Install the OTF or TTF for desktop use. The manifest lists Private Use codepoints
+(pilot: U+E000); these are not ordinary text characters. IDs and
+codepoints are permanent within this collection. Keep the included LICENSE with
+redistributed assets. Detailed cuts need display sizes: the pilot is recommended
+from 64 px, with 16–192 pt proofs supplied for review.
+
+## Evidence and editing
+
+**Foundry:** Boston Type Foundry; pilot cut cast by Central Type Foundry
+
+**Designer:** Individual engraver unidentified; No. 4202 credited to Central Type Foundry in the specimen
+
+**Observed:** No. 4202: Father Christmas in profile with a pipe, swept hat, beard and detached engraved marks, traced from printed page 273. Source proportions are retained.
+
+**Interpreted or new:** No new pictorial content. Thresholding, removal of isolated one-pixel marks and one documented background speck, cubic curve fitting and font-unit rounding interpret the scanned impression. Names, search tags, Unicode Private Use assignment, scale and bearings are new project metadata. The original paper, catalogue number and price are excluded from the icon. The multi-tone companion separates the observed dark ink, medium engraving and pale strokes into three disjoint vector regions, with default opacities 1, 0.55 and 0.25. These tone assignments are a new, documented interpretation of the scan, not evidence of separately printed inks. No continuous-grayscale version is shipped.
+
+- [Specimen book from the Boston type foundry (1889), printed p. 273, Section 8, cut 4202; PDF page 281, Internet Archive leaf 281](https://archive.org/details/specimenbookfrom00unse/page/273/mode/1up) — 1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
+
+Copyright (c) 2026 Harold Lehmann. Historical public-domain material retains its status.
+Read [the method](source/METHOD.md), [inventory](source/inventory.json) and
+[icon workflow](../../docs/ICONS.md). The canonical master is `source/font.ttx`;
+SVGs, sprite, fonts and manifests are generated from it with glyph edits applied.
+
+```sh
+python scripts/fontrevival.py build boston-cuts-1889
+python scripts/fontrevival.py sizecheck boston-cuts-1889
+python scripts/fontrevival.py check boston-cuts-1889
+python scripts/fontrevival.py glyph boston-cuts-1889 uniE000
+```

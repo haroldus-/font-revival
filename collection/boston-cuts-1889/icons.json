@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "collection": "boston-cuts-1889",
+  "version": "1.002",
+  "icons": [
+    {
+      "id": "boston-1889-4202",
+      "name": "Father Christmas",
+      "codepoint": "E000",
+      "glyph": "uniE000",
+      "specimen_number": "4202",
+      "printed_page": 273,
+      "pdf_page": 281,
+      "source_index": 0,
+      "tags": [
+        "christmas",
+        "santa claus",
+        "father christmas",
+        "winter",
+        "holiday",
+        "festive",
+        "portrait",
+        "beard",
+        "hat",
+        "pipe"
+      ],
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE000.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE000.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE000.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1955,
+      "viewBox": "0 -1900 1955 2048",
+      "aspect_ratio": 0.95458984375,
+      "svg": "svg/boston-1889-4202.svg",
+      "sprite": "web/icons.svg#boston-1889-4202",
+      "css_class": "fr-icon fr-boston-1889-4202",
+      "multitone": {
+        "svg": "svg/multitone/boston-1889-4202.svg",
+        "png": "png/multitone/boston-1889-4202.png",
+        "sprite": "web/icons-multitone.svg#boston-1889-4202"
+      }
+    }
+  ]
+}

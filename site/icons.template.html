@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Historical ornaments and cuts, revived as detailed SVGs and icon fonts. Find artwork by theme, colour it, and use it in your own pages.">
+  <meta name="theme-color" content="#f4f0e7">
+  <title>Ornaments &amp; cuts — Font Revival</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23a5422c'/%3E%3Ctext x='15' y='48' font-family='serif' font-size='48' fill='%23f4f0e7'%3Ef%3C/text%3E%3C/svg%3E">
+  @@ICON_STYLES@@
+  <style>
+    @@BRAND_FONTS@@
+    @@SITE_CSS@@
+    :root{--icon-size:192px;--icon-color:var(--ink)}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+    .hero-showcase{min-width:0}.hero-art{position:relative;height:clamp(240px,26vw,300px)}.hero-art .hero-face{display:flex;align-items:center;justify-content:flex-start}.hero-art svg{height:100%;width:auto;max-width:100%;display:block}
+    .search{flex:1;min-width:0}input[type=search]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=color]{width:48px;height:32px;border:1px solid var(--rule);padding:2px;background:transparent}summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+    .count{font-size:12px;color:var(--muted);margin:0 0 20px}.icon-card{padding:32px 0 36px;border-top:1px solid var(--rule)}.icon-card h2{font-family:"remington-1888",monospace;font-size:clamp(38px,5vw,58px);font-weight:normal;line-height:1.4;margin:22px 0 8px}.tags{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;padding:0;margin:0 0 20px;color:var(--muted);font-size:12px}
+    .renderings{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:30px 0}.renderings figure{margin:0;padding:28px 12px 15px;border:1px solid var(--rule);text-align:center;min-width:0}.art{color:var(--icon-color);font-size:var(--icon-size);height:1.12em;display:flex;justify-content:center;align-items:center}.art svg{display:block;max-width:100%;overflow:visible}.art .fr-icon{display:block}figcaption{font-size:12px;color:var(--muted);margin-top:20px}
+    .icon-card .downloads{margin-bottom:22px}details{border-top:1px solid var(--rule);padding:15px 0}summary{cursor:pointer;font-size:14px}details p{font-size:14px;max-width:850px}details h3{font-size:14px;margin-top:24px}pre{padding:16px;background:#eae4d8;white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}code{overflow-wrap:anywhere}.comparison{width:100%;height:auto;margin-top:18px}[hidden]{display:none!important}
+    @media(max-width:1000px){.renderings{grid-template-columns:1fr}}
+    @media(max-width:650px){.hero-art{height:240px}.art{font-size:min(var(--icon-size),65vw)}.colour-control{display:flex;gap:20px;align-items:center}.colour-control label{margin:0}.collection-bar{align-items:start;flex-direction:column;gap:8px}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#collection">Skip to icons</a>
+  <div class="wrap">
+    <header><a class="wordmark" href="index.html">Font Revival<span style="color:var(--red)">.</span></a><nav aria-label="Main"><a href="index.html#collection">Typefaces</a><a href="icons.html" aria-current="page">Ornaments &amp; cuts</a><a href="https://github.com/haroldus-/font-revival">GitHub ↗</a></nav></header>
+    <main>
+      <section class="hero" aria-labelledby="title">
+        <p class="eyebrow"><span class="eyebrow-shadow" aria-hidden="true">Ornaments &amp; cuts</span><span class="eyebrow-face">Ornaments &amp; cuts</span></p>
+        <div class="hero-showcase">
+          <h1 id="title" class="sr-only">Ornaments &amp; cuts</h1>
+          <div class="hero-art" aria-hidden="true">@@HERO_ICON@@</div>
+          <div class="hero-animation-control"><button class="hero-animation-toggle" type="button" hidden>Pause animation</button></div>
+        </div>
+        <p class="intro">Engraved details from another century, ready for this one. Revived as ornaments and cuts to scale, colour, and bring into your own work.<br><a href="#collection">Explore the collection ↓</a></p>
+      </section>
+      <section id="collection" aria-labelledby="collection-title">
+        <div class="collection-bar"><h2 id="collection-title">The collection / @@ICON_COUNT@@ icons</h2><span>SVG + icon fonts · MIT licensed</span></div>
+        <div class="tester controls">
+          <div class="search"><label for="icon-search">FIND A THEME OR SUBJECT</label><input type="search" id="icon-search" placeholder="Try Christmas, winter or portrait" autocomplete="off"></div>
+          <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
+          <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
+        </div>
+        <p id="result-count" class="count" role="status">@@ICON_COUNT@@ icons</p>
+        @@ICON_CARDS@@
+        <p id="empty" hidden>No icons match that search. Try a theme or subject, such as Christmas or portrait.</p>
+      </section>
+    </main>
+    <footer><span>© 2026 Harold Lehmann</span><span><a href="https://github.com/haroldus-/font-revival/blob/main/LICENSE">MIT License</a> · Made to be shared.</span></footer>
+  </div>
+  <script>
+    const cards=[...document.querySelectorAll('.icon-card')];
+    const countLabel=count=>`${count} ${count===1?'icon':'icons'}`;
+    document.getElementById('result-count').textContent=countLabel(cards.length);
+    document.getElementById('collection-title').textContent=`The collection / ${countLabel(cards.length)}`;
+    document.getElementById('icon-search').addEventListener('input',event=>{
+      const words=event.target.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+      let count=0;
+      for(const card of cards){card.hidden=!words.every(word=>card.dataset.search.toLowerCase().includes(word));if(!card.hidden)count++;}
+      document.getElementById('result-count').textContent=`${count} of ${countLabel(cards.length)}`;
+      document.getElementById('empty').hidden=count!==0;
+    });
+    document.getElementById('icon-size').addEventListener('input',event=>{
+      document.documentElement.style.setProperty('--icon-size',`${event.target.value}px`);
+      document.getElementById('size-output').value=event.target.value;
+    });
+    document.getElementById('icon-color').addEventListener('input',event=>document.documentElement.style.setProperty('--icon-color',event.target.value));
+
+    const artwork=cards.map(card=>card.querySelector('[data-hero-icon]'));
+    const hero=document.querySelector('.hero-art');
+    const toggle=document.querySelector('.hero-animation-toggle');
+    const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
+    const faces=[hero.querySelector('.hero-face')];
+    let step=0,currentFace=0,timer,paused=false;
+    if(artwork.length){
+      const next=faces[0].cloneNode(true);
+      next.classList.add('is-hidden');hero.append(next);faces.push(next);
+    }
+    function rotateIcon(){
+      step++;
+      const next=1-currentFace;
+      const drawing=artwork[Math.floor(step/2)%artwork.length].cloneNode(true);
+      drawing.removeAttribute('style');
+      faces[next].replaceChildren(drawing);
+      faces[next].style.color=step%2?'var(--red)':'var(--ink)';
+      faces[next].classList.remove('is-hidden');faces[currentFace].classList.add('is-hidden');
+      currentFace=next;
+    }
+    function updateRotation(){
+      clearInterval(timer);
+      toggle.hidden=reducedMotion.matches||!artwork.length;
+      toggle.textContent=paused?'Play animation':'Pause animation';
+      if(artwork.length&&!paused&&!reducedMotion.matches&&!document.hidden)timer=setInterval(rotateIcon,7000);
+    }
+    toggle.addEventListener('click',()=>{paused=!paused;updateRotation();});
+    reducedMotion.addEventListener('change',updateRotation);
+    document.addEventListener('visibilitychange',updateRotation);
+    document.fonts.ready.then(()=>{
+      if(document.fonts.check('36px "erebus-1894"')&&document.fonts.check('36px "hades-1894"'))document.querySelector('.eyebrow').classList.add('is-layered');
+    });
+    updateRotation();
+  </script>
+</body>
+</html>

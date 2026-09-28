@@ -83,8 +83,7 @@ def clean_crop(image, entry):
     return clean
 
 
-def trace(image, entry, potrace):
-    mask = clean_crop(image, entry)
+def trace_mask(mask, entry, potrace):
     with tempfile.TemporaryDirectory(prefix='revival-trace-') as tmp:
         pbm, svg = Path(tmp)/'crop.pbm', Path(tmp)/'crop.svg'
         mask.convert('1').save(pbm)
@@ -97,6 +96,10 @@ def trace(image, entry, potrace):
         rec = RecordingPen()
         for element in ET.parse(svg).iter('{http://www.w3.org/2000/svg}path'):
             parse_path(element.attrib['d'], rec)
+    return rec
+
+
+def trace_transform(rec, entry):
     bounds = BoundsPen(None)
     rec.replay(bounds)
     x0, y0, x1, y1 = bounds.bounds
@@ -107,17 +110,44 @@ def trace(image, entry, potrace):
     advance = entry.get('advance_width', round((x1-x0)*sx+left+right))
     if entry.get('center', False):
         left = (advance - (x1-x0)*sx) / 2
+    return (sx, 0, 0, scale, left-x0*sx, entry.get('y_min', 0)-y0*scale), advance
+
+
+def trace(image, entry, potrace):
+    rec = trace_mask(clean_crop(image, entry), entry, potrace)
+    transform, advance = trace_transform(rec, entry)
     out = SVGPathPen(None)
-    rec.replay(TransformPen(RoundingPen(out),
-                           (sx, 0, 0, scale, left-x0*sx, entry.get('y_min', 0)-y0*scale)))
+    rec.replay(TransformPen(RoundingPen(out), transform))
     return {'path': out.getCommands(), 'advance_width': advance}
+
+
+def trace_tones(image, entry, layers, potrace):
+    """Make two or three disjoint tone regions in the solid drawing's frame."""
+    from outline_geometry import _path, _svg
+    import pathops
+
+    reference = trace_mask(clean_crop(image, entry), entry, potrace)
+    transform, advance = trace_transform(reference, entry)
+    settings = entry['multitone']
+    drawings, covered = {}, pathops.Path()
+    for layer in layers:
+        threshold = settings['thresholds'][layer['role']]
+        tonal = entry | {'threshold': threshold, 'erase': entry.get('erase', []) + settings.get('erase', [])}
+        rec = trace_mask(clean_crop(image, tonal), tonal, potrace)
+        out = SVGPathPen(None)
+        rec.replay(TransformPen(RoundingPen(out), transform))
+        shape = _path(out.getCommands())
+        region = pathops.op(shape, covered, pathops.PathOp.DIFFERENCE)
+        drawings[layer['glyph']] = {'path': _svg(region), 'advance_width': advance}
+        covered = pathops.op(covered, shape, pathops.PathOp.UNION)
+    return drawings
 
 
 def glyph_name(character):
     return UV2AGL.get(ord(character), f'uni{ord(character):04X}')
 
 
-def assemble(family, drawings, aliases, output, features='', metrics=None):
+def assemble(family, drawings, aliases, output, features='', metrics=None, extra_drawings=None):
     """Make a complete static CFF OTF for the standard import command."""
     m = fontrevival.metadata(family)
     settings = metrics or {}
@@ -125,7 +155,7 @@ def assemble(family, drawings, aliases, output, features='', metrics=None):
     for ch, target in aliases.items():
         cmap[ord(ch)] = glyph_name(target)
     missing = set(range(32, 127)) - cmap.keys()
-    if missing:
+    if missing and m.get('kind') != 'icons':
         raise ValueError('Missing Basic Latin: ' + ''.join(chr(cp) for cp in sorted(missing)))
     fixed_width = None
     if settings.get('monospaced'):
@@ -136,6 +166,10 @@ def assemble(family, drawings, aliases, output, features='', metrics=None):
     notdef = {'advance_width': fixed_width if fixed_width is not None else 600,
               'path': 'M60 0H540V700H60Z M100 40V660H500V40Z'}
     named = {'.notdef': notdef} | {glyph_name(ch): data for ch, data in drawings.items()}
+    for name, data in (extra_drawings or {}).items():
+        if name in named:
+            raise ValueError('Duplicate tonal glyph: ' + name)
+        named[name] = data
     order = list(named)
     charstrings, metrics = {}, {}
     for name, data in named.items():
@@ -150,9 +184,12 @@ def assemble(family, drawings, aliases, output, features='', metrics=None):
     fb.setupCharacterMap(cmap)
     fb.setupCFF(m['postscript_name'], {'FullName': m['name'], 'FamilyName': m['name'], 'Weight': 'Regular'}, charstrings, {})
     fb.setupHorizontalMetrics(metrics)
-    fb.setupHorizontalHeader(ascent=850, descent=-200, lineGap=100)
+    ascent = settings.get('ascent', 850)
+    descent = settings.get('descent', -200)
+    line_gap = settings.get('line_gap', 100)
+    fb.setupHorizontalHeader(ascent=ascent, descent=descent, lineGap=line_gap)
     fb.setupNameTable({'familyName': m['name'], 'styleName': 'Regular', 'psName': m['postscript_name']})
-    fb.setupOS2(sTypoAscender=850, sTypoDescender=-200, sTypoLineGap=100,
+    fb.setupOS2(sTypoAscender=ascent, sTypoDescender=descent, sTypoLineGap=line_gap,
                 usWinAscent=settings.get('win_ascent', 900),
                 usWinDescent=settings.get('win_descent', 220),
                 sxHeight=settings.get('x_height', 700), sCapHeight=settings.get('cap_height', 700),
@@ -178,12 +215,16 @@ def prepare(family, output, potrace):
     manifest = json.loads((family/'source/tracing.json').read_text())
     if manifest.get('mode') == 'glyph-revision':
         raise ValueError('Use trace_revisions.py for a glyph-revision recipe.')
-    images, drawings = {}, {}
+    images, drawings, extra = {}, {}, {}
+    m = fontrevival.metadata(family)
+    icon_map = {chr(int(i['codepoint'], 16)): i for i in m.get('icons', [])}
     for ch, entry in manifest['glyphs'].items():
         file = family/entry['file']
         if file not in images:
             images[file] = Image.open(file).convert('L')
         drawings[ch] = trace(images[file], entry, potrace)
+        if 'multitone' in entry:
+            extra.update(trace_tones(images[file], entry, icon_map[ch]['multitone_layers'], potrace))
     companions = json.loads((family/'source/companions.json').read_text())
     for ch, entry in companions['glyphs'].items():
         if 'from' in entry:
@@ -196,7 +237,7 @@ def prepare(family, output, potrace):
             drawings[ch] = entry
     features_path = family/'source/features.fea'
     features = features_path.read_text() if features_path.exists() else ''
-    assemble(family, drawings, companions['aliases'], output, features, manifest.get('font_metrics'))
+    assemble(family, drawings, companions['aliases'], output, features, manifest.get('font_metrics'), extra)
     # The audit JSON is disposable output, not a second authoritative master.
     fontrevival.write_json(output.with_suffix('.paths.json'), drawings)
     print(f'Prepared {output}; import it with scripts/fontrevival.py import {family.name} {output}')

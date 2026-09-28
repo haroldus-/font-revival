@@ -1,0 +1,18 @@
+{
+  "acquired": "2026-09-28",
+  "supplied_pdf": {
+    "workspace_file": "workspace/icon-pilot/boston-specimenbookfrom00unse.pdf",
+    "original_filename": "Specimen_book_from_the_Boston_type_foundry_...containing_also_a_complete_price_list_of_printing_material._(IA_specimenbookfrom00unse).pdf",
+    "sha256": "f2c296fb67d160a9349289b3bface2df331549609bf13236e702ddb633772933"
+  },
+  "trace_image": {
+    "url": "https://archive.org/download/specimenbookfrom00unse/specimenbookfrom00unse_jp2.zip/specimenbookfrom00unse_jp2%2Fspecimenbookfrom00unse_0281.jp2",
+    "download_sha256": "1566635cd1cd7506bbed1c832acaddae4f4573ce84feb7e492a2f170d8689e19",
+    "file": "boston-273.png",
+    "sha256": "8ff455a5ca3d055e50c48fe8d53b766aa87a69e48b8ca7de6d35e632766ce682",
+    "conversion": "Pillow 12.3.0: Image.open(jp2).save(png, optimize=True); full 2827 x 3969 pixel RGB image, no resampling or retouching. The original scan has tonal detail discarded by the supplied PDF image segmentation."
+  },
+  "metadata_url": "https://archive.org/metadata/specimenbookfrom00unse",
+  "page_map_url": "https://archive.org/download/specimenbookfrom00unse/specimenbookfrom00unse_scandata.xml",
+  "title_image": "Supplied PDF page 7 rendered with pdftoppm -scale-to 1500 -png; displays Boston, 1889."
+}

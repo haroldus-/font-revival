@@ -84,6 +84,26 @@ open bowls, and looping terminals. Lowercase input uses capitals.
 Erebus and Hades form a registered pair; see their [overprint proof](collection/hades-1894/specimens/pairing.pdf).
 The [1894 Ryan / November 1888 survey](docs/PROSPECTS-1894-1888.md) records the selections, supplementary sources and evidence limits.
 
+## Ornaments and cuts
+
+The icon collection revives historical artwork as multitone SVGs and transparent
+PNGs, plus solid SVGs, sprites, desktop fonts and CSS webfonts. The first pilot is
+**Father Christmas, No. 4202**,
+from printed p. 273 of the Boston Type Foundry specimen (1889), credited there to
+Central Type Foundry. Its detailed engraving and original proportions are retained.
+
+[![Father Christmas source and revival](collection/boston-cuts-1889/specimens/preview.png)](collection/boston-cuts-1889/)
+
+[Browse the icons](https://haroldus-.github.io/font-revival/icons.html) ·
+[SVG](collection/boston-cuts-1889/svg/boston-1889-4202.svg) ·
+[Three-tone SVG](collection/boston-cuts-1889/svg/multitone/boston-1889-4202.svg) ·
+[Icon fonts & usage](collection/boston-cuts-1889/) ·
+[Comparison PDF](collection/boston-cuts-1889/specimens/specimen.pdf) ·
+[Repeatable icon workflow](docs/ICONS.md)
+
+This is a one-icon pilot. The remaining Boston and Baltimore specimens are pending
+review and inventory; the Boston scan is missing printed pages 217–218.
+
 ## Use the fonts
 
 Download a release ZIP, or open a font link above and choose **Download raw file**.

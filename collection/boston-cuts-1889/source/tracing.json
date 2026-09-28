@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "font_metrics": {
+    "units_per_em": 2048,
+    "ascent": 1900,
+    "descent": -148,
+    "line_gap": 0,
+    "cap_height": 1800,
+    "x_height": 1800,
+    "win_ascent": 1900,
+    "win_descent": 148
+  },
+  "glyphs": {
+    "": {
+      "file": "reference/boston-273.png",
+      "box": [
+        682,
+        785,
+        943,
+        1034
+      ],
+      "height": 1800,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "threshold": 185,
+      "blur": 0.3,
+      "component_min_area": 2,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Retain all detached engraving marks of at least two native pixels; no enclosed holes filled. Exclude the printed cut number. Uniform scaling only.",
+      "erase": [
+        [
+          18,
+          164,
+          21,
+          167
+        ]
+      ],
+      "multitone": {
+        "thresholds": {
+          "primary": 130,
+          "secondary": 185,
+          "tertiary": 210
+        },
+        "erase": [
+          [
+            236,
+            114,
+            258,
+            131
+          ]
+        ],
+        "notes": "Trace darkest ink first, then subtract it from medium engraving, and subtract both from pale strokes. Three disjoint regions, no stacked opacity ramp. Keep the original solid transform."
+      }
+    }
+  }
+}

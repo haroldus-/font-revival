@@ -1,0 +1,6 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-boston-1889-4202 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4202::before { content: "\E000"; }

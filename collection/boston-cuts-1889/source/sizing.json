@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "notes": "The No. 4202 scan is uniformly scaled to 1800 units high within a 2048-unit em. Width is historical, not a square-cell normalisation. Allow sub-unit curve conversion and rounding.",
+  "rules": [
+    {
+      "characters": "",
+      "y_min": [
+        -1,
+        1
+      ],
+      "y_max": [
+        1799,
+        1801
+      ],
+      "ink_height": [
+        1799,
+        1802
+      ],
+      "ink_width": [
+        1825,
+        1829
+      ],
+      "advance_width": [
+        1955,
+        1955
+      ],
+      "notes": "Reviewed Father Christmas impression, p. 273, native aspect ratio with 64-unit sidebearings."
+    },
+    {
+      "characters": " ",
+      "ink_width": [
+        0,
+        0
+      ],
+      "ink_height": [
+        0,
+        0
+      ],
+      "advance_width": [
+        512,
+        512
+      ],
+      "notes": "New blank quarter-em space for desktop composition."
+    }
+  ]
+}

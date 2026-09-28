@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "boston-cuts-1889",
+  "kind": "icons",
+  "name": "Boston Cuts 1889",
+  "style": "Regular",
+  "version": "1.002",
+  "postscript_name": "BostonCuts1889-Regular",
+  "year": 1889,
+  "designer": "Individual engraver unidentified; No. 4202 credited to Central Type Foundry in the specimen",
+  "foundry": "Boston Type Foundry; pilot cut cast by Central Type Foundry",
+  "description": "Historical ornaments and cuts from the Boston Type Foundry specimen of 1889. The first pilot is Father Christmas, No. 4202.",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "",
+  "observed": "No. 4202: Father Christmas in profile with a pipe, swept hat, beard and detached engraved marks, traced from printed page 273. Source proportions are retained.",
+  "reconstructed": "No new pictorial content. Thresholding, removal of isolated one-pixel marks and one documented background speck, cubic curve fitting and font-unit rounding interpret the scanned impression. Names, search tags, Unicode Private Use assignment, scale and bearings are new project metadata. The original paper, catalogue number and price are excluded from the icon. The multi-tone companion separates the observed dark ink, medium engraving and pale strokes into three disjoint vector regions, with default opacities 1, 0.55 and 0.25. These tone assignments are a new, documented interpretation of the scan, not evidence of separately printed inks. No continuous-grayscale version is shipped.",
+  "sources": [
+    {
+      "title": "Specimen book from the Boston type foundry (1889), printed p. 273, Section 8, cut 4202; PDF page 281, Internet Archive leaf 281",
+      "url": "https://archive.org/details/specimenbookfrom00unse/page/273/mode/1up",
+      "file": "reference/boston-273.png",
+      "rights": "1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used.",
+      "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
+    }
+  ],
+  "icons": [
+    {
+      "id": "boston-1889-4202",
+      "name": "Father Christmas",
+      "codepoint": "E000",
+      "glyph": "uniE000",
+      "specimen_number": "4202",
+      "printed_page": 273,
+      "pdf_page": 281,
+      "source_index": 0,
+      "tags": [
+        "christmas",
+        "santa claus",
+        "father christmas",
+        "winter",
+        "holiday",
+        "festive",
+        "portrait",
+        "beard",
+        "hat",
+        "pipe"
+      ],
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE000.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE000.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE000.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0",
+      "skia-pathops 0.9.0"
+    ],
+    "notes": "See source/METHOD.md and source/tracing.json. One-icon pilot; the requested book ranges have not yet been inventoried or revived."
+  }
+}

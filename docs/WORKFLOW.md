@@ -1,5 +1,9 @@
 # The revival workflow
 
+For ornament and cut families, also follow [the icon workflow](ICONS.md). It uses
+the same CFF master and maintenance commands, with Private Use coverage and
+generated SVG, sprite and CSS delivery alongside the desktop and web fonts.
+
 Original project work uses Harold Lehmann's copyright notice and the repository
 MIT license. Keep historical designer credits and source rights distinct from
 copyright ownership.

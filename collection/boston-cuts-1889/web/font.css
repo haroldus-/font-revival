@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Boston Cuts 1889";
+  src: url("./BostonCuts1889-Regular.woff2") format("woff2"),
+       url("./BostonCuts1889-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
