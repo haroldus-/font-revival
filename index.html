@@ -22,9 +22,14 @@
 @font-face{font-family:"remington-1888";src:url("collection/remington-1888/web/Remington1888-Regular.woff2") format("woff2");font-display:swap}
 @font-face{font-family:"trinal-1888";src:url("collection/trinal-1888/web/Trinal1888-Regular.woff2") format("woff2");font-display:swap}
     :root{--paper:#f4f0e7;--ink:#24251f;--muted:#68675c;--rule:#cbc6b8;--red:#a5422c;--sample-size:56px}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--red)}a:focus-visible,input:focus-visible{outline:3px solid var(--red);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:12px}.skip:focus{top:12px}header{display:flex;justify-content:space-between;align-items:center;padding:27px 0;border-bottom:1px solid var(--ink);gap:20px}.wordmark{font-family:"quaint-gothic-1894",sans-serif;font-size:25px;font-weight:normal;text-decoration:none;letter-spacing:normal}nav{display:flex;gap:26px;font-size:13px}.hero{padding:80px 0 70px;display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:end}.eyebrow{color:var(--red);font-size:11px;letter-spacing:2px;text-transform:uppercase;margin:0 0 24px}h1{font-family:"oriole-1894",serif;font-weight:normal;font-size:clamp(64px,8.4vw,112px);line-height:.98;letter-spacing:normal;margin:0}h1 em{font-family:"nero-1888",serif;color:var(--red);font-weight:normal;font-style:normal}.intro{font-size:19px;max-width:360px;justify-self:end;margin:0 0 6px;color:var(--muted)}.intro a{display:inline-block;margin-top:20px;color:var(--ink);font-size:13px}.collection-bar{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.collection-bar h2{font-size:11px;font-weight:normal;letter-spacing:2px;margin:0;text-transform:uppercase}.collection-bar span{color:var(--muted);font-size:12px}.tester{display:flex;gap:32px;align-items:end;padding:28px 0 36px}.text-control{flex:1}.tester label{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}input[type=text]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=range]{accent-color:var(--red);width:160px}output{font-variant-numeric:tabular-nums}.font-card{border-top:1px solid var(--rule);padding:32px 0 36px}.card-meta{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.3px}.font-card h2{font-size:clamp(68px,8vw,104px);font-weight:400;line-height:1.4;margin:22px 0 8px}.description{color:var(--muted);max-width:720px;font-size:14px;margin:0 0 20px}.type-sample{font-size:var(--sample-size);line-height:1.65;padding:6px 0 20px;overflow-wrap:anywhere;min-height:130px}.coverage{font-size:11px;color:var(--muted);letter-spacing:.3px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.downloads a{border:1px solid var(--rule);text-decoration:none;padding:8px 14px;font-size:11px}.downloads a:hover{border-color:var(--red);background:#eee6d9}.mission{border-top:1px solid var(--ink);padding:55px 0 65px;display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:25px}.mission h2{font-family:Georgia,serif;font-size:39px;line-height:1.2;font-weight:normal;letter-spacing:-1px;margin:0}.mission p{font-size:14px;color:var(--muted);margin:0 0 18px}.mission a{color:var(--ink)}footer{border-top:1px solid var(--rule);padding:22px 0 35px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.notice{font-size:11px!important}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--red)}a:focus-visible,input:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:12px}.skip:focus{top:12px}header{display:flex;justify-content:space-between;align-items:center;padding:27px 0;border-bottom:1px solid var(--ink);gap:20px}.wordmark{font-family:"quaint-gothic-1894",sans-serif;font-size:25px;font-weight:normal;text-decoration:none;letter-spacing:normal}nav{display:flex;gap:26px;font-size:13px}.hero{padding:80px 0 70px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px;align-items:end}.eyebrow{color:var(--red);font-size:11px;letter-spacing:2px;text-transform:uppercase;margin:0 0 24px}h1{font-family:"oriole-1894",serif;font-weight:normal;font-size:clamp(64px,8.4vw,112px);line-height:1.2;letter-spacing:normal;margin:0;position:relative;height:2.5em}h1 em{color:var(--red);font-weight:normal;font-style:normal}.intro{font-family:"remington-1888",monospace;font-size:19px;max-width:360px;justify-self:end;margin:0 0 6px;color:var(--muted)}.intro a{font-family:Arial,Helvetica,sans-serif;display:inline-block;margin-top:20px;color:var(--ink);font-size:13px}.collection-bar{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.collection-bar h2{font-size:11px;font-weight:normal;letter-spacing:2px;margin:0;text-transform:uppercase}.collection-bar span{color:var(--muted);font-size:12px}.tester{display:flex;gap:32px;align-items:end;padding:28px 0 36px}.text-control{flex:1}.tester label{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}input[type=text]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=range]{accent-color:var(--red);width:160px}output{font-variant-numeric:tabular-nums}.font-card{border-top:1px solid var(--rule);padding:32px 0 36px}.card-meta{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.3px}.font-card h2{font-size:clamp(68px,8vw,104px);font-weight:400;line-height:1.4;margin:22px 0 8px}.description{color:var(--muted);max-width:720px;font-size:14px;margin:0 0 20px}.type-sample{font-size:var(--sample-size);line-height:1.65;padding:6px 0 20px;overflow-wrap:anywhere;min-height:130px}.coverage{font-size:11px;color:var(--muted);letter-spacing:.3px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.downloads a{border:1px solid var(--rule);text-decoration:none;padding:8px 14px;font-size:11px}.downloads a:hover{border-color:var(--red);background:#eee6d9}.mission{border-top:1px solid var(--ink);padding:55px 0 65px;display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:25px}.mission h2{font-family:Georgia,serif;font-size:39px;line-height:1.2;font-weight:normal;letter-spacing:-1px;margin:0}.mission p{font-size:14px;color:var(--muted);margin:0 0 18px}.mission a{color:var(--ink)}footer{border-top:1px solid var(--rule);padding:22px 0 35px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.notice{font-size:11px!important}
+    .hero-face{position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;opacity:1;transition:opacity 1.4s ease}
+    .hero-face.is-hidden{opacity:0}
+    .hero-line{display:block;width:max-content;max-width:100%;white-space:nowrap;align-self:center}
+    .hero-animation-toggle{border:0;border-bottom:1px solid var(--rule);background:none;padding:0;color:var(--muted);font:11px Arial,Helvetica,sans-serif;cursor:pointer}
+    .hero-animation-control{height:22px;margin-top:12px}
     @media(max-width:650px){.wrap{width:calc(100% - 40px)}header{padding:20px 0;flex-wrap:wrap}nav{gap:14px}.hero{grid-template-columns:1fr;padding:55px 0;gap:28px}h1{font-size:clamp(50px,16vw,64px)}.intro{justify-self:start;max-width:440px;font-size:17px}.tester{flex-direction:column;align-items:stretch;gap:20px}.size-control{display:flex;gap:20px;align-items:center}.size-control label{margin:0}.font-card h2{font-size:clamp(32px,8vw,52px);overflow-wrap:anywhere}.mission{grid-template-columns:1fr;gap:24px;padding:40px 0}.mission h2{font-size:34px}.type-sample{font-size:min(var(--sample-size),64px)}footer{flex-direction:column;gap:8px}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-face{transition:none}}
   </style>
 </head>
 <body>
@@ -33,7 +38,10 @@
     <header><a class="wordmark" href="./">Font Revival<span style="color:var(--red)">.</span></a><nav aria-label="Main"><a href="#collection">Collection</a><a href="https://github.com/haroldus-/font-revival">GitHub ↗</a></nav></header>
     <main>
       <section class="hero" aria-labelledby="title">
-        <div><p class="eyebrow">An open collection of historical type</p><h1 id="title">Old forms.<br><em>New life.</em></h1></div>
+        <div><p class="eyebrow">An open collection of historical type</p>
+          <h1 id="title" aria-label="Old forms. New life."><span class="hero-face" aria-hidden="true"><span class="hero-line">Old forms.</span><em class="hero-line">New life.</em></span></h1>
+          <div class="hero-animation-control"><button class="hero-animation-toggle" type="button" hidden>Pause animation</button></div>
+        </div>
         <p class="intro">Type from another century, ready for this one. Revived from historical specimens and shared for everyone to use, study, and improve.<br><a href="#collection">Explore the collection ↓</a></p>
       </section>
       <section id="collection" aria-labelledby="collection-title">
@@ -166,6 +174,65 @@
     slider.addEventListener('input', () => {
       document.documentElement.style.setProperty('--sample-size', slider.value + 'px');
       output.value = slider.value;
+    });
+
+    const title = document.querySelector('#title');
+    const pauseAnimation = document.querySelector('.hero-animation-toggle');
+    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+    // The generated cards keep the rotation in sync with the collection.
+    const families = [...document.querySelectorAll('.font-card')].map(card => card.id);
+    const faces = [title.querySelector('.hero-face')];
+    let currentFace = 0;
+    let familyIndex = families.indexOf('oriole-1894');
+    let rotationTimer;
+    let paused = false;
+    let ready = false;
+
+    function fitFace(face) {
+      face.style.fontSize = '';
+      const width = Math.max(...[...face.children].map(line => line.scrollWidth));
+      const size = parseFloat(getComputedStyle(title).fontSize);
+      face.style.fontSize = size * Math.min(1, (title.clientWidth - 4) / width) + 'px';
+    }
+
+    function rotateFont() {
+      familyIndex = (familyIndex + 1) % families.length;
+      const nextFace = 1 - currentFace;
+      faces[nextFace].style.fontFamily = '"' + families[familyIndex] + '", serif';
+      fitFace(faces[nextFace]);
+      faces[nextFace].classList.remove('is-hidden');
+      faces[currentFace].classList.add('is-hidden');
+      currentFace = nextFace;
+    }
+
+    function updateRotation() {
+      clearInterval(rotationTimer);
+      pauseAnimation.hidden = !ready || reducedMotion.matches || families.length < 2;
+      pauseAnimation.textContent = paused ? 'Play animation' : 'Pause animation';
+      if (ready && !paused && !reducedMotion.matches && !document.hidden && families.length > 1) {
+        rotationTimer = setInterval(rotateFont, 7000);
+      }
+    }
+
+    pauseAnimation.addEventListener('click', () => {
+      paused = !paused;
+      updateRotation();
+    });
+    reducedMotion.addEventListener('change', updateRotation);
+    document.addEventListener('visibilitychange', updateRotation);
+    new ResizeObserver(() => faces.forEach(fitFace)).observe(title);
+    document.fonts.ready.then(() => {
+      // Keep a failed webfont out of the rotation rather than showing a fallback.
+      const loaded = families.filter(family => document.fonts.check('16px "' + family + '"'));
+      families.splice(0, families.length, ...loaded);
+      familyIndex = families.indexOf('oriole-1894');
+      const next = faces[0].cloneNode(true);
+      next.classList.add('is-hidden');
+      title.append(next);
+      faces.push(next);
+      faces.forEach(fitFace);
+      ready = true;
+      updateRotation();
     });
   </script>
 </body>
