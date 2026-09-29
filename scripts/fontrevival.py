@@ -245,7 +245,7 @@ def load_source(path, m):
     return font
 
 
-def to_truetype(otf):
+def to_truetype(otf, preserve_origins=False):
     font = copy.deepcopy(otf)
     glyph_set = font.getGlyphSet()
     glyphs = {}
@@ -266,9 +266,16 @@ def to_truetype(otf):
                       isFixedPitch=old_post.isFixedPitch)
     # Quadratic control points can extend beyond the cubic curve's tight bounds.
     # Windows clipping limits must cover the bounds written to the TTF head too.
-    for glyph in glyphs.values():
+    for name, glyph in glyphs.items():
         glyph.recalcBounds(font['glyf'])
         if glyph.numberOfContours:
+            if preserve_origins:
+                # TrueType positions its control-point box using hmtx.lsb.
+                # CFF uses a tight curve bound, which can differ substantially.
+                # Register icon layers at their original coordinates instead of
+                # letting that difference translate each region independently.
+                advance = font['hmtx'][name][0]
+                font['hmtx'][name] = (advance, glyph.xMin)
             font['OS/2'].usWinAscent = max(font['OS/2'].usWinAscent, glyph.yMax)
             font['OS/2'].usWinDescent = max(font['OS/2'].usWinDescent, -glyph.yMin)
     return font
@@ -494,8 +501,8 @@ def public_icon(record):
     return {k: v for k, v in record.items() if k not in ("path", "tones")}
 
 
-def render_multitone(path, record, size=1024):
-    """Rasterise committed layer outlines through Pillow, keeping PNG alpha.
+def multitone_face(path, records, size=1024):
+    """Prepare one in-memory font for all tonal PNGs in a collection.
 
     Temporary supplementary PUA mappings expose unencoded layer glyphs to the
     rasterizer. They are never saved in a release font or assigned to an icon.
@@ -504,16 +511,23 @@ def render_multitone(path, record, size=1024):
     with TTFont(path, recalcTimestamp=False) as font:
         table = CmapSubtable.newSubtable(12)
         table.platformID, table.platEncID, table.language = 3, 10, 0
-        table.cmap = {0xF0000 + i: layer["glyph"] for i, layer in enumerate(record["tones"])}
+        layers = [layer for record in records for layer in record["tones"]]
+        table.cmap = {0xF0000 + i: layer["glyph"] for i, layer in enumerate(layers)}
         font["cmap"].tables = [table]
         upm, ascent = font["head"].unitsPerEm, font["hhea"].ascent
         stream = io.BytesIO(); font.save(stream)
     stream.seek(0)
     face = ImageFont.truetype(stream, size)
+    return face, {name: chr(cp) for cp, name in table.cmap.items()}, upm, ascent
+
+
+def render_multitone(path, record, size=1024, prepared=None):
+    """Rasterise committed regions through Pillow, keeping PNG alpha."""
+    face, characters, upm, ascent = prepared or multitone_face(path, [record], size)
     image = Image.new("RGBA", (math.ceil(record["advance_width"] * size / upm), size))
     for i, layer in enumerate(record["tones"]):
         mask = Image.new("L", image.size)
-        ImageDraw.Draw(mask).text((0, ascent * size / upm), chr(0xF0000+i), font=face, fill=255, anchor="ls")
+        ImageDraw.Draw(mask).text((0, ascent * size / upm), characters[layer["glyph"]], font=face, fill=255, anchor="ls")
         mask = mask.point(lambda alpha: round(alpha * layer["opacity"]))
         ink = Image.new("RGBA", image.size); ink.putalpha(mask)
         image = Image.alpha_composite(image, ink)
@@ -528,13 +542,18 @@ def icon_proofs(path, m, font):
     c = canvas.Canvas(str(path / "specimens/specimen.pdf"), pagesize=(842, 595), invariant=1)
     c.setTitle(m["name"] + " | Historical icon comparison and size proof")
     c.setAuthor(COPYRIGHT_HOLDER)
+    source_pages = {}
+    glyphs = font.getGlyphSet()
     for i, icon in enumerate(m["icons"]):
         ch = chr(int(icon["codepoint"], 16))
         entry = recipe["glyphs"][ch]
-        with Image.open(path / entry["file"]) as source:
-            crop = source.convert("RGB").crop(entry["box"])
+        if entry["file"] not in source_pages:
+            with Image.open(path / entry["file"]) as source:
+                source_pages[entry["file"]] = source.convert("RGB")
+        crop = source_pages[entry["file"]].crop(entry["box"])
         gray_file = path / "png/multitone" / f'{icon["id"]}.png'
-        gray = Image.open(gray_file).convert("RGBA") if icon.get("multitone_layers") else None
+        full_gray = Image.open(gray_file).convert("RGBA") if icon.get("multitone_layers") else None
+        gray = full_gray
         if gray is not None:
             gray = gray.crop(gray.getbbox())
         c.setFont("Helvetica", 18)
@@ -547,11 +566,15 @@ def icon_proofs(path, m, font):
         if gray is not None:
             c.drawString(301, 481, "Three-tone vector (rendered)")
             factor = min(panel_width / gray.width, 300 / gray.height)
-            c.drawImage(ImageReader(gray), 301, 145, gray.width*factor, gray.height*factor, mask="auto")
+            pdf_gray = gray.copy()
+            pdf_gray.thumbnail((448, 448), Image.Resampling.LANCZOS)
+            c.drawImage(ImageReader(pdf_gray), 301, 145, gray.width*factor, gray.height*factor, mask="auto")
         c.drawString(mono_x, 481, "Monochrome vector")
         factor = min(panel_width / crop.width, 300 / crop.height)
-        c.drawImage(ImageReader(crop), 36, 145, crop.width * factor, crop.height * factor)
-        bounds = BoundsPen(font.getGlyphSet()); font.getGlyphSet()[icon["glyph"]].draw(bounds)
+        pdf_crop = crop.copy()
+        pdf_crop.thumbnail((800, 800), Image.Resampling.LANCZOS)
+        c.drawImage(ImageReader(pdf_crop), 36, 145, crop.width * factor, crop.height * factor)
+        bounds = BoundsPen(glyphs); glyphs[icon["glyph"]].draw(bounds)
         x0, y0, x1, y1 = bounds.bounds
         scale = min(panel_width / (x1-x0), 300 / (y1-y0))
         c.setFont(name, font["head"].unitsPerEm * scale)
@@ -563,13 +586,16 @@ def icon_proofs(path, m, font):
         if gray is not None:
             c.setFont("Helvetica", 18); c.drawString(36, 553, icon["name"] + " / Three-tone at different sizes")
             x = 36
+            pdf_full_gray = full_gray.copy()
+            pdf_full_gray.thumbnail((448, 448), Image.Resampling.LANCZOS)
+            tonal_reader = ImageReader(pdf_full_gray)
             for size in (16, 24, 32, 48, 64, 96, 192):
-                width = size * gray.width / gray.height
-                c.drawImage(ImageReader(gray), x, 305, width, size, mask="auto")
+                width = size * full_gray.width / full_gray.height
+                c.drawImage(tonal_reader, x, 305, width, size, mask="auto")
                 c.setFont("Helvetica", 9); c.drawString(x, 282, f"{size} pt")
                 x += width + 22
             c.setFont("Helvetica", 11)
-            c.drawString(36, 180, "Sizes are ink heights. Transparent paper. Raster shown in this PDF; download SVG for vector artwork.")
+            c.drawString(36, 180, "Sizes use the font em box. Original proportions. Raster shown in this PDF; download SVG for vector artwork.")
             c.drawString(36, 158, "The standard icon font and solid SVG remain monochrome. No additional shading has been invented.")
             c.showPage()
         c.setFont("Helvetica", 18); c.drawString(36, 553, icon["name"] + " / Size and inline proof")
@@ -578,7 +604,7 @@ def icon_proofs(path, m, font):
             c.setFont("Helvetica", 9); c.drawString(x, 282, f"{size} pt")
             c.setFont(name, size); c.drawString(x, 305, ch)
             x += pdfmetrics.stringWidth(ch, name, size) + 22
-        c.setFont("Helvetica", 18); c.drawString(36, 215, "Season's greetings")
+        c.setFont("Helvetica", 18); c.drawString(36, 215, "Illustrated detail")
         c.setFont(name, 48); c.drawString(220, 210, ch)
         c.setFont("Helvetica", 12)
         c.drawString(36, 147, f'Detailed cut: recommended from {icon["recommended_min_px"]} px; inspect the intended output size.')
@@ -601,7 +627,7 @@ def icon_proofs(path, m, font):
         im.paste(crop.resize((round(crop.width*factor), round(crop.height*factor)), Image.Resampling.LANCZOS), (40, 126))
         pixel_scale = min(470/(x1-x0), 440/(y1-y0))
         face = ImageFont.truetype(str(file), round(font["head"].unitsPerEm*pixel_scale))
-        draw.text((mono_x-x0*pixel_scale, 566+y0*pixel_scale), ch, font=face, fill=INK, anchor="ls")
+        draw.text((mono_x-x0*pixel_scale, 126+y1*pixel_scale), ch, font=face, fill=INK, anchor="ls")
         draw.text((40, 624), f'Printed p. {icon["printed_page"]} / source detail retained / MIT digital revival', font=label, fill=ACCENT)
         im.save(path / "specimens" / f'{icon["id"]}.png')
         if i == 0:
@@ -618,7 +644,7 @@ def icon_html_examples(record, base):
     sprite = "icons-multitone.svg" if record["tones"] else "icons.svg"
     return {
         "image": f'<img src="{base}/svg/{variant}{icon_id}.svg"\n     alt="{name}" height="96">',
-        "font": f'<link rel="stylesheet" href="{base}/web/icons.css">\n<span class="fr-icon fr-{icon_id}" aria-hidden="true"\n      style="font-size:96px;color:#a5422c"></span>\n<span>Season’s greetings</span>',
+        "font": f'<link rel="stylesheet" href="{base}/web/icons.css">\n<span class="fr-icon fr-{icon_id}" aria-hidden="true"\n      style="font-size:96px;color:#a5422c"></span>\n<span>{name}</span>',
         "sprite": f'''<style>
   .revival-cut {{
     display: inline-block;
@@ -642,6 +668,7 @@ def icon_html_examples(record, base):
 
 def build_icons(path, m, font):
     records = icon_records(m, font)
+    tonal_face = multitone_face(path / "fonts" / f'{m["postscript_name"]}.ttf', records) if any(r["tones"] for r in records) else None
     folder = path / "svg"
     folder.mkdir(exist_ok=True)
     # Avoid shipping deleted/renamed icons left over from an earlier build.
@@ -667,7 +694,12 @@ def build_icons(path, m, font):
             gray_symbols.append(f'<symbol id="{r["id"]}" viewBox="{r["viewBox"]}">{multitone_artwork(r)}</symbol>')
             png_folder = path / "png/multitone"
             png_folder.mkdir(parents=True, exist_ok=True)
-            render_multitone(path / "fonts" / f'{m["postscript_name"]}.ttf', r).save(png_folder / f'{r["id"]}.png')
+            rendered = render_multitone(path / "fonts" / f'{m["postscript_name"]}.ttf', r, prepared=tonal_face)
+            # The raster is black ink with 256 possible alpha values. An indexed
+            # alpha palette stores exactly those pixels without RGBA duplication.
+            indexed = Image.frombytes("P", rendered.size, rendered.getchannel("A").tobytes())
+            indexed.putpalette([0] * 768)
+            indexed.save(png_folder / f'{r["id"]}.png', transparency=bytes(range(256)))
     (path / "web/icons.svg").write_text('<svg xmlns="http://www.w3.org/2000/svg">\n' + '\n'.join(symbols) + '\n</svg>\n')
     if gray_symbols:
         (path / "web/icons-multitone.svg").write_text('<svg xmlns="http://www.w3.org/2000/svg">\n' + '\n'.join(gray_symbols) + '\n</svg>\n')
@@ -848,7 +880,7 @@ def build_family(path):
         (path / sub).mkdir(exist_ok=True)
     ps = m["postscript_name"]
     font.save(path / "fonts" / f"{ps}.otf")
-    ttf = to_truetype(font)
+    ttf = to_truetype(font, preserve_origins=m.get("kind") == "icons")
     ttf.save(path / "fonts" / f"{ps}.ttf")
     for flavor in ("woff", "woff2"):
         ttf.flavor = flavor
@@ -910,11 +942,12 @@ def catalog_outputs():
 
 def icon_catalog_outputs(collections, brand_styles=()):
     cards, styles, icons, seen = [], [], [], set()
+    artwork_chunks = {}
     for m, records in collections:
         base = f'collection/{m["id"]}'
         styles.append(f'<link rel="stylesheet" href="{base}/web/icons.css">')
         ps = m["postscript_name"]
-        for r in records:
+        for record_index, r in enumerate(records):
             if r["id"] in seen:
                 raise ValueError(f'Duplicate icon ID across collections: {r["id"]}')
             seen.add(r["id"])
@@ -933,17 +966,29 @@ def icon_catalog_outputs(collections, brand_styles=()):
             tags = ''.join(f'<li>{html.escape(tag)}</li>' for tag in r["tags"])
             links = ' '.join(f'<a download href="{base}/{folder}/{ps}.{ext}">{ext.upper()}</a>'
                              for folder, ext in (("fonts", "otf"), ("fonts", "ttf"), ("web", "woff2")))
-            gray_preview = (f'<figure><div class="art"><svg role="img" aria-label="{title} — multi-tone" viewBox="{r["viewBox"]}" style="width:{r["aspect_ratio"]:.6f}em;height:1em">{multitone_artwork(r)}</svg></div><figcaption>Three-tone SVG</figcaption></figure>' if r["tones"] else '')
+            mono_art = icon_artwork(r)
+            tone_art = multitone_artwork(r) if r["tones"] else ''
+            chunk = ''
+            if len(icons) > 24:
+                # Classic local scripts work on file:// pages as well as HTTP.
+                # Keep the initial results inline and load later drawings only
+                # when search, pagination or the hero actually needs them.
+                chunk = f'site/icon-art/{m["id"]}-{record_index // 24:03d}.js'
+                artwork_chunks.setdefault(chunk, {})[r["id"]] = {
+                    "monochrome": mono_art, "multitone": tone_art}
+                mono_art = tone_art = ''
+            gray_preview = (f'<figure><div class="art"><svg data-icon-format="multitone" role="img" aria-label="{title} — multi-tone" viewBox="{r["viewBox"]}" style="width:{r["aspect_ratio"]:.6f}em;height:1em">{tone_art}</svg></div><figcaption>Three-tone SVG</figcaption></figure>' if r["tones"] else '')
             gray_links = (f'<a download href="{base}/svg/multitone/{r["id"]}.svg">Three-tone SVG</a><a download href="{base}/png/multitone/{r["id"]}.png">Three-tone PNG</a><a download href="{base}/web/icons-multitone.svg">Three-tone sprite</a>' if r["tones"] else '')
-            cards.append(f'''<article class="icon-card" id="{r["id"]}" data-search="{search}">
+            cards.append(f'''<article class="icon-card" id="{r["id"]}" data-search="{search}" data-art-chunk="{chunk}">
   <p class="card-meta">{html.escape(m["name"])} · Cut {html.escape(r["specimen_number"])}</p>
   <h2>{title}</h2>
   <ul class="tags" aria-label="Themes and search terms">{tags}</ul>
   <div class="renderings" role="group" aria-label="Three-tone and monochrome formats for {title}">
     {gray_preview}
-    <figure><div class="art"><svg data-hero-icon role="img" aria-label="{title}" viewBox="{r["viewBox"]}" style="width:{r["aspect_ratio"]:.6f}em;height:1em">{icon_artwork(r)}</svg></div><figcaption>Monochrome SVG</figcaption></figure>
+    <figure><div class="art"><svg data-hero-icon data-icon-format="monochrome" role="img" aria-label="{title}" viewBox="{r["viewBox"]}" style="width:{r["aspect_ratio"]:.6f}em;height:1em">{mono_art}</svg></div><figcaption>Monochrome SVG</figcaption></figure>
     <figure><div class="art"><span class="fr-icon fr-{r["id"]}" role="img" aria-label="{title}"></span></div><figcaption>Monochrome icon font</figcaption></figure>
   </div>
+  <p class="art-status" role="status" hidden></p>
   <p class="description">Engraved detail, original proportions. Recommended from {r["recommended_min_px"]} px.</p>
   <div class="downloads"><a download href="{base}/downloads/{m["id"]}-web.zip">Download web bundle (ZIP)</a>{gray_links}<a download href="{base}/svg/{r["id"]}.svg">Monochrome SVG</a><a download href="{base}/web/icons.svg">Monochrome sprite</a>{links}<a href="{base}/specimens/specimen.pdf">Comparison PDF</a><a href="{base}/font.json">Source record</a></div>
   <details><summary>Use this icon in HTML</summary>
@@ -971,14 +1016,19 @@ def icon_catalog_outputs(collections, brand_styles=()):
                          "@@BRAND_FONTS@@": '\n'.join(brand_styles), "@@HERO_ICON@@": hero_icon,
                          "@@ICON_COUNT@@": str(len(icons))}.items():
         template = template.replace(token, value)
-    return {"icons.html": template,
+    chunk_outputs = {name: '/* Generated by scripts/fontrevival.py. */\nObject.assign(window.revivalIconArtwork, ' +
+                     json.dumps(drawings, ensure_ascii=False, separators=(',', ':'), sort_keys=True) + ');\n'
+                     for name, drawings in artwork_chunks.items()}
+    return chunk_outputs | {"icons.html": template,
             "icons.json": json.dumps({"schema_version": 1, "collections": [m for m, _ in collections],
                                        "icons": icons}, indent=2, ensure_ascii=False) + '\n'}
 
 
 def build_catalog():
     for filename, content in catalog_outputs().items():
-        (ROOT / filename).write_text(content)
+        output = ROOT / filename
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(content)
 
 
 SIZE_METRICS = ("y_min", "y_max", "ink_width", "ink_height", "advance_width")
@@ -1108,6 +1158,7 @@ def validate_family(path):
     m = metadata(path)
     profile = sizing_profile(path)
     expected = None
+    expected_icon_bounds = {}
     for folder, ext in [("fonts", "otf"), ("fonts", "ttf"), ("web", "woff"), ("web", "woff2")]:
         file = path / folder / f'{m["postscript_name"]}.{ext}'
         with TTFont(file, checkChecksums=2) as font:
@@ -1131,6 +1182,11 @@ def validate_family(path):
                         if (x0 < 0 or x1 > font["hmtx"][icon["glyph"]][0]
                                 or y0 < font["hhea"].descent or y1 > font["hhea"].ascent):
                             raise ValueError(f"{file}: icon would clip its SVG/em box.")
+                        if ext == "otf":
+                            expected_icon_bounds[icon["glyph"]] = pen.bounds
+                        elif any(abs(a - b) > 2 for a, b in zip(
+                                pen.bounds, expected_icon_bounds[icon["glyph"]])):
+                            raise ValueError(f"{file}: icon layer changed position during conversion: {icon['glyph']}.")
             elif not set(range(32, 127)).issubset(cmap):
                 raise ValueError(f"{file}: missing printable Basic Latin characters.")
             if font["OS/2"].fsType != 0:
@@ -1148,7 +1204,11 @@ def validate_family(path):
                 raise ValueError(f"{file}: missing MIT license metadata.")
             if font['name'].getDebugName(1) != m['name'] or font['name'].getDebugName(5) != 'Version ' + m['version']:
                 raise ValueError(f"{file}: family/version metadata mismatch.")
-            shape = (cmap, font.getGlyphOrder(), font["hmtx"].metrics)
+            # Registered icon layers have format-specific control-point LSBs;
+            # their actual ink bounds above and their advances must agree.
+            metrics = ({name: width for name, (width, _) in font["hmtx"].metrics.items()}
+                       if m.get("kind") == "icons" else font["hmtx"].metrics)
+            shape = (cmap, font.getGlyphOrder(), metrics)
             if expected is not None and shape != expected:
                 raise ValueError(f"{file}: formats have inconsistent characters or spacing.")
             expected = shape

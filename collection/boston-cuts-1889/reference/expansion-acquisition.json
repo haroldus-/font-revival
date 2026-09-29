@@ -1,0 +1,68 @@
+{
+  "acquired": "2026-09-28",
+  "archive_url": "https://archive.org/download/specimenbookfrom00unse/specimenbookfrom00unse_jp2.zip",
+  "archive_sha256": "c50ebc7d9dfd584cf97a7b4b8898c97e676ce7dcb70d92197c4f82c10a0d6ac6",
+  "method": "Original native JP2 leaves extracted unchanged from the Internet Archive ZIP. No resampling or retouching. Source crop coordinates are native pixels, y down, right and bottom exclusive.",
+  "pages": [
+    {
+      "file": "reference/boston-274.jp2",
+      "printed_page": 274,
+      "pdf_page": 282,
+      "leaf": 282,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0282.jp2",
+      "sha256": "2f2d19c08d76633aa0ada28f0cb222199dda7a3c573d318e681e0cb4f8a9ea32",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-275.jp2",
+      "printed_page": 275,
+      "pdf_page": 283,
+      "leaf": 283,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0283.jp2",
+      "sha256": "2b6a57caab3c8e9f8b9644fb3a23fc0af12408b1452c6b2ec3583627de21a959",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-276.jp2",
+      "printed_page": 276,
+      "pdf_page": 284,
+      "leaf": 284,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0284.jp2",
+      "sha256": "8843d203c500a5915ec574d68fc6e67d17b2ed3f554093e46e504072392329c0",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-271.jp2",
+      "printed_page": 271,
+      "pdf_page": 279,
+      "leaf": 279,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0279.jp2",
+      "sha256": "0ec58f1743521c4595b68fdea8f7a4c31dd903cdd6324f7d2e7ba774f6fdafa7",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-272.jp2",
+      "printed_page": 272,
+      "pdf_page": 280,
+      "leaf": 280,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0280.jp2",
+      "sha256": "f3955b40d95c9032dd0f3737d2543a1ff60cc3942008384bf9c8164f7cddf976",
+      "native_size": [
+        2827,
+        3969
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1085 2048" role="img" aria-label="Solid semicircle (pica) — multitone">
+<title>Solid semicircle (pica) — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M119 1723C110 1702 107 1309 110 850L119 13L226 22C378 34 634 165 740 290C923 497 972 627 972 911C972 1209 920 1337 722 1526C527 1714 159 1836 119 1723Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M89 1754C80 1733 76 1334 80 865L89 13L119 14L110 850C107 1309 110 1702 119 1723C159 1836 527 1714 722 1526C920 1337 972 1209 972 911C972 627 923 497 740 290C634 165 378 34 226 22L129 14L229 16C497 25 768 220 911 506C990 661 999 710 996 932C990 1233 932 1361 719 1553C509 1745 128 1863 89 1754Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M101 1781C67 1754 58 1593 67 908C70 445 73 49 73 28C73 -30 372 9 521 83C737 195 926 436 1008 713C1045 841 1002 1188 932 1325C862 1459 707 1611 539 1705C399 1784 159 1827 101 1781ZM89 1754C128 1863 509 1745 719 1553C932 1361 990 1233 996 932C999 710 990 661 911 506C768 220 497 25 229 16L129 14L119 13V14L89 13L80 865C76 1334 80 1733 89 1754Z"/>
+</svg>

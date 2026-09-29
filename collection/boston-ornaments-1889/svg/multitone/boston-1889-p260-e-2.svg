@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Fine rule — multitone">
+<title>Fine rule — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M146 905C124 892 497 883 971 886C1941 892 1898 905 869 917C491 923 164 917 146 905Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M81 914C69 898 87 880 115 871C235 843 1802 865 1818 895C1839 935 106 954 81 914ZM146 905C164 917 491 923 869 917C1898 905 1941 892 971 886C497 883 124 892 146 905Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M72 932C58 910 61 894 93 881C79 891 73 903 81 914C106 954 1839 935 1818 895C1803 867 467 846 167 865C289 850 535 846 989 846C1778 846 1864 852 1864 898C1864 942 1775 948 977 954C487 954 81 945 72 932Z"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Minus sign, 6-point — multitone">
+<title>Minus sign, 6-point — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M374 963C258 952 165 914 165 886C165 815 1750 848 1772 919C1783 974 774 1007 374 963Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M83 947C1 815 149 782 884 782C1619 782 1910 831 1838 952C1794 1018 127 1018 83 947ZM374 963C774 1007 1783 974 1772 919C1750 848 165 815 165 886C165 914 258 952 374 963Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M149 1012C90 998 61 961 64 903C66 916 73 931 83 947C127 1018 1794 1018 1838 952C1910 831 1619 782 884 782C323 782 104 801 68 869C87 777 152 771 895 777C1339 782 1740 799 1783 820C1882 853 1893 996 1800 1012C1668 1029 247 1029 149 1012Z"/>
+</svg>

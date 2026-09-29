@@ -1,0 +1,32 @@
+{
+  "acquired": "2026-09-28",
+  "archive_url": "https://archive.org/download/specimenbookfrom00unse/specimenbookfrom00unse_jp2.zip",
+  "archive_sha256": "c50ebc7d9dfd584cf97a7b4b8898c97e676ce7dcb70d92197c4f82c10a0d6ac6",
+  "method": "Original native JP2 leaves extracted unchanged from the Internet Archive ZIP. No resampling or retouching. Source crop coordinates are native pixels, y down, right and bottom exclusive.",
+  "pages": [
+    {
+      "file": "reference/boston-255.jp2",
+      "printed_page": 255,
+      "pdf_page": 263,
+      "leaf": 263,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0263.jp2",
+      "sha256": "1e7517585b7c87aa4b70984f1bcfae983215080fb2608d8cdd41cf924dc85487",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-257.jp2",
+      "printed_page": 257,
+      "pdf_page": 265,
+      "leaf": 265,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0265.jp2",
+      "sha256": "da878efdf17d80aeef43a5c9a51ba8625b188e14b2d2d01aff618e997a1e3ba6",
+      "native_size": [
+        2827,
+        3969
+      ]
+    }
+  ]
+}

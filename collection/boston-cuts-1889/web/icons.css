@@ -4,3 +4,957 @@
 .fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
 .fr-boston-1889-4202 { font-family: "Boston Cuts 1889"; }
 .fr-boston-1889-4202::before { content: "\E000"; }
+.fr-boston-1889-4201 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4201::before { content: "\E001"; }
+.fr-boston-1889-4203 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4203::before { content: "\E002"; }
+.fr-boston-1889-4204 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4204::before { content: "\E003"; }
+.fr-boston-1889-4205 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4205::before { content: "\E004"; }
+.fr-boston-1889-4206 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4206::before { content: "\E005"; }
+.fr-boston-1889-4207 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4207::before { content: "\E006"; }
+.fr-boston-1889-4208 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4208::before { content: "\E007"; }
+.fr-boston-1889-4209 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4209::before { content: "\E008"; }
+.fr-boston-1889-4210 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4210::before { content: "\E009"; }
+.fr-boston-1889-4211 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4211::before { content: "\E00A"; }
+.fr-boston-1889-4212 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4212::before { content: "\E00B"; }
+.fr-boston-1889-4213 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4213::before { content: "\E00C"; }
+.fr-boston-1889-4214 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4214::before { content: "\E00D"; }
+.fr-boston-1889-4215 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4215::before { content: "\E00E"; }
+.fr-boston-1889-4216 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4216::before { content: "\E00F"; }
+.fr-boston-1889-4217 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4217::before { content: "\E010"; }
+.fr-boston-1889-4218 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4218::before { content: "\E011"; }
+.fr-boston-1889-4219 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4219::before { content: "\E012"; }
+.fr-boston-1889-4220 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4220::before { content: "\E013"; }
+.fr-boston-1889-4221 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4221::before { content: "\E014"; }
+.fr-boston-1889-4222 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4222::before { content: "\E015"; }
+.fr-boston-1889-4223 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4223::before { content: "\E016"; }
+.fr-boston-1889-4224 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4224::before { content: "\E017"; }
+.fr-boston-1889-4225 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4225::before { content: "\E018"; }
+.fr-boston-1889-4226 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4226::before { content: "\E019"; }
+.fr-boston-1889-4227 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4227::before { content: "\E01A"; }
+.fr-boston-1889-4228 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4228::before { content: "\E01B"; }
+.fr-boston-1889-4229 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4229::before { content: "\E01C"; }
+.fr-boston-1889-4230 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4230::before { content: "\E01D"; }
+.fr-boston-1889-4231 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4231::before { content: "\E01E"; }
+.fr-boston-1889-4232 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4232::before { content: "\E01F"; }
+.fr-boston-1889-4233 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4233::before { content: "\E020"; }
+.fr-boston-1889-4234 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4234::before { content: "\E021"; }
+.fr-boston-1889-4235 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4235::before { content: "\E022"; }
+.fr-boston-1889-4236 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4236::before { content: "\E023"; }
+.fr-boston-1889-4237 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4237::before { content: "\E024"; }
+.fr-boston-1889-4238 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4238::before { content: "\E025"; }
+.fr-boston-1889-4239 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4239::before { content: "\E026"; }
+.fr-boston-1889-4240 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4240::before { content: "\E027"; }
+.fr-boston-1889-4241 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4241::before { content: "\E028"; }
+.fr-boston-1889-4242 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4242::before { content: "\E029"; }
+.fr-boston-1889-4243 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4243::before { content: "\E02A"; }
+.fr-boston-1889-4244 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4244::before { content: "\E02B"; }
+.fr-boston-1889-4245 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4245::before { content: "\E02C"; }
+.fr-boston-1889-4246 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4246::before { content: "\E02D"; }
+.fr-boston-1889-4247 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4247::before { content: "\E02E"; }
+.fr-boston-1889-4248 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-4248::before { content: "\E02F"; }
+.fr-boston-1889-p274-2667 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2667::before { content: "\E030"; }
+.fr-boston-1889-p274-2652 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2652::before { content: "\E031"; }
+.fr-boston-1889-p274-2572 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2572::before { content: "\E032"; }
+.fr-boston-1889-p274-2600 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2600::before { content: "\E033"; }
+.fr-boston-1889-p274-2668 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2668::before { content: "\E034"; }
+.fr-boston-1889-p274-2573 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2573::before { content: "\E035"; }
+.fr-boston-1889-p274-2665 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2665::before { content: "\E036"; }
+.fr-boston-1889-p274-2516 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2516::before { content: "\E037"; }
+.fr-boston-1889-p274-2309 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2309::before { content: "\E038"; }
+.fr-boston-1889-p274-2662 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2662::before { content: "\E039"; }
+.fr-boston-1889-p274-2654 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2654::before { content: "\E03A"; }
+.fr-boston-1889-p274-2660 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2660::before { content: "\E03B"; }
+.fr-boston-1889-p274-2651 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2651::before { content: "\E03C"; }
+.fr-boston-1889-p274-2599 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2599::before { content: "\E03D"; }
+.fr-boston-1889-p274-2657 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2657::before { content: "\E03E"; }
+.fr-boston-1889-p274-2658 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2658::before { content: "\E03F"; }
+.fr-boston-1889-p274-4098 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4098::before { content: "\E040"; }
+.fr-boston-1889-p274-4097 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4097::before { content: "\E041"; }
+.fr-boston-1889-p274-4096 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4096::before { content: "\E042"; }
+.fr-boston-1889-p274-2707 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2707::before { content: "\E043"; }
+.fr-boston-1889-p274-4095 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4095::before { content: "\E044"; }
+.fr-boston-1889-p274-2706 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2706::before { content: "\E045"; }
+.fr-boston-1889-p274-4039 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4039::before { content: "\E046"; }
+.fr-boston-1889-p274-4114 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4114::before { content: "\E047"; }
+.fr-boston-1889-p274-2801 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2801::before { content: "\E048"; }
+.fr-boston-1889-p274-4026 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4026::before { content: "\E049"; }
+.fr-boston-1889-p274-2589 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2589::before { content: "\E04A"; }
+.fr-boston-1889-p274-4107 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4107::before { content: "\E04B"; }
+.fr-boston-1889-p274-4108 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4108::before { content: "\E04C"; }
+.fr-boston-1889-p274-4109 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4109::before { content: "\E04D"; }
+.fr-boston-1889-p274-4110 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4110::before { content: "\E04E"; }
+.fr-boston-1889-p274-4111 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4111::before { content: "\E04F"; }
+.fr-boston-1889-p274-4112 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4112::before { content: "\E050"; }
+.fr-boston-1889-p274-4113 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4113::before { content: "\E051"; }
+.fr-boston-1889-p274-2704 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2704::before { content: "\E052"; }
+.fr-boston-1889-p274-2705 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2705::before { content: "\E053"; }
+.fr-boston-1889-p274-2703 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2703::before { content: "\E054"; }
+.fr-boston-1889-p274-4037 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4037::before { content: "\E055"; }
+.fr-boston-1889-p274-4048 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4048::before { content: "\E056"; }
+.fr-boston-1889-p274-4047 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4047::before { content: "\E057"; }
+.fr-boston-1889-p274-4046 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4046::before { content: "\E058"; }
+.fr-boston-1889-p274-4021 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4021::before { content: "\E059"; }
+.fr-boston-1889-p274-1000 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-1000::before { content: "\E05A"; }
+.fr-boston-1889-p274-2565 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2565::before { content: "\E05B"; }
+.fr-boston-1889-p274-2583 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2583::before { content: "\E05C"; }
+.fr-boston-1889-p274-4100 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4100::before { content: "\E05D"; }
+.fr-boston-1889-p274-2545 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2545::before { content: "\E05E"; }
+.fr-boston-1889-p274-2561 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2561::before { content: "\E05F"; }
+.fr-boston-1889-p274-4022 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4022::before { content: "\E060"; }
+.fr-boston-1889-p274-1788 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-1788::before { content: "\E061"; }
+.fr-boston-1889-p274-4135 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4135::before { content: "\E062"; }
+.fr-boston-1889-p274-1006 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-1006::before { content: "\E063"; }
+.fr-boston-1889-p274-2564 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2564::before { content: "\E064"; }
+.fr-boston-1889-p274-4040 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4040::before { content: "\E065"; }
+.fr-boston-1889-p274-2544 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2544::before { content: "\E066"; }
+.fr-boston-1889-p274-4120 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4120::before { content: "\E067"; }
+.fr-boston-1889-p274-2594 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2594::before { content: "\E068"; }
+.fr-boston-1889-p274-2540 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2540::before { content: "\E069"; }
+.fr-boston-1889-p274-4124 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4124::before { content: "\E06A"; }
+.fr-boston-1889-p274-4125 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4125::before { content: "\E06B"; }
+.fr-boston-1889-p274-4121 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4121::before { content: "\E06C"; }
+.fr-boston-1889-p274-4122 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4122::before { content: "\E06D"; }
+.fr-boston-1889-p274-4030 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4030::before { content: "\E06E"; }
+.fr-boston-1889-p274-4031 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4031::before { content: "\E06F"; }
+.fr-boston-1889-p274-4123 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4123::before { content: "\E070"; }
+.fr-boston-1889-p274-4126 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4126::before { content: "\E071"; }
+.fr-boston-1889-p274-4103 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4103::before { content: "\E072"; }
+.fr-boston-1889-p274-4106 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4106::before { content: "\E073"; }
+.fr-boston-1889-p274-4127 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4127::before { content: "\E074"; }
+.fr-boston-1889-p274-4025 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4025::before { content: "\E075"; }
+.fr-boston-1889-p274-4035 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4035::before { content: "\E076"; }
+.fr-boston-1889-p274-4032 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4032::before { content: "\E077"; }
+.fr-boston-1889-p274-2601 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2601::before { content: "\E078"; }
+.fr-boston-1889-p274-2592 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2592::before { content: "\E079"; }
+.fr-boston-1889-p274-2802 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2802::before { content: "\E07A"; }
+.fr-boston-1889-p274-4043 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4043::before { content: "\E07B"; }
+.fr-boston-1889-p274-4044 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4044::before { content: "\E07C"; }
+.fr-boston-1889-p274-2523 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2523::before { content: "\E07D"; }
+.fr-boston-1889-p274-2460 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2460::before { content: "\E07E"; }
+.fr-boston-1889-p274-4041 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4041::before { content: "\E07F"; }
+.fr-boston-1889-p274-2809 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2809::before { content: "\E080"; }
+.fr-boston-1889-p274-2504 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2504::before { content: "\E081"; }
+.fr-boston-1889-p274-2560 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2560::before { content: "\E082"; }
+.fr-boston-1889-p274-2613 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2613::before { content: "\E083"; }
+.fr-boston-1889-p274-2590 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2590::before { content: "\E084"; }
+.fr-boston-1889-p274-2555 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2555::before { content: "\E085"; }
+.fr-boston-1889-p274-2518 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2518::before { content: "\E086"; }
+.fr-boston-1889-p274-2510 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2510::before { content: "\E087"; }
+.fr-boston-1889-p274-2517 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2517::before { content: "\E088"; }
+.fr-boston-1889-p274-2819 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2819::before { content: "\E089"; }
+.fr-boston-1889-p274-4131 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-4131::before { content: "\E08A"; }
+.fr-boston-1889-p274-2537 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p274-2537::before { content: "\E08B"; }
+.fr-boston-1889-p275-1468 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-1468::before { content: "\E08C"; }
+.fr-boston-1889-p275-2810 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2810::before { content: "\E08D"; }
+.fr-boston-1889-p275-4099 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4099::before { content: "\E08E"; }
+.fr-boston-1889-p275-4056 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4056::before { content: "\E08F"; }
+.fr-boston-1889-p275-4059 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4059::before { content: "\E090"; }
+.fr-boston-1889-p275-4149 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4149::before { content: "\E091"; }
+.fr-boston-1889-p275-2610 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2610::before { content: "\E092"; }
+.fr-boston-1889-p275-2808 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2808::before { content: "\E093"; }
+.fr-boston-1889-p275-4130 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4130::before { content: "\E094"; }
+.fr-boston-1889-p275-4116 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4116::before { content: "\E095"; }
+.fr-boston-1889-p275-2150 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2150::before { content: "\E096"; }
+.fr-boston-1889-p275-4117 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4117::before { content: "\E097"; }
+.fr-boston-1889-p275-1786 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-1786::before { content: "\E098"; }
+.fr-boston-1889-p275-2575 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2575::before { content: "\E099"; }
+.fr-boston-1889-p275-4049 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4049::before { content: "\E09A"; }
+.fr-boston-1889-p275-2553 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2553::before { content: "\E09B"; }
+.fr-boston-1889-p275-2522 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2522::before { content: "\E09C"; }
+.fr-boston-1889-p275-2512 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2512::before { content: "\E09D"; }
+.fr-boston-1889-p275-1022 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-1022::before { content: "\E09E"; }
+.fr-boston-1889-p275-4118 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4118::before { content: "\E09F"; }
+.fr-boston-1889-p275-2568 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2568::before { content: "\E0A0"; }
+.fr-boston-1889-p275-4119 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4119::before { content: "\E0A1"; }
+.fr-boston-1889-p275-2806 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2806::before { content: "\E0A2"; }
+.fr-boston-1889-p275-2554 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2554::before { content: "\E0A3"; }
+.fr-boston-1889-p275-4065 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4065::before { content: "\E0A4"; }
+.fr-boston-1889-p275-1046 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-1046::before { content: "\E0A5"; }
+.fr-boston-1889-p275-4063 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4063::before { content: "\E0A6"; }
+.fr-boston-1889-p275-4060 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4060::before { content: "\E0A7"; }
+.fr-boston-1889-p275-4061 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4061::before { content: "\E0A8"; }
+.fr-boston-1889-p275-4062 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4062::before { content: "\E0A9"; }
+.fr-boston-1889-p275-4064 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4064::before { content: "\E0AA"; }
+.fr-boston-1889-p275-4050 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4050::before { content: "\E0AB"; }
+.fr-boston-1889-p275-4054 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4054::before { content: "\E0AC"; }
+.fr-boston-1889-p275-4051 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4051::before { content: "\E0AD"; }
+.fr-boston-1889-p275-4052 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4052::before { content: "\E0AE"; }
+.fr-boston-1889-p275-4055 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4055::before { content: "\E0AF"; }
+.fr-boston-1889-p275-4053 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4053::before { content: "\E0B0"; }
+.fr-boston-1889-p275-2603 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2603::before { content: "\E0B1"; }
+.fr-boston-1889-p275-2585 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2585::before { content: "\E0B2"; }
+.fr-boston-1889-p275-2588 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2588::before { content: "\E0B3"; }
+.fr-boston-1889-p275-2807 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2807::before { content: "\E0B4"; }
+.fr-boston-1889-p275-2538 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2538::before { content: "\E0B5"; }
+.fr-boston-1889-p275-2506 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2506::before { content: "\E0B6"; }
+.fr-boston-1889-p275-2562 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2562::before { content: "\E0B7"; }
+.fr-boston-1889-p275-4029 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4029::before { content: "\E0B8"; }
+.fr-boston-1889-p275-4147 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4147::before { content: "\E0B9"; }
+.fr-boston-1889-p275-2549 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2549::before { content: "\E0BA"; }
+.fr-boston-1889-p275-2505 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2505::before { content: "\E0BB"; }
+.fr-boston-1889-p275-2593 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2593::before { content: "\E0BC"; }
+.fr-boston-1889-p275-2597 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2597::before { content: "\E0BD"; }
+.fr-boston-1889-p275-2571 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2571::before { content: "\E0BE"; }
+.fr-boston-1889-p275-4068 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4068::before { content: "\E0BF"; }
+.fr-boston-1889-p275-4134 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4134::before { content: "\E0C0"; }
+.fr-boston-1889-p275-2524 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2524::before { content: "\E0C1"; }
+.fr-boston-1889-p275-2551 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2551::before { content: "\E0C2"; }
+.fr-boston-1889-p275-2563 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2563::before { content: "\E0C3"; }
+.fr-boston-1889-p275-1783 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-1783::before { content: "\E0C4"; }
+.fr-boston-1889-p275-2507 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2507::before { content: "\E0C5"; }
+.fr-boston-1889-p275-957 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-957::before { content: "\E0C6"; }
+.fr-boston-1889-p275-2526 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2526::before { content: "\E0C7"; }
+.fr-boston-1889-p275-2525 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2525::before { content: "\E0C8"; }
+.fr-boston-1889-p275-2528 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2528::before { content: "\E0C9"; }
+.fr-boston-1889-p275-2548 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2548::before { content: "\E0CA"; }
+.fr-boston-1889-p275-2614 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2614::before { content: "\E0CB"; }
+.fr-boston-1889-p275-2559 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2559::before { content: "\E0CC"; }
+.fr-boston-1889-p275-4066 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4066::before { content: "\E0CD"; }
+.fr-boston-1889-p275-2511 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2511::before { content: "\E0CE"; }
+.fr-boston-1889-p275-4115 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4115::before { content: "\E0CF"; }
+.fr-boston-1889-p275-2521 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2521::before { content: "\E0D0"; }
+.fr-boston-1889-p275-2527 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2527::before { content: "\E0D1"; }
+.fr-boston-1889-p275-2574 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2574::before { content: "\E0D2"; }
+.fr-boston-1889-p275-2514 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2514::before { content: "\E0D3"; }
+.fr-boston-1889-p275-4101 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4101::before { content: "\E0D4"; }
+.fr-boston-1889-p275-2578 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2578::before { content: "\E0D5"; }
+.fr-boston-1889-p275-2576 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2576::before { content: "\E0D6"; }
+.fr-boston-1889-p275-2612 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2612::before { content: "\E0D7"; }
+.fr-boston-1889-p275-4102 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4102::before { content: "\E0D8"; }
+.fr-boston-1889-p275-4105 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-4105::before { content: "\E0D9"; }
+.fr-boston-1889-p275-2595 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2595::before { content: "\E0DA"; }
+.fr-boston-1889-p275-2566 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-2566::before { content: "\E0DB"; }
+.fr-boston-1889-p275-1789 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p275-1789::before { content: "\E0DC"; }
+.fr-boston-1889-p276-4057 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4057::before { content: "\E0DD"; }
+.fr-boston-1889-p276-2770 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2770::before { content: "\E0DE"; }
+.fr-boston-1889-p276-2536 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2536::before { content: "\E0DF"; }
+.fr-boston-1889-p276-4129 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4129::before { content: "\E0E0"; }
+.fr-boston-1889-p276-2582-5 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2582-5::before { content: "\E0E1"; }
+.fr-boston-1889-p276-1856 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-1856::before { content: "\E0E2"; }
+.fr-boston-1889-p276-2529 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2529::before { content: "\E0E3"; }
+.fr-boston-1889-p276-2508 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2508::before { content: "\E0E4"; }
+.fr-boston-1889-p276-2530 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2530::before { content: "\E0E5"; }
+.fr-boston-1889-p276-2547 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2547::before { content: "\E0E6"; }
+.fr-boston-1889-p276-2500 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2500::before { content: "\E0E7"; }
+.fr-boston-1889-p276-2501 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2501::before { content: "\E0E8"; }
+.fr-boston-1889-p276-2502 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2502::before { content: "\E0E9"; }
+.fr-boston-1889-p276-2503 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2503::before { content: "\E0EA"; }
+.fr-boston-1889-p276-4132 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4132::before { content: "\E0EB"; }
+.fr-boston-1889-p276-2579 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2579::before { content: "\E0EC"; }
+.fr-boston-1889-p276-2580 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2580::before { content: "\E0ED"; }
+.fr-boston-1889-p276-2581 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2581::before { content: "\E0EE"; }
+.fr-boston-1889-p276-2541 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2541::before { content: "\E0EF"; }
+.fr-boston-1889-p276-2542 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2542::before { content: "\E0F0"; }
+.fr-boston-1889-p276-2543 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2543::before { content: "\E0F1"; }
+.fr-boston-1889-p276-2515 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2515::before { content: "\E0F2"; }
+.fr-boston-1889-p276-2513 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2513::before { content: "\E0F3"; }
+.fr-boston-1889-p276-2552 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2552::before { content: "\E0F4"; }
+.fr-boston-1889-p276-1785 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-1785::before { content: "\E0F5"; }
+.fr-boston-1889-p276-2591 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2591::before { content: "\E0F6"; }
+.fr-boston-1889-p276-2583 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2583::before { content: "\E0F7"; }
+.fr-boston-1889-p276-2535 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2535::before { content: "\E0F8"; }
+.fr-boston-1889-p276-2538 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2538::before { content: "\E0F9"; }
+.fr-boston-1889-p276-2577 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2577::before { content: "\E0FA"; }
+.fr-boston-1889-p276-1775 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-1775::before { content: "\E0FB"; }
+.fr-boston-1889-p276-2533 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2533::before { content: "\E0FC"; }
+.fr-boston-1889-p276-4038 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4038::before { content: "\E0FD"; }
+.fr-boston-1889-p276-4148 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4148::before { content: "\E0FE"; }
+.fr-boston-1889-p276-4019 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4019::before { content: "\E0FF"; }
+.fr-boston-1889-p276-4020 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4020::before { content: "\E100"; }
+.fr-boston-1889-p276-2567 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2567::before { content: "\E101"; }
+.fr-boston-1889-p276-2556 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2556::before { content: "\E102"; }
+.fr-boston-1889-p276-2584 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2584::before { content: "\E103"; }
+.fr-boston-1889-p276-2611 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2611::before { content: "\E104"; }
+.fr-boston-1889-p276-2582-41 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2582-41::before { content: "\E105"; }
+.fr-boston-1889-p276-2604 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2604::before { content: "\E106"; }
+.fr-boston-1889-p276-2596 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2596::before { content: "\E107"; }
+.fr-boston-1889-p276-4080 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4080::before { content: "\E108"; }
+.fr-boston-1889-p276-2569 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2569::before { content: "\E109"; }
+.fr-boston-1889-p276-4146 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4146::before { content: "\E10A"; }
+.fr-boston-1889-p276-2546 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2546::before { content: "\E10B"; }
+.fr-boston-1889-p276-4042 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4042::before { content: "\E10C"; }
+.fr-boston-1889-p276-4128 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4128::before { content: "\E10D"; }
+.fr-boston-1889-p276-4067 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4067::before { content: "\E10E"; }
+.fr-boston-1889-p276-4045 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4045::before { content: "\E10F"; }
+.fr-boston-1889-p276-2615 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2615::before { content: "\E110"; }
+.fr-boston-1889-p276-4058 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4058::before { content: "\E111"; }
+.fr-boston-1889-p276-2609 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2609::before { content: "\E112"; }
+.fr-boston-1889-p276-4027 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-4027::before { content: "\E113"; }
+.fr-boston-1889-p276-2607 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-2607::before { content: "\E114"; }
+.fr-boston-1889-p276-signal48-1 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal48-1::before { content: "\E115"; }
+.fr-boston-1889-p276-signal48-2 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal48-2::before { content: "\E116"; }
+.fr-boston-1889-p276-signal48-3 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal48-3::before { content: "\E117"; }
+.fr-boston-1889-p276-signal48-4 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal48-4::before { content: "\E118"; }
+.fr-boston-1889-p276-signal48-5 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal48-5::before { content: "\E119"; }
+.fr-boston-1889-p276-signal48-6 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal48-6::before { content: "\E11A"; }
+.fr-boston-1889-p276-signal48-7 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal48-7::before { content: "\E11B"; }
+.fr-boston-1889-p276-signal48-8 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal48-8::before { content: "\E11C"; }
+.fr-boston-1889-p276-signal24-1 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal24-1::before { content: "\E11D"; }
+.fr-boston-1889-p276-signal24-2 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal24-2::before { content: "\E11E"; }
+.fr-boston-1889-p276-signal24-3 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal24-3::before { content: "\E11F"; }
+.fr-boston-1889-p276-signal24-4 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal24-4::before { content: "\E120"; }
+.fr-boston-1889-p276-signal24-5 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal24-5::before { content: "\E121"; }
+.fr-boston-1889-p276-signal24-6 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal24-6::before { content: "\E122"; }
+.fr-boston-1889-p276-signal24-7 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal24-7::before { content: "\E123"; }
+.fr-boston-1889-p276-signal24-8 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-signal24-8::before { content: "\E124"; }
+.fr-boston-1889-p276-checker-41 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-checker-41::before { content: "\E125"; }
+.fr-boston-1889-p276-checker-42 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-checker-42::before { content: "\E126"; }
+.fr-boston-1889-p276-checker-43 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-checker-43::before { content: "\E127"; }
+.fr-boston-1889-p276-checker-44 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-checker-44::before { content: "\E128"; }
+.fr-boston-1889-p276-chess-1 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-1::before { content: "\E129"; }
+.fr-boston-1889-p276-chess-14 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-14::before { content: "\E12A"; }
+.fr-boston-1889-p276-chess-15 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-15::before { content: "\E12B"; }
+.fr-boston-1889-p276-chess-2 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-2::before { content: "\E12C"; }
+.fr-boston-1889-p276-chess-3 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-3::before { content: "\E12D"; }
+.fr-boston-1889-p276-chess-16 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-16::before { content: "\E12E"; }
+.fr-boston-1889-p276-chess-17 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-17::before { content: "\E12F"; }
+.fr-boston-1889-p276-chess-4 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-4::before { content: "\E130"; }
+.fr-boston-1889-p276-chess-5 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-5::before { content: "\E131"; }
+.fr-boston-1889-p276-chess-18 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-18::before { content: "\E132"; }
+.fr-boston-1889-p276-chess-20 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-20::before { content: "\E133"; }
+.fr-boston-1889-p276-chess-7 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-7::before { content: "\E134"; }
+.fr-boston-1889-p276-chess-8 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-8::before { content: "\E135"; }
+.fr-boston-1889-p276-chess-21 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-21::before { content: "\E136"; }
+.fr-boston-1889-p276-chess-22 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-22::before { content: "\E137"; }
+.fr-boston-1889-p276-chess-9 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-9::before { content: "\E138"; }
+.fr-boston-1889-p276-chess-10 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-10::before { content: "\E139"; }
+.fr-boston-1889-p276-chess-23 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-23::before { content: "\E13A"; }
+.fr-boston-1889-p276-chess-24 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-24::before { content: "\E13B"; }
+.fr-boston-1889-p276-chess-11 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-11::before { content: "\E13C"; }
+.fr-boston-1889-p276-chess-6 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-6::before { content: "\E13D"; }
+.fr-boston-1889-p276-chess-19 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-19::before { content: "\E13E"; }
+.fr-boston-1889-p276-chess-13 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-13::before { content: "\E13F"; }
+.fr-boston-1889-p276-chess-25 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-25::before { content: "\E140"; }
+.fr-boston-1889-p276-chess-12 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-12::before { content: "\E141"; }
+.fr-boston-1889-p276-chess-27 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-27::before { content: "\E142"; }
+.fr-boston-1889-p276-chess-29 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-29::before { content: "\E143"; }
+.fr-boston-1889-p276-chess-30 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-30::before { content: "\E144"; }
+.fr-boston-1889-p276-chess-28 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p276-chess-28::before { content: "\E145"; }
+.fr-boston-1889-p271-4011 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4011::before { content: "\E146"; }
+.fr-boston-1889-p271-4006 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4006::before { content: "\E147"; }
+.fr-boston-1889-p271-4005 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4005::before { content: "\E148"; }
+.fr-boston-1889-p271-4012 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4012::before { content: "\E149"; }
+.fr-boston-1889-p271-4014 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4014::before { content: "\E14A"; }
+.fr-boston-1889-p271-4010 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4010::before { content: "\E14B"; }
+.fr-boston-1889-p271-4009 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4009::before { content: "\E14C"; }
+.fr-boston-1889-p271-4013 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4013::before { content: "\E14D"; }
+.fr-boston-1889-p271-4015 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4015::before { content: "\E14E"; }
+.fr-boston-1889-p271-4008 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4008::before { content: "\E14F"; }
+.fr-boston-1889-p271-4007 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4007::before { content: "\E150"; }
+.fr-boston-1889-p271-4016 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4016::before { content: "\E151"; }
+.fr-boston-1889-p271-4000 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4000::before { content: "\E152"; }
+.fr-boston-1889-p271-3999 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-3999::before { content: "\E153"; }
+.fr-boston-1889-p271-4018 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4018::before { content: "\E154"; }
+.fr-boston-1889-p271-4001 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4001::before { content: "\E155"; }
+.fr-boston-1889-p271-4002 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4002::before { content: "\E156"; }
+.fr-boston-1889-p271-4003 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4003::before { content: "\E157"; }
+.fr-boston-1889-p271-4004 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4004::before { content: "\E158"; }
+.fr-boston-1889-p271-4017 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4017::before { content: "\E159"; }
+.fr-boston-1889-p271-4085 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4085::before { content: "\E15A"; }
+.fr-boston-1889-p271-2519 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2519::before { content: "\E15B"; }
+.fr-boston-1889-p271-2520 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2520::before { content: "\E15C"; }
+.fr-boston-1889-p271-4086 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4086::before { content: "\E15D"; }
+.fr-boston-1889-p271-2586 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2586::before { content: "\E15E"; }
+.fr-boston-1889-p271-2587 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2587::before { content: "\E15F"; }
+.fr-boston-1889-p271-4087 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4087::before { content: "\E160"; }
+.fr-boston-1889-p271-4023 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4023::before { content: "\E161"; }
+.fr-boston-1889-p271-4024 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4024::before { content: "\E162"; }
+.fr-boston-1889-p271-4088 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4088::before { content: "\E163"; }
+.fr-boston-1889-p271-4089 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4089::before { content: "\E164"; }
+.fr-boston-1889-p271-4090 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4090::before { content: "\E165"; }
+.fr-boston-1889-p271-4171 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4171::before { content: "\E166"; }
+.fr-boston-1889-p271-4172 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4172::before { content: "\E167"; }
+.fr-boston-1889-p271-4173 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4173::before { content: "\E168"; }
+.fr-boston-1889-p271-4174 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4174::before { content: "\E169"; }
+.fr-boston-1889-p271-4181 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4181::before { content: "\E16A"; }
+.fr-boston-1889-p271-4182 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4182::before { content: "\E16B"; }
+.fr-boston-1889-p271-4183 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4183::before { content: "\E16C"; }
+.fr-boston-1889-p271-4184 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4184::before { content: "\E16D"; }
+.fr-boston-1889-p271-4191 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4191::before { content: "\E16E"; }
+.fr-boston-1889-p271-4192 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4192::before { content: "\E16F"; }
+.fr-boston-1889-p271-4193 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4193::before { content: "\E170"; }
+.fr-boston-1889-p271-4194 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4194::before { content: "\E171"; }
+.fr-boston-1889-p271-2410 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2410::before { content: "\E172"; }
+.fr-boston-1889-p271-2417 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2417::before { content: "\E173"; }
+.fr-boston-1889-p271-2412 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2412::before { content: "\E174"; }
+.fr-boston-1889-p271-2414 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2414::before { content: "\E175"; }
+.fr-boston-1889-p271-2413 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2413::before { content: "\E176"; }
+.fr-boston-1889-p271-2411 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2411::before { content: "\E177"; }
+.fr-boston-1889-p271-4028 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4028::before { content: "\E178"; }
+.fr-boston-1889-p271-4033 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4033::before { content: "\E179"; }
+.fr-boston-1889-p271-4034 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4034::before { content: "\E17A"; }
+.fr-boston-1889-p271-2416 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2416::before { content: "\E17B"; }
+.fr-boston-1889-p271-2421 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2421::before { content: "\E17C"; }
+.fr-boston-1889-p271-2418 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2418::before { content: "\E17D"; }
+.fr-boston-1889-p271-2420 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2420::before { content: "\E17E"; }
+.fr-boston-1889-p271-2419 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2419::before { content: "\E17F"; }
+.fr-boston-1889-p271-2415 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-2415::before { content: "\E180"; }
+.fr-boston-1889-p271-4161 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4161::before { content: "\E181"; }
+.fr-boston-1889-p271-4162 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4162::before { content: "\E182"; }
+.fr-boston-1889-p271-4163 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4163::before { content: "\E183"; }
+.fr-boston-1889-p271-4164 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4164::before { content: "\E184"; }
+.fr-boston-1889-p271-4165 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4165::before { content: "\E185"; }
+.fr-boston-1889-p271-4166 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-4166::before { content: "\E186"; }
+.fr-boston-1889-p271-card-club { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-card-club::before { content: "\E187"; }
+.fr-boston-1889-p271-card-spade { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-card-spade::before { content: "\E188"; }
+.fr-boston-1889-p271-card-heart { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-card-heart::before { content: "\E189"; }
+.fr-boston-1889-p271-card-diamond { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-card-diamond::before { content: "\E18A"; }
+.fr-boston-1889-p271-201 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-201::before { content: "\E18B"; }
+.fr-boston-1889-p271-202 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-202::before { content: "\E18C"; }
+.fr-boston-1889-p271-203 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-203::before { content: "\E18D"; }
+.fr-boston-1889-p271-204 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-204::before { content: "\E18E"; }
+.fr-boston-1889-p271-205 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-205::before { content: "\E18F"; }
+.fr-boston-1889-p271-206 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-206::before { content: "\E190"; }
+.fr-boston-1889-p271-207 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-207::before { content: "\E191"; }
+.fr-boston-1889-p271-212 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-212::before { content: "\E192"; }
+.fr-boston-1889-p271-211 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-211::before { content: "\E193"; }
+.fr-boston-1889-p271-210 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-210::before { content: "\E194"; }
+.fr-boston-1889-p271-209 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-209::before { content: "\E195"; }
+.fr-boston-1889-p271-208 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-208::before { content: "\E196"; }
+.fr-boston-1889-p271-213 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-213::before { content: "\E197"; }
+.fr-boston-1889-p271-214 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-214::before { content: "\E198"; }
+.fr-boston-1889-p271-215 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-215::before { content: "\E199"; }
+.fr-boston-1889-p271-217 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-217::before { content: "\E19A"; }
+.fr-boston-1889-p271-216 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-216::before { content: "\E19B"; }
+.fr-boston-1889-p271-220 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-220::before { content: "\E19C"; }
+.fr-boston-1889-p271-218 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-218::before { content: "\E19D"; }
+.fr-boston-1889-p271-219 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p271-219::before { content: "\E19E"; }
+.fr-boston-1889-p272-4078 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4078::before { content: "\E19F"; }
+.fr-boston-1889-p272-2295 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2295::before { content: "\E1A0"; }
+.fr-boston-1889-p272-4076 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4076::before { content: "\E1A1"; }
+.fr-boston-1889-p272-2290 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2290::before { content: "\E1A2"; }
+.fr-boston-1889-p272-4074 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4074::before { content: "\E1A3"; }
+.fr-boston-1889-p272-4073 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4073::before { content: "\E1A4"; }
+.fr-boston-1889-p272-4079 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4079::before { content: "\E1A5"; }
+.fr-boston-1889-p272-4077 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4077::before { content: "\E1A6"; }
+.fr-boston-1889-p272-4075 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4075::before { content: "\E1A7"; }
+.fr-boston-1889-p272-4136 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4136::before { content: "\E1A8"; }
+.fr-boston-1889-p272-2389 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2389::before { content: "\E1A9"; }
+.fr-boston-1889-p272-2289 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2289::before { content: "\E1AA"; }
+.fr-boston-1889-p272-2288 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2288::before { content: "\E1AB"; }
+.fr-boston-1889-p272-2386 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2386::before { content: "\E1AC"; }
+.fr-boston-1889-p272-2297 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2297::before { content: "\E1AD"; }
+.fr-boston-1889-p272-4072 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4072::before { content: "\E1AE"; }
+.fr-boston-1889-p272-4069 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4069::before { content: "\E1AF"; }
+.fr-boston-1889-p272-2387 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2387::before { content: "\E1B0"; }
+.fr-boston-1889-p272-4137 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4137::before { content: "\E1B1"; }
+.fr-boston-1889-p272-4071 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4071::before { content: "\E1B2"; }
+.fr-boston-1889-p272-4081 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4081::before { content: "\E1B3"; }
+.fr-boston-1889-p272-4083 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4083::before { content: "\E1B4"; }
+.fr-boston-1889-p272-4070 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4070::before { content: "\E1B5"; }
+.fr-boston-1889-p272-4145 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4145::before { content: "\E1B6"; }
+.fr-boston-1889-p272-4084 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4084::before { content: "\E1B7"; }
+.fr-boston-1889-p272-4082 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4082::before { content: "\E1B8"; }
+.fr-boston-1889-p272-2083 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2083::before { content: "\E1B9"; }
+.fr-boston-1889-p272-1603 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-1603::before { content: "\E1BA"; }
+.fr-boston-1889-p272-3984 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-3984::before { content: "\E1BB"; }
+.fr-boston-1889-p272-2401 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2401::before { content: "\E1BC"; }
+.fr-boston-1889-p272-4091 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4091::before { content: "\E1BD"; }
+.fr-boston-1889-p272-4093 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4093::before { content: "\E1BE"; }
+.fr-boston-1889-p272-2402 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2402::before { content: "\E1BF"; }
+.fr-boston-1889-p272-4092 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4092::before { content: "\E1C0"; }
+.fr-boston-1889-p272-3985 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-3985::before { content: "\E1C1"; }
+.fr-boston-1889-p272-3983 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-3983::before { content: "\E1C2"; }
+.fr-boston-1889-p272-4133 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4133::before { content: "\E1C3"; }
+.fr-boston-1889-p272-3980 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-3980::before { content: "\E1C4"; }
+.fr-boston-1889-p272-3990 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-3990::before { content: "\E1C5"; }
+.fr-boston-1889-p272-3991 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-3991::before { content: "\E1C6"; }
+.fr-boston-1889-p272-2405 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2405::before { content: "\E1C7"; }
+.fr-boston-1889-p272-4094 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4094::before { content: "\E1C8"; }
+.fr-boston-1889-p272-1594 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-1594::before { content: "\E1C9"; }
+.fr-boston-1889-p272-4139 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4139::before { content: "\E1CA"; }
+.fr-boston-1889-p272-4140 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4140::before { content: "\E1CB"; }
+.fr-boston-1889-p272-4138 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4138::before { content: "\E1CC"; }
+.fr-boston-1889-p272-4150 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4150::before { content: "\E1CD"; }
+.fr-boston-1889-p272-4151 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4151::before { content: "\E1CE"; }
+.fr-boston-1889-p272-3986 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-3986::before { content: "\E1CF"; }
+.fr-boston-1889-p272-3987 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-3987::before { content: "\E1D0"; }
+.fr-boston-1889-p272-3932 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-3932::before { content: "\E1D1"; }
+.fr-boston-1889-p272-3988 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-3988::before { content: "\E1D2"; }
+.fr-boston-1889-p272-3989 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-3989::before { content: "\E1D3"; }
+.fr-boston-1889-p272-2312 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2312::before { content: "\E1D4"; }
+.fr-boston-1889-p272-2409 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2409::before { content: "\E1D5"; }
+.fr-boston-1889-p272-2803 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2803::before { content: "\E1D6"; }
+.fr-boston-1889-p272-2406 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2406::before { content: "\E1D7"; }
+.fr-boston-1889-p272-2408 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2408::before { content: "\E1D8"; }
+.fr-boston-1889-p272-2407 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-2407::before { content: "\E1D9"; }
+.fr-boston-1889-p272-1593 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-1593::before { content: "\E1DA"; }
+.fr-boston-1889-p272-4143 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4143::before { content: "\E1DB"; }
+.fr-boston-1889-p272-4144 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-4144::before { content: "\E1DC"; }
+.fr-boston-1889-p272-1592 { font-family: "Boston Cuts 1889"; }
+.fr-boston-1889-p272-1592::before { content: "\E1DD"; }

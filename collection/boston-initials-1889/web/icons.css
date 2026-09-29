@@ -1,0 +1,628 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-boston-1889-p237-art72-a { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-a::before { content: "\E000"; }
+.fr-boston-1889-p237-art72-b { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-b::before { content: "\E001"; }
+.fr-boston-1889-p237-art72-c { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-c::before { content: "\E002"; }
+.fr-boston-1889-p237-art72-d { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-d::before { content: "\E003"; }
+.fr-boston-1889-p237-art72-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-e::before { content: "\E004"; }
+.fr-boston-1889-p237-art72-f { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-f::before { content: "\E005"; }
+.fr-boston-1889-p237-art72-g { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-g::before { content: "\E006"; }
+.fr-boston-1889-p237-art72-h { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-h::before { content: "\E007"; }
+.fr-boston-1889-p237-art72-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-i::before { content: "\E008"; }
+.fr-boston-1889-p237-art72-j { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-j::before { content: "\E009"; }
+.fr-boston-1889-p237-art72-k { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-k::before { content: "\E00A"; }
+.fr-boston-1889-p237-art72-l { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-l::before { content: "\E00B"; }
+.fr-boston-1889-p237-art72-o { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-o::before { content: "\E00C"; }
+.fr-boston-1889-p237-art72-u { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-u::before { content: "\E00D"; }
+.fr-boston-1889-p237-art72-z { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-z::before { content: "\E00E"; }
+.fr-boston-1889-p237-art72-m { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-m::before { content: "\E00F"; }
+.fr-boston-1889-p237-art72-n { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-n::before { content: "\E010"; }
+.fr-boston-1889-p237-art72-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-p::before { content: "\E011"; }
+.fr-boston-1889-p237-art72-q { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-q::before { content: "\E012"; }
+.fr-boston-1889-p237-art72-r { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-r::before { content: "\E013"; }
+.fr-boston-1889-p237-art72-s { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-s::before { content: "\E014"; }
+.fr-boston-1889-p237-art72-t { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-t::before { content: "\E015"; }
+.fr-boston-1889-p237-art72-v { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-v::before { content: "\E016"; }
+.fr-boston-1889-p237-art72-w { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-w::before { content: "\E017"; }
+.fr-boston-1889-p237-art72-x { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-x::before { content: "\E018"; }
+.fr-boston-1889-p237-art72-y { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-y::before { content: "\E019"; }
+.fr-boston-1889-p237-art48-a { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-a::before { content: "\E01A"; }
+.fr-boston-1889-p237-art48-b { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-b::before { content: "\E01B"; }
+.fr-boston-1889-p237-art48-c { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-c::before { content: "\E01C"; }
+.fr-boston-1889-p237-art48-d { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-d::before { content: "\E01D"; }
+.fr-boston-1889-p237-art48-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-e::before { content: "\E01E"; }
+.fr-boston-1889-p237-art48-f { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-f::before { content: "\E01F"; }
+.fr-boston-1889-p237-art48-g { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-g::before { content: "\E020"; }
+.fr-boston-1889-p237-art48-h { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-h::before { content: "\E021"; }
+.fr-boston-1889-p237-art48-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-i::before { content: "\E022"; }
+.fr-boston-1889-p237-art48-j { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-j::before { content: "\E023"; }
+.fr-boston-1889-p237-art48-k { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-k::before { content: "\E024"; }
+.fr-boston-1889-p237-art48-l { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-l::before { content: "\E025"; }
+.fr-boston-1889-p237-art48-m { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-m::before { content: "\E026"; }
+.fr-boston-1889-p237-art48-n { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-n::before { content: "\E027"; }
+.fr-boston-1889-p237-art48-o { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-o::before { content: "\E028"; }
+.fr-boston-1889-p237-art48-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-p::before { content: "\E029"; }
+.fr-boston-1889-p237-art48-q { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-q::before { content: "\E02A"; }
+.fr-boston-1889-p237-art48-r { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-r::before { content: "\E02B"; }
+.fr-boston-1889-p237-art48-s { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-s::before { content: "\E02C"; }
+.fr-boston-1889-p237-art48-t { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-t::before { content: "\E02D"; }
+.fr-boston-1889-p237-art48-u { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-u::before { content: "\E02E"; }
+.fr-boston-1889-p237-art48-v { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-v::before { content: "\E02F"; }
+.fr-boston-1889-p237-art48-w { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-w::before { content: "\E030"; }
+.fr-boston-1889-p237-art48-x { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-x::before { content: "\E031"; }
+.fr-boston-1889-p237-art48-y { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-y::before { content: "\E032"; }
+.fr-boston-1889-p237-art48-z { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-z::before { content: "\E033"; }
+.fr-boston-1889-p237-series17-a { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-a::before { content: "\E034"; }
+.fr-boston-1889-p237-series17-b { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-b::before { content: "\E035"; }
+.fr-boston-1889-p237-series17-c { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-c::before { content: "\E036"; }
+.fr-boston-1889-p237-series17-d { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-d::before { content: "\E037"; }
+.fr-boston-1889-p237-series17-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-e::before { content: "\E038"; }
+.fr-boston-1889-p237-series17-f { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-f::before { content: "\E039"; }
+.fr-boston-1889-p237-series17-g { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-g::before { content: "\E03A"; }
+.fr-boston-1889-p237-series17-h { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-h::before { content: "\E03B"; }
+.fr-boston-1889-p237-series17-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-i::before { content: "\E03C"; }
+.fr-boston-1889-p237-series17-j { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-j::before { content: "\E03D"; }
+.fr-boston-1889-p237-series17-k { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-k::before { content: "\E03E"; }
+.fr-boston-1889-p237-series17-l { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-l::before { content: "\E03F"; }
+.fr-boston-1889-p237-series17-m { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-m::before { content: "\E040"; }
+.fr-boston-1889-p237-series17-n { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-n::before { content: "\E041"; }
+.fr-boston-1889-p237-series17-o { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-o::before { content: "\E042"; }
+.fr-boston-1889-p237-series17-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-p::before { content: "\E043"; }
+.fr-boston-1889-p237-series17-q { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-q::before { content: "\E044"; }
+.fr-boston-1889-p237-series17-r { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-r::before { content: "\E045"; }
+.fr-boston-1889-p237-series17-s { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-s::before { content: "\E046"; }
+.fr-boston-1889-p237-series17-t { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-t::before { content: "\E047"; }
+.fr-boston-1889-p237-series17-u { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-u::before { content: "\E048"; }
+.fr-boston-1889-p237-series17-v { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-v::before { content: "\E049"; }
+.fr-boston-1889-p237-series17-w { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-w::before { content: "\E04A"; }
+.fr-boston-1889-p237-series17-x { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-x::before { content: "\E04B"; }
+.fr-boston-1889-p237-series17-y { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-y::before { content: "\E04C"; }
+.fr-boston-1889-p237-series17-z { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-z::before { content: "\E04D"; }
+.fr-boston-1889-p237-series17-ampersand { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-ampersand::before { content: "\E04E"; }
+.fr-boston-1889-p237-art72-flourish-1 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-flourish-1::before { content: "\E04F"; }
+.fr-boston-1889-p237-art72-flourish-2 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-flourish-2::before { content: "\E050"; }
+.fr-boston-1889-p237-art72-flourish-3 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-flourish-3::before { content: "\E051"; }
+.fr-boston-1889-p237-art72-flourish-4 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-flourish-4::before { content: "\E052"; }
+.fr-boston-1889-p237-art72-flourish-5 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-flourish-5::before { content: "\E053"; }
+.fr-boston-1889-p237-art72-flourish-6 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-flourish-6::before { content: "\E054"; }
+.fr-boston-1889-p237-art72-flourish-7 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art72-flourish-7::before { content: "\E055"; }
+.fr-boston-1889-p237-art48-flourish-1 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-flourish-1::before { content: "\E056"; }
+.fr-boston-1889-p237-art48-flourish-2 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-flourish-2::before { content: "\E057"; }
+.fr-boston-1889-p237-art48-flourish-3 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-flourish-3::before { content: "\E058"; }
+.fr-boston-1889-p237-art48-flourish-4 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-flourish-4::before { content: "\E059"; }
+.fr-boston-1889-p237-art48-flourish-5 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-flourish-5::before { content: "\E05A"; }
+.fr-boston-1889-p237-art48-flourish-6 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-flourish-6::before { content: "\E05B"; }
+.fr-boston-1889-p237-art48-flourish-7 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-art48-flourish-7::before { content: "\E05C"; }
+.fr-boston-1889-p237-series17-flourish-1 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-flourish-1::before { content: "\E05D"; }
+.fr-boston-1889-p237-series17-flourish-2 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-flourish-2::before { content: "\E05E"; }
+.fr-boston-1889-p237-series17-flourish-5 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-flourish-5::before { content: "\E05F"; }
+.fr-boston-1889-p237-series17-flourish-7 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-flourish-7::before { content: "\E060"; }
+.fr-boston-1889-p237-series17-flourish-3 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-flourish-3::before { content: "\E061"; }
+.fr-boston-1889-p237-series17-flourish-6 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-flourish-6::before { content: "\E062"; }
+.fr-boston-1889-p237-series17-flourish-4 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p237-series17-flourish-4::before { content: "\E063"; }
+.fr-boston-1889-p238-series11-a { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-a::before { content: "\E064"; }
+.fr-boston-1889-p238-series11-b { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-b::before { content: "\E065"; }
+.fr-boston-1889-p238-series11-c { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-c::before { content: "\E066"; }
+.fr-boston-1889-p238-series11-d { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-d::before { content: "\E067"; }
+.fr-boston-1889-p238-series11-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-e::before { content: "\E068"; }
+.fr-boston-1889-p238-series11-f { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-f::before { content: "\E069"; }
+.fr-boston-1889-p238-series11-g { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-g::before { content: "\E06A"; }
+.fr-boston-1889-p238-series11-h { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-h::before { content: "\E06B"; }
+.fr-boston-1889-p238-series11-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-i::before { content: "\E06C"; }
+.fr-boston-1889-p238-series11-k { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-k::before { content: "\E06D"; }
+.fr-boston-1889-p238-series11-l { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-l::before { content: "\E06E"; }
+.fr-boston-1889-p238-series11-m { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-m::before { content: "\E06F"; }
+.fr-boston-1889-p238-series11-n { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-n::before { content: "\E070"; }
+.fr-boston-1889-p238-series11-o { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-o::before { content: "\E071"; }
+.fr-boston-1889-p238-series11-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-p::before { content: "\E072"; }
+.fr-boston-1889-p238-series11-q { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-q::before { content: "\E073"; }
+.fr-boston-1889-p238-series11-r { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-r::before { content: "\E074"; }
+.fr-boston-1889-p238-series11-s { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-s::before { content: "\E075"; }
+.fr-boston-1889-p238-series11-t { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-t::before { content: "\E076"; }
+.fr-boston-1889-p238-series11-u { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-u::before { content: "\E077"; }
+.fr-boston-1889-p238-series11-v { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-v::before { content: "\E078"; }
+.fr-boston-1889-p238-series11-w { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-w::before { content: "\E079"; }
+.fr-boston-1889-p238-series11-x { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-x::before { content: "\E07A"; }
+.fr-boston-1889-p238-series11-y { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-y::before { content: "\E07B"; }
+.fr-boston-1889-p238-series11-z { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series11-z::before { content: "\E07C"; }
+.fr-boston-1889-p238-series12-a { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-a::before { content: "\E07D"; }
+.fr-boston-1889-p238-series12-b { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-b::before { content: "\E07E"; }
+.fr-boston-1889-p238-series12-c { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-c::before { content: "\E07F"; }
+.fr-boston-1889-p238-series12-d { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-d::before { content: "\E080"; }
+.fr-boston-1889-p238-series12-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-e::before { content: "\E081"; }
+.fr-boston-1889-p238-series12-f { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-f::before { content: "\E082"; }
+.fr-boston-1889-p238-series12-g { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-g::before { content: "\E083"; }
+.fr-boston-1889-p238-series12-h { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-h::before { content: "\E084"; }
+.fr-boston-1889-p238-series12-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-i::before { content: "\E085"; }
+.fr-boston-1889-p238-series12-k { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-k::before { content: "\E086"; }
+.fr-boston-1889-p238-series12-l { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-l::before { content: "\E087"; }
+.fr-boston-1889-p238-series12-m { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-m::before { content: "\E088"; }
+.fr-boston-1889-p238-series12-n { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-n::before { content: "\E089"; }
+.fr-boston-1889-p238-series12-o { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-o::before { content: "\E08A"; }
+.fr-boston-1889-p238-series12-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-p::before { content: "\E08B"; }
+.fr-boston-1889-p238-series12-q { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-q::before { content: "\E08C"; }
+.fr-boston-1889-p238-series12-r { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-r::before { content: "\E08D"; }
+.fr-boston-1889-p238-series12-s { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-s::before { content: "\E08E"; }
+.fr-boston-1889-p238-series12-t { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-t::before { content: "\E08F"; }
+.fr-boston-1889-p238-series12-u { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-u::before { content: "\E090"; }
+.fr-boston-1889-p238-series12-v { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-v::before { content: "\E091"; }
+.fr-boston-1889-p238-series12-w { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-w::before { content: "\E092"; }
+.fr-boston-1889-p238-series12-x { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-x::before { content: "\E093"; }
+.fr-boston-1889-p238-series12-y { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-y::before { content: "\E094"; }
+.fr-boston-1889-p238-series12-z { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series12-z::before { content: "\E095"; }
+.fr-boston-1889-p238-series15-a { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-a::before { content: "\E096"; }
+.fr-boston-1889-p238-series15-b { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-b::before { content: "\E097"; }
+.fr-boston-1889-p238-series15-c { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-c::before { content: "\E098"; }
+.fr-boston-1889-p238-series15-d { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-d::before { content: "\E099"; }
+.fr-boston-1889-p238-series15-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-e::before { content: "\E09A"; }
+.fr-boston-1889-p238-series15-f { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-f::before { content: "\E09B"; }
+.fr-boston-1889-p238-series15-g { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-g::before { content: "\E09C"; }
+.fr-boston-1889-p238-series15-h { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-h::before { content: "\E09D"; }
+.fr-boston-1889-p238-series15-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-i::before { content: "\E09E"; }
+.fr-boston-1889-p238-series15-j { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-j::before { content: "\E09F"; }
+.fr-boston-1889-p238-series15-k { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-k::before { content: "\E0A0"; }
+.fr-boston-1889-p238-series15-l { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-l::before { content: "\E0A1"; }
+.fr-boston-1889-p238-series15-m { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-m::before { content: "\E0A2"; }
+.fr-boston-1889-p238-series15-n { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-n::before { content: "\E0A3"; }
+.fr-boston-1889-p238-series15-o { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-o::before { content: "\E0A4"; }
+.fr-boston-1889-p238-series15-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-p::before { content: "\E0A5"; }
+.fr-boston-1889-p238-series15-q { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-q::before { content: "\E0A6"; }
+.fr-boston-1889-p238-series15-r { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-r::before { content: "\E0A7"; }
+.fr-boston-1889-p238-series15-s { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-s::before { content: "\E0A8"; }
+.fr-boston-1889-p238-series15-t { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-t::before { content: "\E0A9"; }
+.fr-boston-1889-p238-series15-u { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-u::before { content: "\E0AA"; }
+.fr-boston-1889-p238-series15-v { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-v::before { content: "\E0AB"; }
+.fr-boston-1889-p238-series15-w { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-w::before { content: "\E0AC"; }
+.fr-boston-1889-p238-series15-x { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-x::before { content: "\E0AD"; }
+.fr-boston-1889-p238-series15-y { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-y::before { content: "\E0AE"; }
+.fr-boston-1889-p238-series15-z { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p238-series15-z::before { content: "\E0AF"; }
+.fr-boston-1889-p239-carpet-c { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-carpet-c::before { content: "\E0B0"; }
+.fr-boston-1889-p239-carpet-a { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-carpet-a::before { content: "\E0B1"; }
+.fr-boston-1889-p239-carpet-r { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-carpet-r::before { content: "\E0B2"; }
+.fr-boston-1889-p239-carpet-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-carpet-p::before { content: "\E0B3"; }
+.fr-boston-1889-p239-carpet-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-carpet-e::before { content: "\E0B4"; }
+.fr-boston-1889-p239-carpet-t { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-carpet-t::before { content: "\E0B5"; }
+.fr-boston-1889-p239-step-s { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-step-s::before { content: "\E0B6"; }
+.fr-boston-1889-p239-step-t { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-step-t::before { content: "\E0B7"; }
+.fr-boston-1889-p239-step-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-step-e::before { content: "\E0B8"; }
+.fr-boston-1889-p239-step-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-step-p::before { content: "\E0B9"; }
+.fr-boston-1889-p239-fine-type-f { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-fine-type-f::before { content: "\E0BA"; }
+.fr-boston-1889-p239-fine-type-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-fine-type-i::before { content: "\E0BB"; }
+.fr-boston-1889-p239-fine-type-n { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-fine-type-n::before { content: "\E0BC"; }
+.fr-boston-1889-p239-fine-type-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-fine-type-e::before { content: "\E0BD"; }
+.fr-boston-1889-p239-fine-type-t { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-fine-type-t::before { content: "\E0BE"; }
+.fr-boston-1889-p239-fine-type-y { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-fine-type-y::before { content: "\E0BF"; }
+.fr-boston-1889-p239-fine-type-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-fine-type-p::before { content: "\E0C0"; }
+.fr-boston-1889-p239-price-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-price-p::before { content: "\E0C1"; }
+.fr-boston-1889-p239-price-r { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-price-r::before { content: "\E0C2"; }
+.fr-boston-1889-p239-price-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-price-i::before { content: "\E0C3"; }
+.fr-boston-1889-p239-price-c { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-price-c::before { content: "\E0C4"; }
+.fr-boston-1889-p239-price-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-price-e::before { content: "\E0C5"; }
+.fr-boston-1889-p239-stories-s { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-stories-s::before { content: "\E0C6"; }
+.fr-boston-1889-p239-stories-t { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-stories-t::before { content: "\E0C7"; }
+.fr-boston-1889-p239-stories-o { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-stories-o::before { content: "\E0C8"; }
+.fr-boston-1889-p239-stories-r { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-stories-r::before { content: "\E0C9"; }
+.fr-boston-1889-p239-stories-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-stories-i::before { content: "\E0CA"; }
+.fr-boston-1889-p239-stories-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p239-stories-e::before { content: "\E0CB"; }
+.fr-boston-1889-p240-scope-s { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-scope-s::before { content: "\E0CC"; }
+.fr-boston-1889-p240-scope-c { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-scope-c::before { content: "\E0CD"; }
+.fr-boston-1889-p240-scope-o { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-scope-o::before { content: "\E0CE"; }
+.fr-boston-1889-p240-scope-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-scope-p::before { content: "\E0CF"; }
+.fr-boston-1889-p240-scope-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-scope-e::before { content: "\E0D0"; }
+.fr-boston-1889-p240-solids-s { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-solids-s::before { content: "\E0D1"; }
+.fr-boston-1889-p240-solids-o { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-solids-o::before { content: "\E0D2"; }
+.fr-boston-1889-p240-solids-l { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-solids-l::before { content: "\E0D3"; }
+.fr-boston-1889-p240-solids-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-solids-i::before { content: "\E0D4"; }
+.fr-boston-1889-p240-solids-d { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-solids-d::before { content: "\E0D5"; }
+.fr-boston-1889-p240-large-h { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-large-h::before { content: "\E0D6"; }
+.fr-boston-1889-p240-large-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-large-e::before { content: "\E0D7"; }
+.fr-boston-1889-p241-modern-m { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-modern-m::before { content: "\E0D8"; }
+.fr-boston-1889-p241-modern-o { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-modern-o::before { content: "\E0D9"; }
+.fr-boston-1889-p241-modern-d { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-modern-d::before { content: "\E0DA"; }
+.fr-boston-1889-p241-modern-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-modern-e::before { content: "\E0DB"; }
+.fr-boston-1889-p241-modern-r { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-modern-r::before { content: "\E0DC"; }
+.fr-boston-1889-p241-modern-n { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-modern-n::before { content: "\E0DD"; }
+.fr-boston-1889-p241-opening-o { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-opening-o::before { content: "\E0DE"; }
+.fr-boston-1889-p241-opening-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-opening-p::before { content: "\E0DF"; }
+.fr-boston-1889-p241-opening-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-opening-e::before { content: "\E0E0"; }
+.fr-boston-1889-p241-opening-n { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-opening-n::before { content: "\E0E1"; }
+.fr-boston-1889-p241-opening-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-opening-i::before { content: "\E0E2"; }
+.fr-boston-1889-p241-opening-g { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-opening-g::before { content: "\E0E3"; }
+.fr-boston-1889-p241-prime-p { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-prime-p::before { content: "\E0E4"; }
+.fr-boston-1889-p241-prime-r { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-prime-r::before { content: "\E0E5"; }
+.fr-boston-1889-p241-prime-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-prime-i::before { content: "\E0E6"; }
+.fr-boston-1889-p241-prime-m { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-prime-m::before { content: "\E0E7"; }
+.fr-boston-1889-p241-prime-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-prime-e::before { content: "\E0E8"; }
+.fr-boston-1889-p241-designed-d { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-designed-d::before { content: "\E0E9"; }
+.fr-boston-1889-p241-designed-e { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-designed-e::before { content: "\E0EA"; }
+.fr-boston-1889-p241-designed-s { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-designed-s::before { content: "\E0EB"; }
+.fr-boston-1889-p241-designed-i { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-designed-i::before { content: "\E0EC"; }
+.fr-boston-1889-p241-designed-g { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-designed-g::before { content: "\E0ED"; }
+.fr-boston-1889-p241-designed-n { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-designed-n::before { content: "\E0EE"; }
+.fr-boston-1889-p240-piece-1 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-1::before { content: "\E0EF"; }
+.fr-boston-1889-p240-piece-2 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-2::before { content: "\E0F0"; }
+.fr-boston-1889-p240-piece-3 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-3::before { content: "\E0F1"; }
+.fr-boston-1889-p240-piece-4 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-4::before { content: "\E0F2"; }
+.fr-boston-1889-p240-piece-5 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-5::before { content: "\E0F3"; }
+.fr-boston-1889-p240-piece-6 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-6::before { content: "\E0F4"; }
+.fr-boston-1889-p240-piece-7 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-7::before { content: "\E0F5"; }
+.fr-boston-1889-p240-piece-8 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-8::before { content: "\E0F6"; }
+.fr-boston-1889-p240-piece-9 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-9::before { content: "\E0F7"; }
+.fr-boston-1889-p240-piece-10 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-10::before { content: "\E0F8"; }
+.fr-boston-1889-p240-piece-11 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-11::before { content: "\E0F9"; }
+.fr-boston-1889-p240-piece-12 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-12::before { content: "\E0FA"; }
+.fr-boston-1889-p240-piece-13 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-13::before { content: "\E0FB"; }
+.fr-boston-1889-p240-piece-14 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-14::before { content: "\E0FC"; }
+.fr-boston-1889-p240-piece-15 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-15::before { content: "\E0FD"; }
+.fr-boston-1889-p240-piece-16 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-16::before { content: "\E0FE"; }
+.fr-boston-1889-p240-piece-17 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-17::before { content: "\E0FF"; }
+.fr-boston-1889-p240-piece-18 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-18::before { content: "\E100"; }
+.fr-boston-1889-p240-piece-19 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-19::before { content: "\E101"; }
+.fr-boston-1889-p240-piece-20 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-20::before { content: "\E102"; }
+.fr-boston-1889-p240-piece-21 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-21::before { content: "\E103"; }
+.fr-boston-1889-p240-piece-22 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-22::before { content: "\E104"; }
+.fr-boston-1889-p240-piece-23 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-23::before { content: "\E105"; }
+.fr-boston-1889-p240-piece-26 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-26::before { content: "\E106"; }
+.fr-boston-1889-p240-piece-27 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-27::before { content: "\E107"; }
+.fr-boston-1889-p240-piece-28 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-28::before { content: "\E108"; }
+.fr-boston-1889-p240-piece-29 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-29::before { content: "\E109"; }
+.fr-boston-1889-p240-piece-30 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-30::before { content: "\E10A"; }
+.fr-boston-1889-p240-piece-31 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-31::before { content: "\E10B"; }
+.fr-boston-1889-p240-piece-32 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-32::before { content: "\E10C"; }
+.fr-boston-1889-p240-piece-33 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-33::before { content: "\E10D"; }
+.fr-boston-1889-p240-piece-34 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-34::before { content: "\E10E"; }
+.fr-boston-1889-p240-piece-35 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-35::before { content: "\E10F"; }
+.fr-boston-1889-p240-piece-36 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-36::before { content: "\E110"; }
+.fr-boston-1889-p240-piece-37 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-37::before { content: "\E111"; }
+.fr-boston-1889-p240-piece-38 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p240-piece-38::before { content: "\E112"; }
+.fr-boston-1889-p241-piece-1 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-1::before { content: "\E113"; }
+.fr-boston-1889-p241-piece-2 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-2::before { content: "\E114"; }
+.fr-boston-1889-p241-piece-3 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-3::before { content: "\E115"; }
+.fr-boston-1889-p241-piece-4 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-4::before { content: "\E116"; }
+.fr-boston-1889-p241-piece-5 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-5::before { content: "\E117"; }
+.fr-boston-1889-p241-piece-6 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-6::before { content: "\E118"; }
+.fr-boston-1889-p241-piece-7 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-7::before { content: "\E119"; }
+.fr-boston-1889-p241-piece-8 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-8::before { content: "\E11A"; }
+.fr-boston-1889-p241-piece-9 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-9::before { content: "\E11B"; }
+.fr-boston-1889-p241-piece-10 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-10::before { content: "\E11C"; }
+.fr-boston-1889-p241-piece-11 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-11::before { content: "\E11D"; }
+.fr-boston-1889-p241-piece-12 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-12::before { content: "\E11E"; }
+.fr-boston-1889-p241-piece-13 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-13::before { content: "\E11F"; }
+.fr-boston-1889-p241-piece-14 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-14::before { content: "\E120"; }
+.fr-boston-1889-p241-piece-15 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-15::before { content: "\E121"; }
+.fr-boston-1889-p241-piece-16 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-16::before { content: "\E122"; }
+.fr-boston-1889-p241-piece-34 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-34::before { content: "\E123"; }
+.fr-boston-1889-p241-piece-17 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-17::before { content: "\E124"; }
+.fr-boston-1889-p241-piece-18 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-18::before { content: "\E125"; }
+.fr-boston-1889-p241-piece-19 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-19::before { content: "\E126"; }
+.fr-boston-1889-p241-piece-20 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-20::before { content: "\E127"; }
+.fr-boston-1889-p241-piece-21 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-21::before { content: "\E128"; }
+.fr-boston-1889-p241-piece-22 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-22::before { content: "\E129"; }
+.fr-boston-1889-p241-piece-23 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-23::before { content: "\E12A"; }
+.fr-boston-1889-p241-piece-24 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-24::before { content: "\E12B"; }
+.fr-boston-1889-p241-piece-25 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-25::before { content: "\E12C"; }
+.fr-boston-1889-p241-piece-26 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-26::before { content: "\E12D"; }
+.fr-boston-1889-p241-piece-27 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-27::before { content: "\E12E"; }
+.fr-boston-1889-p241-piece-28 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-28::before { content: "\E12F"; }
+.fr-boston-1889-p241-piece-29 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-29::before { content: "\E130"; }
+.fr-boston-1889-p241-piece-30 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-30::before { content: "\E131"; }
+.fr-boston-1889-p241-piece-31 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-31::before { content: "\E132"; }
+.fr-boston-1889-p241-piece-32 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-32::before { content: "\E133"; }
+.fr-boston-1889-p241-piece-33 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-33::before { content: "\E134"; }
+.fr-boston-1889-p241-piece-35 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-35::before { content: "\E135"; }
+.fr-boston-1889-p241-piece-36 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-36::before { content: "\E136"; }
+.fr-boston-1889-p241-piece-37 { font-family: "Boston Initials 1889"; }
+.fr-boston-1889-p241-piece-37::before { content: "\E137"; }

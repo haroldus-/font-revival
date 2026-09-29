@@ -1,7 +1,58 @@
-# Father Christmas, No. 4202
+# Boston Cuts 1889
 
-This is the first pilot for Boston Cuts 1889, not a completed inventory of the
-book. It follows printed p. 273 (PDF page 281, one-based; Internet Archive leaf
+## Expansion from the approved pilot (1.003)
+
+This family contains 478 individually catalogued impressions from printed
+pp. 271–276: holiday cuts, animals, emblems, transport, objects, signal flags,
+game pieces, pointing hands, moons, medical marks and illustrated billheads.
+The wider available Boston range contributes 715 ornaments, 312 initials and
+letter parts, and 460 symbols in separate families. The central `inventory.json`
+records all 62 surveyed leaves, counts, exclusions and the missing pp. 217–218.
+Ordinary text and numerals are excluded. Repeated examples and unobserved pieces
+are recorded; absent historical artwork is never invented.
+
+The additional source pages are unchanged Internet Archive JP2 leaves.
+`reference/expansion-acquisition.json` records archive members, URLs and hashes.
+Small printed labels and illustrations were inspected at native resolution.
+Final crops and explicit erasures are authoritative in `tracing.json`, in native
+image pixels. Full pages retain context beyond every extracted motif.
+
+Thresholds are selected per impression. The darker paper on pp. 274–276 generally
+uses three levels 130/165/185; the holiday plate uses 130/185/210. Pale chess
+pieces, hands, script hairlines and p. 271–272 cuts use documented local paper
+correction and adjusted levels. Local correction divides gray values by a
+maximum-filter/Gaussian estimate of the paper; it adds no drawing or closed gaps.
+Reviewed monochrome thresholds retain faint hairlines or open engraved counters
+as appropriate. Every final value, blur and erasure is stored in the recipe.
+
+The lightest trace defines a common frame for monochrome and tritone versions.
+The longest dimension fits 1800 units, with uniform scaling and vertical centring
+inside the 2048-unit em. Wide cuts keep their proportions. No. 4202 retains its
+original contours, coordinate frame, spacing and stable U+E000 assignment.
+
+Some dense outlines expose numerical degeneracies in the PathOps sweep. Failed
+operations are retried after exact quarter turns or reflections, then transformed
+back. No points are perturbed, engraving simplified or replacement imagery drawn.
+Each operation is checked against its operands on a deterministic point grid to
+reject silent malformed fills. Difficult curves are subdivided into exact halves
+or quarters before retrying, preserving their geometry without flattening. If
+every equivalent sweep fails, separation uses
+the original fitted curves before integer rounding; only the completed regions
+are rounded. This avoids artificial tangencies introduced by premature rounding.
+The source masks and monochrome drawings remain unchanged. See the boundary
+tolerances and review limits in [TRACING.md](../../../docs/TRACING.md).
+The final fallback for unstable cubic intersections uses quadratic curves within
+0.05 font units of the fitted contours, ten times finer than release TTF conversion.
+It uses the same fill checks and never substitutes a bitmap for the engraving.
+Closed quadratic contours with implied on-curve points are preserved when the
+boolean result is converted to SVG commands and CFF. Preparation may run with
+`--jobs 4 --cache workspace/boston-expansion/trace-cache`; cache keys include the
+reference bytes, recipe, layer metadata and preparation code, and output ordering
+is deterministic. Neither cache nor Potrace is needed for normal release builds.
+
+## Father Christmas, No. 4202: original pilot measurements
+
+The first pilot follows printed p. 273 (PDF page 281, one-based; Internet Archive leaf
 281). The section heading credits the cuts to Central Type Foundry. The title
 page establishes Boston, 1889; an individual engraver is not identified.
 
@@ -83,7 +134,7 @@ network request is needed for the previews, so `icons.html` also works when
 opened directly as a file. The downloadable sprite remains available for HTTP(S)
 use. Individual SVG files can be opened directly or embedded with `<img>`.
 
-## Reproduce the initial master
+## Reproduce the master
 
 Use Python 3.12, `requirements-tracing.txt`, and the documented Potrace 1.16
 source-preparation dependency in [TRACING.md](../../../docs/TRACING.md).
@@ -104,16 +155,17 @@ replacement uses `import --replace` after reviewing edits in `source/glyphs/`.
 
 Normal offline builds use `source/font.ttx`, applying any individual glyph JSON
 edits before deriving all font and SVG outputs. `companions.json` adds only a
-blank space glyph; no companion illustration was drawn. The font has `.notdef`,
-space, the single encoded icon and three unencoded tone regions. All illustrated
+blank space glyph; no companion illustration was drawn. The original pilot has `.notdef`,
+space, one encoded icon and three unencoded tone regions; subsequent entries add
+their own encoded icon and unencoded regions in the same master. All illustrated
 coverage and the multi-tone compositor are declared in `font.json`.
 
 ## Review
 
 `specimens/specimen.pdf` and `source-review.pdf` compare the source, multi-tone and
 monochrome versions, and show 16, 24, 32, 48, 64, 96 and 192 pt sizes plus an inline
-text example. Multi-tone proof sizes measure the ink height; font sizes measure the
-em. The PNG proof also compares all three. Inspect the multi-tone SVG, solid SVG
+text example. Multi-tone and font size proofs both use the em frame, so wide ornaments
+remain on the page. The PNG proof also compares all three. Inspect the multi-tone SVG, solid SVG
 sprite and WOFF2 side by side in `icons.html`, including at 64 px and on
 mobile. The glyph is detailed display artwork; 64 px is a reviewed recommendation,
 not a restriction. Smaller representations are provided in the proof so users
@@ -130,3 +182,16 @@ source record and the U.S. Copyright Office's Circular 15A. The retained archive
 metadata credits the Library of Congress and records that it is unaware of
 copyright restrictions. The original engraving remains public-domain material.
 Original digital project work is Copyright (c) 2026 Harold Lehmann, MIT licensed.
+
+## Font conversion and proof scale
+
+CFF and TrueType retain the same actual outline positions and advances. TrueType
+left bearings follow its control-point bounding box, which can differ from a CFF
+curve extremum. Recording that bearing prevents FreeType from shifting each tone
+independently. Validation compares the actual ink bounds of every layer across
+OTF, TTF, WOFF and WOFF2 within two font units. Typeface conversion is unchanged.
+
+Source-comparison PDFs use 800-pixel source crops and 448-pixel tritone renders;
+individual SVGs and the CFF master retain all traced contours. Download PNGs stay
+1024 pixels high and use a lossless alpha palette. These settings keep detailed
+proofs and web downloads practical without changing delivered vector detail.

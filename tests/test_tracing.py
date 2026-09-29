@@ -10,6 +10,8 @@ from pathlib import Path
 from unittest.mock import patch
 
 from fontTools.pens.boundsPen import BoundsPen
+from fontTools.pens.recordingPen import RecordingPen
+from fontTools.pens.transformPen import TransformPen
 from fontTools.svgLib.path import parse_path
 from fontTools.ttLib import TTFont
 from PIL import Image, ImageDraw
@@ -20,6 +22,31 @@ import trace_specimen as tracing
 
 
 class TracingTests(unittest.TestCase):
+    def test_local_paper_correction_recovers_faint_ink_without_paper(self):
+        image = Image.new('L', (60, 30))
+        for x in range(60):
+            paper = 195 + x // 2
+            for y in range(30):
+                image.putpixel((x, y), paper - 40 if 8 <= y <= 10 else paper)
+        cleaned = tracing.clean_crop(image, {
+            'box': [0, 0, 60, 30], 'blur': 0,
+            'threshold': 225, 'paper_normalization_radius': 6,
+            'component_min_area': 2, 'fill_holes': 0})
+        for x in (5, 30, 55):
+            self.assertEqual(0, cleaned.getpixel((x + 4, 13)))
+            self.assertEqual(255, cleaned.getpixel((x + 4, 24)))
+
+    def test_wide_icon_fits_without_stretching_and_centres_vertically(self):
+        drawing = RecordingPen()
+        parse_path('M20 30H220V80H20Z', drawing)
+        transform, advance = tracing.trace_transform(drawing, {
+            'height': 1800, 'max_ink_dimension': 1800,
+            'center_vertical': True, 'bearings': [64, 64]})
+        bounds = BoundsPen(None)
+        drawing.replay(TransformPen(bounds, transform))
+        self.assertEqual((64, 675, 1864, 1125), bounds.bounds)
+        self.assertEqual(1928, advance)
+
     def test_cleanup_removes_dirt_and_repairs_speck_without_filling_counter(self):
         image = Image.new('L', (40, 40), 255)
         draw = ImageDraw.Draw(image)
@@ -112,6 +139,28 @@ class TracingTests(unittest.TestCase):
         with TTFont(stream) as font:
             self.assertGreaterEqual(font['OS/2'].usWinAscent, font['head'].yMax)
             self.assertGreaterEqual(font['OS/2'].usWinDescent, -font['head'].yMin)
+
+    def test_registered_icon_layers_keep_their_origin_after_conversion(self):
+        family = REPO / 'collection/boston-cuts-1889'
+        original = tracing.fontrevival.load_source(family, tracing.fontrevival.metadata(family))
+        name = original.getBestCmap()[0xE000]
+        # A curved edge whose control box extends well beyond its ink bound.
+        from fontTools.pens.t2CharStringPen import T2CharStringPen
+        pen = T2CharStringPen(1200, None)
+        parse_path('M300 0C-100 500 700 500 300 1000H900V0Z', pen)
+        top = original['CFF '].cff.topDictIndex[0]
+        top.CharStrings[name] = pen.getCharString(private=top.Private, globalSubrs=top.GlobalSubrs)
+        bounds = BoundsPen(None)
+        parse_path('M300 0C-100 500 700 500 300 1000H900V0Z', bounds)
+        original['hmtx'][name] = (1200, round(bounds.bounds[0]))
+        converted = tracing.fontrevival.to_truetype(original, preserve_origins=True)
+        stream = io.BytesIO(); converted.save(stream); stream.seek(0)
+        with TTFont(stream) as font:
+            glyphs = font.getGlyphSet(); actual = BoundsPen(glyphs)
+            glyphs[name].draw(actual)
+            for before, after in zip(bounds.bounds, actual.bounds):
+                self.assertAlmostEqual(before, after, delta=1)
+            self.assertEqual(font['hmtx'][name], (1200, font['glyf'][name].xMin))
 
     def test_master_encodes_capital_aliases_and_kerning(self):
         characters = string.ascii_uppercase + string.digits + string.punctuation + ' '

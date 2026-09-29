@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1081 2048" role="img" aria-label="Prime stroke, 5-point commercial — multitone">
+<title>Prime stroke, 5-point commercial — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M524 1493C298 1206 132 452 298 452C373 452 509 648 615 889C826 1417 765 1809 524 1493Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M238 1146C177 859 162 513 193 347C238 136 313 181 585 618C992 1297 1007 1658 615 1658C404 1658 298 1523 238 1146ZM524 1493C765 1809 826 1417 615 889C509 648 373 452 298 452C132 452 298 1206 524 1493Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M343 1553C102 1101 -34 0 147 0C389 0 1112 1327 1007 1583C901 1884 509 1869 343 1553ZM238 1146C298 1523 404 1658 615 1658C1007 1658 992 1297 585 618C313 181 238 136 193 347C162 513 177 859 238 1146Z"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1704 2048" role="img" aria-label="Round dot, 18 point — multitone">
+<title>Round dot, 18 point — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M533 1486C280 1250 407 327 696 219C1076 74 1510 635 1366 1033C1185 1504 768 1739 533 1486Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M443 1576C316 1449 226 1142 226 852C226 237 823 -161 1239 183C1619 490 1565 1377 1149 1612C911 1740 803 1799 710 1781C633 1766 566 1699 443 1576ZM533 1486C768 1739 1185 1504 1366 1033C1510 635 1076 74 696 219C407 327 280 1250 533 1486Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M226 1323C-10 707 -10 635 370 291C841 -143 1293 -89 1529 436C1691 798 1673 997 1492 1341C1167 1956 461 1956 226 1323ZM443 1576C566 1699 633 1766 710 1781C803 1799 911 1740 1149 1612C1565 1377 1619 490 1239 183C823 -161 226 237 226 852C226 1142 316 1449 443 1576Z"/>
+</svg>

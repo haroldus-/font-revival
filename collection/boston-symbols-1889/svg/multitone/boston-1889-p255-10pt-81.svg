@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1091 2048" role="img" aria-label="Backward prime stroke, 10-point — multitone">
+<title>Backward prime stroke, 10-point — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M291 1349C305 1136 844 116 858 300C858 569 518 1519 405 1519C348 1519 291 1434 291 1349Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M150 1490C150 1391 305 994 490 598C745 59 844 -54 929 130C1057 456 646 1575 376 1632C249 1660 150 1604 150 1490ZM291 1349C291 1434 348 1519 405 1519C518 1519 858 569 858 300C844 116 305 1136 291 1349Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M79 1675C-49 1462 688 -68 887 2C1085 59 1071 555 858 1023C801 1179 702 1420 660 1561C575 1816 220 1887 79 1675ZM150 1490C150 1604 249 1660 376 1632C646 1575 1057 456 929 130C844 -54 745 59 490 598C305 994 150 1391 150 1490Z"/>
+</svg>

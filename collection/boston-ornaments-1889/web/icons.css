@@ -1,0 +1,1434 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-boston-1889-p258-word-1-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-1-1::before { content: "\E000"; }
+.fr-boston-1889-p258-word-1-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-1-2::before { content: "\E001"; }
+.fr-boston-1889-p258-word-1-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-1-3::before { content: "\E002"; }
+.fr-boston-1889-p258-word-2-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-2-1::before { content: "\E003"; }
+.fr-boston-1889-p258-word-2-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-2-2::before { content: "\E004"; }
+.fr-boston-1889-p258-word-2-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-2-3::before { content: "\E005"; }
+.fr-boston-1889-p258-word-3-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-3-1::before { content: "\E006"; }
+.fr-boston-1889-p258-word-3-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-3-2::before { content: "\E007"; }
+.fr-boston-1889-p258-word-3-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-3-3::before { content: "\E008"; }
+.fr-boston-1889-p258-word-4-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-4-1::before { content: "\E009"; }
+.fr-boston-1889-p258-word-4-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-4-2::before { content: "\E00A"; }
+.fr-boston-1889-p258-word-4-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-4-3::before { content: "\E00B"; }
+.fr-boston-1889-p258-word-5-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-5-1::before { content: "\E00C"; }
+.fr-boston-1889-p258-word-5-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-5-2::before { content: "\E00D"; }
+.fr-boston-1889-p258-word-5-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-5-3::before { content: "\E00E"; }
+.fr-boston-1889-p258-word-6-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-6-1::before { content: "\E00F"; }
+.fr-boston-1889-p258-word-6-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-6-2::before { content: "\E010"; }
+.fr-boston-1889-p258-word-7-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-7-1::before { content: "\E011"; }
+.fr-boston-1889-p258-word-7-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-7-2::before { content: "\E012"; }
+.fr-boston-1889-p258-word-8-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-8-1::before { content: "\E013"; }
+.fr-boston-1889-p258-word-8-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-8-2::before { content: "\E014"; }
+.fr-boston-1889-p258-word-9-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-9-1::before { content: "\E015"; }
+.fr-boston-1889-p258-word-9-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-9-2::before { content: "\E016"; }
+.fr-boston-1889-p258-word-31-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-31-1::before { content: "\E017"; }
+.fr-boston-1889-p258-word-31-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-31-2::before { content: "\E018"; }
+.fr-boston-1889-p258-word-32-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-32-1::before { content: "\E019"; }
+.fr-boston-1889-p258-word-32-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-32-2::before { content: "\E01A"; }
+.fr-boston-1889-p258-word-33-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-33-1::before { content: "\E01B"; }
+.fr-boston-1889-p258-word-33-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-33-2::before { content: "\E01C"; }
+.fr-boston-1889-p258-word-10-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-10-1::before { content: "\E01D"; }
+.fr-boston-1889-p258-word-10-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-10-2::before { content: "\E01E"; }
+.fr-boston-1889-p258-word-10-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-10-3::before { content: "\E01F"; }
+.fr-boston-1889-p258-word-10-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-10-4::before { content: "\E020"; }
+.fr-boston-1889-p258-word-10-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-10-5::before { content: "\E021"; }
+.fr-boston-1889-p258-word-10-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-10-6::before { content: "\E022"; }
+.fr-boston-1889-p258-word-10-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-10-7::before { content: "\E023"; }
+.fr-boston-1889-p258-word-11-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-11-1::before { content: "\E024"; }
+.fr-boston-1889-p258-word-11-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-11-2::before { content: "\E025"; }
+.fr-boston-1889-p258-word-11-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-11-3::before { content: "\E026"; }
+.fr-boston-1889-p258-word-11-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-11-4::before { content: "\E027"; }
+.fr-boston-1889-p258-word-11-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-11-5::before { content: "\E028"; }
+.fr-boston-1889-p258-word-11-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-11-6::before { content: "\E029"; }
+.fr-boston-1889-p258-word-11-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-11-7::before { content: "\E02A"; }
+.fr-boston-1889-p258-word-12-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-12-1::before { content: "\E02B"; }
+.fr-boston-1889-p258-word-12-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-12-2::before { content: "\E02C"; }
+.fr-boston-1889-p258-word-12-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-12-3::before { content: "\E02D"; }
+.fr-boston-1889-p258-word-12-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-12-4::before { content: "\E02E"; }
+.fr-boston-1889-p258-word-12-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-12-5::before { content: "\E02F"; }
+.fr-boston-1889-p258-word-12-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-12-6::before { content: "\E030"; }
+.fr-boston-1889-p258-word-13-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-13-1::before { content: "\E031"; }
+.fr-boston-1889-p258-word-13-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-13-2::before { content: "\E032"; }
+.fr-boston-1889-p258-word-13-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-13-3::before { content: "\E033"; }
+.fr-boston-1889-p258-word-14-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-14-1::before { content: "\E034"; }
+.fr-boston-1889-p258-word-14-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-14-2::before { content: "\E035"; }
+.fr-boston-1889-p258-word-14-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-14-3::before { content: "\E036"; }
+.fr-boston-1889-p258-word-15-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-15-1::before { content: "\E037"; }
+.fr-boston-1889-p258-word-15-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-15-2::before { content: "\E038"; }
+.fr-boston-1889-p258-word-15-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-15-3::before { content: "\E039"; }
+.fr-boston-1889-p258-word-16-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-16-1::before { content: "\E03A"; }
+.fr-boston-1889-p258-word-16-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-16-2::before { content: "\E03B"; }
+.fr-boston-1889-p258-word-16-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-16-3::before { content: "\E03C"; }
+.fr-boston-1889-p258-word-17-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-17-1::before { content: "\E03D"; }
+.fr-boston-1889-p258-word-17-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-17-2::before { content: "\E03E"; }
+.fr-boston-1889-p258-word-17-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-17-3::before { content: "\E03F"; }
+.fr-boston-1889-p258-word-18-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-18-1::before { content: "\E040"; }
+.fr-boston-1889-p258-word-18-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-18-2::before { content: "\E041"; }
+.fr-boston-1889-p258-word-18-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-18-3::before { content: "\E042"; }
+.fr-boston-1889-p258-word-18-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-18-4::before { content: "\E043"; }
+.fr-boston-1889-p258-word-18-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-18-5::before { content: "\E044"; }
+.fr-boston-1889-p258-word-19-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-19-1::before { content: "\E045"; }
+.fr-boston-1889-p258-word-19-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-19-2::before { content: "\E046"; }
+.fr-boston-1889-p258-word-19-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-19-3::before { content: "\E047"; }
+.fr-boston-1889-p258-word-19-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-19-4::before { content: "\E048"; }
+.fr-boston-1889-p258-word-19-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-19-5::before { content: "\E049"; }
+.fr-boston-1889-p258-word-20-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-20-1::before { content: "\E04A"; }
+.fr-boston-1889-p258-word-20-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-20-2::before { content: "\E04B"; }
+.fr-boston-1889-p258-word-20-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-20-3::before { content: "\E04C"; }
+.fr-boston-1889-p258-word-20-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-20-4::before { content: "\E04D"; }
+.fr-boston-1889-p258-word-20-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-20-5::before { content: "\E04E"; }
+.fr-boston-1889-p258-word-21-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-21-1::before { content: "\E04F"; }
+.fr-boston-1889-p258-word-21-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-21-2::before { content: "\E050"; }
+.fr-boston-1889-p258-word-21-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-21-3::before { content: "\E051"; }
+.fr-boston-1889-p258-word-21-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-21-4::before { content: "\E052"; }
+.fr-boston-1889-p258-word-21-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-21-5::before { content: "\E053"; }
+.fr-boston-1889-p258-word-22-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-22-1::before { content: "\E054"; }
+.fr-boston-1889-p258-word-22-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-22-2::before { content: "\E055"; }
+.fr-boston-1889-p258-word-22-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-22-3::before { content: "\E056"; }
+.fr-boston-1889-p258-word-22-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-22-4::before { content: "\E057"; }
+.fr-boston-1889-p258-word-22-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-22-5::before { content: "\E058"; }
+.fr-boston-1889-p258-word-22-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-22-6::before { content: "\E059"; }
+.fr-boston-1889-p258-word-22-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-22-7::before { content: "\E05A"; }
+.fr-boston-1889-p258-word-23-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-23-1::before { content: "\E05B"; }
+.fr-boston-1889-p258-word-23-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-23-2::before { content: "\E05C"; }
+.fr-boston-1889-p258-word-23-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-23-3::before { content: "\E05D"; }
+.fr-boston-1889-p258-word-23-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-23-4::before { content: "\E05E"; }
+.fr-boston-1889-p258-word-23-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-23-5::before { content: "\E05F"; }
+.fr-boston-1889-p258-word-23-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-23-6::before { content: "\E060"; }
+.fr-boston-1889-p258-word-23-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-23-7::before { content: "\E061"; }
+.fr-boston-1889-p258-word-24-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-24-1::before { content: "\E062"; }
+.fr-boston-1889-p258-word-24-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-24-2::before { content: "\E063"; }
+.fr-boston-1889-p258-word-24-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-24-3::before { content: "\E064"; }
+.fr-boston-1889-p258-word-24-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-24-4::before { content: "\E065"; }
+.fr-boston-1889-p258-word-24-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-24-5::before { content: "\E066"; }
+.fr-boston-1889-p258-word-24-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-24-6::before { content: "\E067"; }
+.fr-boston-1889-p258-word-24-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-24-7::before { content: "\E068"; }
+.fr-boston-1889-p258-word-25-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-25-1::before { content: "\E069"; }
+.fr-boston-1889-p258-word-25-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-25-2::before { content: "\E06A"; }
+.fr-boston-1889-p258-word-25-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-25-3::before { content: "\E06B"; }
+.fr-boston-1889-p258-word-25-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-25-4::before { content: "\E06C"; }
+.fr-boston-1889-p258-word-25-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-25-5::before { content: "\E06D"; }
+.fr-boston-1889-p258-word-25-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-25-6::before { content: "\E06E"; }
+.fr-boston-1889-p258-word-25-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-25-7::before { content: "\E06F"; }
+.fr-boston-1889-p258-word-26-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-26-1::before { content: "\E070"; }
+.fr-boston-1889-p258-word-26-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-26-2::before { content: "\E071"; }
+.fr-boston-1889-p258-word-27-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-27-1::before { content: "\E072"; }
+.fr-boston-1889-p258-word-27-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-27-2::before { content: "\E073"; }
+.fr-boston-1889-p258-word-28-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-28-1::before { content: "\E074"; }
+.fr-boston-1889-p258-word-28-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-28-2::before { content: "\E075"; }
+.fr-boston-1889-p258-word-29-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-29-1::before { content: "\E076"; }
+.fr-boston-1889-p258-word-29-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-29-2::before { content: "\E077"; }
+.fr-boston-1889-p258-word-30-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-30-1::before { content: "\E078"; }
+.fr-boston-1889-p258-word-30-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-word-30-2::before { content: "\E079"; }
+.fr-boston-1889-p260-e-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-1::before { content: "\E07A"; }
+.fr-boston-1889-p260-e-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-2::before { content: "\E07B"; }
+.fr-boston-1889-p260-e-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-3::before { content: "\E07C"; }
+.fr-boston-1889-p260-e-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-4::before { content: "\E07D"; }
+.fr-boston-1889-p260-e-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-5::before { content: "\E07E"; }
+.fr-boston-1889-p260-e-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-6::before { content: "\E07F"; }
+.fr-boston-1889-p260-e-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-7::before { content: "\E080"; }
+.fr-boston-1889-p260-e-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-8::before { content: "\E081"; }
+.fr-boston-1889-p260-e-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-9::before { content: "\E082"; }
+.fr-boston-1889-p260-e-10 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-10::before { content: "\E083"; }
+.fr-boston-1889-p260-e-11 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-11::before { content: "\E084"; }
+.fr-boston-1889-p260-e-12 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-12::before { content: "\E085"; }
+.fr-boston-1889-p260-e-13 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-13::before { content: "\E086"; }
+.fr-boston-1889-p260-e-14 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-14::before { content: "\E087"; }
+.fr-boston-1889-p260-e-15 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-15::before { content: "\E088"; }
+.fr-boston-1889-p260-e-16 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-16::before { content: "\E089"; }
+.fr-boston-1889-p260-e-17 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-17::before { content: "\E08A"; }
+.fr-boston-1889-p260-e-18 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-18::before { content: "\E08B"; }
+.fr-boston-1889-p260-e-19 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-19::before { content: "\E08C"; }
+.fr-boston-1889-p260-e-20 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-20::before { content: "\E08D"; }
+.fr-boston-1889-p260-e-21 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-21::before { content: "\E08E"; }
+.fr-boston-1889-p260-e-75 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-75::before { content: "\E08F"; }
+.fr-boston-1889-p260-e-25 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-25::before { content: "\E090"; }
+.fr-boston-1889-p260-e-26 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-26::before { content: "\E091"; }
+.fr-boston-1889-p260-e-27 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-27::before { content: "\E092"; }
+.fr-boston-1889-p260-e-28 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-28::before { content: "\E093"; }
+.fr-boston-1889-p260-e-22 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-22::before { content: "\E094"; }
+.fr-boston-1889-p260-e-23 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-23::before { content: "\E095"; }
+.fr-boston-1889-p260-e-24 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-24::before { content: "\E096"; }
+.fr-boston-1889-p260-e-30 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-30::before { content: "\E097"; }
+.fr-boston-1889-p260-e-31 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-31::before { content: "\E098"; }
+.fr-boston-1889-p260-e-32 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-32::before { content: "\E099"; }
+.fr-boston-1889-p260-e-33 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-33::before { content: "\E09A"; }
+.fr-boston-1889-p260-e-34 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-34::before { content: "\E09B"; }
+.fr-boston-1889-p260-e-35 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-35::before { content: "\E09C"; }
+.fr-boston-1889-p260-e-36 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-36::before { content: "\E09D"; }
+.fr-boston-1889-p260-e-37 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-37::before { content: "\E09E"; }
+.fr-boston-1889-p260-e-38 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-38::before { content: "\E09F"; }
+.fr-boston-1889-p260-e-39 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-39::before { content: "\E0A0"; }
+.fr-boston-1889-p260-e-40 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-40::before { content: "\E0A1"; }
+.fr-boston-1889-p260-e-41 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p260-e-41::before { content: "\E0A2"; }
+.fr-boston-1889-p261-k-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-5::before { content: "\E0A3"; }
+.fr-boston-1889-p261-k-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-9::before { content: "\E0A4"; }
+.fr-boston-1889-p261-k-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-2::before { content: "\E0A5"; }
+.fr-boston-1889-p261-k-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-1::before { content: "\E0A6"; }
+.fr-boston-1889-p261-k-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-3::before { content: "\E0A7"; }
+.fr-boston-1889-p261-k-10 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-10::before { content: "\E0A8"; }
+.fr-boston-1889-p261-k-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-6::before { content: "\E0A9"; }
+.fr-boston-1889-p261-k-11 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-11::before { content: "\E0AA"; }
+.fr-boston-1889-p261-k-13 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-13::before { content: "\E0AB"; }
+.fr-boston-1889-p261-k-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-7::before { content: "\E0AC"; }
+.fr-boston-1889-p261-k-15 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-15::before { content: "\E0AD"; }
+.fr-boston-1889-p261-k-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-8::before { content: "\E0AE"; }
+.fr-boston-1889-p261-k-14 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-14::before { content: "\E0AF"; }
+.fr-boston-1889-p261-k-12 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-12::before { content: "\E0B0"; }
+.fr-boston-1889-p261-k-16 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-16::before { content: "\E0B1"; }
+.fr-boston-1889-p261-k-27 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-27::before { content: "\E0B2"; }
+.fr-boston-1889-p261-k-18 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-18::before { content: "\E0B3"; }
+.fr-boston-1889-p261-k-28 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-28::before { content: "\E0B4"; }
+.fr-boston-1889-p261-k-17 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-17::before { content: "\E0B5"; }
+.fr-boston-1889-p261-k-33 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-33::before { content: "\E0B6"; }
+.fr-boston-1889-p261-k-34 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-34::before { content: "\E0B7"; }
+.fr-boston-1889-p261-k-29 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-29::before { content: "\E0B8"; }
+.fr-boston-1889-p261-k-30 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-30::before { content: "\E0B9"; }
+.fr-boston-1889-p261-k-19 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-19::before { content: "\E0BA"; }
+.fr-boston-1889-p261-k-31-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-31-left::before { content: "\E0BB"; }
+.fr-boston-1889-p261-k-20 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-20::before { content: "\E0BC"; }
+.fr-boston-1889-p261-k-21 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-21::before { content: "\E0BD"; }
+.fr-boston-1889-p261-k-23 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-23::before { content: "\E0BE"; }
+.fr-boston-1889-p261-k-32 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-32::before { content: "\E0BF"; }
+.fr-boston-1889-p261-k-24 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-24::before { content: "\E0C0"; }
+.fr-boston-1889-p261-k-22 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-22::before { content: "\E0C1"; }
+.fr-boston-1889-p261-k-25 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-25::before { content: "\E0C2"; }
+.fr-boston-1889-p261-k-35 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-35::before { content: "\E0C3"; }
+.fr-boston-1889-p261-k-36 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-36::before { content: "\E0C4"; }
+.fr-boston-1889-p261-k-26 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-26::before { content: "\E0C5"; }
+.fr-boston-1889-p262-l-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-5::before { content: "\E0C6"; }
+.fr-boston-1889-p262-l-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-1::before { content: "\E0C7"; }
+.fr-boston-1889-p262-l-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-2::before { content: "\E0C8"; }
+.fr-boston-1889-p262-l-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-3::before { content: "\E0C9"; }
+.fr-boston-1889-p262-l-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-4::before { content: "\E0CA"; }
+.fr-boston-1889-p262-l-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-7::before { content: "\E0CB"; }
+.fr-boston-1889-p262-l-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-9::before { content: "\E0CC"; }
+.fr-boston-1889-p262-l-10 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-10::before { content: "\E0CD"; }
+.fr-boston-1889-p262-l-11 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-11::before { content: "\E0CE"; }
+.fr-boston-1889-p262-l-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-6::before { content: "\E0CF"; }
+.fr-boston-1889-p262-l-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-8::before { content: "\E0D0"; }
+.fr-boston-1889-p262-l-12 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-12::before { content: "\E0D1"; }
+.fr-boston-1889-p262-l-15 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-15::before { content: "\E0D2"; }
+.fr-boston-1889-p262-l-14 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-14::before { content: "\E0D3"; }
+.fr-boston-1889-p262-l-17 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-17::before { content: "\E0D4"; }
+.fr-boston-1889-p262-l-16 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-16::before { content: "\E0D5"; }
+.fr-boston-1889-p262-l-13 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-13::before { content: "\E0D6"; }
+.fr-boston-1889-p262-l-19 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-19::before { content: "\E0D7"; }
+.fr-boston-1889-p262-l-20 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-20::before { content: "\E0D8"; }
+.fr-boston-1889-p262-l-21 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-21::before { content: "\E0D9"; }
+.fr-boston-1889-p262-l-22 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-22::before { content: "\E0DA"; }
+.fr-boston-1889-p262-l-23 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-23::before { content: "\E0DB"; }
+.fr-boston-1889-p262-l-18 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-18::before { content: "\E0DC"; }
+.fr-boston-1889-p262-l-27 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-27::before { content: "\E0DD"; }
+.fr-boston-1889-p262-l-26 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-26::before { content: "\E0DE"; }
+.fr-boston-1889-p262-l-24 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-24::before { content: "\E0DF"; }
+.fr-boston-1889-p262-l-25 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-25::before { content: "\E0E0"; }
+.fr-boston-1889-p262-l-28 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p262-l-28::before { content: "\E0E1"; }
+.fr-boston-1889-p263-floriated-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-1::before { content: "\E0E2"; }
+.fr-boston-1889-p263-floriated-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-2::before { content: "\E0E3"; }
+.fr-boston-1889-p263-floriated-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-3::before { content: "\E0E4"; }
+.fr-boston-1889-p263-floriated-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-4::before { content: "\E0E5"; }
+.fr-boston-1889-p263-floriated-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-5::before { content: "\E0E6"; }
+.fr-boston-1889-p263-floriated-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-6::before { content: "\E0E7"; }
+.fr-boston-1889-p263-floriated-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-7::before { content: "\E0E8"; }
+.fr-boston-1889-p263-floriated-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-8::before { content: "\E0E9"; }
+.fr-boston-1889-p263-floriated-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-9::before { content: "\E0EA"; }
+.fr-boston-1889-p263-floriated-10 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-10::before { content: "\E0EB"; }
+.fr-boston-1889-p263-floriated-11 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-11::before { content: "\E0EC"; }
+.fr-boston-1889-p263-floriated-12 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-12::before { content: "\E0ED"; }
+.fr-boston-1889-p263-floriated-13 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-13::before { content: "\E0EE"; }
+.fr-boston-1889-p263-floriated-14 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-14::before { content: "\E0EF"; }
+.fr-boston-1889-p263-floriated-15 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-15::before { content: "\E0F0"; }
+.fr-boston-1889-p263-floriated-16 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-16::before { content: "\E0F1"; }
+.fr-boston-1889-p263-floriated-17 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-17::before { content: "\E0F2"; }
+.fr-boston-1889-p263-floriated-18 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-18::before { content: "\E0F3"; }
+.fr-boston-1889-p263-floriated-19 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-19::before { content: "\E0F4"; }
+.fr-boston-1889-p263-floriated-20 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-20::before { content: "\E0F5"; }
+.fr-boston-1889-p263-floriated-21 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-21::before { content: "\E0F6"; }
+.fr-boston-1889-p263-floriated-22 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-22::before { content: "\E0F7"; }
+.fr-boston-1889-p263-floriated-23 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-23::before { content: "\E0F8"; }
+.fr-boston-1889-p263-floriated-24 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-24::before { content: "\E0F9"; }
+.fr-boston-1889-p263-floriated-25 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-25::before { content: "\E0FA"; }
+.fr-boston-1889-p263-floriated-26 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-26::before { content: "\E0FB"; }
+.fr-boston-1889-p263-floriated-27 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-27::before { content: "\E0FC"; }
+.fr-boston-1889-p263-floriated-28 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-28::before { content: "\E0FD"; }
+.fr-boston-1889-p263-floriated-29 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p263-floriated-29::before { content: "\E0FE"; }
+.fr-boston-1889-p259-a18-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a18-9::before { content: "\E0FF"; }
+.fr-boston-1889-p259-a18-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a18-7::before { content: "\E100"; }
+.fr-boston-1889-p259-a18-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a18-6::before { content: "\E101"; }
+.fr-boston-1889-p259-a18-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a18-1::before { content: "\E102"; }
+.fr-boston-1889-p259-a18-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a18-3::before { content: "\E103"; }
+.fr-boston-1889-p259-a18-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a18-5::before { content: "\E104"; }
+.fr-boston-1889-p259-a18-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a18-8::before { content: "\E105"; }
+.fr-boston-1889-p259-a18-10 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a18-10::before { content: "\E106"; }
+.fr-boston-1889-p259-a24-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a24-9::before { content: "\E107"; }
+.fr-boston-1889-p259-a24-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a24-7::before { content: "\E108"; }
+.fr-boston-1889-p259-a24-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a24-6::before { content: "\E109"; }
+.fr-boston-1889-p259-a24-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a24-1::before { content: "\E10A"; }
+.fr-boston-1889-p259-a24-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a24-3::before { content: "\E10B"; }
+.fr-boston-1889-p259-a24-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a24-5::before { content: "\E10C"; }
+.fr-boston-1889-p259-a24-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a24-8::before { content: "\E10D"; }
+.fr-boston-1889-p259-a24-10 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a24-10::before { content: "\E10E"; }
+.fr-boston-1889-p259-a36-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a36-6::before { content: "\E10F"; }
+.fr-boston-1889-p259-a36-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a36-5::before { content: "\E110"; }
+.fr-boston-1889-p259-a36-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a36-9::before { content: "\E111"; }
+.fr-boston-1889-p259-a36-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a36-7::before { content: "\E112"; }
+.fr-boston-1889-p259-a36-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a36-1::before { content: "\E113"; }
+.fr-boston-1889-p259-a36-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a36-3::before { content: "\E114"; }
+.fr-boston-1889-p259-a36-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a36-8::before { content: "\E115"; }
+.fr-boston-1889-p259-a36-10 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a36-10::before { content: "\E116"; }
+.fr-boston-1889-p259-a48-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a48-6::before { content: "\E117"; }
+.fr-boston-1889-p259-a48-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a48-9::before { content: "\E118"; }
+.fr-boston-1889-p259-a48-10 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a48-10::before { content: "\E119"; }
+.fr-boston-1889-p259-a48-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a48-5::before { content: "\E11A"; }
+.fr-boston-1889-p259-a48-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a48-7::before { content: "\E11B"; }
+.fr-boston-1889-p259-a48-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a48-3::before { content: "\E11C"; }
+.fr-boston-1889-p259-a48-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a48-1::before { content: "\E11D"; }
+.fr-boston-1889-p259-a48-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-a48-8::before { content: "\E11E"; }
+.fr-boston-1889-p259-b36-1-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b36-1-left::before { content: "\E11F"; }
+.fr-boston-1889-p259-b36-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b36-2::before { content: "\E120"; }
+.fr-boston-1889-p259-b36-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b36-4::before { content: "\E121"; }
+.fr-boston-1889-p259-b36-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b36-3::before { content: "\E122"; }
+.fr-boston-1889-p259-b36-1-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b36-1-right::before { content: "\E123"; }
+.fr-boston-1889-p259-b24-1-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b24-1-left::before { content: "\E124"; }
+.fr-boston-1889-p259-b24-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b24-2::before { content: "\E125"; }
+.fr-boston-1889-p259-b24-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b24-4::before { content: "\E126"; }
+.fr-boston-1889-p259-b24-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b24-3::before { content: "\E127"; }
+.fr-boston-1889-p259-b24-1-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b24-1-right::before { content: "\E128"; }
+.fr-boston-1889-p259-b18-1-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b18-1-left::before { content: "\E129"; }
+.fr-boston-1889-p259-b18-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b18-2::before { content: "\E12A"; }
+.fr-boston-1889-p259-b18-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b18-4::before { content: "\E12B"; }
+.fr-boston-1889-p259-b18-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b18-3::before { content: "\E12C"; }
+.fr-boston-1889-p259-b18-1-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b18-1-right::before { content: "\E12D"; }
+.fr-boston-1889-p259-b48-1-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b48-1-left::before { content: "\E12E"; }
+.fr-boston-1889-p259-b48-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b48-2::before { content: "\E12F"; }
+.fr-boston-1889-p259-b48-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b48-4::before { content: "\E130"; }
+.fr-boston-1889-p259-b48-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b48-3::before { content: "\E131"; }
+.fr-boston-1889-p259-b48-1-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b48-1-right::before { content: "\E132"; }
+.fr-boston-1889-p259-b72-1-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b72-1-left::before { content: "\E133"; }
+.fr-boston-1889-p259-b72-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b72-2::before { content: "\E134"; }
+.fr-boston-1889-p259-b72-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b72-4::before { content: "\E135"; }
+.fr-boston-1889-p259-b72-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b72-3::before { content: "\E136"; }
+.fr-boston-1889-p259-b72-1-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-b72-1-right::before { content: "\E137"; }
+.fr-boston-1889-p259-c12-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c12-1::before { content: "\E138"; }
+.fr-boston-1889-p259-c12-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c12-2::before { content: "\E139"; }
+.fr-boston-1889-p259-c12-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c12-3::before { content: "\E13A"; }
+.fr-boston-1889-p259-c12-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c12-4::before { content: "\E13B"; }
+.fr-boston-1889-p259-c18-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c18-1::before { content: "\E13C"; }
+.fr-boston-1889-p259-c18-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c18-2::before { content: "\E13D"; }
+.fr-boston-1889-p259-c18-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c18-3::before { content: "\E13E"; }
+.fr-boston-1889-p259-c18-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c18-4::before { content: "\E13F"; }
+.fr-boston-1889-p259-c36-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c36-1::before { content: "\E140"; }
+.fr-boston-1889-p259-c36-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c36-2::before { content: "\E141"; }
+.fr-boston-1889-p259-c36-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c36-3::before { content: "\E142"; }
+.fr-boston-1889-p259-c36-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c36-4::before { content: "\E143"; }
+.fr-boston-1889-p259-c24-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c24-1::before { content: "\E144"; }
+.fr-boston-1889-p259-c24-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c24-2::before { content: "\E145"; }
+.fr-boston-1889-p259-c24-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c24-3::before { content: "\E146"; }
+.fr-boston-1889-p259-c24-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-c24-4::before { content: "\E147"; }
+.fr-boston-1889-p259-d12-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d12-1::before { content: "\E148"; }
+.fr-boston-1889-p259-d12-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d12-2::before { content: "\E149"; }
+.fr-boston-1889-p259-d12-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d12-3::before { content: "\E14A"; }
+.fr-boston-1889-p259-d12-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d12-4::before { content: "\E14B"; }
+.fr-boston-1889-p259-d12-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d12-5::before { content: "\E14C"; }
+.fr-boston-1889-p259-d18-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d18-1::before { content: "\E14D"; }
+.fr-boston-1889-p259-d18-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d18-2::before { content: "\E14E"; }
+.fr-boston-1889-p259-d18-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d18-3::before { content: "\E14F"; }
+.fr-boston-1889-p259-d18-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d18-4::before { content: "\E150"; }
+.fr-boston-1889-p259-d18-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d18-5::before { content: "\E151"; }
+.fr-boston-1889-p259-d24-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d24-1::before { content: "\E152"; }
+.fr-boston-1889-p259-d24-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d24-2::before { content: "\E153"; }
+.fr-boston-1889-p259-d24-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d24-3::before { content: "\E154"; }
+.fr-boston-1889-p259-d24-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d24-4::before { content: "\E155"; }
+.fr-boston-1889-p259-d24-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d24-5::before { content: "\E156"; }
+.fr-boston-1889-p259-d36-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d36-1::before { content: "\E157"; }
+.fr-boston-1889-p259-d36-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d36-2::before { content: "\E158"; }
+.fr-boston-1889-p259-d36-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d36-3::before { content: "\E159"; }
+.fr-boston-1889-p259-d36-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d36-4::before { content: "\E15A"; }
+.fr-boston-1889-p259-d36-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d36-5::before { content: "\E15B"; }
+.fr-boston-1889-p259-d48-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d48-1::before { content: "\E15C"; }
+.fr-boston-1889-p259-d48-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d48-2::before { content: "\E15D"; }
+.fr-boston-1889-p259-d48-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d48-3::before { content: "\E15E"; }
+.fr-boston-1889-p259-d48-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d48-4::before { content: "\E15F"; }
+.fr-boston-1889-p259-d48-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-d48-5::before { content: "\E160"; }
+.fr-boston-1889-p259-f-7-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-7-left::before { content: "\E161"; }
+.fr-boston-1889-p259-f-5-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-5-left::before { content: "\E162"; }
+.fr-boston-1889-p259-f-5-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-5-right::before { content: "\E163"; }
+.fr-boston-1889-p259-f-7-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-7-right::before { content: "\E164"; }
+.fr-boston-1889-p259-f-6-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-6-left::before { content: "\E165"; }
+.fr-boston-1889-p259-f-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-1::before { content: "\E166"; }
+.fr-boston-1889-p259-f-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-2::before { content: "\E167"; }
+.fr-boston-1889-p259-f-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-3::before { content: "\E168"; }
+.fr-boston-1889-p259-f-4-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-4-left::before { content: "\E169"; }
+.fr-boston-1889-p259-f-4-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-4-right::before { content: "\E16A"; }
+.fr-boston-1889-p259-f-6-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-6-right::before { content: "\E16B"; }
+.fr-boston-1889-p259-f-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-8::before { content: "\E16C"; }
+.fr-boston-1889-p259-f-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-f-9::before { content: "\E16D"; }
+.fr-boston-1889-p259-g36-1-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-g36-1-left::before { content: "\E16E"; }
+.fr-boston-1889-p259-g36-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-g36-2::before { content: "\E16F"; }
+.fr-boston-1889-p259-g36-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-g36-3::before { content: "\E170"; }
+.fr-boston-1889-p259-g36-1-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-g36-1-right::before { content: "\E171"; }
+.fr-boston-1889-p259-g24-1-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-g24-1-left::before { content: "\E172"; }
+.fr-boston-1889-p259-g24-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-g24-2::before { content: "\E173"; }
+.fr-boston-1889-p259-g24-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-g24-3::before { content: "\E174"; }
+.fr-boston-1889-p259-g24-1-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-g24-1-right::before { content: "\E175"; }
+.fr-boston-1889-p259-i12-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-i12-1::before { content: "\E176"; }
+.fr-boston-1889-p259-i12-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-i12-2::before { content: "\E177"; }
+.fr-boston-1889-p259-i12-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-i12-4::before { content: "\E178"; }
+.fr-boston-1889-p259-h12-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h12-1::before { content: "\E179"; }
+.fr-boston-1889-p259-h12-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h12-2::before { content: "\E17A"; }
+.fr-boston-1889-p259-h12-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h12-3::before { content: "\E17B"; }
+.fr-boston-1889-p259-h10-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h10-1::before { content: "\E17C"; }
+.fr-boston-1889-p259-h10-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h10-2::before { content: "\E17D"; }
+.fr-boston-1889-p259-h10-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h10-3::before { content: "\E17E"; }
+.fr-boston-1889-p259-h8-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h8-1::before { content: "\E17F"; }
+.fr-boston-1889-p259-h8-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h8-2::before { content: "\E180"; }
+.fr-boston-1889-p259-h8-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h8-3::before { content: "\E181"; }
+.fr-boston-1889-p259-h18-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h18-1::before { content: "\E182"; }
+.fr-boston-1889-p259-h18-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h18-2::before { content: "\E183"; }
+.fr-boston-1889-p259-h18-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p259-h18-3::before { content: "\E184"; }
+.fr-boston-1889-p261-k-31-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p261-k-31-right::before { content: "\E185"; }
+.fr-boston-1889-p269-corner-111-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-111-left::before { content: "\E186"; }
+.fr-boston-1889-p269-corner-111-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-111-right::before { content: "\E187"; }
+.fr-boston-1889-p269-corner-82-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-82-left::before { content: "\E188"; }
+.fr-boston-1889-p269-corner-82-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-82-right::before { content: "\E189"; }
+.fr-boston-1889-p269-corner-151-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-151-left::before { content: "\E18A"; }
+.fr-boston-1889-p269-corner-151-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-151-right::before { content: "\E18B"; }
+.fr-boston-1889-p269-corner-99-large-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-99-large-left::before { content: "\E18C"; }
+.fr-boston-1889-p269-corner-99-large-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-99-large-right::before { content: "\E18D"; }
+.fr-boston-1889-p269-corner-112-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-112-left::before { content: "\E18E"; }
+.fr-boston-1889-p269-corner-112-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-112-right::before { content: "\E18F"; }
+.fr-boston-1889-p269-corner-87-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-87-left::before { content: "\E190"; }
+.fr-boston-1889-p269-corner-87-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-87-right::before { content: "\E191"; }
+.fr-boston-1889-p269-corner-123-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-123-left::before { content: "\E192"; }
+.fr-boston-1889-p269-corner-123-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-123-right::before { content: "\E193"; }
+.fr-boston-1889-p269-corner-26-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-26-left::before { content: "\E194"; }
+.fr-boston-1889-p269-corner-26-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-26-right::before { content: "\E195"; }
+.fr-boston-1889-p269-corner-88-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-88-left::before { content: "\E196"; }
+.fr-boston-1889-p269-corner-88-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-88-right::before { content: "\E197"; }
+.fr-boston-1889-p269-corner-90-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-90-left::before { content: "\E198"; }
+.fr-boston-1889-p269-corner-90-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-90-right::before { content: "\E199"; }
+.fr-boston-1889-p269-corner-122-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-122-left::before { content: "\E19A"; }
+.fr-boston-1889-p269-corner-122-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-122-right::before { content: "\E19B"; }
+.fr-boston-1889-p269-corner-150-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-150-left::before { content: "\E19C"; }
+.fr-boston-1889-p269-corner-150-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-150-right::before { content: "\E19D"; }
+.fr-boston-1889-p269-corner-154-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-154-left::before { content: "\E19E"; }
+.fr-boston-1889-p269-corner-154-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-154-right::before { content: "\E19F"; }
+.fr-boston-1889-p269-corner-153-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-153-left::before { content: "\E1A0"; }
+.fr-boston-1889-p269-corner-153-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-153-right::before { content: "\E1A1"; }
+.fr-boston-1889-p269-corner-155-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-155-left::before { content: "\E1A2"; }
+.fr-boston-1889-p269-corner-155-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-155-right::before { content: "\E1A3"; }
+.fr-boston-1889-p269-corner-78-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-78-left::before { content: "\E1A4"; }
+.fr-boston-1889-p269-corner-78-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-78-right::before { content: "\E1A5"; }
+.fr-boston-1889-p269-corner-77-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-77-left::before { content: "\E1A6"; }
+.fr-boston-1889-p269-corner-77-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-77-right::before { content: "\E1A7"; }
+.fr-boston-1889-p269-corner-28-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-28-left::before { content: "\E1A8"; }
+.fr-boston-1889-p269-corner-28-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-28-right::before { content: "\E1A9"; }
+.fr-boston-1889-p269-corner-62-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-62-left::before { content: "\E1AA"; }
+.fr-boston-1889-p269-corner-62-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-62-right::before { content: "\E1AB"; }
+.fr-boston-1889-p269-corner-106-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-106-left::before { content: "\E1AC"; }
+.fr-boston-1889-p269-corner-106-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-106-right::before { content: "\E1AD"; }
+.fr-boston-1889-p269-corner-68-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-68-left::before { content: "\E1AE"; }
+.fr-boston-1889-p269-corner-68-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-68-right::before { content: "\E1AF"; }
+.fr-boston-1889-p269-corner-98-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-98-left::before { content: "\E1B0"; }
+.fr-boston-1889-p269-corner-98-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-98-right::before { content: "\E1B1"; }
+.fr-boston-1889-p269-corner-18-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-18-left::before { content: "\E1B2"; }
+.fr-boston-1889-p269-corner-18-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-18-right::before { content: "\E1B3"; }
+.fr-boston-1889-p269-corner-100-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-100-left::before { content: "\E1B4"; }
+.fr-boston-1889-p269-corner-100-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-100-right::before { content: "\E1B5"; }
+.fr-boston-1889-p269-corner-120-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-120-left::before { content: "\E1B6"; }
+.fr-boston-1889-p269-corner-120-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-120-right::before { content: "\E1B7"; }
+.fr-boston-1889-p269-corner-33-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-33-left::before { content: "\E1B8"; }
+.fr-boston-1889-p269-corner-33-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-33-right::before { content: "\E1B9"; }
+.fr-boston-1889-p269-corner-135-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-135-left::before { content: "\E1BA"; }
+.fr-boston-1889-p269-corner-135-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-135-right::before { content: "\E1BB"; }
+.fr-boston-1889-p269-corner-96-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-96-left::before { content: "\E1BC"; }
+.fr-boston-1889-p269-corner-96-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-96-right::before { content: "\E1BD"; }
+.fr-boston-1889-p269-corner-4-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-4-left::before { content: "\E1BE"; }
+.fr-boston-1889-p269-corner-4-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-4-right::before { content: "\E1BF"; }
+.fr-boston-1889-p269-corner-99-small-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-99-small-left::before { content: "\E1C0"; }
+.fr-boston-1889-p269-corner-99-small-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-99-small-right::before { content: "\E1C1"; }
+.fr-boston-1889-p269-corner-5-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-5-left::before { content: "\E1C2"; }
+.fr-boston-1889-p269-corner-5-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-5-right::before { content: "\E1C3"; }
+.fr-boston-1889-p269-corner-45-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-45-left::before { content: "\E1C4"; }
+.fr-boston-1889-p269-corner-45-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-45-right::before { content: "\E1C5"; }
+.fr-boston-1889-p269-corner-127-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-127-left::before { content: "\E1C6"; }
+.fr-boston-1889-p269-corner-127-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-127-right::before { content: "\E1C7"; }
+.fr-boston-1889-p269-corner-131-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-131-left::before { content: "\E1C8"; }
+.fr-boston-1889-p269-corner-131-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-131-right::before { content: "\E1C9"; }
+.fr-boston-1889-p269-corner-114-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-114-left::before { content: "\E1CA"; }
+.fr-boston-1889-p269-corner-114-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-114-right::before { content: "\E1CB"; }
+.fr-boston-1889-p269-corner-156-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-156-left::before { content: "\E1CC"; }
+.fr-boston-1889-p269-corner-156-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-156-right::before { content: "\E1CD"; }
+.fr-boston-1889-p269-corner-139-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-139-left::before { content: "\E1CE"; }
+.fr-boston-1889-p269-corner-139-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-139-right::before { content: "\E1CF"; }
+.fr-boston-1889-p269-corner-129-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-129-left::before { content: "\E1D0"; }
+.fr-boston-1889-p269-corner-129-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-129-right::before { content: "\E1D1"; }
+.fr-boston-1889-p269-corner-126-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-126-left::before { content: "\E1D2"; }
+.fr-boston-1889-p269-corner-126-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-126-right::before { content: "\E1D3"; }
+.fr-boston-1889-p269-corner-80-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-80-left::before { content: "\E1D4"; }
+.fr-boston-1889-p269-corner-80-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-80-right::before { content: "\E1D5"; }
+.fr-boston-1889-p269-corner-89-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-89-left::before { content: "\E1D6"; }
+.fr-boston-1889-p269-corner-89-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-89-right::before { content: "\E1D7"; }
+.fr-boston-1889-p269-corner-25-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-25-left::before { content: "\E1D8"; }
+.fr-boston-1889-p269-corner-25-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-25-right::before { content: "\E1D9"; }
+.fr-boston-1889-p269-corner-91-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-91-left::before { content: "\E1DA"; }
+.fr-boston-1889-p269-corner-91-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-91-right::before { content: "\E1DB"; }
+.fr-boston-1889-p269-corner-144-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-144-left::before { content: "\E1DC"; }
+.fr-boston-1889-p269-corner-144-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-144-right::before { content: "\E1DD"; }
+.fr-boston-1889-p269-corner-95-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-95-left::before { content: "\E1DE"; }
+.fr-boston-1889-p269-corner-95-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-95-right::before { content: "\E1DF"; }
+.fr-boston-1889-p269-corner-47-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-47-left::before { content: "\E1E0"; }
+.fr-boston-1889-p269-corner-47-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-47-right::before { content: "\E1E1"; }
+.fr-boston-1889-p269-corner-6-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-6-left::before { content: "\E1E2"; }
+.fr-boston-1889-p269-corner-6-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-6-right::before { content: "\E1E3"; }
+.fr-boston-1889-p269-corner-1-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-1-left::before { content: "\E1E4"; }
+.fr-boston-1889-p269-corner-1-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-1-right::before { content: "\E1E5"; }
+.fr-boston-1889-p269-corner-97-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-97-left::before { content: "\E1E6"; }
+.fr-boston-1889-p269-corner-97-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-97-right::before { content: "\E1E7"; }
+.fr-boston-1889-p269-corner-134-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-134-left::before { content: "\E1E8"; }
+.fr-boston-1889-p269-corner-134-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-134-right::before { content: "\E1E9"; }
+.fr-boston-1889-p269-corner-94-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-94-left::before { content: "\E1EA"; }
+.fr-boston-1889-p269-corner-94-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-94-right::before { content: "\E1EB"; }
+.fr-boston-1889-p269-corner-43-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-43-left::before { content: "\E1EC"; }
+.fr-boston-1889-p269-corner-43-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-43-right::before { content: "\E1ED"; }
+.fr-boston-1889-p269-corner-121-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-121-left::before { content: "\E1EE"; }
+.fr-boston-1889-p269-corner-121-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-121-right::before { content: "\E1EF"; }
+.fr-boston-1889-p269-corner-50-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-50-left::before { content: "\E1F0"; }
+.fr-boston-1889-p269-corner-50-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-50-right::before { content: "\E1F1"; }
+.fr-boston-1889-p269-corner-86-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-86-left::before { content: "\E1F2"; }
+.fr-boston-1889-p269-corner-86-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-86-right::before { content: "\E1F3"; }
+.fr-boston-1889-p269-corner-107-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-107-left::before { content: "\E1F4"; }
+.fr-boston-1889-p269-corner-107-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-107-right::before { content: "\E1F5"; }
+.fr-boston-1889-p269-corner-115-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-115-left::before { content: "\E1F6"; }
+.fr-boston-1889-p269-corner-115-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-115-right::before { content: "\E1F7"; }
+.fr-boston-1889-p269-corner-119-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-119-left::before { content: "\E1F8"; }
+.fr-boston-1889-p269-corner-119-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-119-right::before { content: "\E1F9"; }
+.fr-boston-1889-p269-corner-132-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-132-left::before { content: "\E1FA"; }
+.fr-boston-1889-p269-corner-132-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-132-right::before { content: "\E1FB"; }
+.fr-boston-1889-p269-corner-118-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-118-left::before { content: "\E1FC"; }
+.fr-boston-1889-p269-corner-118-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-118-right::before { content: "\E1FD"; }
+.fr-boston-1889-p269-corner-75-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-75-left::before { content: "\E1FE"; }
+.fr-boston-1889-p269-corner-75-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-75-right::before { content: "\E1FF"; }
+.fr-boston-1889-p269-corner-12-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-12-left::before { content: "\E200"; }
+.fr-boston-1889-p269-corner-12-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-12-right::before { content: "\E201"; }
+.fr-boston-1889-p269-corner-108-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-108-left::before { content: "\E202"; }
+.fr-boston-1889-p269-corner-108-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-108-right::before { content: "\E203"; }
+.fr-boston-1889-p269-corner-109-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-109-left::before { content: "\E204"; }
+.fr-boston-1889-p269-corner-109-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-109-right::before { content: "\E205"; }
+.fr-boston-1889-p269-corner-64-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-64-left::before { content: "\E206"; }
+.fr-boston-1889-p269-corner-64-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-64-right::before { content: "\E207"; }
+.fr-boston-1889-p269-corner-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p269-corner-2::before { content: "\E208"; }
+.fr-boston-1889-p270-corner-103-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-103-left::before { content: "\E209"; }
+.fr-boston-1889-p270-corner-103-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-103-right::before { content: "\E20A"; }
+.fr-boston-1889-p270-corner-102-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-102-left::before { content: "\E20B"; }
+.fr-boston-1889-p270-corner-102-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-102-right::before { content: "\E20C"; }
+.fr-boston-1889-p270-corner-124-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-124-left::before { content: "\E20D"; }
+.fr-boston-1889-p270-corner-124-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-124-right::before { content: "\E20E"; }
+.fr-boston-1889-p270-corner-104-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-104-left::before { content: "\E20F"; }
+.fr-boston-1889-p270-corner-104-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-104-right::before { content: "\E210"; }
+.fr-boston-1889-p270-corner-110-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-110-left::before { content: "\E211"; }
+.fr-boston-1889-p270-corner-110-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-110-right::before { content: "\E212"; }
+.fr-boston-1889-p270-corner-81-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-81-left::before { content: "\E213"; }
+.fr-boston-1889-p270-corner-81-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-81-right::before { content: "\E214"; }
+.fr-boston-1889-p270-corner-128-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-128-left::before { content: "\E215"; }
+.fr-boston-1889-p270-corner-128-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-128-right::before { content: "\E216"; }
+.fr-boston-1889-p270-corner-7-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-7-left::before { content: "\E217"; }
+.fr-boston-1889-p270-corner-7-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-7-right::before { content: "\E218"; }
+.fr-boston-1889-p270-corner-3-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-3-left::before { content: "\E219"; }
+.fr-boston-1889-p270-corner-3-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-3-right::before { content: "\E21A"; }
+.fr-boston-1889-p270-corner-122-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-122-left::before { content: "\E21B"; }
+.fr-boston-1889-p270-corner-122-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-122-right::before { content: "\E21C"; }
+.fr-boston-1889-p270-corner-83-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-83-left::before { content: "\E21D"; }
+.fr-boston-1889-p270-corner-83-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-83-right::before { content: "\E21E"; }
+.fr-boston-1889-p270-corner-34-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-34-left::before { content: "\E21F"; }
+.fr-boston-1889-p270-corner-34-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-34-right::before { content: "\E220"; }
+.fr-boston-1889-p270-corner-10-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-10-left::before { content: "\E221"; }
+.fr-boston-1889-p270-corner-10-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-10-right::before { content: "\E222"; }
+.fr-boston-1889-p270-corner-157-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-157-left::before { content: "\E223"; }
+.fr-boston-1889-p270-corner-157-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-157-right::before { content: "\E224"; }
+.fr-boston-1889-p270-corner-31-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-31-left::before { content: "\E225"; }
+.fr-boston-1889-p270-corner-31-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-31-right::before { content: "\E226"; }
+.fr-boston-1889-p270-corner-8-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-8-left::before { content: "\E227"; }
+.fr-boston-1889-p270-corner-8-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-8-right::before { content: "\E228"; }
+.fr-boston-1889-p270-corner-9-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-9-left::before { content: "\E229"; }
+.fr-boston-1889-p270-corner-9-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-9-right::before { content: "\E22A"; }
+.fr-boston-1889-p270-corner-41-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-41-left::before { content: "\E22B"; }
+.fr-boston-1889-p270-corner-41-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-41-right::before { content: "\E22C"; }
+.fr-boston-1889-p270-corner-44-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-44-left::before { content: "\E22D"; }
+.fr-boston-1889-p270-corner-44-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-44-right::before { content: "\E22E"; }
+.fr-boston-1889-p270-corner-159-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-159-left::before { content: "\E22F"; }
+.fr-boston-1889-p270-corner-159-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-159-right::before { content: "\E230"; }
+.fr-boston-1889-p270-corner-35-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-35-left::before { content: "\E231"; }
+.fr-boston-1889-p270-corner-35-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-35-right::before { content: "\E232"; }
+.fr-boston-1889-p270-corner-133-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-133-left::before { content: "\E233"; }
+.fr-boston-1889-p270-corner-133-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-133-right::before { content: "\E234"; }
+.fr-boston-1889-p270-corner-113-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-113-left::before { content: "\E235"; }
+.fr-boston-1889-p270-corner-113-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-113-right::before { content: "\E236"; }
+.fr-boston-1889-p270-corner-87-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-87-left::before { content: "\E237"; }
+.fr-boston-1889-p270-corner-87-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-87-right::before { content: "\E238"; }
+.fr-boston-1889-p270-corner-148-left { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-148-left::before { content: "\E239"; }
+.fr-boston-1889-p270-corner-148-right { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-corner-148-right::before { content: "\E23A"; }
+.fr-boston-1889-p270-scroll-195 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-scroll-195::before { content: "\E23B"; }
+.fr-boston-1889-p270-scroll-196 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-scroll-196::before { content: "\E23C"; }
+.fr-boston-1889-p270-scroll-197 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-scroll-197::before { content: "\E23D"; }
+.fr-boston-1889-p270-scroll-198 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-scroll-198::before { content: "\E23E"; }
+.fr-boston-1889-p270-head-23 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-23::before { content: "\E23F"; }
+.fr-boston-1889-p270-head-24 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-24::before { content: "\E240"; }
+.fr-boston-1889-p270-head-25 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-25::before { content: "\E241"; }
+.fr-boston-1889-p270-head-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-3::before { content: "\E242"; }
+.fr-boston-1889-p270-head-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-5::before { content: "\E243"; }
+.fr-boston-1889-p270-head-11 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-11::before { content: "\E244"; }
+.fr-boston-1889-p270-head-12 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-12::before { content: "\E245"; }
+.fr-boston-1889-p270-head-16 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-16::before { content: "\E246"; }
+.fr-boston-1889-p270-head-18 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-18::before { content: "\E247"; }
+.fr-boston-1889-p270-head-19 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-19::before { content: "\E248"; }
+.fr-boston-1889-p270-head-15 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-15::before { content: "\E249"; }
+.fr-boston-1889-p270-head-13 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-13::before { content: "\E24A"; }
+.fr-boston-1889-p270-head-10 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-10::before { content: "\E24B"; }
+.fr-boston-1889-p270-head-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-6::before { content: "\E24C"; }
+.fr-boston-1889-p270-head-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-9::before { content: "\E24D"; }
+.fr-boston-1889-p270-head-20 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-20::before { content: "\E24E"; }
+.fr-boston-1889-p270-head-21 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-21::before { content: "\E24F"; }
+.fr-boston-1889-p270-head-22 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-22::before { content: "\E250"; }
+.fr-boston-1889-p270-head-second-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-second-1::before { content: "\E251"; }
+.fr-boston-1889-p270-head-second-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-second-4::before { content: "\E252"; }
+.fr-boston-1889-p270-head-second-14 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-second-14::before { content: "\E253"; }
+.fr-boston-1889-p270-head-second-17 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-second-17::before { content: "\E254"; }
+.fr-boston-1889-p270-head-second-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-second-7::before { content: "\E255"; }
+.fr-boston-1889-p270-head-second-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-second-9::before { content: "\E256"; }
+.fr-boston-1889-p270-head-second-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-head-second-8::before { content: "\E257"; }
+.fr-boston-1889-p270-dash-72 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-dash-72::before { content: "\E258"; }
+.fr-boston-1889-p270-dash-73 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-dash-73::before { content: "\E259"; }
+.fr-boston-1889-p270-dash-62 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-dash-62::before { content: "\E25A"; }
+.fr-boston-1889-p270-dash-76 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-dash-76::before { content: "\E25B"; }
+.fr-boston-1889-p270-dash-71 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-dash-71::before { content: "\E25C"; }
+.fr-boston-1889-p270-dash-75 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-dash-75::before { content: "\E25D"; }
+.fr-boston-1889-p270-dash-65 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-dash-65::before { content: "\E25E"; }
+.fr-boston-1889-p270-dash-56 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-dash-56::before { content: "\E25F"; }
+.fr-boston-1889-p270-dash-58 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-dash-58::before { content: "\E260"; }
+.fr-boston-1889-p270-dash-80 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-dash-80::before { content: "\E261"; }
+.fr-boston-1889-p270-dash-63 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p270-dash-63::before { content: "\E262"; }
+.fr-boston-1889-p264-border-5-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-5-frame::before { content: "\E263"; }
+.fr-boston-1889-p264-border-6-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-6-frame::before { content: "\E264"; }
+.fr-boston-1889-p264-border-7-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-7-frame::before { content: "\E265"; }
+.fr-boston-1889-p264-border-8-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-8-frame::before { content: "\E266"; }
+.fr-boston-1889-p264-border-9-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-9-frame::before { content: "\E267"; }
+.fr-boston-1889-p264-border-10-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-10-frame::before { content: "\E268"; }
+.fr-boston-1889-p264-border-11-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-11-frame::before { content: "\E269"; }
+.fr-boston-1889-p264-border-12-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-12-frame::before { content: "\E26A"; }
+.fr-boston-1889-p264-border-13-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-13-frame::before { content: "\E26B"; }
+.fr-boston-1889-p264-border-14-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-14-frame::before { content: "\E26C"; }
+.fr-boston-1889-p264-border-15-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-15-frame::before { content: "\E26D"; }
+.fr-boston-1889-p264-border-16-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-16-frame::before { content: "\E26E"; }
+.fr-boston-1889-p265-border-33-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-33-frame::before { content: "\E26F"; }
+.fr-boston-1889-p265-border-35-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-35-frame::before { content: "\E270"; }
+.fr-boston-1889-p265-border-34-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-34-frame::before { content: "\E271"; }
+.fr-boston-1889-p265-border-38-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-38-frame::before { content: "\E272"; }
+.fr-boston-1889-p265-border-39-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-39-frame::before { content: "\E273"; }
+.fr-boston-1889-p265-border-40-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-40-frame::before { content: "\E274"; }
+.fr-boston-1889-p265-border-41-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-41-frame::before { content: "\E275"; }
+.fr-boston-1889-p265-border-46-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-46-frame::before { content: "\E276"; }
+.fr-boston-1889-p265-border-47-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-47-frame::before { content: "\E277"; }
+.fr-boston-1889-p265-border-48-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-48-frame::before { content: "\E278"; }
+.fr-boston-1889-p265-border-49-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-49-frame::before { content: "\E279"; }
+.fr-boston-1889-p265-border-53-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-53-frame::before { content: "\E27A"; }
+.fr-boston-1889-p265-border-54-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-54-frame::before { content: "\E27B"; }
+.fr-boston-1889-p265-border-55-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p265-border-55-frame::before { content: "\E27C"; }
+.fr-boston-1889-p266-border-13-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-13-frame::before { content: "\E27D"; }
+.fr-boston-1889-p266-border-15-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-15-frame::before { content: "\E27E"; }
+.fr-boston-1889-p266-border-16-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-16-frame::before { content: "\E27F"; }
+.fr-boston-1889-p266-border-17-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-17-frame::before { content: "\E280"; }
+.fr-boston-1889-p266-border-21-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-21-frame::before { content: "\E281"; }
+.fr-boston-1889-p266-border-22-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-22-frame::before { content: "\E282"; }
+.fr-boston-1889-p266-border-24-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-24-frame::before { content: "\E283"; }
+.fr-boston-1889-p266-border-25-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-25-frame::before { content: "\E284"; }
+.fr-boston-1889-p266-border-26-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-26-frame::before { content: "\E285"; }
+.fr-boston-1889-p266-border-27-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-27-frame::before { content: "\E286"; }
+.fr-boston-1889-p266-border-28-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-28-frame::before { content: "\E287"; }
+.fr-boston-1889-p266-border-29-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-29-frame::before { content: "\E288"; }
+.fr-boston-1889-p266-border-30-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-30-frame::before { content: "\E289"; }
+.fr-boston-1889-p266-border-31-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-31-frame::before { content: "\E28A"; }
+.fr-boston-1889-p266-border-32-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-32-frame::before { content: "\E28B"; }
+.fr-boston-1889-p266-border-34-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-34-frame::before { content: "\E28C"; }
+.fr-boston-1889-p266-border-35-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-35-frame::before { content: "\E28D"; }
+.fr-boston-1889-p266-border-36-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-36-frame::before { content: "\E28E"; }
+.fr-boston-1889-p266-border-37-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-37-frame::before { content: "\E28F"; }
+.fr-boston-1889-p266-border-38-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p266-border-38-frame::before { content: "\E290"; }
+.fr-boston-1889-p267-border-39-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-39-frame::before { content: "\E291"; }
+.fr-boston-1889-p267-border-40-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-40-frame::before { content: "\E292"; }
+.fr-boston-1889-p267-border-41-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-41-frame::before { content: "\E293"; }
+.fr-boston-1889-p267-border-42-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-42-frame::before { content: "\E294"; }
+.fr-boston-1889-p267-border-43-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-43-frame::before { content: "\E295"; }
+.fr-boston-1889-p267-border-44-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-44-frame::before { content: "\E296"; }
+.fr-boston-1889-p267-border-46-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-46-frame::before { content: "\E297"; }
+.fr-boston-1889-p267-border-48-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-48-frame::before { content: "\E298"; }
+.fr-boston-1889-p267-border-49-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-49-frame::before { content: "\E299"; }
+.fr-boston-1889-p267-border-50-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-50-frame::before { content: "\E29A"; }
+.fr-boston-1889-p267-border-55-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-55-frame::before { content: "\E29B"; }
+.fr-boston-1889-p267-border-56-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-56-frame::before { content: "\E29C"; }
+.fr-boston-1889-p267-border-57-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-57-frame::before { content: "\E29D"; }
+.fr-boston-1889-p267-border-58-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-58-frame::before { content: "\E29E"; }
+.fr-boston-1889-p267-border-70-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-70-frame::before { content: "\E29F"; }
+.fr-boston-1889-p267-border-71-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-71-frame::before { content: "\E2A0"; }
+.fr-boston-1889-p267-border-72-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-72-frame::before { content: "\E2A1"; }
+.fr-boston-1889-p267-border-73-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-73-frame::before { content: "\E2A2"; }
+.fr-boston-1889-p267-border-74-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-74-frame::before { content: "\E2A3"; }
+.fr-boston-1889-p267-border-75-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-75-frame::before { content: "\E2A4"; }
+.fr-boston-1889-p264-border-16-unit { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p264-border-16-unit::before { content: "\E2A5"; }
+.fr-boston-1889-p267-border-70-unit { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-70-unit::before { content: "\E2A6"; }
+.fr-boston-1889-p267-border-71-unit { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-71-unit::before { content: "\E2A7"; }
+.fr-boston-1889-p267-border-72-unit { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-72-unit::before { content: "\E2A8"; }
+.fr-boston-1889-p267-border-73-unit { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-73-unit::before { content: "\E2A9"; }
+.fr-boston-1889-p267-border-75-unit { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p267-border-75-unit::before { content: "\E2AA"; }
+.fr-boston-1889-p268-grimaldi-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-1::before { content: "\E2AB"; }
+.fr-boston-1889-p268-grimaldi-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-3::before { content: "\E2AC"; }
+.fr-boston-1889-p268-grimaldi-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-2::before { content: "\E2AD"; }
+.fr-boston-1889-p268-grimaldi-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-7::before { content: "\E2AE"; }
+.fr-boston-1889-p268-grimaldi-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-9::before { content: "\E2AF"; }
+.fr-boston-1889-p268-grimaldi-10 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-10::before { content: "\E2B0"; }
+.fr-boston-1889-p268-grimaldi-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-4::before { content: "\E2B1"; }
+.fr-boston-1889-p268-grimaldi-11 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-11::before { content: "\E2B2"; }
+.fr-boston-1889-p268-grimaldi-12 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-12::before { content: "\E2B3"; }
+.fr-boston-1889-p268-grimaldi-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-8::before { content: "\E2B4"; }
+.fr-boston-1889-p268-grimaldi-13 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-13::before { content: "\E2B5"; }
+.fr-boston-1889-p268-grimaldi-14 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-14::before { content: "\E2B6"; }
+.fr-boston-1889-p268-grimaldi-15 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-15::before { content: "\E2B7"; }
+.fr-boston-1889-p268-santa-claus-border-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-santa-claus-border-2::before { content: "\E2B8"; }
+.fr-boston-1889-p268-santa-claus-border-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-santa-claus-border-3::before { content: "\E2B9"; }
+.fr-boston-1889-p268-santa-claus-border-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-santa-claus-border-4::before { content: "\E2BA"; }
+.fr-boston-1889-p268-santa-claus-border-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-santa-claus-border-5::before { content: "\E2BB"; }
+.fr-boston-1889-p268-santa-claus-border-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-santa-claus-border-6::before { content: "\E2BC"; }
+.fr-boston-1889-p268-santa-claus-border-7 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-santa-claus-border-7::before { content: "\E2BD"; }
+.fr-boston-1889-p268-santa-claus-border-8 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-santa-claus-border-8::before { content: "\E2BE"; }
+.fr-boston-1889-p268-santa-claus-border-10 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-santa-claus-border-10::before { content: "\E2BF"; }
+.fr-boston-1889-p268-santa-claus-border-9 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-santa-claus-border-9::before { content: "\E2C0"; }
+.fr-boston-1889-p268-border-4-composition { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-border-4-composition::before { content: "\E2C1"; }
+.fr-boston-1889-p268-border-56-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-border-56-frame::before { content: "\E2C2"; }
+.fr-boston-1889-p268-border-3pt-6-frame { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-border-3pt-6-frame::before { content: "\E2C3"; }
+.fr-boston-1889-p268-3pt-border-6-1 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-3pt-border-6-1::before { content: "\E2C4"; }
+.fr-boston-1889-p268-3pt-border-6-2 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-3pt-border-6-2::before { content: "\E2C5"; }
+.fr-boston-1889-p268-3pt-border-6-3 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-3pt-border-6-3::before { content: "\E2C6"; }
+.fr-boston-1889-p268-3pt-border-6-4 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-3pt-border-6-4::before { content: "\E2C7"; }
+.fr-boston-1889-p268-grimaldi-5 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-5::before { content: "\E2C8"; }
+.fr-boston-1889-p268-grimaldi-6 { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p268-grimaldi-6::before { content: "\E2C9"; }
+.fr-boston-1889-p258-foundry-emblem { font-family: "Boston Ornaments 1889"; }
+.fr-boston-1889-p258-foundry-emblem::before { content: "\E2CA"; }

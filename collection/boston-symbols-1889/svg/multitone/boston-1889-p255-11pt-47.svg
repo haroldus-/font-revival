@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 986 2048" role="img" aria-label="Backward prime stroke, 11-point — multitone">
+<title>Backward prime stroke, 11-point — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M159 1552C159 1466 245 1104 359 742C483 332 607 85 693 85C864 85 864 256 693 771C617 1000 531 1295 502 1447C436 1724 159 1810 159 1552Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M102 1667C26 1476 464 75 617 8C683 -11 788 8 845 66C922 142 912 332 788 771C693 1104 579 1466 531 1590C436 1829 178 1876 102 1667ZM159 1552C159 1810 436 1724 502 1447C531 1295 617 1000 693 771C864 256 864 85 693 85C607 85 483 332 359 742C245 1104 159 1466 159 1552Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M725 6C886 -18 922 23 922 209C922 332 884 561 826 714C779 866 693 1171 636 1400C550 1733 493 1800 302 1800C293 1800 284 1800 276 1800C371 1799 477 1725 531 1590C579 1466 693 1104 788 771C912 332 922 142 845 66C814 35 770 15 725 6ZM64 1543C64 1390 159 1000 283 656C387 344 463 174 550 87C365 397 35 1499 102 1667C133 1751 193 1794 260 1799C97 1792 64 1737 64 1543Z"/>
+</svg>

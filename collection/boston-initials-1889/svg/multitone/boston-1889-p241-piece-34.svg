@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1924 2048" role="img" aria-label="Solid diamond (long primer and pearl) — multitone">
+<title>Solid diamond (long primer and pearl) — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M537 1320C315 1099 135 900 135 881C135 859 319 656 548 431L960 23L1399 461L1838 900L1429 1313C1204 1541 1002 1725 979 1725C957 1725 758 1545 537 1320Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M503 1339C278 1114 98 908 98 881C98 821 745 183 924 59L548 431C319 656 135 859 135 881C135 900 315 1099 537 1320C758 1545 957 1725 979 1725C1002 1725 1204 1541 1429 1313L1838 900L1399 461L984 47C1050 88 1242 263 1448 469L1875 904L1448 1331C1212 1568 994 1759 960 1755C930 1751 724 1564 503 1339Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M495 1354C252 1110 57 889 64 866C94 784 904 0 960 0C1024 0 1762 735 1851 880L1448 469C1242 263 1050 88 984 47L960 23L924 59C745 183 98 821 98 881C98 908 278 1114 503 1339C724 1564 930 1751 960 1755C994 1759 1212 1568 1448 1331L1825 954C1668 1152 1028 1800 979 1800C957 1800 739 1601 495 1354Z"/>
+</svg>

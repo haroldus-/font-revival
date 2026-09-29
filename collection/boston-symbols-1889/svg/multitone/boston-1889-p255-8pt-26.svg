@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Solid circle, 8-point — multitone">
+<title>Solid circle, 8-point — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M739 1690C303 1575 16 1110 136 708C327 62 1069 -149 1538 306C1945 708 1874 1340 1385 1608C1141 1742 1007 1762 739 1690Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M691 1704C303 1570 93 1268 93 857C93 450 418 105 849 52C1165 19 1390 100 1596 325C1921 684 1926 1134 1610 1465C1337 1747 1041 1824 691 1704ZM739 1690C1007 1762 1141 1742 1385 1608C1874 1340 1945 708 1538 306C1069 -149 327 62 136 708C16 1110 303 1575 739 1690Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M547 1666C322 1556 150 1321 88 1043C35 814 69 641 203 445C428 124 600 38 1045 38C1476 38 1864 464 1864 933C1864 1206 1644 1532 1347 1704C1184 1795 768 1776 547 1666ZM691 1704C1041 1824 1337 1747 1610 1465C1926 1134 1921 684 1596 325C1390 100 1165 19 849 52C418 105 93 450 93 857C93 1268 303 1570 691 1704Z"/>
+</svg>

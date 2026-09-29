@@ -1,0 +1,164 @@
+{
+  "acquired": "2026-09-28",
+  "archive_url": "https://archive.org/download/specimenbookfrom00unse/specimenbookfrom00unse_jp2.zip",
+  "archive_sha256": "c50ebc7d9dfd584cf97a7b4b8898c97e676ce7dcb70d92197c4f82c10a0d6ac6",
+  "method": "Original native JP2 leaves extracted unchanged from the Internet Archive ZIP. No resampling or retouching. Source crop coordinates are native pixels, y down, right and bottom exclusive.",
+  "pages": [
+    {
+      "file": "reference/boston-258.jp2",
+      "printed_page": 258,
+      "pdf_page": 266,
+      "leaf": 266,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0266.jp2",
+      "sha256": "c75b620a9b3dd362f82821f0c5a710607c25ac4e4e2490d61f55e1837b35d66c",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-259.jp2",
+      "printed_page": 259,
+      "pdf_page": 267,
+      "leaf": 267,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0267.jp2",
+      "sha256": "b34a6b85bbc3aefa763de1a065117624a1990107e871709aee94c7b2635df12e",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-260.jp2",
+      "printed_page": 260,
+      "pdf_page": 268,
+      "leaf": 268,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0268.jp2",
+      "sha256": "64bb1a19a3501c01c072e6773687ebbfb05198523bbd6ceeb50097c3a86c918d",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-261.jp2",
+      "printed_page": 261,
+      "pdf_page": 269,
+      "leaf": 269,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0269.jp2",
+      "sha256": "c6c4c9a7f1384621f86873499d1e6898c2d60d3b62a400952772cfc0cda3cfc0",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-262.jp2",
+      "printed_page": 262,
+      "pdf_page": 270,
+      "leaf": 270,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0270.jp2",
+      "sha256": "57744180ce3505b47be60feba6af3fd0942431c5600dcdf4dfd79e0f2d2a6ec4",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-263.jp2",
+      "printed_page": 263,
+      "pdf_page": 271,
+      "leaf": 271,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0271.jp2",
+      "sha256": "089e2afb9716a16082e80821e3abd1d696d1175801030f81b04c803650be052b",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-269.jp2",
+      "printed_page": 269,
+      "pdf_page": 277,
+      "leaf": 277,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0277.jp2",
+      "sha256": "51ad5b8ce3f2c6045ddc6c4e752fb468862853a867fe32c49787d3617e856e69",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-270.jp2",
+      "printed_page": 270,
+      "pdf_page": 278,
+      "leaf": 278,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0278.jp2",
+      "sha256": "bdc203b232bccb152c17ab1afd75123486ef1c640a581c448ab288cf76f8d402",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-264.jp2",
+      "printed_page": 264,
+      "pdf_page": 272,
+      "leaf": 272,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0272.jp2",
+      "sha256": "adb851960acacd37a1465e7af331d6323e64792e8f47af1cc2f8dee254bf891b",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-265.jp2",
+      "printed_page": 265,
+      "pdf_page": 273,
+      "leaf": 273,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0273.jp2",
+      "sha256": "165f7051d63509cfd0e216a00a1429f5586f870b8237388ce4466a1970b7a973",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-266.jp2",
+      "printed_page": 266,
+      "pdf_page": 274,
+      "leaf": 274,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0274.jp2",
+      "sha256": "8319acbd644be93eb272093d9d21db294eb411cdacfe3182f7b698fd13e3d0fb",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-267.jp2",
+      "printed_page": 267,
+      "pdf_page": 275,
+      "leaf": 275,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0275.jp2",
+      "sha256": "3715d0caae61e6a965a3eeab3295d8cedf78158ec532c50d2798d0cfc6988f91",
+      "native_size": [
+        2827,
+        3969
+      ]
+    },
+    {
+      "file": "reference/boston-268.jp2",
+      "printed_page": 268,
+      "pdf_page": 276,
+      "leaf": 276,
+      "zip_member": "specimenbookfrom00unse_jp2/specimenbookfrom00unse_0276.jp2",
+      "sha256": "28ab4ce64868a97e37d10f0587bb8b71422109eb31bae1500af4c243bb6562e6",
+      "native_size": [
+        2827,
+        3969
+      ]
+    }
+  ]
+}

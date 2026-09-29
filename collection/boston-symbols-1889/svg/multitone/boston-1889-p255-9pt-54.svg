@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 944 2048" role="img" aria-label="Backward prime stroke, 9-point — multitone">
+<title>Backward prime stroke, 9-point — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M224 1598C189 1541 282 1216 444 880C606 532 711 358 688 486C653 613 595 915 548 1158C479 1598 340 1784 224 1598Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M85 1691C15 1575 96 1355 398 752C456 636 502 474 502 381C502 207 711 22 803 115C850 161 780 590 560 1564C490 1830 224 1911 85 1691ZM224 1598C340 1784 479 1598 548 1158C595 915 653 613 688 486C711 358 606 532 444 880C282 1216 189 1541 224 1598Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M65 1550C58 1436 93 1278 154 1146C317 799 444 474 548 161C630 -82 931 -36 873 207C850 289 769 683 688 1065C650 1262 611 1416 568 1530C782 580 849 160 803 115C711 22 502 207 502 381C502 474 456 636 398 752C187 1174 84 1408 65 1550Z"/>
+</svg>

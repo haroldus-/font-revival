@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1590 2048" role="img" aria-label="Diagonal line map type — multitone">
+<title>Diagonal line map type — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M751 1090C379 718 99 417 109 398C121 380 416 653 807 1047C1175 1422 1480 1732 1480 1738C1480 1794 1314 1649 751 1090Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M816 1188C121 503 41 407 93 355C118 330 312 512 819 1022C1200 1410 1511 1735 1511 1751C1511 1852 1366 1738 816 1188ZM751 1090C1314 1649 1480 1794 1480 1738C1480 1732 1175 1422 807 1047C416 653 121 380 109 398C99 417 379 718 751 1090Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M748 1133C112 500 -20 334 109 334C158 334 1526 1705 1526 1757C1526 1880 1375 1760 748 1133ZM816 1188C1366 1738 1511 1852 1511 1751C1511 1735 1200 1410 819 1022C312 512 118 330 93 355C41 407 121 503 816 1188ZM797 5C816 -2 853 -2 874 5C893 14 877 20 834 20C791 20 776 14 797 5Z"/>
+</svg>

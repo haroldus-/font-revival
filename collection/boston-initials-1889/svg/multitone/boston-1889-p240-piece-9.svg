@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1921 2048" role="img" aria-label="Solid diamond (pica) — multitone">
+<title>Solid diamond (pica) — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M508 1317C286 1089 106 891 109 873C121 825 904 30 940 30C979 30 1813 846 1813 885C1813 927 979 1740 943 1737C925 1734 730 1545 508 1317Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M502 1341C274 1113 88 906 88 882C88 840 898 0 940 0C964 0 1831 834 1852 873C1864 900 979 1770 943 1764C928 1764 727 1572 502 1341ZM508 1317C730 1545 925 1734 943 1737C979 1740 1813 927 1813 885C1813 846 979 30 940 30C904 30 121 825 109 873C106 891 286 1089 508 1317Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M508 1365C268 1128 70 915 64 894C55 849 886 0 940 0C898 0 88 840 88 882C88 906 274 1113 502 1341C727 1572 928 1764 943 1764C979 1770 1864 900 1852 873C1831 834 983 19 941 0C965 9 1145 169 1348 363C1555 564 1753 747 1792 771C1879 831 1879 939 1789 987C1753 1008 1555 1197 1351 1413C1150 1626 973 1800 961 1800C949 1800 745 1605 508 1365Z"/>
+</svg>

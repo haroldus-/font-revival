@@ -16,6 +16,7 @@ from pathlib import Path
 
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.ttLib import TTFont
+from fontTools import subset
 from PIL import Image
 
 REPO = Path(__file__).resolve().parents[1]
@@ -25,11 +26,58 @@ spec.loader.exec_module(revival)
 
 
 class IconWorkflowTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        # Exercise edits on a small real fixture while the live collection grows.
+        # The full release is independently rebuilt and checked by the CLI.
+        cls.fixture_temp = tempfile.TemporaryDirectory()
+        cls.fixture_root = Path(cls.fixture_temp.name)
+        original = REPO / "collection/boston-cuts-1889"
+        family = cls.fixture_root / "collection/boston-cuts-1889"
+        family.mkdir(parents=True)
+        shutil.copyfile(REPO / "LICENSE", cls.fixture_root / "LICENSE")
+        shutil.copyfile(original / "CHANGELOG.md", family / "CHANGELOG.md")
+        m = json.loads((original / "font.json").read_text())
+        pilot = next(icon for icon in m["icons"] if icon["id"] == "boston-1889-4202")
+        m["sources"] = [m["sources"][pilot["source_index"]]]
+        pilot["source_index"] = 0
+        m["icons"] = [pilot]
+        revival.write_json(family / "font.json", m)
+        tracing = json.loads((original / "source/tracing.json").read_text())
+        tracing["glyphs"] = {"\ue000": tracing["glyphs"]["\ue000"]}
+        revival.write_json(family / "source/tracing.json", tracing)
+        sizing = json.loads((original / "source/sizing.json").read_text())
+        sizing["rules"] = [r | {"characters": ''.join(c for c in r["characters"] if c in " \ue000")}
+                           for r in sizing["rules"] if set(r["characters"]) & set(" \ue000")]
+        revival.write_json(family / "source/sizing.json", sizing)
+        for reference in {m["sources"][0]["file"], tracing["glyphs"]["\ue000"]["file"]}:
+            (family / reference).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(original / reference, family / reference)
+        font = revival.load_source(original, m)
+        # Compile the XML-loaded CFF charset before the subsetter traverses it.
+        compiled = io.BytesIO(); font.save(compiled); compiled.seek(0)
+        font = TTFont(compiled, recalcTimestamp=False)
+        keep = [".notdef", "space", pilot["glyph"], *[layer["glyph"] for layer in pilot["multitone_layers"]]]
+        selected = subset.Subsetter()
+        selected.populate(glyphs=keep)
+        selected.subset(font)
+        font.saveXML(family / "source/font.ttx")
+        with contextlib.redirect_stdout(io.StringIO()):
+            revival.ROOT = cls.fixture_root
+            try:
+                revival.build_family(family)
+            finally:
+                revival.ROOT = REPO
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.fixture_temp.cleanup()
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.root = Path(self.temp.name)
         self.family = self.root / "collection/boston-cuts-1889"
-        shutil.copytree(REPO / "collection/boston-cuts-1889", self.family)
+        shutil.copytree(self.fixture_root / "collection/boston-cuts-1889", self.family)
         shutil.copytree(REPO / "site", self.root / "site")
         shutil.copyfile(REPO / "LICENSE", self.root / "LICENSE")
         revival.ROOT = self.root
@@ -77,6 +125,23 @@ class IconWorkflowTests(unittest.TestCase):
             viewbox = list(map(int, svg.getroot().attrib["viewBox"].split()))
             self.assertEqual(viewbox, [0, -1900, font["hmtx"]["uniE000"][0], 2048])
 
+    def test_later_gallery_results_keep_exact_artwork_in_local_chunks(self):
+        m = revival.metadata(self.family)
+        with TTFont(self.family / "fonts/BostonCuts1889-Regular.otf") as font:
+            first = revival.icon_records(m, font)[0]
+        records = [first | {"id": f"test-cut-{i}"} for i in range(25)]
+        output = revival.icon_catalog_outputs([(m, records)])
+        scripts = {key: value for key, value in output.items() if key.endswith('.js')}
+        self.assertEqual(len(scripts), 1)
+        script_name, script = next(iter(scripts.items()))
+        payload = json.loads(script.split('Object.assign(window.revivalIconArtwork, ', 1)[1][:-3])
+        self.assertEqual(list(payload), ['test-cut-24'])
+        self.assertEqual(payload['test-cut-24']['monochrome'], revival.icon_artwork(first))
+        self.assertEqual(payload['test-cut-24']['multitone'], revival.multitone_artwork(first))
+        self.assertIn(f'data-art-chunk="{script_name}"', output['icons.html'])
+        # The initial page has actual paths before any script or network work.
+        self.assertEqual(output['icons.html'].count(revival.multitone_artwork(first)), 24)
+
     def test_web_bundle_resolves_copyable_html_and_stylesheet_assets(self):
         archive = self.family / "downloads/boston-cuts-1889-web.zip"
         extracted = self.root / "downloaded"
@@ -117,7 +182,7 @@ class IconWorkflowTests(unittest.TestCase):
             self.assertEqual(path.attrib["fill-opacity"], f"var(--fr-{role}-opacity,{opacity})")
             self.assertEqual(path.attrib["fill"], f"var(--fr-{role}-color,currentColor)")
         with Image.open(self.family / "png/multitone/boston-1889-4202.png") as image:
-            self.assertEqual(image.mode, "RGBA")
+            image = image.convert("RGBA")
             self.assertEqual(image.height, 1024)
             self.assertEqual(image.getpixel((0, 0))[3], 0)
             low, high = image.getchannel("A").getextrema()

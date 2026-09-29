@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 768 2048" role="img" aria-label="Prime stroke, 8-point — multitone">
+<title>Prime stroke, 8-point — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M304 1533C285 1495 237 1180 209 846L151 225L390 827C619 1399 629 1609 438 1609C390 1609 333 1571 304 1533Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M294 1590C199 1313 56 588 56 349C56 -118 218 63 457 779C705 1495 705 1705 476 1705C399 1705 314 1647 294 1590ZM304 1533C333 1571 390 1609 438 1609C629 1609 619 1399 390 827L151 225L209 846C237 1180 285 1495 304 1533Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M304 1647C218 1571 151 1476 151 1437C142 1399 123 1056 85 664C84 649 83 634 82 619C127 936 224 1385 294 1590C314 1647 399 1705 476 1705C705 1705 705 1495 457 779C250 158 100 -61 64 197C67 28 96 -18 161 6C228 25 333 235 399 473C466 702 571 1027 638 1189C753 1495 714 1800 543 1800C495 1800 380 1733 304 1647Z"/>
+</svg>

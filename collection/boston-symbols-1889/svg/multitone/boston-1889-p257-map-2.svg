@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Horizontal line, upper map type — multitone">
+<title>Horizontal line, upper map type — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M153 950C138 935 135 906 146 892C175 845 1791 852 1791 895C1791 917 1596 932 1277 932C990 932 628 943 468 953C309 968 167 964 153 950Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M113 943C98 932 106 899 127 870C189 798 1810 801 1839 874C1849 903 1849 935 1839 946C1814 968 837 973 364 960C397 959 432 956 468 953C628 943 990 932 1277 932C1596 932 1791 917 1791 895C1791 852 175 845 146 892C135 906 138 935 153 950C130 948 115 946 113 943Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M98 950C51 914 51 903 106 859C148 823 232 814 969 818C561 817 157 835 127 870C106 899 98 932 113 943C115 946 130 948 153 950C166 961 253 966 364 960C837 973 1814 968 1839 946C1849 935 1849 903 1839 874C1826 841 1478 822 1099 818C1296 819 1534 821 1820 823C1842 823 1864 856 1864 895C1864 964 1839 968 1458 972C1233 972 845 979 599 982C327 986 131 972 98 950Z"/>
+</svg>

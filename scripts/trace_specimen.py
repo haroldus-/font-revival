@@ -8,6 +8,8 @@ Normal release builds use source/font.ttx and do not run this script.
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ProcessPoolExecutor
+import hashlib
 import json
 import subprocess
 import tempfile
@@ -18,6 +20,7 @@ from fontTools.agl import UV2AGL
 from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.boundsPen import BoundsPen
+from fontTools.pens.cu2quPen import Cu2QuPen
 from fontTools.pens.recordingPen import RecordingPen
 from fontTools.pens.roundingPen import RoundingPen
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -35,8 +38,11 @@ def components(mask, value):
     unseen = {(x, y) for y in range(mask.height) for x in range(mask.width)
               if pixels[x, y] == value}
     result = []
-    while unseen:
-        seed = min(unseen)
+    # Column-major seeds preserve the old min(unseen) order without repeatedly
+    # scanning the whole set on engravings with thousands of detached marks.
+    for seed in ((x, y) for x in range(mask.width) for y in range(mask.height)):
+        if seed not in unseen:
+            continue
         unseen.remove(seed)
         found, stack = [seed], [seed]
         while stack:
@@ -52,6 +58,15 @@ def components(mask, value):
 
 def clean_crop(image, entry):
     crop = image.crop(entry['box']).convert('L')
+    # Optional illumination correction for weak impressions on uneven paper.
+    # Estimate the paper locally without adding or closing engraved strokes.
+    radius = entry.get('paper_normalization_radius', 0)
+    if radius:
+        paper = crop.filter(ImageFilter.MaxFilter(2 * radius + 1)).filter(
+            ImageFilter.GaussianBlur(radius / 3))
+        crop = Image.frombytes('L', crop.size, bytes(
+            min(255, round(value * 255 / max(background, 1)))
+            for value, background in zip(crop.tobytes(), paper.tobytes())))
     draw = ImageDraw.Draw(crop)
     for rectangle in entry.get('erase', []):
         draw.rectangle(rectangle, fill=255)
@@ -76,10 +91,12 @@ def clean_crop(image, entry):
     for part in selected:
         for point in part:
             clean.putpixel(point, 0)
-    for component in components(clean, 255):
-        if len(component) <= entry.get('fill_holes', 8):
-            for point in component:
-                clean.putpixel(point, 0)
+    hole_limit = entry.get('fill_holes', 8)
+    if hole_limit:
+        for component in components(clean, 255):
+            if len(component) <= hole_limit:
+                for point in component:
+                    clean.putpixel(point, 0)
     return clean
 
 
@@ -104,18 +121,28 @@ def trace_transform(rec, entry):
     rec.replay(bounds)
     x0, y0, x1, y1 = bounds.bounds
     scale = entry['height'] / (y1-y0)
+    if 'max_ink_dimension' in entry:
+        scale = min(scale, entry['max_ink_dimension'] / max(x1-x0, y1-y0))
     left, right = entry.get('bearings', [45, 45])
     sx = (entry['ink_width'] / (x1-x0) if 'ink_width' in entry
           else scale * entry.get('width_scale', 1))
     advance = entry.get('advance_width', round((x1-x0)*sx+left+right))
     if entry.get('center', False):
         left = (advance - (x1-x0)*sx) / 2
-    return (sx, 0, 0, scale, left-x0*sx, entry.get('y_min', 0)-y0*scale), advance
+    baseline = entry.get('y_min', 0)
+    if entry.get('center_vertical', False):
+        baseline += (entry['height'] - (y1-y0)*scale) / 2
+    return (sx, 0, 0, scale, left-x0*sx, baseline-y0*scale), advance
 
 
 def trace(image, entry, potrace):
     rec = trace_mask(clean_crop(image, entry), entry, potrace)
-    transform, advance = trace_transform(rec, entry)
+    reference = rec
+    if 'frame_threshold' in entry:
+        frame = entry | {'threshold': entry['frame_threshold'],
+                         'erase': entry.get('erase', []) + entry.get('multitone', {}).get('erase', [])}
+        reference = trace_mask(clean_crop(image, frame), frame, potrace)
+    transform, advance = trace_transform(reference, entry)
     out = SVGPathPen(None)
     rec.replay(TransformPen(RoundingPen(out), transform))
     return {'path': out.getCommands(), 'advance_width': advance}
@@ -123,24 +150,50 @@ def trace(image, entry, potrace):
 
 def trace_tones(image, entry, layers, potrace):
     """Make two or three disjoint tone regions in the solid drawing's frame."""
-    from outline_geometry import _path, _svg
+    from outline_geometry import _path, _svg, boolean_op
     import pathops
 
-    reference = trace_mask(clean_crop(image, entry), entry, potrace)
+    frame = entry
+    if 'frame_threshold' in entry:
+        frame = entry | {'threshold': entry['frame_threshold'],
+                         'erase': entry.get('erase', []) + entry['multitone'].get('erase', [])}
+    reference = trace_mask(clean_crop(image, frame), frame, potrace)
     transform, advance = trace_transform(reference, entry)
     settings = entry['multitone']
-    drawings, covered = {}, pathops.Path()
+    traced = []
     for layer in layers:
         threshold = settings['thresholds'][layer['role']]
         tonal = entry | {'threshold': threshold, 'erase': entry.get('erase', []) + settings.get('erase', [])}
         rec = trace_mask(clean_crop(image, tonal), tonal, potrace)
-        out = SVGPathPen(None)
-        rec.replay(TransformPen(RoundingPen(out), transform))
-        shape = _path(out.getCommands())
-        region = pathops.op(shape, covered, pathops.PathOp.DIFFERENCE)
-        drawings[layer['glyph']] = {'path': _svg(region), 'advance_width': advance}
-        covered = pathops.op(covered, shape, pathops.PathOp.UNION)
-    return drawings
+        traced.append((layer, rec))
+
+    def separate(round_inputs, quadratic=False):
+        drawings, covered = {}, pathops.Path()
+        for layer, rec in traced:
+            out = SVGPathPen(None)
+            rec.replay(TransformPen(RoundingPen(out) if round_inputs else out, transform))
+            shape = _path(out.getCommands())
+            if quadratic:
+                converted = pathops.Path()
+                shape.draw(Cu2QuPen(converted.getPen(), .05, reverse_direction=False))
+                shape = converted
+            region = boolean_op(shape, covered, pathops.PathOp.DIFFERENCE)
+            drawings[layer['glyph']] = {'path': _svg(region), 'advance_width': advance}
+            covered = boolean_op(covered, shape, pathops.PathOp.UNION)
+        return drawings
+
+    try:
+        return separate(round_inputs=True)
+    except ValueError:
+        # Integer rounding can create artificial tangencies before subtraction.
+        # Retry with the original fitted curves, rounding only the final regions.
+        # Existing successful traces, including the pilot, stay unchanged.
+        try:
+            return separate(round_inputs=False)
+        except ValueError:
+            # A final vector-only fallback avoids unstable cubic intersections.
+            # Its 0.05-unit curve error is ten times finer than release TTFs.
+            return separate(round_inputs=True, quadratic=True)
 
 
 def glyph_name(character):
@@ -210,21 +263,54 @@ def require_potrace(potrace):
         raise ValueError('Source preparation requires Potrace 1.16.')
 
 
-def prepare(family, output, potrace):
+_decoded_images = {}
+
+
+def prepare_entry(task):
+    file, entry, layers, signature, cached, potrace, label = task
+    if cached and cached.exists():
+        return json.loads(cached.read_text())
+    if file not in _decoded_images:
+        _decoded_images[file] = Image.open(file).convert('L')
+    image = _decoded_images[file]
+    try:
+        result = {'solid': trace(image, entry, potrace), 'tones': {}}
+        if 'multitone' in entry:
+            result['tones'] = trace_tones(image, entry, layers, potrace)
+    except Exception as exc:
+        raise ValueError(f'Tracing {label}: {exc}') from exc
+    if cached:
+        fontrevival.write_json(cached, result)
+    return result
+
+
+def prepare(family, output, potrace, cache=None, jobs=1):
     require_potrace(potrace)
     manifest = json.loads((family/'source/tracing.json').read_text())
     if manifest.get('mode') == 'glyph-revision':
         raise ValueError('Use trace_revisions.py for a glyph-revision recipe.')
-    images, drawings, extra = {}, {}, {}
+    source_hashes, drawings, extra, tasks = {}, {}, {}, []
+    tool_hash = hashlib.sha256(Path(__file__).read_bytes() + Path(__file__).with_name('outline_geometry.py').read_bytes()).hexdigest()
+    if cache:
+        cache.mkdir(parents=True, exist_ok=True)
     m = fontrevival.metadata(family)
     icon_map = {chr(int(i['codepoint'], 16)): i for i in m.get('icons', [])}
     for ch, entry in manifest['glyphs'].items():
         file = family/entry['file']
-        if file not in images:
-            images[file] = Image.open(file).convert('L')
-        drawings[ch] = trace(images[file], entry, potrace)
-        if 'multitone' in entry:
-            extra.update(trace_tones(images[file], entry, icon_map[ch]['multitone_layers'], potrace))
+        if file not in source_hashes:
+            source_hashes[file] = hashlib.sha256(file.read_bytes()).hexdigest()
+        layers = icon_map.get(ch, {}).get('multitone_layers', [])
+        signature = json.dumps([tool_hash, source_hashes[file], entry, layers], sort_keys=True)
+        cached = cache / (hashlib.sha256(signature.encode()).hexdigest() + '.json') if cache else None
+        tasks.append((file, entry, layers, signature, cached, potrace, icon_map.get(ch, {}).get('id', ch)))
+    if jobs > 1:
+        with ProcessPoolExecutor(max_workers=jobs) as pool:
+            results = list(pool.map(prepare_entry, tasks))
+    else:
+        results = list(map(prepare_entry, tasks))
+    for ch, result in zip(manifest['glyphs'], results):
+        drawings[ch] = result['solid']
+        extra.update(result['tones'])
     companions = json.loads((family/'source/companions.json').read_text())
     for ch, entry in companions['glyphs'].items():
         if 'from' in entry:
@@ -248,8 +334,12 @@ def main():
     parser.add_argument('id')
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--potrace', default='potrace')
+    parser.add_argument('--cache', type=Path, help='Optional disposable cache keyed by source, recipe and preparation code')
+    parser.add_argument('--jobs', type=int, default=1, help='Independent preparation workers; output order remains deterministic')
     args = parser.parse_args()
-    prepare(fontrevival.family_dir(args.id), args.output, args.potrace)
+    if args.jobs < 1:
+        parser.error('--jobs must be positive')
+    prepare(fontrevival.family_dir(args.id), args.output, args.potrace, args.cache, args.jobs)
 
 
 if __name__ == '__main__':

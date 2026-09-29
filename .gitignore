@@ -5,6 +5,7 @@ __pycache__/
 .env
 .env.*
 dist/
+_site/
 workspace/*
 !workspace/README.md
 /*.zip

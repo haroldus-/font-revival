@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1487 2048" role="img" aria-label="Small round signal marker — multitone">
+<title>Small round signal marker — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M285 1449C217 1381 149 1245 149 1166C149 951 636 226 783 226C851 226 998 430 1111 690C1270 1030 1292 1200 1202 1335C1066 1573 478 1641 285 1449Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M195 1415C25 1154 25 1109 308 622C478 340 681 113 761 113C930 113 1394 905 1394 1188C1394 1709 500 1879 195 1415ZM285 1449C478 1641 1066 1573 1202 1335C1292 1200 1270 1030 1111 690C998 430 851 226 783 226C636 226 149 951 149 1166C149 1245 217 1381 285 1449Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M376 1664C-20 1460 -43 1019 331 464C500 204 693 0 772 0C851 0 1043 260 1213 577C1530 1188 1496 1460 1055 1698C783 1845 727 1833 376 1664ZM195 1415C500 1879 1394 1709 1394 1188C1394 905 930 113 761 113C681 113 478 340 308 622C25 1109 25 1154 195 1415Z"/>
+</svg>

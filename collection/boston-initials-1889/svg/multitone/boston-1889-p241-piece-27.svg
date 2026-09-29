@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 663 2048" role="img" aria-label="Fine solid wedge, right (long primer and pearl) — multitone">
+<title>Fine solid wedge, right (long primer and pearl) — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M477 1469C470 1453 410 1224 351 963C292 702 217 409 189 314C157 220 137 117 149 85C177 18 426 18 481 85C505 113 529 413 533 793C545 1398 533 1560 477 1469Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M501 1690C477 1659 410 1406 351 1121C292 840 213 500 169 370C130 239 94 113 94 85C94 18 228 -14 391 18L529 42V366C529 540 549 876 572 1109C620 1548 588 1797 501 1690ZM477 1469C533 1560 545 1398 533 793C529 413 505 113 481 85C426 18 177 18 149 85C137 117 157 220 189 314C217 409 292 702 351 963C410 1224 470 1453 477 1469Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M497 1762C474 1734 406 1489 351 1216C232 662 161 382 98 216C23 26 62 -10 319 2L549 14L584 876C616 1730 600 1888 497 1762ZM501 1690C588 1797 620 1548 572 1109C549 876 529 540 529 366V42L391 18C228 -14 94 18 94 85C94 113 130 239 169 370C213 500 292 840 351 1121C410 1406 477 1659 501 1690Z"/>
+</svg>

@@ -1,10 +1,10 @@
 # Boston Cuts 1889
 
-Historical ornaments and cuts from the Boston Type Foundry specimen of 1889. The first pilot is Father Christmas, No. 4202.
+Historical ornaments, pictorial cuts, decorated initials and symbols from the Boston Type Foundry specimen of 1889.
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**1 icon(s) · Version 1.002 · MIT**
+**478 icon(s) · Version 1.003 · MIT**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BostonCuts1889-Regular.otf) · [TTF](fonts/BostonCuts1889-Regular.ttf) · [WOFF2](web/BostonCuts1889-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -78,7 +78,7 @@ the solid artwork; use the SVG examples above for tritone artwork.
 <link rel="stylesheet" href="collection/boston-cuts-1889/web/icons.css">
 <span class="fr-icon fr-boston-1889-4202" aria-hidden="true"
       style="font-size:96px;color:#a5422c"></span>
-<span>Season’s greetings</span>
+<span>Father Christmas</span>
 ```
 
 The example hides a decorative icon from screen readers and supplies visible
@@ -93,15 +93,20 @@ from 64 px, with 16–192 pt proofs supplied for review.
 
 ## Evidence and editing
 
-**Foundry:** Boston Type Foundry; pilot cut cast by Central Type Foundry
+**Foundry:** Boston Type Foundry; holiday cuts cast by Central Type Foundry
 
-**Designer:** Individual engraver unidentified; No. 4202 credited to Central Type Foundry in the specimen
+**Designer:** Individual engravers unidentified; holiday cuts credited to Central Type Foundry in the specimen
 
-**Observed:** No. 4202: Father Christmas in profile with a pipe, swept hat, beard and detached engraved marks, traced from printed page 273. Source proportions are retained.
+**Observed:** Individually catalogued historical impressions from the 1889 Boston specimen; see each icon and source/inventory.json for subjects, pages, specimen numbers, crop evidence and review status.
 
-**Interpreted or new:** No new pictorial content. Thresholding, removal of isolated one-pixel marks and one documented background speck, cubic curve fitting and font-unit rounding interpret the scanned impression. Names, search tags, Unicode Private Use assignment, scale and bearings are new project metadata. The original paper, catalogue number and price are excluded from the icon. The multi-tone companion separates the observed dark ink, medium engraving and pale strokes into three disjoint vector regions, with default opacities 1, 0.55 and 0.25. These tone assignments are a new, documented interpretation of the scan, not evidence of separately printed inks. No continuous-grayscale version is shipped.
+**Interpreted or new:** No new pictorial content. Thresholding, documented crop cleanup, cubic curve fitting and font-unit rounding interpret the scanned impressions. Names, search tags, Private Use assignments, scale and bearings are new project work. Paper, catalogue numbers and prices are excluded. Multi-tone companions separate observed ink strengths into three disjoint vector regions at default opacities 1, 0.55 and 0.25; these are modern interpretations, not evidence of separately printed inks.
 
-- [Specimen book from the Boston type foundry (1889), printed p. 273, Section 8, cut 4202; PDF page 281, Internet Archive leaf 281](https://archive.org/details/specimenbookfrom00unse/page/273/mode/1up) — 1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
+- [Specimen book from the Boston type foundry (1889), printed p. 273, Section 8, original holiday cuts 4201–4248; PDF page 281, Internet Archive leaf 281](https://archive.org/details/specimenbookfrom00unse/page/273/mode/1up) — 1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
+- [Specimen book from the Boston type foundry (1889), printed p. 274; PDF page 282, Internet Archive leaf 282](https://archive.org/details/specimenbookfrom00unse/page/274/mode/1up) — 1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
+- [Specimen book from the Boston type foundry (1889), printed p. 275; PDF page 283, Internet Archive leaf 283](https://archive.org/details/specimenbookfrom00unse/page/275/mode/1up) — 1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
+- [Specimen book from the Boston type foundry (1889), printed p. 276; PDF page 284, Internet Archive leaf 284](https://archive.org/details/specimenbookfrom00unse/page/276/mode/1up) — 1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
+- [Specimen book from the Boston type foundry (1889), printed p. 271; PDF page 279, Internet Archive leaf 279](https://archive.org/details/specimenbookfrom00unse/page/271/mode/1up) — 1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
+- [Specimen book from the Boston type foundry (1889), printed p. 272; PDF page 280, Internet Archive leaf 280](https://archive.org/details/specimenbookfrom00unse/page/272/mode/1up) — 1889 US publication; public domain in the United States under the maximum 95-year term. Library of Congress scan hosted by Internet Archive; its recorded assessment says the Library is unaware of copyright restrictions. Metadata and page map are retained locally. No modern redraw was used. [Rights basis](https://www.copyright.gov/circs/circ15a.pdf).
 
 Copyright (c) 2026 Harold Lehmann. Historical public-domain material retains its status.
 Read [the method](source/METHOD.md), [inventory](source/inventory.json) and

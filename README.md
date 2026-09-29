@@ -87,10 +87,16 @@ The [1894 Ryan / November 1888 survey](docs/PROSPECTS-1894-1888.md) records the 
 ## Ornaments and cuts
 
 The icon collection revives historical artwork as multitone SVGs and transparent
-PNGs, plus solid SVGs, sprites, desktop fonts and CSS webfonts. The first pilot is
-**Father Christmas, No. 4202**,
-from printed p. 273 of the Boston Type Foundry specimen (1889), credited there to
-Central Type Foundry. Its detailed engraving and original proportions are retained.
+PNGs, plus solid SVGs, sprites, desktop fonts and CSS webfonts. The Boston 1889
+revival contains **1,965 icons**. The original **Father Christmas, No. 4202** pilot
+retains its engraving, proportions and character assignment.
+
+| Family | Icons | Web download |
+| --- | ---: | --- |
+| [Boston Cuts 1889](collection/boston-cuts-1889/) | 478 | [ZIP](collection/boston-cuts-1889/downloads/boston-cuts-1889-web.zip) |
+| [Boston Ornaments 1889](collection/boston-ornaments-1889/) | 715 | [ZIP](collection/boston-ornaments-1889/downloads/boston-ornaments-1889-web.zip) |
+| [Boston Initials 1889](collection/boston-initials-1889/) | 312 | [ZIP](collection/boston-initials-1889/downloads/boston-initials-1889-web.zip) |
+| [Boston Symbols 1889](collection/boston-symbols-1889/) | 460 | [ZIP](collection/boston-symbols-1889/downloads/boston-symbols-1889-web.zip) |
 
 [![Father Christmas source and revival](collection/boston-cuts-1889/specimens/preview.png)](collection/boston-cuts-1889/)
 
@@ -101,8 +107,11 @@ Central Type Foundry. Its detailed engraving and original proportions are retain
 [Comparison PDF](collection/boston-cuts-1889/specimens/specimen.pdf) ·
 [Repeatable icon workflow](docs/ICONS.md)
 
-This is a one-icon pilot. The remaining Boston and Baltimore specimens are pending
-review and inventory; the Boston scan is missing printed pages 217–218.
+The survey covers the available pages in the requested Boston range, printed
+217–276, including decorative initials and pictorial symbols. Ordinary text and
+numerals are excluded; repeated compositions are documented in the retained
+inventory. Printed pages 217–218 are missing from the historical scan and could
+not be revived. Baltimore remains pending.
 
 ## Use the fonts
 

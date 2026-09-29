@@ -1,0 +1,7510 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "characters": " ",
+      "ink_width": [
+        0,
+        0
+      ],
+      "ink_height": [
+        0,
+        0
+      ],
+      "advance_width": [
+        512,
+        512
+      ],
+      "notes": "New blank quarter-em space for desktop composition."
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial A: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        874,
+        878
+      ],
+      "ink_height": [
+        1789,
+        1793
+      ],
+      "advance_width": [
+        1010,
+        1010
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial B: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1789,
+        1793
+      ],
+      "ink_width": [
+        956,
+        960
+      ],
+      "ink_height": [
+        1786,
+        1790
+      ],
+      "advance_width": [
+        1260,
+        1260
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial C: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        718,
+        722
+      ],
+      "ink_height": [
+        1797,
+        1801
+      ],
+      "advance_width": [
+        848,
+        848
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial D: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1014,
+        1018
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1154,
+        1154
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        728,
+        732
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        865,
+        865
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial F: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        730,
+        734
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        863,
+        863
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial G: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        683,
+        687
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        815,
+        815
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial H: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        718,
+        722
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        855,
+        855
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        450,
+        454
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        582,
+        582
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial J: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        6,
+        10
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        737,
+        741
+      ],
+      "ink_height": [
+        1787,
+        1791
+      ],
+      "advance_width": [
+        879,
+        879
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial K: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        670,
+        674
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        804,
+        804
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial L: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        1025,
+        1029
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        1165,
+        1165
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        927,
+        931
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        1262,
+        1262
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial U: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        901,
+        905
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        1191,
+        1191
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial Z: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1800,
+        1804
+      ],
+      "ink_width": [
+        1064,
+        1068
+      ],
+      "ink_height": [
+        1798,
+        1802
+      ],
+      "advance_width": [
+        1198,
+        1198
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial M: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1098,
+        1102
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        1240,
+        1240
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial N: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        724,
+        728
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        859,
+        859
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        717,
+        721
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        848,
+        848
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial Q: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        35,
+        39
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        724,
+        728
+      ],
+      "ink_height": [
+        1757,
+        1761
+      ],
+      "advance_width": [
+        855,
+        855
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        701,
+        705
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        834,
+        834
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        768,
+        772
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        903,
+        903
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial T: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        765,
+        769
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        902,
+        902
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial V: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        5,
+        9
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        718,
+        722
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        913,
+        913
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial W: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        995,
+        999
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        1133,
+        1133
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial X: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        851,
+        855
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        989,
+        989
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point initial Y: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        739,
+        743
+      ],
+      "ink_height": [
+        1789,
+        1793
+      ],
+      "advance_width": [
+        876,
+        876
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial A: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        944,
+        948
+      ],
+      "ink_height": [
+        1787,
+        1791
+      ],
+      "advance_width": [
+        1091,
+        1091
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial B: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        8,
+        12
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        1041,
+        1045
+      ],
+      "ink_height": [
+        1783,
+        1787
+      ],
+      "advance_width": [
+        1193,
+        1193
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial C: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        7,
+        11
+      ],
+      "y_max": [
+        1799,
+        1803
+      ],
+      "ink_width": [
+        761,
+        765
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        896,
+        896
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial D: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -3,
+        1
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        1052,
+        1056
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        1191,
+        1191
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        824,
+        828
+      ],
+      "ink_height": [
+        1789,
+        1793
+      ],
+      "advance_width": [
+        960,
+        960
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial F: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        851,
+        855
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        999,
+        999
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial G: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        761,
+        765
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        903,
+        903
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial H: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        798,
+        802
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        939,
+        939
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        567,
+        571
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        701,
+        701
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial J: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        882,
+        886
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        1013,
+        1013
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial K: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        793,
+        797
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        924,
+        924
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial L: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1141,
+        1145
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        1296,
+        1296
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial M: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        1136,
+        1140
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        1281,
+        1281
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial N: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        32,
+        36
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        818,
+        822
+      ],
+      "ink_height": [
+        1760,
+        1764
+      ],
+      "advance_width": [
+        969,
+        969
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1004,
+        1008
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        1151,
+        1151
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        808,
+        812
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        948,
+        948
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial Q: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        5,
+        9
+      ],
+      "y_max": [
+        1800,
+        1804
+      ],
+      "ink_width": [
+        773,
+        777
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        910,
+        910
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        789,
+        793
+      ],
+      "ink_height": [
+        1787,
+        1791
+      ],
+      "advance_width": [
+        927,
+        927
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        814,
+        818
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        953,
+        953
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial T: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        827,
+        831
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        965,
+        965
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial U: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        5,
+        9
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        1034,
+        1038
+      ],
+      "ink_height": [
+        1786,
+        1790
+      ],
+      "advance_width": [
+        1185,
+        1185
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial V: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        822,
+        826
+      ],
+      "ink_height": [
+        1787,
+        1791
+      ],
+      "advance_width": [
+        963,
+        963
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial W: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1011,
+        1015
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        1154,
+        1154
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial X: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1784,
+        1788
+      ],
+      "ink_width": [
+        929,
+        933
+      ],
+      "ink_height": [
+        1778,
+        1782
+      ],
+      "advance_width": [
+        1071,
+        1071
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial Y: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        859,
+        863
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        992,
+        992
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point initial Z: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        1119,
+        1123
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        1258,
+        1258
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial A: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        77,
+        81
+      ],
+      "y_max": [
+        1786,
+        1790
+      ],
+      "ink_width": [
+        1434,
+        1438
+      ],
+      "ink_height": [
+        1707,
+        1711
+      ],
+      "advance_width": [
+        1573,
+        1573
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial B: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        6,
+        10
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1581,
+        1585
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        1717,
+        1717
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial C: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        9,
+        13
+      ],
+      "y_max": [
+        1787,
+        1791
+      ],
+      "ink_width": [
+        1545,
+        1549
+      ],
+      "ink_height": [
+        1776,
+        1780
+      ],
+      "advance_width": [
+        1679,
+        1679
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial D: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1774,
+        1778
+      ],
+      "ink_width": [
+        1702,
+        1706
+      ],
+      "ink_height": [
+        1769,
+        1773
+      ],
+      "advance_width": [
+        1839,
+        1839
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1391,
+        1395
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        1534,
+        1534
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial F: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1799,
+        1803
+      ],
+      "ink_width": [
+        1431,
+        1435
+      ],
+      "ink_height": [
+        1799,
+        1803
+      ],
+      "advance_width": [
+        1578,
+        1578
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial G: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1602,
+        1606
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        1768,
+        1768
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial H: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1781,
+        1785
+      ],
+      "ink_width": [
+        1382,
+        1386
+      ],
+      "ink_height": [
+        1776,
+        1780
+      ],
+      "advance_width": [
+        1519,
+        1519
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1788,
+        1792
+      ],
+      "ink_width": [
+        744,
+        748
+      ],
+      "ink_height": [
+        1783,
+        1787
+      ],
+      "advance_width": [
+        923,
+        923
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial J: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        8,
+        12
+      ],
+      "y_max": [
+        1788,
+        1792
+      ],
+      "ink_width": [
+        1487,
+        1491
+      ],
+      "ink_height": [
+        1778,
+        1782
+      ],
+      "advance_width": [
+        1675,
+        1675
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial K: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1786,
+        1790
+      ],
+      "ink_width": [
+        1597,
+        1601
+      ],
+      "ink_height": [
+        1786,
+        1790
+      ],
+      "advance_width": [
+        1740,
+        1740
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial L: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        7,
+        11
+      ],
+      "y_max": [
+        1789,
+        1793
+      ],
+      "ink_width": [
+        1423,
+        1427
+      ],
+      "ink_height": [
+        1780,
+        1784
+      ],
+      "advance_width": [
+        1637,
+        1637
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial M: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1728,
+        1732
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        1875,
+        1875
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial N: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1745,
+        1749
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        1886,
+        1886
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        1675,
+        1679
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        1813,
+        1813
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        10,
+        14
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1553,
+        1557
+      ],
+      "ink_height": [
+        1782,
+        1786
+      ],
+      "advance_width": [
+        1687,
+        1687
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial Q: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        92,
+        96
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        1657,
+        1661
+      ],
+      "ink_height": [
+        1699,
+        1703
+      ],
+      "advance_width": [
+        1788,
+        1788
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        9,
+        13
+      ],
+      "y_max": [
+        1788,
+        1792
+      ],
+      "ink_width": [
+        1481,
+        1485
+      ],
+      "ink_height": [
+        1777,
+        1781
+      ],
+      "advance_width": [
+        1621,
+        1621
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1787,
+        1791
+      ],
+      "ink_width": [
+        1535,
+        1539
+      ],
+      "ink_height": [
+        1784,
+        1788
+      ],
+      "advance_width": [
+        1680,
+        1680
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial T: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        8,
+        12
+      ],
+      "y_max": [
+        1780,
+        1784
+      ],
+      "ink_width": [
+        1537,
+        1541
+      ],
+      "ink_height": [
+        1770,
+        1774
+      ],
+      "advance_width": [
+        1672,
+        1672
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial U: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        6,
+        10
+      ],
+      "y_max": [
+        1787,
+        1791
+      ],
+      "ink_width": [
+        1560,
+        1564
+      ],
+      "ink_height": [
+        1778,
+        1782
+      ],
+      "advance_width": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial V: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        7,
+        11
+      ],
+      "y_max": [
+        1787,
+        1791
+      ],
+      "ink_width": [
+        1654,
+        1658
+      ],
+      "ink_height": [
+        1778,
+        1782
+      ],
+      "advance_width": [
+        1787,
+        1787
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial W: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        45,
+        49
+      ],
+      "y_max": [
+        1756,
+        1760
+      ],
+      "ink_width": [
+        1780,
+        1784
+      ],
+      "ink_height": [
+        1708,
+        1712
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial X: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        10,
+        14
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1388,
+        1392
+      ],
+      "ink_height": [
+        1784,
+        1788
+      ],
+      "advance_width": [
+        1524,
+        1524
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial Y: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        1513,
+        1517
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        1657,
+        1657
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial Z: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        1580,
+        1584
+      ],
+      "ink_height": [
+        1785,
+        1789
+      ],
+      "advance_width": [
+        1718,
+        1718
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy blackletter initial &: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1788,
+        1792
+      ],
+      "ink_width": [
+        1200,
+        1204
+      ],
+      "ink_height": [
+        1785,
+        1789
+      ],
+      "advance_width": [
+        1333,
+        1333
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point flourish 1: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        582,
+        586
+      ],
+      "y_max": [
+        1210,
+        1214
+      ],
+      "ink_width": [
+        1778,
+        1782
+      ],
+      "ink_height": [
+        627,
+        631
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point flourish 2: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        725,
+        729
+      ],
+      "y_max": [
+        1068,
+        1072
+      ],
+      "ink_width": [
+        1776,
+        1780
+      ],
+      "ink_height": [
+        341,
+        345
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point flourish 3: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        687,
+        691
+      ],
+      "y_max": [
+        1106,
+        1110
+      ],
+      "ink_width": [
+        1791,
+        1795
+      ],
+      "ink_height": [
+        416,
+        420
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point flourish 4: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        859,
+        863
+      ],
+      "y_max": [
+        937,
+        941
+      ],
+      "ink_width": [
+        1782,
+        1786
+      ],
+      "ink_height": [
+        76,
+        80
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point flourish 5: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        704,
+        708
+      ],
+      "y_max": [
+        1093,
+        1097
+      ],
+      "ink_width": [
+        1797,
+        1801
+      ],
+      "ink_height": [
+        387,
+        391
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point flourish 6: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        674,
+        678
+      ],
+      "y_max": [
+        1121,
+        1125
+      ],
+      "ink_width": [
+        1802,
+        1806
+      ],
+      "ink_height": [
+        445,
+        449
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 72-point flourish 7: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        684,
+        688
+      ],
+      "y_max": [
+        1125,
+        1129
+      ],
+      "ink_width": [
+        1782,
+        1786
+      ],
+      "ink_height": [
+        439,
+        443
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point flourish 1: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        631,
+        635
+      ],
+      "y_max": [
+        1179,
+        1183
+      ],
+      "ink_width": [
+        1777,
+        1781
+      ],
+      "ink_height": [
+        546,
+        550
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point flourish 2: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        724,
+        728
+      ],
+      "y_max": [
+        1086,
+        1090
+      ],
+      "ink_width": [
+        1785,
+        1789
+      ],
+      "ink_height": [
+        360,
+        364
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point flourish 3: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        754,
+        758
+      ],
+      "y_max": [
+        1044,
+        1048
+      ],
+      "ink_width": [
+        1788,
+        1792
+      ],
+      "ink_height": [
+        288,
+        292
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point flourish 4: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        846,
+        850
+      ],
+      "y_max": [
+        939,
+        943
+      ],
+      "ink_width": [
+        1796,
+        1800
+      ],
+      "ink_height": [
+        92,
+        96
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point flourish 5: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        750,
+        754
+      ],
+      "y_max": [
+        1045,
+        1049
+      ],
+      "ink_width": [
+        1786,
+        1790
+      ],
+      "ink_height": [
+        293,
+        297
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point flourish 6: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        657,
+        661
+      ],
+      "y_max": [
+        1152,
+        1156
+      ],
+      "ink_width": [
+        1773,
+        1777
+      ],
+      "ink_height": [
+        493,
+        497
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Spiral Art 48-point flourish 7: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        683,
+        687
+      ],
+      "y_max": [
+        1098,
+        1102
+      ],
+      "ink_width": [
+        1781,
+        1785
+      ],
+      "ink_height": [
+        413,
+        417
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Broad leafy crossbar: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        496,
+        500
+      ],
+      "y_max": [
+        1300,
+        1304
+      ],
+      "ink_width": [
+        1791,
+        1795
+      ],
+      "ink_height": [
+        802,
+        806
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy side flourish, left: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1786,
+        1790
+      ],
+      "ink_width": [
+        1190,
+        1194
+      ],
+      "ink_height": [
+        1779,
+        1783
+      ],
+      "advance_width": [
+        1362,
+        1362
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy side flourish, right: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1799,
+        1803
+      ],
+      "ink_width": [
+        974,
+        978
+      ],
+      "ink_height": [
+        1797,
+        1801
+      ],
+      "advance_width": [
+        1116,
+        1116
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Short leafy side flourish: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1787,
+        1791
+      ],
+      "ink_width": [
+        585,
+        589
+      ],
+      "ink_height": [
+        1786,
+        1790
+      ],
+      "advance_width": [
+        728,
+        728
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leafy side flourish: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        7,
+        11
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        1117,
+        1121
+      ],
+      "ink_height": [
+        1783,
+        1787
+      ],
+      "advance_width": [
+        1270,
+        1270
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small leaf tendril: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        588,
+        592
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        717,
+        717
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Leafy zigzag tendril: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        841,
+        845
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        984,
+        984
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial A: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        19,
+        23
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        935,
+        939
+      ],
+      "ink_height": [
+        1770,
+        1774
+      ],
+      "advance_width": [
+        1229,
+        1229
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial B: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        944,
+        948
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        1111,
+        1111
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial C: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        809,
+        813
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        945,
+        945
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial D: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        987,
+        991
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        1121,
+        1121
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        21,
+        25
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        802,
+        806
+      ],
+      "ink_height": [
+        1769,
+        1773
+      ],
+      "advance_width": [
+        943,
+        943
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial F: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        808,
+        812
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        944,
+        944
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial G: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        5,
+        9
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        848,
+        852
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        1002,
+        1002
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial H: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -3,
+        1
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        919,
+        923
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        1338,
+        1338
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        855,
+        859
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        997,
+        997
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial K: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1784,
+        1788
+      ],
+      "ink_width": [
+        755,
+        759
+      ],
+      "ink_height": [
+        1784,
+        1788
+      ],
+      "advance_width": [
+        887,
+        887
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial L: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        952,
+        956
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        1163,
+        1163
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial M: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1775,
+        1779
+      ],
+      "ink_width": [
+        1084,
+        1088
+      ],
+      "ink_height": [
+        1773,
+        1777
+      ],
+      "advance_width": [
+        1228,
+        1228
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial N: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1780,
+        1784
+      ],
+      "ink_width": [
+        935,
+        939
+      ],
+      "ink_height": [
+        1780,
+        1784
+      ],
+      "advance_width": [
+        1113,
+        1113
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        41,
+        45
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        948,
+        952
+      ],
+      "ink_height": [
+        1749,
+        1753
+      ],
+      "advance_width": [
+        1088,
+        1088
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        955,
+        959
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        1322,
+        1322
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial Q: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        898,
+        902
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        1077,
+        1077
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        996,
+        1000
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1132,
+        1132
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        913,
+        917
+      ],
+      "ink_height": [
+        1789,
+        1793
+      ],
+      "advance_width": [
+        1096,
+        1096
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial T: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1715,
+        1719
+      ],
+      "ink_width": [
+        814,
+        818
+      ],
+      "ink_height": [
+        1709,
+        1713
+      ],
+      "advance_width": [
+        991,
+        991
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial U: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1784,
+        1788
+      ],
+      "ink_width": [
+        933,
+        937
+      ],
+      "ink_height": [
+        1781,
+        1785
+      ],
+      "advance_width": [
+        1072,
+        1072
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial V: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        11,
+        15
+      ],
+      "y_max": [
+        1780,
+        1784
+      ],
+      "ink_width": [
+        903,
+        907
+      ],
+      "ink_height": [
+        1767,
+        1771
+      ],
+      "advance_width": [
+        1044,
+        1044
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial W: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        1112,
+        1116
+      ],
+      "ink_height": [
+        1789,
+        1793
+      ],
+      "advance_width": [
+        1245,
+        1245
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial X: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1779,
+        1783
+      ],
+      "ink_width": [
+        986,
+        990
+      ],
+      "ink_height": [
+        1774,
+        1778
+      ],
+      "advance_width": [
+        1186,
+        1186
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial Y: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        896,
+        900
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1037,
+        1037
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Engraved leafy initial Z: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        838,
+        842
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        971,
+        971
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial A: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        766,
+        770
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        906,
+        906
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial B: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        770,
+        774
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        907,
+        907
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial C: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        759,
+        763
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        900,
+        900
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial D: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        756,
+        760
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        996,
+        996
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        762,
+        766
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        901,
+        901
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial F: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        134,
+        138
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        684,
+        688
+      ],
+      "ink_height": [
+        1656,
+        1660
+      ],
+      "advance_width": [
+        844,
+        844
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial G: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        732,
+        736
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        868,
+        868
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial H: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        747,
+        751
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        938,
+        938
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1780,
+        1784
+      ],
+      "ink_width": [
+        736,
+        740
+      ],
+      "ink_height": [
+        1774,
+        1778
+      ],
+      "advance_width": [
+        1043,
+        1043
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial K: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        755,
+        759
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        925,
+        925
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial L: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        765,
+        769
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        916,
+        916
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial M: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        5,
+        9
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        726,
+        730
+      ],
+      "ink_height": [
+        1784,
+        1788
+      ],
+      "advance_width": [
+        980,
+        980
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial N: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1732,
+        1736
+      ],
+      "ink_width": [
+        705,
+        709
+      ],
+      "ink_height": [
+        1729,
+        1733
+      ],
+      "advance_width": [
+        843,
+        843
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1785,
+        1789
+      ],
+      "ink_width": [
+        1349,
+        1353
+      ],
+      "ink_height": [
+        1780,
+        1784
+      ],
+      "advance_width": [
+        1484,
+        1484
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        722,
+        726
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        860,
+        860
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial Q: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        177,
+        181
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        677,
+        681
+      ],
+      "ink_height": [
+        1619,
+        1623
+      ],
+      "advance_width": [
+        1031,
+        1031
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1776,
+        1780
+      ],
+      "ink_width": [
+        748,
+        752
+      ],
+      "ink_height": [
+        1773,
+        1777
+      ],
+      "advance_width": [
+        943,
+        943
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        736,
+        740
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        879,
+        879
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial T: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        16,
+        20
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        756,
+        760
+      ],
+      "ink_height": [
+        1775,
+        1779
+      ],
+      "advance_width": [
+        950,
+        950
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial U: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        726,
+        730
+      ],
+      "ink_height": [
+        1798,
+        1802
+      ],
+      "advance_width": [
+        873,
+        873
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial V: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        5,
+        9
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        761,
+        765
+      ],
+      "ink_height": [
+        1784,
+        1788
+      ],
+      "advance_width": [
+        904,
+        904
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial W: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        5,
+        9
+      ],
+      "y_max": [
+        1745,
+        1749
+      ],
+      "ink_width": [
+        707,
+        711
+      ],
+      "ink_height": [
+        1738,
+        1742
+      ],
+      "advance_width": [
+        843,
+        843
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial X: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        5,
+        9
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        719,
+        723
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        902,
+        902
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial Y: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        732,
+        736
+      ],
+      "ink_height": [
+        1798,
+        1802
+      ],
+      "advance_width": [
+        1410,
+        1410
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine vine blackletter initial Z: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        954,
+        958
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        1093,
+        1093
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial A: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        1121,
+        1125
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        1259,
+        1259
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial B: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1209,
+        1213
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        1346,
+        1346
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial C: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1790,
+        1794
+      ],
+      "ink_width": [
+        1143,
+        1147
+      ],
+      "ink_height": [
+        1784,
+        1788
+      ],
+      "advance_width": [
+        1281,
+        1281
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial D: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        40,
+        44
+      ],
+      "y_max": [
+        1788,
+        1792
+      ],
+      "ink_width": [
+        1313,
+        1317
+      ],
+      "ink_height": [
+        1746,
+        1750
+      ],
+      "advance_width": [
+        1444,
+        1444
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        117,
+        121
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        1133,
+        1137
+      ],
+      "ink_height": [
+        1674,
+        1678
+      ],
+      "advance_width": [
+        1335,
+        1335
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial F: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        80,
+        84
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        1066,
+        1070
+      ],
+      "ink_height": [
+        1712,
+        1716
+      ],
+      "advance_width": [
+        1203,
+        1203
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial G: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        30,
+        34
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1258,
+        1262
+      ],
+      "ink_height": [
+        1764,
+        1768
+      ],
+      "advance_width": [
+        1408,
+        1408
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial H: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        85,
+        89
+      ],
+      "y_max": [
+        1790,
+        1794
+      ],
+      "ink_width": [
+        1267,
+        1271
+      ],
+      "ink_height": [
+        1703,
+        1707
+      ],
+      "advance_width": [
+        1424,
+        1424
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1757,
+        1761
+      ],
+      "ink_width": [
+        1024,
+        1028
+      ],
+      "ink_height": [
+        1755,
+        1759
+      ],
+      "advance_width": [
+        1313,
+        1313
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial J: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        60,
+        64
+      ],
+      "y_max": [
+        1788,
+        1792
+      ],
+      "ink_width": [
+        1051,
+        1055
+      ],
+      "ink_height": [
+        1726,
+        1730
+      ],
+      "advance_width": [
+        1292,
+        1292
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial K: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1281,
+        1285
+      ],
+      "ink_height": [
+        1798,
+        1802
+      ],
+      "advance_width": [
+        1437,
+        1437
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial L: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        7,
+        11
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1180,
+        1184
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        1407,
+        1407
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial M: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        15,
+        19
+      ],
+      "y_max": [
+        1779,
+        1783
+      ],
+      "ink_width": [
+        1785,
+        1789
+      ],
+      "ink_height": [
+        1762,
+        1766
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial N: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        6,
+        10
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1466,
+        1470
+      ],
+      "ink_height": [
+        1789,
+        1793
+      ],
+      "advance_width": [
+        1616,
+        1616
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1789,
+        1793
+      ],
+      "ink_width": [
+        1526,
+        1530
+      ],
+      "ink_height": [
+        1787,
+        1791
+      ],
+      "advance_width": [
+        1679,
+        1679
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        5,
+        9
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        1140,
+        1144
+      ],
+      "ink_height": [
+        1787,
+        1791
+      ],
+      "advance_width": [
+        1283,
+        1283
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial Q: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        8,
+        12
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1275,
+        1279
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        1416,
+        1416
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1277,
+        1281
+      ],
+      "ink_height": [
+        1797,
+        1801
+      ],
+      "advance_width": [
+        1430,
+        1430
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1340,
+        1344
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        1491,
+        1491
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial T: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1799,
+        1803
+      ],
+      "ink_width": [
+        979,
+        983
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1121,
+        1121
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial U: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1799,
+        1803
+      ],
+      "ink_width": [
+        1254,
+        1258
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        1392,
+        1392
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial V: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        8,
+        12
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1361,
+        1365
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        1501,
+        1501
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial W: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1587,
+        1591
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        1741,
+        1741
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial X: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        6,
+        10
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1255,
+        1259
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        1396,
+        1396
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial Y: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        23,
+        27
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        1277,
+        1281
+      ],
+      "ink_height": [
+        1767,
+        1771
+      ],
+      "advance_width": [
+        1417,
+        1417
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Curled leaf medallion initial Z: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1799,
+        1803
+      ],
+      "ink_width": [
+        1203,
+        1207
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        1361,
+        1361
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Diamond and checker tile initial C: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1783,
+        1787
+      ],
+      "ink_width": [
+        1199,
+        1203
+      ],
+      "ink_height": [
+        1781,
+        1785
+      ],
+      "advance_width": [
+        1332,
+        1332
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Diamond and checker tile initial A: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1298,
+        1302
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1432,
+        1432
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Diamond and checker tile initial R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1281,
+        1285
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1412,
+        1412
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Diamond and checker tile initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1188,
+        1192
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        1319,
+        1319
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Diamond and checker tile initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1192,
+        1196
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        1323,
+        1323
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Diamond and checker tile initial T: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1199,
+        1203
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        1334,
+        1334
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Outlined square tile initial S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1321,
+        1325
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        1454,
+        1454
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Outlined square tile initial T: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1431,
+        1435
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        1564,
+        1564
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Outlined square tile initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        36,
+        40
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1400,
+        1404
+      ],
+      "ink_height": [
+        1760,
+        1764
+      ],
+      "advance_width": [
+        1538,
+        1538
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Outlined square tile initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        6,
+        10
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1431,
+        1435
+      ],
+      "ink_height": [
+        1789,
+        1793
+      ],
+      "advance_width": [
+        1619,
+        1619
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark rectangular tile initial F: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1751,
+        1755
+      ],
+      "ink_width": [
+        1390,
+        1394
+      ],
+      "ink_height": [
+        1748,
+        1752
+      ],
+      "advance_width": [
+        1577,
+        1577
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark rectangular tile initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        386,
+        390
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        518,
+        518
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark rectangular tile initial N: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        1539,
+        1543
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        1674,
+        1674
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark rectangular tile initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        1414,
+        1418
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        1548,
+        1548
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark rectangular tile initial T: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        1405,
+        1409
+      ],
+      "ink_height": [
+        1788,
+        1792
+      ],
+      "advance_width": [
+        1539,
+        1539
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark rectangular tile initial Y: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1536,
+        1540
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1674,
+        1674
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark rectangular tile initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        5,
+        9
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        1409,
+        1413
+      ],
+      "ink_height": [
+        1787,
+        1791
+      ],
+      "advance_width": [
+        1623,
+        1623
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Round-ended geometric tile initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1274,
+        1278
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        1409,
+        1409
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Round-ended geometric tile initial R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1342,
+        1346
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1475,
+        1475
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Round-ended geometric tile initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        604,
+        608
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        737,
+        737
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Round-ended geometric tile initial C: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1196,
+        1200
+      ],
+      "ink_height": [
+        1798,
+        1802
+      ],
+      "advance_width": [
+        1327,
+        1327
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Round-ended geometric tile initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1237,
+        1241
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1370,
+        1370
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dotted geometric tile initial S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        54,
+        58
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1221,
+        1225
+      ],
+      "ink_height": [
+        1739,
+        1743
+      ],
+      "advance_width": [
+        1356,
+        1356
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dotted geometric tile initial T: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        42,
+        46
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        1222,
+        1226
+      ],
+      "ink_height": [
+        1750,
+        1754
+      ],
+      "advance_width": [
+        1356,
+        1356
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dotted geometric tile initial O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1259,
+        1263
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        1395,
+        1395
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dotted geometric tile initial R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        5,
+        9
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1333,
+        1337
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        1470,
+        1470
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dotted geometric tile initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        366,
+        370
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        500,
+        500
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dotted geometric tile initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1247,
+        1251
+      ],
+      "ink_height": [
+        1791,
+        1795
+      ],
+      "advance_width": [
+        1464,
+        1464
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Double checker tile initial S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1771,
+        1775
+      ],
+      "ink_width": [
+        1062,
+        1066
+      ],
+      "ink_height": [
+        1770,
+        1774
+      ],
+      "advance_width": [
+        1195,
+        1195
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Double checker tile initial C: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1078,
+        1082
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        1214,
+        1214
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Double checker tile initial O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -3,
+        1
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1087,
+        1091
+      ],
+      "ink_height": [
+        1799,
+        1803
+      ],
+      "advance_width": [
+        1223,
+        1223
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Double checker tile initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1080,
+        1084
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        1211,
+        1211
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Double checker tile initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1788,
+        1792
+      ],
+      "ink_width": [
+        1075,
+        1079
+      ],
+      "ink_height": [
+        1786,
+        1790
+      ],
+      "advance_width": [
+        1207,
+        1207
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Alternating square tile initial S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1287,
+        1291
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        1423,
+        1423
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Alternating square tile initial O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        1279,
+        1283
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        1414,
+        1414
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Alternating square tile initial L: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        6,
+        10
+      ],
+      "y_max": [
+        1800,
+        1804
+      ],
+      "ink_width": [
+        1278,
+        1282
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        1412,
+        1412
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Alternating square tile initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        263,
+        267
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        399,
+        399
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Alternating square tile initial D: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1286,
+        1290
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        1421,
+        1421
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Diagonal square tile initial H: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1089,
+        1093
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1219,
+        1219
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Diamond square tile initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1077,
+        1081
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        1212,
+        1212
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small outlined geometric tile initial M: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1780,
+        1784
+      ],
+      "ink_width": [
+        1788,
+        1792
+      ],
+      "ink_height": [
+        1774,
+        1778
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small outlined geometric tile initial O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1290,
+        1294
+      ],
+      "ink_height": [
+        1797,
+        1801
+      ],
+      "advance_width": [
+        1429,
+        1429
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small outlined geometric tile initial D: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        1284,
+        1288
+      ],
+      "ink_height": [
+        1786,
+        1790
+      ],
+      "advance_width": [
+        1425,
+        1425
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small outlined geometric tile initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        7,
+        11
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1285,
+        1289
+      ],
+      "ink_height": [
+        1787,
+        1791
+      ],
+      "advance_width": [
+        1428,
+        1428
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small outlined geometric tile initial R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1277,
+        1281
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        1419,
+        1419
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small outlined geometric tile initial N: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        7,
+        11
+      ],
+      "y_max": [
+        1789,
+        1793
+      ],
+      "ink_width": [
+        1267,
+        1271
+      ],
+      "ink_height": [
+        1780,
+        1784
+      ],
+      "advance_width": [
+        1408,
+        1408
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Checker and dark tile initial O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1100,
+        1104
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        1239,
+        1239
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Checker and dark tile initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1767,
+        1771
+      ],
+      "ink_width": [
+        1081,
+        1085
+      ],
+      "ink_height": [
+        1766,
+        1770
+      ],
+      "advance_width": [
+        1216,
+        1216
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Checker and dark tile initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1002,
+        1006
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        1139,
+        1139
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Checker and dark tile initial N: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1177,
+        1181
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        1313,
+        1313
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Checker and dark tile initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        371,
+        375
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        532,
+        532
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Checker and dark tile initial G: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -3,
+        1
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1137,
+        1141
+      ],
+      "ink_height": [
+        1798,
+        1802
+      ],
+      "advance_width": [
+        1269,
+        1269
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine outlined tile initial P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1799,
+        1803
+      ],
+      "ink_width": [
+        1573,
+        1577
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        1710,
+        1710
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine outlined tile initial R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        15,
+        19
+      ],
+      "y_max": [
+        1778,
+        1782
+      ],
+      "ink_width": [
+        1789,
+        1793
+      ],
+      "ink_height": [
+        1762,
+        1766
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine outlined tile initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        797,
+        801
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        931,
+        931
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine outlined tile initial M: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        209,
+        213
+      ],
+      "y_max": [
+        1585,
+        1589
+      ],
+      "ink_width": [
+        1791,
+        1795
+      ],
+      "ink_height": [
+        1374,
+        1378
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine outlined tile initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1799,
+        1803
+      ],
+      "ink_width": [
+        1563,
+        1567
+      ],
+      "ink_height": [
+        1798,
+        1802
+      ],
+      "advance_width": [
+        1698,
+        1698
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark narrow rectangular tile initial D: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        1011,
+        1015
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        1152,
+        1152
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark narrow rectangular tile initial E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1800,
+        1804
+      ],
+      "ink_width": [
+        999,
+        1003
+      ],
+      "ink_height": [
+        1796,
+        1800
+      ],
+      "advance_width": [
+        1134,
+        1134
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark narrow rectangular tile initial S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        19,
+        23
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        990,
+        994
+      ],
+      "ink_height": [
+        1775,
+        1779
+      ],
+      "advance_width": [
+        1125,
+        1125
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark narrow rectangular tile initial I: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        202,
+        206
+      ],
+      "ink_height": [
+        1792,
+        1796
+      ],
+      "advance_width": [
+        336,
+        336
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark narrow rectangular tile initial G: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1094,
+        1098
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1227,
+        1227
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Dark narrow rectangular tile initial N: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1792,
+        1796
+      ],
+      "ink_width": [
+        1088,
+        1092
+      ],
+      "ink_height": [
+        1789,
+        1793
+      ],
+      "advance_width": [
+        1223,
+        1223
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Wide outlined rectangle (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        454,
+        458
+      ],
+      "y_max": [
+        1337,
+        1341
+      ],
+      "ink_width": [
+        1781,
+        1785
+      ],
+      "ink_height": [
+        881,
+        885
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Outlined square (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        14,
+        18
+      ],
+      "y_max": [
+        1790,
+        1794
+      ],
+      "ink_width": [
+        1751,
+        1755
+      ],
+      "ink_height": [
+        1774,
+        1778
+      ],
+      "advance_width": [
+        1914,
+        1914
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Half-shaded diagonal square (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        18,
+        22
+      ],
+      "y_max": [
+        1802,
+        1806
+      ],
+      "ink_width": [
+        1759,
+        1763
+      ],
+      "ink_height": [
+        1782,
+        1786
+      ],
+      "advance_width": [
+        1920,
+        1920
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Outlined right triangle (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        18,
+        22
+      ],
+      "y_max": [
+        1781,
+        1785
+      ],
+      "ink_width": [
+        1770,
+        1774
+      ],
+      "ink_height": [
+        1761,
+        1765
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Solid square (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1754,
+        1758
+      ],
+      "ink_width": [
+        1749,
+        1753
+      ],
+      "ink_height": [
+        1749,
+        1753
+      ],
+      "advance_width": [
+        1926,
+        1926
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Solid downward triangle (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        21,
+        25
+      ],
+      "y_max": [
+        1799,
+        1803
+      ],
+      "ink_width": [
+        1737,
+        1741
+      ],
+      "ink_height": [
+        1776,
+        1780
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Solid circle (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        11,
+        15
+      ],
+      "y_max": [
+        1785,
+        1789
+      ],
+      "ink_width": [
+        1753,
+        1757
+      ],
+      "ink_height": [
+        1772,
+        1776
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Rounded arch tile (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        37,
+        41
+      ],
+      "y_max": [
+        1758,
+        1762
+      ],
+      "ink_width": [
+        1772,
+        1776
+      ],
+      "ink_height": [
+        1718,
+        1722
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Solid diamond (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -2,
+        2
+      ],
+      "y_max": [
+        1762,
+        1766
+      ],
+      "ink_width": [
+        1762,
+        1766
+      ],
+      "ink_height": [
+        1762,
+        1766
+      ],
+      "advance_width": [
+        1921,
+        1921
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Rounded square corner (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        52,
+        56
+      ],
+      "y_max": [
+        1767,
+        1771
+      ],
+      "ink_width": [
+        1699,
+        1703
+      ],
+      "ink_height": [
+        1714,
+        1718
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Solid semicircle (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        11,
+        15
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        916,
+        920
+      ],
+      "ink_height": [
+        1781,
+        1785
+      ],
+      "advance_width": [
+        1085,
+        1085
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Solid vertical rectangle (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        16,
+        20
+      ],
+      "y_max": [
+        1794,
+        1798
+      ],
+      "ink_width": [
+        887,
+        891
+      ],
+      "ink_height": [
+        1776,
+        1780
+      ],
+      "advance_width": [
+        1059,
+        1059
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Outlined vertical rectangle (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        13,
+        17
+      ],
+      "y_max": [
+        1791,
+        1795
+      ],
+      "ink_width": [
+        878,
+        882
+      ],
+      "ink_height": [
+        1776,
+        1780
+      ],
+      "advance_width": [
+        1062,
+        1062
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Half-shaded narrow rectangle, left (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -10,
+        -6
+      ],
+      "y_max": [
+        1782,
+        1786
+      ],
+      "ink_width": [
+        953,
+        957
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        1101,
+        1101
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Half-shaded narrow rectangle, right (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        22,
+        26
+      ],
+      "y_max": [
+        1781,
+        1785
+      ],
+      "ink_width": [
+        904,
+        908
+      ],
+      "ink_height": [
+        1757,
+        1761
+      ],
+      "advance_width": [
+        1081,
+        1081
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Narrow right triangle, left (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        16,
+        20
+      ],
+      "y_max": [
+        1788,
+        1792
+      ],
+      "ink_width": [
+        923,
+        927
+      ],
+      "ink_height": [
+        1769,
+        1773
+      ],
+      "advance_width": [
+        1093,
+        1093
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Narrow right triangle, right (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        13,
+        17
+      ],
+      "y_max": [
+        1764,
+        1768
+      ],
+      "ink_width": [
+        949,
+        953
+      ],
+      "ink_height": [
+        1750,
+        1754
+      ],
+      "advance_width": [
+        1086,
+        1086
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Narrow outlined triangle, right (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        11,
+        15
+      ],
+      "y_max": [
+        1771,
+        1775
+      ],
+      "ink_width": [
+        921,
+        925
+      ],
+      "ink_height": [
+        1758,
+        1762
+      ],
+      "advance_width": [
+        1109,
+        1109
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Narrow outlined triangle, left (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        21,
+        25
+      ],
+      "y_max": [
+        1772,
+        1776
+      ],
+      "ink_width": [
+        851,
+        855
+      ],
+      "ink_height": [
+        1749,
+        1753
+      ],
+      "advance_width": [
+        1008,
+        1008
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine pointed wedge, left (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -5,
+        -1
+      ],
+      "y_max": [
+        1782,
+        1786
+      ],
+      "ink_width": [
+        447,
+        451
+      ],
+      "ink_height": [
+        1785,
+        1789
+      ],
+      "advance_width": [
+        636,
+        636
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine pointed wedge, right (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1765,
+        1769
+      ],
+      "ink_width": [
+        427,
+        431
+      ],
+      "ink_height": [
+        1763,
+        1767
+      ],
+      "advance_width": [
+        580,
+        580
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine angled end, left (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        16,
+        20
+      ],
+      "y_max": [
+        1772,
+        1776
+      ],
+      "ink_width": [
+        438,
+        442
+      ],
+      "ink_height": [
+        1754,
+        1758
+      ],
+      "advance_width": [
+        624,
+        624
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine angled end, right (pica): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        20,
+        24
+      ],
+      "y_max": [
+        1798,
+        1802
+      ],
+      "ink_width": [
+        387,
+        391
+      ],
+      "ink_height": [
+        1776,
+        1780
+      ],
+      "advance_width": [
+        542,
+        542
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine right-angle rule (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1771,
+        1775
+      ],
+      "ink_width": [
+        1784,
+        1788
+      ],
+      "ink_height": [
+        1768,
+        1772
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine diagonal rule (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        51,
+        55
+      ],
+      "y_max": [
+        1788,
+        1792
+      ],
+      "ink_width": [
+        1699,
+        1703
+      ],
+      "ink_height": [
+        1735,
+        1739
+      ],
+      "advance_width": [
+        1924,
+        1924
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Short horizontal rule (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        808,
+        812
+      ],
+      "y_max": [
+        1003,
+        1007
+      ],
+      "ink_width": [
+        1674,
+        1678
+      ],
+      "ink_height": [
+        193,
+        197
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine quarter-circle curve (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        41,
+        45
+      ],
+      "y_max": [
+        1704,
+        1708
+      ],
+      "ink_width": [
+        1712,
+        1716
+      ],
+      "ink_height": [
+        1661,
+        1665
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small solid square (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        14,
+        18
+      ],
+      "y_max": [
+        1800,
+        1804
+      ],
+      "ink_width": [
+        1746,
+        1750
+      ],
+      "ink_height": [
+        1785,
+        1789
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small solid circle (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1793,
+        1797
+      ],
+      "ink_width": [
+        1778,
+        1782
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small solid right triangle (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        21,
+        25
+      ],
+      "y_max": [
+        1742,
+        1746
+      ],
+      "ink_width": [
+        1724,
+        1728
+      ],
+      "ink_height": [
+        1719,
+        1723
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small solid diamond (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        29,
+        33
+      ],
+      "y_max": [
+        1707,
+        1711
+      ],
+      "ink_width": [
+        1689,
+        1693
+      ],
+      "ink_height": [
+        1676,
+        1680
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small quarter-circle corner (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1787,
+        1791
+      ],
+      "ink_width": [
+        1734,
+        1738
+      ],
+      "ink_height": [
+        1781,
+        1785
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small semicircle (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1749,
+        1753
+      ],
+      "ink_width": [
+        855,
+        859
+      ],
+      "ink_height": [
+        1748,
+        1752
+      ],
+      "advance_width": [
+        1088,
+        1088
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small curved triangular corner (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        133,
+        137
+      ],
+      "y_max": [
+        1676,
+        1680
+      ],
+      "ink_width": [
+        1622,
+        1626
+      ],
+      "ink_height": [
+        1541,
+        1545
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small vertical rectangle (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        27,
+        31
+      ],
+      "y_max": [
+        1755,
+        1759
+      ],
+      "ink_width": [
+        923,
+        927
+      ],
+      "ink_height": [
+        1726,
+        1730
+      ],
+      "advance_width": [
+        1091,
+        1091
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small pointed corner (nonpareil): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        118,
+        122
+      ],
+      "y_max": [
+        1704,
+        1708
+      ],
+      "ink_width": [
+        1644,
+        1648
+      ],
+      "ink_height": [
+        1584,
+        1588
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Long outlined rectangle (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        615,
+        619
+      ],
+      "y_max": [
+        1181,
+        1185
+      ],
+      "ink_width": [
+        1791,
+        1795
+      ],
+      "ink_height": [
+        564,
+        568
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Medium outlined rectangle (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        486,
+        490
+      ],
+      "y_max": [
+        1309,
+        1313
+      ],
+      "ink_width": [
+        1785,
+        1789
+      ],
+      "ink_height": [
+        821,
+        825
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Short outlined rectangle (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        305,
+        309
+      ],
+      "y_max": [
+        1504,
+        1508
+      ],
+      "ink_width": [
+        1762,
+        1766
+      ],
+      "ink_height": [
+        1196,
+        1200
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Outlined square (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1786,
+        1790
+      ],
+      "ink_width": [
+        1770,
+        1774
+      ],
+      "ink_height": [
+        1785,
+        1789
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Outlined narrow rectangle (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -16,
+        -12
+      ],
+      "y_max": [
+        1800,
+        1804
+      ],
+      "ink_width": [
+        928,
+        932
+      ],
+      "ink_height": [
+        1814,
+        1818
+      ],
+      "advance_width": [
+        1138,
+        1138
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Outlined right triangle (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        8,
+        12
+      ],
+      "y_max": [
+        1777,
+        1781
+      ],
+      "ink_width": [
+        1688,
+        1692
+      ],
+      "ink_height": [
+        1766,
+        1770
+      ],
+      "advance_width": [
+        1897,
+        1897
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine right-angle rule (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        49,
+        53
+      ],
+      "y_max": [
+        1761,
+        1765
+      ],
+      "ink_width": [
+        1752,
+        1756
+      ],
+      "ink_height": [
+        1710,
+        1714
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine diagonal rule (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        46,
+        50
+      ],
+      "y_max": [
+        1751,
+        1755
+      ],
+      "ink_width": [
+        1739,
+        1743
+      ],
+      "ink_height": [
+        1703,
+        1707
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Long solid rectangle (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        448,
+        452
+      ],
+      "y_max": [
+        1342,
+        1346
+      ],
+      "ink_width": [
+        1776,
+        1780
+      ],
+      "ink_height": [
+        892,
+        896
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Medium solid rectangle (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        310,
+        314
+      ],
+      "y_max": [
+        1492,
+        1496
+      ],
+      "ink_width": [
+        1769,
+        1773
+      ],
+      "ink_height": [
+        1180,
+        1184
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Solid square (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1808,
+        1812
+      ],
+      "ink_width": [
+        1741,
+        1745
+      ],
+      "ink_height": [
+        1802,
+        1806
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Narrow solid rectangle (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        25,
+        29
+      ],
+      "y_max": [
+        1749,
+        1753
+      ],
+      "ink_width": [
+        791,
+        795
+      ],
+      "ink_height": [
+        1723,
+        1727
+      ],
+      "advance_width": [
+        1004,
+        1004
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Two small square blocks (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        18,
+        22
+      ],
+      "y_max": [
+        1773,
+        1777
+      ],
+      "ink_width": [
+        922,
+        926
+      ],
+      "ink_height": [
+        1753,
+        1757
+      ],
+      "advance_width": [
+        1111,
+        1111
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Solid right triangle (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        49,
+        53
+      ],
+      "y_max": [
+        1751,
+        1755
+      ],
+      "ink_width": [
+        1763,
+        1767
+      ],
+      "ink_height": [
+        1700,
+        1704
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Narrow solid triangle, right (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        6,
+        10
+      ],
+      "y_max": [
+        1767,
+        1771
+      ],
+      "ink_width": [
+        880,
+        884
+      ],
+      "ink_height": [
+        1759,
+        1763
+      ],
+      "advance_width": [
+        1057,
+        1057
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Narrow solid triangle, left (long primer): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1759,
+        1763
+      ],
+      "ink_width": [
+        854,
+        858
+      ],
+      "ink_height": [
+        1755,
+        1759
+      ],
+      "advance_width": [
+        1065,
+        1065
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Solid diamond (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        36,
+        40
+      ],
+      "y_max": [
+        1753,
+        1757
+      ],
+      "ink_width": [
+        1775,
+        1779
+      ],
+      "ink_height": [
+        1715,
+        1719
+      ],
+      "advance_width": [
+        1924,
+        1924
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine right-angle end, left (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        19,
+        23
+      ],
+      "y_max": [
+        1759,
+        1763
+      ],
+      "ink_width": [
+        901,
+        905
+      ],
+      "ink_height": [
+        1738,
+        1742
+      ],
+      "advance_width": [
+        1075,
+        1075
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine right-angle end, right (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        27,
+        31
+      ],
+      "y_max": [
+        1789,
+        1793
+      ],
+      "ink_width": [
+        942,
+        946
+      ],
+      "ink_height": [
+        1760,
+        1764
+      ],
+      "advance_width": [
+        1117,
+        1117
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Narrow outlined triangle, left (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        30,
+        34
+      ],
+      "y_max": [
+        1759,
+        1763
+      ],
+      "ink_width": [
+        858,
+        862
+      ],
+      "ink_height": [
+        1727,
+        1731
+      ],
+      "advance_width": [
+        1026,
+        1026
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Narrow outlined triangle, right (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        14,
+        18
+      ],
+      "y_max": [
+        1744,
+        1748
+      ],
+      "ink_width": [
+        901,
+        905
+      ],
+      "ink_height": [
+        1727,
+        1731
+      ],
+      "advance_width": [
+        1092,
+        1092
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Long horizontal rule (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        810,
+        814
+      ],
+      "y_max": [
+        958,
+        962
+      ],
+      "ink_width": [
+        1758,
+        1762
+      ],
+      "ink_height": [
+        146,
+        150
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Short horizontal rule (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        793,
+        797
+      ],
+      "y_max": [
+        1021,
+        1025
+      ],
+      "ink_width": [
+        1703,
+        1707
+      ],
+      "ink_height": [
+        225,
+        229
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Half-shaded narrow rectangle, left (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        10,
+        14
+      ],
+      "y_max": [
+        1779,
+        1783
+      ],
+      "ink_width": [
+        873,
+        877
+      ],
+      "ink_height": [
+        1767,
+        1771
+      ],
+      "advance_width": [
+        1056,
+        1056
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Half-shaded narrow rectangle, right (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        53,
+        57
+      ],
+      "y_max": [
+        1763,
+        1767
+      ],
+      "ink_width": [
+        840,
+        844
+      ],
+      "ink_height": [
+        1708,
+        1712
+      ],
+      "advance_width": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Half-shaded square (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        15,
+        19
+      ],
+      "y_max": [
+        1752,
+        1756
+      ],
+      "ink_width": [
+        1703,
+        1707
+      ],
+      "ink_height": [
+        1735,
+        1739
+      ],
+      "advance_width": [
+        1873,
+        1873
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine solid wedge, left (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -5,
+        -1
+      ],
+      "y_max": [
+        1767,
+        1771
+      ],
+      "ink_width": [
+        432,
+        436
+      ],
+      "ink_height": [
+        1770,
+        1774
+      ],
+      "advance_width": [
+        604,
+        604
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine solid wedge, right (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1713,
+        1717
+      ],
+      "ink_width": [
+        498,
+        502
+      ],
+      "ink_height": [
+        1707,
+        1711
+      ],
+      "advance_width": [
+        663,
+        663
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine angled end, right (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1757,
+        1761
+      ],
+      "ink_width": [
+        466,
+        470
+      ],
+      "ink_height": [
+        1754,
+        1758
+      ],
+      "advance_width": [
+        674,
+        674
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Fine angled end, left (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        16,
+        20
+      ],
+      "y_max": [
+        1783,
+        1787
+      ],
+      "ink_width": [
+        465,
+        469
+      ],
+      "ink_height": [
+        1765,
+        1769
+      ],
+      "advance_width": [
+        666,
+        666
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Solid circle (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        13,
+        17
+      ],
+      "y_max": [
+        1781,
+        1785
+      ],
+      "ink_width": [
+        1762,
+        1766
+      ],
+      "ink_height": [
+        1766,
+        1770
+      ],
+      "advance_width": [
+        1921,
+        1921
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Solid semicircle (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -7,
+        -3
+      ],
+      "y_max": [
+        1765,
+        1769
+      ],
+      "ink_width": [
+        868,
+        872
+      ],
+      "ink_height": [
+        1770,
+        1774
+      ],
+      "advance_width": [
+        1041,
+        1041
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small solid dot (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        40,
+        44
+      ],
+      "y_max": [
+        1772,
+        1776
+      ],
+      "ink_width": [
+        1683,
+        1687
+      ],
+      "ink_height": [
+        1730,
+        1734
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small semicircle (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        48,
+        52
+      ],
+      "y_max": [
+        1725,
+        1729
+      ],
+      "ink_width": [
+        844,
+        848
+      ],
+      "ink_height": [
+        1675,
+        1679
+      ],
+      "advance_width": [
+        1030,
+        1030
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small diamond (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        25,
+        29
+      ],
+      "y_max": [
+        1724,
+        1728
+      ],
+      "ink_width": [
+        1711,
+        1715
+      ],
+      "ink_height": [
+        1697,
+        1701
+      ],
+      "advance_width": [
+        1901,
+        1901
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small square (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        87,
+        91
+      ],
+      "y_max": [
+        1765,
+        1769
+      ],
+      "ink_width": [
+        1707,
+        1711
+      ],
+      "ink_height": [
+        1676,
+        1680
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Small right triangle (long primer and pearl): reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        19,
+        23
+      ],
+      "y_max": [
+        1714,
+        1718
+      ],
+      "ink_width": [
+        1644,
+        1648
+      ],
+      "ink_height": [
+        1692,
+        1696
+      ],
+      "advance_width": [
+        1901,
+        1901
+      ]
+    }
+  ],
+  "notes": "Icons keep their native aspect ratios and fit an 1800-unit maximum ink dimension in the 2048-unit em; shorter artwork is centred vertically. Bounds allow curve conversion and rounding."
+}

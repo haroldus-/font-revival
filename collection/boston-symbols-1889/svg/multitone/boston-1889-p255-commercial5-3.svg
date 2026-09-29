@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Minus sign, 5-point commercial — multitone">
+<title>Minus sign, 5-point commercial — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M747 854C965 825 1284 825 1472 854C1646 883 1472 912 1066 912C675 912 515 883 747 854Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M298 926C370 709 1704 665 1762 883C1777 970 1443 1042 1008 1071C428 1100 254 1071 298 926ZM747 854C515 883 675 912 1066 912C1472 912 1646 883 1472 854C1284 825 965 825 747 854Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M820 1129C167 1100 8 1042 80 883C196 578 1864 578 1864 868C1864 1158 1777 1173 820 1129ZM298 926C254 1071 428 1100 1008 1071C1443 1042 1777 970 1762 883C1704 665 370 709 298 926Z"/>
+</svg>

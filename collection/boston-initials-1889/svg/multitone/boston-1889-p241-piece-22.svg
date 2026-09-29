@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Short horizontal rule (long primer and pearl) — multitone">
+<title>Short horizontal rule (long primer and pearl) — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M342 976C229 961 154 916 177 878C237 788 1499 796 1642 886C1702 923 1724 961 1679 968C1469 991 522 998 342 976Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M162 976C109 946 94 886 124 841C192 743 1784 818 1814 923C1829 1013 297 1066 162 976ZM342 976C522 998 1469 991 1679 968C1724 961 1702 923 1642 886C1499 796 237 788 177 878C154 916 229 961 342 976Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M192 1051C124 1036 64 961 64 878C64 743 124 735 845 735C1274 735 1679 758 1747 781C1890 833 1905 1028 1777 1043C1559 1066 312 1074 192 1051ZM162 976C297 1066 1829 1013 1814 923C1784 818 192 743 124 841C94 886 109 946 162 976Z"/>
+</svg>

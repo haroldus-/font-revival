@@ -16,6 +16,7 @@
     .hero-showcase{min-width:0}.hero-art{position:relative;height:clamp(240px,26vw,300px)}.hero-art .hero-face{display:flex;align-items:center;justify-content:flex-start}.hero-art svg{height:100%;width:auto;max-width:100%;display:block}
     .search{flex:1;min-width:0}input[type=search]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=color]{width:48px;height:32px;border:1px solid var(--rule);padding:2px;background:transparent}summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
     .count{font-size:12px;color:var(--muted);margin:0 0 20px}.icon-card{padding:32px 0 36px;border-top:1px solid var(--rule)}.icon-card h2{font-family:"remington-1888",monospace;font-size:clamp(38px,5vw,58px);font-weight:normal;line-height:1.4;margin:22px 0 8px}.tags{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;padding:0;margin:0 0 20px;color:var(--muted);font-size:12px}
+    .show-more{margin:20px 0 36px;padding:12px 18px;border:1px solid var(--rule);background:transparent;color:var(--ink);font:inherit;cursor:pointer}.show-more:focus-visible{outline:3px solid var(--red);outline-offset:4px}
     .renderings{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:30px 0}.renderings figure{margin:0;padding:28px 12px 15px;border:1px solid var(--rule);text-align:center;min-width:0}.art{color:var(--icon-color);font-size:var(--icon-size);height:1.12em;display:flex;justify-content:center;align-items:center}.art svg{display:block;max-width:100%;overflow:visible}.art .fr-icon{display:block}figcaption{font-size:12px;color:var(--muted);margin-top:20px}
     .icon-card .downloads{margin-bottom:22px}details{border-top:1px solid var(--rule);padding:15px 0}summary{cursor:pointer;font-size:14px}details p{font-size:14px;max-width:850px}details h3{font-size:14px;margin-top:24px}pre{padding:16px;background:#eae4d8;white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}code{overflow-wrap:anywhere}.comparison{width:100%;height:auto;margin-top:18px}[hidden]{display:none!important}
     @media(max-width:1000px){.renderings{grid-template-columns:1fr}}
@@ -39,12 +40,13 @@
       <section id="collection" aria-labelledby="collection-title">
         <div class="collection-bar"><h2 id="collection-title">The collection / @@ICON_COUNT@@ icons</h2><span>SVG + icon fonts · MIT licensed</span></div>
         <div class="tester controls">
-          <div class="search"><label for="icon-search">FIND A THEME OR SUBJECT</label><input type="search" id="icon-search" placeholder="Try Christmas, winter or portrait" autocomplete="off"></div>
+          <div class="search"><label for="icon-search">FIND A THEME OR SUBJECT</label><input type="search" id="icon-search" placeholder="Try flowers, horses or Christmas" autocomplete="off"></div>
           <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
           <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
         </div>
         <p id="result-count" class="count" role="status">@@ICON_COUNT@@ icons</p>
         @@ICON_CARDS@@
+        <button id="show-more" class="show-more" type="button" hidden>Show more icons</button>
         <p id="empty" hidden>No icons match that search. Try a theme or subject, such as Christmas or portrait.</p>
       </section>
     </main>
@@ -52,16 +54,52 @@
   </div>
   <script>
     const cards=[...document.querySelectorAll('.icon-card')];
+    window.revivalIconArtwork=Object.create(null);
+    const chunkLoads=new Map();
+    async function hydrateCard(card){
+      const chunk=card.dataset.artChunk;
+      if(!chunk)return true;
+      const status=card.querySelector('.art-status');
+      card.querySelector('.renderings').setAttribute('aria-busy','true');
+      status.textContent='Loading preview…';status.hidden=false;
+      try{
+        if(!chunkLoads.has(chunk))chunkLoads.set(chunk,new Promise((resolve,reject)=>{
+          const script=document.createElement('script');
+          script.src=chunk;script.onload=resolve;script.onerror=reject;
+          document.head.append(script);
+        }));
+        await chunkLoads.get(chunk);
+        const drawings=window.revivalIconArtwork[card.id];
+        if(!drawings)throw new Error('Missing icon artwork');
+        for(const svg of card.querySelectorAll('[data-icon-format]'))svg.innerHTML=drawings[svg.dataset.iconFormat];
+        delete card.dataset.artChunk;status.hidden=true;
+        return true;
+      }catch{
+        status.textContent='Preview unavailable. Download the SVG below.';
+        return false;
+      }finally{
+        card.querySelector('.renderings').removeAttribute('aria-busy');
+      }
+    }
     const countLabel=count=>`${count} ${count===1?'icon':'icons'}`;
-    document.getElementById('result-count').textContent=countLabel(cards.length);
+    const more=document.getElementById('show-more');
+    let matches=cards,visibleLimit=24;
+    function showResults(){
+      const shown=new Set(matches.slice(0,visibleLimit));
+      for(const card of cards)card.hidden=!shown.has(card);
+      for(const card of shown)hydrateCard(card);
+      document.getElementById('result-count').textContent=matches.length>visibleLimit?`Showing ${visibleLimit} of ${countLabel(matches.length)}`:`${matches.length} of ${countLabel(cards.length)}`;
+      document.getElementById('empty').hidden=matches.length!==0;
+      more.hidden=matches.length<=visibleLimit;
+    }
+    more.addEventListener('click',()=>{visibleLimit+=24;showResults();});
     document.getElementById('collection-title').textContent=`The collection / ${countLabel(cards.length)}`;
     document.getElementById('icon-search').addEventListener('input',event=>{
       const words=event.target.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
-      let count=0;
-      for(const card of cards){card.hidden=!words.every(word=>card.dataset.search.toLowerCase().includes(word));if(!card.hidden)count++;}
-      document.getElementById('result-count').textContent=`${count} of ${countLabel(cards.length)}`;
-      document.getElementById('empty').hidden=count!==0;
+      matches=cards.filter(card=>words.every(word=>card.dataset.search.toLowerCase().includes(word)));
+      visibleLimit=24;showResults();
     });
+    showResults();
     document.getElementById('icon-size').addEventListener('input',event=>{
       document.documentElement.style.setProperty('--icon-size',`${event.target.value}px`);
       document.getElementById('size-output').value=event.target.value;
@@ -78,10 +116,13 @@
       const next=faces[0].cloneNode(true);
       next.classList.add('is-hidden');hero.append(next);faces.push(next);
     }
-    function rotateIcon(){
-      step++;
+    async function rotateIcon(){
+      const nextStep=step+1;
+      const index=Math.floor(nextStep/2)%artwork.length;
+      if(!await hydrateCard(cards[index])||paused||reducedMotion.matches||document.hidden)return;
+      step=nextStep;
       const next=1-currentFace;
-      const drawing=artwork[Math.floor(step/2)%artwork.length].cloneNode(true);
+      const drawing=artwork[index].cloneNode(true);
       drawing.removeAttribute('style');
       faces[next].replaceChildren(drawing);
       faces[next].style.color=step%2?'var(--red)':'var(--ink)';

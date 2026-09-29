@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Minus sign, small, 10-point — multitone">
+<title>Minus sign, small, 10-point — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M143 902C143 871 452 850 965 850C1478 850 1787 871 1787 902C1787 933 1478 953 965 953C452 953 143 933 143 902Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M118 953C41 830 185 804 955 804C1396 809 1776 820 1797 830C1817 845 1823 886 1802 927C1781 989 1633 1004 965 1004C477 1004 138 984 118 953ZM143 902C143 933 452 953 965 953C1478 953 1787 933 1787 902C1787 871 1478 850 965 850C452 850 143 871 143 902Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M77 927C56 886 61 840 87 830C149 789 1771 784 1833 820C1864 840 1874 886 1853 927C1833 989 1674 1004 965 1004C256 1004 97 989 77 927ZM118 953C138 984 477 1004 965 1004C1633 1004 1781 989 1802 927C1823 886 1817 845 1797 830C1776 820 1396 809 955 804C185 804 41 830 118 953Z"/>
+</svg>

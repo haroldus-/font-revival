@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Short fine rule — multitone">
+<title>Short fine rule — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M209 933C161 861 263 855 1029 885C1446 903 1741 933 1693 945C1524 982 233 976 209 933Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M124 915C124 837 257 825 969 825C1681 825 1814 837 1814 915C1814 994 1681 1006 969 1006C257 1006 124 994 124 915ZM209 933C233 976 1524 982 1693 945C1741 933 1446 903 1029 885C263 855 161 861 209 933Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M88 1012C76 1000 64 933 64 867C64 764 94 752 251 789C354 807 764 825 1162 825C1795 825 1880 837 1862 921C1844 1006 1723 1024 981 1030C504 1030 100 1024 88 1012ZM124 915C124 994 257 1006 969 1006C1681 1006 1814 994 1814 915C1814 837 1681 825 969 825C257 825 124 837 124 915Z"/>
+</svg>

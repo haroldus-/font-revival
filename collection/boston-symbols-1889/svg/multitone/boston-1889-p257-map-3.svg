@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Horizontal line, lower map type — multitone">
+<title>Horizontal line, lower map type — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M139 900C139 878 439 863 960 863C1470 863 1793 878 1808 900C1823 926 1538 938 987 938C447 938 139 923 139 900Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M102 919C79 893 75 863 90 851C105 844 510 836 983 840C1722 844 1845 851 1845 900C1845 949 1722 956 994 960C338 964 132 956 102 919ZM139 900C139 923 447 938 987 938C1538 938 1823 926 1808 900C1793 878 1470 863 960 863C439 863 139 878 139 900Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M64 900C64 881 66 867 85 856C76 870 82 896 102 919C132 956 338 964 994 960C1722 956 1845 949 1845 900C1845 851 1722 844 983 840C551 836 176 843 103 849C175 827 380 825 964 825C1838 825 1864 829 1864 900C1864 971 1838 975 964 975C90 975 64 971 64 900Z"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1241 2048" role="img" aria-label="Curled comma stroke, 11-point — multitone">
+<title>Curled comma stroke, 11-point — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M217 1549C177 1469 257 1269 390 1083C564 869 631 629 577 442C546 304 529 231 549 219C572 205 642 268 791 402C1124 696 1164 1109 897 1456C697 1709 350 1763 217 1549Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M324 1723C84 1629 110 1283 364 1003C524 816 537 709 417 482C217 109 337 2 737 216C1257 482 1271 1376 764 1709C604 1829 550 1829 324 1723ZM217 1549C350 1763 697 1709 897 1456C1164 1109 1124 696 791 402C642 268 572 205 549 219C529 231 546 304 577 442C631 629 564 869 390 1083C257 1269 177 1469 217 1549Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M164 1696C-23 1576 70 1016 297 1016C470 1016 444 562 257 376C137 256 137 176 244 69C484 -171 1044 256 1151 749C1264 1256 1005 1691 647 1782C682 1767 719 1743 764 1709C1271 1376 1257 482 737 216C337 2 217 109 417 482C537 709 524 816 364 1003C110 1283 84 1629 324 1723C418 1767 482 1793 536 1799C417 1805 290 1774 164 1696Z"/>
+</svg>

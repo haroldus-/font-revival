@@ -96,3 +96,33 @@ Recipes may override `review_characters` and `review_words`. The normal specimen
 inventory. Review both, including punctuation and spacing, before accepting a
 master. Lowercase aliases are permitted for documented capitals-only designs;
 they must be visible in the metadata, README and gallery.
+
+## Larger icon inventories
+
+`--jobs 4` prepares independent crops in parallel while preserving manifest order.
+`--cache workspace/trace-cache` reuses prepared paths only when the source bytes,
+recipe, layer metadata and preparation code match. The cache is disposable;
+committed CFF masters remain authoritative for release builds.
+
+Icon recipes may set `max_ink_dimension` and `center_vertical` to fit wide or tall
+artwork uniformly in a common frame. `frame_threshold` uses the lightest retained
+trace to measure that frame before applying the same transform to solid and tonal
+paths. It prevents pale extremities from clipping without stretching the drawing.
+Dense boolean operations are checked on a deterministic 64 × 64 point grid against
+the operands' fill rules. This catches silent malformed contours as well as
+reported PathOps failures. Failed results are retried in exact rotated or reflected
+coordinate frames; inverse transforms restore the artwork. The initial boundary
+tolerance is 0.05 font units. If every frame fails that strict check, boundary-only
+differences within one unit may pass, matching final integer drawing precision.
+If those sweeps fail, each Bezier is subdivided into halves, then quarters, and
+the same checked operations are repeated. Subdivision retains the same curves;
+it does not flatten, smooth or redraw the engraving. This sampled check
+complements, rather than replaces, source-proof review.
+
+If no checked sweep succeeds, tone preparation repeats the separation using the
+original fitted curves before integer rounding. Premature rounding can create
+artificial tangencies between threshold contours. Only the finished regions are
+then rounded; the source masks, scaling and final coordinate precision are unchanged.
+If cubic intersections still fail, the final fallback uses quadratic curves with
+a maximum error of 0.05 font units, ten times finer than release TTF conversion.
+This remains vector artwork and passes the same fill checks before CFF import.

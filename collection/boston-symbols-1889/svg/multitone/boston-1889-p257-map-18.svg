@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1093 2048" role="img" aria-label="Steep diagonal, rising map type — multitone">
+<title>Steep diagonal, rising map type — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M739 1323C625 1090 517 868 494 825C333 527 123 113 123 98C123 86 142 79 161 79C211 79 977 1638 954 1699C946 1722 851 1553 739 1323Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M506 944C115 163 58 2 161 2C203 2 1004 1615 1004 1699C1004 1883 893 1714 506 944ZM739 1323C851 1553 946 1722 954 1699C977 1638 211 79 161 79C142 79 123 86 123 98C123 113 333 527 494 825C517 868 625 1090 739 1323Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M904 1756C816 1616 555 1080 512 956C894 1716 1004 1882 1004 1699C1004 1615 212 20 162 2C209 11 258 49 280 109C330 236 682 979 759 1113C912 1385 1046 1699 1027 1749C1000 1814 942 1818 904 1756ZM391 713C317 634 43 73 65 40C87 7 124 -5 161 2C69 2 105 130 391 713ZM476 884C473 883 470 883 467 883C448 883 429 848 429 810C429 802 429 795 428 787C443 818 459 851 476 884Z"/>
+</svg>

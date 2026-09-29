@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Tiny horizontal rule — multitone">
+<title>Tiny horizontal rule — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M693 912C519 842 600 807 1019 807C1367 795 1553 842 1506 912C1425 1051 1019 1051 693 912Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M217 1039C77 900 229 819 821 749C1170 714 1553 726 1657 784C1832 877 1832 900 1681 958C1448 1039 275 1098 217 1039ZM693 912C1019 1051 1425 1051 1506 912C1553 842 1367 795 1019 807C600 807 519 842 693 912Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M101 1016C-39 784 217 679 902 679C1774 679 2122 842 1657 1016C1274 1156 194 1156 101 1016ZM217 1039C275 1098 1448 1039 1681 958C1832 900 1832 877 1657 784C1553 726 1170 714 821 749C229 819 77 900 217 1039Z"/>
+</svg>

@@ -1,8 +1,11 @@
 # Ornaments and cuts
 
 The icon collection uses the existing family workflow with `kind: "icons"` in
-`font.json`. Each source book has a family under `collection/<name-year>/`.
-Boston Cuts 1889 starts with one reviewed pilot: Father Christmas, No. 4202.
+`font.json`. Families live under `collection/<name-year>/`. The Boston 1889 range
+is divided into Cuts (478), Ornaments (715), Initials (312) and Symbols (460),
+keeping fonts and download packages manageable. The 1,965 icons have global IDs
+and family-local codepoints. Source inventories record coverage, duplicates and
+the missing printed pages 217–218.
 
 ## Delivery and use
 
@@ -32,8 +35,12 @@ positive-up master coordinates flipped for SVG. This preserves aspect ratio and
 alignment across formats. Inline SVG and sprites inherit `currentColor`; an SVG
 loaded with `<img>` has its own colour context and is black by default. Set a
 sprite's width using its manifest `aspect_ratio` and height of one em. Serve sprite
-examples over HTTP(S), using paths appropriate to your site. The gallery embeds
-the paths inline so opening `icons.html` directly from disk also works. For local
+examples over HTTP(S), using paths appropriate to your site. The gallery renders
+paths inline so opening `icons.html` directly from disk also works. Its first 24
+icons are embedded in the page; later artwork loads from generated local script
+chunks under `site/icon-art/` when search, pagination or the hero needs it. This
+keeps the full collection searchable without downloading every contour up front.
+Keep that directory with the gallery. For local
 file pages, use an individual SVG with `<img>` or paste its SVG markup inline;
 external `<use>` references can be blocked by browser origin restrictions.
 Every family README
@@ -128,7 +135,7 @@ Keep specimen numbers and page references in the source records for provenance.
 Omit tags that describe the entire collection, such as Victorian and vintage;
 tags should help distinguish one cut from another.
 
-Codepoints are unique within a book family; IDs are unique across the collection.
+Codepoints are unique within a font family; IDs are unique across the collection.
 Assign new codepoints without renumbering existing icons. Preserve removed names
 as reservations in the source inventory rather than reusing them. Do not silently
 delete outputs or change historical names. Split exceptionally large collections
@@ -174,18 +181,33 @@ the same deterministic ZIP releases used for typeface families.
 Icon builds also generate a smaller, deterministic web bundle in the family's
 `downloads/` folder. It contains the public assets and license under `collection/`
 so the gallery's HTML examples match the extracted paths. The gallery links to
-this committed ZIP, which is included in the static site and rebuild checks.
+this committed ZIP, which is included in release rebuild checks.
 
-## Planned inventory
+### Publish the gallery
+
+`python scripts/build_site.py --output workspace/published` stages the public
+HTML and its asset dependencies, including deferred artwork chunks. The Pages
+workflow uses this same command. Local gallery files keep relative download
+links. The staged HTML links PDFs and ZIPs to their committed files on GitHub,
+so those large downloads are not duplicated in the published site. Editable
+masters, source scans and full proofs remain available in the repository.
+The assembler checks missing dependencies and the published size against
+[GitHub Pages' 1 GB limit](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
+Use an empty output directory when staging a new release.
+
+## Coverage and remaining sources
 
 The requested expansion is Boston printed pp. 217–276 inclusive and the Baltimore
 book (`ldpd_12198261_000.pdf`) from the user's page 121 onward. Both supplied PDFs
 are retained in `workspace/icon-pilot/`. The Boston archive record says printed
-pp. 217–218 are missing; the forthcoming survey must record these gaps and seek
-another historical copy. The Baltimore page-number interpretation still needs
+pp. 217–218 are missing. The survey records this gap; the archive, Wikimedia copy
+and library catalogue search did not reveal a second digital copy supplying them.
+The Baltimore page-number interpretation still needs
 visual verification against that scan before inventorying it.
 
-Only the No. 4202 pilot has been selected and revived. A full survey should record
+All 62 available Boston leaves in the range have been surveyed. Decorative
+initials and pictorial symbols are included by user approval; ordinary text and
+numerals are excluded. The inventory records
 each impression, page, catalogue number, crop, status and reason for any exclusion.
 For unnumbered specimens, use a page-and-position ID. Catalogue repeating border
 pieces and corners individually, retain composed examples as reference, and
@@ -194,6 +216,8 @@ remain faithful illustrated forms. No omitted specimen should disappear from
 the inventory merely because it is difficult to trace or too detailed for small
 sizes. Missing pages and uncertain separations remain visible pending work.
 
-The pilot's `source/inventory.json` records the requested range and current status.
-It does not assert completeness. Further revival work follows the user's review
-of this first result.
+The central `collection/boston-cuts-1889/source/inventory.json` records page counts
+and links to the four family inventories. Missing pages remain an explicit source
+gap. The ordinary calendar, text and numeral tables are excluded. Decorated
+initials and numbered components are included; assembled demonstrations are
+retained on the full reference pages, with duplicate and unobserved parts recorded.

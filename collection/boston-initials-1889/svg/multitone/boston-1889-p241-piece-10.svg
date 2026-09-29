@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Medium solid rectangle (long primer) — multitone">
+<title>Medium solid rectangle (long primer) — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M814 1460 98 1455 103 891 111 330 969 322 1828 317 1830 899V1481L1680 1476C1600 1471 1210 1465 814 1460Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M1365 1476C1130 1463 744 1458 504 1460L72 1468L77 891L85 315L964 312H1843V902C1843 1159 1838 1342 1830 1432V899L1828 317L969 322L111 330L103 891L98 1455L814 1460C1210 1465 1600 1471 1680 1476L1823 1481C1821 1489 1819 1494 1817 1494C1805 1496 1600 1489 1365 1476Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M73 1345C69 1234 67 1064 67 878L64 304H1864L1861 886C1859 1207 1856 1476 1856 1486C1856 1489 1842 1492 1818 1493C1820 1492 1822 1488 1823 1481H1830V1432C1838 1342 1843 1159 1843 902V312H964L85 315L77 891L73 1345ZM82 1476C81 1475 81 1472 80 1468L504 1460C744 1458 1130 1463 1365 1476C1567 1487 1747 1494 1801 1494C1748 1497 1662 1496 1567 1491C1052 1471 323 1465 209 1481C147 1491 90 1489 82 1476Z"/>
+</svg>

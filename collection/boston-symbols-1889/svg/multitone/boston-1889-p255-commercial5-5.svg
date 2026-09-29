@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Long minus sign, 5-point commercial — multitone">
+<title>Long minus sign, 5-point commercial — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M576 863C809 849 1165 849 1376 863C1587 878 1398 885 954 885C517 885 343 878 576 863Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M132 900C154 834 408 798 976 783C1667 769 1791 783 1791 878C1791 972 1660 987 947 987C306 987 110 965 132 900ZM576 863C343 878 517 885 954 885C1398 885 1587 878 1376 863C1165 849 809 849 576 863Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M205 1009C110 987 52 936 66 892C81 834 379 798 976 783C408 798 154 834 132 900C110 965 306 987 947 987C1660 987 1791 972 1791 878C1791 804 1716 779 1355 778C1780 778 1864 802 1864 878C1864 936 1842 987 1813 994C1617 1023 343 1031 205 1009Z"/>
+</svg>

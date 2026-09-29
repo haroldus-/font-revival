@@ -1,0 +1,924 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-boston-1889-p255-6pt-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-1::before { content: "\E000"; }
+.fr-boston-1889-p255-6pt-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-2::before { content: "\E001"; }
+.fr-boston-1889-p255-6pt-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-3::before { content: "\E002"; }
+.fr-boston-1889-p255-6pt-4 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-4::before { content: "\E003"; }
+.fr-boston-1889-p255-6pt-5 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-5::before { content: "\E004"; }
+.fr-boston-1889-p255-6pt-6 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-6::before { content: "\E005"; }
+.fr-boston-1889-p255-6pt-7 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-7::before { content: "\E006"; }
+.fr-boston-1889-p255-6pt-8 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-8::before { content: "\E007"; }
+.fr-boston-1889-p255-6pt-9 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-9::before { content: "\E008"; }
+.fr-boston-1889-p255-6pt-10 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-10::before { content: "\E009"; }
+.fr-boston-1889-p255-6pt-11 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-11::before { content: "\E00A"; }
+.fr-boston-1889-p255-6pt-12 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-12::before { content: "\E00B"; }
+.fr-boston-1889-p255-6pt-13 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-13::before { content: "\E00C"; }
+.fr-boston-1889-p255-6pt-14 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-14::before { content: "\E00D"; }
+.fr-boston-1889-p255-6pt-15 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-15::before { content: "\E00E"; }
+.fr-boston-1889-p255-6pt-16 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-16::before { content: "\E00F"; }
+.fr-boston-1889-p255-6pt-17 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-17::before { content: "\E010"; }
+.fr-boston-1889-p255-6pt-18 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-18::before { content: "\E011"; }
+.fr-boston-1889-p255-6pt-19 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-19::before { content: "\E012"; }
+.fr-boston-1889-p255-6pt-20 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-20::before { content: "\E013"; }
+.fr-boston-1889-p255-6pt-21 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-21::before { content: "\E014"; }
+.fr-boston-1889-p255-6pt-22 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-22::before { content: "\E015"; }
+.fr-boston-1889-p255-6pt-23 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-23::before { content: "\E016"; }
+.fr-boston-1889-p255-6pt-24 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-24::before { content: "\E017"; }
+.fr-boston-1889-p255-6pt-25 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-25::before { content: "\E018"; }
+.fr-boston-1889-p255-6pt-26 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-26::before { content: "\E019"; }
+.fr-boston-1889-p255-6pt-27 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-27::before { content: "\E01A"; }
+.fr-boston-1889-p255-6pt-28 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-28::before { content: "\E01B"; }
+.fr-boston-1889-p255-6pt-29 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-29::before { content: "\E01C"; }
+.fr-boston-1889-p255-6pt-30 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-30::before { content: "\E01D"; }
+.fr-boston-1889-p255-6pt-31 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-31::before { content: "\E01E"; }
+.fr-boston-1889-p255-6pt-32 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-32::before { content: "\E01F"; }
+.fr-boston-1889-p255-6pt-33 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-33::before { content: "\E020"; }
+.fr-boston-1889-p255-6pt-34 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-34::before { content: "\E021"; }
+.fr-boston-1889-p255-6pt-35 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-35::before { content: "\E022"; }
+.fr-boston-1889-p255-6pt-36 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-36::before { content: "\E023"; }
+.fr-boston-1889-p255-6pt-37 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-37::before { content: "\E024"; }
+.fr-boston-1889-p255-6pt-38 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-38::before { content: "\E025"; }
+.fr-boston-1889-p255-6pt-39 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-39::before { content: "\E026"; }
+.fr-boston-1889-p255-6pt-40 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-40::before { content: "\E027"; }
+.fr-boston-1889-p255-6pt-41 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-41::before { content: "\E028"; }
+.fr-boston-1889-p255-6pt-42 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-42::before { content: "\E029"; }
+.fr-boston-1889-p255-6pt-43 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-43::before { content: "\E02A"; }
+.fr-boston-1889-p255-6pt-44 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-44::before { content: "\E02B"; }
+.fr-boston-1889-p255-6pt-45 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-45::before { content: "\E02C"; }
+.fr-boston-1889-p255-6pt-46 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-46::before { content: "\E02D"; }
+.fr-boston-1889-p255-6pt-47 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-47::before { content: "\E02E"; }
+.fr-boston-1889-p255-6pt-48 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-48::before { content: "\E02F"; }
+.fr-boston-1889-p255-6pt-49 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-49::before { content: "\E030"; }
+.fr-boston-1889-p255-6pt-50 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-50::before { content: "\E031"; }
+.fr-boston-1889-p255-6pt-51 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-51::before { content: "\E032"; }
+.fr-boston-1889-p255-6pt-52 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-52::before { content: "\E033"; }
+.fr-boston-1889-p255-6pt-53 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-53::before { content: "\E034"; }
+.fr-boston-1889-p255-6pt-54 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-54::before { content: "\E035"; }
+.fr-boston-1889-p255-6pt-55 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-55::before { content: "\E036"; }
+.fr-boston-1889-p255-6pt-56 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-56::before { content: "\E037"; }
+.fr-boston-1889-p255-6pt-57 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-57::before { content: "\E038"; }
+.fr-boston-1889-p255-6pt-58 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-58::before { content: "\E039"; }
+.fr-boston-1889-p255-6pt-59 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-59::before { content: "\E03A"; }
+.fr-boston-1889-p255-6pt-60 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-60::before { content: "\E03B"; }
+.fr-boston-1889-p255-6pt-61 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-61::before { content: "\E03C"; }
+.fr-boston-1889-p255-6pt-62 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-62::before { content: "\E03D"; }
+.fr-boston-1889-p255-6pt-63 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-63::before { content: "\E03E"; }
+.fr-boston-1889-p255-6pt-64 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-64::before { content: "\E03F"; }
+.fr-boston-1889-p255-6pt-65 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-65::before { content: "\E040"; }
+.fr-boston-1889-p255-6pt-66 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-66::before { content: "\E041"; }
+.fr-boston-1889-p255-6pt-67 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-67::before { content: "\E042"; }
+.fr-boston-1889-p255-6pt-68 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-6pt-68::before { content: "\E043"; }
+.fr-boston-1889-p255-7pt-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-1::before { content: "\E044"; }
+.fr-boston-1889-p255-7pt-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-2::before { content: "\E045"; }
+.fr-boston-1889-p255-7pt-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-3::before { content: "\E046"; }
+.fr-boston-1889-p255-7pt-4 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-4::before { content: "\E047"; }
+.fr-boston-1889-p255-7pt-5 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-5::before { content: "\E048"; }
+.fr-boston-1889-p255-7pt-6 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-6::before { content: "\E049"; }
+.fr-boston-1889-p255-7pt-7 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-7::before { content: "\E04A"; }
+.fr-boston-1889-p255-7pt-8 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-8::before { content: "\E04B"; }
+.fr-boston-1889-p255-7pt-9 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-9::before { content: "\E04C"; }
+.fr-boston-1889-p255-7pt-10 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-10::before { content: "\E04D"; }
+.fr-boston-1889-p255-7pt-11 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-11::before { content: "\E04E"; }
+.fr-boston-1889-p255-7pt-12 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-12::before { content: "\E04F"; }
+.fr-boston-1889-p255-7pt-13 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-13::before { content: "\E050"; }
+.fr-boston-1889-p255-7pt-14 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-14::before { content: "\E051"; }
+.fr-boston-1889-p255-7pt-15 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-15::before { content: "\E052"; }
+.fr-boston-1889-p255-7pt-16 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-16::before { content: "\E053"; }
+.fr-boston-1889-p255-7pt-17 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-17::before { content: "\E054"; }
+.fr-boston-1889-p255-7pt-18 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-18::before { content: "\E055"; }
+.fr-boston-1889-p255-7pt-19 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-19::before { content: "\E056"; }
+.fr-boston-1889-p255-7pt-20 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-20::before { content: "\E057"; }
+.fr-boston-1889-p255-7pt-21 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-21::before { content: "\E058"; }
+.fr-boston-1889-p255-7pt-22 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-22::before { content: "\E059"; }
+.fr-boston-1889-p255-7pt-23 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-23::before { content: "\E05A"; }
+.fr-boston-1889-p255-7pt-24 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-24::before { content: "\E05B"; }
+.fr-boston-1889-p255-7pt-25 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-25::before { content: "\E05C"; }
+.fr-boston-1889-p255-7pt-26 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-26::before { content: "\E05D"; }
+.fr-boston-1889-p255-7pt-27 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-27::before { content: "\E05E"; }
+.fr-boston-1889-p255-7pt-28 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-28::before { content: "\E05F"; }
+.fr-boston-1889-p255-7pt-29 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-29::before { content: "\E060"; }
+.fr-boston-1889-p255-7pt-30 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-30::before { content: "\E061"; }
+.fr-boston-1889-p255-7pt-31 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-31::before { content: "\E062"; }
+.fr-boston-1889-p255-7pt-32 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-32::before { content: "\E063"; }
+.fr-boston-1889-p255-7pt-33 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-33::before { content: "\E064"; }
+.fr-boston-1889-p255-7pt-34 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-34::before { content: "\E065"; }
+.fr-boston-1889-p255-7pt-35 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-35::before { content: "\E066"; }
+.fr-boston-1889-p255-7pt-36 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-36::before { content: "\E067"; }
+.fr-boston-1889-p255-7pt-37 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-37::before { content: "\E068"; }
+.fr-boston-1889-p255-7pt-38 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-38::before { content: "\E069"; }
+.fr-boston-1889-p255-7pt-39 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-39::before { content: "\E06A"; }
+.fr-boston-1889-p255-7pt-40 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-40::before { content: "\E06B"; }
+.fr-boston-1889-p255-7pt-41 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-41::before { content: "\E06C"; }
+.fr-boston-1889-p255-7pt-42 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-42::before { content: "\E06D"; }
+.fr-boston-1889-p255-7pt-43 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-43::before { content: "\E06E"; }
+.fr-boston-1889-p255-7pt-44 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-44::before { content: "\E06F"; }
+.fr-boston-1889-p255-7pt-45 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-45::before { content: "\E070"; }
+.fr-boston-1889-p255-7pt-46 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-46::before { content: "\E071"; }
+.fr-boston-1889-p255-7pt-47 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-47::before { content: "\E072"; }
+.fr-boston-1889-p255-7pt-48 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-48::before { content: "\E073"; }
+.fr-boston-1889-p255-7pt-49 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-49::before { content: "\E074"; }
+.fr-boston-1889-p255-7pt-50 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-50::before { content: "\E075"; }
+.fr-boston-1889-p255-7pt-51 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-51::before { content: "\E076"; }
+.fr-boston-1889-p255-7pt-52 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-52::before { content: "\E077"; }
+.fr-boston-1889-p255-7pt-53 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-53::before { content: "\E078"; }
+.fr-boston-1889-p255-7pt-54 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-54::before { content: "\E079"; }
+.fr-boston-1889-p255-7pt-55 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-55::before { content: "\E07A"; }
+.fr-boston-1889-p255-7pt-56 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-56::before { content: "\E07B"; }
+.fr-boston-1889-p255-7pt-57 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-57::before { content: "\E07C"; }
+.fr-boston-1889-p255-7pt-58 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-58::before { content: "\E07D"; }
+.fr-boston-1889-p255-7pt-59 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-59::before { content: "\E07E"; }
+.fr-boston-1889-p255-7pt-60 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-60::before { content: "\E07F"; }
+.fr-boston-1889-p255-7pt-61 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-61::before { content: "\E080"; }
+.fr-boston-1889-p255-7pt-62 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-62::before { content: "\E081"; }
+.fr-boston-1889-p255-7pt-63 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-63::before { content: "\E082"; }
+.fr-boston-1889-p255-7pt-64 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-64::before { content: "\E083"; }
+.fr-boston-1889-p255-7pt-65 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-65::before { content: "\E084"; }
+.fr-boston-1889-p255-7pt-66 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-66::before { content: "\E085"; }
+.fr-boston-1889-p255-7pt-67 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-67::before { content: "\E086"; }
+.fr-boston-1889-p255-7pt-68 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-68::before { content: "\E087"; }
+.fr-boston-1889-p255-7pt-69 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-69::before { content: "\E088"; }
+.fr-boston-1889-p255-7pt-70 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-70::before { content: "\E089"; }
+.fr-boston-1889-p255-7pt-71 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-7pt-71::before { content: "\E08A"; }
+.fr-boston-1889-p255-8pt-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-1::before { content: "\E08B"; }
+.fr-boston-1889-p255-8pt-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-2::before { content: "\E08C"; }
+.fr-boston-1889-p255-8pt-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-3::before { content: "\E08D"; }
+.fr-boston-1889-p255-8pt-4 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-4::before { content: "\E08E"; }
+.fr-boston-1889-p255-8pt-5 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-5::before { content: "\E08F"; }
+.fr-boston-1889-p255-8pt-6 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-6::before { content: "\E090"; }
+.fr-boston-1889-p255-8pt-7 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-7::before { content: "\E091"; }
+.fr-boston-1889-p255-8pt-8 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-8::before { content: "\E092"; }
+.fr-boston-1889-p255-8pt-9 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-9::before { content: "\E093"; }
+.fr-boston-1889-p255-8pt-10 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-10::before { content: "\E094"; }
+.fr-boston-1889-p255-8pt-11 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-11::before { content: "\E095"; }
+.fr-boston-1889-p255-8pt-12 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-12::before { content: "\E096"; }
+.fr-boston-1889-p255-8pt-13 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-13::before { content: "\E097"; }
+.fr-boston-1889-p255-8pt-14 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-14::before { content: "\E098"; }
+.fr-boston-1889-p255-8pt-15 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-15::before { content: "\E099"; }
+.fr-boston-1889-p255-8pt-16 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-16::before { content: "\E09A"; }
+.fr-boston-1889-p255-8pt-17 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-17::before { content: "\E09B"; }
+.fr-boston-1889-p255-8pt-18 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-18::before { content: "\E09C"; }
+.fr-boston-1889-p255-8pt-19 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-19::before { content: "\E09D"; }
+.fr-boston-1889-p255-8pt-20 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-20::before { content: "\E09E"; }
+.fr-boston-1889-p255-8pt-21 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-21::before { content: "\E09F"; }
+.fr-boston-1889-p255-8pt-22 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-22::before { content: "\E0A0"; }
+.fr-boston-1889-p255-8pt-23 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-23::before { content: "\E0A1"; }
+.fr-boston-1889-p255-8pt-24 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-24::before { content: "\E0A2"; }
+.fr-boston-1889-p255-8pt-25 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-25::before { content: "\E0A3"; }
+.fr-boston-1889-p255-8pt-26 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-26::before { content: "\E0A4"; }
+.fr-boston-1889-p255-8pt-27 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-27::before { content: "\E0A5"; }
+.fr-boston-1889-p255-8pt-28 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-28::before { content: "\E0A6"; }
+.fr-boston-1889-p255-8pt-29 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-29::before { content: "\E0A7"; }
+.fr-boston-1889-p255-8pt-30 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-30::before { content: "\E0A8"; }
+.fr-boston-1889-p255-8pt-31 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-31::before { content: "\E0A9"; }
+.fr-boston-1889-p255-8pt-32 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-32::before { content: "\E0AA"; }
+.fr-boston-1889-p255-8pt-33 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-33::before { content: "\E0AB"; }
+.fr-boston-1889-p255-8pt-34 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-34::before { content: "\E0AC"; }
+.fr-boston-1889-p255-8pt-35 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-35::before { content: "\E0AD"; }
+.fr-boston-1889-p255-8pt-36 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-36::before { content: "\E0AE"; }
+.fr-boston-1889-p255-8pt-37 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-37::before { content: "\E0AF"; }
+.fr-boston-1889-p255-8pt-38 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-38::before { content: "\E0B0"; }
+.fr-boston-1889-p255-8pt-39 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-39::before { content: "\E0B1"; }
+.fr-boston-1889-p255-8pt-40 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-40::before { content: "\E0B2"; }
+.fr-boston-1889-p255-8pt-41 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-41::before { content: "\E0B3"; }
+.fr-boston-1889-p255-8pt-42 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-42::before { content: "\E0B4"; }
+.fr-boston-1889-p255-8pt-43 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-43::before { content: "\E0B5"; }
+.fr-boston-1889-p255-8pt-44 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-44::before { content: "\E0B6"; }
+.fr-boston-1889-p255-8pt-45 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-45::before { content: "\E0B7"; }
+.fr-boston-1889-p255-8pt-46 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-46::before { content: "\E0B8"; }
+.fr-boston-1889-p255-8pt-47 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-47::before { content: "\E0B9"; }
+.fr-boston-1889-p255-8pt-48 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-48::before { content: "\E0BA"; }
+.fr-boston-1889-p255-8pt-49 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-49::before { content: "\E0BB"; }
+.fr-boston-1889-p255-8pt-50 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-50::before { content: "\E0BC"; }
+.fr-boston-1889-p255-8pt-51 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-51::before { content: "\E0BD"; }
+.fr-boston-1889-p255-8pt-52 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-52::before { content: "\E0BE"; }
+.fr-boston-1889-p255-8pt-53 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-53::before { content: "\E0BF"; }
+.fr-boston-1889-p255-8pt-54 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-54::before { content: "\E0C0"; }
+.fr-boston-1889-p255-8pt-55 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-55::before { content: "\E0C1"; }
+.fr-boston-1889-p255-8pt-56 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-56::before { content: "\E0C2"; }
+.fr-boston-1889-p255-8pt-57 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-57::before { content: "\E0C3"; }
+.fr-boston-1889-p255-8pt-58 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-58::before { content: "\E0C4"; }
+.fr-boston-1889-p255-8pt-59 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-59::before { content: "\E0C5"; }
+.fr-boston-1889-p255-8pt-60 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-60::before { content: "\E0C6"; }
+.fr-boston-1889-p255-8pt-61 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-61::before { content: "\E0C7"; }
+.fr-boston-1889-p255-8pt-62 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-62::before { content: "\E0C8"; }
+.fr-boston-1889-p255-8pt-63 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-63::before { content: "\E0C9"; }
+.fr-boston-1889-p255-8pt-64 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-64::before { content: "\E0CA"; }
+.fr-boston-1889-p255-8pt-65 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-65::before { content: "\E0CB"; }
+.fr-boston-1889-p255-8pt-66 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-66::before { content: "\E0CC"; }
+.fr-boston-1889-p255-8pt-67 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-67::before { content: "\E0CD"; }
+.fr-boston-1889-p255-8pt-68 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-8pt-68::before { content: "\E0CE"; }
+.fr-boston-1889-p255-9pt-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-1::before { content: "\E0CF"; }
+.fr-boston-1889-p255-9pt-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-2::before { content: "\E0D0"; }
+.fr-boston-1889-p255-9pt-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-3::before { content: "\E0D1"; }
+.fr-boston-1889-p255-9pt-4 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-4::before { content: "\E0D2"; }
+.fr-boston-1889-p255-9pt-5 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-5::before { content: "\E0D3"; }
+.fr-boston-1889-p255-9pt-6 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-6::before { content: "\E0D4"; }
+.fr-boston-1889-p255-9pt-7 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-7::before { content: "\E0D5"; }
+.fr-boston-1889-p255-9pt-8 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-8::before { content: "\E0D6"; }
+.fr-boston-1889-p255-9pt-9 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-9::before { content: "\E0D7"; }
+.fr-boston-1889-p255-9pt-10 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-10::before { content: "\E0D8"; }
+.fr-boston-1889-p255-9pt-11 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-11::before { content: "\E0D9"; }
+.fr-boston-1889-p255-9pt-12 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-12::before { content: "\E0DA"; }
+.fr-boston-1889-p255-9pt-13 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-13::before { content: "\E0DB"; }
+.fr-boston-1889-p255-9pt-14 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-14::before { content: "\E0DC"; }
+.fr-boston-1889-p255-9pt-15 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-15::before { content: "\E0DD"; }
+.fr-boston-1889-p255-9pt-16 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-16::before { content: "\E0DE"; }
+.fr-boston-1889-p255-9pt-17 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-17::before { content: "\E0DF"; }
+.fr-boston-1889-p255-9pt-18 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-18::before { content: "\E0E0"; }
+.fr-boston-1889-p255-9pt-19 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-19::before { content: "\E0E1"; }
+.fr-boston-1889-p255-9pt-20 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-20::before { content: "\E0E2"; }
+.fr-boston-1889-p255-9pt-21 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-21::before { content: "\E0E3"; }
+.fr-boston-1889-p255-9pt-22 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-22::before { content: "\E0E4"; }
+.fr-boston-1889-p255-9pt-23 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-23::before { content: "\E0E5"; }
+.fr-boston-1889-p255-9pt-24 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-24::before { content: "\E0E6"; }
+.fr-boston-1889-p255-9pt-25 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-25::before { content: "\E0E7"; }
+.fr-boston-1889-p255-9pt-26 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-26::before { content: "\E0E8"; }
+.fr-boston-1889-p255-9pt-27 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-27::before { content: "\E0E9"; }
+.fr-boston-1889-p255-9pt-28 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-28::before { content: "\E0EA"; }
+.fr-boston-1889-p255-9pt-29 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-29::before { content: "\E0EB"; }
+.fr-boston-1889-p255-9pt-30 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-30::before { content: "\E0EC"; }
+.fr-boston-1889-p255-9pt-31 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-31::before { content: "\E0ED"; }
+.fr-boston-1889-p255-9pt-32 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-32::before { content: "\E0EE"; }
+.fr-boston-1889-p255-9pt-33 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-33::before { content: "\E0EF"; }
+.fr-boston-1889-p255-9pt-34 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-34::before { content: "\E0F0"; }
+.fr-boston-1889-p255-9pt-35 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-35::before { content: "\E0F1"; }
+.fr-boston-1889-p255-9pt-36 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-36::before { content: "\E0F2"; }
+.fr-boston-1889-p255-9pt-37 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-37::before { content: "\E0F3"; }
+.fr-boston-1889-p255-9pt-38 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-38::before { content: "\E0F4"; }
+.fr-boston-1889-p255-9pt-39 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-39::before { content: "\E0F5"; }
+.fr-boston-1889-p255-9pt-40 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-40::before { content: "\E0F6"; }
+.fr-boston-1889-p255-9pt-41 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-41::before { content: "\E0F7"; }
+.fr-boston-1889-p255-9pt-42 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-42::before { content: "\E0F8"; }
+.fr-boston-1889-p255-9pt-43 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-43::before { content: "\E0F9"; }
+.fr-boston-1889-p255-9pt-44 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-44::before { content: "\E0FA"; }
+.fr-boston-1889-p255-9pt-45 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-45::before { content: "\E0FB"; }
+.fr-boston-1889-p255-9pt-46 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-46::before { content: "\E0FC"; }
+.fr-boston-1889-p255-9pt-47 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-47::before { content: "\E0FD"; }
+.fr-boston-1889-p255-9pt-48 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-48::before { content: "\E0FE"; }
+.fr-boston-1889-p255-9pt-49 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-49::before { content: "\E0FF"; }
+.fr-boston-1889-p255-9pt-50 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-50::before { content: "\E100"; }
+.fr-boston-1889-p255-9pt-51 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-51::before { content: "\E101"; }
+.fr-boston-1889-p255-9pt-52 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-52::before { content: "\E102"; }
+.fr-boston-1889-p255-9pt-53 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-53::before { content: "\E103"; }
+.fr-boston-1889-p255-9pt-54 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-54::before { content: "\E104"; }
+.fr-boston-1889-p255-9pt-55 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-55::before { content: "\E105"; }
+.fr-boston-1889-p255-9pt-56 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-56::before { content: "\E106"; }
+.fr-boston-1889-p255-9pt-57 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-9pt-57::before { content: "\E107"; }
+.fr-boston-1889-p255-10pt-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-1::before { content: "\E108"; }
+.fr-boston-1889-p255-10pt-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-2::before { content: "\E109"; }
+.fr-boston-1889-p255-10pt-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-3::before { content: "\E10A"; }
+.fr-boston-1889-p255-10pt-4 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-4::before { content: "\E10B"; }
+.fr-boston-1889-p255-10pt-5 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-5::before { content: "\E10C"; }
+.fr-boston-1889-p255-10pt-6 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-6::before { content: "\E10D"; }
+.fr-boston-1889-p255-10pt-7 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-7::before { content: "\E10E"; }
+.fr-boston-1889-p255-10pt-8 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-8::before { content: "\E10F"; }
+.fr-boston-1889-p255-10pt-9 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-9::before { content: "\E110"; }
+.fr-boston-1889-p255-10pt-10 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-10::before { content: "\E111"; }
+.fr-boston-1889-p255-10pt-11 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-11::before { content: "\E112"; }
+.fr-boston-1889-p255-10pt-12 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-12::before { content: "\E113"; }
+.fr-boston-1889-p255-10pt-13 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-13::before { content: "\E114"; }
+.fr-boston-1889-p255-10pt-14 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-14::before { content: "\E115"; }
+.fr-boston-1889-p255-10pt-15 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-15::before { content: "\E116"; }
+.fr-boston-1889-p255-10pt-16 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-16::before { content: "\E117"; }
+.fr-boston-1889-p255-10pt-17 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-17::before { content: "\E118"; }
+.fr-boston-1889-p255-10pt-18 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-18::before { content: "\E119"; }
+.fr-boston-1889-p255-10pt-19 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-19::before { content: "\E11A"; }
+.fr-boston-1889-p255-10pt-20 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-20::before { content: "\E11B"; }
+.fr-boston-1889-p255-10pt-21 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-21::before { content: "\E11C"; }
+.fr-boston-1889-p255-10pt-22 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-22::before { content: "\E11D"; }
+.fr-boston-1889-p255-10pt-23 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-23::before { content: "\E11E"; }
+.fr-boston-1889-p255-10pt-24 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-24::before { content: "\E11F"; }
+.fr-boston-1889-p255-10pt-25 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-25::before { content: "\E120"; }
+.fr-boston-1889-p255-10pt-26 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-26::before { content: "\E121"; }
+.fr-boston-1889-p255-10pt-27 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-27::before { content: "\E122"; }
+.fr-boston-1889-p255-10pt-28 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-28::before { content: "\E123"; }
+.fr-boston-1889-p255-10pt-29 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-29::before { content: "\E124"; }
+.fr-boston-1889-p255-10pt-30 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-30::before { content: "\E125"; }
+.fr-boston-1889-p255-10pt-31 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-31::before { content: "\E126"; }
+.fr-boston-1889-p255-10pt-32 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-32::before { content: "\E127"; }
+.fr-boston-1889-p255-10pt-33 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-33::before { content: "\E128"; }
+.fr-boston-1889-p255-10pt-34 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-34::before { content: "\E129"; }
+.fr-boston-1889-p255-10pt-35 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-35::before { content: "\E12A"; }
+.fr-boston-1889-p255-10pt-36 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-36::before { content: "\E12B"; }
+.fr-boston-1889-p255-10pt-37 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-37::before { content: "\E12C"; }
+.fr-boston-1889-p255-10pt-38 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-38::before { content: "\E12D"; }
+.fr-boston-1889-p255-10pt-39 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-39::before { content: "\E12E"; }
+.fr-boston-1889-p255-10pt-40 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-40::before { content: "\E12F"; }
+.fr-boston-1889-p255-10pt-41 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-41::before { content: "\E130"; }
+.fr-boston-1889-p255-10pt-42 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-42::before { content: "\E131"; }
+.fr-boston-1889-p255-10pt-43 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-43::before { content: "\E132"; }
+.fr-boston-1889-p255-10pt-44 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-44::before { content: "\E133"; }
+.fr-boston-1889-p255-10pt-45 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-45::before { content: "\E134"; }
+.fr-boston-1889-p255-10pt-46 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-46::before { content: "\E135"; }
+.fr-boston-1889-p255-10pt-47 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-47::before { content: "\E136"; }
+.fr-boston-1889-p255-10pt-48 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-48::before { content: "\E137"; }
+.fr-boston-1889-p255-10pt-49 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-49::before { content: "\E138"; }
+.fr-boston-1889-p255-10pt-50 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-50::before { content: "\E139"; }
+.fr-boston-1889-p255-10pt-51 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-51::before { content: "\E13A"; }
+.fr-boston-1889-p255-10pt-52 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-52::before { content: "\E13B"; }
+.fr-boston-1889-p255-10pt-53 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-53::before { content: "\E13C"; }
+.fr-boston-1889-p255-10pt-54 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-54::before { content: "\E13D"; }
+.fr-boston-1889-p255-10pt-55 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-55::before { content: "\E13E"; }
+.fr-boston-1889-p255-10pt-56 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-56::before { content: "\E13F"; }
+.fr-boston-1889-p255-10pt-57 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-57::before { content: "\E140"; }
+.fr-boston-1889-p255-10pt-58 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-58::before { content: "\E141"; }
+.fr-boston-1889-p255-10pt-59 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-59::before { content: "\E142"; }
+.fr-boston-1889-p255-10pt-60 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-60::before { content: "\E143"; }
+.fr-boston-1889-p255-10pt-61 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-61::before { content: "\E144"; }
+.fr-boston-1889-p255-10pt-62 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-62::before { content: "\E145"; }
+.fr-boston-1889-p255-10pt-63 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-63::before { content: "\E146"; }
+.fr-boston-1889-p255-10pt-64 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-64::before { content: "\E147"; }
+.fr-boston-1889-p255-10pt-65 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-65::before { content: "\E148"; }
+.fr-boston-1889-p255-10pt-66 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-66::before { content: "\E149"; }
+.fr-boston-1889-p255-10pt-67 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-67::before { content: "\E14A"; }
+.fr-boston-1889-p255-10pt-68 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-68::before { content: "\E14B"; }
+.fr-boston-1889-p255-10pt-69 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-69::before { content: "\E14C"; }
+.fr-boston-1889-p255-10pt-70 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-70::before { content: "\E14D"; }
+.fr-boston-1889-p255-10pt-71 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-71::before { content: "\E14E"; }
+.fr-boston-1889-p255-10pt-72 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-72::before { content: "\E14F"; }
+.fr-boston-1889-p255-10pt-73 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-73::before { content: "\E150"; }
+.fr-boston-1889-p255-10pt-74 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-74::before { content: "\E151"; }
+.fr-boston-1889-p255-10pt-75 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-75::before { content: "\E152"; }
+.fr-boston-1889-p255-10pt-76 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-76::before { content: "\E153"; }
+.fr-boston-1889-p255-10pt-77 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-77::before { content: "\E154"; }
+.fr-boston-1889-p255-10pt-78 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-78::before { content: "\E155"; }
+.fr-boston-1889-p255-10pt-79 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-79::before { content: "\E156"; }
+.fr-boston-1889-p255-10pt-80 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-80::before { content: "\E157"; }
+.fr-boston-1889-p255-10pt-81 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-81::before { content: "\E158"; }
+.fr-boston-1889-p255-10pt-82 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-82::before { content: "\E159"; }
+.fr-boston-1889-p255-10pt-83 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-10pt-83::before { content: "\E15A"; }
+.fr-boston-1889-p255-11pt-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-1::before { content: "\E15B"; }
+.fr-boston-1889-p255-11pt-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-2::before { content: "\E15C"; }
+.fr-boston-1889-p255-11pt-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-3::before { content: "\E15D"; }
+.fr-boston-1889-p255-11pt-4 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-4::before { content: "\E15E"; }
+.fr-boston-1889-p255-11pt-5 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-5::before { content: "\E15F"; }
+.fr-boston-1889-p255-11pt-6 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-6::before { content: "\E160"; }
+.fr-boston-1889-p255-11pt-7 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-7::before { content: "\E161"; }
+.fr-boston-1889-p255-11pt-8 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-8::before { content: "\E162"; }
+.fr-boston-1889-p255-11pt-9 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-9::before { content: "\E163"; }
+.fr-boston-1889-p255-11pt-10 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-10::before { content: "\E164"; }
+.fr-boston-1889-p255-11pt-11 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-11::before { content: "\E165"; }
+.fr-boston-1889-p255-11pt-12 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-12::before { content: "\E166"; }
+.fr-boston-1889-p255-11pt-13 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-13::before { content: "\E167"; }
+.fr-boston-1889-p255-11pt-14 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-14::before { content: "\E168"; }
+.fr-boston-1889-p255-11pt-15 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-15::before { content: "\E169"; }
+.fr-boston-1889-p255-11pt-16 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-16::before { content: "\E16A"; }
+.fr-boston-1889-p255-11pt-17 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-17::before { content: "\E16B"; }
+.fr-boston-1889-p255-11pt-18 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-18::before { content: "\E16C"; }
+.fr-boston-1889-p255-11pt-19 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-19::before { content: "\E16D"; }
+.fr-boston-1889-p255-11pt-20 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-20::before { content: "\E16E"; }
+.fr-boston-1889-p255-11pt-21 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-21::before { content: "\E16F"; }
+.fr-boston-1889-p255-11pt-22 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-22::before { content: "\E170"; }
+.fr-boston-1889-p255-11pt-23 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-23::before { content: "\E171"; }
+.fr-boston-1889-p255-11pt-24 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-24::before { content: "\E172"; }
+.fr-boston-1889-p255-11pt-25 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-25::before { content: "\E173"; }
+.fr-boston-1889-p255-11pt-26 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-26::before { content: "\E174"; }
+.fr-boston-1889-p255-11pt-27 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-27::before { content: "\E175"; }
+.fr-boston-1889-p255-11pt-28 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-28::before { content: "\E176"; }
+.fr-boston-1889-p255-11pt-29 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-29::before { content: "\E177"; }
+.fr-boston-1889-p255-11pt-30 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-30::before { content: "\E178"; }
+.fr-boston-1889-p255-11pt-31 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-31::before { content: "\E179"; }
+.fr-boston-1889-p255-11pt-32 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-32::before { content: "\E17A"; }
+.fr-boston-1889-p255-11pt-33 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-33::before { content: "\E17B"; }
+.fr-boston-1889-p255-11pt-34 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-34::before { content: "\E17C"; }
+.fr-boston-1889-p255-11pt-35 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-35::before { content: "\E17D"; }
+.fr-boston-1889-p255-11pt-36 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-36::before { content: "\E17E"; }
+.fr-boston-1889-p255-11pt-37 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-37::before { content: "\E17F"; }
+.fr-boston-1889-p255-11pt-38 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-38::before { content: "\E180"; }
+.fr-boston-1889-p255-11pt-39 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-39::before { content: "\E181"; }
+.fr-boston-1889-p255-11pt-40 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-40::before { content: "\E182"; }
+.fr-boston-1889-p255-11pt-41 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-41::before { content: "\E183"; }
+.fr-boston-1889-p255-11pt-42 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-42::before { content: "\E184"; }
+.fr-boston-1889-p255-11pt-43 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-43::before { content: "\E185"; }
+.fr-boston-1889-p255-11pt-44 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-44::before { content: "\E186"; }
+.fr-boston-1889-p255-11pt-45 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-45::before { content: "\E187"; }
+.fr-boston-1889-p255-11pt-46 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-46::before { content: "\E188"; }
+.fr-boston-1889-p255-11pt-47 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-47::before { content: "\E189"; }
+.fr-boston-1889-p255-11pt-48 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-48::before { content: "\E18A"; }
+.fr-boston-1889-p255-11pt-49 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-49::before { content: "\E18B"; }
+.fr-boston-1889-p255-11pt-50 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-50::before { content: "\E18C"; }
+.fr-boston-1889-p255-11pt-51 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-51::before { content: "\E18D"; }
+.fr-boston-1889-p255-11pt-52 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-52::before { content: "\E18E"; }
+.fr-boston-1889-p255-11pt-53 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-53::before { content: "\E18F"; }
+.fr-boston-1889-p255-11pt-54 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-54::before { content: "\E190"; }
+.fr-boston-1889-p255-11pt-55 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-55::before { content: "\E191"; }
+.fr-boston-1889-p255-11pt-56 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-56::before { content: "\E192"; }
+.fr-boston-1889-p255-11pt-57 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-11pt-57::before { content: "\E193"; }
+.fr-boston-1889-p255-12pt-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-12pt-1::before { content: "\E194"; }
+.fr-boston-1889-p255-12pt-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-12pt-2::before { content: "\E195"; }
+.fr-boston-1889-p255-12pt-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-12pt-3::before { content: "\E196"; }
+.fr-boston-1889-p255-12pt-4 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-12pt-4::before { content: "\E197"; }
+.fr-boston-1889-p255-12pt-5 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-12pt-5::before { content: "\E198"; }
+.fr-boston-1889-p255-12pt-6 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-12pt-6::before { content: "\E199"; }
+.fr-boston-1889-p255-12pt-7 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-12pt-7::before { content: "\E19A"; }
+.fr-boston-1889-p255-12pt-8 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-12pt-8::before { content: "\E19B"; }
+.fr-boston-1889-p255-18pt-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-18pt-1::before { content: "\E19C"; }
+.fr-boston-1889-p255-18pt-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-18pt-2::before { content: "\E19D"; }
+.fr-boston-1889-p255-18pt-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-18pt-3::before { content: "\E19E"; }
+.fr-boston-1889-p255-18pt-4 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-18pt-4::before { content: "\E19F"; }
+.fr-boston-1889-p255-18pt-5 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-18pt-5::before { content: "\E1A0"; }
+.fr-boston-1889-p255-crochet-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-1::before { content: "\E1A1"; }
+.fr-boston-1889-p255-crochet-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-2::before { content: "\E1A2"; }
+.fr-boston-1889-p255-crochet-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-3::before { content: "\E1A3"; }
+.fr-boston-1889-p255-crochet-4 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-4::before { content: "\E1A4"; }
+.fr-boston-1889-p255-crochet-5 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-5::before { content: "\E1A5"; }
+.fr-boston-1889-p255-crochet-6 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-6::before { content: "\E1A6"; }
+.fr-boston-1889-p255-crochet-7 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-7::before { content: "\E1A7"; }
+.fr-boston-1889-p255-crochet-8 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-8::before { content: "\E1A8"; }
+.fr-boston-1889-p255-crochet-9 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-9::before { content: "\E1A9"; }
+.fr-boston-1889-p255-crochet-10 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-10::before { content: "\E1AA"; }
+.fr-boston-1889-p255-crochet-11 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-11::before { content: "\E1AB"; }
+.fr-boston-1889-p255-crochet-12 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-12::before { content: "\E1AC"; }
+.fr-boston-1889-p255-crochet-13 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-13::before { content: "\E1AD"; }
+.fr-boston-1889-p255-crochet-14 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-14::before { content: "\E1AE"; }
+.fr-boston-1889-p255-crochet-15 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-15::before { content: "\E1AF"; }
+.fr-boston-1889-p255-crochet-16 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-16::before { content: "\E1B0"; }
+.fr-boston-1889-p255-crochet-17 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-crochet-17::before { content: "\E1B1"; }
+.fr-boston-1889-p255-commercial5-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-commercial5-1::before { content: "\E1B2"; }
+.fr-boston-1889-p255-commercial5-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-commercial5-2::before { content: "\E1B3"; }
+.fr-boston-1889-p255-commercial5-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-commercial5-3::before { content: "\E1B4"; }
+.fr-boston-1889-p255-commercial5-4 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-commercial5-4::before { content: "\E1B5"; }
+.fr-boston-1889-p255-commercial5-5 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-commercial5-5::before { content: "\E1B6"; }
+.fr-boston-1889-p255-commercial5-6 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-commercial5-6::before { content: "\E1B7"; }
+.fr-boston-1889-p255-commercial5-7 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-commercial5-7::before { content: "\E1B8"; }
+.fr-boston-1889-p255-commercial5half-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-commercial5half-1::before { content: "\E1B9"; }
+.fr-boston-1889-p255-commercial5half-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-commercial5half-2::before { content: "\E1BA"; }
+.fr-boston-1889-p255-commercial5half-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p255-commercial5half-3::before { content: "\E1BB"; }
+.fr-boston-1889-p257-map-1 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-1::before { content: "\E1BC"; }
+.fr-boston-1889-p257-map-2 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-2::before { content: "\E1BD"; }
+.fr-boston-1889-p257-map-3 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-3::before { content: "\E1BE"; }
+.fr-boston-1889-p257-map-4 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-4::before { content: "\E1BF"; }
+.fr-boston-1889-p257-map-5 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-5::before { content: "\E1C0"; }
+.fr-boston-1889-p257-map-6 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-6::before { content: "\E1C1"; }
+.fr-boston-1889-p257-map-7 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-7::before { content: "\E1C2"; }
+.fr-boston-1889-p257-map-8 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-8::before { content: "\E1C3"; }
+.fr-boston-1889-p257-map-9 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-9::before { content: "\E1C4"; }
+.fr-boston-1889-p257-map-10 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-10::before { content: "\E1C5"; }
+.fr-boston-1889-p257-map-11 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-11::before { content: "\E1C6"; }
+.fr-boston-1889-p257-map-12 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-12::before { content: "\E1C7"; }
+.fr-boston-1889-p257-map-13 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-13::before { content: "\E1C8"; }
+.fr-boston-1889-p257-map-14 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-14::before { content: "\E1C9"; }
+.fr-boston-1889-p257-map-18 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-18::before { content: "\E1CA"; }
+.fr-boston-1889-p257-map-21 { font-family: "Boston Symbols 1889"; }
+.fr-boston-1889-p257-map-21::before { content: "\E1CB"; }

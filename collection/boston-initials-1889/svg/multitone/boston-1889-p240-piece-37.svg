@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1091 2048" role="img" aria-label="Small vertical rectangle (nonpareil) — multitone">
+<title>Small vertical rectangle (nonpareil) — multitone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M181 1711C146 1699 123 1365 123 873V53L521 70L913 88V1728H580C392 1728 216 1722 181 1711Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M87 1681C76 1640 70 1248 76 814L93 29H972L990 762C1004 1383 1016 1617 913 1705V88L521 70L123 53V873C123 1365 146 1699 181 1711C216 1722 392 1728 580 1728H876C805 1761 695 1757 527 1757C246 1757 111 1734 87 1681Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M80 1603C71 1436 64 1166 64 867V0H527C785 0 1007 18 1019 47C1031 70 1031 469 1007 937L998 1151C997 1069 995 975 992 869C992 835 991 799 990 762L972 29H93L76 814C71 1150 74 1461 80 1603ZM99 1775C94 1768 89 1727 84 1659C85 1670 86 1677 87 1681C111 1734 246 1757 527 1757C544 1757 560 1757 576 1757C717 1757 813 1758 876 1728H913V1705C947 1676 968 1631 981 1562L972 1787L556 1798C322 1804 123 1793 99 1775Z"/>
+</svg>
