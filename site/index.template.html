@@ -15,7 +15,7 @@
 <body>
   <a class="skip" href="#collection">Skip to fonts</a>
   <div class="wrap">
-    <header><a class="wordmark" href="index.html">Font Revival<span style="color:var(--red)">.</span></a><nav aria-label="Main"><a href="index.html#collection" aria-current="page">Typefaces</a><a href="icons.html">Ornaments &amp; cuts</a><a href="https://github.com/haroldus-/font-revival">GitHub ↗</a></nav></header>
+    @@SITE_HEADER@@
     <main>
       <section class="hero" aria-labelledby="title">
         <p class="eyebrow"><span class="eyebrow-shadow" aria-hidden="true">An open collection of historical type</span><span class="eyebrow-face">An open collection of historical type</span></p>
@@ -28,7 +28,7 @@
       <section id="collection" aria-labelledby="collection-title">
         <div class="collection-bar"><h2 id="collection-title">The collection / @@COUNT@@ revivals</h2><span>Desktop + web · MIT licensed</span></div>
         <div class="tester">
-          <div class="text-control"><label for="test-text">TRY YOUR OWN WORDS</label><input id="test-text" type="text" maxlength="240" placeholder="The quick brown fox jumps over the lazy dog" autocomplete="off" spellcheck="false"></div>
+          <div class="text-control"><label class="field-label" for="test-text"><img class="field-manicule" src="site/field-manicule.svg" width="30" height="11" alt="">TRY YOUR OWN WORDS</label><input id="test-text" type="text" maxlength="240" placeholder="In the Machinery line we deal largely, and in our warerooms may be found all the principal makes of Job and Proof Presses, Paper Cutters, etc." autocomplete="off" spellcheck="false"></div>
           <div class="size-control"><label for="type-size">TYPE SIZE / <output id="size-output" for="type-size">56</output> PX</label><input id="type-size" type="range" min="24" max="100" value="56"></div>
         </div>
         @@CARDS@@

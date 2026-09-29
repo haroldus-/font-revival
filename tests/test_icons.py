@@ -135,7 +135,8 @@ class IconWorkflowTests(unittest.TestCase):
         self.assertEqual(index.count('class="icon-tile"'), 97)
         self.assertNotIn('<svg', index)
         self.assertNotIn('<path', index)
-        self.assertNotIn('<img', index)
+        grid = index.split('<div class="icon-grid"', 1)[1].split('</div>', 1)[0]
+        self.assertNotIn('<img', grid)
         self.assertNotIn('Engraved detail, original proportions', index)
         self.assertNotIn('data-art-chunk', index)
         self.assertIn('data-id="test-cut-96"', index)

@@ -906,6 +906,49 @@ def build_family(path):
     return m | stats
 
 
+def site_header(current, prefix=''):
+    """One header for the typeface index, icon index and individual icons."""
+    template = (ROOT / 'site/header.template.html').read_text()
+    for token, replacement in {'@@PREFIX@@': prefix,
+                               '@@TYPEFACES_CURRENT@@': ' aria-current="page"' if current == 'typefaces' else '',
+                               '@@ICONS_CURRENT@@': ' aria-current="page"' if current == 'icons' else ''}.items():
+        template = template.replace(token, replacement)
+    return template.rstrip()
+
+
+def site_ornament_outputs(collections):
+    """Reuse the original artwork as small, cacheable SVGs in the site palette."""
+    selected = {'boston-1889-p258-word-11-2': ('site/header-ornaments/ribbon-left.svg', True),
+                'boston-1889-p258-word-11-6': ('site/header-ornaments/ribbon-right.svg', True),
+                'boston-1889-p258-word-20-1': ('site/header-ornaments/terminal-left.svg', True),
+                'boston-1889-p258-word-20-5': ('site/header-ornaments/terminal-right.svg', True),
+                'boston-1889-p271-2519': ('site/field-manicule.svg', False)}
+    css = (ROOT / 'site/shared.css').read_text()
+    palette = dict(re.findall(r'--(red|ink|muted):\s*(#[0-9a-fA-F]{6})', css))
+    colours = dict(zip(('primary', 'secondary', 'tertiary'), (palette['red'], palette['ink'], palette['muted'])))
+    style = ';'.join(f'--fr-{role}-color:{colour};--fr-{role}-opacity:1' for role, colour in colours.items())
+    outputs = {}
+    for _, records in collections:
+        for record in records:
+            if record['id'] not in selected:
+                continue
+            filename, multitone = selected[record['id']]
+            # Crop the font's empty sidebearings for layout; preserve every path.
+            bounds = BoundsPen(None)
+            for layer in record['tones'] if multitone else [record]:
+                parse_path(layer['path'], bounds)
+            x0, y0, x1, y1 = bounds.bounds
+            viewbox = f'{x0:g} {-y1:g} {x1 - x0:g} {y1 - y0:g}'
+            artwork_style = style if multitone else f'color:{palette["muted"]}'
+            format_name = 'three-tone' if multitone else 'monochrome'
+            outputs[filename] = (
+                f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{viewbox}" style="{artwork_style}">\n'
+                f'<title>{html.escape(record["name"])} — {format_name}</title>\n'
+                f'<metadata>{COPYRIGHT_NOTICE}; MIT. Generated from {record["id"]}; site palette.</metadata>\n'
+                + (multitone_artwork(record) if multitone else icon_artwork(record)) + '\n</svg>\n')
+    return outputs
+
+
 def catalog_outputs():
     """Render the catalog without writes or a temporary copy of the collection."""
     entries, icon_collections = [], []
@@ -933,11 +976,11 @@ def catalog_outputs():
 </article>''')
     catalog = json.dumps({"schema_version": 1, "families": entries}, indent=2, ensure_ascii=False) + "\n"
     template = (ROOT / "site" / "index.template.html").read_text()
-    for token, replacement in {"@@FONT_CSS@@": "\n".join(styles), "@@SITE_CSS@@": (ROOT / "site/shared.css").read_text(), "@@CARDS@@": "\n".join(cards), "@@COUNT@@": str(len(entries))}.items():
+    for token, replacement in {"@@FONT_CSS@@": "\n".join(styles), "@@SITE_CSS@@": (ROOT / "site/shared.css").read_text(), "@@SITE_HEADER@@": site_header('typefaces'), "@@CARDS@@": "\n".join(cards), "@@COUNT@@": str(len(entries))}.items():
         template = template.replace(token, replacement)
     brand_styles = [style for style in styles if any(f'font-family:"{family}"' in style
                    for family in ("quaint-gothic-1894", "erebus-1894", "hades-1894", "remington-1888"))]
-    return {"catalog.json": catalog, "index.html": template} | icon_catalog_outputs(icon_collections, brand_styles)
+    return {"catalog.json": catalog, "index.html": template} | site_ornament_outputs(icon_collections) | icon_catalog_outputs(icon_collections, brand_styles)
 
 
 def icon_navigation(m, record, taxonomy):
@@ -1046,6 +1089,7 @@ def icon_catalog_outputs(collections, brand_styles=()):
     tiles, icons, seen = [], [], set()
     sections_used = {}
     detail_template = (ROOT / 'site/icon.template.html').read_text()
+    detail_template = detail_template.replace('@@SITE_HEADER@@', site_header('icons', '../'))
     shared_css = (ROOT / 'site/shared.css').read_text()
     for m, records in collections:
         base = f'collection/{m["id"]}'
@@ -1093,7 +1137,7 @@ def icon_catalog_outputs(collections, brand_styles=()):
     hero = f'<span class="hero-face">{icon_font_span(*first)}</span>' if first else ''
     template = (ROOT / 'site/icons.template.html').read_text()
     for token, replacement in {'@@ICON_TILES@@': '\n'.join(tiles), '@@ICON_FILTERS@@': filters,
-                               '@@SITE_CSS@@': shared_css, '@@BRAND_FONTS@@': '\n'.join(brand_styles),
+                               '@@SITE_CSS@@': shared_css, '@@SITE_HEADER@@': site_header('icons'), '@@BRAND_FONTS@@': '\n'.join(brand_styles),
                                '@@HERO_ICON@@': hero, '@@ICON_COUNT@@': f'{len(icons):,}'}.items():
         template = template.replace(token, replacement)
     return outputs | {'icons.html': template,
