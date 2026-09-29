@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1457 2048" role="img" aria-label="Right angle, 6-point — multitone">
-<title>Right angle, 6-point — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1457 2048" role="img" aria-label="Right angle, 6-point — three-tone">
+<title>Right angle, 6-point — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M144 916 156 143 693 125C1013 113 1254 131 1296 173C1369 246 1333 252 729 258L277 264L271 952C264 1386 240 1652 198 1670C156 1682 138 1447 144 916Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M138 916 156 83H759C1254 83 1363 101 1363 173C1363 246 1248 270 820 294L277 324L301 1036C319 1658 307 1742 222 1742C132 1742 126 1652 138 916ZM144 916C138 1447 156 1682 198 1670C240 1652 264 1386 271 952L277 264L729 258C1333 252 1369 246 1296 173C1254 131 1013 113 693 125L156 143L144 916Z"/>

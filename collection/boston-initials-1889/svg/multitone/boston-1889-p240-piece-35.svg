@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1088 2048" role="img" aria-label="Small semicircle (nonpareil) — multitone">
-<title>Small semicircle (nonpareil) — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1088 2048" role="img" aria-label="Small semicircle (nonpareil) — three-tone">
+<title>Small semicircle (nonpareil) — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M152 871V51H322C691 51 1013 578 937 1058C890 1328 527 1691 298 1691H152V871Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M134 1708C123 1679 111 1293 117 842C121 366 124 166 152 79V1691H298C527 1691 890 1328 937 1058C1013 578 691 51 322 51H164C183 16 210 10 251 4C439 -25 726 145 855 361C937 490 972 654 972 883C972 1152 942 1246 819 1398C591 1661 210 1837 134 1708Z"/>

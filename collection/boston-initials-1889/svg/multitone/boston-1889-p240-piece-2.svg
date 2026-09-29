@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1914 2048" role="img" aria-label="Outlined square (pica) — multitone">
-<title>Outlined square (pica) — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1914 2048" role="img" aria-label="Outlined square (pica) — three-tone">
+<title>Outlined square (pica) — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M136 1767C133 1767 133 1383 130 913L123 59L967 50L1811 43L1805 903L1795 1767H136ZM1739 1669C1755 1655 1755 171 1736 155C1726 145 1378 128 961 122L202 109L186 184C176 224 172 575 179 963L186 1669L580 1685C928 1698 1713 1688 1739 1669Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M908 1790 87 1784 94 920C100 447 103 50 103 33C103 20 491 13 964 17L1828 27L1837 887C1844 1682 1841 1751 1788 1774C1755 1787 1361 1797 908 1790ZM136 1767H1795L1805 903L1811 43L967 50L123 59L130 913C133 1383 133 1767 136 1767ZM1739 1669C1713 1688 928 1698 580 1685L186 1669L179 963C172 575 176 224 186 184L202 109L961 122C1378 128 1726 145 1736 155C1755 171 1755 1655 1739 1669ZM1713 963C1723 575 1726 230 1719 201C1706 145 1644 142 954 142H202V890C202 1304 212 1652 225 1665C238 1675 573 1682 970 1678L1696 1669L1713 963Z"/>

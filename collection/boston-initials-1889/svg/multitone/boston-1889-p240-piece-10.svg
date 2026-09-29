@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Rounded square corner (pica) — multitone">
-<title>Rounded square corner (pica) — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Rounded square corner (pica) — three-tone">
+<title>Rounded square corner (pica) — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M814 1727 145 1718 162 1220C170 950 176 588 176 421C176 185 185 111 219 82C251 56 400 47 803 56C1249 62 1361 73 1433 113C1568 188 1706 335 1772 482C1827 599 1832 654 1824 1154C1821 1453 1809 1709 1801 1724C1792 1735 1717 1744 1637 1741C1553 1735 1185 1729 814 1727Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M1574 1755C1528 1750 1185 1744 814 1738L142 1732L147 913C150 461 165 82 176 70C184 63 266 57 390 55C286 59 236 68 219 82C185 111 176 185 176 421C176 588 170 950 162 1220L145 1718L814 1727C1185 1729 1553 1735 1637 1741C1717 1744 1792 1735 1801 1724C1809 1709 1821 1453 1824 1154C1832 654 1827 599 1772 482C1706 335 1568 188 1433 113C1367 76 1267 64 906 58L1401 65L1522 148C1588 191 1686 295 1737 375L1832 522L1841 1108C1847 1528 1841 1706 1815 1735C1783 1775 1752 1778 1574 1755Z"/>

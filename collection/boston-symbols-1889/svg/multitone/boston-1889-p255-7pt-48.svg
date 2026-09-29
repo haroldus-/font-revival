@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Check mark, 7-point — multitone">
-<title>Check mark, 7-point — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Check mark, 7-point — three-tone">
+<title>Check mark, 7-point — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M198 697C111 617 151 571 458 350C739 157 952 117 952 264C952 337 412 744 318 744C278 744 218 724 198 697ZM1393 1165C1259 918 1159 684 1173 651C1199 577 1820 1432 1820 1539C1820 1579 1780 1612 1727 1612C1673 1612 1520 1412 1393 1165Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M1573 1599C1546 1552 1406 1285 1266 1011C1126 737 986 490 959 457C932 430 785 504 625 624C398 784 311 818 225 764C91 677 44 477 165 477C211 477 365 384 505 270C779 43 919 50 1012 297C1046 377 1119 490 1179 537C1358 685 1784 1348 1818 1525C1778 1374 1198 580 1173 651C1159 684 1259 918 1393 1165C1520 1412 1673 1612 1727 1612C1779 1612 1818 1581 1820 1542C1820 1543 1820 1544 1820 1545C1820 1692 1660 1725 1573 1599ZM198 697C218 724 278 744 318 744C412 744 952 337 952 264C952 117 739 157 458 350C151 571 111 617 198 697Z"/>

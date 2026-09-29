@@ -12,8 +12,11 @@ the missing printed pages 217–218.
 `build` produces individual transparent SVGs, an SVG symbol sprite, OTF and TTF
 desktop fonts, WOFF and WOFF2 webfonts, named CSS classes, JSON manifests, PNG/PDF
 proofs, a family README, license and checksums. The root `icons.html` is a generated,
-searchable gallery with size and colour controls. `icons.json` is its generated
-catalogue. Typeface cards and their existing `catalog.json` stay in the font gallery.
+monochrome font grid with search and collection, type and specimen-section filters.
+Each tile links to `icons/<icon-id>.html`, with three-tone and monochrome previews,
+size and colour controls, downloads, HTML examples and source comparison.
+`icons.json` is its generated catalogue, including detail-page paths and filters.
+Typeface cards and their existing `catalog.json` stay in the font gallery.
 
 Icons with two or three recorded tone regions also produce SVGs in `svg/multitone/`,
 a separate `web/icons-multitone.svg` sprite, and transparent 1024-pixel-high PNGs
@@ -35,19 +38,30 @@ positive-up master coordinates flipped for SVG. This preserves aspect ratio and
 alignment across formats. Inline SVG and sprites inherit `currentColor`; an SVG
 loaded with `<img>` has its own colour context and is black by default. Set a
 sprite's width using its manifest `aspect_ratio` and height of one em. Serve sprite
-examples over HTTP(S), using paths appropriate to your site. The gallery renders
-paths inline so opening `icons.html` directly from disk also works. Its first 24
-icons are embedded in the page; later artwork loads from generated local script
-chunks under `site/icon-art/` when search, pagination or the hero needs it. This
-keeps the full collection searchable without downloading every contour up front.
-Keep that directory with the gallery. For local
-file pages, use an individual SVG with `<img>` or paste its SVG markup inline;
+examples over HTTP(S), using paths appropriate to your site. The index loads only
+monochrome WOFF2 subsets under `site/icon-fonts/`, with 96 encoded icons per batch.
+CSS Unicode ranges load batches as their icons become visible; unencoded tone
+layers are excluded. The first 96 results are shown, with a show-more button.
+Detail pages embed SVG paths directly, so both pages work when opened from disk.
+Keep the generated `icons/` and `site/` assets with the gallery. For local file
+pages, use an individual SVG with `<img>` or paste its SVG markup inline;
 external `<use>` references can be blocked by browser origin restrictions.
-Every family README
-contains complete examples. Original proportions are retained: wide ornaments
+
+`site/icon-taxonomy.json` records collection types and specimen section labels,
+with historical headings, printed pages and explicit IDs or metadata selectors.
+Labels can be shortened for browsing without changing the source record. Choices
+within each filter group combine with OR; groups and search combine with AND.
+The query string preserves selections, icon size and expanded result count.
+Edit layout in `site/icons.template.html` and `site/icon.template.html`, behaviour
+in `site/icons.js` and `site/icon-detail.js`, and common styling in `site/icons.css`.
+`build` regenerates all pages and subsets and removes obsolete generated page,
+font-batch and former artwork-chunk files from their dedicated directories.
+
+Every family README contains complete examples. Original proportions are
+retained: wide ornaments
 must not be squeezed into square cells.
 
-### Put a tritone icon in HTML
+### Put a three-tone icon in HTML
 
 Download the [web bundle ZIP](../collection/boston-cuts-1889/downloads/boston-cuts-1889-web.zip)
 and unzip it. Place the extracted `collection` folder beside your HTML file,
@@ -65,7 +79,7 @@ This displays the three default tones; width follows the original proportions.
 Use `alt=""` for a decorative image beside a text label. An `<img>` has a separate
 colour context, so CSS on your HTML page cannot recolour its internal paths.
 
-For independent colours and opacities, use the tritone sprite on an HTTP(S) page
+For independent colours and opacities, use the three-tone sprite on an HTTP(S) page
 served from the same origin as the sprite:
 
 ```html
@@ -91,7 +105,7 @@ served from the same origin as the sprite:
 
 This renders dark primary ink and two strengths of red. To make it two-tone, set
 both the tertiary colour and opacity to the same values as the secondary region.
-For custom colours on a page opened from disk, open the individual tritone SVG
+For custom colours on a page opened from disk, open the individual three-tone SVG
 in a text editor, paste its complete `<svg>…</svg>` markup into your HTML, and add
 `class="christmas-cut"` to its opening tag. Keep its viewBox and paths. The same
 CSS then styles the inline regions without an external sprite request.
@@ -129,8 +143,8 @@ Each `font.json` icon entry records:
 - Themes and likely search words (subjects, seasons, occasions, objects, visual
   features and common synonyms), plus a reviewed minimum display-size recommendation.
 
-Gallery search uses names and these tags. Prefer familiar words such as Christmas,
-Santa, winter, portrait, beard and pipe over catalogue numbers or foundry names.
+Gallery search uses names, these tags, collections and specimen section headings.
+Prefer familiar words such as Christmas, Santa, winter, portrait, beard and pipe over catalogue numbers or foundry names.
 Keep specimen numbers and page references in the source records for provenance.
 Omit tags that describe the entire collection, such as Victorian and vintage;
 tags should help distinguish one cut from another.
@@ -186,8 +200,8 @@ this committed ZIP, which is included in release rebuild checks.
 ### Publish the gallery
 
 `python scripts/build_site.py --output workspace/published` stages the public
-HTML and its asset dependencies, including deferred artwork chunks. The Pages
-workflow uses this same command. Local gallery files keep relative download
+HTML and its asset dependencies, including individual icon pages and font
+subsets. The Pages workflow uses this same command. Local gallery files keep relative download
 links. The staged HTML links PDFs and ZIPs to their committed files on GitHub,
 so those large downloads are not duplicated in the published site. Editable
 masters, source scans and full proofs remain available in the repository.

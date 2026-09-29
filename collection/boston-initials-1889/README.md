@@ -8,7 +8,7 @@ Decorative spiral, leafy and geometric initials and their printing components fr
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BostonInitials1889-Regular.otf) · [TTF](fonts/BostonInitials1889-Regular.ttf) · [WOFF2](web/BostonInitials1889-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
-[Three-tone SVGs](svg/multitone/) · [Three-tone sprite](web/icons-multitone.svg) · [Transparent multitone PNGs](png/multitone/)
+[Three-tone SVGs](svg/multitone/) · [Three-tone sprite](web/icons-multitone.svg) · [Transparent three-tone PNGs](png/multitone/)
 
 ## Use in HTML
 
@@ -18,7 +18,7 @@ together. The examples below then work as written; adjust the paths if you move
 the folder elsewhere. The bundle contains SVGs, PNGs, fonts, CSS, instructions
 and the license. No JavaScript or font installation is needed for SVG use.
 
-### Tritone image — works from disk too
+### Three-tone image — works from disk too
 
 The individual SVG displays all three tones at their default strengths, with a
 transparent background. Change `height` to resize it; the proportions are retained.
@@ -31,7 +31,7 @@ transparent background. Change `height` to resize it; the proportions are retain
 An `<img>` has its own colour context: page CSS cannot recolour its internal
 regions. For a decorative image beside a text label, use `alt=""` instead.
 
-### Tritone sprite — customise every tone
+### Three-tone sprite — customise every tone
 
 Copy `web/icons-multitone.svg` and use the following complete example on an
 HTTP(S) page served from the same origin as the sprite. It draws dark primary ink
@@ -72,7 +72,7 @@ The gallery itself uses inline SVG so its previews work directly from disk.
 ### Monochrome icon font
 
 Copy the whole `web/` folder, including CSS and webfonts. Standard icon fonts show
-the solid artwork; use the SVG examples above for tritone artwork.
+the solid artwork; use the SVG examples above for three-tone artwork.
 
 ```html
 <link rel="stylesheet" href="collection/boston-initials-1889/web/icons.css">

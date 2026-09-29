@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1070 2048" role="img" aria-label="Steep diagonal, falling map type — multitone">
-<title>Steep diagonal, falling map type — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1070 2048" role="img" aria-label="Steep diagonal, falling map type — three-tone">
+<title>Steep diagonal, falling map type — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M102 1735C102 1656 891 70 932 70C959 70 962 93 936 138C879 248 362 1323 268 1531C185 1716 102 1818 102 1735Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M64 1754C64 1724 98 1637 139 1554C332 1176 819 142 819 108C819 89 853 55 891 33C1008 -28 1008 66 894 297C781 519 343 1429 234 1667C170 1803 64 1860 64 1754ZM102 1735C102 1818 185 1716 268 1531C362 1323 879 248 936 138C962 93 959 70 932 70C891 70 102 1656 102 1735Z"/>

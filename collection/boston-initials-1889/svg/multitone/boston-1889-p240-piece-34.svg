@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Small quarter-circle corner (nonpareil) — multitone">
-<title>Small quarter-circle corner (nonpareil) — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Small quarter-circle corner (nonpareil) — three-tone">
+<title>Small quarter-circle corner (nonpareil) — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M165 1711C130 1530 183 94 223 53C253 24 615 24 1041 47L1806 88V677C1806 1349 1759 1466 1409 1641C1245 1723 1064 1746 685 1752C399 1752 165 1734 165 1711Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M130 1746C107 1705 95 1466 101 1209C107 952 112 578 112 374V6L977 24L1835 41V689C1835 1261 1817 1361 1718 1471C1654 1542 1537 1635 1455 1676C1251 1775 183 1833 130 1746ZM165 1711C165 1734 399 1752 685 1752C1064 1746 1245 1723 1409 1641C1759 1466 1806 1349 1806 677V88L1041 47C615 24 253 24 223 53C183 94 130 1530 165 1711Z"/>

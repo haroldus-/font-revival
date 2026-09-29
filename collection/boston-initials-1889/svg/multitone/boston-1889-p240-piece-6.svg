@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Solid downward triangle (pica) — multitone">
-<title>Solid downward triangle (pica) — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Solid downward triangle (pica) — three-tone">
+<title>Solid downward triangle (pica) — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M138 1745C120 1719 367 1460 947 889C1404 438 1792 70 1804 70C1819 70 1831 447 1831 909V1748H1127C741 1748 367 1757 294 1766C199 1781 152 1775 138 1745Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M123 1763C85 1719 164 1631 944 862C1415 394 1816 17 1828 23C1839 32 1851 429 1851 909L1854 1778H1112C706 1778 326 1787 270 1795C191 1807 152 1801 123 1763ZM138 1745C152 1775 199 1781 294 1766C367 1757 741 1748 1127 1748H1831V909C1831 447 1819 70 1804 70C1792 70 1404 438 947 889C367 1460 120 1719 138 1745Z"/>

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1902 2048" role="img" aria-label="Small ring, 10-point — multitone">
-<title>Small ring, 10-point — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1902 2048" role="img" aria-label="Small ring, 10-point — three-tone">
+<title>Small ring, 10-point — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M677 1660C236 1497 74 836 376 441C573 174 1165 174 1408 441C1675 731 1652 1230 1374 1509C1142 1741 991 1776 677 1660ZM1234 1254C1583 905 1234 383 747 511C410 592 329 778 457 1137C561 1416 1002 1486 1234 1254Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M1234 1254C1002 1486 561 1416 457 1137C329 778 410 592 747 511C1234 383 1583 905 1234 1254ZM1188 1149C1432 789 1304 557 863 604C468 638 329 929 585 1207C793 1451 979 1439 1188 1149ZM283 1486C4 1103 51 650 399 302C759 -46 805 -58 1258 174C1664 383 1803 894 1583 1358C1473 1588 1371 1672 1092 1705C1184 1676 1271 1612 1374 1509C1652 1230 1675 731 1408 441C1165 174 573 174 376 441C74 836 236 1497 677 1660C763 1692 836 1712 903 1720C552 1738 428 1698 283 1486Z"/>

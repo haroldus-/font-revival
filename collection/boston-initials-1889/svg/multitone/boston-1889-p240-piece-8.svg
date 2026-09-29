@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Rounded arch tile (pica) — multitone">
-<title>Rounded arch tile (pica) — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Rounded arch tile (pica) — three-tone">
+<title>Rounded arch tile (pica) — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M655 1711C579 1685 460 1599 372 1513C162 1300 129 1185 117 564L108 61H1812L1830 129C1838 167 1838 392 1833 632C1821 993 1809 1090 1759 1206C1685 1365 1454 1626 1324 1694C1194 1762 818 1770 655 1711Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M626 1723C570 1705 448 1617 357 1525C135 1303 99 1179 88 549L79 61L182 46C238 37 638 37 1070 46L1853 61L1850 534C1850 925 1838 1037 1791 1167C1729 1345 1534 1581 1359 1691C1262 1753 1214 1762 990 1759C845 1756 682 1741 626 1723ZM655 1711C818 1770 1194 1762 1324 1694C1454 1626 1685 1365 1759 1206C1809 1090 1821 993 1833 632C1838 392 1838 167 1830 129L1812 61H108L117 564C129 1185 162 1300 372 1513C460 1599 579 1685 655 1711Z"/>

@@ -37,6 +37,31 @@ class PublicSiteTests(unittest.TestCase):
             self.assertFalse((output / 'source').exists())
             self.assertFalse((output / 'bundle.zip').exists())
 
+    def test_nested_icon_pages_resolve_assets_and_filtered_return_links(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp) / 'repository'; root.mkdir()
+            output = Path(temp) / 'published'
+            files = {
+                'index.html': '<a href="icons.html">Icons</a>',
+                'icons.html': '<a href="icons/father-christmas.html">Father Christmas</a>',
+                'icons/father-christmas.html': '<a href="../icons.html?section=holiday-cuts#collection">Holiday cuts</a><link href="../site/icon-fonts/icons.css"><script src="../site/icon-detail.js"></script><a href="../collection/cuts/downloads/web.zip">Download</a>',
+                'site/icon-fonts/icons.css': '@font-face{src:url(cuts-000.woff2);unicode-range:U+E000}',
+                'site/icon-fonts/cuts-000.woff2': 'subset',
+                'site/icon-detail.js': 'controls',
+                'collection/cuts/downloads/web.zip': 'bundle',
+                'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+            }
+            for name, text in files.items():
+                file = root / name; file.parent.mkdir(parents=True, exist_ok=True); file.write_text(text)
+            _, count = site.assemble(root, output, 'https://example.test/repository/')
+            self.assertEqual(count, 9)
+            public = (output / 'icons/father-christmas.html').read_text()
+            self.assertIn('../icons.html?section=holiday-cuts#collection', public)
+            self.assertIn('https://example.test/repository/collection/cuts/downloads/web.zip', public)
+            self.assertEqual((output / 'site/icon-fonts/cuts-000.woff2').read_text(), 'subset')
+            self.assertEqual((output / 'site/icon-detail.js').read_text(), 'controls')
+            self.assertEqual((root / 'icons/father-christmas.html').read_text(), files['icons/father-christmas.html'])
+
     def test_missing_or_outside_assets_fail_before_deployment(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

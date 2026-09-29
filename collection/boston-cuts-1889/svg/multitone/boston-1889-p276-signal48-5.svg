@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Solid square signal — multitone">
-<title>Solid square signal — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Solid square signal — three-tone">
+<title>Solid square signal — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M86 1777C69 1768 64 52 82 31C91 20 262 17 961 17C1690 17 1831 19 1842 32C1851 43 1854 276 1857 907C1858 1380 1854 1771 1850 1776C1839 1787 106 1788 86 1777ZM1551 928C1547 925 1540 925 1536 928C1533 932 1536 936 1544 936C1551 936 1554 932 1551 928Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M68 1773C60 1763 58 1739 63 1696C67 1663 69 1291 68 872C65 42 65 28 72 22L73 21C76 18 473 15 956 14C1682 12 1836 14 1846 27C1854 36 1859 283 1862 889C1864 1354 1863 1749 1860 1764L1853 1790L968 1789C205 1789 80 1787 68 1773ZM86 1777C106 1788 1839 1787 1850 1776C1854 1771 1858 1380 1857 907C1854 276 1851 43 1842 32C1831 19 1690 17 961 17C262 17 91 20 82 31C64 52 69 1768 86 1777ZM1551 928C1554 932 1551 936 1544 936C1536 936 1533 932 1536 928C1540 925 1547 925 1551 928Z"/>

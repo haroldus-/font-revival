@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Plus sign, 6-point — multitone">
-<title>Plus sign, 6-point — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Plus sign, 6-point — three-tone">
+<title>Plus sign, 6-point — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M859 1660C834 1623 828 1465 841 1306L859 1020L585 1002C42 971 18 862 542 807L859 776L877 460C901 33 1011 45 1011 472V801L1395 819C1602 831 1773 868 1773 898C1773 935 1602 965 1395 977L1011 996V1325C1011 1641 944 1794 859 1660Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M828 1495C828 1367 810 1203 792 1130C772 1063 750 1027 685 1009L859 1020L841 1306C828 1465 834 1623 859 1660C944 1794 1011 1641 1011 1325V996L1395 977C1602 965 1773 935 1773 898C1773 868 1602 831 1395 819L1011 801V472C1011 45 901 33 877 460L859 776L542 807C72 856 43 949 433 990C429 990 424 990 420 990C-12 990 12 868 469 776L798 715L828 417C871 9 1011 -34 1011 362C1011 520 1035 685 1060 728C1084 764 1261 807 1456 819C1645 831 1803 868 1803 898C1803 935 1633 971 1425 990L1042 1020L1048 1373C1054 1672 1042 1721 944 1721C853 1721 828 1672 828 1495Z"/>

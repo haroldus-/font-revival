@@ -688,8 +688,8 @@ def build_icons(path, m, font):
             gray_folder = path / "svg/multitone"
             gray_folder.mkdir(exist_ok=True)
             (gray_folder / f'{r["id"]}.svg').write_text(
-                f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{r["viewBox"]}" role="img" aria-label="{html.escape(r["name"], quote=True)} — multitone">\n'
-                f'<title>{title} — multitone</title>\n<metadata>{m["copyright"]}; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>\n'
+                f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{r["viewBox"]}" role="img" aria-label="{html.escape(r["name"], quote=True)} — three-tone">\n'
+                f'<title>{title} — three-tone</title>\n<metadata>{m["copyright"]}; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>\n'
                 + multitone_artwork(r) + '\n</svg>\n')
             gray_symbols.append(f'<symbol id="{r["id"]}" viewBox="{r["viewBox"]}">{multitone_artwork(r)}</symbol>')
             png_folder = path / "png/multitone"
@@ -732,7 +732,7 @@ def build_icons(path, m, font):
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/{ps}.otf) · [TTF](fonts/{ps}.ttf) · [WOFF2](web/{ps}.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
-{'[Three-tone SVGs](svg/multitone/) · [Three-tone sprite](web/icons-multitone.svg) · [Transparent multitone PNGs](png/multitone/)' if gray_symbols else ''}
+{'[Three-tone SVGs](svg/multitone/) · [Three-tone sprite](web/icons-multitone.svg) · [Transparent three-tone PNGs](png/multitone/)' if gray_symbols else ''}
 
 ## Use in HTML
 
@@ -742,7 +742,7 @@ together. The examples below then work as written; adjust the paths if you move
 the folder elsewhere. The bundle contains SVGs, PNGs, fonts, CSS, instructions
 and the license. No JavaScript or font installation is needed for SVG use.
 
-### Tritone image — works from disk too
+### Three-tone image — works from disk too
 
 The individual SVG displays all three tones at their default strengths, with a
 transparent background. Change `height` to resize it; the proportions are retained.
@@ -754,7 +754,7 @@ transparent background. Change `height` to resize it; the proportions are retain
 An `<img>` has its own colour context: page CSS cannot recolour its internal
 regions. For a decorative image beside a text label, use `alt=""` instead.
 
-### Tritone sprite — customise every tone
+### Three-tone sprite — customise every tone
 
 Copy `web/icons-multitone.svg` and use the following complete example on an
 HTTP(S) page served from the same origin as the sprite. It draws dark primary ink
@@ -778,7 +778,7 @@ The gallery itself uses inline SVG so its previews work directly from disk.
 ### Monochrome icon font
 
 Copy the whole `web/` folder, including CSS and webfonts. Standard icon fonts show
-the solid artwork; use the SVG examples above for tritone artwork.
+the solid artwork; use the SVG examples above for three-tone artwork.
 
 ```html
 {examples["font"]}
@@ -852,7 +852,7 @@ opacity independently. Use matching secondary and tertiary values for two tones.
 {example["font"]}
 ```
 
-The font uses the solid artwork. SVG provides the multi-tone version.
+The font uses the solid artwork. SVG provides the three-tone version.
 Keep `collection/{m["id"]}/LICENSE` with the assets when redistributing them.
 {m["copyright"]}. MIT licensed.
 '''
@@ -940,96 +940,185 @@ def catalog_outputs():
     return {"catalog.json": catalog, "index.html": template} | icon_catalog_outputs(icon_collections, brand_styles)
 
 
-def icon_catalog_outputs(collections, brand_styles=()):
-    cards, styles, icons, seen = [], [], [], set()
-    artwork_chunks = {}
+def icon_navigation(m, record, taxonomy):
+    """Keep navigation terms separate from permanent icon identities and outlines."""
+    category = taxonomy['collections'].get(m['id'], {}).get('type', 'cuts')
+    sections = []
+    for section in taxonomy['sections']:
+        if section['collection'] != m['id'] or record['printed_page'] not in section['printed_pages']:
+            continue
+        if 'icons' in section and record['id'] not in section['icons']:
+            continue
+        if 'specimen_prefixes' in section and not any(record['specimen_number'].startswith(p) for p in section['specimen_prefixes']):
+            continue
+        if 'tags_any' in section and not set(record['tags']).intersection(section['tags_any']):
+            continue
+        sections.append(section)
+    return category, sections
+
+
+def icon_browse_fonts(collections):
+    """Subset only encoded monochrome art, with lazy Unicode ranges per 96 icons."""
+    from fontTools import subset
+    outputs, css = {}, [f'/* {COPYRIGHT_NOTICE}; MIT. Generated monochrome browsing fonts. */']
     for m, records in collections:
-        base = f'collection/{m["id"]}'
-        styles.append(f'<link rel="stylesheet" href="{base}/web/icons.css">')
-        ps = m["postscript_name"]
-        for record_index, r in enumerate(records):
-            if r["id"] in seen:
-                raise ValueError(f'Duplicate icon ID across collections: {r["id"]}')
-            seen.add(r["id"])
-            public = public_icon(r)
-            if r["tones"]:
-                public["multitone"] = {"svg": f'{base}/svg/multitone/{r["id"]}.svg',
-                                       "png": f'{base}/png/multitone/{r["id"]}.png',
-                                       "sprite": f'{base}/web/icons-multitone.svg#{r["id"]}'}
-            icons.append(public | {"collection": m["id"], "svg": f'{base}/svg/{r["id"]}.svg',
-                                   "sprite": f'{base}/web/icons.svg#{r["id"]}',
-                                   "css_class": f'fr-icon fr-{r["id"]}',
-                                   "source": m["sources"][r["source_index"]]})
-            title = html.escape(r["name"])
-            search = html.escape(' '.join([r["name"], *r["tags"]]), quote=True)
-            examples = icon_html_examples(r, base)
-            tags = ''.join(f'<li>{html.escape(tag)}</li>' for tag in r["tags"])
-            links = ' '.join(f'<a download href="{base}/{folder}/{ps}.{ext}">{ext.upper()}</a>'
-                             for folder, ext in (("fonts", "otf"), ("fonts", "ttf"), ("web", "woff2")))
-            mono_art = icon_artwork(r)
-            tone_art = multitone_artwork(r) if r["tones"] else ''
-            chunk = ''
-            if len(icons) > 24:
-                # Classic local scripts work on file:// pages as well as HTTP.
-                # Keep the initial results inline and load later drawings only
-                # when search, pagination or the hero actually needs them.
-                chunk = f'site/icon-art/{m["id"]}-{record_index // 24:03d}.js'
-                artwork_chunks.setdefault(chunk, {})[r["id"]] = {
-                    "monochrome": mono_art, "multitone": tone_art}
-                mono_art = tone_art = ''
-            gray_preview = (f'<figure><div class="art"><svg data-icon-format="multitone" role="img" aria-label="{title} — multi-tone" viewBox="{r["viewBox"]}" style="width:{r["aspect_ratio"]:.6f}em;height:1em">{tone_art}</svg></div><figcaption>Three-tone SVG</figcaption></figure>' if r["tones"] else '')
-            gray_links = (f'<a download href="{base}/svg/multitone/{r["id"]}.svg">Three-tone SVG</a><a download href="{base}/png/multitone/{r["id"]}.png">Three-tone PNG</a><a download href="{base}/web/icons-multitone.svg">Three-tone sprite</a>' if r["tones"] else '')
-            cards.append(f'''<article class="icon-card" id="{r["id"]}" data-search="{search}" data-art-chunk="{chunk}">
-  <p class="card-meta">{html.escape(m["name"])} · Cut {html.escape(r["specimen_number"])}</p>
-  <h2>{title}</h2>
+        source = ROOT / 'collection' / m['id'] / 'fonts' / f'{m["postscript_name"]}.ttf'
+        for start in range(0, len(records), 96):
+            codepoints = sorted({int(r['codepoint'], 16) for r in records[start:start + 96]})
+            # A family's first available font must contain a space to supply
+            # its line metrics. Without it, browsers use fallback-font metrics
+            # even while drawing the correct Private Use glyphs.
+            if start == 0:
+                codepoints.insert(0, 32)
+            with TTFont(source, recalcTimestamp=False) as font:
+                upm = font['head'].unitsPerEm
+                ascent = 100 * font['hhea'].ascent / upm
+                descent = -100 * font['hhea'].descent / upm
+                selected = subset.Subsetter()
+                selected.populate(unicodes=codepoints)
+                selected.subset(font)
+                font.flavor = 'woff2'
+                data = io.BytesIO(); font.save(data)
+            filename = f'{m["id"]}-{start // 96:03d}.woff2'
+            outputs[f'site/icon-fonts/{filename}'] = data.getvalue()
+            ranges = ','.join(f'U+{cp:X}' for cp in codepoints)
+            # Use the same TrueType outlines as the released webfont, with an
+            # explicit baseline matching the SVG frame across browsers.
+            css.append(f'@font-face{{font-family:"browse-{m["id"]}";src:url("{filename}") format("woff2");font-weight:400;font-style:normal;font-display:block;ascent-override:{ascent:.8f}%;descent-override:{descent:.8f}%;line-gap-override:0%;unicode-range:{ranges}}}')
+    outputs['site/icon-fonts/icons.css'] = '\n'.join(css) + '\n'
+    return outputs
+
+
+def icon_font_span(m, record):
+    return (f'<span class="grid-icon" aria-hidden="true" style="font-family:\'browse-{m["id"]}\'">'
+            f'&#x{record["codepoint"]};</span>')
+
+
+def icon_detail(m, r, sections):
+    base = f'../collection/{m["id"]}'
+    title = html.escape(r['name'], quote=True)
+    examples = icon_html_examples(r, f'collection/{m["id"]}')
+    tags = ''.join(f'<li>{html.escape(tag)}</li>' for tag in r['tags'])
+    section_links = ''.join(f'<a href="../icons.html?section={s["id"]}#collection">{html.escape(s["label"])}</a>' for s in sections)
+    ps = m['postscript_name']
+    links = ' '.join(f'<a download href="{base}/{folder}/{ps}.{ext}">{ext.upper()}</a>'
+                     for folder, ext in (("fonts", "otf"), ("fonts", "ttf"), ("web", "woff2")))
+    tone_preview = (f'<figure><div class="art"><svg data-icon-format="multitone" role="img" aria-label="{title} — three-tone" viewBox="{r["viewBox"]}" style="width:{r["aspect_ratio"]:.6f}em;height:1em">{multitone_artwork(r)}</svg></div><figcaption>Three-tone SVG</figcaption></figure>' if r['tones'] else '')
+    tone_links = (f'<a download href="{base}/svg/multitone/{r["id"]}.svg">Three-tone SVG</a><a download href="{base}/png/multitone/{r["id"]}.png">Three-tone PNG</a><a download href="{base}/web/icons-multitone.svg">Three-tone sprite</a>' if r['tones'] else '')
+    image_title = 'Three-tone image' if r['tones'] else 'Monochrome image'
+    image_description = ('This displays all three tones with a transparent background.' if r['tones'] else 'This displays the monochrome artwork with a transparent background.')
+    return f'''<article class="icon-card" id="{r['id']}">
+  <p class="card-meta"><a href="../icons.html?collection={m['id']}#collection">{html.escape(m['name'])}</a><span>No. {html.escape(r['specimen_number'])}</span></p>
+  <h1>{title}</h1>
   <ul class="tags" aria-label="Themes and search terms">{tags}</ul>
-  <div class="renderings" role="group" aria-label="Three-tone and monochrome formats for {title}">
-    {gray_preview}
-    <figure><div class="art"><svg data-hero-icon data-icon-format="monochrome" role="img" aria-label="{title}" viewBox="{r["viewBox"]}" style="width:{r["aspect_ratio"]:.6f}em;height:1em">{mono_art}</svg></div><figcaption>Monochrome SVG</figcaption></figure>
-    <figure><div class="art"><span class="fr-icon fr-{r["id"]}" role="img" aria-label="{title}"></span></div><figcaption>Monochrome icon font</figcaption></figure>
+  <div class="section-links">{section_links}</div>
+  <div class="tester controls">
+    <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
+    <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
   </div>
-  <p class="art-status" role="status" hidden></p>
-  <p class="description">Engraved detail, original proportions. Recommended from {r["recommended_min_px"]} px.</p>
-  <div class="downloads"><a download href="{base}/downloads/{m["id"]}-web.zip">Download web bundle (ZIP)</a>{gray_links}<a download href="{base}/svg/{r["id"]}.svg">Monochrome SVG</a><a download href="{base}/web/icons.svg">Monochrome sprite</a>{links}<a href="{base}/specimens/specimen.pdf">Comparison PDF</a><a href="{base}/font.json">Source record</a></div>
+  <div class="renderings" role="group" aria-label="Formats for {title}">
+    {tone_preview}
+    <figure><div class="art"><svg data-icon-format="monochrome" role="img" aria-label="{title}" viewBox="{r['viewBox']}" style="width:{r['aspect_ratio']:.6f}em;height:1em">{icon_artwork(r)}</svg></div><figcaption>Monochrome SVG</figcaption></figure>
+    <figure><div class="art" role="img" aria-label="{title}">{icon_font_span(m, r)}</div><figcaption>Monochrome icon font</figcaption></figure>
+  </div>
+  <div class="downloads"><a download href="{base}/downloads/{m['id']}-web.zip">Download web bundle (ZIP)</a>{tone_links}<a download href="{base}/svg/{r['id']}.svg">Monochrome SVG</a><a download href="{base}/web/icons.svg">Monochrome sprite</a>{links}<a href="{base}/specimens/specimen.pdf">Comparison PDF</a><a href="{base}/font.json">Source record</a></div>
   <details><summary>Use this icon in HTML</summary>
-    <p><a download href="{base}/downloads/{m["id"]}-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license.</p>
-    <h3>Tritone image</h3>
-    <p>This displays all three tones with a transparent background. Set the height; the width follows the original proportions.</p>
-    <pre><code data-example="image">{html.escape(examples["image"])}</code></pre>
+    <p><a download href="{base}/downloads/{m['id']}-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license.</p>
+    <h3>{image_title}</h3>
+    <p>{image_description} Set the height; the width follows the original proportions.</p>
+    <pre><code data-example="image">{html.escape(examples['image'])}</code></pre>
     <p>An image has its own colour context, so page CSS cannot recolour its internal regions. For a decorative image beside a text label, use <code>alt=""</code>.</p>
-    <h3>Tritone with your own colours</h3>
+    <h3>{'Three-tone' if r['tones'] else 'SVG'} with your own colours</h3>
     <p>On an HTTP(S) page, load the sprite from the same site. This complete example uses dark primary ink and two strengths of red. Each region has an independent colour and opacity; set the secondary and tertiary values alike for a two-tone appearance.</p>
-    <pre><code data-example="sprite">{html.escape(examples["sprite"])}</code></pre>
+    <pre><code data-example="sprite">{html.escape(examples['sprite'])}</code></pre>
     <h3>Monochrome icon font</h3>
-    <p>Copy the whole <code>web/</code> folder, including CSS and webfonts. Font size and colour use ordinary CSS. The icon font draws the solid version; use SVG for tritone artwork.</p>
-    <pre><code data-example="font">{html.escape(examples["font"])}</code></pre>
+    <p>Copy the whole <code>web/</code> folder, including CSS and webfonts. Font size and colour use ordinary CSS. The icon font draws the solid version; use SVG for three-tone artwork.</p>
+    <pre><code data-example="font">{html.escape(examples['font'])}</code></pre>
     <p>The decorative font icon is hidden from screen readers and has a visible text label. An icon conveying meaning on its own needs <code>role="img"</code> and an <code>aria-label</code> instead of <code>aria-hidden</code>.</p>
   </details>
-  <details><summary>Compare with the historical impression</summary><img class="comparison" loading="lazy" src="{base}/specimens/{r["id"]}.png" alt="Historical scan beside the multitone and monochrome vector revivals"></details>
-</article>''')
-    hero = next((r for _, records in collections for r in records), None)
-    hero_icon = (f'<span class="hero-face"><svg viewBox="{hero["viewBox"]}">{icon_artwork(hero)}</svg></span>'
-                 if hero else '')
-    template = (ROOT / "site/icons.template.html").read_text()
-    for token, value in {"@@ICON_STYLES@@": '\n'.join(styles), "@@ICON_CARDS@@": '\n'.join(cards),
-                         "@@SITE_CSS@@": (ROOT / "site/shared.css").read_text(),
-                         "@@BRAND_FONTS@@": '\n'.join(brand_styles), "@@HERO_ICON@@": hero_icon,
-                         "@@ICON_COUNT@@": str(len(icons))}.items():
-        template = template.replace(token, value)
-    chunk_outputs = {name: '/* Generated by scripts/fontrevival.py. */\nObject.assign(window.revivalIconArtwork, ' +
-                     json.dumps(drawings, ensure_ascii=False, separators=(',', ':'), sort_keys=True) + ');\n'
-                     for name, drawings in artwork_chunks.items()}
-    return chunk_outputs | {"icons.html": template,
-            "icons.json": json.dumps({"schema_version": 1, "collections": [m for m, _ in collections],
-                                       "icons": icons}, indent=2, ensure_ascii=False) + '\n'}
+  <details><summary>Compare with the historical impression</summary><img class="comparison" loading="lazy" src="{base}/specimens/{r['id']}.png" alt="Historical scan beside the three-tone and monochrome vector revivals"></details>
+</article>'''
+
+
+def icon_catalog_outputs(collections, brand_styles=()):
+    taxonomy = json.loads((ROOT / 'site/icon-taxonomy.json').read_text())
+    outputs = icon_browse_fonts(collections)
+    tiles, icons, seen = [], [], set()
+    sections_used = {}
+    detail_template = (ROOT / 'site/icon.template.html').read_text()
+    shared_css = (ROOT / 'site/shared.css').read_text()
+    for m, records in collections:
+        base = f'collection/{m["id"]}'
+        for r in records:
+            if r['id'] in seen:
+                raise ValueError(f'Duplicate icon ID across collections: {r["id"]}')
+            seen.add(r['id'])
+            category, sections = icon_navigation(m, r, taxonomy)
+            sections_used.update({s['id']: s for s in sections})
+            public = public_icon(r)
+            if r['tones']:
+                public['multitone'] = {'svg': f'{base}/svg/multitone/{r["id"]}.svg',
+                                       'png': f'{base}/png/multitone/{r["id"]}.png',
+                                       'sprite': f'{base}/web/icons-multitone.svg#{r["id"]}'}
+            detail_path = f'icons/{r["id"]}.html'
+            icons.append(public | {'collection': m['id'], 'type': category, 'sections': [s['id'] for s in sections],
+                                  'page': detail_path, 'svg': f'{base}/svg/{r["id"]}.svg',
+                                  'sprite': f'{base}/web/icons.svg#{r["id"]}', 'css_class': f'fr-icon fr-{r["id"]}',
+                                  'source': m['sources'][r['source_index']]})
+            title = html.escape(r['name'], quote=True)
+            search = html.escape(' '.join([r['name'], *r['tags'], m['name'], taxonomy['types'][category],
+                                          *[s['label'] + ' ' + s['historical_heading'] for s in sections]]), quote=True)
+            section_ids = ' '.join(s['id'] for s in sections)
+            tiles.append(f'<a class="icon-tile" href="{detail_path}" aria-label="{title}" data-id="{r["id"]}" data-search="{search}" data-collection="{m["id"]}" data-type="{category}" data-section="{section_ids}"{ " hidden" if len(icons) > 96 else ""}>{icon_font_span(m, r)}<span class="tile-name" aria-hidden="true">{title}</span></a>')
+            detail = detail_template
+            for token, replacement in {'@@TITLE@@': title, '@@DESCRIPTION@@': f'{title}: three-tone and monochrome SVGs, icon fonts and HTML examples.',
+                                       '@@ICON_DETAIL@@': icon_detail(m, r, sections),
+                                       '@@SITE_CSS@@': shared_css.replace('url("collection/', 'url("../collection/'),
+                                       '@@BRAND_FONTS@@': '\n'.join(brand_styles).replace('url("collection/', 'url("../collection/')}.items():
+                detail = detail.replace(token, replacement)
+            outputs[detail_path] = detail
+    def options(group, items):
+        labels = []
+        for key, label in items:
+            count = sum(key in i['sections'] if group == 'section' else i[group] == key for i in icons)
+            labels.append(f'<label class="filter-option"><input type="checkbox" name="{group}" value="{key}"><span>{html.escape(label)}</span><small aria-hidden="true">{count:,}</small></label>')
+        return '\n'.join(labels)
+    type_options = options('type', [(k, v) for k, v in taxonomy['types'].items() if any(i['type'] == k for i in icons)])
+    collection_options = options('collection', [(m['id'], m['name']) for m, _ in collections])
+    section_options = options('section', [(s['id'], s['label']) for s in sorted(sections_used.values(), key=lambda s: s['label'].lower())])
+    filters = f'''<fieldset><legend>Type</legend><div class="filter-options">{type_options}</div></fieldset>
+<details open><summary>Collection</summary><fieldset><legend class="sr-only">Collection</legend><div class="filter-options">{collection_options}</div></fieldset></details>
+<details><summary>Specimen sections</summary><label class="sr-only" for="section-search">Find a specimen section</label><input class="section-search" id="section-search" type="search" placeholder="Find a section" autocomplete="off"><fieldset><legend class="sr-only">Specimen sections</legend><div class="filter-options section-options">{section_options}</div></fieldset></details>'''
+    first = next(((m, r) for m, records in collections for r in records), None)
+    hero = f'<span class="hero-face">{icon_font_span(*first)}</span>' if first else ''
+    template = (ROOT / 'site/icons.template.html').read_text()
+    for token, replacement in {'@@ICON_TILES@@': '\n'.join(tiles), '@@ICON_FILTERS@@': filters,
+                               '@@SITE_CSS@@': shared_css, '@@BRAND_FONTS@@': '\n'.join(brand_styles),
+                               '@@HERO_ICON@@': hero, '@@ICON_COUNT@@': f'{len(icons):,}'}.items():
+        template = template.replace(token, replacement)
+    return outputs | {'icons.html': template,
+                      'icons.json': json.dumps({'schema_version': 1, 'collections': [m for m, _ in collections],
+                                                'types': taxonomy['types'],
+                                                'sections': [{k: s[k] for k in ('id', 'label', 'historical_heading', 'collection', 'printed_pages')} for s in sections_used.values()],
+                                                'icons': icons}, indent=2, ensure_ascii=False) + '\n'}
+
+
+def output_bytes(content):
+    return content if isinstance(content, bytes) else content.encode()
 
 
 def build_catalog():
-    for filename, content in catalog_outputs().items():
+    outputs = catalog_outputs()
+    # Only these dedicated directories contain disposable generated site assets.
+    # The obsolete local path chunks are superseded by individual detail pages.
+    for folder, pattern in (('site/icon-art', '*.js'), ('site/icon-fonts', '*.woff2'), ('icons', '*.html')):
+        for old in (ROOT / folder).glob(pattern):
+            if old.relative_to(ROOT).as_posix() not in outputs:
+                old.unlink()
+    for filename, content in outputs.items():
         output = ROOT / filename
         output.parent.mkdir(parents=True, exist_ok=True)
-        output.write_text(content)
-
+        output.write_bytes(output_bytes(content))
 
 SIZE_METRICS = ("y_min", "y_max", "ink_width", "ink_height", "advance_width")
 
@@ -1251,7 +1340,7 @@ def check(slug=None):
     # Check all cards even when checking one family. Rendering in memory avoids
     # copying large historical scans and temporarily mutating the global ROOT.
     for file, content in catalog_outputs().items():
-        if (ROOT / file).read_bytes() != content.encode():
+        if (ROOT / file).read_bytes() != output_bytes(content):
             raise ValueError(f"{file} is stale. Run build.")
     print("Rebuild matches every committed output.")
 

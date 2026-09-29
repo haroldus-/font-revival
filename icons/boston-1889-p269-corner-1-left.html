@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Small stepped rule, left corner: three-tone and monochrome SVGs, icon fonts and HTML examples.">
+  <meta name="theme-color" content="#f4f0e7">
+  <title>Small stepped rule, left corner — Ornaments &amp; cuts — Font Revival</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23a5422c'/%3E%3Ctext x='15' y='48' font-family='serif' font-size='48' fill='%23f4f0e7'%3Ef%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../site/icon-fonts/icons.css">
+  <link rel="stylesheet" href="../site/icons.css">
+  <script defer src="../site/icon-detail.js"></script>
+  <style>
+    @font-face{font-family:"erebus-1894";src:url("../collection/erebus-1894/web/Erebus1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"hades-1894";src:url("../collection/hades-1894/web/Hades1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"quaint-gothic-1894";src:url("../collection/quaint-gothic-1894/web/QuaintGothic1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"remington-1888";src:url("../collection/remington-1888/web/Remington1888-Regular.woff2") format("woff2");font-display:swap}
+        :root{--paper:#f4f0e7;--ink:#24251f;--muted:#68675c;--rule:#cbc6b8;--red:#a5422c;--sample-size:56px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--red)}a:focus-visible,input:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:12px}.skip:focus{top:12px}header{display:flex;justify-content:space-between;align-items:center;padding:27px 0;border-bottom:1px solid var(--ink);gap:20px}.wordmark{font-family:"quaint-gothic-1894",sans-serif;font-size:25px;font-weight:normal;text-decoration:none;letter-spacing:normal}nav{display:flex;gap:26px;font-size:13px}.hero{padding:32px 0 70px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px 40px;align-items:end}.eyebrow{display:grid;grid-column:1 / -1;font-family:"erebus-1894",serif;color:var(--red);font-size:clamp(24px,3vw,36px);letter-spacing:4px;text-transform:uppercase;margin:0}h1{font-family:"oriole-1894",serif;font-weight:normal;font-size:clamp(64px,8.4vw,112px);line-height:1.2;letter-spacing:normal;margin:0;position:relative;height:2.5em}h1 em{color:var(--red);font-weight:normal;font-style:normal}.intro{font-family:"remington-1888",monospace;font-size:19px;max-width:360px;justify-self:end;margin:0 0 6px;color:var(--muted)}.intro a{font-family:Arial,Helvetica,sans-serif;display:inline-block;margin-top:20px;color:var(--ink);font-size:13px}.collection-bar{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.collection-bar h2{font-size:11px;font-weight:normal;letter-spacing:2px;margin:0;text-transform:uppercase}.collection-bar span{color:var(--muted);font-size:12px}.tester{display:flex;gap:32px;align-items:end;padding:28px 0 36px}.text-control{flex:1}.tester label{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}input[type=text]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=range]{accent-color:var(--red);width:160px}output{font-variant-numeric:tabular-nums}.font-card{border-top:1px solid var(--rule);padding:32px 0 36px}.card-meta{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.3px}.font-card h2{font-size:clamp(68px,8vw,104px);font-weight:400;line-height:1.4;margin:22px 0 8px}.description{color:var(--muted);max-width:720px;font-size:14px;margin:0 0 20px}.type-sample{font-size:var(--sample-size);line-height:1.65;padding:6px 0 20px;overflow-wrap:anywhere;min-height:130px}.coverage{font-size:11px;color:var(--muted);letter-spacing:.3px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.downloads a{border:1px solid var(--rule);text-decoration:none;padding:8px 14px;font-size:11px}.downloads a:hover{border-color:var(--red);background:#eee6d9}.mission{border-top:1px solid var(--ink);padding:55px 0 65px;display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:25px}.mission h2{font-family:"quaint-gothic-1894",sans-serif;font-size:39px;line-height:1.2;font-weight:normal;letter-spacing:normal;margin:0}.mission p{font-family:"remington-1888",monospace;font-size:14px;color:var(--muted);margin:0 0 18px}.mission a{color:var(--ink)}footer{border-top:1px solid var(--rule);padding:22px 0 35px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.notice{font-size:11px!important}
+    /* The generator resolves this shared ornament URL for each page's depth. */
+    details > summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer}
+    details > summary::marker{content:""}
+    details > summary::-webkit-details-marker{display:none}
+    details > summary::before{content:"";flex:0 0 18px;width:18px;height:18px;background:url("../collection/boston-ornaments-1889/svg/boston-1889-p258-word-1-3.svg") center / contain no-repeat;transform:rotate(0deg)}
+    details[open] > summary::before{transform:rotate(90deg)}
+    details > summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+    /* Hades includes its shadow offset; both faces share one origin and wrapping. */
+    .eyebrow > span{grid-area:1 / 1;min-width:0}
+    .eyebrow-shadow{font-family:"hades-1894",serif;color:var(--muted);visibility:hidden;pointer-events:none;user-select:none}
+    .eyebrow.is-layered .eyebrow-shadow{visibility:visible}
+    .eyebrow-face{position:relative}
+    .hero-face{position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;opacity:1;transition:opacity 1.4s ease}
+    .hero-face.is-hidden{opacity:0}
+    .hero-line{display:block;width:max-content;max-width:100%;white-space:nowrap;align-self:center}
+    .hero-animation-toggle{border:0;border-bottom:1px solid var(--rule);background:none;padding:0;color:var(--muted);font:11px Arial,Helvetica,sans-serif;cursor:pointer}
+    .hero-animation-control{height:22px;margin-top:12px}
+    @media(max-width:650px){.wrap{width:calc(100% - 40px)}header{padding:20px 0;flex-wrap:wrap}nav{gap:14px}.hero{grid-template-columns:1fr;padding:28px 0 55px;gap:28px}h1{font-size:clamp(50px,16vw,64px)}.intro{justify-self:start;max-width:440px;font-size:17px}.tester{flex-direction:column;align-items:stretch;gap:20px}.size-control{display:flex;gap:20px;align-items:center}.size-control label{margin:0}.font-card h2{font-size:clamp(32px,8vw,52px);overflow-wrap:anywhere}.mission{grid-template-columns:1fr;gap:24px;padding:40px 0}.mission h2{font-size:34px}.type-sample{font-size:min(var(--sample-size),64px)}footer{flex-direction:column;gap:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-face{transition:none}}
+
+  </style>
+</head>
+<body class="icon-detail-page">
+  <a class="skip" href="#icon">Skip to icon</a>
+  <div class="wrap">
+    <header><a class="wordmark" href="../index.html">Font Revival<span style="color:var(--red)">.</span></a><nav aria-label="Main"><a href="../index.html#collection">Typefaces</a><a href="../icons.html" aria-current="page">Ornaments &amp; cuts</a><a href="https://github.com/haroldus-/font-revival">GitHub ↗</a></nav></header>
+    <main id="icon">
+      <p class="back-link"><a href="../icons.html#collection">← All ornaments &amp; cuts</a></p>
+      <article class="icon-card" id="boston-1889-p269-corner-1-left">
+  <p class="card-meta"><a href="../icons.html?collection=boston-ornaments-1889#collection">Boston Ornaments 1889</a><span>No. corner-1-left</span></p>
+  <h1>Small stepped rule, left corner</h1>
+  <ul class="tags" aria-label="Themes and search terms"><li>corner</li><li>frame</li><li>border</li><li>left</li><li>rule</li><li>square</li></ul>
+  <div class="section-links"><a href="../icons.html?section=ornamental-corners#collection">Ornamental corners</a></div>
+  <div class="tester controls">
+    <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
+    <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
+  </div>
+  <div class="renderings" role="group" aria-label="Formats for Small stepped rule, left corner">
+    <figure><div class="art"><svg data-icon-format="multitone" role="img" aria-label="Small stepped rule, left corner — three-tone" viewBox="0 -1900 1928 2048" style="width:0.941406em;height:1em"><path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M115 1732C103 1720 94 1542 94 1337C94 967 94 964 172 937C214 919 356 907 485 907H723L744 766C777 549 753 531 398 522L94 513V279C94 86 103 38 142 23C214 -4 272 56 260 149C241 315 278 333 615 342L921 351L936 621L951 892L1523 922L1553 1554L1679 1563C1806 1572 1854 1620 1821 1704C1797 1762 1433 1771 1397 1714C1385 1692 1370 1548 1364 1395L1352 1115L1165 1124L982 1133L967 1434L951 1735L542 1744C320 1747 127 1741 115 1732ZM780 1362C786 1202 777 1130 750 1115C687 1073 311 1082 287 1124C245 1190 263 1545 308 1572C332 1587 446 1596 560 1593L771 1584L780 1362Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M678 548 404 540 79 531V20L175 11C269 2 272 2 281 146L290 291L596 300C873 306 909 315 939 369C957 405 964 489 954 570C942 649 945 754 960 802L985 892L1255 898C1403 901 1532 904 1544 907C1556 907 1571 1052 1574 1232L1583 1554H1704C1815 1554 1824 1560 1833 1641C1839 1689 1827 1738 1803 1753C1782 1768 1686 1780 1592 1780C1379 1780 1355 1747 1343 1407C1340 1274 1334 1154 1331 1142C1331 1131 1295 1124 1245 1120L1352 1115L1364 1395C1370 1548 1385 1692 1397 1714C1433 1771 1797 1762 1821 1704C1854 1620 1806 1572 1679 1563L1553 1554L1523 922L951 892L936 621L921 351L615 342C278 333 241 315 260 149C272 56 214 -4 142 23C103 38 94 86 94 279V513L398 522C536 525 624 530 678 548ZM106 1756C70 1732 67 1004 103 946C121 919 211 907 380 907C518 907 651 898 678 889C714 874 726 829 726 709V574C762 608 759 666 744 766L723 907H485C356 907 214 919 172 937C94 964 94 967 94 1337C94 1542 103 1720 115 1732C127 1741 320 1747 542 1744L951 1735L967 1434L970 1364C973 1427 973 1541 970 1623L967 1780H554C326 1780 124 1768 106 1756ZM771 1503C773 1496 774 1487 775 1476L771 1584L560 1593C446 1596 332 1587 308 1572C263 1545 245 1190 287 1124C311 1082 687 1073 750 1115C756 1118 761 1124 765 1133H290L281 1310C275 1407 278 1506 287 1527C299 1557 365 1569 527 1569C738 1569 756 1563 771 1503ZM1055 1129C1027 1139 1011 1155 997 1181C989 1194 982 1214 977 1238L982 1133L1055 1129ZM781 1330C781 1314 781 1298 780 1283L772 1155C781 1189 783 1245 781 1330Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M208 1786 64 1777V1359C64 1130 76 934 88 925C100 919 238 904 395 892C551 883 693 862 705 850C720 835 726 766 720 694L711 562C717 566 722 570 726 574V709C726 829 714 874 678 889C651 898 518 907 380 907C211 907 121 919 103 946C67 1004 70 1732 106 1756C124 1768 326 1780 554 1780H923C804 1797 444 1802 208 1786ZM981 877H1267C1487 877 1568 886 1571 916C1574 934 1577 1082 1580 1238L1583 1524L1710 1533C1818 1542 1842 1554 1857 1617C1887 1741 1824 1780 1598 1780C1597 1780 1595 1780 1594 1780C1687 1780 1782 1768 1803 1753C1827 1738 1839 1689 1833 1641C1824 1560 1815 1554 1704 1554H1583L1574 1232C1571 1052 1556 907 1544 907C1532 904 1403 901 1255 898L985 892L981 877ZM79 518C68 480 64 404 64 276V5H302L311 149L320 291L369 293L290 291L281 146C272 2 269 2 175 11L79 20V518ZM1586 1780C1411 1780 1393 1772 1364 1704C1343 1662 1328 1521 1328 1392C1328 1262 1321 1151 1315 1145C1309 1139 1234 1139 1150 1142L1017 1152C1027 1142 1039 1135 1055 1129L1165 1124L1245 1120C1295 1124 1331 1131 1331 1142C1334 1154 1340 1274 1343 1407C1355 1744 1379 1779 1586 1780ZM750 1362C756 1226 747 1160 720 1145C713 1140 704 1136 693 1133H765C768 1139 770 1146 772 1155L780 1283C781 1298 781 1314 781 1330C781 1340 780 1351 780 1362L775 1476C774 1487 773 1496 771 1503C765 1526 759 1541 741 1551L750 1362ZM997 1181V1449C997 1632 987 1731 967 1763L970 1623C973 1541 973 1427 970 1364L977 1238C982 1214 989 1194 997 1181ZM709 561 425 555C269 552 121 549 103 546C95 546 89 541 84 531L404 540L678 548C690 551 700 556 709 561ZM279 1351C283 1438 302 1522 332 1539C359 1557 461 1566 560 1560L735 1554C705 1567 647 1569 527 1569C365 1569 299 1557 287 1527C279 1509 276 1434 279 1351ZM958 528 960 600 968 832 960 802C945 754 942 649 954 570C956 556 957 542 958 528ZM861 317 951 321 954 428C951 403 946 383 939 369C924 342 908 326 861 317ZM376 1133C343 1140 317 1149 308 1160C298 1172 291 1194 286 1220L290 1133H376Z"/></svg></div><figcaption>Three-tone SVG</figcaption></figure>
+    <figure><div class="art"><svg data-icon-format="monochrome" role="img" aria-label="Small stepped rule, left corner" viewBox="0 -1900 1928 2048" style="width:0.941406em;height:1em"><path fill="currentColor" transform="scale(1,-1)" d="M208 1786 64 1777V1359C64 1130 76 934 88 925C100 919 238 904 395 892C551 883 693 862 705 850C720 835 726 766 720 694L711 561L425 555C269 552 121 549 103 546C73 546 64 471 64 276V5H302L311 149L320 291L636 306L951 321L960 600L970 877H1267C1487 877 1568 886 1571 916C1574 934 1577 1082 1580 1238L1583 1524L1710 1533C1818 1542 1842 1554 1857 1617C1887 1741 1824 1780 1598 1780C1412 1780 1394 1774 1364 1704C1343 1662 1328 1521 1328 1392C1328 1262 1321 1151 1315 1145C1309 1139 1234 1139 1150 1142L997 1154V1449C997 1653 985 1753 960 1771C921 1795 482 1804 208 1786ZM750 1362C756 1226 747 1160 720 1145C654 1100 347 1115 308 1160C257 1223 275 1506 332 1539C359 1557 461 1566 560 1560L741 1554L750 1362Z"/></svg></div><figcaption>Monochrome SVG</figcaption></figure>
+    <figure><div class="art" role="img" aria-label="Small stepped rule, left corner"><span class="grid-icon" aria-hidden="true" style="font-family:'browse-boston-ornaments-1889'">&#xE1E4;</span></div><figcaption>Monochrome icon font</figcaption></figure>
+  </div>
+  <div class="downloads"><a download href="../collection/boston-ornaments-1889/downloads/boston-ornaments-1889-web.zip">Download web bundle (ZIP)</a><a download href="../collection/boston-ornaments-1889/svg/multitone/boston-1889-p269-corner-1-left.svg">Three-tone SVG</a><a download href="../collection/boston-ornaments-1889/png/multitone/boston-1889-p269-corner-1-left.png">Three-tone PNG</a><a download href="../collection/boston-ornaments-1889/web/icons-multitone.svg">Three-tone sprite</a><a download href="../collection/boston-ornaments-1889/svg/boston-1889-p269-corner-1-left.svg">Monochrome SVG</a><a download href="../collection/boston-ornaments-1889/web/icons.svg">Monochrome sprite</a><a download href="../collection/boston-ornaments-1889/fonts/BostonOrnaments1889-Regular.otf">OTF</a> <a download href="../collection/boston-ornaments-1889/fonts/BostonOrnaments1889-Regular.ttf">TTF</a> <a download href="../collection/boston-ornaments-1889/web/BostonOrnaments1889-Regular.woff2">WOFF2</a><a href="../collection/boston-ornaments-1889/specimens/specimen.pdf">Comparison PDF</a><a href="../collection/boston-ornaments-1889/font.json">Source record</a></div>
+  <details><summary>Use this icon in HTML</summary>
+    <p><a download href="../collection/boston-ornaments-1889/downloads/boston-ornaments-1889-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license.</p>
+    <h3>Three-tone image</h3>
+    <p>This displays all three tones with a transparent background. Set the height; the width follows the original proportions.</p>
+    <pre><code data-example="image">&lt;img src=&quot;collection/boston-ornaments-1889/svg/multitone/boston-1889-p269-corner-1-left.svg&quot;
+     alt=&quot;Small stepped rule, left corner&quot; height=&quot;96&quot;&gt;</code></pre>
+    <p>An image has its own colour context, so page CSS cannot recolour its internal regions. For a decorative image beside a text label, use <code>alt=""</code>.</p>
+    <h3>Three-tone with your own colours</h3>
+    <p>On an HTTP(S) page, load the sprite from the same site. This complete example uses dark primary ink and two strengths of red. Each region has an independent colour and opacity; set the secondary and tertiary values alike for a two-tone appearance.</p>
+    <pre><code data-example="sprite">&lt;style&gt;
+  .revival-cut {
+    display: inline-block;
+    font-size: 96px;
+    height: 1em;
+    width: 0.941406em;
+    vertical-align: middle;
+    --fr-primary-color: #24251f;
+    --fr-secondary-color: #a5422c;
+    --fr-tertiary-color: #a5422c;
+    --fr-primary-opacity: 1;
+    --fr-secondary-opacity: 0.55;
+    --fr-tertiary-opacity: 0.25;
+  }
+&lt;/style&gt;
+&lt;svg class=&quot;revival-cut&quot; role=&quot;img&quot; aria-label=&quot;Small stepped rule, left corner&quot;&gt;
+  &lt;use href=&quot;collection/boston-ornaments-1889/web/icons-multitone.svg#boston-1889-p269-corner-1-left&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+    <h3>Monochrome icon font</h3>
+    <p>Copy the whole <code>web/</code> folder, including CSS and webfonts. Font size and colour use ordinary CSS. The icon font draws the solid version; use SVG for three-tone artwork.</p>
+    <pre><code data-example="font">&lt;link rel=&quot;stylesheet&quot; href=&quot;collection/boston-ornaments-1889/web/icons.css&quot;&gt;
+&lt;span class=&quot;fr-icon fr-boston-1889-p269-corner-1-left&quot; aria-hidden=&quot;true&quot;
+      style=&quot;font-size:96px;color:#a5422c&quot;&gt;&lt;/span&gt;
+&lt;span&gt;Small stepped rule, left corner&lt;/span&gt;</code></pre>
+    <p>The decorative font icon is hidden from screen readers and has a visible text label. An icon conveying meaning on its own needs <code>role="img"</code> and an <code>aria-label</code> instead of <code>aria-hidden</code>.</p>
+  </details>
+  <details><summary>Compare with the historical impression</summary><img class="comparison" loading="lazy" src="../collection/boston-ornaments-1889/specimens/boston-1889-p269-corner-1-left.png" alt="Historical scan beside the three-tone and monochrome vector revivals"></details>
+</article>
+    </main>
+    <footer><span>© 2026 Harold Lehmann</span><span><a href="https://github.com/haroldus-/font-revival/blob/main/LICENSE">MIT License</a> · Made to be shared.</span></footer>
+  </div>
+</body>
+</html>

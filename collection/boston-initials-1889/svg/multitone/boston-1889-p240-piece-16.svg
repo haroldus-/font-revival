@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1093 2048" role="img" aria-label="Narrow right triangle, left (pica) — multitone">
-<title>Narrow right triangle, left (pica) — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1093 2048" role="img" aria-label="Narrow right triangle, left (pica) — three-tone">
+<title>Narrow right triangle, left (pica) — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M118 1316C131 1073 137 688 137 455V35H563C797 35 989 44 989 60C989 73 964 120 936 161C904 205 705 581 490 998L102 1755L118 1316Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M90 1765C80 1743 83 1342 99 874L121 25L538 19C768 16 973 25 992 38C1024 57 1011 92 951 183C847 335 168 1676 168 1730C168 1787 108 1812 90 1765ZM118 1316 102 1755 490 998C705 581 904 205 936 161C964 120 989 73 989 60C989 44 797 35 563 35H137V455C137 688 131 1073 118 1316Z"/>

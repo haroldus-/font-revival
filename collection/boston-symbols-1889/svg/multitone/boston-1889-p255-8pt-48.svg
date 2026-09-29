@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1476 2048" role="img" aria-label="Right angle, 8-point — multitone">
-<title>Right angle, 8-point — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1476 2048" role="img" aria-label="Right angle, 8-point — three-tone">
+<title>Right angle, 8-point — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M161 1711C146 1695 130 1319 130 874V74H596C852 74 1134 58 1223 42C1364 11 1385 21 1385 121C1385 225 1364 236 1140 225C998 215 752 215 590 220L287 231V958C287 1622 256 1805 161 1711Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M130 1727C83 1664 73 1449 88 900C96 588 113 303 130 168V874C130 1319 146 1695 161 1711C256 1805 287 1622 287 958V231L590 220C752 215 998 215 1140 225C1364 236 1385 225 1385 121C1385 81 1382 55 1368 41C1430 56 1438 81 1438 126C1438 189 1401 231 1349 236C1296 236 1045 241 784 246L313 257L297 989C292 1392 266 1737 240 1763C219 1784 167 1768 130 1727ZM163 74C224 38 421 21 815 21C1050 21 1197 22 1288 30C1270 32 1248 36 1223 42C1134 58 852 74 596 74H163Z"/>

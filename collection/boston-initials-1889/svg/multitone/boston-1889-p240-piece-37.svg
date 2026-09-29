@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1091 2048" role="img" aria-label="Small vertical rectangle (nonpareil) — multitone">
-<title>Small vertical rectangle (nonpareil) — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1091 2048" role="img" aria-label="Small vertical rectangle (nonpareil) — three-tone">
+<title>Small vertical rectangle (nonpareil) — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M181 1711C146 1699 123 1365 123 873V53L521 70L913 88V1728H580C392 1728 216 1722 181 1711Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M87 1681C76 1640 70 1248 76 814L93 29H972L990 762C1004 1383 1016 1617 913 1705V88L521 70L123 53V873C123 1365 146 1699 181 1711C216 1722 392 1728 580 1728H876C805 1761 695 1757 527 1757C246 1757 111 1734 87 1681Z"/>

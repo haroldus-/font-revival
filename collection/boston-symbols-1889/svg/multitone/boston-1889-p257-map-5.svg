@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Long square corner map type — multitone">
-<title>Long square corner map type — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Long square corner map type — three-tone">
+<title>Long square corner map type — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M143 1284C89 1230 82 461 136 461C158 461 172 605 172 818C172 1039 187 1187 212 1205C234 1216 599 1227 1025 1227C1675 1223 1798 1234 1798 1277C1798 1321 1668 1328 992 1328C414 1328 176 1317 143 1284Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M711 1335 111 1328 89 1100C68 851 82 468 118 432C172 378 208 537 205 829C201 1003 212 1162 227 1183C241 1209 501 1219 1029 1219C1455 1216 1812 1223 1823 1234C1834 1245 1834 1277 1820 1310C1805 1357 1751 1364 1556 1357C1419 1349 1039 1342 711 1335ZM143 1284C176 1317 414 1328 992 1328C1668 1328 1798 1321 1798 1277C1798 1234 1675 1223 1025 1227C599 1227 234 1216 212 1205C187 1187 172 1039 172 818C172 605 158 461 136 461C82 461 89 1230 143 1284Z"/>

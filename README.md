@@ -86,10 +86,12 @@ The [1894 Ryan / November 1888 survey](docs/PROSPECTS-1894-1888.md) records the 
 
 ## Ornaments and cuts
 
-The icon collection revives historical artwork as multitone SVGs and transparent
+The icon collection revives historical artwork as three-tone SVGs and transparent
 PNGs, plus solid SVGs, sprites, desktop fonts and CSS webfonts. The Boston 1889
 revival contains **1,965 icons**. The original **Father Christmas, No. 4202** pilot
-retains its engraving, proportions and character assignment.
+retains its engraving, proportions and character assignment. Browse the compact
+monochrome grid by subject, collection, type or specimen section; open an icon
+for its three-tone previews, downloads and HTML examples.
 
 | Family | Icons | Web download |
 | --- | ---: | --- |

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1590 2048" role="img" aria-label="Diagonal line map type — multitone">
-<title>Diagonal line map type — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1590 2048" role="img" aria-label="Diagonal line map type — three-tone">
+<title>Diagonal line map type — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M751 1090C379 718 99 417 109 398C121 380 416 653 807 1047C1175 1422 1480 1732 1480 1738C1480 1794 1314 1649 751 1090Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M816 1188C121 503 41 407 93 355C118 330 312 512 819 1022C1200 1410 1511 1735 1511 1751C1511 1852 1366 1738 816 1188ZM751 1090C1314 1649 1480 1794 1480 1738C1480 1732 1175 1422 807 1047C416 653 121 380 109 398C99 417 379 718 751 1090Z"/>

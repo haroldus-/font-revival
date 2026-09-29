@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1081 2048" role="img" aria-label="Half-shaded narrow rectangle, right (pica) — multitone">
-<title>Half-shaded narrow rectangle, right (pica) — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1081 2048" role="img" aria-label="Half-shaded narrow rectangle, right (pica) — three-tone">
+<title>Half-shaded narrow rectangle, right (pica) — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M136 1749C130 1743 124 1353 124 887V39H974L968 887L962 1731L557 1746C331 1755 142 1755 136 1749ZM828 1661 938 1640 861 1472C474 646 240 191 215 207C182 228 172 1633 206 1667C230 1691 691 1688 828 1661Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M115 1755C87 1728 81 1511 93 871L108 24H993V1761L572 1777C267 1789 142 1783 115 1755ZM136 1749C142 1755 331 1755 557 1746L962 1731L968 887L974 39H124V887C124 1353 130 1743 136 1749ZM828 1661C691 1688 230 1691 206 1667C172 1633 182 228 215 207C240 191 474 646 861 1472L938 1640L828 1661ZM895 1633C910 1606 261 252 233 252C224 252 215 569 215 954V1655H547C733 1655 889 1646 895 1633Z"/>

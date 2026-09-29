@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Small rectangular engraving blank — multitone">
-<title>Small rectangular engraving blank — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Small rectangular engraving blank — three-tone">
+<title>Small rectangular engraving blank — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M120 1435C107 1412 97 1155 92 866L87 337L387 335C552 332 915 327 1194 322C1474 320 1733 322 1774 330L1842 342V883C1842 1188 1832 1432 1819 1442C1807 1450 1423 1460 968 1468C201 1478 140 1475 120 1435Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M84 1018C84 762 79 520 77 477C72 426 64 391 77 367C79 362 83 357 87 353L92 866C97 1155 107 1412 120 1435C140 1475 201 1478 968 1468C1423 1460 1807 1450 1819 1442C1824 1438 1829 1400 1832 1336L1829 1468L961 1475L89 1480L84 1018ZM117 337C199 308 416 312 966 312H1840L1847 370C1852 401 1850 660 1842 947V954C1842 931 1842 907 1842 883V342L1774 330C1733 322 1474 320 1194 322C915 327 552 332 387 335L117 337Z"/>

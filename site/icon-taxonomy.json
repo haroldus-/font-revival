@@ -1,0 +1,1086 @@
+{
+  "schema_version": 1,
+  "notes": "Navigation labels transcribed or shortened from the retained Boston specimen plates. Printed page numbers refer to each family’s source records. Technical symbol subjects subdivide the shared printed heading using reviewed tags. This taxonomy does not change icon IDs or codepoints.",
+  "types": {
+    "cuts": "Cuts",
+    "ornaments": "Ornaments",
+    "initials": "Initials",
+    "symbols": "Symbols"
+  },
+  "collections": {
+    "boston-cuts-1889": {
+      "type": "cuts"
+    },
+    "boston-ornaments-1889": {
+      "type": "ornaments"
+    },
+    "boston-initials-1889": {
+      "type": "initials"
+    },
+    "boston-symbols-1889": {
+      "type": "symbols"
+    }
+  },
+  "sections": [
+    {
+      "id": "pointing-hands-solid",
+      "label": "Pointing hands, solid",
+      "historical_heading": "Section 1. Black Fists.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        271
+      ],
+      "icons": [
+        "boston-1889-p271-4011",
+        "boston-1889-p271-4006",
+        "boston-1889-p271-4005",
+        "boston-1889-p271-4012",
+        "boston-1889-p271-4014",
+        "boston-1889-p271-4010",
+        "boston-1889-p271-4009",
+        "boston-1889-p271-4013",
+        "boston-1889-p271-4015",
+        "boston-1889-p271-4008",
+        "boston-1889-p271-4007",
+        "boston-1889-p271-4016",
+        "boston-1889-p271-4000",
+        "boston-1889-p271-3999",
+        "boston-1889-p271-4018",
+        "boston-1889-p271-4001",
+        "boston-1889-p271-4002",
+        "boston-1889-p271-4003",
+        "boston-1889-p271-4004",
+        "boston-1889-p271-4017"
+      ]
+    },
+    {
+      "id": "five-pointed-stars",
+      "label": "Five-pointed stars",
+      "historical_heading": "Section 3. Five-Pointed Stars.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        271
+      ],
+      "icons": [
+        "boston-1889-p271-201",
+        "boston-1889-p271-202",
+        "boston-1889-p271-203",
+        "boston-1889-p271-204",
+        "boston-1889-p271-205",
+        "boston-1889-p271-206",
+        "boston-1889-p271-207",
+        "boston-1889-p271-212",
+        "boston-1889-p271-211",
+        "boston-1889-p271-210",
+        "boston-1889-p271-209",
+        "boston-1889-p271-208",
+        "boston-1889-p271-213",
+        "boston-1889-p271-214",
+        "boston-1889-p271-215",
+        "boston-1889-p271-217",
+        "boston-1889-p271-216",
+        "boston-1889-p271-220",
+        "boston-1889-p271-218",
+        "boston-1889-p271-219"
+      ]
+    },
+    {
+      "id": "pointing-hands-outlined",
+      "label": "Pointing hands, outlined",
+      "historical_heading": "Section 2. White Fists.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        271
+      ],
+      "icons": [
+        "boston-1889-p271-4085",
+        "boston-1889-p271-2519",
+        "boston-1889-p271-2520",
+        "boston-1889-p271-4086",
+        "boston-1889-p271-2586",
+        "boston-1889-p271-2587",
+        "boston-1889-p271-4087",
+        "boston-1889-p271-4023",
+        "boston-1889-p271-4024",
+        "boston-1889-p271-4088",
+        "boston-1889-p271-4089",
+        "boston-1889-p271-4090"
+      ]
+    },
+    {
+      "id": "astronomical-signs",
+      "label": "Astronomical signs",
+      "historical_heading": "Section 4. Astronomical Signs.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        271
+      ],
+      "icons": [
+        "boston-1889-p271-4171",
+        "boston-1889-p271-4172",
+        "boston-1889-p271-4173",
+        "boston-1889-p271-4174",
+        "boston-1889-p271-4181",
+        "boston-1889-p271-4182",
+        "boston-1889-p271-4183",
+        "boston-1889-p271-4184",
+        "boston-1889-p271-4191",
+        "boston-1889-p271-4192",
+        "boston-1889-p271-4193",
+        "boston-1889-p271-4194"
+      ]
+    },
+    {
+      "id": "prescription-signs",
+      "label": "Prescription signs",
+      "historical_heading": "Section 5. Recipe Signs.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        271
+      ],
+      "icons": [
+        "boston-1889-p271-2410",
+        "boston-1889-p271-2417",
+        "boston-1889-p271-2412",
+        "boston-1889-p271-2414",
+        "boston-1889-p271-2413",
+        "boston-1889-p271-2411",
+        "boston-1889-p271-4028",
+        "boston-1889-p271-4033",
+        "boston-1889-p271-4034",
+        "boston-1889-p271-2416",
+        "boston-1889-p271-2421",
+        "boston-1889-p271-2418",
+        "boston-1889-p271-2420",
+        "boston-1889-p271-2419",
+        "boston-1889-p271-2415"
+      ]
+    },
+    {
+      "id": "metal-blanks",
+      "label": "Metal blanks",
+      "historical_heading": "Section 6. Metal Blanks, for Engraving Cattle Brands, Etc.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        271
+      ],
+      "icons": [
+        "boston-1889-p271-4161",
+        "boston-1889-p271-4162",
+        "boston-1889-p271-4163",
+        "boston-1889-p271-4164",
+        "boston-1889-p271-4165",
+        "boston-1889-p271-4166"
+      ]
+    },
+    {
+      "id": "card-suits",
+      "label": "Card suits",
+      "historical_heading": "Card Indicators.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        271
+      ],
+      "icons": [
+        "boston-1889-p271-card-club",
+        "boston-1889-p271-card-spade",
+        "boston-1889-p271-card-heart",
+        "boston-1889-p271-card-diamond"
+      ]
+    },
+    {
+      "id": "check-ornaments",
+      "label": "Check ornaments",
+      "historical_heading": "Section 9. Check Ornaments.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        274
+      ],
+      "icons": [
+        "boston-1889-p274-2667",
+        "boston-1889-p274-2652",
+        "boston-1889-p274-2572",
+        "boston-1889-p274-2600",
+        "boston-1889-p274-2668",
+        "boston-1889-p274-2573",
+        "boston-1889-p274-2665",
+        "boston-1889-p274-2516",
+        "boston-1889-p274-2309",
+        "boston-1889-p274-2662",
+        "boston-1889-p274-2654",
+        "boston-1889-p274-2660",
+        "boston-1889-p274-2651",
+        "boston-1889-p274-2599",
+        "boston-1889-p274-2657",
+        "boston-1889-p274-2658"
+      ]
+    },
+    {
+      "id": "society-emblems",
+      "label": "Society emblems",
+      "historical_heading": "Section 10. Emblems of Secret Societies, Etc.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        274
+      ],
+      "icons": [
+        "boston-1889-p274-4098",
+        "boston-1889-p274-4097",
+        "boston-1889-p274-4096",
+        "boston-1889-p274-2707",
+        "boston-1889-p274-4095",
+        "boston-1889-p274-2706",
+        "boston-1889-p274-4039",
+        "boston-1889-p274-4114",
+        "boston-1889-p274-2801",
+        "boston-1889-p274-4026",
+        "boston-1889-p274-2589",
+        "boston-1889-p274-4107",
+        "boston-1889-p274-4108",
+        "boston-1889-p274-4109",
+        "boston-1889-p274-4110",
+        "boston-1889-p274-4111",
+        "boston-1889-p274-4112",
+        "boston-1889-p274-4113",
+        "boston-1889-p274-2704",
+        "boston-1889-p274-2705",
+        "boston-1889-p274-2703",
+        "boston-1889-p274-4037",
+        "boston-1889-p274-4048",
+        "boston-1889-p274-4047",
+        "boston-1889-p274-4046"
+      ]
+    },
+    {
+      "id": "american-flags-and-eagles",
+      "label": "American flags and eagles",
+      "historical_heading": "Section 11. American Flags and Eagles.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        274
+      ],
+      "icons": [
+        "boston-1889-p274-4021",
+        "boston-1889-p274-1000",
+        "boston-1889-p274-2565",
+        "boston-1889-p274-2583",
+        "boston-1889-p274-4100"
+      ]
+    },
+    {
+      "id": "musical-instruments",
+      "label": "Musical instruments",
+      "historical_heading": "Section 12. Musical Instruments, Etc.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        274
+      ],
+      "icons": [
+        "boston-1889-p274-2545",
+        "boston-1889-p274-2561",
+        "boston-1889-p274-4022",
+        "boston-1889-p274-1788",
+        "boston-1889-p274-4135",
+        "boston-1889-p274-1006",
+        "boston-1889-p274-2564",
+        "boston-1889-p274-4040",
+        "boston-1889-p274-2544"
+      ]
+    },
+    {
+      "id": "dancing-skating-and-masquerade",
+      "label": "Dancing, skating and masquerade",
+      "historical_heading": "Section 13. Dancing, Skating and Masquerade Cuts.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        274
+      ],
+      "icons": [
+        "boston-1889-p274-4120",
+        "boston-1889-p274-2594",
+        "boston-1889-p274-2540",
+        "boston-1889-p274-4124",
+        "boston-1889-p274-4125",
+        "boston-1889-p274-4121",
+        "boston-1889-p274-4122",
+        "boston-1889-p274-4030",
+        "boston-1889-p274-4031",
+        "boston-1889-p274-4123",
+        "boston-1889-p274-4126",
+        "boston-1889-p274-4103",
+        "boston-1889-p274-4106",
+        "boston-1889-p274-4127"
+      ]
+    },
+    {
+      "id": "seals",
+      "label": "Seals",
+      "historical_heading": "Section 14. Seals.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        274
+      ],
+      "icons": [
+        "boston-1889-p274-4025",
+        "boston-1889-p274-4035",
+        "boston-1889-p274-4032"
+      ]
+    },
+    {
+      "id": "liquor-merchants-and-saloons",
+      "label": "Liquor merchants and saloons",
+      "historical_heading": "Section 15. Liquor Merchants’ and Saloonists’ Cuts.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        274
+      ],
+      "icons": [
+        "boston-1889-p274-2601",
+        "boston-1889-p274-2592",
+        "boston-1889-p274-2802",
+        "boston-1889-p274-4043",
+        "boston-1889-p274-4044",
+        "boston-1889-p274-2523",
+        "boston-1889-p274-2460",
+        "boston-1889-p274-4041"
+      ]
+    },
+    {
+      "id": "ships-steamers-and-yachts",
+      "label": "Ships, steamers and yachts",
+      "historical_heading": "Section 16. Ships, Steamers, Yachts, Etc.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        274
+      ],
+      "icons": [
+        "boston-1889-p274-2809",
+        "boston-1889-p274-2504",
+        "boston-1889-p274-2560",
+        "boston-1889-p274-2613",
+        "boston-1889-p274-2590",
+        "boston-1889-p274-2555",
+        "boston-1889-p274-2518"
+      ]
+    },
+    {
+      "id": "steamboats",
+      "label": "Steamboats",
+      "historical_heading": "Section 17. Steamboats.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        274
+      ],
+      "icons": [
+        "boston-1889-p274-2510",
+        "boston-1889-p274-2517",
+        "boston-1889-p274-2819",
+        "boston-1889-p274-4131",
+        "boston-1889-p274-2537"
+      ]
+    },
+    {
+      "id": "chickens-and-turkeys",
+      "label": "Chickens and turkeys",
+      "historical_heading": "Section 18. Chickens, Turkeys, Etc.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-1468",
+        "boston-1889-p275-2810",
+        "boston-1889-p275-4099",
+        "boston-1889-p275-4056",
+        "boston-1889-p275-4059",
+        "boston-1889-p275-4149",
+        "boston-1889-p275-2610",
+        "boston-1889-p275-2808",
+        "boston-1889-p275-4130"
+      ]
+    },
+    {
+      "id": "horses-and-mules",
+      "label": "Horses and mules",
+      "historical_heading": "Section 19. Horses and Mules.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-4116",
+        "boston-1889-p275-2150",
+        "boston-1889-p275-4117",
+        "boston-1889-p275-1786",
+        "boston-1889-p275-2575",
+        "boston-1889-p275-4049",
+        "boston-1889-p275-2553",
+        "boston-1889-p275-2522",
+        "boston-1889-p275-2512",
+        "boston-1889-p275-1022",
+        "boston-1889-p275-4118"
+      ]
+    },
+    {
+      "id": "cattle-sheep-and-swine",
+      "label": "Cattle, sheep and swine",
+      "historical_heading": "Section 20. Cattle, Sheep and Swine.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-2568",
+        "boston-1889-p275-4119",
+        "boston-1889-p275-2806",
+        "boston-1889-p275-2554",
+        "boston-1889-p275-4065",
+        "boston-1889-p275-1046",
+        "boston-1889-p275-4063",
+        "boston-1889-p275-4060",
+        "boston-1889-p275-4061",
+        "boston-1889-p275-4062",
+        "boston-1889-p275-4064"
+      ]
+    },
+    {
+      "id": "cattle-brand-cuts",
+      "label": "Cattle brand cuts",
+      "historical_heading": "Section 21. Cattle Brand Cuts.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-4050",
+        "boston-1889-p275-4054",
+        "boston-1889-p275-4051",
+        "boston-1889-p275-4052",
+        "boston-1889-p275-4055",
+        "boston-1889-p275-4053"
+      ]
+    },
+    {
+      "id": "dogs",
+      "label": "Dogs",
+      "historical_heading": "Section 22. Dogs.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-2603",
+        "boston-1889-p275-2585",
+        "boston-1889-p275-2588",
+        "boston-1889-p275-2807",
+        "boston-1889-p275-2538",
+        "boston-1889-p275-2506"
+      ]
+    },
+    {
+      "id": "oysters-and-fish",
+      "label": "Oysters and fish",
+      "historical_heading": "Section 23. Oysters, Fishes, Etc.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-2562",
+        "boston-1889-p275-4029",
+        "boston-1889-p275-4147",
+        "boston-1889-p275-2549",
+        "boston-1889-p275-2505"
+      ]
+    },
+    {
+      "id": "fruit",
+      "label": "Fruit",
+      "historical_heading": "Section 24. Fruits, Etc.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-2593",
+        "boston-1889-p275-2597",
+        "boston-1889-p275-2571",
+        "boston-1889-p275-4068"
+      ]
+    },
+    {
+      "id": "hats-caps-boots-and-shoes",
+      "label": "Hats, caps, boots and shoes",
+      "historical_heading": "Section 25. Hats and Caps, Boots and Shoes, Etc.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-4134",
+        "boston-1889-p275-2524",
+        "boston-1889-p275-2551",
+        "boston-1889-p275-2563",
+        "boston-1889-p275-1783",
+        "boston-1889-p275-2507",
+        "boston-1889-p275-957",
+        "boston-1889-p275-2526",
+        "boston-1889-p275-2525",
+        "boston-1889-p275-2528",
+        "boston-1889-p275-2548"
+      ]
+    },
+    {
+      "id": "clocks-and-watches",
+      "label": "Clocks and watches",
+      "historical_heading": "Section 26. Clocks and Watches.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-2614",
+        "boston-1889-p275-2559",
+        "boston-1889-p275-4066"
+      ]
+    },
+    {
+      "id": "opticians-and-dentists",
+      "label": "Opticians and dentists",
+      "historical_heading": "Section 27. Oculists’ and Dentists’ Cuts.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-2511",
+        "boston-1889-p275-4115",
+        "boston-1889-p275-2521",
+        "boston-1889-p275-2527",
+        "boston-1889-p275-2574",
+        "boston-1889-p275-2514"
+      ]
+    },
+    {
+      "id": "druggists",
+      "label": "Druggists",
+      "historical_heading": "Section 28. Druggists’ Cuts.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-4101",
+        "boston-1889-p275-2578",
+        "boston-1889-p275-2576",
+        "boston-1889-p275-2612",
+        "boston-1889-p275-4102"
+      ]
+    },
+    {
+      "id": "trunks-and-safes",
+      "label": "Trunks and safes",
+      "historical_heading": "Section 29. Trunks and Safes.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        275
+      ],
+      "icons": [
+        "boston-1889-p275-4105",
+        "boston-1889-p275-2595",
+        "boston-1889-p275-2566",
+        "boston-1889-p275-1789"
+      ]
+    },
+    {
+      "id": "carriages-and-wagons",
+      "label": "Carriages and wagons",
+      "historical_heading": "Section 30. Carriages, Wagons, Cars, Etc.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        276
+      ],
+      "icons": [
+        "boston-1889-p276-4057",
+        "boston-1889-p276-2770",
+        "boston-1889-p276-2536",
+        "boston-1889-p276-4129",
+        "boston-1889-p276-2582-5",
+        "boston-1889-p276-1856",
+        "boston-1889-p276-2529",
+        "boston-1889-p276-2508",
+        "boston-1889-p276-2530",
+        "boston-1889-p276-2547"
+      ]
+    },
+    {
+      "id": "locomotives-and-railway-cars",
+      "label": "Locomotives and railway cars",
+      "historical_heading": "Section 31. Locomotives, Tenders and Cars.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        276
+      ],
+      "icons": [
+        "boston-1889-p276-2500",
+        "boston-1889-p276-2501",
+        "boston-1889-p276-2502",
+        "boston-1889-p276-2503",
+        "boston-1889-p276-4132",
+        "boston-1889-p276-2579",
+        "boston-1889-p276-2580",
+        "boston-1889-p276-2581",
+        "boston-1889-p276-2541",
+        "boston-1889-p276-2542",
+        "boston-1889-p276-2543"
+      ]
+    },
+    {
+      "id": "real-estate",
+      "label": "Real estate",
+      "historical_heading": "Section 32. Real Estate and For Rent Cuts.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        276
+      ],
+      "icons": [
+        "boston-1889-p276-2515",
+        "boston-1889-p276-2513",
+        "boston-1889-p276-2552",
+        "boston-1889-p276-1785",
+        "boston-1889-p276-2591",
+        "boston-1889-p276-2583",
+        "boston-1889-p276-2535",
+        "boston-1889-p276-2538"
+      ]
+    },
+    {
+      "id": "miscellaneous-cuts",
+      "label": "Miscellaneous cuts",
+      "historical_heading": "Section 33. Miscellaneous Cuts.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        276
+      ],
+      "icons": [
+        "boston-1889-p276-2577",
+        "boston-1889-p276-1775",
+        "boston-1889-p276-2533",
+        "boston-1889-p276-4038",
+        "boston-1889-p276-4148",
+        "boston-1889-p276-4019",
+        "boston-1889-p276-4020",
+        "boston-1889-p276-2567",
+        "boston-1889-p276-2556",
+        "boston-1889-p276-2584",
+        "boston-1889-p276-2611",
+        "boston-1889-p276-2582-41",
+        "boston-1889-p276-2604",
+        "boston-1889-p276-2596",
+        "boston-1889-p276-4080",
+        "boston-1889-p276-2569",
+        "boston-1889-p276-4146",
+        "boston-1889-p276-2546",
+        "boston-1889-p276-4042",
+        "boston-1889-p276-4128",
+        "boston-1889-p276-4067",
+        "boston-1889-p276-4045",
+        "boston-1889-p276-2615",
+        "boston-1889-p276-4058",
+        "boston-1889-p276-2609",
+        "boston-1889-p276-4027",
+        "boston-1889-p276-2607"
+      ]
+    },
+    {
+      "id": "signal-service-signs",
+      "label": "Signal service signs",
+      "historical_heading": "New Signal Service Signs.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        276
+      ],
+      "icons": [
+        "boston-1889-p276-signal48-1",
+        "boston-1889-p276-signal48-2",
+        "boston-1889-p276-signal48-3",
+        "boston-1889-p276-signal48-4",
+        "boston-1889-p276-signal48-5",
+        "boston-1889-p276-signal48-6",
+        "boston-1889-p276-signal48-7",
+        "boston-1889-p276-signal48-8",
+        "boston-1889-p276-signal24-1",
+        "boston-1889-p276-signal24-2",
+        "boston-1889-p276-signal24-3",
+        "boston-1889-p276-signal24-4",
+        "boston-1889-p276-signal24-5",
+        "boston-1889-p276-signal24-6",
+        "boston-1889-p276-signal24-7",
+        "boston-1889-p276-signal24-8"
+      ]
+    },
+    {
+      "id": "checkers",
+      "label": "Checkers",
+      "historical_heading": "Checkers.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        276
+      ],
+      "icons": [
+        "boston-1889-p276-checker-41",
+        "boston-1889-p276-checker-42",
+        "boston-1889-p276-checker-43",
+        "boston-1889-p276-checker-44"
+      ]
+    },
+    {
+      "id": "chessmen",
+      "label": "Chessmen",
+      "historical_heading": "Chessmen.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        276
+      ],
+      "icons": [
+        "boston-1889-p276-chess-1",
+        "boston-1889-p276-chess-14",
+        "boston-1889-p276-chess-15",
+        "boston-1889-p276-chess-2",
+        "boston-1889-p276-chess-3",
+        "boston-1889-p276-chess-16",
+        "boston-1889-p276-chess-17",
+        "boston-1889-p276-chess-4",
+        "boston-1889-p276-chess-5",
+        "boston-1889-p276-chess-18",
+        "boston-1889-p276-chess-20",
+        "boston-1889-p276-chess-7",
+        "boston-1889-p276-chess-8",
+        "boston-1889-p276-chess-21",
+        "boston-1889-p276-chess-22",
+        "boston-1889-p276-chess-9",
+        "boston-1889-p276-chess-10",
+        "boston-1889-p276-chess-23",
+        "boston-1889-p276-chess-24",
+        "boston-1889-p276-chess-11",
+        "boston-1889-p276-chess-6",
+        "boston-1889-p276-chess-19",
+        "boston-1889-p276-chess-13",
+        "boston-1889-p276-chess-25",
+        "boston-1889-p276-chess-12"
+      ]
+    },
+    {
+      "id": "chancellor-chessmen",
+      "label": "Chancellor chessmen",
+      "historical_heading": "Chancellor Chessmen.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        276
+      ],
+      "icons": [
+        "boston-1889-p276-chess-27",
+        "boston-1889-p276-chess-29",
+        "boston-1889-p276-chess-30",
+        "boston-1889-p276-chess-28"
+      ]
+    },
+    {
+      "id": "bill-head-and-check-cuts",
+      "label": "Bill-head and check cuts",
+      "historical_heading": "Section 7. Bill-head and Check Cuts.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        272
+      ]
+    },
+    {
+      "id": "holiday-cuts",
+      "label": "Holiday cuts",
+      "historical_heading": "Section 8. Original Designs in Holiday Cuts.",
+      "collection": "boston-cuts-1889",
+      "printed_pages": [
+        273
+      ]
+    },
+    {
+      "id": "art-initials",
+      "label": "Art initials",
+      "historical_heading": "72-Point Art Initials; 48-Point Art Initials",
+      "collection": "boston-initials-1889",
+      "printed_pages": [
+        237
+      ],
+      "specimen_prefixes": [
+        "art"
+      ]
+    },
+    {
+      "id": "initials-series-17",
+      "label": "Initials, series 17",
+      "historical_heading": "Initial Letters, Series No. 17",
+      "collection": "boston-initials-1889",
+      "printed_pages": [
+        237
+      ],
+      "specimen_prefixes": [
+        "series17"
+      ]
+    },
+    {
+      "id": "initials-series-11",
+      "label": "Initials, series 11",
+      "historical_heading": "Initial Letters, Series No. 11",
+      "collection": "boston-initials-1889",
+      "printed_pages": [
+        238
+      ],
+      "specimen_prefixes": [
+        "series11"
+      ]
+    },
+    {
+      "id": "initials-series-12",
+      "label": "Initials, series 12",
+      "historical_heading": "Initial Letters, Series No. 12",
+      "collection": "boston-initials-1889",
+      "printed_pages": [
+        238
+      ],
+      "specimen_prefixes": [
+        "series12"
+      ]
+    },
+    {
+      "id": "initials-series-15",
+      "label": "Initials, series 15",
+      "historical_heading": "Initial Letters, Series No. 15",
+      "collection": "boston-initials-1889",
+      "printed_pages": [
+        238
+      ],
+      "specimen_prefixes": [
+        "series15"
+      ]
+    },
+    {
+      "id": "letter-combinations",
+      "label": "Letter combinations",
+      "historical_heading": "Specimens of Letter-Combinations; Letter-Combinations",
+      "collection": "boston-initials-1889",
+      "printed_pages": [
+        239,
+        240,
+        241
+      ]
+    },
+    {
+      "id": "word-pieces",
+      "label": "Word pieces",
+      "historical_heading": "Specimens of Word Pieces",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        258
+      ],
+      "specimen_prefixes": [
+        "word-"
+      ]
+    },
+    {
+      "id": "fancy-word-ornaments",
+      "label": "Fancy word ornaments",
+      "historical_heading": "Fancy Word Ornaments; Word Ornaments, Series E",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        259,
+        260
+      ]
+    },
+    {
+      "id": "combination-ornaments",
+      "label": "Combination ornaments",
+      "historical_heading": "Combination Ornaments, Series K; Series L",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        261,
+        262
+      ]
+    },
+    {
+      "id": "floriated-border",
+      "label": "Floriated border",
+      "historical_heading": "Floriated Border",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        263
+      ]
+    },
+    {
+      "id": "18-point-borders",
+      "label": "18-point borders",
+      "historical_heading": "18-Point Borders",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        264
+      ]
+    },
+    {
+      "id": "12-point-borders",
+      "label": "12-point borders",
+      "historical_heading": "12-Point Borders",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        265
+      ]
+    },
+    {
+      "id": "six-point-borders",
+      "label": "Six-point borders",
+      "historical_heading": "Six-Point Borders",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        266,
+        267
+      ]
+    },
+    {
+      "id": "border-specimens",
+      "label": "Border specimens",
+      "historical_heading": "Specimens of Borders",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        268
+      ]
+    },
+    {
+      "id": "ornamental-corners",
+      "label": "Ornamental corners",
+      "historical_heading": "Specimens of Corners",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        269,
+        270
+      ],
+      "specimen_prefixes": [
+        "corner-"
+      ]
+    },
+    {
+      "id": "scroll-corners",
+      "label": "Scroll corners",
+      "historical_heading": "Scroll Corners",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        270
+      ],
+      "specimen_prefixes": [
+        "scroll-"
+      ]
+    },
+    {
+      "id": "pin-nail-and-screw-heads",
+      "label": "Pin, nail and screw heads",
+      "historical_heading": "Pin, Nail and Screw Heads",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        270
+      ],
+      "specimen_prefixes": [
+        "head-"
+      ]
+    },
+    {
+      "id": "ornamental-metal-dashes",
+      "label": "Ornamental metal dashes",
+      "historical_heading": "Ornamental Metal Dashes",
+      "collection": "boston-ornaments-1889",
+      "printed_pages": [
+        270
+      ],
+      "specimen_prefixes": [
+        "dash-"
+      ]
+    },
+    {
+      "id": "astronomical-symbols",
+      "label": "Astronomical symbols",
+      "historical_heading": "Astronomical, Algebraic, Commercial, Medical",
+      "collection": "boston-symbols-1889",
+      "printed_pages": [
+        255
+      ],
+      "tags_any": [
+        "astronomy"
+      ]
+    },
+    {
+      "id": "algebraic-symbols",
+      "label": "Algebraic symbols",
+      "historical_heading": "Astronomical, Algebraic, Commercial, Medical",
+      "collection": "boston-symbols-1889",
+      "printed_pages": [
+        255
+      ],
+      "tags_any": [
+        "algebra"
+      ]
+    },
+    {
+      "id": "commercial-symbols",
+      "label": "Commercial symbols",
+      "historical_heading": "Astronomical, Algebraic, Commercial, Medical",
+      "collection": "boston-symbols-1889",
+      "printed_pages": [
+        255
+      ],
+      "tags_any": [
+        "commercial"
+      ]
+    },
+    {
+      "id": "medical-symbols",
+      "label": "Medical symbols",
+      "historical_heading": "Astronomical, Algebraic, Commercial, Medical",
+      "collection": "boston-symbols-1889",
+      "printed_pages": [
+        255
+      ],
+      "tags_any": [
+        "medical"
+      ]
+    },
+    {
+      "id": "geometric-symbols",
+      "label": "Geometric symbols",
+      "historical_heading": "Astronomical, Algebraic, Commercial, Medical",
+      "collection": "boston-symbols-1889",
+      "printed_pages": [
+        255
+      ],
+      "tags_any": [
+        "geometry"
+      ]
+    },
+    {
+      "id": "crochet-signs",
+      "label": "Crochet signs",
+      "historical_heading": "Signs, Fractions, Leaders, Superiors, Crochet, Etc.",
+      "collection": "boston-symbols-1889",
+      "printed_pages": [
+        255
+      ],
+      "tags_any": [
+        "crochet"
+      ]
+    },
+    {
+      "id": "maps-and-diagrams",
+      "label": "Maps and diagrams",
+      "historical_heading": "Type for Maps and Diagrams",
+      "collection": "boston-symbols-1889",
+      "printed_pages": [
+        257
+      ]
+    }
+  ]
+}

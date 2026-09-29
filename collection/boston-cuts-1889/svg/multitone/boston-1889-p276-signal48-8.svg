@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1517 2048" role="img" aria-label="Round signal marker — multitone">
-<title>Round signal marker — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1517 2048" role="img" aria-label="Round signal marker — three-tone">
+<title>Round signal marker — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M384 1527C204 1376 151 1271 151 1068C151 857 211 744 414 548C557 413 678 247 678 187C678 120 715 67 753 67C798 67 828 97 828 142C828 180 956 353 1106 526C1460 917 1490 1278 1174 1542C911 1775 670 1767 384 1527Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M557 1722C467 1692 324 1564 226 1444C8 1158 61 774 362 518C489 413 595 262 610 187C655 -39 821 -39 903 180C941 285 1076 466 1204 571C1385 721 1430 819 1430 1060C1430 1286 1377 1406 1212 1579C986 1805 836 1835 557 1722ZM384 1527C670 1767 911 1775 1174 1542C1490 1278 1460 917 1106 526C956 353 828 180 828 142C828 97 798 67 753 67C715 67 678 120 678 187C678 247 557 413 414 548C211 744 151 857 151 1068C151 1271 204 1376 384 1527Z"/>

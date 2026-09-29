@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1900 2048" role="img" aria-label="Bold diagonal chevron, right corner — multitone">
-<title>Bold diagonal chevron, right corner — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1900 2048" role="img" aria-label="Bold diagonal chevron, right corner — three-tone">
+<title>Bold diagonal chevron, right corner — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M73 1783C73 1778 73 1706 74 1625L75 1476L532 1018C953 596 1072 477 1411 130L1531 8H1675C1755 8 1821 11 1824 14C1826 18 1769 80 1696 153C1624 227 1491 362 1401 455C1311 546 998 863 707 1159C415 1455 156 1718 131 1745C87 1792 75 1801 73 1783Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M72 1795C69 1792 66 1720 66 1634V1480L328 1217C666 878 1258 279 1406 127L1522 9H1530L1411 130C1072 477 953 596 532 1018L75 1476L74 1625C73 1706 73 1778 73 1783C75 1801 87 1792 131 1745C156 1718 415 1455 707 1159C998 863 1311 546 1401 455C1491 362 1624 227 1696 153C1769 80 1826 18 1824 14C1821 11 1755 8 1675 8H1559L1670 5C1759 2 1821 3 1828 7C1834 11 1837 16 1836 18C1825 29 1260 606 1176 692C1121 747 874 998 626 1249C378 1499 156 1726 131 1753C87 1800 81 1805 72 1795Z"/>

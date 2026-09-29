@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Horizontal line, lower map type — multitone">
-<title>Horizontal line, lower map type — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Horizontal line, lower map type — three-tone">
+<title>Horizontal line, lower map type — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M139 900C139 878 439 863 960 863C1470 863 1793 878 1808 900C1823 926 1538 938 987 938C447 938 139 923 139 900Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M102 919C79 893 75 863 90 851C105 844 510 836 983 840C1722 844 1845 851 1845 900C1845 949 1722 956 994 960C338 964 132 956 102 919ZM139 900C139 923 447 938 987 938C1538 938 1823 926 1808 900C1793 878 1470 863 960 863C439 863 139 878 139 900Z"/>

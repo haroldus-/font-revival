@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Right-angle junction map type — multitone">
-<title>Right-angle junction map type — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Right-angle junction map type — three-tone">
+<title>Right-angle junction map type — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M112 1611C101 1546 94 1176 101 787C108 264 123 79 159 64C192 53 202 228 202 852V1655H1005C1528 1655 1797 1666 1782 1691C1768 1713 1448 1728 947 1728H133L112 1611Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M119 1742C104 1728 94 1335 94 867C94 141 101 21 148 21C161 21 171 19 179 22C212 35 210 136 210 838C210 1324 224 1582 250 1615C270 1640 339 1652 539 1655H202V852C202 228 192 53 159 64C123 79 108 264 101 787C94 1176 101 1546 112 1611L133 1728H947C1448 1728 1768 1713 1782 1691C1797 1666 1528 1655 1005 1655H777C858 1654 950 1653 1056 1651C1717 1640 1818 1644 1818 1691C1818 1738 1699 1746 980 1757C518 1760 133 1753 119 1742Z"/>

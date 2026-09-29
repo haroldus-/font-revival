@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Node with upper loops, 9-point: three-tone and monochrome SVGs, icon fonts and HTML examples.">
+  <meta name="theme-color" content="#f4f0e7">
+  <title>Node with upper loops, 9-point — Ornaments &amp; cuts — Font Revival</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23a5422c'/%3E%3Ctext x='15' y='48' font-family='serif' font-size='48' fill='%23f4f0e7'%3Ef%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../site/icon-fonts/icons.css">
+  <link rel="stylesheet" href="../site/icons.css">
+  <script defer src="../site/icon-detail.js"></script>
+  <style>
+    @font-face{font-family:"erebus-1894";src:url("../collection/erebus-1894/web/Erebus1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"hades-1894";src:url("../collection/hades-1894/web/Hades1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"quaint-gothic-1894";src:url("../collection/quaint-gothic-1894/web/QuaintGothic1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"remington-1888";src:url("../collection/remington-1888/web/Remington1888-Regular.woff2") format("woff2");font-display:swap}
+        :root{--paper:#f4f0e7;--ink:#24251f;--muted:#68675c;--rule:#cbc6b8;--red:#a5422c;--sample-size:56px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--red)}a:focus-visible,input:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:12px}.skip:focus{top:12px}header{display:flex;justify-content:space-between;align-items:center;padding:27px 0;border-bottom:1px solid var(--ink);gap:20px}.wordmark{font-family:"quaint-gothic-1894",sans-serif;font-size:25px;font-weight:normal;text-decoration:none;letter-spacing:normal}nav{display:flex;gap:26px;font-size:13px}.hero{padding:32px 0 70px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px 40px;align-items:end}.eyebrow{display:grid;grid-column:1 / -1;font-family:"erebus-1894",serif;color:var(--red);font-size:clamp(24px,3vw,36px);letter-spacing:4px;text-transform:uppercase;margin:0}h1{font-family:"oriole-1894",serif;font-weight:normal;font-size:clamp(64px,8.4vw,112px);line-height:1.2;letter-spacing:normal;margin:0;position:relative;height:2.5em}h1 em{color:var(--red);font-weight:normal;font-style:normal}.intro{font-family:"remington-1888",monospace;font-size:19px;max-width:360px;justify-self:end;margin:0 0 6px;color:var(--muted)}.intro a{font-family:Arial,Helvetica,sans-serif;display:inline-block;margin-top:20px;color:var(--ink);font-size:13px}.collection-bar{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.collection-bar h2{font-size:11px;font-weight:normal;letter-spacing:2px;margin:0;text-transform:uppercase}.collection-bar span{color:var(--muted);font-size:12px}.tester{display:flex;gap:32px;align-items:end;padding:28px 0 36px}.text-control{flex:1}.tester label{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}input[type=text]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=range]{accent-color:var(--red);width:160px}output{font-variant-numeric:tabular-nums}.font-card{border-top:1px solid var(--rule);padding:32px 0 36px}.card-meta{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.3px}.font-card h2{font-size:clamp(68px,8vw,104px);font-weight:400;line-height:1.4;margin:22px 0 8px}.description{color:var(--muted);max-width:720px;font-size:14px;margin:0 0 20px}.type-sample{font-size:var(--sample-size);line-height:1.65;padding:6px 0 20px;overflow-wrap:anywhere;min-height:130px}.coverage{font-size:11px;color:var(--muted);letter-spacing:.3px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.downloads a{border:1px solid var(--rule);text-decoration:none;padding:8px 14px;font-size:11px}.downloads a:hover{border-color:var(--red);background:#eee6d9}.mission{border-top:1px solid var(--ink);padding:55px 0 65px;display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:25px}.mission h2{font-family:"quaint-gothic-1894",sans-serif;font-size:39px;line-height:1.2;font-weight:normal;letter-spacing:normal;margin:0}.mission p{font-family:"remington-1888",monospace;font-size:14px;color:var(--muted);margin:0 0 18px}.mission a{color:var(--ink)}footer{border-top:1px solid var(--rule);padding:22px 0 35px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.notice{font-size:11px!important}
+    /* The generator resolves this shared ornament URL for each page's depth. */
+    details > summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer}
+    details > summary::marker{content:""}
+    details > summary::-webkit-details-marker{display:none}
+    details > summary::before{content:"";flex:0 0 18px;width:18px;height:18px;background:url("../collection/boston-ornaments-1889/svg/boston-1889-p258-word-1-3.svg") center / contain no-repeat;transform:rotate(0deg)}
+    details[open] > summary::before{transform:rotate(90deg)}
+    details > summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+    /* Hades includes its shadow offset; both faces share one origin and wrapping. */
+    .eyebrow > span{grid-area:1 / 1;min-width:0}
+    .eyebrow-shadow{font-family:"hades-1894",serif;color:var(--muted);visibility:hidden;pointer-events:none;user-select:none}
+    .eyebrow.is-layered .eyebrow-shadow{visibility:visible}
+    .eyebrow-face{position:relative}
+    .hero-face{position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;opacity:1;transition:opacity 1.4s ease}
+    .hero-face.is-hidden{opacity:0}
+    .hero-line{display:block;width:max-content;max-width:100%;white-space:nowrap;align-self:center}
+    .hero-animation-toggle{border:0;border-bottom:1px solid var(--rule);background:none;padding:0;color:var(--muted);font:11px Arial,Helvetica,sans-serif;cursor:pointer}
+    .hero-animation-control{height:22px;margin-top:12px}
+    @media(max-width:650px){.wrap{width:calc(100% - 40px)}header{padding:20px 0;flex-wrap:wrap}nav{gap:14px}.hero{grid-template-columns:1fr;padding:28px 0 55px;gap:28px}h1{font-size:clamp(50px,16vw,64px)}.intro{justify-self:start;max-width:440px;font-size:17px}.tester{flex-direction:column;align-items:stretch;gap:20px}.size-control{display:flex;gap:20px;align-items:center}.size-control label{margin:0}.font-card h2{font-size:clamp(32px,8vw,52px);overflow-wrap:anywhere}.mission{grid-template-columns:1fr;gap:24px;padding:40px 0}.mission h2{font-size:34px}.type-sample{font-size:min(var(--sample-size),64px)}footer{flex-direction:column;gap:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-face{transition:none}}
+
+  </style>
+</head>
+<body class="icon-detail-page">
+  <a class="skip" href="#icon">Skip to icon</a>
+  <div class="wrap">
+    <header><a class="wordmark" href="../index.html">Font Revival<span style="color:var(--red)">.</span></a><nav aria-label="Main"><a href="../index.html#collection">Typefaces</a><a href="../icons.html" aria-current="page">Ornaments &amp; cuts</a><a href="https://github.com/haroldus-/font-revival">GitHub ↗</a></nav></header>
+    <main id="icon">
+      <p class="back-link"><a href="../icons.html#collection">← All ornaments &amp; cuts</a></p>
+      <article class="icon-card" id="boston-1889-p255-9pt-30">
+  <p class="card-meta"><a href="../icons.html?collection=boston-symbols-1889#collection">Boston Symbols 1889</a><span>No. 9pt-30</span></p>
+  <h1>Node with upper loops, 9-point</h1>
+  <ul class="tags" aria-label="Themes and search terms"><li>symbol</li><li>astronomy</li><li>node</li></ul>
+  <div class="section-links"><a href="../icons.html?section=astronomical-symbols#collection">Astronomical symbols</a></div>
+  <div class="tester controls">
+    <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
+    <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
+  </div>
+  <div class="renderings" role="group" aria-label="Formats for Node with upper loops, 9-point">
+    <figure><div class="art"><svg data-icon-format="multitone" role="img" aria-label="Node with upper loops, 9-point — three-tone" viewBox="0 -1900 1622 2048" style="width:0.791992em;height:1em"><path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M306 1713C110 1635 41 1330 192 1198C237 1152 310 1120 351 1120C465 1120 442 1029 292 847C146 682 123 537 210 377C401 12 944 -79 1286 195C1573 427 1591 682 1336 938C1258 1015 1199 1084 1208 1093C1217 1102 1272 1134 1331 1161C1482 1239 1527 1389 1445 1544C1363 1704 1190 1776 1053 1708C916 1635 885 1580 885 1394C889 1266 930 1188 1090 1015C1263 828 1295 764 1295 609C1295 464 1263 395 1135 268C989 122 953 108 802 131C597 167 383 382 383 559C383 623 465 828 565 1011C666 1193 748 1384 748 1430C748 1544 616 1699 497 1726C447 1740 360 1735 306 1713ZM602 1453C616 1330 597 1293 502 1252C356 1184 255 1225 219 1371C178 1530 274 1631 447 1612C570 1599 588 1580 602 1453ZM1340 1530C1445 1334 1263 1152 1067 1257C957 1316 948 1453 1049 1549C1144 1649 1281 1640 1340 1530Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M178 1640C114 1571 64 1471 64 1421C64 1289 187 1120 287 1120C424 1120 429 1065 310 924C146 728 110 605 160 427C224 186 438 53 793 35C1044 21 1112 35 1245 126C1582 354 1637 669 1386 924L1258 1047L1391 1170C1555 1325 1564 1494 1409 1644C1286 1767 1176 1786 1003 1704C766 1599 798 1284 1081 992C1236 833 1272 769 1272 619C1272 368 1071 163 834 163C702 163 638 195 547 304C383 495 392 682 584 997C793 1343 812 1512 657 1667C524 1799 310 1786 178 1640ZM306 1713C360 1735 447 1740 497 1726C616 1699 748 1544 748 1430C748 1384 666 1193 565 1011C465 828 383 623 383 559C383 382 597 167 802 131C953 108 989 122 1135 268C1263 395 1295 464 1295 609C1295 764 1263 828 1090 1015C930 1188 889 1266 885 1394C885 1580 916 1635 1053 1708C1190 1776 1363 1704 1445 1544C1527 1389 1482 1239 1331 1161C1272 1134 1217 1102 1208 1093C1199 1084 1258 1015 1336 938C1591 682 1573 427 1286 195C944 -79 401 12 210 377C123 537 146 682 292 847C442 1029 465 1120 351 1120C310 1120 237 1152 192 1198C41 1330 110 1635 306 1713ZM1340 1530C1281 1640 1144 1649 1049 1549C948 1453 957 1316 1067 1257C1263 1152 1445 1334 1340 1530ZM1331 1403C1322 1298 1295 1280 1181 1280C1071 1280 1040 1302 1030 1384C1008 1526 1144 1631 1263 1567C1318 1539 1340 1485 1331 1403ZM420 1614C264 1620 180 1522 219 1371C255 1225 356 1184 502 1252C589 1289 612 1323 605 1423C597 1372 565 1323 511 1284C324 1152 132 1371 292 1530C339 1577 381 1604 420 1614ZM556 1567C572 1551 584 1533 593 1514C581 1569 561 1591 510 1603C525 1594 541 1582 556 1567Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M602 1453C599 1477 597 1497 593 1514C584 1533 572 1551 556 1567C541 1582 525 1594 510 1603C492 1607 472 1609 447 1612C438 1613 429 1614 420 1614C381 1604 339 1577 292 1530C132 1371 324 1152 511 1284C565 1323 597 1372 605 1423C604 1432 603 1442 602 1453ZM64 1410C64 1408 64 1405 64 1403C64 1243 173 1093 310 1070C388 1052 383 1038 265 897C78 673 78 404 265 213C433 40 793 -47 1058 26C1254 76 1514 309 1550 468C1587 600 1495 860 1386 960C1297 1041 1299 1043 1402 1140C1404 1142 1407 1145 1409 1147C1646 1366 1491 1758 1167 1758C1081 1758 985 1722 926 1663C870 1607 847 1560 845 1479C852 1579 904 1660 1003 1704C1176 1786 1286 1767 1409 1644C1564 1494 1555 1325 1391 1170L1258 1047L1386 924C1637 669 1582 354 1245 126C1112 35 1044 21 793 35C438 53 224 186 160 427C110 605 146 728 310 924C429 1065 424 1120 287 1120C190 1120 71 1280 64 1410ZM543 1526C597 1444 524 1257 438 1257C296 1257 233 1330 265 1457C287 1544 324 1576 406 1576C465 1576 529 1553 543 1526ZM269 1749C140 1674 79 1583 66 1442C77 1496 122 1580 178 1640C310 1786 524 1799 657 1667C812 1512 793 1343 584 997C437 755 397 589 461 438C430 542 450 674 520 833C570 951 643 1079 679 1120C711 1156 752 1261 771 1353C793 1489 780 1539 679 1658C552 1808 424 1840 269 1749ZM849 1400C850 1389 852 1378 853 1366C866 1207 912 1125 1062 979C1217 819 1249 760 1249 609C1249 473 1217 400 1117 299C1003 186 962 172 812 195C700 211 613 246 553 297C641 194 705 163 834 163C1071 163 1272 368 1272 619C1272 769 1236 833 1081 992C946 1131 868 1276 849 1400ZM1331 1435C1332 1429 1332 1423 1332 1418C1337 1492 1315 1541 1263 1567C1159 1623 1042 1550 1029 1436C1048 1511 1124 1582 1226 1567C1286 1558 1322 1512 1331 1435ZM1154 1281C1142 1283 1130 1285 1117 1289C1078 1299 1052 1319 1038 1344C1052 1300 1084 1284 1154 1281ZM1318 1334C1308 1316 1295 1301 1277 1292C1297 1300 1309 1313 1318 1334Z"/></svg></div><figcaption>Three-tone SVG</figcaption></figure>
+    <figure><div class="art"><svg data-icon-format="monochrome" role="img" aria-label="Node with upper loops, 9-point" viewBox="0 -1900 1622 2048" style="width:0.791992em;height:1em"><path fill="currentColor" transform="scale(1,-1)" d="M224 1644C155 1580 110 1480 110 1403C110 1261 228 1120 351 1120C392 1120 429 1088 429 1052C429 1015 415 983 397 983C324 983 155 673 155 541C155 163 702 -88 1126 90C1208 122 1336 217 1404 304C1514 432 1527 482 1509 641C1491 769 1445 856 1345 942C1190 1070 1167 1120 1263 1120C1363 1120 1491 1289 1491 1425C1491 1599 1277 1776 1117 1735C930 1690 885 1626 885 1421C885 1266 916 1198 1067 1033C1167 924 1263 783 1277 723C1322 541 1236 331 1067 217C816 49 552 140 429 441C360 605 388 714 588 1047C675 1193 748 1362 748 1425C748 1558 556 1758 429 1758C379 1758 283 1708 224 1644ZM584 1549C638 1407 611 1298 502 1248C438 1220 356 1211 319 1225C224 1261 178 1471 246 1553C324 1644 547 1640 584 1549ZM1350 1508C1395 1407 1391 1375 1313 1298C1236 1225 1199 1216 1099 1252C957 1307 944 1375 1049 1521C1140 1658 1286 1649 1350 1508Z"/></svg></div><figcaption>Monochrome SVG</figcaption></figure>
+    <figure><div class="art" role="img" aria-label="Node with upper loops, 9-point"><span class="grid-icon" aria-hidden="true" style="font-family:'browse-boston-symbols-1889'">&#xE0EC;</span></div><figcaption>Monochrome icon font</figcaption></figure>
+  </div>
+  <div class="downloads"><a download href="../collection/boston-symbols-1889/downloads/boston-symbols-1889-web.zip">Download web bundle (ZIP)</a><a download href="../collection/boston-symbols-1889/svg/multitone/boston-1889-p255-9pt-30.svg">Three-tone SVG</a><a download href="../collection/boston-symbols-1889/png/multitone/boston-1889-p255-9pt-30.png">Three-tone PNG</a><a download href="../collection/boston-symbols-1889/web/icons-multitone.svg">Three-tone sprite</a><a download href="../collection/boston-symbols-1889/svg/boston-1889-p255-9pt-30.svg">Monochrome SVG</a><a download href="../collection/boston-symbols-1889/web/icons.svg">Monochrome sprite</a><a download href="../collection/boston-symbols-1889/fonts/BostonSymbols1889-Regular.otf">OTF</a> <a download href="../collection/boston-symbols-1889/fonts/BostonSymbols1889-Regular.ttf">TTF</a> <a download href="../collection/boston-symbols-1889/web/BostonSymbols1889-Regular.woff2">WOFF2</a><a href="../collection/boston-symbols-1889/specimens/specimen.pdf">Comparison PDF</a><a href="../collection/boston-symbols-1889/font.json">Source record</a></div>
+  <details><summary>Use this icon in HTML</summary>
+    <p><a download href="../collection/boston-symbols-1889/downloads/boston-symbols-1889-web.zip">Download the web bundle (ZIP)</a>, unzip it, then place the extracted <code>collection</code> folder beside your HTML file. Keep its subfolders together. The examples below will then work as written; adjust the paths if you put the folder elsewhere. The bundle includes the SVGs, PNGs, fonts, CSS, instructions and license.</p>
+    <h3>Three-tone image</h3>
+    <p>This displays all three tones with a transparent background. Set the height; the width follows the original proportions.</p>
+    <pre><code data-example="image">&lt;img src=&quot;collection/boston-symbols-1889/svg/multitone/boston-1889-p255-9pt-30.svg&quot;
+     alt=&quot;Node with upper loops, 9-point&quot; height=&quot;96&quot;&gt;</code></pre>
+    <p>An image has its own colour context, so page CSS cannot recolour its internal regions. For a decorative image beside a text label, use <code>alt=""</code>.</p>
+    <h3>Three-tone with your own colours</h3>
+    <p>On an HTTP(S) page, load the sprite from the same site. This complete example uses dark primary ink and two strengths of red. Each region has an independent colour and opacity; set the secondary and tertiary values alike for a two-tone appearance.</p>
+    <pre><code data-example="sprite">&lt;style&gt;
+  .revival-cut {
+    display: inline-block;
+    font-size: 96px;
+    height: 1em;
+    width: 0.791992em;
+    vertical-align: middle;
+    --fr-primary-color: #24251f;
+    --fr-secondary-color: #a5422c;
+    --fr-tertiary-color: #a5422c;
+    --fr-primary-opacity: 1;
+    --fr-secondary-opacity: 0.55;
+    --fr-tertiary-opacity: 0.25;
+  }
+&lt;/style&gt;
+&lt;svg class=&quot;revival-cut&quot; role=&quot;img&quot; aria-label=&quot;Node with upper loops, 9-point&quot;&gt;
+  &lt;use href=&quot;collection/boston-symbols-1889/web/icons-multitone.svg#boston-1889-p255-9pt-30&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+    <h3>Monochrome icon font</h3>
+    <p>Copy the whole <code>web/</code> folder, including CSS and webfonts. Font size and colour use ordinary CSS. The icon font draws the solid version; use SVG for three-tone artwork.</p>
+    <pre><code data-example="font">&lt;link rel=&quot;stylesheet&quot; href=&quot;collection/boston-symbols-1889/web/icons.css&quot;&gt;
+&lt;span class=&quot;fr-icon fr-boston-1889-p255-9pt-30&quot; aria-hidden=&quot;true&quot;
+      style=&quot;font-size:96px;color:#a5422c&quot;&gt;&lt;/span&gt;
+&lt;span&gt;Node with upper loops, 9-point&lt;/span&gt;</code></pre>
+    <p>The decorative font icon is hidden from screen readers and has a visible text label. An icon conveying meaning on its own needs <code>role="img"</code> and an <code>aria-label</code> instead of <code>aria-hidden</code>.</p>
+  </details>
+  <details><summary>Compare with the historical impression</summary><img class="comparison" loading="lazy" src="../collection/boston-symbols-1889/specimens/boston-1889-p255-9pt-30.png" alt="Historical scan beside the three-tone and monochrome vector revivals"></details>
+</article>
+    </main>
+    <footer><span>© 2026 Harold Lehmann</span><span><a href="https://github.com/haroldus-/font-revival/blob/main/LICENSE">MIT License</a> · Made to be shared.</span></footer>
+  </div>
+</body>
+</html>

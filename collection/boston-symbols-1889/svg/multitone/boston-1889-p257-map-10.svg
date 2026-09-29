@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Short quarter curve map type — multitone">
-<title>Short quarter curve map type — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Short quarter curve map type — three-tone">
+<title>Short quarter curve map type — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M243 1648C243 1608 297 1554 364 1534C749 1405 911 1317 1161 1088C1405 865 1506 696 1702 189C1749 68 1756 74 1783 243C1830 595 1202 1405 743 1574C412 1703 243 1723 243 1648Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M148 1723C94 1628 202 1527 412 1480C871 1378 1594 669 1594 324C1594 149 1763 -27 1823 81C1850 115 1830 291 1790 459C1695 824 1229 1385 857 1567C567 1709 195 1790 148 1723ZM243 1648C243 1723 412 1703 743 1574C1202 1405 1830 595 1783 243C1756 74 1749 68 1702 189C1506 696 1405 865 1161 1088C911 1317 749 1405 364 1534C297 1554 243 1608 243 1648Z"/>

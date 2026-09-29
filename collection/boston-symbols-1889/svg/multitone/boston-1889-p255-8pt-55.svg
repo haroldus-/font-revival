@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 768 2048" role="img" aria-label="Prime stroke, 8-point — multitone">
-<title>Prime stroke, 8-point — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 768 2048" role="img" aria-label="Prime stroke, 8-point — three-tone">
+<title>Prime stroke, 8-point — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M304 1533C285 1495 237 1180 209 846L151 225L390 827C619 1399 629 1609 438 1609C390 1609 333 1571 304 1533Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M294 1590C199 1313 56 588 56 349C56 -118 218 63 457 779C705 1495 705 1705 476 1705C399 1705 314 1647 294 1590ZM304 1533C333 1571 390 1609 438 1609C629 1609 619 1399 390 827L151 225L209 846C237 1180 285 1495 304 1533Z"/>

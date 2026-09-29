@@ -97,10 +97,10 @@ class IconWorkflowTests(unittest.TestCase):
         self.assertEqual(catalog["families"], [])
         icons = json.loads((self.root / "icons.json").read_text())["icons"]
         self.assertEqual([i["id"] for i in icons], ["boston-1889-4202"])
-        self.assertIn("fr-boston-1889-4202", (self.root / "icons.html").read_text())
+        self.assertIn('href="icons/boston-1889-4202.html"', (self.root / "icons.html").read_text())
         self.assertNotIn("@@", (self.root / "icons.html").read_text())
         self.assertNotIn("<use ", (self.root / "icons.html").read_text())
-        self.assertIn('class="fr-primary"', (self.root / "icons.html").read_text())
+        self.assertIn('class="fr-primary"', (self.root / "icons/boston-1889-4202.html").read_text())
 
     def test_svg_and_sprite_follow_glyph_override(self):
         revival.export_glyph(Namespace(id=self.family.name, character="uniE000"))
@@ -125,22 +125,78 @@ class IconWorkflowTests(unittest.TestCase):
             viewbox = list(map(int, svg.getroot().attrib["viewBox"].split()))
             self.assertEqual(viewbox, [0, -1900, font["hmtx"]["uniE000"][0], 2048])
 
-    def test_later_gallery_results_keep_exact_artwork_in_local_chunks(self):
+    def test_compact_grid_links_to_complete_local_detail_pages(self):
         m = revival.metadata(self.family)
         with TTFont(self.family / "fonts/BostonCuts1889-Regular.otf") as font:
             first = revival.icon_records(m, font)[0]
-        records = [first | {"id": f"test-cut-{i}"} for i in range(25)]
+        records = [first | {"id": f"test-cut-{i}"} for i in range(97)]
         output = revival.icon_catalog_outputs([(m, records)])
-        scripts = {key: value for key, value in output.items() if key.endswith('.js')}
-        self.assertEqual(len(scripts), 1)
-        script_name, script = next(iter(scripts.items()))
-        payload = json.loads(script.split('Object.assign(window.revivalIconArtwork, ', 1)[1][:-3])
-        self.assertEqual(list(payload), ['test-cut-24'])
-        self.assertEqual(payload['test-cut-24']['monochrome'], revival.icon_artwork(first))
-        self.assertEqual(payload['test-cut-24']['multitone'], revival.multitone_artwork(first))
-        self.assertIn(f'data-art-chunk="{script_name}"', output['icons.html'])
-        # The initial page has actual paths before any script or network work.
-        self.assertEqual(output['icons.html'].count(revival.multitone_artwork(first)), 24)
+        index = output['icons.html']
+        self.assertEqual(index.count('class="icon-tile"'), 97)
+        self.assertNotIn('<svg', index)
+        self.assertNotIn('<path', index)
+        self.assertNotIn('<img', index)
+        self.assertNotIn('Engraved detail, original proportions', index)
+        self.assertNotIn('data-art-chunk', index)
+        self.assertIn('data-id="test-cut-96"', index)
+        self.assertEqual(index.count('data-section="holiday-cuts" hidden>'), 1)
+        for record in records:
+            detail = output[f'icons/{record["id"]}.html']
+            self.assertIn(revival.icon_artwork(first), detail)
+            self.assertIn(revival.multitone_artwork(first), detail)
+            self.assertIn('Three-tone image', detail)
+            self.assertNotIn('tritone', detail.lower())
+            self.assertNotIn('Engraved detail, original proportions', detail)
+            self.assertIn('href="../icons.html#collection"', detail)
+            self.assertIn('href="../collection/boston-cuts-1889/downloads/', detail)
+            self.assertIn('src=&quot;collection/boston-cuts-1889/svg/multitone/', detail)
+            self.assertNotIn('@@', detail)
+        catalog = json.loads(output['icons.json'])
+        self.assertEqual(catalog['icons'][0]['type'], 'cuts')
+        self.assertEqual(catalog['icons'][0]['sections'], ['holiday-cuts'])
+        self.assertEqual(catalog['icons'][0]['page'], 'icons/test-cut-0.html')
+        self.assertIn('name="collection" value="boston-cuts-1889"', index)
+        self.assertIn('name="type" value="cuts"', index)
+        self.assertIn('name="section" value="holiday-cuts"', index)
+
+    def test_browse_fonts_preserve_monochrome_outlines_without_tone_layers(self):
+        m = revival.metadata(self.family)
+        with TTFont(self.family / "fonts/BostonCuts1889-Regular.otf") as font:
+            records = revival.icon_records(m, font)
+        output = revival.icon_browse_fonts([(m, records)])
+        data = output['site/icon-fonts/boston-cuts-1889-000.woff2']
+        with TTFont(io.BytesIO(data)) as browse:
+            self.assertEqual(set(browse.getBestCmap()), {32, 0xE000})
+            self.assertEqual(len(browse.getGlyphOrder()), 3)
+            self.assertEqual(browse['glyf'][browse.getBestCmap()[32]].numberOfContours, 0)
+            glyphs = browse.getGlyphSet()
+            pen = SVGPathPen(glyphs)
+            glyphs[browse.getBestCmap()[0xE000]].draw(pen)
+            with TTFont(self.family / 'fonts/BostonCuts1889-Regular.ttf') as original:
+                original_glyphs = original.getGlyphSet()
+                original_pen = SVGPathPen(original_glyphs)
+                original_glyphs[original.getBestCmap()[0xE000]].draw(original_pen)
+                self.assertEqual(pen.getCommands(), original_pen.getCommands())
+            self.assertEqual(browse['hmtx'][browse.getBestCmap()[0xE000]][0], records[0]['advance_width'])
+        self.assertIn('unicode-range:U+20,U+E000', output['site/icon-fonts/icons.css'])
+
+    def test_taxonomy_has_evidence_and_resolves_to_existing_icons(self):
+        taxonomy = json.loads((REPO / 'site/icon-taxonomy.json').read_text())
+        sections = taxonomy['sections']
+        self.assertEqual(len({s['id'] for s in sections}), len(sections))
+        families = {name: json.loads((REPO / 'collection' / name / 'font.json').read_text())
+                    for name in taxonomy['collections']}
+        for section in sections:
+            m = families[section['collection']]
+            with self.subTest(section=section['id']):
+                self.assertTrue(section['historical_heading'])
+                self.assertTrue(set(section['printed_pages']) <= {i['printed_page'] for i in m['icons']})
+                self.assertTrue(set(section.get('icons', [])) <= {i['id'] for i in m['icons']})
+                selected = [i for i in m['icons'] if section in revival.icon_navigation(m, i, taxonomy)[1]]
+                self.assertTrue(selected)
+        cuts = families['boston-cuts-1889']
+        santa = next(i for i in cuts['icons'] if i['id'] == 'boston-1889-4202')
+        self.assertEqual([s['id'] for s in revival.icon_navigation(cuts, santa, taxonomy)[1]], ['holiday-cuts'])
 
     def test_web_bundle_resolves_copyable_html_and_stylesheet_assets(self):
         archive = self.family / "downloads/boston-cuts-1889-web.zip"

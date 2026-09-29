@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Open bracket, left, 6-point — multitone">
-<title>Open bracket, left, 6-point — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Open bracket, left, 6-point — three-tone">
+<title>Open bracket, left, 6-point — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M685 1452C703 1391 854 1361 1174 1349L1639 1331V431H914C516 431 190 407 190 377C190 310 1512 250 1681 317C1808 365 1820 401 1820 836C1820 1096 1790 1349 1760 1397C1681 1524 642 1573 685 1452Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M600 1548C576 1524 576 1470 594 1422C618 1361 745 1337 1059 1337C1319 1337 1524 1307 1566 1265C1609 1222 1639 1035 1639 848C1639 588 1615 498 1542 467C1488 449 1150 431 787 431C256 431 129 413 129 347C129 274 286 256 975 256C1615 250 1820 268 1826 323C1844 643 1802 1434 1772 1464C1711 1518 649 1591 600 1548ZM685 1452C642 1573 1681 1524 1760 1397C1790 1349 1820 1096 1820 836C1820 401 1808 365 1681 317C1512 250 190 310 190 377C190 407 516 431 914 431H1639V1331L1174 1349C854 1361 703 1391 685 1452Z"/>

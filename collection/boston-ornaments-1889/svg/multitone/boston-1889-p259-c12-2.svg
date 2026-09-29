@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 803 2048" role="img" aria-label="Fine cross divider, 12 point — multitone">
-<title>Fine cross divider, 12 point — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 803 2048" role="img" aria-label="Fine cross divider, 12 point — three-tone">
+<title>Fine cross divider, 12 point — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M334 1432C338 1252 356 1102 378 1102C395 1102 408 1252 408 1432C408 1618 391 1763 364 1763C342 1763 329 1622 334 1432ZM351 604C338 569 342 436 364 304L400 66L404 366C408 657 395 718 351 604Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M320 1432C320 1225 338 1058 360 1058C408 1058 444 1424 417 1644C382 1944 320 1812 320 1432ZM334 1432C329 1622 342 1763 364 1763C391 1763 408 1618 408 1432C408 1252 395 1102 378 1102C356 1102 338 1252 334 1432ZM320 401C320 207 342 35 364 22C377 13 388 39 396 96L364 304C342 436 338 569 351 604C377 671 392 678 399 613C392 698 379 749 364 749C338 749 320 604 320 401ZM563 882C550 859 576 837 629 837C682 837 708 859 695 882C682 908 651 926 629 926C607 926 576 908 563 882ZM401 149C406 206 408 280 408 370C408 445 406 512 403 569C405 521 405 454 404 366L401 149Z"/>

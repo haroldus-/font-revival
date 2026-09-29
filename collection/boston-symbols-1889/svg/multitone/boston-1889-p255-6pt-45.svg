@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1729 2048" role="img" aria-label="Perpendicular sign, 6-point — multitone">
-<title>Perpendicular sign, 6-point — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1729 2048" role="img" aria-label="Perpendicular sign, 6-point — three-tone">
+<title>Perpendicular sign, 6-point — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M835 1644C828 1595 835 1270 843 923C857 230 828 173 432 173C305 173 213 152 227 124C284 39 1472 53 1493 138C1507 181 1394 216 1253 230L984 251V994C984 1439 956 1729 913 1729C878 1729 835 1687 835 1644Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M821 1750C793 1729 772 1376 772 980V259C845 351 851 540 843 923C835 1270 828 1595 835 1644C835 1687 878 1729 913 1729C956 1729 984 1439 984 994V251L1069 244L1019 803C991 1114 991 1404 1019 1439C1069 1531 998 1800 920 1800C892 1800 843 1779 821 1750ZM765 251 439 230C248 216 100 181 100 138C100 96 411 60 864 46C1507 32 1620 46 1620 138C1620 216 1543 244 1345 244H1074L1253 230C1394 216 1507 181 1493 138C1472 53 284 39 227 124C213 152 305 173 432 173C602 173 705 184 765 251Z"/>

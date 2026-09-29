@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1059 2048" role="img" aria-label="Solid vertical rectangle (pica) — multitone">
-<title>Solid vertical rectangle (pica) — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1059 2048" role="img" aria-label="Solid vertical rectangle (pica) — three-tone">
+<title>Solid vertical rectangle (pica) — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M103 922 112 54 498 39C711 30 900 30 921 36C948 42 957 238 957 881C957 1337 945 1728 933 1743C921 1761 732 1776 503 1781L98 1787L103 922Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M498 1793 171 1786 503 1781C732 1776 921 1761 933 1743C945 1728 957 1337 957 881C957 238 948 42 921 36C900 30 711 30 498 39L112 54L103 922L98 1784H83V54L231 33C314 22 512 16 675 19L972 24L963 899C957 1379 942 1778 933 1787C921 1796 726 1799 498 1793Z"/>

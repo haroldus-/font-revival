@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Round dot, 24 point — multitone">
-<title>Round dot, 24 point — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Round dot, 24 point — three-tone">
+<title>Round dot, 24 point — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M618 1520C25 1288 141 321 760 153C1186 50 1586 295 1689 708C1766 979 1702 1107 1431 1352L1426 1356C1044 1675 1029 1687 618 1520Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M606 1585C103 1365 -52 875 245 424C412 166 567 102 967 102C1366 102 1521 166 1689 424C1869 695 1869 811 1753 1120C1534 1623 1121 1791 606 1585ZM618 1520C1029 1687 1044 1675 1426 1356L1431 1352C1702 1107 1766 979 1689 708C1586 295 1186 50 760 153C141 321 25 1288 618 1520Z"/>

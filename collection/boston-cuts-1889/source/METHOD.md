@@ -25,7 +25,7 @@ maximum-filter/Gaussian estimate of the paper; it adds no drawing or closed gaps
 Reviewed monochrome thresholds retain faint hairlines or open engraved counters
 as appropriate. Every final value, blur and erasure is stored in the recipe.
 
-The lightest trace defines a common frame for monochrome and tritone versions.
+The lightest trace defines a common frame for monochrome and three-tone versions.
 The longest dimension fits 1800 units, with uniform scaling and vertical centring
 inside the 2048-unit em. Wide cuts keep their proportions. No. 4202 retains its
 original contours, coordinate frame, spacing and stable U+E000 assignment.
@@ -191,7 +191,7 @@ curve extremum. Recording that bearing prevents FreeType from shifting each tone
 independently. Validation compares the actual ink bounds of every layer across
 OTF, TTF, WOFF and WOFF2 within two font units. Typeface conversion is unchanged.
 
-Source-comparison PDFs use 800-pixel source crops and 448-pixel tritone renders;
+Source-comparison PDFs use 800-pixel source crops and 448-pixel three-tone renders;
 individual SVGs and the CFF master retain all traced contours. Download PNGs stay
 1024 pixels high and use a lossless alpha palette. These settings keep detailed
 proofs and web downloads practical without changing delivered vector detail.

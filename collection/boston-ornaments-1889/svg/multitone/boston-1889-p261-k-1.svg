@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1899 2048" role="img" aria-label="Large solid dot — multitone">
-<title>Large solid dot — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1899 2048" role="img" aria-label="Large solid dot — three-tone">
+<title>Large solid dot — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M588 1677C326 1577 164 1260 164 854C164 574 195 474 326 318C413 206 588 100 731 62C937 6 1024 12 1255 118C1635 287 1797 561 1766 954C1747 1203 1697 1303 1523 1478C1348 1646 1242 1702 1030 1721C881 1733 681 1715 588 1677Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M600 1715C-42 1434 -80 412 538 94C1124 -212 1810 218 1810 885C1810 1515 1167 1958 600 1715ZM588 1677C681 1715 881 1733 1030 1721C1242 1702 1348 1646 1523 1478C1697 1303 1747 1203 1766 954C1797 561 1635 287 1255 118C1024 12 937 6 731 62C588 100 413 206 326 318C195 474 164 574 164 854C164 1260 326 1577 588 1677Z"/>

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1901 2048" role="img" aria-label="Small right triangle (long primer and pearl) — multitone">
-<title>Small right triangle (long primer and pearl) — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1901 2048" role="img" aria-label="Small right triangle (long primer and pearl) — three-tone">
+<title>Small right triangle (long primer and pearl) — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M253 1608C223 1579 201 1222 201 821V94H943C1493 94 1686 116 1686 190C1686 316 319 1668 253 1608Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M178 1675C156 1638 126 1289 119 888C104 316 119 146 208 86C364 -10 1641 4 1745 108C1812 175 1663 368 1106 940C394 1683 253 1794 178 1675ZM253 1608C319 1668 1686 316 1686 190C1686 116 1493 94 943 94H201V821C201 1222 223 1579 253 1608Z"/>

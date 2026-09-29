@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Solid diamond — multitone">
-<title>Solid diamond — multitone</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Solid diamond — three-tone">
+<title>Solid diamond — three-tone</title>
 <metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
 <path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M633 1337C447 1151 296 959 296 907C296 861 465 658 668 454L1039 83L1370 396C1635 645 1759 761 1759 877C1759 979 1661 1082 1475 1279C1289 1476 1098 1645 1051 1656C1005 1662 813 1523 633 1337Z"/>
 <path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M598 1360C401 1163 238 959 238 913C238 861 418 640 645 419L1045 19L1423 396C1643 611 1806 814 1806 884C1800 1018 1150 1726 1039 1720C999 1720 801 1558 598 1360ZM633 1337C813 1523 1005 1662 1051 1656C1098 1645 1289 1476 1475 1279L1482 1272C1663 1080 1759 978 1759 877C1759 761 1635 645 1370 396L1039 83L668 454C465 658 296 861 296 907C296 959 447 1151 633 1337ZM64 878C64 832 93 808 122 826C157 843 180 884 180 919C180 948 157 971 122 971C93 971 64 930 64 878Z"/>
