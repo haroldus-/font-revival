@@ -4,7 +4,7 @@ Historical ornaments from A specimen of printing types and ornaments from the Ba
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**396 icon(s) · Version 1.001 · MIT**
+**396 icon(s) · Version 1.002 · MIT**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BaltimoreOrnaments1832-Regular.otf) · [TTF](fonts/BaltimoreOrnaments1832-Regular.ttf) · [WOFF2](web/BaltimoreOrnaments1832-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -156,5 +156,5 @@ All downloadable fonts use reviewed simplifications for the most detailed engrav
 
 Download every part and extract them into the same folder.
 
-- [ZIP part 1](downloads/baltimore-ornaments-1832-web.zip) — 86.4 MB
+- [ZIP part 1](downloads/baltimore-ornaments-1832-web.zip) — 85.2 MB
 - [ZIP part 2](downloads/baltimore-ornaments-1832-web-2.zip) — 22.1 MB

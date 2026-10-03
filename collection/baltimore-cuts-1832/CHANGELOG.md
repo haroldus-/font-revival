@@ -1,5 +1,12 @@
 # Changes
 
+## 1.003
+
+- Repair 60 downloadable cut drawings that exceed signed 16-bit renderer point counts, including the missing eagle and shield at No. 103.
+- Keep downloadable CFF outlines within 32,767 points and TrueType outlines within 32,763 points, allowing for four renderer metric points. Reviewed reductions target at most 32,000 points in both formats.
+- Preserve the full-detail master, SVGs, tonal PNGs, icon identities, advances and historical proportions. Retain a [before/after font review](specimens/font-compatibility-review.pdf), a [focused example](specimens/font-compatibility-example.pdf), and measured preparation settings.
+- Extend coverage screening to Nos. 133, 232, 239, 244, 359 and 367 to preserve their shading within the compatible point limit. Record the compact-font bounds in individual sizing rules.
+
 ## 1.002
 
 - Restore the complete observed upper boundaries of all 24 small New England Primer panels, Nos. 357-01–357-24, from the original scan on PDF page 209.

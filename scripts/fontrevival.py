@@ -17,6 +17,7 @@ import tempfile
 import zipfile
 import zlib
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from statistics import median
 
@@ -41,6 +42,10 @@ EPOCH = 3850070400  # 2026-01-01 UTC in OpenType's 1904 epoch; fixed for builds.
 COPYRIGHT_HOLDER = "Harold Lehmann"
 COPYRIGHT_NOTICE = f"Copyright (c) 2026 {COPYRIGHT_HOLDER}"
 PAPER, INK, ACCENT = "#f4f0e7", "#24251f", "#a5422c"
+# FreeType before 2.14 stores outline point counts in a signed short. Keep
+# downloadable fonts compatible with those renderers, not just the file format.
+MAX_RENDERER_POINTS = 32767
+MAX_TRUETYPE_POINTS = MAX_RENDERER_POINTS - 4  # Metrics use four phantom points.
 SLUG = re.compile(r"[a-z][a-z0-9]*(?:-[a-z0-9]+)*\Z")
 
 
@@ -281,6 +286,7 @@ def to_truetype(otf, preserve_origins=False, approximations=None):
     font = copy.deepcopy(otf)
     glyph_set = font.getGlyphSet()
     glyphs = {}
+    visible = set(font.getBestCmap().values()) | {'.notdef'}
     for name in font.getGlyphOrder():
         pen = TTGlyphPen(glyph_set)
         converter = Cu2QuPen(pen, max_err=0.5, reverse_direction=True)
@@ -289,9 +295,13 @@ def to_truetype(otf, preserve_origins=False, approximations=None):
         else:
             glyph_set[name].draw(converter)
         glyphs[name] = pen.glyph()
-        if not glyphs[name].isComposite() and len(glyphs[name].coordinates) > 65535:
-            raise ValueError(f'{name} exceeds TrueType point limits; prepare and review a format-specific approximation.')
-        if glyphs[name].numberOfContours >= 4095:
+    # Resolve components after every referenced glyph has been converted.
+    for name, glyph in glyphs.items():
+        coordinates, contours, _ = glyph.getCoordinates(glyphs)
+        point_limit = MAX_TRUETYPE_POINTS if name in visible else 65535
+        if len(coordinates) > point_limit:
+            raise ValueError(f'{name} exceeds the font renderer point limit ({point_limit}); prepare and review a format-specific approximation.')
+        if len(contours) >= 4095:
             raise ValueError(f'{name} exceeds the font renderer contour limit; prepare and review a format-specific approximation.')
     del font["CFF "]
     font.sfntVersion = "\x00\x01\x00\x00"
@@ -452,7 +462,7 @@ def font_delivery_master(font, m, approximations=None):
         for name, glyph in exported.getGlyphSet().items():
             counter = CFFPointPen()
             glyph.draw(counter)
-            if counter.points > 65535:
+            if counter.points > MAX_RENDERER_POINTS:
                 raise ValueError(f'{name}: downloadable CFF outline exceeds the renderer point limit; review its approximation.')
     if m.get('cff_charstring_chunk_bytes'):
         split_cff_charstrings(exported, m['cff_charstring_chunk_bytes'])
@@ -1009,8 +1019,7 @@ def icon_html_examples(record, base):
     }
 
 
-def build_icons(path, m, font):
-    records = source_icon_records(path, m, font)
+def write_icon_artwork(path, m, font, records):
     # Oversized engravings retain full master detail in SVG and tonal PNGs.
     dense_outlines = (m.get('font_export_glyphs') == 'encoded'
                       or (path / 'source/truetype-glyphs').exists())
@@ -1049,6 +1058,13 @@ def build_icons(path, m, font):
             indexed.save(png_folder / f'{r["id"]}.png', transparency=bytes(range(256)))
     for filename, artwork in (symbols | gray_symbols).items():
         (path / 'web' / filename).write_text('<svg xmlns="http://www.w3.org/2000/svg">\n' + '\n'.join(artwork) + '\n</svg>\n')
+
+
+def build_icons(path, m, font, reuse_artwork=False):
+    records = (gallery_icon_records(path, m, font) if reuse_artwork
+               else source_icon_records(path, m, font))
+    if not reuse_artwork:
+        write_icon_artwork(path, m, font, records)
     css = ['/* ' + m["copyright"] + '; MIT. Keep LICENSE with redistributed assets. */',
            '@import url("./font.css");',
            '.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }',
@@ -1179,18 +1195,25 @@ python scripts/fontrevival.py glyph {m["id"]} {first["glyph"]}
 
 def partition_zip_files(files, limit):
     """Group complete entries below a ZIP size limit; never split an asset."""
-    groups, current, used = [], {}, 22
-    for name, source in sorted(files.items()):
+    def compressed_size(item):
+        name, source = item
         data = source.read_bytes() if isinstance(source, Path) else source
         compressor = zlib.compressobj(9, zlib.DEFLATED, -15)
         size = len(compressor.compress(data) + compressor.flush()) + 76 + 2 * len(name.encode())
-        if size + 22 > limit:
-            raise ValueError(f'{name}: a single download asset exceeds the ZIP part limit.')
-        if current and used + size > limit:
-            groups.append(current)
-            current, used = {}, 22
-        current[name] = source
-        used += size
+        return name, source, size
+
+    groups, current, used = [], {}, 22
+    # zlib releases the GIL. Bound memory/CPU use and consume results in the
+    # original sorted order so parallel compression cannot change ZIP grouping.
+    with ThreadPoolExecutor(max_workers=4) as workers:
+        for name, source, size in workers.map(compressed_size, sorted(files.items())):
+            if size + 22 > limit:
+                raise ValueError(f'{name}: a single download asset exceeds the ZIP part limit.')
+            if current and used + size > limit:
+                groups.append(current)
+                current, used = {}, 22
+            current[name] = source
+            used += size
     if current:
         groups.append(current)
     return groups
@@ -1253,8 +1276,8 @@ Keep `collection/{m["id"]}/LICENSE` with the assets when redistributing them.
         groups = [common | group for group in partition_zip_files(files, limit - overhead)]
     else:
         groups = [files]
-    parts = []
-    for number, entries in enumerate(groups, 1):
+    def write_part(item):
+        number, entries = item
         destination = archive if number == 1 else archive.with_name(f'{m["id"]}-web-{number}.zip')
         with zipfile.ZipFile(destination, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as bundle:
             for name, data in sorted(entries.items()):
@@ -1265,15 +1288,46 @@ Keep `collection/{m["id"]}/LICENSE` with the assets when redistributing them.
                 bundle.writestr(info, data.read_bytes() if isinstance(data, Path) else data, **options)
         if limit and destination.stat().st_size > limit:
             raise ValueError(f'{destination}: ZIP part exceeds its recorded limit.')
-        parts.append({'file': destination.name, 'bytes': destination.stat().st_size})
+        return {'file': destination.name, 'bytes': destination.stat().st_size}
+
+    # Each part is an independent ordinary ZIP. Keep its entry order, headers
+    # and compression settings unchanged, and return parts in numeric order.
+    with ThreadPoolExecutor(max_workers=min(4, len(groups))) as workers:
+        parts = list(workers.map(write_part, enumerate(groups, 1)))
     if limit:
         write_json(path / 'downloads/bundles.json', {'parts': parts,
                    'instructions': 'Download every part and extract them into the same folder.'})
     return parts
 
 
-def build_family(path):
+def verify_reusable_icon_artwork(path, m):
+    """Allow font-only revisions to reuse artwork from a checked prior build."""
+    if m.get('kind') != 'icons' or m.get('font_export_glyphs') != 'encoded':
+        raise ValueError('Artwork reuse requires an encoded-only icon family.')
+    catalog = json.loads((ROOT / 'icons.json').read_text())
+    previous = next((entry for entry in catalog['collections'] if entry['id'] == m['id']), {})
+    baseline = {key: value for key, value in previous.items()
+                if key not in ('version', 'characters', 'glyphs', 'web_bundle_parts')}
+    if baseline != {key: value for key, value in m.items() if key != 'version'}:
+        raise ValueError('Artwork metadata changed; run a full build before reusing artwork.')
+    expected = dict(line.split('  ', 1)[::-1] for line in (path / 'SHA256SUMS.txt').read_text().splitlines())
+    def artwork_input_or_output(name):
+        return (name == 'source/font.ttx' or name.startswith(('source/glyphs/', 'svg/', 'png/'))
+                or name.startswith('web/icons') and name.endswith('.svg'))
+    old_names = {name for name in expected if artwork_input_or_output(name)}
+    files = {file.relative_to(path).as_posix(): file for file in family_files(path)
+             if artwork_input_or_output(file.relative_to(path).as_posix())}
+    if not old_names or old_names != files.keys():
+        raise ValueError('Artwork file inventory changed; run a full build.')
+    for name, file in files.items():
+        if digest(file) != expected[name]:
+            raise ValueError(f'{name}: artwork input or output changed; run a full build.')
+
+
+def build_family(path, reuse_artwork=False):
     m = metadata(path)
+    if reuse_artwork:
+        verify_reusable_icon_artwork(path, m)
     font = load_source(path, m, encoded_only=m.get('font_export_glyphs') == 'encoded')
     for sub in ("fonts", "web", "specimens"):
         (path / sub).mkdir(exist_ok=True)
@@ -1293,7 +1347,7 @@ def build_family(path):
         '  font-style: normal;\n  font-weight: 400;\n  font-display: swap;\n}\n')
     stats = {"characters": len(font.getBestCmap()), "glyphs": len(font.getGlyphOrder())}
     if m.get("kind") == "icons":
-        readme = build_icons(path, m, font)
+        readme = build_icons(path, m, font, reuse_artwork=reuse_artwork)
     else:
         specimen(path, m)
         source_review(path, m)
@@ -1407,6 +1461,53 @@ def site_preview_outputs(collections):
     return {'site/social-preview.png': buffer.getvalue()}
 
 
+def site_favicon_outputs():
+    """Outline the registered Erebus/Hades FR so favicons need no font loading."""
+    from fontTools.pens.transformPen import TransformPen
+
+    palette = dict(re.findall(r'--(paper|red|muted):\s*(#[0-9a-fA-F]{6})',
+                              (ROOT / 'site/shared.css').read_text()))
+    layers = []
+    bounds = BoundsPen(None)
+    for family, colour in [('hades', 'muted'), ('erebus', 'red')]:
+        file = ROOT / 'collection' / f'{family}-1894' / 'fonts' / f'{family.title()}1894-Regular.otf'
+        if not file.exists():
+            return {}
+        with TTFont(file) as font:
+            glyphs, cmap = font.getGlyphSet(), font.getBestCmap()
+            pen = SVGPathPen(glyphs)
+            x, previous = 0, None
+            for character in 'FR':
+                name = cmap[ord(character)]
+                if previous and 'kern' in font:
+                    x += sum(table.kernTable.get((previous, name), 0)
+                             for table in font['kern'].kernTables if table.version == 0 and table.coverage & 1)
+                glyphs[name].draw(TransformPen(pen, (1, 0, 0, 1, x, 0)))
+                x += font['hmtx'][name][0]
+                previous = name
+            path = pen.getCommands()
+            parse_path(path, bounds)
+            layers.append((family, palette[colour], path))
+    x0, y0, x1, y1 = bounds.bounds
+    scale = min(56 / (x1 - x0), 56 / (y1 - y0))
+    ox, oy = 32 - scale * (x0 + x1) / 2, 32 + scale * (y0 + y1) / 2
+    paths = ''.join(f'<path data-font="{family}-1894" fill="{colour}" d="{path}"/>'
+                    for family, colour, path in layers)
+    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">\n'
+           f'<title>Font Revival</title><desc>FR in Erebus over Hades. {COPYRIGHT_NOTICE}; MIT.</desc>\n'
+           f'<rect width="64" height="64" rx="6" fill="{palette["paper"]}"/>\n'
+           f'<g transform="matrix({scale} 0 0 {-scale} {ox} {oy})">{paths}</g>\n</svg>\n')
+    raster = Image.new('RGBA', (256, 256))
+    ImageDraw.Draw(raster).rounded_rectangle((0, 0, 255, 255), radius=24, fill=palette['paper'])
+    from outline_raster import rasterize
+    for _, colour, path in layers:
+        raster.paste(colour, (0, 0), rasterize(path, 256, 256, scale * 4, (ox * 4, oy * 4)))
+    buffer = io.BytesIO()
+    raster.resize((64, 64), Image.Resampling.LANCZOS).save(
+        buffer, format='ICO', sizes=[(16, 16), (32, 32), (48, 48), (64, 64)])
+    return {'site/favicon.svg': svg, 'site/favicon.ico': buffer.getvalue()}
+
+
 def catalog_outputs():
     """Render the catalog without writes or a temporary copy of the collection."""
     entries, icon_collections = [], []
@@ -1441,13 +1542,12 @@ def catalog_outputs():
     brand_styles = [style for style in styles if any(f'font-family:"{family}"' in style
                    for family in ("quaint-gothic-1894", "erebus-1894", "hades-1894", "remington-1888"))]
     return ({"catalog.json": catalog, "index.html": template}
-            | site_ornament_outputs(icon_collections) | site_preview_outputs(icon_collections)
+            | site_ornament_outputs(icon_collections) | site_preview_outputs(icon_collections) | site_favicon_outputs()
             | icon_catalog_outputs(icon_collections, brand_styles))
 
 
-def icon_navigation(m, record, taxonomy):
-    """Keep navigation terms separate from permanent icon identities and outlines."""
-    category = taxonomy['collections'].get(m['id'], {}).get('type', 'cuts')
+def icon_specimen_sections(m, record, taxonomy):
+    """Resolve historical headings independently of shared browsing categories."""
     sections = []
     for section in taxonomy['sections']:
         if section['collection'] != m['id']:
@@ -1462,7 +1562,23 @@ def icon_navigation(m, record, taxonomy):
         if 'tags_any' in section and not set(record['tags']).intersection(section['tags_any']):
             continue
         sections.append(section)
-    return category, sections
+    return sections
+
+
+def icon_navigation(m, record, taxonomy):
+    """Match subjects across collections without changing source records or IDs."""
+    kind = taxonomy['collections'].get(m['id'], {}).get('type', 'cuts')
+    sections = icon_specimen_sections(m, record, taxonomy)
+    section_ids = {s['id'] for s in sections}
+    tags = set(record['tags'])
+    def matches(rule):
+        return (('types' not in rule or kind in rule['types'])
+                and ('sections' not in rule or section_ids.intersection(rule['sections']))
+                and ('icons' not in rule or record['id'] in rule['icons'])
+                and ('tags_any' not in rule or tags.intersection(rule['tags_any']))
+                and not tags.intersection(rule.get('tags_none', [])))
+    categories = [c for c in taxonomy['categories'] if any(matches(r) for r in c['selectors'])]
+    return kind, categories
 
 
 def icon_browse_fonts(collections):
@@ -1587,7 +1703,8 @@ def icon_catalog_outputs(collections, brand_styles=()):
                                   'source': m['sources'][r['source_index']]})
             title = html.escape(r['name'], quote=True)
             search = html.escape(' '.join([r['name'], *r['tags'], m['name'], taxonomy['types'][category],
-                                          *[s['label'] + ' ' + s['historical_heading'] for s in sections]]), quote=True)
+                                          *[s['label'] for s in sections],
+                                          *[s['historical_heading'] for s in icon_specimen_sections(m, r, taxonomy)]]), quote=True)
             section_ids = ' '.join(s['id'] for s in sections)
             tiles.append(f'<a class="icon-tile" href="{detail_path}" aria-label="{title}" data-id="{r["id"]}" data-search="{search}" data-collection="{m["id"]}" data-type="{category}" data-section="{section_ids}"{ " hidden" if len(icons) > 96 else ""}>{icon_font_span(m, r)}<span class="tile-name" aria-hidden="true">{title}</span></a>')
             detail = detail_template
@@ -1608,7 +1725,7 @@ def icon_catalog_outputs(collections, brand_styles=()):
     section_options = options('section', [(s['id'], s['label']) for s in sorted(sections_used.values(), key=lambda s: s['label'].lower())])
     filters = f'''<fieldset><legend>Type</legend><div class="filter-options">{type_options}</div></fieldset>
 <details open><summary>Collection</summary><fieldset><legend class="sr-only">Collection</legend><div class="filter-options">{collection_options}</div></fieldset></details>
-<details><summary>Specimen sections</summary><label class="sr-only" for="section-search">Find a specimen section</label><input class="section-search" id="section-search" type="search" placeholder="Find a section" autocomplete="off"><fieldset><legend class="sr-only">Specimen sections</legend><div class="filter-options section-options">{section_options}</div></fieldset></details>'''
+<details><summary>Categories</summary><label class="sr-only" for="section-search">Find a category</label><input class="section-search" id="section-search" type="search" placeholder="Find a category" autocomplete="off"><fieldset><legend class="sr-only">Categories</legend><div class="filter-options section-options">{section_options}</div></fieldset></details>'''
     first = next(((m, r) for m, records in collections for r in records), None)
     hero = f'<span class="hero-face">{icon_font_span(*first)}</span>' if first else ''
     template = (ROOT / 'site/icons.template.html').read_text()
@@ -1619,7 +1736,7 @@ def icon_catalog_outputs(collections, brand_styles=()):
     return outputs | {'icons.html': template,
                       'icons.json': json.dumps({'schema_version': 1, 'collections': [m for m, _ in collections],
                                                 'types': taxonomy['types'],
-                                                'sections': [{k: s[k] for k in ('id', 'label', 'historical_heading', 'collection', 'printed_pages', 'pdf_pages') if k in s} for s in sections_used.values()],
+                                                'sections': [{k: s[k] for k in ('id', 'label')} for s in sections_used.values()],
                                                 'icons': icons}, indent=2, ensure_ascii=False) + '\n'}
 
 
@@ -1839,6 +1956,18 @@ def validate_family(path):
             expected = shape
             glyph_set = font.getGlyphSet()
             for cp, glyph in cmap.items():
+                if 'glyf' in font:
+                    drawing = font['glyf'][glyph]
+                    coordinates, contours, _ = drawing.getCoordinates(font['glyf'])
+                    if len(coordinates) > MAX_TRUETYPE_POINTS:
+                        raise ValueError(f'{file}: {glyph} exceeds the compatible TrueType point limit.')
+                    if len(contours) >= 4095:
+                        raise ValueError(f'{file}: {glyph} exceeds the font renderer contour limit.')
+                else:
+                    counter = CFFPointPen()
+                    glyph_set[glyph].draw(counter)
+                    if counter.points > MAX_RENDERER_POINTS:
+                        raise ValueError(f'{file}: {glyph} exceeds the compatible CFF point limit.')
                 bounds = BoundsPen(glyph_set, ignoreSinglePoints=True); glyph_set[glyph].draw(bounds)
                 if bounds.bounds is None and not chr(cp).isspace() and cp not in (0, 13, 0x200b, 0x200c, 0x200d, 0xfeff):
                     raise ValueError(f"{file}: empty visible character U+{cp:04X}.")
@@ -1857,7 +1986,7 @@ def validate_family(path):
     print(f"Validated {path.name}: formats, coverage, outlines, sizing, licensing and checksums")
 
 
-def check(slug=None):
+def check(slug=None, reuse_artwork=False):
     selected = families(slug)
     for path in selected:
         validate_family(path)
@@ -1867,7 +1996,7 @@ def check(slug=None):
         for path in selected:
             clone = Path(temp) / path.name
             shutil.copytree(path, clone, ignore=shutil.ignore_patterns('__pycache__', '*.pyc', '*.pyo'))
-            build_family(clone)
+            build_family(clone, reuse_artwork=reuse_artwork)
             original = {p.relative_to(path): digest(p) for p in family_files(path)}
             rebuilt = {p.relative_to(clone): digest(p) for p in family_files(clone)}
             differences = sorted(str(p) for p in original.keys() | rebuilt.keys() if original.get(p) != rebuilt.get(p))
@@ -1878,7 +2007,8 @@ def check(slug=None):
     for file, content in catalog_outputs().items():
         if (ROOT / file).read_bytes() != output_bytes(content):
             raise ValueError(f"{file} is stale. Run build.")
-    print("Rebuild matches every committed output.")
+    print("Rebuild matches every committed output." +
+          (" Unchanged icon artwork was verified by checksum and reused." if reuse_artwork else ""))
 
 
 def new_family(args):
@@ -1995,6 +2125,9 @@ def main():
     for command in ("build", "check", "package"):
         sub = commands.add_parser(command)
         sub.add_argument("id", nargs="?")
+        if command != 'package':
+            sub.add_argument('--reuse-artwork', action='store_true',
+                             help='For font-only icon revisions: verify and reuse unchanged SVG/PNG artwork')
     sub = commands.add_parser("sizecheck", help="Audit source glyph sizes and enforce reviewed family limits")
     sub.add_argument("id", nargs="?")
     sub.add_argument("--json", action="store_true", help="Print all measurements and findings as JSON")
@@ -2013,9 +2146,9 @@ def main():
     try:
         if args.command == "build":
             for path in families(args.id):
-                build_family(path)
+                build_family(path, reuse_artwork=args.reuse_artwork)
             build_catalog()
-        elif args.command == "check": check(args.id)
+        elif args.command == "check": check(args.id, reuse_artwork=args.reuse_artwork)
         elif args.command == "sizecheck": sizecheck(args.id, args.json, args.strict)
         elif args.command == "package": package(args.id)
         elif args.command == "new": new_family(args)

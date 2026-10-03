@@ -1,6 +1,6 @@
 """Prepare reviewed downloadable-font approximations of oversized CFF engravings.
 
-Run from the repository root with FAMILY MASTER.otf --potrace PATH. This optional
+Run from the repository root with FAMILY [MASTER.otf] --potrace PATH. This optional
 authoring step uses Cairo 1.18.0 and Potrace 1.16. Normal builds only read the
 resulting editable JSON paths; the master and SVG keep the canonical CFF outlines.
 """
@@ -41,19 +41,30 @@ def compact_path(svg):
     return pen.getCommands()
 
 
-def prepare(family, source, potrace):
+def prepare(family, source, potrace, names=None):
     tracing.require_potrace(potrace)
     folder = family / 'source/truetype-glyphs'
     folder.mkdir(exist_ok=True)
-    font = TTFont(source, recalcTimestamp=False)
+    if source:
+        font = TTFont(source, recalcTimestamp=False)
+    else:
+        fontrevival.metadata(family)
+        font = TTFont(recalcTimestamp=False)
+        font.importXML(family / 'source/font.ttx')
+        selected = set(names) if names else set(font.getBestCmap().values()) | {'.notdef'}
+        # Preparation only reads outlines and frame metrics. Name/version and
+        # global clipping normalization belong to the subsequent release build.
+        fontrevival.apply_glyphs(font, family / 'source/glyphs', names=selected)
     glyphs = font.getGlyphSet()
     order = font.getGlyphOrder()
     upm, ascent = font['head'].unitsPerEm, font['hhea'].ascent
     settings_file = family / 'source/truetype-settings.json'
     settings = json.loads(settings_file.read_text()) if settings_file.exists() else {}
     encoded = set(font.getBestCmap().values()) | {'.notdef'}
+    if names and set(names) - encoded:
+        raise ValueError('Selected glyphs must be encoded monochrome drawings.')
     for index, name in enumerate(order):
-        if name not in encoded:
+        if name not in encoded or names and name not in names:
             continue
         svg = SVGPathPen(glyphs); glyphs[name].draw(svg)
         original = svg.getCommands()
@@ -70,18 +81,20 @@ def prepare(family, source, potrace):
                     cached['approximate_quadratic_points'], cached['approximate_contours'] = outline_counts(cached['path'])
                     fontrevival.write_json(output, cached)
                 if (cached.get('approximate_contours', 65535) <= 4000
-                        and fontrevival.cff_point_count(cached['path']) <= 65535):
+                        and outline_counts(cached['path'])[0] <= fontrevival.MAX_TRUETYPE_POINTS
+                        and fontrevival.cff_point_count(cached['path']) <= fontrevival.MAX_RENDERER_POINTS):
                     continue
         count, contours = outline_counts(original)
         cubic_count = fontrevival.cff_point_count(original)
-        if count <= 65535 and contours < 4095 and cubic_count <= 65535:
+        if count <= fontrevival.MAX_TRUETYPE_POINTS and contours < 4095 and cubic_count <= fontrevival.MAX_RENDERER_POINTS:
             continue
         print('Preparing', name, count, 'points', flush=True)
         bounds = BoundsPen(None); parse_path(original, bounds)
         advance = font['hmtx'][name][0]
         candidates = ([(1536, 4, 1.2), (1536, 6, 1.6), (1536, 8, 2), (1536, 10, 2.5),
-                       (1280, 8, 2), (1024, 8, 2)] if method == 'coverage-screen' else
-                      [(size, None, None) for size in (1536, 1280, 1024, 896, 768, 640, 512)])
+                       (1280, 8, 2), (1024, 8, 2), (896, 8, 2), (768, 8, 2),
+                       (640, 8, 2), (512, 8, 2)] if method == 'coverage-screen' else
+                      [(size, None, None) for size in (1536, 1280, 1024, 896, 768, 640, 512, 448, 384, 320, 256)])
         for size, period, blur in candidates:
             scale, padding = size / upm, 8
             mask = rasterize(original, math.ceil(advance * scale) + 2 * padding,
@@ -101,7 +114,7 @@ def prepare(family, source, potrace):
             drawing = compact_path(path.getCommands())
             reduced, reduced_contours = outline_counts(drawing)
             reduced_cubic = fontrevival.cff_point_count(drawing)
-            if reduced <= 60000 and reduced_contours <= 4000 and reduced_cubic <= 60000:
+            if reduced <= 32000 and reduced_contours <= 4000 and reduced_cubic <= 32000:
                 measured = BoundsPen(None); parse_path(drawing, measured)
                 delta = math.ceil(max(abs(a - b) for a, b in zip(bounds.bounds, measured.bounds))) + 2
                 if delta > 64:
@@ -134,7 +147,9 @@ def prepare(family, source, potrace):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('family'); parser.add_argument('source', type=Path)
+    parser.add_argument('family'); parser.add_argument('source', type=Path, nargs='?',
+                        help='Optional prepared OTF; otherwise use the current editable master and glyph edits')
     parser.add_argument('--potrace', default='potrace')
+    parser.add_argument('--glyph', nargs='+', help='Prepare only these encoded glyph names')
     args = parser.parse_args()
-    prepare(ROOT / 'collection' / args.family, args.source, args.potrace)
+    prepare(ROOT / 'collection' / args.family, args.source, args.potrace, args.glyph)

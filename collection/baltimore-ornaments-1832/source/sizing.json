@@ -24,21 +24,21 @@
         1928,
         1928
       ],
-      "notes": "Draped card border with cherub: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Draped card border with cherub: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         283,
-        287
+        288
       ],
       "y_max": [
-        1490,
+        1489,
         1494
       ],
       "ink_width": [
-        1766,
-        1770
+        1765,
+        1771
       ],
       "ink_height": [
-        1205,
+        1204,
         1209
       ]
     },
@@ -48,21 +48,21 @@
         1928,
         1928
       ],
-      "notes": "Leaf-cornered rectangular card border: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "notes": "Leaf-cornered rectangular card border: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         311,
-        315
+        317
       ],
       "y_max": [
-        1501,
+        1499,
         1505
       ],
       "ink_width": [
-        1799,
+        1797,
         1806
       ],
       "ink_height": [
-        1188,
+        1184,
         1192
       ]
     },
@@ -72,21 +72,21 @@
         1928,
         1928
       ],
-      "notes": "Scroll-cornered rectangular card border: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Scroll-cornered rectangular card border: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         267,
-        271
+        272
       ],
       "y_max": [
-        1501,
+        1500,
         1505
       ],
       "ink_width": [
-        1787,
+        1784,
         1791
       ],
       "ink_height": [
-        1232,
+        1231,
         1236
       ]
     },
@@ -96,10 +96,10 @@
         1928,
         1928
       ],
-      "notes": "Tree and branch card border: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Tree and branch card border: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         332,
-        337
+        338
       ],
       "y_max": [
         1458,
@@ -107,10 +107,10 @@
       ],
       "ink_width": [
         1776,
-        1781
+        1782
       ],
       "ink_height": [
-        1123,
+        1122,
         1128
       ]
     },
@@ -3168,13 +3168,13 @@
         1928,
         1928
       ],
-      "notes": "Four Line Pica border 1, composed strip: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "notes": "Four Line Pica border 1, composed strip: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         781,
-        786
+        787
       ],
       "y_max": [
-        1020,
+        1019,
         1024
       ],
       "ink_width": [
@@ -3182,7 +3182,7 @@
         1794
       ],
       "ink_height": [
-        236,
+        235,
         241
       ]
     },
@@ -3240,21 +3240,21 @@
         1928,
         1928
       ],
-      "notes": "Four Line Pica border 4, composed strip: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "notes": "Four Line Pica border 4, composed strip: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         698,
-        703
+        705
       ],
       "y_max": [
-        1103,
+        1092,
         1107
       ],
       "ink_width": [
-        1783,
+        1782,
         1797
       ],
       "ink_height": [
-        402,
+        390,
         407
       ]
     },
@@ -3264,21 +3264,21 @@
         1928,
         1928
       ],
-      "notes": "Four Line Pica border 5, composed strip: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "notes": "Four Line Pica border 5, composed strip: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         762,
-        766
+        782
       ],
       "y_max": [
-        1001,
+        1000,
         1005
       ],
       "ink_width": [
-        1796,
-        1800
+        1795,
+        1801
       ],
       "ink_height": [
-        237,
+        220,
         241
       ]
     },
@@ -3288,17 +3288,17 @@
         1928,
         1928
       ],
-      "notes": "Four Line Pica border 6, composed strip: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "notes": "Four Line Pica border 6, composed strip: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         788,
-        792
+        793
       ],
       "y_max": [
         1018,
-        1022
+        1023
       ],
       "ink_width": [
-        1795,
+        1794,
         1799
       ],
       "ink_height": [
@@ -3384,22 +3384,22 @@
         1928,
         1928
       ],
-      "notes": "Four Line Pica border 10, composed strip: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Four Line Pica border 10, composed strip: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         815,
-        819
+        820
       ],
       "y_max": [
-        984,
-        988
+        983,
+        989
       ],
       "ink_width": [
-        1790,
+        1788,
         1794
       ],
       "ink_height": [
-        167,
-        171
+        166,
+        172
       ]
     },
     {
@@ -3408,21 +3408,21 @@
         1928,
         1928
       ],
-      "notes": "Four Line Pica border 11, composed strip: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Four Line Pica border 11, composed strip: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         803,
-        807
+        808
       ],
       "y_max": [
         983,
-        987
+        988
       ],
       "ink_width": [
-        1797,
+        1796,
         1801
       ],
       "ink_height": [
-        178,
+        177,
         182
       ]
     },
@@ -3432,21 +3432,21 @@
         1928,
         1928
       ],
-      "notes": "Four Line Pica border 12, composed strip: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Four Line Pica border 12, composed strip: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        813,
+        812,
         817
       ],
       "y_max": [
-        988,
+        987,
         992
       ],
       "ink_width": [
-        1798,
+        1797,
         1802
       ],
       "ink_height": [
-        173,
+        172,
         177
       ]
     },
@@ -3480,21 +3480,21 @@
         1928,
         1928
       ],
-      "notes": "Five Line Pica border 1, composed strip: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Five Line Pica border 1, composed strip: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         778,
-        782
+        783
       ],
       "y_max": [
-        1017,
+        1016,
         1021
       ],
       "ink_width": [
-        1796,
+        1795,
         1800
       ],
       "ink_height": [
-        237,
+        235,
         241
       ]
     },
@@ -3504,21 +3504,21 @@
         1928,
         1928
       ],
-      "notes": "Five Line Pica border 2, composed strip: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "notes": "Five Line Pica border 2, composed strip: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         766,
-        770
+        795
       ],
       "y_max": [
-        1021,
+        1020,
         1025
       ],
       "ink_width": [
         1784,
-        1788
+        1789
       ],
       "ink_height": [
-        253,
+        227,
         257
       ]
     },
@@ -3528,21 +3528,21 @@
         1928,
         1928
       ],
-      "notes": "Five Line Pica border 3, composed strip: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "notes": "Five Line Pica border 3, composed strip: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         755,
-        759
+        791
       ],
       "y_max": [
-        1041,
+        1020,
         1045
       ],
       "ink_width": [
-        1797,
+        1796,
         1801
       ],
       "ink_height": [
-        284,
+        231,
         288
       ]
     },
@@ -3576,21 +3576,21 @@
         1928,
         1928
       ],
-      "notes": "Six Line Pica border 2, composed strip: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Six Line Pica border 2, composed strip: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         755,
-        759
+        760
       ],
       "y_max": [
-        1039,
+        1038,
         1043
       ],
       "ink_width": [
         1791,
-        1795
+        1796
       ],
       "ink_height": [
-        282,
+        281,
         286
       ]
     },
@@ -3600,21 +3600,21 @@
         1928,
         1928
       ],
-      "notes": "Six Line Pica border 3, composed strip: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Six Line Pica border 3, composed strip: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        754,
+        753,
         758
       ],
       "y_max": [
-        1042,
+        1034,
         1046
       ],
       "ink_width": [
-        1797,
+        1761,
         1801
       ],
       "ink_height": [
-        286,
+        278,
         290
       ]
     },
@@ -3624,22 +3624,22 @@
         1928,
         1928
       ],
-      "notes": "Double English border 1, composed strip: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "notes": "Double English border 1, composed strip: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         847,
-        851
+        852
       ],
       "y_max": [
         956,
-        960
+        961
       ],
       "ink_width": [
-        1797,
+        1796,
         1801
       ],
       "ink_height": [
         107,
-        111
+        112
       ]
     },
     {
@@ -3720,21 +3720,21 @@
         1928,
         1928
       ],
-      "notes": "Double English border 5, composed strip: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Double English border 5, composed strip: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         799,
-        803
+        804
       ],
       "y_max": [
-        1005,
+        999,
         1009
       ],
       "ink_width": [
         1791,
-        1795
+        1796
       ],
       "ink_height": [
-        204,
+        198,
         208
       ]
     },
@@ -4296,21 +4296,21 @@
         1928,
         1928
       ],
-      "notes": "Double Great Primer border 1, composed strip: source aspect ratio, uniform scaling and original advance retained. Range also includes omission of invisible isolated points during TrueType conversion. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "notes": "Double Great Primer border 1, composed strip: source aspect ratio, uniform scaling and original advance retained. Range also includes omission of invisible isolated points during TrueType conversion. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         821,
-        832
+        833
       ],
       "y_max": [
-        984,
+        983,
         988
       ],
       "ink_width": [
-        1798,
+        1797,
         1802
       ],
       "ink_height": [
-        154,
+        152,
         165
       ]
     },

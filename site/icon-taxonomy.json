@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "notes": "Navigation labels transcribed or shortened from retained Boston and Baltimore specimen plates. Baltimore is unpaginated: pdf_pages are one-based scan positions, not invented printed numbers. Subject groupings are editorial and retain the enclosing historical heading. IDs and codepoints are permanent.",
+  "schema_version": 2,
+  "notes": "Categories describe subjects and uses across collections. Selectors combine historical section membership, reviewed icon IDs and subject tags; fields within one selector combine with AND, selectors with OR. Historical sections remain separate evidence and searchable context, not browsing categories. Baltimore pdf_pages are one-based scan positions; Boston printed_pages are printed folios. IDs and codepoints are permanent.",
   "types": {
     "cuts": "Cuts",
     "ornaments": "Ornaments",
@@ -1730,6 +1730,1637 @@
       "collection": "baltimore-symbols-1832",
       "pdf_pages": [
         183
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "pointing-hands-solid",
+      "label": "Pointing hands, solid",
+      "selectors": [
+        {
+          "sections": [
+            "pointing-hands-solid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "five-pointed-stars",
+      "label": "Five-pointed stars",
+      "selectors": [
+        {
+          "sections": [
+            "five-pointed-stars"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pointing-hands-outlined",
+      "label": "Pointing hands, outlined",
+      "selectors": [
+        {
+          "sections": [
+            "pointing-hands-outlined"
+          ]
+        },
+        {
+          "icons": [
+            "baltimore-1832-p127-61",
+            "baltimore-1832-p127-64",
+            "baltimore-1832-p139-116",
+            "baltimore-1832-p139-121"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astronomical-signs",
+      "label": "Sun, moon and astronomical signs",
+      "selectors": [
+        {
+          "sections": [
+            "astronomical-signs"
+          ]
+        },
+        {
+          "tags_any": [
+            "sun",
+            "moon"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prescription-signs",
+      "label": "Prescription signs",
+      "selectors": [
+        {
+          "sections": [
+            "prescription-signs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metal-blanks",
+      "label": "Metal blanks",
+      "selectors": [
+        {
+          "sections": [
+            "metal-blanks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "card-suits",
+      "label": "Card suits",
+      "selectors": [
+        {
+          "sections": [
+            "card-suits"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "check-ornaments",
+      "label": "Check ornaments",
+      "selectors": [
+        {
+          "sections": [
+            "check-ornaments"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "society-emblems",
+      "label": "Society emblems",
+      "selectors": [
+        {
+          "sections": [
+            "society-emblems"
+          ]
+        },
+        {
+          "tags_any": [
+            "masonic",
+            "freemasonry",
+            "fraternal"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "american-flags-and-eagles",
+      "label": "American flags and eagles",
+      "selectors": [
+        {
+          "sections": [
+            "american-flags-and-eagles"
+          ]
+        },
+        {
+          "tags_any": [
+            "eagle",
+            "america"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "musical-instruments",
+      "label": "Musical instruments",
+      "selectors": [
+        {
+          "sections": [
+            "musical-instruments"
+          ]
+        },
+        {
+          "tags_any": [
+            "music",
+            "musical",
+            "lyre",
+            "harp",
+            "violin",
+            "piano",
+            "drum",
+            "trumpeter"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dancing-skating-and-masquerade",
+      "label": "Dancing, skating and masquerade",
+      "selectors": [
+        {
+          "sections": [
+            "dancing-skating-and-masquerade"
+          ]
+        },
+        {
+          "tags_any": [
+            "skating",
+            "theatrical",
+            "masquerade",
+            "dancing"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seals",
+      "label": "Seals",
+      "selectors": [
+        {
+          "sections": [
+            "seals"
+          ]
+        },
+        {
+          "tags_any": [
+            "seal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liquor-merchants-and-saloons",
+      "label": "Liquor merchants and saloons",
+      "selectors": [
+        {
+          "sections": [
+            "liquor-merchants-and-saloons"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ships-steamers-and-yachts",
+      "label": "Ships and boats",
+      "selectors": [
+        {
+          "sections": [
+            "ships-steamers-and-yachts"
+          ]
+        },
+        {
+          "tags_any": [
+            "ship",
+            "ships",
+            "boat",
+            "sailboat",
+            "vessel",
+            "nautical",
+            "sailor",
+            "anchor",
+            "oars"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steamboats",
+      "label": "Steamboats",
+      "selectors": [
+        {
+          "sections": [
+            "steamboats"
+          ]
+        },
+        {
+          "tags_any": [
+            "steamboat"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chickens-and-turkeys",
+      "label": "Poultry",
+      "selectors": [
+        {
+          "sections": [
+            "chickens-and-turkeys"
+          ]
+        },
+        {
+          "tags_any": [
+            "chicken",
+            "chickens",
+            "turkey",
+            "hen",
+            "rooster",
+            "duck"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "horses-and-mules",
+      "label": "Horses, mules and donkeys",
+      "selectors": [
+        {
+          "sections": [
+            "horses-and-mules"
+          ]
+        },
+        {
+          "tags_any": [
+            "horse",
+            "horses",
+            "donkey",
+            "mule",
+            "saddle"
+          ],
+          "types": [
+            "cuts"
+          ],
+          "tags_none": [
+            "chess"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cattle-sheep-and-swine",
+      "label": "Cattle, sheep, pigs and goats",
+      "selectors": [
+        {
+          "sections": [
+            "cattle-sheep-and-swine"
+          ]
+        },
+        {
+          "tags_any": [
+            "cattle",
+            "cow",
+            "bull",
+            "ox",
+            "sheep",
+            "lamb",
+            "pig",
+            "swine",
+            "goat"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cattle-brand-cuts",
+      "label": "Cattle brand cuts",
+      "selectors": [
+        {
+          "sections": [
+            "cattle-brand-cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dogs",
+      "label": "Dogs",
+      "selectors": [
+        {
+          "sections": [
+            "dogs"
+          ]
+        },
+        {
+          "tags_any": [
+            "dog",
+            "canine"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oysters-and-fish",
+      "label": "Fish and sea life",
+      "selectors": [
+        {
+          "sections": [
+            "oysters-and-fish"
+          ]
+        },
+        {
+          "tags_any": [
+            "fish",
+            "oyster",
+            "oysters",
+            "whale",
+            "walrus"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fruit",
+      "label": "Fruit",
+      "selectors": [
+        {
+          "sections": [
+            "fruit"
+          ]
+        },
+        {
+          "tags_any": [
+            "fruit",
+            "pineapple"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hats-caps-boots-and-shoes",
+      "label": "Hats, caps, boots and shoes",
+      "selectors": [
+        {
+          "sections": [
+            "hats-caps-boots-and-shoes"
+          ]
+        },
+        {
+          "tags_any": [
+            "hat",
+            "hats",
+            "boot",
+            "boots",
+            "shoe",
+            "shoes",
+            "cap"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clocks-and-watches",
+      "label": "Clocks and watches",
+      "selectors": [
+        {
+          "sections": [
+            "clocks-and-watches"
+          ]
+        },
+        {
+          "tags_any": [
+            "watch",
+            "clock",
+            "hourglass"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opticians-and-dentists",
+      "label": "Opticians and dentists",
+      "selectors": [
+        {
+          "sections": [
+            "opticians-and-dentists"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "druggists",
+      "label": "Pharmacy",
+      "selectors": [
+        {
+          "sections": [
+            "druggists"
+          ]
+        },
+        {
+          "tags_any": [
+            "pharmacy",
+            "medicine",
+            "drugs",
+            "mortar"
+          ],
+          "types": [
+            "cuts"
+          ]
+        },
+        {
+          "icons": [
+            "baltimore-1832-p129-73"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trunks-and-safes",
+      "label": "Trunks and safes",
+      "selectors": [
+        {
+          "sections": [
+            "trunks-and-safes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carriages-and-wagons",
+      "label": "Carriages and wagons",
+      "selectors": [
+        {
+          "sections": [
+            "carriages-and-wagons"
+          ]
+        },
+        {
+          "tags_any": [
+            "carriage",
+            "cart",
+            "coach",
+            "stagecoach",
+            "chariot",
+            "wagon"
+          ],
+          "types": [
+            "cuts"
+          ],
+          "tags_none": [
+            "railway",
+            "train"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "locomotives-and-railway-cars",
+      "label": "Locomotives and railway cars",
+      "selectors": [
+        {
+          "sections": [
+            "locomotives-and-railway-cars"
+          ]
+        },
+        {
+          "tags_any": [
+            "locomotive",
+            "train",
+            "railway"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "real-estate",
+      "label": "Buildings and houses",
+      "selectors": [
+        {
+          "sections": [
+            "real-estate"
+          ]
+        },
+        {
+          "tags_any": [
+            "house",
+            "houses",
+            "building",
+            "buildings",
+            "barn",
+            "farmhouse"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "signal-service-signs",
+      "label": "Signal service signs",
+      "selectors": [
+        {
+          "sections": [
+            "signal-service-signs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "checkers",
+      "label": "Checkers",
+      "selectors": [
+        {
+          "sections": [
+            "checkers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chessmen",
+      "label": "Chessmen",
+      "selectors": [
+        {
+          "sections": [
+            "chessmen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chancellor-chessmen",
+      "label": "Chancellor chessmen",
+      "selectors": [
+        {
+          "sections": [
+            "chancellor-chessmen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bill-head-and-check-cuts",
+      "label": "Bill-head and check cuts",
+      "selectors": [
+        {
+          "sections": [
+            "bill-head-and-check-cuts"
+          ]
+        },
+        {
+          "tags_any": [
+            "register",
+            "label",
+            "number",
+            "auction",
+            "shipped",
+            "lottery"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "holiday-cuts",
+      "label": "Holiday cuts",
+      "selectors": [
+        {
+          "sections": [
+            "holiday-cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-initials",
+      "label": "Decorated initials",
+      "selectors": [
+        {
+          "types": [
+            "initials"
+          ],
+          "tags_any": [
+            "initial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "letter-combinations",
+      "label": "Letter combinations",
+      "selectors": [
+        {
+          "sections": [
+            "letter-combinations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "word-pieces",
+      "label": "Word pieces",
+      "selectors": [
+        {
+          "sections": [
+            "word-pieces"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fancy-word-ornaments",
+      "label": "Fancy word ornaments",
+      "selectors": [
+        {
+          "sections": [
+            "fancy-word-ornaments"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combination-ornaments",
+      "label": "Combination ornaments",
+      "selectors": [
+        {
+          "sections": [
+            "combination-ornaments"
+          ]
+        },
+        {
+          "tags_any": [
+            "combination"
+          ],
+          "types": [
+            "initials",
+            "ornaments"
+          ]
+        },
+        {
+          "sections": [
+            "letter-combinations"
+          ]
+        },
+        {
+          "tags_any": [
+            "tile",
+            "flourish"
+          ],
+          "types": [
+            "initials"
+          ],
+          "tags_none": [
+            "initial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "floriated-border",
+      "label": "Floral borders",
+      "selectors": [
+        {
+          "sections": [
+            "floriated-border"
+          ]
+        },
+        {
+          "tags_any": [
+            "flower",
+            "floral",
+            "leaf",
+            "leaves",
+            "acanthus"
+          ],
+          "types": [
+            "ornaments"
+          ],
+          "sections": [
+            "floriated-border",
+            "18-point-borders",
+            "12-point-borders",
+            "six-point-borders",
+            "border-specimens",
+            "baltimore-title",
+            "baltimore-four-line-pica",
+            "baltimore-five-line-pica",
+            "baltimore-six-line-pica",
+            "baltimore-double-english",
+            "baltimore-paragon",
+            "baltimore-double-small-pica",
+            "baltimore-great-primer",
+            "baltimore-double-great-primer",
+            "baltimore-nonpareil",
+            "baltimore-small-pica",
+            "baltimore-long-primer",
+            "baltimore-brevier",
+            "baltimore-minion",
+            "baltimore-english",
+            "baltimore-pica",
+            "baltimore-heading-dash",
+            "baltimore-card-borders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ornamental-corners",
+      "label": "Ornamental corners",
+      "selectors": [
+        {
+          "sections": [
+            "ornamental-corners"
+          ]
+        },
+        {
+          "tags_any": [
+            "corner",
+            "corners"
+          ],
+          "types": [
+            "ornaments"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scroll-corners",
+      "label": "Scroll corners",
+      "selectors": [
+        {
+          "sections": [
+            "scroll-corners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pin-nail-and-screw-heads",
+      "label": "Pin, nail and screw heads",
+      "selectors": [
+        {
+          "sections": [
+            "pin-nail-and-screw-heads"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ornamental-metal-dashes",
+      "label": "Dashes and rules",
+      "selectors": [
+        {
+          "sections": [
+            "ornamental-metal-dashes"
+          ]
+        },
+        {
+          "tags_any": [
+            "dash",
+            "divider",
+            "rule",
+            "rules"
+          ],
+          "types": [
+            "ornaments",
+            "initials"
+          ]
+        },
+        {
+          "sections": [
+            "baltimore-ruled-fields"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astronomical-symbols",
+      "label": "Astronomical symbols",
+      "selectors": [
+        {
+          "sections": [
+            "astronomical-symbols"
+          ]
+        },
+        {
+          "icons": [
+            "boston-1889-p255-6pt-17",
+            "boston-1889-p255-6pt-26",
+            "boston-1889-p255-6pt-27",
+            "boston-1889-p255-6pt-32",
+            "boston-1889-p255-6pt-33",
+            "boston-1889-p255-6pt-34",
+            "boston-1889-p255-6pt-35",
+            "boston-1889-p255-7pt-17",
+            "boston-1889-p255-7pt-26",
+            "boston-1889-p255-7pt-27",
+            "boston-1889-p255-7pt-32",
+            "boston-1889-p255-7pt-33",
+            "boston-1889-p255-7pt-34",
+            "boston-1889-p255-7pt-35",
+            "boston-1889-p255-8pt-14",
+            "boston-1889-p255-8pt-15",
+            "boston-1889-p255-8pt-28",
+            "boston-1889-p255-8pt-29",
+            "boston-1889-p255-8pt-33",
+            "boston-1889-p255-8pt-34",
+            "boston-1889-p255-9pt-17",
+            "boston-1889-p255-9pt-19",
+            "boston-1889-p255-9pt-21",
+            "boston-1889-p255-9pt-26",
+            "boston-1889-p255-9pt-27",
+            "boston-1889-p255-9pt-33",
+            "boston-1889-p255-9pt-34",
+            "boston-1889-p255-9pt-36",
+            "boston-1889-p255-9pt-37",
+            "boston-1889-p255-9pt-38",
+            "boston-1889-p255-10pt-26",
+            "boston-1889-p255-10pt-27",
+            "boston-1889-p255-10pt-28",
+            "boston-1889-p255-10pt-31",
+            "boston-1889-p255-10pt-33",
+            "boston-1889-p255-10pt-35",
+            "boston-1889-p255-10pt-36",
+            "boston-1889-p255-10pt-37",
+            "boston-1889-p255-11pt-25",
+            "boston-1889-p255-11pt-27",
+            "boston-1889-p255-11pt-28",
+            "boston-1889-p255-11pt-29",
+            "boston-1889-p255-11pt-30"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "algebraic-symbols",
+      "label": "Algebraic symbols",
+      "selectors": [
+        {
+          "sections": [
+            "algebraic-symbols"
+          ]
+        },
+        {
+          "icons": [
+            "boston-1889-p255-6pt-47",
+            "boston-1889-p255-6pt-48",
+            "boston-1889-p255-7pt-46",
+            "boston-1889-p255-8pt-44",
+            "boston-1889-p255-9pt-47",
+            "boston-1889-p255-10pt-49",
+            "boston-1889-p255-11pt-39"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commercial-symbols",
+      "label": "Commercial symbols",
+      "selectors": [
+        {
+          "sections": [
+            "commercial-symbols"
+          ]
+        },
+        {
+          "icons": [
+            "boston-1889-p255-6pt-56",
+            "boston-1889-p255-6pt-59",
+            "boston-1889-p255-6pt-61",
+            "boston-1889-p255-7pt-59",
+            "boston-1889-p255-7pt-60",
+            "boston-1889-p255-7pt-61",
+            "boston-1889-p255-8pt-56",
+            "boston-1889-p255-8pt-58",
+            "boston-1889-p255-8pt-59",
+            "boston-1889-p255-9pt-56",
+            "boston-1889-p255-9pt-57",
+            "boston-1889-p255-10pt-62",
+            "boston-1889-p255-10pt-63",
+            "boston-1889-p255-10pt-64",
+            "boston-1889-p255-10pt-65",
+            "boston-1889-p255-11pt-51",
+            "boston-1889-p255-11pt-52",
+            "boston-1889-p255-12pt-1",
+            "boston-1889-p255-12pt-7",
+            "boston-1889-p255-18pt-1",
+            "boston-1889-p255-18pt-2",
+            "boston-1889-p255-commercial5-6",
+            "boston-1889-p255-commercial5half-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medical-symbols",
+      "label": "Medical symbols",
+      "selectors": [
+        {
+          "sections": [
+            "medical-symbols"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometric-symbols",
+      "label": "Geometric symbols",
+      "selectors": [
+        {
+          "sections": [
+            "geometric-symbols"
+          ]
+        },
+        {
+          "icons": [
+            "boston-1889-p255-6pt-23",
+            "boston-1889-p255-6pt-24",
+            "boston-1889-p255-6pt-29",
+            "boston-1889-p255-6pt-57",
+            "boston-1889-p255-7pt-23",
+            "boston-1889-p255-7pt-24",
+            "boston-1889-p255-7pt-29",
+            "boston-1889-p255-7pt-43",
+            "boston-1889-p255-7pt-57",
+            "boston-1889-p255-8pt-25",
+            "boston-1889-p255-8pt-26",
+            "boston-1889-p255-8pt-42",
+            "boston-1889-p255-8pt-54",
+            "boston-1889-p255-9pt-23",
+            "boston-1889-p255-9pt-25",
+            "boston-1889-p255-9pt-29",
+            "boston-1889-p255-9pt-52",
+            "boston-1889-p255-10pt-23",
+            "boston-1889-p255-10pt-25",
+            "boston-1889-p255-10pt-30",
+            "boston-1889-p255-10pt-71",
+            "boston-1889-p255-11pt-22",
+            "boston-1889-p255-11pt-23",
+            "boston-1889-p255-11pt-38",
+            "boston-1889-p255-11pt-42",
+            "boston-1889-p255-11pt-44",
+            "boston-1889-p255-11pt-45",
+            "boston-1889-p255-commercial5-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crochet-signs",
+      "label": "Crochet signs",
+      "selectors": [
+        {
+          "sections": [
+            "crochet-signs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maps-and-diagrams",
+      "label": "Maps and diagrams",
+      "selectors": [
+        {
+          "sections": [
+            "maps-and-diagrams"
+          ]
+        },
+        {
+          "tags_any": [
+            "globe",
+            "geography",
+            "cartography"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "borders-and-frames",
+      "label": "Borders and frames",
+      "selectors": [
+        {
+          "tags_any": [
+            "border",
+            "frame"
+          ],
+          "types": [
+            "ornaments"
+          ]
+        },
+        {
+          "sections": [
+            "floriated-border",
+            "18-point-borders",
+            "12-point-borders",
+            "six-point-borders",
+            "border-specimens",
+            "baltimore-title",
+            "baltimore-card-borders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cats",
+      "label": "Cats",
+      "selectors": [
+        {
+          "tags_any": [
+            "cat"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wild-animals",
+      "label": "Wild animals",
+      "selectors": [
+        {
+          "tags_any": [
+            "bear",
+            "lion",
+            "deer",
+            "antelope",
+            "monkey",
+            "fox",
+            "kangaroo",
+            "raccoon",
+            "zebra",
+            "elephant",
+            "tiger",
+            "hare",
+            "rat",
+            "mouse",
+            "bat",
+            "snake",
+            "turtle"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "birds",
+      "label": "Birds",
+      "selectors": [
+        {
+          "tags_any": [
+            "bird",
+            "birds",
+            "owl",
+            "eagle",
+            "songbird",
+            "waterbird",
+            "swan",
+            "hen",
+            "rooster",
+            "duck",
+            "nest"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insects-and-beehives",
+      "label": "Insects and beehives",
+      "selectors": [
+        {
+          "tags_any": [
+            "insect",
+            "bee",
+            "beehive",
+            "grasshopper"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "farming-and-harvest",
+      "label": "Farming and harvest",
+      "selectors": [
+        {
+          "tags_any": [
+            "plough",
+            "plow",
+            "ploughing",
+            "farmer",
+            "agriculture",
+            "agricultural",
+            "harvest",
+            "harvesting",
+            "sheaf",
+            "sheaves",
+            "scythe",
+            "scythes",
+            "sowing",
+            "threshing",
+            "mowing",
+            "shearing",
+            "milking",
+            "grain"
+          ],
+          "types": [
+            "cuts"
+          ]
+        },
+        {
+          "sections": [
+            "baltimore-almanac"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flowers-and-trees",
+      "label": "Flowers and trees",
+      "selectors": [
+        {
+          "tags_any": [
+            "botanical",
+            "floral",
+            "flower",
+            "flowers",
+            "tree",
+            "trees",
+            "rose",
+            "roses",
+            "foliage",
+            "leafy",
+            "palm",
+            "laurel"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "books-and-printing",
+      "label": "Books and printing",
+      "selectors": [
+        {
+          "tags_any": [
+            "book",
+            "books",
+            "reading",
+            "reader",
+            "bible",
+            "printing",
+            "press",
+            "quill"
+          ],
+          "types": [
+            "cuts",
+            "ornaments"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people-and-portraits",
+      "label": "People and portraits",
+      "selectors": [
+        {
+          "tags_any": [
+            "person",
+            "figure",
+            "figures",
+            "man",
+            "men",
+            "woman",
+            "boy",
+            "girl",
+            "child",
+            "children",
+            "mother",
+            "baby",
+            "portrait",
+            "king",
+            "gentleman",
+            "traveller",
+            "traveler",
+            "soldier",
+            "archer",
+            "farmer",
+            "handler",
+            "trumpeter",
+            "angel"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-and-furniture",
+      "label": "Household objects and furniture",
+      "selectors": [
+        {
+          "tags_any": [
+            "chair",
+            "sofa",
+            "furniture",
+            "table",
+            "stove",
+            "stoves",
+            "lamp",
+            "candles",
+            "urn",
+            "vase",
+            "pot",
+            "spoon",
+            "tub",
+            "umbrella",
+            "parasol",
+            "bottle",
+            "goblet",
+            "bell",
+            "cradle",
+            "chest",
+            "fan",
+            "bath",
+            "bathing",
+            "smoking"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tools-and-machinery",
+      "label": "Tools and machinery",
+      "selectors": [
+        {
+          "tags_any": [
+            "tool",
+            "tools",
+            "axe",
+            "screw",
+            "hammer",
+            "anvil",
+            "engine",
+            "machine",
+            "scissors",
+            "razor",
+            "plough"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weapons-and-military",
+      "label": "Weapons and military",
+      "selectors": [
+        {
+          "tags_any": [
+            "gun",
+            "rifle",
+            "pistol",
+            "weapons",
+            "cannon",
+            "sword",
+            "soldier",
+            "archer"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sport-and-games",
+      "label": "Sport and games",
+      "selectors": [
+        {
+          "tags_any": [
+            "racket",
+            "billiards",
+            "sport",
+            "game"
+          ],
+          "types": [
+            "cuts"
+          ],
+          "tags_none": [
+            "bird"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trade-and-cargo",
+      "label": "Trade and cargo",
+      "selectors": [
+        {
+          "tags_any": [
+            "barrel",
+            "barrels",
+            "bale",
+            "bales",
+            "cargo",
+            "merchandise",
+            "tea",
+            "teas",
+            "coins",
+            "commerce",
+            "merchant",
+            "merchants",
+            "lottery",
+            "pawnbroker"
+          ],
+          "types": [
+            "cuts"
+          ]
+        },
+        {
+          "icons": [
+            "baltimore-1832-p131-92"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "banners-and-scrolls",
+      "label": "Banners and scrolls",
+      "selectors": [
+        {
+          "tags_any": [
+            "banner",
+            "ribbon",
+            "scroll"
+          ],
+          "types": [
+            "cuts",
+            "ornaments"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heraldry-and-allegory",
+      "label": "Heraldry and allegory",
+      "selectors": [
+        {
+          "tags_any": [
+            "shield",
+            "shields",
+            "heraldry",
+            "justice",
+            "liberty",
+            "cornucopia",
+            "phoenix",
+            "unicorn",
+            "radiant",
+            "trident",
+            "constitution",
+            "balance"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "religion-and-memorials",
+      "label": "Religion and memorials",
+      "selectors": [
+        {
+          "tags_any": [
+            "bible",
+            "gospel",
+            "altar",
+            "adam",
+            "eve",
+            "grave",
+            "headstone",
+            "coffin",
+            "funeral",
+            "death"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "label": "Weather",
+      "selectors": [
+        {
+          "tags_any": [
+            "wind",
+            "clouds",
+            "rain",
+            "sun",
+            "moon"
+          ],
+          "types": [
+            "cuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labels-and-panels",
+      "label": "Labels and panels",
+      "selectors": [
+        {
+          "tags_any": [
+            "label",
+            "panel",
+            "field",
+            "blank"
+          ],
+          "types": [
+            "cuts"
+          ],
+          "tags_none": [
+            "farm",
+            "agriculture",
+            "scythe",
+            "sowing",
+            "cannon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hands-and-gestures",
+      "label": "Hands and gestures",
+      "selectors": [
+        {
+          "tags_any": [
+            "handshake"
+          ],
+          "types": [
+            "cuts"
+          ]
+        },
+        {
+          "sections": [
+            "pointing-hands-solid",
+            "pointing-hands-outlined"
+          ]
+        },
+        {
+          "icons": [
+            "baltimore-1832-p127-61",
+            "baltimore-1832-p127-64",
+            "baltimore-1832-p139-116",
+            "baltimore-1832-p139-121"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "punctuation-and-reference-marks",
+      "label": "Punctuation and reference marks",
+      "selectors": [
+        {
+          "icons": [
+            "boston-1889-p255-6pt-30",
+            "boston-1889-p255-6pt-43",
+            "boston-1889-p255-6pt-51",
+            "boston-1889-p255-6pt-52",
+            "boston-1889-p255-6pt-53",
+            "boston-1889-p255-6pt-55",
+            "boston-1889-p255-6pt-58",
+            "boston-1889-p255-6pt-62",
+            "boston-1889-p255-6pt-68",
+            "boston-1889-p255-7pt-30",
+            "boston-1889-p255-7pt-47",
+            "boston-1889-p255-7pt-48",
+            "boston-1889-p255-7pt-53",
+            "boston-1889-p255-7pt-54",
+            "boston-1889-p255-7pt-56",
+            "boston-1889-p255-7pt-58",
+            "boston-1889-p255-7pt-71",
+            "boston-1889-p255-8pt-31",
+            "boston-1889-p255-8pt-45",
+            "boston-1889-p255-8pt-46",
+            "boston-1889-p255-8pt-47",
+            "boston-1889-p255-8pt-55",
+            "boston-1889-p255-8pt-57",
+            "boston-1889-p255-8pt-67",
+            "boston-1889-p255-8pt-68",
+            "boston-1889-p255-9pt-50",
+            "boston-1889-p255-9pt-53",
+            "boston-1889-p255-9pt-54",
+            "boston-1889-p255-9pt-55",
+            "boston-1889-p255-10pt-21",
+            "boston-1889-p255-10pt-50",
+            "boston-1889-p255-10pt-51",
+            "boston-1889-p255-10pt-53",
+            "boston-1889-p255-10pt-54",
+            "boston-1889-p255-10pt-58",
+            "boston-1889-p255-10pt-69",
+            "boston-1889-p255-10pt-70",
+            "boston-1889-p255-10pt-80",
+            "boston-1889-p255-10pt-81",
+            "boston-1889-p255-10pt-82",
+            "boston-1889-p255-10pt-83",
+            "boston-1889-p255-11pt-41",
+            "boston-1889-p255-11pt-46",
+            "boston-1889-p255-11pt-47",
+            "boston-1889-p255-11pt-48",
+            "boston-1889-p255-11pt-49",
+            "boston-1889-p255-11pt-50",
+            "boston-1889-p255-12pt-5",
+            "boston-1889-p255-12pt-8",
+            "boston-1889-p255-18pt-5",
+            "boston-1889-p255-commercial5-4",
+            "boston-1889-p255-commercial5-7"
+          ]
+        }
       ]
     }
   ]

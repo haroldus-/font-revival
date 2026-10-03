@@ -4,7 +4,7 @@ Historical cuts from A specimen of printing types and ornaments from the Baltimo
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**381 icon(s) · Version 1.002 · MIT**
+**381 icon(s) · Version 1.003 · MIT**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BaltimoreCuts1832-Regular.otf) · [TTF](fonts/BaltimoreCuts1832-Regular.ttf) · [WOFF2](web/BaltimoreCuts1832-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -185,6 +185,6 @@ Download every part and extract them into the same folder.
 
 - [ZIP part 1](downloads/baltimore-cuts-1832-web.zip) — 89.5 MB
 - [ZIP part 2](downloads/baltimore-cuts-1832-web-2.zip) — 89.2 MB
-- [ZIP part 3](downloads/baltimore-cuts-1832-web-3.zip) — 87.1 MB
+- [ZIP part 3](downloads/baltimore-cuts-1832-web-3.zip) — 81.7 MB
 - [ZIP part 4](downloads/baltimore-cuts-1832-web-4.zip) — 80.3 MB
 - [ZIP part 5](downloads/baltimore-cuts-1832-web-5.zip) — 23.6 MB

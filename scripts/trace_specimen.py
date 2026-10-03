@@ -157,9 +157,6 @@ def trace(image, entry, potrace):
 
 def trace_tones(image, entry, layers, potrace):
     """Make two or three disjoint tone regions in the solid drawing's frame."""
-    from outline_geometry import _path, _svg, boolean_op
-    import pathops
-
     frame = entry
     if 'frame_threshold' in entry:
         frame = entry | {'threshold': entry['frame_threshold'],
@@ -184,6 +181,9 @@ def trace_tones(image, entry, layers, potrace):
             rec.replay(TransformPen(RoundingPen(out), transform))
             drawings[layer['glyph']] = {'path': out.getCommands(), 'advance_width': advance}
         return drawings
+
+    from outline_geometry import _path, _svg, boolean_op
+    import pathops
 
     traced = []
     for layer in layers:

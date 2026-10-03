@@ -31,6 +31,72 @@ spec.loader.exec_module(revival)
 
 
 class IconWorkflowTests(unittest.TestCase):
+    def test_font_only_revision_reuses_verified_artwork_and_matches_full_build(self):
+        m = revival.metadata(self.family) | {'font_export_glyphs': 'encoded',
+                                             'otf_uses_truetype_approximations': True}
+        revival.write_json(self.family / 'font.json', m)
+        revival.build_family(self.family)
+        revival.write_json(self.root / 'icons.json', {'collections': [m]})
+        master = revival.load_source(self.family, m)
+        name = m['icons'][0]['glyph']
+        glyphs = master.getGlyphSet()
+        original = SVGPathPen(glyphs); glyphs[name].draw(original)
+        bounds = revival.BoundsPen(glyphs); glyphs[name].draw(bounds)
+        x0, y0, x1, y1 = bounds.bounds
+        revival.write_json(self.family / 'source/truetype-glyphs' / (name + '.json'), {
+            'glyph': name, 'advance_width': master['hmtx'][name][0],
+            'path': f'M{x0} {y0}H{x1}V{y1}H{x0}Z', 'max_bound_delta': 2,
+            'master_sha256': hashlib.sha256(original.getCommands().encode()).hexdigest(),
+            'notes': 'Synthetic font-only revision; the SVG retains the original artwork.'})
+        m['version'] = '1.099'
+        revival.write_json(self.family / 'font.json', m)
+        from unittest.mock import patch
+        with patch.object(revival, 'write_icon_artwork', side_effect=AssertionError('Artwork must be reused')):
+            revival.build_family(self.family, reuse_artwork=True)
+        with TTFont(self.family / 'fonts' / (m['postscript_name'] + '.ttf')) as font:
+            self.assertEqual(4, len(font['glyf'][name].coordinates))
+        reused = {f.relative_to(self.family): revival.digest(f) for f in revival.family_files(self.family)}
+        revival.build_family(self.family)
+        self.assertEqual(reused, {f.relative_to(self.family): revival.digest(f)
+                                  for f in revival.family_files(self.family)})
+        for relative in ['source/font.ttx', 'source/glyphs/new.json',
+                         'svg/' + m['icons'][0]['id'] + '.svg']:
+            with self.subTest(file=relative):
+                file = self.family / relative
+                before = file.read_bytes() if file.exists() else None
+                file.parent.mkdir(parents=True, exist_ok=True)
+                file.write_bytes(b'changed')
+                with self.assertRaisesRegex(ValueError, 'full build'):
+                    revival.verify_reusable_icon_artwork(self.family, m)
+                if before is None:
+                    file.unlink()
+                else:
+                    file.write_bytes(before)
+        with self.assertRaisesRegex(ValueError, 'metadata changed'):
+            revival.verify_reusable_icon_artwork(self.family, m | {'copyright': 'Changed'})
+        with self.assertRaisesRegex(ValueError, 'metadata changed'):
+            revival.verify_reusable_icon_artwork(self.family, {k: v for k, v in m.items() if k != 'description'})
+
+    def test_delivery_rejects_outlines_that_older_renderers_cannot_load(self):
+        m = revival.metadata(self.family)
+        master = revival.load_source(self.family, m)
+        name = m['icons'][0]['glyph']
+        # A single zigzag contour avoids the separate contour-count limit.
+        # Its 32,768 points fit in TrueType's unsigned count but overflow
+        # FreeType 2.13's signed outline count, which used to escape our checks.
+        path = 'M0 0' + ''.join(f'L{i % 1000} {100 * (i % 2)}' for i in range(1, 32768)) + 'Z'
+        item = {'path': path, 'advance_width': master['hmtx'][name][0]}
+        self.assertEqual(32768, revival.cff_point_count(path))
+        with self.assertRaisesRegex(ValueError, 'renderer point limit'):
+            revival.to_truetype(master, approximations={name: item})
+        with self.assertRaisesRegex(ValueError, 'renderer point limit'):
+            revival.font_delivery_master(master, m | {'otf_uses_truetype_approximations': True},
+                                         {name: item})
+        # TrueType renderers also reserve four phantom points for metrics.
+        path = 'M0 0' + ''.join(f'L{i % 1000} {100 * (i % 2)}' for i in range(1, 32764)) + 'Z'
+        with self.assertRaisesRegex(ValueError, 'renderer point limit'):
+            revival.to_truetype(master, approximations={name: item | {'path': path}})
+
     def test_long_cff_subroutines_preserve_serialized_outlines_and_widths(self):
         m = revival.metadata(self.family)
         master = revival.load_source(self.family, m)
@@ -328,7 +394,7 @@ class IconWorkflowTests(unittest.TestCase):
         self.assertNotIn('Engraved detail, original proportions', index)
         self.assertNotIn('data-art-chunk', index)
         self.assertIn('data-id="test-cut-96"', index)
-        self.assertEqual(index.count('data-section="holiday-cuts" hidden>'), 1)
+        self.assertEqual(len(re.findall(r'data-section="[^"]*\bholiday-cuts\b[^"]*" hidden>', index)), 1)
         for record in records:
             detail = output[f'icons/{record["id"]}.html']
             self.assertIn(revival.icon_artwork(first), detail)
@@ -342,11 +408,13 @@ class IconWorkflowTests(unittest.TestCase):
             self.assertNotIn('@@', detail)
         catalog = json.loads(output['icons.json'])
         self.assertEqual(catalog['icons'][0]['type'], 'cuts')
-        self.assertEqual(catalog['icons'][0]['sections'], ['holiday-cuts'])
+        self.assertIn('holiday-cuts', catalog['icons'][0]['sections'])
         self.assertEqual(catalog['icons'][0]['page'], 'icons/test-cut-0.html')
         self.assertIn('name="collection" value="boston-cuts-1889"', index)
         self.assertIn('name="type" value="cuts"', index)
         self.assertIn('name="section" value="holiday-cuts"', index)
+        self.assertIn('<summary>Categories</summary>', index)
+        self.assertNotIn('Specimen sections', index)
 
     def test_browse_fonts_preserve_monochrome_outlines_without_tone_layers(self):
         m = revival.metadata(self.family)
@@ -382,11 +450,42 @@ class IconWorkflowTests(unittest.TestCase):
                 page_key = 'pdf_page' if 'pdf_pages' in section else 'printed_page'
                 self.assertTrue(set(section[page_key + 's']) <= {i[page_key] for i in m['icons']})
                 self.assertTrue(set(section.get('icons', [])) <= {i['id'] for i in m['icons']})
-                selected = [i for i in m['icons'] if section in revival.icon_navigation(m, i, taxonomy)[1]]
+                selected = [i for i in m['icons'] if section in revival.icon_specimen_sections(m, i, taxonomy)]
                 self.assertTrue(selected)
         cuts = families['boston-cuts-1889']
         santa = next(i for i in cuts['icons'] if i['id'] == 'boston-1889-4202')
-        self.assertEqual([s['id'] for s in revival.icon_navigation(cuts, santa, taxonomy)[1]], ['holiday-cuts'])
+        self.assertIn('holiday-cuts', [s['id'] for s in revival.icon_navigation(cuts, santa, taxonomy)[1]])
+
+    def test_categories_cover_both_collections_by_subject(self):
+        taxonomy = json.loads((REPO / 'site/icon-taxonomy.json').read_text())
+        categories = taxonomy['categories']
+        self.assertEqual(len({c['id'] for c in categories}), len(categories))
+        membership = {c['id']: set() for c in categories}
+        icon_categories, ids = {}, set()
+        for family in taxonomy['collections']:
+            m = json.loads((REPO / 'collection' / family / 'font.json').read_text())
+            for icon in m['icons']:
+                ids.add(icon['id'])
+                matched = revival.icon_navigation(m, icon, taxonomy)[1]
+                self.assertTrue(matched, icon['id'])
+                icon_categories[icon['id']] = {c['id'] for c in matched}
+                for category in matched:
+                    membership[category['id']].add(family.split('-')[0])
+        section_ids = {s['id'] for s in taxonomy['sections']}
+        for category in categories:
+            self.assertTrue(membership[category['id']], category['id'])
+            self.assertNotRegex(category['label'], r'Boston|Baltimore')
+            for rule in category['selectors']:
+                self.assertLessEqual(set(rule.get('icons', [])), ids)
+                self.assertLessEqual(set(rule.get('sections', [])), section_ids)
+        for key in ['ships-steamers-and-yachts', 'horses-and-mules', 'american-flags-and-eagles',
+                    'musical-instruments', 'maps-and-diagrams', 'borders-and-frames',
+                    'art-initials', 'farming-and-harvest', 'books-and-printing']:
+            self.assertEqual(membership[key], {'boston', 'baltimore'}, key)
+        self.assertIn('farming-and-harvest', icon_categories['baltimore-1832-p141-125'])
+        self.assertIn('dogs', icon_categories['baltimore-1832-p209-357-04'])
+        self.assertIn('american-flags-and-eagles', icon_categories['baltimore-1832-p135-103'])
+        self.assertNotIn('pointing-hands-outlined', icon_categories['baltimore-1832-p129-80'])
 
     def test_unnumbered_leaf_uses_pdf_page_for_navigation_and_proofs(self):
         m = revival.metadata(self.family)
@@ -395,9 +494,9 @@ class IconWorkflowTests(unittest.TestCase):
         revival.metadata(self.family)
         section = {'id': 'metal-ornaments', 'collection': m['id'], 'pdf_pages': [281]}
         taxonomy = {'collections': {m['id']: {'type': 'cuts'}}, 'sections': [section]}
-        self.assertEqual(revival.icon_navigation(m, m['icons'][0], taxonomy)[1], [section])
+        self.assertEqual(revival.icon_specimen_sections(m, m['icons'][0], taxonomy), [section])
         other = m['icons'][0] | {'pdf_page': 282}
-        self.assertEqual(revival.icon_navigation(m, other, taxonomy)[1], [])
+        self.assertEqual(revival.icon_specimen_sections(m, other, taxonomy), [])
         revival.build_family(self.family)
         self.assertTrue((self.family / 'specimens/specimen.pdf').exists())
         for invalid in (0, -1, '121', True):

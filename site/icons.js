@@ -54,7 +54,7 @@ function filterResults(persist=true){
   for(const panel of document.querySelectorAll('.filters details')){
     const inputs=[...panel.querySelectorAll('input[type=checkbox]')];
     const count=inputs.filter(input=>input.checked).length;
-    const name=inputs[0]?.name==='collection'?'Collection':'Specimen sections';
+    const name=inputs[0]?.name==='collection'?'Collection':'Categories';
     panel.querySelector('summary').textContent=name+(count?` · ${count} selected`:'');
   }
   showResults();if(persist)saveState();

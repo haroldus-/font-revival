@@ -11,7 +11,7 @@ The Baltimore 1832 volume adds Cuts (381), Ornaments (396), Initials (38) and
 Symbols (4). Its complete 238-page inventory is retained with Baltimore Cuts.
 All 368 catalogue numbers are represented; No. 357 contains 25 separate panels.
 The unpaginated leaves use `printed_page: null` and one-based `pdf_page` citations.
-Baltimore navigation sections use `pdf_pages` selectors; Boston retains its
+Baltimore historical sections use `pdf_pages` selectors; Boston retains its
 documented `printed_pages`. Neither field is inferred from the other.
 
 ## Delivery and use
@@ -19,7 +19,7 @@ documented `printed_pages`. Neither field is inferred from the other.
 `build` produces individual transparent SVGs, an SVG symbol sprite, OTF and TTF
 desktop fonts, WOFF and WOFF2 webfonts, named CSS classes, JSON manifests, PNG/PDF
 proofs, a family README, license and checksums. The root `icons.html` is a generated,
-monochrome font grid with search and collection, type and specimen-section filters.
+monochrome font grid with search and collection, type and category filters.
 Each tile links to `icons/<icon-id>.html`, with three-tone and monochrome previews,
 size and colour controls, downloads, HTML examples and source comparison.
 `icons.json` is its generated catalogue, including detail-page paths and filters.
@@ -54,9 +54,15 @@ Keep the generated `icons/` and `site/` assets with the gallery. For local file
 pages, use an individual SVG with `<img>` or paste its SVG markup inline;
 external `<use>` references can be blocked by browser origin restrictions.
 
-`site/icon-taxonomy.json` records collection types and specimen section labels,
-with historical headings, printed pages and explicit IDs or metadata selectors.
-Labels can be shortened for browsing without changing the source record. Choices
+`site/icon-taxonomy.json` records shared subject categories separately from
+historical specimen sections. Categories such as ships, horses, borders and maps
+span collections; one icon can belong to several categories. Selectors use reviewed
+icon IDs, subject tags and historical sections. Conditions within a selector combine
+with AND, and alternative selectors combine with OR. Scope tag matches by type where
+needed: a border's historical “Great Primer” size does not make it an educational cut.
+The original headings and page references remain searchable source context.
+The existing `section` URL parameter and catalogue field carry category IDs so
+existing links to retained categories continue to work. Choices
 within each filter group combine with OR; groups and search combine with AND.
 The query string preserves selections, icon size and expanded result count.
 Edit layout in `site/icons.template.html` and `site/icon.template.html`, behaviour
@@ -146,10 +152,12 @@ Stale fingerprints fail the build. SVG, the canonical master and tonal PNG
 retain full detail. Baltimore’s optional `source/prepare_truetype.py` prepares
 these explicitly documented approximations; normal release builds need no Potrace.
 Compare the formats at normal display sizes before accepting an approximation.
-The reference renderer also rejects TrueType glyphs with 4,095 or more contours
-and CFF outlines with more than 65,535 cubic points. The authoring tool checks
-all three counts; cubic and quadratic representations can need different numbers
-of points. Baltimore enables the OTF option so all downloadable fonts
+Compatible exports also account for older font renderers: FreeType 2.13 uses
+signed outline counts, limiting CFF drawings to 32,767 points and TrueType
+drawings to 32,763 plus four metric points. The reference renderer also rejects
+TrueType glyphs with 4,095 or more contours. The authoring tool checks all three
+counts and targets at most 32,000 points in each curve representation; cubic and
+quadratic paths can need different numbers of points. Baltimore enables the OTF option so all downloadable fonts
 render reliably; use SVG for unrestricted full-detail artwork.
 
 For large unhinted CFF drawings, `cff_charstring_chunk_bytes: 60000` splits
@@ -165,6 +173,15 @@ files into manageable parts. The manifest and each HTML example name the
 correct part for that icon. Normal builds apply every full-detail glyph edit
 before artwork generation; the gallery reads those generated SVGs.
 The limit follows the [OpenType glyf and maxp specifications](https://learn.microsoft.com/en-us/typography/opentype/spec/maxp).
+
+For a revision limited to downloadable font approximations, `build FAMILY
+--reuse-artwork` and `check FAMILY --reuse-artwork` reuse the previous SVGs,
+sprites and tonal PNGs. This mode requires encoded-only icon delivery, unchanged
+artwork metadata (apart from the family version), and matching saved checksums
+for the canonical master, glyph edits and artwork files. It still rebuilds the
+fonts, font proofs, manifests, documentation, downloads and gallery. A changed
+master, glyph edit, artwork file or metadata requires the normal full build.
+The normal `check` continues to regenerate every output independently.
 
 SVG paths expose `--fr-primary-color`, `--fr-secondary-color`, `--fr-tertiary-color`
 and matching `--fr-…-opacity` custom properties. Each defaults to `currentColor`

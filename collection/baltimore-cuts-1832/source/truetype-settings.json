@@ -6,7 +6,13 @@
     "uniE177": "coverage-screen",
     "uniE178": "coverage-screen",
     "uniE179": "coverage-screen",
-    "uniE17C": "coverage-screen"
+    "uniE17C": "coverage-screen",
+    "uniE083": "coverage-screen",
+    "uniE0E6": "coverage-screen",
+    "uniE0E9": "coverage-screen",
+    "uniE0EE": "coverage-screen",
+    "uniE173": "coverage-screen",
+    "uniE17B": "coverage-screen"
   },
-  "notes": "The initial bilevel approximation made these seven dense engravings too dark at normal display sizes. Fine diagonal screening preserves local coverage. The source artwork is unchanged; this is a modern format-specific interpretation."
+  "notes": "Bilevel downsampling makes the hatching of these thirteen dense engravings too dark or blotchy at normal display sizes. Fine diagonal screening preserves local coverage. The source artwork is unchanged; this is a modern font-format interpretation."
 }

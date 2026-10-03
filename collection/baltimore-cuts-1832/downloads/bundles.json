@@ -2,23 +2,23 @@
   "parts": [
     {
       "file": "baltimore-cuts-1832-web.zip",
-      "bytes": 89539409
+      "bytes": 89476564
     },
     {
       "file": "baltimore-cuts-1832-web-2.zip",
-      "bytes": 89249660
+      "bytes": 89177017
     },
     {
       "file": "baltimore-cuts-1832-web-3.zip",
-      "bytes": 87054107
+      "bytes": 81689534
     },
     {
       "file": "baltimore-cuts-1832-web-4.zip",
-      "bytes": 80312496
+      "bytes": 80312497
     },
     {
       "file": "baltimore-cuts-1832-web-5.zip",
-      "bytes": 23619604
+      "bytes": 23619605
     }
   ],
   "instructions": "Download every part and extract them into the same folder."

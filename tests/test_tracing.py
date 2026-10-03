@@ -76,7 +76,8 @@ class TracingTests(unittest.TestCase):
         def capture(mask, *args):
             masks.append(mask.copy()); return rec
         layers = [{'glyph': role, 'role': role} for role in ('primary', 'secondary', 'tertiary')]
-        with patch.object(tracing, 'trace_mask', side_effect=capture):
+        with patch.object(tracing, 'trace_mask', side_effect=capture), \
+             patch.dict(sys.modules, {'pathops': None}):
             tracing.trace_tones(image, entry, layers, 'potrace')
         bands = masks[-3:]
         expected = tracing.clean_crop(image, entry | {'threshold': 200})

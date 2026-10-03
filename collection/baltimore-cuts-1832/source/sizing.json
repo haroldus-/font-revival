@@ -2352,21 +2352,21 @@
         1928,
         1928
       ],
-      "notes": "Seated figure in a radiating ornamental panel: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Seated figure in a radiating ornamental panel: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         292,
-        296
+        298
       ],
       "y_max": [
         1542,
         1546
       ],
       "ink_width": [
-        1773,
+        1772,
         1777
       ],
       "ink_height": [
-        1248,
+        1246,
         1252
       ]
     },
@@ -2448,21 +2448,21 @@
         1928,
         1928
       ],
-      "notes": "Eagle and shield against a dark sky: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Eagle and shield against a dark sky: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        383,
+        382,
         387
       ],
       "y_max": [
-        1470,
+        1469,
         1474
       ],
       "ink_width": [
-        1770,
+        1768,
         1774
       ],
       "ink_height": [
-        1086,
+        1084,
         1090
       ]
     },
@@ -2616,21 +2616,21 @@
         1928,
         1928
       ],
-      "notes": "Large paddle steamboat: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Large paddle steamboat: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         527,
-        531
+        568
       ],
       "y_max": [
-        1252,
+        1250,
         1256
       ],
       "ink_width": [
-        1797,
+        1796,
         1801
       ],
       "ink_height": [
-        723,
+        685,
         727
       ]
     },
@@ -2688,21 +2688,21 @@
         1928,
         1928
       ],
-      "notes": "Shipped sailing ship: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Shipped sailing ship: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         356,
-        360
+        361
       ],
       "y_max": [
-        1406,
+        1405,
         1410
       ],
       "ink_width": [
-        1718,
+        1717,
         1722
       ],
       "ink_height": [
-        1048,
+        1046,
         1052
       ]
     },
@@ -2808,21 +2808,21 @@
         1928,
         1928
       ],
-      "notes": "Firefighters at a burning building: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Firefighters at a burning building: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         333,
-        337
+        338
       ],
       "y_max": [
         1436,
         1440
       ],
       "ink_width": [
-        1785,
+        1784,
         1789
       ],
       "ink_height": [
-        1101,
+        1100,
         1105
       ]
     },
@@ -2856,13 +2856,13 @@
         1928,
         1928
       ],
-      "notes": "Two seated men with ship and merchandise: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Two seated men with ship and merchandise: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         360,
-        364
+        365
       ],
       "y_max": [
-        1437,
+        1436,
         1441
       ],
       "ink_width": [
@@ -2870,7 +2870,7 @@
         1802
       ],
       "ink_height": [
-        1075,
+        1073,
         1079
       ]
     },
@@ -2904,21 +2904,21 @@
         1928,
         1928
       ],
-      "notes": "Winter skating and woodcutting: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Winter skating and woodcutting: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         547,
-        551
+        552
       ],
       "y_max": [
-        1243,
+        1242,
         1247
       ],
       "ink_width": [
-        1788,
+        1786,
         1792
       ],
       "ink_height": [
-        693,
+        692,
         698
       ]
     },
@@ -2928,21 +2928,21 @@
         1928,
         1928
       ],
-      "notes": "Farmyard and barn work: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Farmyard and barn work: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         567,
-        571
+        572
       ],
       "y_max": [
-        1255,
+        1253,
         1259
       ],
       "ink_width": [
         1782,
-        1786
+        1787
       ],
       "ink_height": [
-        685,
+        684,
         690
       ]
     },
@@ -2952,21 +2952,21 @@
         1928,
         1928
       ],
-      "notes": "Digging and fence repair: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Digging and fence repair: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         587,
-        591
+        592
       ],
       "y_max": [
-        1242,
+        1241,
         1246
       ],
       "ink_width": [
-        1772,
+        1771,
         1776
       ],
       "ink_height": [
-        653,
+        652,
         657
       ]
     },
@@ -2976,21 +2976,21 @@
         1928,
         1928
       ],
-      "notes": "Ploughing with a horse: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Ploughing with a horse: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         565,
-        569
+        570
       ],
       "y_max": [
-        1251,
+        1228,
         1256
       ],
       "ink_width": [
-        1771,
+        1770,
         1775
       ],
       "ink_height": [
-        684,
+        661,
         689
       ]
     },
@@ -3000,17 +3000,17 @@
         1928,
         1928
       ],
-      "notes": "Sheep shearing beneath a tree: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Sheep shearing beneath a tree: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         554,
         559
       ],
       "y_max": [
         1225,
-        1229
+        1230
       ],
       "ink_width": [
-        1798,
+        1796,
         1803
       ],
       "ink_height": [
@@ -3024,13 +3024,13 @@
         1928,
         1928
       ],
-      "notes": "Mowing with scythes: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Mowing with scythes: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         575,
-        579
+        581
       ],
       "y_max": [
-        1244,
+        1237,
         1249
       ],
       "ink_width": [
@@ -3038,7 +3038,7 @@
         1771
       ],
       "ink_height": [
-        667,
+        658,
         671
       ]
     },
@@ -3048,18 +3048,18 @@
         1928,
         1928
       ],
-      "notes": "Harvesting grain with sickles: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Harvesting grain with sickles: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        565,
+        564,
         569
       ],
       "y_max": [
-        1229,
+        1228,
         1234
       ],
       "ink_width": [
         1791,
-        1796
+        1797
       ],
       "ink_height": [
         662,
@@ -3072,21 +3072,21 @@
         1928,
         1928
       ],
-      "notes": "Sowing seed in a field: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Sowing seed in a field: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         541,
-        546
+        547
       ],
       "y_max": [
-        1226,
-        1230
+        1225,
+        1231
       ],
       "ink_width": [
         1757,
         1762
       ],
       "ink_height": [
-        682,
+        681,
         687
       ]
     },
@@ -3096,17 +3096,17 @@
         1928,
         1928
       ],
-      "notes": "Cider press and barrels: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Cider press and barrels: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         552,
         557
       ],
       "y_max": [
-        1240,
+        1239,
         1244
       ],
       "ink_width": [
-        1762,
+        1761,
         1766
       ],
       "ink_height": [
@@ -3120,10 +3120,10 @@
         1928,
         1928
       ],
-      "notes": "Harvesting corn beside a cart: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Harvesting corn beside a cart: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         551,
-        555
+        556
       ],
       "y_max": [
         1262,
@@ -3131,11 +3131,11 @@
       ],
       "ink_width": [
         1756,
-        1760
+        1762
       ],
       "ink_height": [
         708,
-        712
+        713
       ]
     },
     {
@@ -3144,21 +3144,21 @@
         1928,
         1928
       ],
-      "notes": "Ox cart carrying hay: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Ox cart carrying hay: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         583,
-        587
+        589
       ],
       "y_max": [
-        1245,
+        1244,
         1249
       ],
       "ink_width": [
-        1796,
+        1795,
         1800
       ],
       "ink_height": [
-        660,
+        657,
         664
       ]
     },
@@ -3168,21 +3168,21 @@
         1928,
         1928
       ],
-      "notes": "Threshing with flails in a barn: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Threshing with flails in a barn: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        547,
+        542,
         551
       ],
       "y_max": [
-        1282,
+        1249,
         1286
       ],
       "ink_width": [
         1762,
-        1767
+        1778
       ],
       "ink_height": [
-        733,
+        705,
         737
       ]
     },
@@ -3264,22 +3264,22 @@
         1928,
         1928
       ],
-      "notes": "Radiant eagle over a name scroll: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Radiant eagle over a name scroll: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        372,
+        371,
         376
       ],
       "y_max": [
-        1421,
+        1420,
         1425
       ],
       "ink_width": [
-        1797,
+        1795,
         1801
       ],
       "ink_height": [
         1047,
-        1051
+        1052
       ]
     },
     {
@@ -4896,22 +4896,22 @@
         934,
         934
       ],
-      "notes": "Washington portrait with eagle and drapery: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Washington portrait with eagle and drapery: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        7,
+        6,
         11
       ],
       "y_max": [
-        1798,
-        1802
+        1797,
+        1803
       ],
       "ink_width": [
-        804,
+        803,
         808
       ],
       "ink_height": [
         1789,
-        1793
+        1794
       ]
     },
     {
@@ -5280,21 +5280,21 @@
         1928,
         1928
       ],
-      "notes": "Two top hats: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Two top hats: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        488,
+        487,
         492
       ],
       "y_max": [
         1320,
-        1324
+        1325
       ],
       "ink_width": [
-        1798,
+        1797,
         1802
       ],
       "ink_height": [
-        831,
+        830,
         835
       ]
     },
@@ -5544,22 +5544,22 @@
         1928,
         1928
       ],
-      "notes": "Large cow in a landscape: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Large cow in a landscape: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        411,
+        406,
         415
       ],
       "y_max": [
         1397,
-        1401
+        1406
       ],
       "ink_width": [
         1797,
-        1801
+        1812
       ],
       "ink_height": [
         983,
-        988
+        998
       ]
     },
     {
@@ -5568,7 +5568,7 @@
         1928,
         1928
       ],
-      "notes": "Large eagle standing on a rock: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Large eagle standing on a rock: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         158,
         163
@@ -5578,7 +5578,7 @@
         1630
       ],
       "ink_width": [
-        1779,
+        1778,
         1784
       ],
       "ink_height": [
@@ -5592,7 +5592,7 @@
         1580,
         1580
       ],
-      "notes": "Large ship with striped flag: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Large ship with striped flag: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         -11,
         -6
@@ -5606,7 +5606,7 @@
         1458
       ],
       "ink_height": [
-        1804,
+        1803,
         1808
       ]
     },
@@ -5616,22 +5616,22 @@
         1928,
         1928
       ],
-      "notes": "Woman in a horse-drawn chariot with lottery ribbon: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Woman in a horse-drawn chariot with lottery ribbon: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        251,
+        246,
         256
       ],
       "y_max": [
         1542,
-        1546
+        1550
       ],
       "ink_width": [
         1796,
-        1801
+        1808
       ],
       "ink_height": [
         1288,
-        1293
+        1302
       ]
     },
     {
@@ -5640,22 +5640,22 @@
         1928,
         1928
       ],
-      "notes": "Large single-masted sailing boat: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Large single-masted sailing boat: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        124,
+        123,
         128
       ],
       "y_max": [
-        1698,
+        1697,
         1702
       ],
       "ink_width": [
-        1798,
+        1797,
         1802
       ],
       "ink_height": [
         1572,
-        1576
+        1577
       ]
     },
     {
@@ -5664,10 +5664,10 @@
         1928,
         1928
       ],
-      "notes": "Two-storey house with fenced garden: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Two-storey house with fenced garden: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         274,
-        279
+        281
       ],
       "y_max": [
         1514,
@@ -5675,10 +5675,10 @@
       ],
       "ink_width": [
         1787,
-        1791
+        1792
       ],
       "ink_height": [
-        1237,
+        1235,
         1243
       ]
     },
@@ -5688,14 +5688,14 @@
         1928,
         1928
       ],
-      "notes": "Two-storey house with trees and iron fence: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Two-storey house with trees and iron fence: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        218,
+        217,
         228
       ],
       "y_max": [
         1583,
-        1591
+        1594
       ],
       "ink_width": [
         1774,
@@ -5703,7 +5703,7 @@
       ],
       "ink_height": [
         1358,
-        1372
+        1374
       ]
     },
     {
@@ -5712,21 +5712,21 @@
         1928,
         1928
       ],
-      "notes": "Eagle, stars and E Pluribus Unum ribbon: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Eagle, stars and E Pluribus Unum ribbon: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         377,
-        381
+        382
       ],
       "y_max": [
-        1397,
+        1396,
         1402
       ],
       "ink_width": [
-        1790,
+        1789,
         1795
       ],
       "ink_height": [
-        1018,
+        1016,
         1023
       ]
     },
@@ -5736,22 +5736,22 @@
         1928,
         1928
       ],
-      "notes": "Farm landscape with plough and hay wagon: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Farm landscape with plough and hay wagon: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        270,
+        265,
         274
       ],
       "y_max": [
         1527,
-        1531
+        1534
       ],
       "ink_width": [
         1756,
-        1761
+        1768
       ],
       "ink_height": [
         1255,
-        1259
+        1266
       ]
     },
     {
@@ -6288,21 +6288,21 @@
         1928,
         1928
       ],
-      "notes": "Seated woman with agricultural tools: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Seated woman with agricultural tools: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         399,
-        403
+        405
       ],
       "y_max": [
-        1354,
+        1353,
         1358
       ],
       "ink_width": [
-        1768,
+        1767,
         1772
       ],
       "ink_height": [
-        953,
+        951,
         957
       ]
     },
@@ -6336,22 +6336,22 @@
         1928,
         1928
       ],
-      "notes": "Basket overflowing with flowers: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Basket overflowing with flowers: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        508,
+        507,
         512
       ],
       "y_max": [
-        1305,
+        1304,
         1309
       ],
       "ink_width": [
-        1797,
+        1796,
         1801
       ],
       "ink_height": [
-        795,
-        799
+        794,
+        800
       ]
     },
     {
@@ -6840,21 +6840,21 @@
         1928,
         1928
       ],
-      "notes": "Seated woman reading to a boy: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Seated woman reading to a boy: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         279,
-        283
+        284
       ],
       "y_max": [
-        1520,
+        1519,
         1524
       ],
       "ink_width": [
-        1795,
+        1794,
         1799
       ],
       "ink_height": [
-        1239,
+        1237,
         1243
       ]
     },
@@ -6888,21 +6888,21 @@
         1928,
         1928
       ],
-      "notes": "Large horned ox: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Large horned ox: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        311,
+        310,
         315
       ],
       "y_max": [
-        1482,
+        1481,
         1486
       ],
       "ink_width": [
-        1768,
+        1724,
         1772
       ],
       "ink_height": [
-        1169,
+        1168,
         1173
       ]
     },
@@ -6936,21 +6936,21 @@
         1928,
         1928
       ],
-      "notes": "Boy chasing a windblown hat: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Boy chasing a windblown hat: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         322,
-        326
+        327
       ],
       "y_max": [
-        1441,
+        1439,
         1445
       ],
       "ink_width": [
-        1782,
+        1781,
         1786
       ],
       "ink_height": [
-        1117,
+        1115,
         1121
       ]
     },
@@ -6960,21 +6960,21 @@
         1928,
         1928
       ],
-      "notes": "Printing press with Tyrants' Foe, the People's Friend ribbon: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Printing press with Tyrants' Foe, the People's Friend ribbon: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         328,
-        332
+        334
       ],
       "y_max": [
-        1469,
+        1468,
         1473
       ],
       "ink_width": [
         1794,
-        1798
+        1799
       ],
       "ink_height": [
-        1138,
+        1136,
         1142
       ]
     },
@@ -7032,21 +7032,21 @@
         1928,
         1928
       ],
-      "notes": "Oval wind face blowing through clouds: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Oval wind face blowing through clouds: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         215,
-        219
+        220
       ],
       "y_max": [
         1565,
-        1569
+        1570
       ],
       "ink_width": [
         1796,
-        1800
+        1801
       ],
       "ink_height": [
-        1349,
+        1348,
         1353
       ]
     },
@@ -7944,22 +7944,22 @@
         1928,
         1928
       ],
-      "notes": "Seated woman with trident, ships and cargo: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Seated woman with trident, ships and cargo: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         351,
-        355
+        356
       ],
       "y_max": [
-        1451,
+        1450,
         1455
       ],
       "ink_width": [
-        1776,
+        1775,
         1780
       ],
       "ink_height": [
         1097,
-        1101
+        1102
       ]
     },
     {
@@ -8016,21 +8016,21 @@
         1928,
         1928
       ],
-      "notes": "Radiant E Pluribus Unum eagle: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Radiant E Pluribus Unum eagle: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         331,
-        335
+        336
       ],
       "y_max": [
-        1465,
+        1464,
         1469
       ],
       "ink_width": [
         1790,
-        1794
+        1795
       ],
       "ink_height": [
-        1132,
+        1131,
         1136
       ]
     },
@@ -8064,21 +8064,21 @@
         1928,
         1928
       ],
-      "notes": "Globe, telescope and books: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Globe, telescope and books: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         401,
-        405
+        407
       ],
       "y_max": [
         1383,
         1388
       ],
       "ink_width": [
-        1741,
+        1739,
         1745
       ],
       "ink_height": [
-        981,
+        979,
         985
       ]
     },
@@ -8088,21 +8088,21 @@
         1928,
         1928
       ],
-      "notes": "Shipped sailing vessel with cargo: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Shipped sailing vessel with cargo: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        228,
+        227,
         232
       ],
       "y_max": [
-        1577,
+        1576,
         1581
       ],
       "ink_width": [
-        1746,
+        1745,
         1750
       ],
       "ink_height": [
-        1347,
+        1346,
         1351
       ]
     },
@@ -8136,21 +8136,21 @@
         1928,
         1928
       ],
-      "notes": "Sheep and lamb in a landscape: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Sheep and lamb in a landscape: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         276,
-        280
+        281
       ],
       "y_max": [
-        1520,
+        1519,
         1524
       ],
       "ink_width": [
-        1796,
+        1795,
         1800
       ],
       "ink_height": [
-        1242,
+        1241,
         1246
       ]
     },
@@ -8160,22 +8160,22 @@
         1928,
         1928
       ],
-      "notes": "Mother with two children reading: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Mother with two children reading: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         246,
-        250
+        251
       ],
       "y_max": [
-        1565,
+        1564,
         1569
       ],
       "ink_width": [
         1740,
-        1744
+        1745
       ],
       "ink_height": [
-        1316,
-        1320
+        1315,
+        1321
       ]
     },
     {
@@ -8184,21 +8184,21 @@
         1928,
         1928
       ],
-      "notes": "Elephant: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Elephant: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        219,
+        218,
         223
       ],
       "y_max": [
-        1593,
+        1591,
         1597
       ],
       "ink_width": [
-        1790,
+        1788,
         1794
       ],
       "ink_height": [
-        1372,
+        1371,
         1376
       ]
     },
@@ -8208,21 +8208,21 @@
         1928,
         1928
       ],
-      "notes": "Protection phoenix rising from flames: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Protection phoenix rising from flames: source aspect ratio, uniform scaling and original advance retained. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         99,
-        103
+        104
       ],
       "y_max": [
-        1697,
+        1696,
         1701
       ],
       "ink_width": [
-        1795,
+        1793,
         1799
       ],
       "ink_height": [
-        1596,
+        1595,
         1600
       ]
     },
@@ -8232,21 +8232,21 @@
         1928,
         1928
       ],
-      "notes": "Large rooster on grass: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Large rooster on grass: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         248,
-        252
+        253
       ],
       "y_max": [
         1522,
         1526
       ],
       "ink_width": [
-        1709,
+        1708,
         1713
       ],
       "ink_height": [
-        1272,
+        1271,
         1276
       ]
     },
@@ -8256,17 +8256,17 @@
         1928,
         1928
       ],
-      "notes": "Beehive beneath fruit trees: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Beehive beneath fruit trees: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        128,
+        127,
         132
       ],
       "y_max": [
-        1646,
+        1645,
         1704
       ],
       "ink_width": [
-        1739,
+        1738,
         1743
       ],
       "ink_height": [
@@ -8280,13 +8280,13 @@
         1928,
         1928
       ],
-      "notes": "Farmer ploughing in an octagonal frame: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Farmer ploughing in an octagonal frame: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         214,
-        222
+        223
       ],
       "y_max": [
-        1532,
+        1531,
         1536
       ],
       "ink_width": [
@@ -8294,7 +8294,7 @@
         1781
       ],
       "ink_height": [
-        1312,
+        1311,
         1321
       ]
     },
@@ -8880,21 +8880,21 @@
         1928,
         1928
       ],
-      "notes": "Primer: man at a burning stake with gathered figures: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: man at a burning stake with gathered figures: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         105,
-        109
+        112
       ],
       "y_max": [
         1682,
-        1686
+        1687
       ],
       "ink_width": [
-        1778,
+        1776,
         1783
       ],
       "ink_height": [
-        1575,
+        1573,
         1580
       ]
     },
@@ -8904,21 +8904,21 @@
         1928,
         1928
       ],
-      "notes": "Large paddle steamboat with flags: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Large paddle steamboat with flags: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         434,
-        438
+        441
       ],
       "y_max": [
-        1352,
+        1351,
         1357
       ],
       "ink_width": [
-        1773,
+        1769,
         1780
       ],
       "ink_height": [
-        916,
+        912,
         921
       ]
     },
@@ -8928,14 +8928,14 @@
         1928,
         1928
       ],
-      "notes": "Horse led by a man, facing right: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Horse led by a man, facing right: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        284,
+        281,
         289
       ],
       "y_max": [
         1497,
-        1501
+        1506
       ],
       "ink_width": [
         1747,
@@ -8943,7 +8943,7 @@
       ],
       "ink_height": [
         1210,
-        1214
+        1222
       ]
     },
     {
@@ -8952,9 +8952,9 @@
         1928,
         1928
       ],
-      "notes": "Horse and handler in a rural landscape: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Horse and handler in a rural landscape: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        358,
+        356,
         364
       ],
       "y_max": [
@@ -8962,12 +8962,12 @@
         1473
       ],
       "ink_width": [
-        1775,
+        1772,
         1785
       ],
       "ink_height": [
         1106,
-        1111
+        1113
       ]
     },
     {
@@ -8976,14 +8976,14 @@
         1928,
         1928
       ],
-      "notes": "Prancing horse with handler: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Prancing horse with handler: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         192,
         198
       ],
       "y_max": [
         1605,
-        1611
+        1614
       ],
       "ink_width": [
         1761,
@@ -8991,7 +8991,7 @@
       ],
       "ink_height": [
         1409,
-        1417
+        1420
       ]
     },
     {
@@ -9000,17 +9000,17 @@
         1928,
         1928
       ],
-      "notes": "Four-horse coach at speed: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Four-horse coach at speed: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         594,
-        599
+        600
       ],
       "y_max": [
         1180,
         1185
       ],
       "ink_width": [
-        1784,
+        1782,
         1790
       ],
       "ink_height": [
@@ -9024,14 +9024,14 @@
         1928,
         1928
       ],
-      "notes": "Four-horse coach in a wooded landscape: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Four-horse coach in a wooded landscape: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         583,
-        596
+        597
       ],
       "y_max": [
         1214,
-        1221
+        1222
       ],
       "ink_width": [
         1766,
@@ -9072,9 +9072,9 @@
         1928,
         1928
       ],
-      "notes": "Tiger with palm trees: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Tiger with palm trees: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        320,
+        316,
         326
       ],
       "y_max": [
@@ -9083,11 +9083,11 @@
       ],
       "ink_width": [
         1782,
-        1790
+        1793
       ],
       "ink_height": [
         1144,
-        1155
+        1156
       ]
     },
     {
@@ -9096,13 +9096,13 @@
         1928,
         1928
       ],
-      "notes": "Early steam locomotive with freight and passengers: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Early steam locomotive with freight and passengers: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         542,
         570
       ],
       "y_max": [
-        1228,
+        1226,
         1246
       ],
       "ink_width": [
@@ -9110,7 +9110,7 @@
         1792
       ],
       "ink_height": [
-        659,
+        658,
         702
       ]
     },
@@ -9120,22 +9120,22 @@
         1928,
         1928
       ],
-      "notes": "Sailing ship with blank stern panel: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Sailing ship with blank stern panel: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
-        25,
+        19,
         30
       ],
       "y_max": [
         1758,
-        1762
+        1767
       ],
       "ink_width": [
         1736,
-        1741
+        1752
       ],
       "ink_height": [
         1730,
-        1734
+        1745
       ]
     },
     {
@@ -9144,21 +9144,21 @@
         1928,
         1928
       ],
-      "notes": "Large eagle and shield with stars and banner: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding.",
+      "notes": "Large eagle and shield with stars and banner: source aspect ratio, uniform scaling and original advance retained. Range includes the explicitly reviewed font approximation and curve-conversion rounding. Compatibility review includes measured compact-font bounds after fitting within signed renderer point limits; historical master bounds and the original advance remain covered.",
       "y_min": [
         90,
-        96
+        99
       ],
       "y_max": [
         1721,
         1729
       ],
       "ink_width": [
-        1756,
+        1745,
         1761
       ],
       "ink_height": [
-        1629,
+        1627,
         1634
       ]
     }

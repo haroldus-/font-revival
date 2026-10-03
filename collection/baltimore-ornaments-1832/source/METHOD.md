@@ -92,7 +92,7 @@ The Primer panels share printed rules. `baltimore-cuts-1832/source/primer-rule-m
 
 ## TrueType delivery
 
-The user approved format-specific simplification for drawings exceeding CFF or TrueType renderer limits. The canonical CFF master, SVG and tonal PNG retain full-detail outlines. `source/truetype-glyphs/` records each affected drawing, master-outline SHA256, original and reduced quadratic point counts, contour counts, raster em resolution and measured bounds allowance. `../../baltimore-cuts-1832/source/prepare_truetype.py` renders the canonical glyph and fits a compact outline in the same coordinate frame with the same advance; no source scans or canonical outlines are replaced. OTF, TTF and both webfont formats use these reviewed drawings, as approved by the user. `otf_uses_truetype_approximations` applies them only to the exported CFF font; it preserves their exact 1/64-unit coordinates and leaves the artwork master unchanged. The preparation checks both cubic and quadratic point counts and the TrueType contour count. Additional OTF-only failures exposed the reference renderer’s 65,535-point cubic outline limit: repeated closing endpoints do not add points. New reductions target at most 60,000 points in each curve representation and 4,000 contours; all exported outlines are checked against the renderer limits. Approximation coordinates use a binary-exact 1/64-font-unit grid, far below the 0.5-unit quadratic conversion tolerance. Full-detail OTF outlines also exceeded renderer limits, so the OTF uses the same reviewed drawings. SVG is the full-detail vector delivery. The source hash makes an approximation stale after a master edit.
+The user approved format-specific simplification for drawings exceeding CFF or TrueType renderer limits. The canonical CFF master, SVG and tonal PNG retain full-detail outlines. `source/truetype-glyphs/` records each affected drawing, master-outline SHA256, original and reduced quadratic point counts, contour counts, raster em resolution and measured bounds allowance. `../../baltimore-cuts-1832/source/prepare_truetype.py` renders the canonical glyph and fits a compact outline in the same coordinate frame with the same advance; no source scans or canonical outlines are replaced. OTF, TTF and both webfont formats use these reviewed drawings, as approved by the user. `otf_uses_truetype_approximations` applies them only to the exported CFF font; it preserves their exact 1/64-unit coordinates and leaves the artwork master unchanged. The preparation checks both cubic and quadratic point counts and the TrueType contour count. Additional OTF-only failures exposed the reference renderer’s 65,535-point cubic outline limit: repeated closing endpoints do not add points. Current reductions target at most 32,000 points in each curve representation and 4,000 contours; the compatibility review below explains the stricter limit. All encoded exported outlines are checked against the compatible renderer limits. Approximation coordinates use a binary-exact 1/64-font-unit grid, far below the 0.5-unit quadratic conversion tolerance. Full-detail OTF outlines also exceeded renderer limits, so the OTF uses the same reviewed drawings. SVG is the full-detail vector delivery. The source hash makes an approximation stale after a master edit.
 
 ## Editable master size
 
@@ -125,3 +125,17 @@ All 396 icons were surveyed; 230 receive reviewed rigid rotations. `straightenin
 The reusable authoring helpers are `../../baltimore-cuts-1832/source/straighten.py` (`--family collection/baltimore-ornaments-1832`) and `compare_straightening.py` (`--family collection/baltimore-ornaments-1832 --workspace workspace/baltimore-extraction/straighten-ornaments`). Backups retain the prior fonts and canonical drawings. Normal builds apply the standard glyph overrides; retracing applies `post_trace_transform` after caption cleanup. The comparison PDF shows all changed full-detail drawings at 48, 96, 192 and 384 pixels.
 
 After the alignment revision, the ornament web bundle uses numbered ordinary ZIP parts below 90 MB. Extract every part into the same folder; complete assets are never split between archives. The generated bundle manifest lists the complete set.
+
+## Font renderer compatibility
+
+FreeType 2.13 uses signed 16-bit outline counts, so drawings that fit the
+TrueType file format can still disappear in Firefox and other applications.
+The compatibility review checks both cubic and quadratic point counts against
+32,767, reserving four additional metric points for TrueType. The optional
+`prepare_truetype.py` helper targets at most 32,000 points in each representation
+using the same recorded raster and fitting method. Full-detail artwork, spacing
+and character assignments remain unchanged. `specimens/font-compatibility-review.pdf`
+compares the previous and compatible font drawings at normal display sizes.
+
+References: [FreeType 2.13 outline limits](https://github.com/freetype/freetype/blob/VER-2-13-2/include/freetype/ftimage.h)
+and [TrueType phantom points](https://github.com/freetype/freetype/blob/VER-2-13-2/src/truetype/ttgload.c).
