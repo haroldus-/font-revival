@@ -1,0 +1,7 @@
+{
+  "glyph": "uniE0FA.primary",
+  "advance_width": 1826,
+  "path": "M156 1692C111 1660 101 1473 115 857L129 63L859 58C1256 53 1617 58 1653 67C1713 81 1722 209 1713 893L1699 1706L960 1715C549 1724 188 1710 156 1692ZM1494 1528C1548 1487 1567 1345 1580 875C1599 336 1594 263 1526 232C1485 209 1201 200 905 200C435 209 352 222 298 291C215 410 211 1423 298 1491C403 1583 1380 1610 1494 1528ZM467 889C467 638 485 441 512 428C540 410 736 410 950 428L1338 460L1325 880L1311 1295L891 1309L467 1322V889ZM1115 1103C1211 1017 1224 756 1142 693C1014 592 845 588 722 683C581 798 572 903 699 1062C809 1199 987 1217 1115 1103Z",
+  "notes": "Full native-resolution historical tracing, restored through the standard glyph-edit mechanism over the compact CFF baseline. Private tone layers have named empty baseline slots; encoded icons have complete outlines. This full-detail drawing is authoritative for vector artwork.",
+  "preserve_commands": true
+}

@@ -1,0 +1,88 @@
+{
+  "review": "Final downloadable-font and gallery review",
+  "browser": "Google Chrome, headless Linux",
+  "font_rendering": [
+    {
+      "family": "baltimore-symbols-1832",
+      "format": "otf",
+      "icons": 4,
+      "sizes": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "loaded": "loaded",
+      "failures": []
+    },
+    {
+      "family": "baltimore-symbols-1832",
+      "format": "woff2",
+      "icons": 4,
+      "sizes": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "loaded": "loaded",
+      "failures": []
+    }
+  ],
+  "cff_max_program_bytes": 59999,
+  "cff_global_subroutines": 4,
+  "cff_geometry_verification": "Every serialized glyph outline and hmtx pair matches the reviewed pre-subroutine OTF exactly. TTF, WOFF and WOFF2 files are byte-identical to their reviewed predecessors.",
+  "gallery": {
+    "views_checked": 64,
+    "widths_px": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "protocols": [
+      "http",
+      "file"
+    ],
+    "javascript_errors": 0,
+    "horizontal_overflow": false,
+    "baltimore_search_count": 819,
+    "populated_baltimore_sections": 34
+  },
+  "otf_sha256": "d0cd9fe3a108a5ec174ca4b015d5eb17f5899207211fc0151dc0cd99d880ffe8",
+  "tests_passed": 90,
+  "straightening": {
+    "icons_reviewed": 4,
+    "icons_rotated": 0,
+    "source_audit": "straightening-review.json"
+  },
+  "published_preview_compression": {
+    "method": "Lossless gzip storage of inline SVG path markup in the staged public gallery; plain downloadable SVGs and repository HTML remain complete.",
+    "browser_checks": [
+      {
+        "page": "icons/baltimore-1832-p231-368.html",
+        "protocol": "http",
+        "identical_paths": true,
+        "recolouring": true
+      },
+      {
+        "page": "icons/baltimore-1832-p127-70.html",
+        "protocol": "http",
+        "identical_paths": true,
+        "recolouring": true
+      },
+      {
+        "page": "icons/baltimore-1832-p231-368.html",
+        "protocol": "file",
+        "identical_paths": true,
+        "recolouring": true
+      },
+      {
+        "page": "icons/baltimore-1832-p127-70.html",
+        "protocol": "file",
+        "identical_paths": true,
+        "recolouring": true
+      }
+    ]
+  }
+}

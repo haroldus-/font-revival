@@ -1,0 +1,74 @@
+[
+  {
+    "glyph": "uniE005",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "65b26a8166f4285c6edb8ccf258f9de1b2039c333357cabbca7bdd03dd8b482f"
+  },
+  {
+    "glyph": "uniE005.primary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "9dd12c8fe202d5c5b585f67cbc43e701b1646a1422eb4efe76265d894c632cab"
+  },
+  {
+    "glyph": "uniE005.secondary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "4bd67e52aca8282c572294195059ee618ed54bcba09e764171ce4223f1bee9be"
+  },
+  {
+    "glyph": "uniE005.tertiary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "0c1548a8e5ec3bed1d3a3b19efcd73a5c4041ef03c963dde5467a3b906da0ddd"
+  },
+  {
+    "glyph": "uniE051",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "e60f806fab1d3043e2fd10e927762f64edc167cf7c0cd7010dc8247970e081f0"
+  },
+  {
+    "glyph": "uniE051.primary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "02b933e31737f9a26883babbf4992cb676d15aa1fd2d19c9348dae251581f696"
+  },
+  {
+    "glyph": "uniE051.secondary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "2eacaad14de74a5748c71aac6dcadb6ac94eaf1d1cc44ae63d9b31f5784e4611"
+  },
+  {
+    "glyph": "uniE051.tertiary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "eb36866a8263d419040a6b3c28ae37bf106ac0fe8ea05d660c3bb7e15e2e411f"
+  },
+  {
+    "glyph": "uniE0D1",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "d2a0215fb6bba1973113149a8d9f648d8940711f87072499dde7a8f5931cc734"
+  },
+  {
+    "glyph": "uniE0D1.primary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "b357f67101ea46fad30ae635426bbb634b5e0937c9783993c49df7c12da752f6"
+  },
+  {
+    "glyph": "uniE0D1.secondary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "eef77294d5d38e1fd3fd2ddfacbf78c1e7bc0b7357227a75b0f5e62daa6b7f76"
+  },
+  {
+    "glyph": "uniE0D1.tertiary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "17a8fc29d14d1527287621c230c9bc99ec13c0b6f9753cd41e5faa3086dcd1ac"
+  }
+]

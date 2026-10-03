@@ -1,0 +1,766 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-baltimore-1832-p121-1 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-1::before { content: "\E000"; }
+.fr-baltimore-1832-p121-2 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-2::before { content: "\E001"; }
+.fr-baltimore-1832-p121-3 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-3::before { content: "\E002"; }
+.fr-baltimore-1832-p121-4 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-4::before { content: "\E003"; }
+.fr-baltimore-1832-p121-5 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-5::before { content: "\E004"; }
+.fr-baltimore-1832-p121-6 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-6::before { content: "\E005"; }
+.fr-baltimore-1832-p121-7 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-7::before { content: "\E006"; }
+.fr-baltimore-1832-p121-8 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-8::before { content: "\E007"; }
+.fr-baltimore-1832-p121-9 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-9::before { content: "\E008"; }
+.fr-baltimore-1832-p121-10 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-10::before { content: "\E009"; }
+.fr-baltimore-1832-p121-11 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-11::before { content: "\E00A"; }
+.fr-baltimore-1832-p121-12 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-12::before { content: "\E00B"; }
+.fr-baltimore-1832-p121-13 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p121-13::before { content: "\E00C"; }
+.fr-baltimore-1832-p123-14 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-14::before { content: "\E00D"; }
+.fr-baltimore-1832-p123-15 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-15::before { content: "\E00E"; }
+.fr-baltimore-1832-p123-16 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-16::before { content: "\E00F"; }
+.fr-baltimore-1832-p123-17 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-17::before { content: "\E010"; }
+.fr-baltimore-1832-p123-18 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-18::before { content: "\E011"; }
+.fr-baltimore-1832-p123-19 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-19::before { content: "\E012"; }
+.fr-baltimore-1832-p123-20 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-20::before { content: "\E013"; }
+.fr-baltimore-1832-p123-21 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-21::before { content: "\E014"; }
+.fr-baltimore-1832-p123-22 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-22::before { content: "\E015"; }
+.fr-baltimore-1832-p123-23 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-23::before { content: "\E016"; }
+.fr-baltimore-1832-p123-24 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-24::before { content: "\E017"; }
+.fr-baltimore-1832-p123-25 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-25::before { content: "\E018"; }
+.fr-baltimore-1832-p123-26 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-26::before { content: "\E019"; }
+.fr-baltimore-1832-p123-27 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-27::before { content: "\E01A"; }
+.fr-baltimore-1832-p123-28 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-28::before { content: "\E01B"; }
+.fr-baltimore-1832-p123-29 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-29::before { content: "\E01C"; }
+.fr-baltimore-1832-p123-30 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-30::before { content: "\E01D"; }
+.fr-baltimore-1832-p123-31 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-31::before { content: "\E01E"; }
+.fr-baltimore-1832-p123-32 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-32::before { content: "\E01F"; }
+.fr-baltimore-1832-p123-33 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-33::before { content: "\E020"; }
+.fr-baltimore-1832-p123-34 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-34::before { content: "\E021"; }
+.fr-baltimore-1832-p123-35 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-35::before { content: "\E022"; }
+.fr-baltimore-1832-p123-36 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-36::before { content: "\E023"; }
+.fr-baltimore-1832-p123-37 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p123-37::before { content: "\E024"; }
+.fr-baltimore-1832-p125-38 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-38::before { content: "\E025"; }
+.fr-baltimore-1832-p125-39 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-39::before { content: "\E026"; }
+.fr-baltimore-1832-p125-40 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-40::before { content: "\E027"; }
+.fr-baltimore-1832-p125-41 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-41::before { content: "\E028"; }
+.fr-baltimore-1832-p125-42 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-42::before { content: "\E029"; }
+.fr-baltimore-1832-p125-43 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-43::before { content: "\E02A"; }
+.fr-baltimore-1832-p125-44 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-44::before { content: "\E02B"; }
+.fr-baltimore-1832-p125-45 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-45::before { content: "\E02C"; }
+.fr-baltimore-1832-p125-46 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-46::before { content: "\E02D"; }
+.fr-baltimore-1832-p125-47 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-47::before { content: "\E02E"; }
+.fr-baltimore-1832-p125-48 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-48::before { content: "\E02F"; }
+.fr-baltimore-1832-p125-49 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-49::before { content: "\E030"; }
+.fr-baltimore-1832-p125-50 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-50::before { content: "\E031"; }
+.fr-baltimore-1832-p125-51 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-51::before { content: "\E032"; }
+.fr-baltimore-1832-p125-52 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-52::before { content: "\E033"; }
+.fr-baltimore-1832-p125-53 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-53::before { content: "\E034"; }
+.fr-baltimore-1832-p125-54 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-54::before { content: "\E035"; }
+.fr-baltimore-1832-p125-55 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-55::before { content: "\E036"; }
+.fr-baltimore-1832-p125-56 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-56::before { content: "\E037"; }
+.fr-baltimore-1832-p125-57 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p125-57::before { content: "\E038"; }
+.fr-baltimore-1832-p127-58 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-58::before { content: "\E039"; }
+.fr-baltimore-1832-p127-59 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-59::before { content: "\E03A"; }
+.fr-baltimore-1832-p127-60 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-60::before { content: "\E03B"; }
+.fr-baltimore-1832-p127-61 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-61::before { content: "\E03C"; }
+.fr-baltimore-1832-p127-62 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-62::before { content: "\E03D"; }
+.fr-baltimore-1832-p127-63 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-63::before { content: "\E03E"; }
+.fr-baltimore-1832-p127-64 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-64::before { content: "\E03F"; }
+.fr-baltimore-1832-p127-65 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-65::before { content: "\E040"; }
+.fr-baltimore-1832-p127-66 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-66::before { content: "\E041"; }
+.fr-baltimore-1832-p127-67 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-67::before { content: "\E042"; }
+.fr-baltimore-1832-p127-68 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-68::before { content: "\E043"; }
+.fr-baltimore-1832-p127-69 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-69::before { content: "\E044"; }
+.fr-baltimore-1832-p127-70 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-70::before { content: "\E045"; }
+.fr-baltimore-1832-p127-71 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-71::before { content: "\E046"; }
+.fr-baltimore-1832-p127-72 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p127-72::before { content: "\E047"; }
+.fr-baltimore-1832-p129-73 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-73::before { content: "\E048"; }
+.fr-baltimore-1832-p129-74 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-74::before { content: "\E049"; }
+.fr-baltimore-1832-p129-75 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-75::before { content: "\E04A"; }
+.fr-baltimore-1832-p129-76 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-76::before { content: "\E04B"; }
+.fr-baltimore-1832-p129-77 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-77::before { content: "\E04C"; }
+.fr-baltimore-1832-p129-78 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-78::before { content: "\E04D"; }
+.fr-baltimore-1832-p129-79 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-79::before { content: "\E04E"; }
+.fr-baltimore-1832-p129-80 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-80::before { content: "\E04F"; }
+.fr-baltimore-1832-p129-81 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-81::before { content: "\E050"; }
+.fr-baltimore-1832-p129-82 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-82::before { content: "\E051"; }
+.fr-baltimore-1832-p129-83 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-83::before { content: "\E052"; }
+.fr-baltimore-1832-p129-84 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-84::before { content: "\E053"; }
+.fr-baltimore-1832-p129-85 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-85::before { content: "\E054"; }
+.fr-baltimore-1832-p129-86 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-86::before { content: "\E055"; }
+.fr-baltimore-1832-p129-87 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-87::before { content: "\E056"; }
+.fr-baltimore-1832-p129-88 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-88::before { content: "\E057"; }
+.fr-baltimore-1832-p129-89 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p129-89::before { content: "\E058"; }
+.fr-baltimore-1832-p131-91 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p131-91::before { content: "\E059"; }
+.fr-baltimore-1832-p131-92 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p131-92::before { content: "\E05A"; }
+.fr-baltimore-1832-p131-93 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p131-93::before { content: "\E05B"; }
+.fr-baltimore-1832-p133-94 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p133-94::before { content: "\E05C"; }
+.fr-baltimore-1832-p133-95 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p133-95::before { content: "\E05D"; }
+.fr-baltimore-1832-p133-96 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p133-96::before { content: "\E05E"; }
+.fr-baltimore-1832-p133-97 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p133-97::before { content: "\E05F"; }
+.fr-baltimore-1832-p133-98 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p133-98::before { content: "\E060"; }
+.fr-baltimore-1832-p133-99 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p133-99::before { content: "\E061"; }
+.fr-baltimore-1832-p133-100 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p133-100::before { content: "\E062"; }
+.fr-baltimore-1832-p133-101 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p133-101::before { content: "\E063"; }
+.fr-baltimore-1832-p133-102 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p133-102::before { content: "\E064"; }
+.fr-baltimore-1832-p135-103 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p135-103::before { content: "\E065"; }
+.fr-baltimore-1832-p135-104 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p135-104::before { content: "\E066"; }
+.fr-baltimore-1832-p135-105 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p135-105::before { content: "\E067"; }
+.fr-baltimore-1832-p135-106 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p135-106::before { content: "\E068"; }
+.fr-baltimore-1832-p135-107 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p135-107::before { content: "\E069"; }
+.fr-baltimore-1832-p135-108 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p135-108::before { content: "\E06A"; }
+.fr-baltimore-1832-p137-109 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p137-109::before { content: "\E06B"; }
+.fr-baltimore-1832-p137-110 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p137-110::before { content: "\E06C"; }
+.fr-baltimore-1832-p137-111 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p137-111::before { content: "\E06D"; }
+.fr-baltimore-1832-p137-112 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p137-112::before { content: "\E06E"; }
+.fr-baltimore-1832-p137-113 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p137-113::before { content: "\E06F"; }
+.fr-baltimore-1832-p137-114 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p137-114::before { content: "\E070"; }
+.fr-baltimore-1832-p137-115 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p137-115::before { content: "\E071"; }
+.fr-baltimore-1832-p139-116 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p139-116::before { content: "\E072"; }
+.fr-baltimore-1832-p139-117 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p139-117::before { content: "\E073"; }
+.fr-baltimore-1832-p139-118 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p139-118::before { content: "\E074"; }
+.fr-baltimore-1832-p139-119 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p139-119::before { content: "\E075"; }
+.fr-baltimore-1832-p139-120 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p139-120::before { content: "\E076"; }
+.fr-baltimore-1832-p139-121 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p139-121::before { content: "\E077"; }
+.fr-baltimore-1832-p141-122 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p141-122::before { content: "\E078"; }
+.fr-baltimore-1832-p141-123 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p141-123::before { content: "\E079"; }
+.fr-baltimore-1832-p141-124 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p141-124::before { content: "\E07A"; }
+.fr-baltimore-1832-p141-125 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p141-125::before { content: "\E07B"; }
+.fr-baltimore-1832-p143-126 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p143-126::before { content: "\E07C"; }
+.fr-baltimore-1832-p143-127 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p143-127::before { content: "\E07D"; }
+.fr-baltimore-1832-p143-128 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p143-128::before { content: "\E07E"; }
+.fr-baltimore-1832-p143-129 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p143-129::before { content: "\E07F"; }
+.fr-baltimore-1832-p145-130 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p145-130::before { content: "\E080"; }
+.fr-baltimore-1832-p145-131 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p145-131::before { content: "\E081"; }
+.fr-baltimore-1832-p145-132 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p145-132::before { content: "\E082"; }
+.fr-baltimore-1832-p145-133 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p145-133::before { content: "\E083"; }
+.fr-baltimore-1832-p147-134 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p147-134::before { content: "\E084"; }
+.fr-baltimore-1832-p147-135 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p147-135::before { content: "\E085"; }
+.fr-baltimore-1832-p147-136 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p147-136::before { content: "\E086"; }
+.fr-baltimore-1832-p147-137 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p147-137::before { content: "\E087"; }
+.fr-baltimore-1832-p149-138 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-138::before { content: "\E088"; }
+.fr-baltimore-1832-p149-139 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-139::before { content: "\E089"; }
+.fr-baltimore-1832-p149-140 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-140::before { content: "\E08A"; }
+.fr-baltimore-1832-p149-141 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-141::before { content: "\E08B"; }
+.fr-baltimore-1832-p149-142 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-142::before { content: "\E08C"; }
+.fr-baltimore-1832-p149-143 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-143::before { content: "\E08D"; }
+.fr-baltimore-1832-p149-144 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-144::before { content: "\E08E"; }
+.fr-baltimore-1832-p149-145 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-145::before { content: "\E08F"; }
+.fr-baltimore-1832-p149-146 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-146::before { content: "\E090"; }
+.fr-baltimore-1832-p149-147 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-147::before { content: "\E091"; }
+.fr-baltimore-1832-p149-148 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-148::before { content: "\E092"; }
+.fr-baltimore-1832-p149-149 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-149::before { content: "\E093"; }
+.fr-baltimore-1832-p149-150 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-150::before { content: "\E094"; }
+.fr-baltimore-1832-p149-151 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p149-151::before { content: "\E095"; }
+.fr-baltimore-1832-p151-152 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-152::before { content: "\E096"; }
+.fr-baltimore-1832-p151-153 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-153::before { content: "\E097"; }
+.fr-baltimore-1832-p151-154 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-154::before { content: "\E098"; }
+.fr-baltimore-1832-p151-155 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-155::before { content: "\E099"; }
+.fr-baltimore-1832-p151-156 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-156::before { content: "\E09A"; }
+.fr-baltimore-1832-p151-157 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-157::before { content: "\E09B"; }
+.fr-baltimore-1832-p151-158 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-158::before { content: "\E09C"; }
+.fr-baltimore-1832-p151-159 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-159::before { content: "\E09D"; }
+.fr-baltimore-1832-p151-160 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-160::before { content: "\E09E"; }
+.fr-baltimore-1832-p151-161 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-161::before { content: "\E09F"; }
+.fr-baltimore-1832-p151-162 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-162::before { content: "\E0A0"; }
+.fr-baltimore-1832-p151-163 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p151-163::before { content: "\E0A1"; }
+.fr-baltimore-1832-p153-164 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-164::before { content: "\E0A2"; }
+.fr-baltimore-1832-p153-165 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-165::before { content: "\E0A3"; }
+.fr-baltimore-1832-p153-166 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-166::before { content: "\E0A4"; }
+.fr-baltimore-1832-p153-167 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-167::before { content: "\E0A5"; }
+.fr-baltimore-1832-p153-168 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-168::before { content: "\E0A6"; }
+.fr-baltimore-1832-p153-169 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-169::before { content: "\E0A7"; }
+.fr-baltimore-1832-p153-170 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-170::before { content: "\E0A8"; }
+.fr-baltimore-1832-p153-171 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-171::before { content: "\E0A9"; }
+.fr-baltimore-1832-p153-172 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-172::before { content: "\E0AA"; }
+.fr-baltimore-1832-p153-173 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-173::before { content: "\E0AB"; }
+.fr-baltimore-1832-p153-174 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-174::before { content: "\E0AC"; }
+.fr-baltimore-1832-p153-175 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-175::before { content: "\E0AD"; }
+.fr-baltimore-1832-p153-176 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-176::before { content: "\E0AE"; }
+.fr-baltimore-1832-p153-177 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p153-177::before { content: "\E0AF"; }
+.fr-baltimore-1832-p155-178 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-178::before { content: "\E0B0"; }
+.fr-baltimore-1832-p155-179 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-179::before { content: "\E0B1"; }
+.fr-baltimore-1832-p155-180 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-180::before { content: "\E0B2"; }
+.fr-baltimore-1832-p155-181 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-181::before { content: "\E0B3"; }
+.fr-baltimore-1832-p155-182 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-182::before { content: "\E0B4"; }
+.fr-baltimore-1832-p155-183 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-183::before { content: "\E0B5"; }
+.fr-baltimore-1832-p155-184 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-184::before { content: "\E0B6"; }
+.fr-baltimore-1832-p155-185 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-185::before { content: "\E0B7"; }
+.fr-baltimore-1832-p155-186 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-186::before { content: "\E0B8"; }
+.fr-baltimore-1832-p155-187 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-187::before { content: "\E0B9"; }
+.fr-baltimore-1832-p155-188 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-188::before { content: "\E0BA"; }
+.fr-baltimore-1832-p155-189 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-189::before { content: "\E0BB"; }
+.fr-baltimore-1832-p155-190 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-190::before { content: "\E0BC"; }
+.fr-baltimore-1832-p155-191 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p155-191::before { content: "\E0BD"; }
+.fr-baltimore-1832-p157-192 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-192::before { content: "\E0BE"; }
+.fr-baltimore-1832-p157-193 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-193::before { content: "\E0BF"; }
+.fr-baltimore-1832-p157-194 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-194::before { content: "\E0C0"; }
+.fr-baltimore-1832-p157-195 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-195::before { content: "\E0C1"; }
+.fr-baltimore-1832-p157-196 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-196::before { content: "\E0C2"; }
+.fr-baltimore-1832-p157-197 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-197::before { content: "\E0C3"; }
+.fr-baltimore-1832-p157-198 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-198::before { content: "\E0C4"; }
+.fr-baltimore-1832-p157-199 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-199::before { content: "\E0C5"; }
+.fr-baltimore-1832-p157-200 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-200::before { content: "\E0C6"; }
+.fr-baltimore-1832-p157-201 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-201::before { content: "\E0C7"; }
+.fr-baltimore-1832-p157-202 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-202::before { content: "\E0C8"; }
+.fr-baltimore-1832-p157-203 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-203::before { content: "\E0C9"; }
+.fr-baltimore-1832-p157-204 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p157-204::before { content: "\E0CA"; }
+.fr-baltimore-1832-p159-205 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-205::before { content: "\E0CB"; }
+.fr-baltimore-1832-p159-206 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-206::before { content: "\E0CC"; }
+.fr-baltimore-1832-p159-207 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-207::before { content: "\E0CD"; }
+.fr-baltimore-1832-p159-208 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-208::before { content: "\E0CE"; }
+.fr-baltimore-1832-p159-209 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-209::before { content: "\E0CF"; }
+.fr-baltimore-1832-p159-210 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-210::before { content: "\E0D0"; }
+.fr-baltimore-1832-p159-211 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-211::before { content: "\E0D1"; }
+.fr-baltimore-1832-p159-212 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-212::before { content: "\E0D2"; }
+.fr-baltimore-1832-p159-213 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-213::before { content: "\E0D3"; }
+.fr-baltimore-1832-p159-214 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-214::before { content: "\E0D4"; }
+.fr-baltimore-1832-p159-215 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-215::before { content: "\E0D5"; }
+.fr-baltimore-1832-p159-216 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-216::before { content: "\E0D6"; }
+.fr-baltimore-1832-p159-217 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p159-217::before { content: "\E0D7"; }
+.fr-baltimore-1832-p161-218 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-218::before { content: "\E0D8"; }
+.fr-baltimore-1832-p161-219 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-219::before { content: "\E0D9"; }
+.fr-baltimore-1832-p161-220 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-220::before { content: "\E0DA"; }
+.fr-baltimore-1832-p161-221 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-221::before { content: "\E0DB"; }
+.fr-baltimore-1832-p161-222 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-222::before { content: "\E0DC"; }
+.fr-baltimore-1832-p161-223 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-223::before { content: "\E0DD"; }
+.fr-baltimore-1832-p161-224 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-224::before { content: "\E0DE"; }
+.fr-baltimore-1832-p161-225 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-225::before { content: "\E0DF"; }
+.fr-baltimore-1832-p161-226 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-226::before { content: "\E0E0"; }
+.fr-baltimore-1832-p161-227 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-227::before { content: "\E0E1"; }
+.fr-baltimore-1832-p161-228 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-228::before { content: "\E0E2"; }
+.fr-baltimore-1832-p161-229 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p161-229::before { content: "\E0E3"; }
+.fr-baltimore-1832-p163-230 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p163-230::before { content: "\E0E4"; }
+.fr-baltimore-1832-p163-231 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p163-231::before { content: "\E0E5"; }
+.fr-baltimore-1832-p163-232 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p163-232::before { content: "\E0E6"; }
+.fr-baltimore-1832-p165-233 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p165-233::before { content: "\E0E7"; }
+.fr-baltimore-1832-p165-234 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p165-234::before { content: "\E0E8"; }
+.fr-baltimore-1832-p171-239 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p171-239::before { content: "\E0E9"; }
+.fr-baltimore-1832-p171-240 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p171-240::before { content: "\E0EA"; }
+.fr-baltimore-1832-p173-241 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p173-241::before { content: "\E0EB"; }
+.fr-baltimore-1832-p173-242 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p173-242::before { content: "\E0EC"; }
+.fr-baltimore-1832-p175-243 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p175-243::before { content: "\E0ED"; }
+.fr-baltimore-1832-p175-244 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p175-244::before { content: "\E0EE"; }
+.fr-baltimore-1832-p177-245 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p177-245::before { content: "\E0EF"; }
+.fr-baltimore-1832-p177-246 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p177-246::before { content: "\E0F0"; }
+.fr-baltimore-1832-p177-247 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p177-247::before { content: "\E0F1"; }
+.fr-baltimore-1832-p177-248 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p177-248::before { content: "\E0F2"; }
+.fr-baltimore-1832-p177-249 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p177-249::before { content: "\E0F3"; }
+.fr-baltimore-1832-p177-250 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p177-250::before { content: "\E0F4"; }
+.fr-baltimore-1832-p177-251 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p177-251::before { content: "\E0F5"; }
+.fr-baltimore-1832-p177-252 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p177-252::before { content: "\E0F6"; }
+.fr-baltimore-1832-p179-253 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p179-253::before { content: "\E0F7"; }
+.fr-baltimore-1832-p179-254 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p179-254::before { content: "\E0F8"; }
+.fr-baltimore-1832-p179-255 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p179-255::before { content: "\E0F9"; }
+.fr-baltimore-1832-p179-256 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p179-256::before { content: "\E0FA"; }
+.fr-baltimore-1832-p179-257 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p179-257::before { content: "\E0FB"; }
+.fr-baltimore-1832-p179-258 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p179-258::before { content: "\E0FC"; }
+.fr-baltimore-1832-p179-259 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p179-259::before { content: "\E0FD"; }
+.fr-baltimore-1832-p179-260 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p179-260::before { content: "\E0FE"; }
+.fr-baltimore-1832-p179-261 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p179-261::before { content: "\E0FF"; }
+.fr-baltimore-1832-p179-262 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p179-262::before { content: "\E100"; }
+.fr-baltimore-1832-p181-263 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p181-263::before { content: "\E101"; }
+.fr-baltimore-1832-p181-264 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p181-264::before { content: "\E102"; }
+.fr-baltimore-1832-p181-265 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p181-265::before { content: "\E103"; }
+.fr-baltimore-1832-p181-266 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p181-266::before { content: "\E104"; }
+.fr-baltimore-1832-p181-267 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p181-267::before { content: "\E105"; }
+.fr-baltimore-1832-p181-268 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p181-268::before { content: "\E106"; }
+.fr-baltimore-1832-p181-269 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p181-269::before { content: "\E107"; }
+.fr-baltimore-1832-p183-270 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p183-270::before { content: "\E108"; }
+.fr-baltimore-1832-p183-271 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p183-271::before { content: "\E109"; }
+.fr-baltimore-1832-p183-272 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p183-272::before { content: "\E10A"; }
+.fr-baltimore-1832-p183-273 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p183-273::before { content: "\E10B"; }
+.fr-baltimore-1832-p183-274 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p183-274::before { content: "\E10C"; }
+.fr-baltimore-1832-p185-279 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p185-279::before { content: "\E10D"; }
+.fr-baltimore-1832-p185-280 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p185-280::before { content: "\E10E"; }
+.fr-baltimore-1832-p185-281 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p185-281::before { content: "\E10F"; }
+.fr-baltimore-1832-p185-282 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p185-282::before { content: "\E110"; }
+.fr-baltimore-1832-p185-283 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p185-283::before { content: "\E111"; }
+.fr-baltimore-1832-p185-284 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p185-284::before { content: "\E112"; }
+.fr-baltimore-1832-p185-285 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p185-285::before { content: "\E113"; }
+.fr-baltimore-1832-p185-286 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p185-286::before { content: "\E114"; }
+.fr-baltimore-1832-p187-287 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p187-287::before { content: "\E115"; }
+.fr-baltimore-1832-p187-288 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p187-288::before { content: "\E116"; }
+.fr-baltimore-1832-p187-289 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p187-289::before { content: "\E117"; }
+.fr-baltimore-1832-p187-290 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p187-290::before { content: "\E118"; }
+.fr-baltimore-1832-p187-291 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p187-291::before { content: "\E119"; }
+.fr-baltimore-1832-p187-292 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p187-292::before { content: "\E11A"; }
+.fr-baltimore-1832-p187-295 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p187-295::before { content: "\E11B"; }
+.fr-baltimore-1832-p189-296 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p189-296::before { content: "\E11C"; }
+.fr-baltimore-1832-p189-297 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p189-297::before { content: "\E11D"; }
+.fr-baltimore-1832-p189-298 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p189-298::before { content: "\E11E"; }
+.fr-baltimore-1832-p189-299 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p189-299::before { content: "\E11F"; }
+.fr-baltimore-1832-p189-300 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p189-300::before { content: "\E120"; }
+.fr-baltimore-1832-p189-301 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p189-301::before { content: "\E121"; }
+.fr-baltimore-1832-p189-302 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p189-302::before { content: "\E122"; }
+.fr-baltimore-1832-p191-303 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p191-303::before { content: "\E123"; }
+.fr-baltimore-1832-p191-304 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p191-304::before { content: "\E124"; }
+.fr-baltimore-1832-p191-305 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p191-305::before { content: "\E125"; }
+.fr-baltimore-1832-p191-306 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p191-306::before { content: "\E126"; }
+.fr-baltimore-1832-p191-307 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p191-307::before { content: "\E127"; }
+.fr-baltimore-1832-p191-308 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p191-308::before { content: "\E128"; }
+.fr-baltimore-1832-p193-309 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p193-309::before { content: "\E129"; }
+.fr-baltimore-1832-p193-310 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p193-310::before { content: "\E12A"; }
+.fr-baltimore-1832-p193-311 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p193-311::before { content: "\E12B"; }
+.fr-baltimore-1832-p193-312 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p193-312::before { content: "\E12C"; }
+.fr-baltimore-1832-p193-313 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p193-313::before { content: "\E12D"; }
+.fr-baltimore-1832-p193-314 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p193-314::before { content: "\E12E"; }
+.fr-baltimore-1832-p195-315 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p195-315::before { content: "\E12F"; }
+.fr-baltimore-1832-p195-316 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p195-316::before { content: "\E130"; }
+.fr-baltimore-1832-p195-317 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p195-317::before { content: "\E131"; }
+.fr-baltimore-1832-p195-318 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p195-318::before { content: "\E132"; }
+.fr-baltimore-1832-p195-319 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p195-319::before { content: "\E133"; }
+.fr-baltimore-1832-p195-320 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p195-320::before { content: "\E134"; }
+.fr-baltimore-1832-p197-321 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p197-321::before { content: "\E135"; }
+.fr-baltimore-1832-p197-322 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p197-322::before { content: "\E136"; }
+.fr-baltimore-1832-p197-323 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p197-323::before { content: "\E137"; }
+.fr-baltimore-1832-p197-324 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p197-324::before { content: "\E138"; }
+.fr-baltimore-1832-p197-325 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p197-325::before { content: "\E139"; }
+.fr-baltimore-1832-p197-326 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p197-326::before { content: "\E13A"; }
+.fr-baltimore-1832-p199-327 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p199-327::before { content: "\E13B"; }
+.fr-baltimore-1832-p199-328 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p199-328::before { content: "\E13C"; }
+.fr-baltimore-1832-p199-329 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p199-329::before { content: "\E13D"; }
+.fr-baltimore-1832-p199-330 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p199-330::before { content: "\E13E"; }
+.fr-baltimore-1832-p199-331 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p199-331::before { content: "\E13F"; }
+.fr-baltimore-1832-p199-332 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p199-332::before { content: "\E140"; }
+.fr-baltimore-1832-p201-333 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p201-333::before { content: "\E141"; }
+.fr-baltimore-1832-p201-334 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p201-334::before { content: "\E142"; }
+.fr-baltimore-1832-p201-335 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p201-335::before { content: "\E143"; }
+.fr-baltimore-1832-p201-336 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p201-336::before { content: "\E144"; }
+.fr-baltimore-1832-p201-337 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p201-337::before { content: "\E145"; }
+.fr-baltimore-1832-p201-338 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p201-338::before { content: "\E146"; }
+.fr-baltimore-1832-p203-339 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p203-339::before { content: "\E147"; }
+.fr-baltimore-1832-p203-340 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p203-340::before { content: "\E148"; }
+.fr-baltimore-1832-p203-341 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p203-341::before { content: "\E149"; }
+.fr-baltimore-1832-p203-342 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p203-342::before { content: "\E14A"; }
+.fr-baltimore-1832-p203-343 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p203-343::before { content: "\E14B"; }
+.fr-baltimore-1832-p203-344 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p203-344::before { content: "\E14C"; }
+.fr-baltimore-1832-p205-345 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p205-345::before { content: "\E14D"; }
+.fr-baltimore-1832-p205-346 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p205-346::before { content: "\E14E"; }
+.fr-baltimore-1832-p205-347 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p205-347::before { content: "\E14F"; }
+.fr-baltimore-1832-p205-348 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p205-348::before { content: "\E150"; }
+.fr-baltimore-1832-p205-349 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p205-349::before { content: "\E151"; }
+.fr-baltimore-1832-p205-350 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p205-350::before { content: "\E152"; }
+.fr-baltimore-1832-p207-351 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p207-351::before { content: "\E153"; }
+.fr-baltimore-1832-p207-352 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p207-352::before { content: "\E154"; }
+.fr-baltimore-1832-p207-353 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p207-353::before { content: "\E155"; }
+.fr-baltimore-1832-p207-354 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p207-354::before { content: "\E156"; }
+.fr-baltimore-1832-p207-355 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p207-355::before { content: "\E157"; }
+.fr-baltimore-1832-p207-356 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p207-356::before { content: "\E158"; }
+.fr-baltimore-1832-p209-357-01 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-01::before { content: "\E159"; }
+.fr-baltimore-1832-p209-357-02 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-02::before { content: "\E15A"; }
+.fr-baltimore-1832-p209-357-03 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-03::before { content: "\E15B"; }
+.fr-baltimore-1832-p209-357-04 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-04::before { content: "\E15C"; }
+.fr-baltimore-1832-p209-357-05 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-05::before { content: "\E15D"; }
+.fr-baltimore-1832-p209-357-06 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-06::before { content: "\E15E"; }
+.fr-baltimore-1832-p209-357-07 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-07::before { content: "\E15F"; }
+.fr-baltimore-1832-p209-357-08 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-08::before { content: "\E160"; }
+.fr-baltimore-1832-p209-357-09 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-09::before { content: "\E161"; }
+.fr-baltimore-1832-p209-357-10 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-10::before { content: "\E162"; }
+.fr-baltimore-1832-p209-357-11 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-11::before { content: "\E163"; }
+.fr-baltimore-1832-p209-357-12 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-12::before { content: "\E164"; }
+.fr-baltimore-1832-p209-357-13 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-13::before { content: "\E165"; }
+.fr-baltimore-1832-p209-357-14 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-14::before { content: "\E166"; }
+.fr-baltimore-1832-p209-357-15 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-15::before { content: "\E167"; }
+.fr-baltimore-1832-p209-357-16 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-16::before { content: "\E168"; }
+.fr-baltimore-1832-p209-357-17 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-17::before { content: "\E169"; }
+.fr-baltimore-1832-p209-357-18 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-18::before { content: "\E16A"; }
+.fr-baltimore-1832-p209-357-19 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-19::before { content: "\E16B"; }
+.fr-baltimore-1832-p209-357-20 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-20::before { content: "\E16C"; }
+.fr-baltimore-1832-p209-357-21 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-21::before { content: "\E16D"; }
+.fr-baltimore-1832-p209-357-22 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-22::before { content: "\E16E"; }
+.fr-baltimore-1832-p209-357-23 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-23::before { content: "\E16F"; }
+.fr-baltimore-1832-p209-357-24 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-24::before { content: "\E170"; }
+.fr-baltimore-1832-p209-357-25 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p209-357-25::before { content: "\E171"; }
+.fr-baltimore-1832-p211-358 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p211-358::before { content: "\E172"; }
+.fr-baltimore-1832-p213-359 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p213-359::before { content: "\E173"; }
+.fr-baltimore-1832-p215-360 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p215-360::before { content: "\E174"; }
+.fr-baltimore-1832-p217-361 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p217-361::before { content: "\E175"; }
+.fr-baltimore-1832-p219-362 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p219-362::before { content: "\E176"; }
+.fr-baltimore-1832-p221-363 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p221-363::before { content: "\E177"; }
+.fr-baltimore-1832-p223-364 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p223-364::before { content: "\E178"; }
+.fr-baltimore-1832-p225-365 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p225-365::before { content: "\E179"; }
+.fr-baltimore-1832-p227-366 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p227-366::before { content: "\E17A"; }
+.fr-baltimore-1832-p229-367 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p229-367::before { content: "\E17B"; }
+.fr-baltimore-1832-p231-368 { font-family: "Baltimore Cuts 1832"; }
+.fr-baltimore-1832-p231-368::before { content: "\E17C"; }

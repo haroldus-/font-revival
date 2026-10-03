@@ -1,0 +1,74 @@
+[
+  {
+    "glyph": "uniE040",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "71d68dfce20649431750c4cfe48e8c37b2f31cf7c4590150386518772d51b7ec"
+  },
+  {
+    "glyph": "uniE040.primary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "109218085b56999dbca0eb2f0370c04fe61af7b42eaafc05bb1407deabcebb99"
+  },
+  {
+    "glyph": "uniE040.secondary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "2af55c7395497cc6d962184db9bf9e57df15e2afe86b3a8faa1b39e97b4478a5"
+  },
+  {
+    "glyph": "uniE040.tertiary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "ef805397729ad33e0ee23d1fa1d4f55de1b933526b69ff5f78cf2df5c5423d8f"
+  },
+  {
+    "glyph": "uniE045",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "6d8c425e11f13da84d27c957f6e122b8d734c4958e68cfd79055b481e38c9bfd"
+  },
+  {
+    "glyph": "uniE045.primary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "3b20129a8a22a49f409949a8adb35036faf200469d15f0992fef5ea80d011a0f"
+  },
+  {
+    "glyph": "uniE045.secondary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "e161a5bf673f3c7e0c49765d68d388fb871ecbb7637d88071d09b3d67abe4a3c"
+  },
+  {
+    "glyph": "uniE045.tertiary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "b261e1082680e975ac79f6d20f6e0ac14796b7e4b2ac911dcc26a19c63a9a631"
+  },
+  {
+    "glyph": "uniE168",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "74908c2af826b0dbb1f0711e677bb48df3b2fccd3276455906be3fcacb9b455d"
+  },
+  {
+    "glyph": "uniE168.primary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "45fe0b9bbbc4d5107310bf1e4820ec3fc3a66e5c73c080c4eb5fcc168251fccf"
+  },
+  {
+    "glyph": "uniE168.secondary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "6af72e43461b0efa79b34448581380ed6c9fb82df5f21ff6736f1b4837481e48"
+  },
+  {
+    "glyph": "uniE168.tertiary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "9a975c3c3faf227239f40ef15ef2de9a03fc6ac1311fbec99cac268663e6be8f"
+  }
+]

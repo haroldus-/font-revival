@@ -1,0 +1,1974 @@
+[
+  {
+    "id": "baltimore-1832-p85-four-line-pica-1-face",
+    "old_box": [
+      620,
+      1076,
+      1024,
+      1502
+    ],
+    "box": [
+      625,
+      1076,
+      1040,
+      1502
+    ],
+    "period_native_pixels": 290,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p85-four-line-pica-2-oval",
+    "old_box": [
+      1040,
+      1659,
+      1460,
+      2053
+    ],
+    "box": [
+      1034,
+      1659,
+      1449,
+      2053
+    ],
+    "period_native_pixels": 273,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p87-four-line-pica-4",
+    "old_box": [
+      728,
+      597,
+      1520,
+      1394
+    ],
+    "box": [
+      728,
+      597,
+      1520,
+      1394
+    ],
+    "period_native_pixels": 596,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p87-four-line-pica-5",
+    "old_box": [
+      1530,
+      1514,
+      2342,
+      1934
+    ],
+    "box": [
+      1549,
+      1514,
+      2349,
+      1934
+    ],
+    "period_native_pixels": 800,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p87-four-line-pica-6",
+    "old_box": [
+      770,
+      2091,
+      1577,
+      2499
+    ],
+    "box": [
+      770,
+      2091,
+      1577,
+      2499
+    ],
+    "period_native_pixels": 525,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p89-four-line-pica-7",
+    "old_box": [
+      994,
+      690,
+      1496,
+      1125
+    ],
+    "box": [
+      994,
+      690,
+      1496,
+      1125
+    ],
+    "period_native_pixels": 327,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p89-four-line-pica-8-key",
+    "old_box": [
+      1575,
+      1365,
+      2129,
+      1794
+    ],
+    "box": [
+      1572,
+      1365,
+      2123,
+      1794
+    ],
+    "period_native_pixels": 551,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p89-four-line-pica-9-rosette",
+    "old_box": [
+      659,
+      2066,
+      1062,
+      2495
+    ],
+    "box": [
+      659,
+      2066,
+      1062,
+      2495
+    ],
+    "period_native_pixels": 262,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p91-four-line-pica-10",
+    "old_box": [
+      618,
+      566,
+      1006,
+      980
+    ],
+    "box": [
+      618,
+      566,
+      1006,
+      980
+    ],
+    "period_native_pixels": 254,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p91-four-line-pica-11",
+    "old_box": [
+      1105,
+      1105,
+      1283,
+      1545
+    ],
+    "box": [
+      1025,
+      1105,
+      1202,
+      1545
+    ],
+    "period_native_pixels": 177,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p91-four-line-pica-12",
+    "old_box": [
+      1074,
+      1650,
+      1320,
+      2053
+    ],
+    "box": [
+      1058,
+      1650,
+      1318,
+      2053
+    ],
+    "period_native_pixels": 260,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p91-four-line-pica-13-key",
+    "old_box": [
+      1645,
+      2179,
+      2153,
+      2624
+    ],
+    "box": [
+      1603,
+      2179,
+      2116,
+      2624
+    ],
+    "period_native_pixels": 513,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p93-five-line-pica-1-cross",
+    "old_box": [
+      1150,
+      570,
+      1588,
+      1082
+    ],
+    "box": [
+      1150,
+      570,
+      1588,
+      1082
+    ],
+    "period_native_pixels": 286,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p93-five-line-pica-2-square",
+    "old_box": [
+      758,
+      1228,
+      1223,
+      1729
+    ],
+    "box": [
+      758,
+      1228,
+      1223,
+      1729
+    ],
+    "period_native_pixels": 302,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p93-five-line-pica-3",
+    "old_box": [
+      1197,
+      1855,
+      1897,
+      2398
+    ],
+    "box": [
+      1197,
+      1855,
+      1897,
+      2398
+    ],
+    "period_native_pixels": 460,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p95-six-line-pica-1-flower",
+    "old_box": [
+      1401,
+      544,
+      1876,
+      1171
+    ],
+    "box": [
+      1394,
+      544,
+      1867,
+      1171
+    ],
+    "period_native_pixels": 473,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p95-six-line-pica-2",
+    "old_box": [
+      1306,
+      1270,
+      1824,
+      1887
+    ],
+    "box": [
+      1302,
+      1270,
+      1808,
+      1887
+    ],
+    "period_native_pixels": 506,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p97-double-english-1",
+    "old_box": [
+      971,
+      659,
+      1313,
+      924
+    ],
+    "box": [
+      1012,
+      659,
+      1234,
+      924
+    ],
+    "period_native_pixels": 222,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p97-double-english-2-key",
+    "old_box": [
+      1417,
+      1157,
+      1682,
+      1406
+    ],
+    "box": [
+      1377,
+      1157,
+      1629,
+      1406
+    ],
+    "period_native_pixels": 252,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p97-double-english-3",
+    "old_box": [
+      1220,
+      1635,
+      1432,
+      1894
+    ],
+    "box": [
+      1201,
+      1635,
+      1372,
+      1894
+    ],
+    "period_native_pixels": 171,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p97-double-english-4-rosette",
+    "old_box": [
+      836,
+      2133,
+      1054,
+      2382
+    ],
+    "box": [
+      835,
+      2133,
+      1063,
+      2382
+    ],
+    "period_native_pixels": 228,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p99-double-english-5",
+    "old_box": [
+      1029,
+      650,
+      1492,
+      1138
+    ],
+    "box": [
+      1046,
+      650,
+      1499,
+      1138
+    ],
+    "period_native_pixels": 453,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p99-paragon-1",
+    "old_box": [
+      1216,
+      1367,
+      1533,
+      1565
+    ],
+    "box": [
+      1219,
+      1367,
+      1532,
+      1565
+    ],
+    "period_native_pixels": 313,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p99-paragon-2",
+    "old_box": [
+      1144,
+      1747,
+      1268,
+      1954
+    ],
+    "box": [
+      1124,
+      1747,
+      1239,
+      1954
+    ],
+    "period_native_pixels": 115,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p99-double-small-pica-1",
+    "old_box": [
+      1107,
+      2152,
+      1398,
+      2381
+    ],
+    "box": [
+      1102,
+      2152,
+      1380,
+      2381
+    ],
+    "period_native_pixels": 278,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p101-double-small-pica-2",
+    "old_box": [
+      1080,
+      576,
+      1303,
+      789
+    ],
+    "box": [
+      1083,
+      576,
+      1417,
+      789
+    ],
+    "period_native_pixels": 334,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p101-double-small-pica-3",
+    "old_box": [
+      1080,
+      914,
+      1246,
+      1121
+    ],
+    "box": [
+      1079,
+      914,
+      1248,
+      1121
+    ],
+    "period_native_pixels": 169,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p101-double-small-pica-4",
+    "old_box": [
+      1173,
+      1236,
+      1340,
+      1449
+    ],
+    "box": [
+      1175,
+      1236,
+      1346,
+      1449
+    ],
+    "period_native_pixels": 171,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p101-double-small-pica-5",
+    "old_box": [
+      888,
+      1568,
+      1028,
+      1729
+    ],
+    "box": [
+      870,
+      1568,
+      1045,
+      1729
+    ],
+    "period_native_pixels": 175,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p101-double-small-pica-6",
+    "old_box": [
+      867,
+      1822,
+      1038,
+      2030
+    ],
+    "box": [
+      865,
+      1822,
+      1039,
+      2030
+    ],
+    "period_native_pixels": 174,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p101-double-small-pica-7",
+    "old_box": [
+      1308,
+      2139,
+      1500,
+      2347
+    ],
+    "box": [
+      1235,
+      2139,
+      1409,
+      2347
+    ],
+    "period_native_pixels": 174,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p103-great-primer-1",
+    "old_box": [
+      1302,
+      651,
+      1407,
+      824
+    ],
+    "box": [
+      1263,
+      651,
+      1364,
+      824
+    ],
+    "period_native_pixels": 101,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p103-great-primer-3",
+    "old_box": [
+      1334,
+      1402,
+      1554,
+      1591
+    ],
+    "box": [
+      1357,
+      1402,
+      1638,
+      1591
+    ],
+    "period_native_pixels": 281,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p103-great-primer-4",
+    "old_box": [
+      1329,
+      1770,
+      1481,
+      1959
+    ],
+    "box": [
+      1344,
+      1770,
+      1483,
+      1959
+    ],
+    "period_native_pixels": 139,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p103-great-primer-5",
+    "old_box": [
+      1350,
+      2174,
+      1591,
+      2373
+    ],
+    "box": [
+      1223,
+      2174,
+      1506,
+      2373
+    ],
+    "period_native_pixels": 283,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p105-great-primer-6",
+    "old_box": [
+      1364,
+      543,
+      1509,
+      713
+    ],
+    "box": [
+      1371,
+      543,
+      1510,
+      713
+    ],
+    "period_native_pixels": 139,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p105-great-primer-7",
+    "old_box": [
+      1452,
+      899,
+      1581,
+      1090
+    ],
+    "box": [
+      1491,
+      899,
+      1605,
+      1090
+    ],
+    "period_native_pixels": 114,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p105-great-primer-8",
+    "old_box": [
+      1421,
+      1235,
+      1509,
+      1411
+    ],
+    "box": [
+      1426,
+      1235,
+      1506,
+      1411
+    ],
+    "period_native_pixels": 80,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p105-great-primer-9",
+    "old_box": [
+      1426,
+      1571,
+      1509,
+      1762
+    ],
+    "box": [
+      1437,
+      1571,
+      1517,
+      1762
+    ],
+    "period_native_pixels": 80,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p105-great-primer-10",
+    "old_box": [
+      1721,
+      1912,
+      1990,
+      2212
+    ],
+    "box": [
+      1717,
+      1912,
+      1994,
+      2212
+    ],
+    "period_native_pixels": 277,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p107-great-primer-11",
+    "old_box": [
+      1293,
+      573,
+      1440,
+      773
+    ],
+    "box": [
+      1296,
+      573,
+      1437,
+      773
+    ],
+    "period_native_pixels": 141,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p107-great-primer-14",
+    "old_box": [
+      1661,
+      1609,
+      1766,
+      1798
+    ],
+    "box": [
+      1633,
+      1609,
+      1741,
+      1798
+    ],
+    "period_native_pixels": 108,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p107-double-great-primer-flower",
+    "old_box": [
+      1598,
+      1945,
+      1782,
+      2297
+    ],
+    "box": [
+      1599,
+      1945,
+      1774,
+      2297
+    ],
+    "period_native_pixels": 175,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-1-piece",
+    "old_box": [
+      809,
+      2155,
+      888,
+      2268
+    ],
+    "box": [
+      808,
+      2155,
+      888,
+      2268
+    ],
+    "period_native_pixels": 80,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-2-piece",
+    "old_box": [
+      891,
+      2347,
+      971,
+      2469
+    ],
+    "box": [
+      891,
+      2347,
+      971,
+      2469
+    ],
+    "period_native_pixels": 80,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-3-piece",
+    "old_box": [
+      879,
+      2548,
+      967,
+      2680
+    ],
+    "box": [
+      891,
+      2548,
+      971,
+      2680
+    ],
+    "period_native_pixels": 80,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-4-piece",
+    "old_box": [
+      1019,
+      2756,
+      1154,
+      2881
+    ],
+    "box": [
+      1020,
+      2756,
+      1158,
+      2881
+    ],
+    "period_native_pixels": 138,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-5-piece",
+    "old_box": [
+      919,
+      2954,
+      1056,
+      3083
+    ],
+    "box": [
+      922,
+      2954,
+      1055,
+      3083
+    ],
+    "period_native_pixels": 133,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-6-piece",
+    "old_box": [
+      891,
+      3147,
+      971,
+      3284
+    ],
+    "box": [
+      868,
+      3147,
+      948,
+      3284
+    ],
+    "period_native_pixels": 80,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-7-piece",
+    "old_box": [
+      909,
+      3354,
+      1053,
+      3473
+    ],
+    "box": [
+      917,
+      3354,
+      1059,
+      3473
+    ],
+    "period_native_pixels": 142,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-8-piece",
+    "old_box": [
+      1025,
+      3531,
+      1123,
+      3675
+    ],
+    "box": [
+      989,
+      3531,
+      1069,
+      3675
+    ],
+    "period_native_pixels": 80,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-9-piece",
+    "old_box": [
+      937,
+      3742,
+      1068,
+      3876
+    ],
+    "box": [
+      935,
+      3742,
+      1069,
+      3876
+    ],
+    "period_native_pixels": 134,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-10-piece",
+    "old_box": [
+      1007,
+      3952,
+      1117,
+      4084
+    ],
+    "box": [
+      982,
+      3952,
+      1141,
+      4084
+    ],
+    "period_native_pixels": 159,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-11-piece",
+    "old_box": [
+      909,
+      4142,
+      995,
+      4273
+    ],
+    "box": [
+      906,
+      4142,
+      986,
+      4273
+    ],
+    "period_native_pixels": 80,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-long-primer-12-piece",
+    "old_box": [
+      1016,
+      4337,
+      1144,
+      4474
+    ],
+    "box": [
+      1017,
+      4337,
+      1143,
+      4474
+    ],
+    "period_native_pixels": 126,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p113-brevier-1-piece",
+    "old_box": [
+      848,
+      3754,
+      897,
+      3857
+    ],
+    "box": [
+      852,
+      3754,
+      891,
+      3857
+    ],
+    "period_native_pixels": 39,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p113-brevier-2-piece",
+    "old_box": [
+      873,
+      3945,
+      930,
+      4051
+    ],
+    "box": [
+      866,
+      3945,
+      929,
+      4051
+    ],
+    "period_native_pixels": 63,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p113-brevier-4-piece",
+    "old_box": [
+      767,
+      4315,
+      839,
+      4424
+    ],
+    "box": [
+      771,
+      4315,
+      835,
+      4424
+    ],
+    "period_native_pixels": 64,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-minion-1-piece",
+    "old_box": [
+      927,
+      2713,
+      985,
+      2813
+    ],
+    "box": [
+      927,
+      2713,
+      985,
+      2813
+    ],
+    "period_native_pixels": 58,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-minion-2-piece",
+    "old_box": [
+      906,
+      2892,
+      1024,
+      2995
+    ],
+    "box": [
+      896,
+      2892,
+      1031,
+      2995
+    ],
+    "period_native_pixels": 135,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-minion-3-piece",
+    "old_box": [
+      891,
+      3067,
+      967,
+      3183
+    ],
+    "box": [
+      869,
+      3067,
+      966,
+      3183
+    ],
+    "period_native_pixels": 97,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-minion-5-piece",
+    "old_box": [
+      982,
+      3440,
+      1049,
+      3552
+    ],
+    "box": [
+      995,
+      3440,
+      1059,
+      3552
+    ],
+    "period_native_pixels": 64,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-minion-6-piece",
+    "old_box": [
+      867,
+      3619,
+      927,
+      3728
+    ],
+    "box": [
+      871,
+      3619,
+      928,
+      3728
+    ],
+    "period_native_pixels": 57,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-minion-7-piece",
+    "old_box": [
+      912,
+      3801,
+      1021,
+      3910
+    ],
+    "box": [
+      895,
+      3801,
+      992,
+      3910
+    ],
+    "period_native_pixels": 97,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-minion-8-piece",
+    "old_box": [
+      924,
+      3962,
+      979,
+      4065
+    ],
+    "box": [
+      944,
+      3962,
+      988,
+      4065
+    ],
+    "period_native_pixels": 44,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-minion-10-piece",
+    "old_box": [
+      918,
+      4280,
+      979,
+      4380
+    ],
+    "box": [
+      923,
+      4280,
+      981,
+      4380
+    ],
+    "period_native_pixels": 58,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p119-small-pica-1-piece",
+    "old_box": [
+      797,
+      3420,
+      1061,
+      3563
+    ],
+    "box": [
+      856,
+      3420,
+      1068,
+      3563
+    ],
+    "period_native_pixels": 212,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p119-small-pica-2-piece",
+    "old_box": [
+      867,
+      3654,
+      961,
+      3778
+    ],
+    "box": [
+      872,
+      3654,
+      957,
+      3778
+    ],
+    "period_native_pixels": 85,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p119-small-pica-3-piece",
+    "old_box": [
+      858,
+      3875,
+      943,
+      3999
+    ],
+    "box": [
+      861,
+      3875,
+      946,
+      3999
+    ],
+    "period_native_pixels": 85,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p119-small-pica-4-piece",
+    "old_box": [
+      870,
+      4099,
+      964,
+      4236
+    ],
+    "box": [
+      866,
+      4099,
+      951,
+      4236
+    ],
+    "period_native_pixels": 85,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p109-nonpareil-1-piece",
+    "old_box": [
+      884,
+      678,
+      921,
+      766
+    ],
+    "box": [
+      886,
+      678,
+      919,
+      766
+    ],
+    "period_native_pixels": 33,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p109-nonpareil-2-piece",
+    "old_box": [
+      897,
+      854,
+      981,
+      939
+    ],
+    "box": [
+      900,
+      854,
+      988,
+      939
+    ],
+    "period_native_pixels": 88,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p109-nonpareil-3-piece",
+    "old_box": [
+      869,
+      1030,
+      921,
+      1112
+    ],
+    "box": [
+      870,
+      1030,
+      920,
+      1112
+    ],
+    "period_native_pixels": 50,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p109-nonpareil-4-piece",
+    "old_box": [
+      875,
+      1199,
+      933,
+      1281
+    ],
+    "box": [
+      877,
+      1199,
+      932,
+      1281
+    ],
+    "period_native_pixels": 55,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p109-nonpareil-6-piece",
+    "old_box": [
+      875,
+      1548,
+      933,
+      1636
+    ],
+    "box": [
+      875,
+      1548,
+      924,
+      1636
+    ],
+    "period_native_pixels": 49,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p109-nonpareil-9-piece",
+    "old_box": [
+      897,
+      2066,
+      945,
+      2157
+    ],
+    "box": [
+      896,
+      2066,
+      945,
+      2157
+    ],
+    "period_native_pixels": 49,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p109-nonpareil-13-piece",
+    "old_box": [
+      712,
+      3032,
+      772,
+      3135
+    ],
+    "box": [
+      724,
+      3032,
+      786,
+      3135
+    ],
+    "period_native_pixels": 62,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p109-nonpareil-14-piece",
+    "old_box": [
+      854,
+      3211,
+      927,
+      3299
+    ],
+    "box": [
+      869,
+      3211,
+      953,
+      3299
+    ],
+    "period_native_pixels": 84,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-small-pica-6-piece",
+    "old_box": [
+      674,
+      916,
+      848,
+      1141
+    ],
+    "box": [
+      665,
+      916,
+      841,
+      1141
+    ],
+    "period_native_pixels": 176,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-small-pica-7-piece",
+    "old_box": [
+      687,
+      1193,
+      745,
+      1331
+    ],
+    "box": [
+      677,
+      1193,
+      725,
+      1331
+    ],
+    "period_native_pixels": 48,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p111-small-pica-9-piece",
+    "old_box": [
+      656,
+      1584,
+      748,
+      1709
+    ],
+    "box": [
+      657,
+      1584,
+      745,
+      1709
+    ],
+    "period_native_pixels": 88,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p113-long-primer-14-piece",
+    "old_box": [
+      685,
+      921,
+      821,
+      1045
+    ],
+    "box": [
+      687,
+      921,
+      827,
+      1045
+    ],
+    "period_native_pixels": 140,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p113-long-primer-17-piece",
+    "old_box": [
+      727,
+      1524,
+      848,
+      1654
+    ],
+    "box": [
+      728,
+      1524,
+      886,
+      1654
+    ],
+    "period_native_pixels": 158,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p113-long-primer-18-piece",
+    "old_box": [
+      754,
+      1724,
+      873,
+      1845
+    ],
+    "box": [
+      751,
+      1724,
+      856,
+      1845
+    ],
+    "period_native_pixels": 105,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p113-long-primer-22-piece",
+    "old_box": [
+      939,
+      2518,
+      1006,
+      2636
+    ],
+    "box": [
+      945,
+      2518,
+      1019,
+      2636
+    ],
+    "period_native_pixels": 74,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p113-long-primer-23-piece",
+    "old_box": [
+      873,
+      2712,
+      1030,
+      2909
+    ],
+    "box": [
+      890,
+      2712,
+      1048,
+      2909
+    ],
+    "period_native_pixels": 158,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p113-long-primer-24-piece",
+    "old_box": [
+      915,
+      2982,
+      970,
+      3115
+    ],
+    "box": [
+      914,
+      2982,
+      962,
+      3115
+    ],
+    "period_native_pixels": 48,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p113-long-primer-25-piece",
+    "old_box": [
+      779,
+      3178,
+      891,
+      3288
+    ],
+    "box": [
+      781,
+      3178,
+      895,
+      3288
+    ],
+    "period_native_pixels": 114,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p113-long-primer-26-piece",
+    "old_box": [
+      821,
+      3378,
+      988,
+      3494
+    ],
+    "box": [
+      826,
+      3378,
+      981,
+      3494
+    ],
+    "period_native_pixels": 155,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-brevier-5-piece",
+    "old_box": [
+      888,
+      627,
+      955,
+      724
+    ],
+    "box": [
+      886,
+      627,
+      950,
+      724
+    ],
+    "period_native_pixels": 64,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-brevier-6-piece",
+    "old_box": [
+      834,
+      809,
+      921,
+      915
+    ],
+    "box": [
+      841,
+      809,
+      931,
+      915
+    ],
+    "period_native_pixels": 90,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-brevier-7-piece",
+    "old_box": [
+      873,
+      994,
+      940,
+      1094
+    ],
+    "box": [
+      860,
+      994,
+      923,
+      1094
+    ],
+    "period_native_pixels": 63,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-brevier-9-piece",
+    "old_box": [
+      888,
+      1367,
+      952,
+      1455
+    ],
+    "box": [
+      889,
+      1367,
+      952,
+      1455
+    ],
+    "period_native_pixels": 63,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-brevier-12-piece",
+    "old_box": [
+      758,
+      1891,
+      827,
+      1997
+    ],
+    "box": [
+      749,
+      1891,
+      819,
+      1997
+    ],
+    "period_native_pixels": 70,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-brevier-13-piece",
+    "old_box": [
+      809,
+      2064,
+      879,
+      2161
+    ],
+    "box": [
+      814,
+      2064,
+      878,
+      2161
+    ],
+    "period_native_pixels": 64,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-brevier-14-piece",
+    "old_box": [
+      858,
+      2225,
+      976,
+      2319
+    ],
+    "box": [
+      880,
+      2225,
+      990,
+      2319
+    ],
+    "period_native_pixels": 110,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p115-brevier-15-piece",
+    "old_box": [
+      812,
+      2394,
+      921,
+      2491
+    ],
+    "box": [
+      809,
+      2394,
+      918,
+      2491
+    ],
+    "period_native_pixels": 109,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-1-piece",
+    "old_box": [
+      871,
+      812,
+      957,
+      996
+    ],
+    "box": [
+      879,
+      812,
+      989,
+      996
+    ],
+    "period_native_pixels": 110,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-2-piece",
+    "old_box": [
+      843,
+      1052,
+      966,
+      1211
+    ],
+    "box": [
+      853,
+      1052,
+      968,
+      1211
+    ],
+    "period_native_pixels": 115,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-3-piece",
+    "old_box": [
+      779,
+      1282,
+      920,
+      1459
+    ],
+    "box": [
+      783,
+      1282,
+      922,
+      1459
+    ],
+    "period_native_pixels": 139,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-4-piece",
+    "old_box": [
+      932,
+      1524,
+      1030,
+      1692
+    ],
+    "box": [
+      891,
+      1524,
+      990,
+      1692
+    ],
+    "period_native_pixels": 99,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-6-piece",
+    "old_box": [
+      840,
+      2008,
+      950,
+      2162
+    ],
+    "box": [
+      837,
+      2008,
+      952,
+      2162
+    ],
+    "period_native_pixels": 115,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-7-piece",
+    "old_box": [
+      886,
+      2241,
+      1024,
+      2398
+    ],
+    "box": [
+      881,
+      2241,
+      1012,
+      2398
+    ],
+    "period_native_pixels": 131,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-9-piece",
+    "old_box": [
+      754,
+      2698,
+      984,
+      2992
+    ],
+    "box": [
+      760,
+      2698,
+      988,
+      2992
+    ],
+    "period_native_pixels": 228,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-10-piece",
+    "old_box": [
+      748,
+      3051,
+      984,
+      3333
+    ],
+    "box": [
+      755,
+      3051,
+      983,
+      3333
+    ],
+    "period_native_pixels": 228,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-11-piece",
+    "old_box": [
+      794,
+      3388,
+      904,
+      3569
+    ],
+    "box": [
+      805,
+      3388,
+      919,
+      3569
+    ],
+    "period_native_pixels": 114,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-12-piece",
+    "old_box": [
+      803,
+      3603,
+      920,
+      3768
+    ],
+    "box": [
+      803,
+      3603,
+      918,
+      3768
+    ],
+    "period_native_pixels": 115,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-14-piece",
+    "old_box": [
+      812,
+      4016,
+      871,
+      4182
+    ],
+    "box": [
+      813,
+      4016,
+      874,
+      4182
+    ],
+    "period_native_pixels": 61,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p117-english-15-piece",
+    "old_box": [
+      797,
+      4231,
+      865,
+      4397
+    ],
+    "box": [
+      769,
+      4231,
+      832,
+      4397
+    ],
+    "period_native_pixels": 63,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p119-pica-1-piece",
+    "old_box": [
+      919,
+      791,
+      1019,
+      922
+    ],
+    "box": [
+      920,
+      791,
+      1018,
+      922
+    ],
+    "period_native_pixels": 98,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p119-pica-3-piece",
+    "old_box": [
+      904,
+      1228,
+      1001,
+      1370
+    ],
+    "box": [
+      898,
+      1228,
+      996,
+      1370
+    ],
+    "period_native_pixels": 98,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p119-pica-4-piece",
+    "old_box": [
+      904,
+      1440,
+      1195,
+      1580
+    ],
+    "box": [
+      900,
+      1440,
+      1174,
+      1580
+    ],
+    "period_native_pixels": 274,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p119-pica-5-piece",
+    "old_box": [
+      761,
+      1665,
+      931,
+      1816
+    ],
+    "box": [
+      754,
+      1665,
+      910,
+      1816
+    ],
+    "period_native_pixels": 156,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p119-pica-8-piece",
+    "old_box": [
+      788,
+      2368,
+      894,
+      2514
+    ],
+    "box": [
+      750,
+      2368,
+      847,
+      2514
+    ],
+    "period_native_pixels": 97,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p119-pica-10-piece",
+    "old_box": [
+      882,
+      2832,
+      1013,
+      2983
+    ],
+    "box": [
+      871,
+      2832,
+      1000,
+      2983
+    ],
+    "period_native_pixels": 129,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  },
+  {
+    "id": "baltimore-1832-p119-pica-11-piece",
+    "old_box": [
+      843,
+      3062,
+      928,
+      3208
+    ],
+    "box": [
+      840,
+      3062,
+      928,
+      3208
+    ],
+    "period_native_pixels": 88,
+    "method": "Period estimate reviewed against the complete source strip; whole-motif boundaries adjusted by visual measurement where necessary."
+  }
+]

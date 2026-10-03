@@ -4,9 +4,12 @@ import contextlib
 import copy
 import importlib.util
 import io
+import hashlib
 import json
 import re
+import random
 import shutil
+import sys
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
@@ -15,17 +18,202 @@ from argparse import Namespace
 from pathlib import Path
 
 from fontTools.pens.svgPathPen import SVGPathPen
+from fontTools.svgLib.path import parse_path
 from fontTools.ttLib import TTFont
 from fontTools import subset
 from PIL import Image
 
 REPO = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO / 'scripts'))
 spec = importlib.util.spec_from_file_location("fontrevival_icons", REPO / "scripts/fontrevival.py")
 revival = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(revival)
 
 
 class IconWorkflowTests(unittest.TestCase):
+    def test_long_cff_subroutines_preserve_serialized_outlines_and_widths(self):
+        m = revival.metadata(self.family)
+        master = revival.load_source(self.family, m)
+        expected = revival.icon_records(m, master)
+        # A small chunk size exercises repeated calls throughout each outline.
+        delivery = revival.font_delivery_master(master, m | {'cff_charstring_chunk_bytes': 128})
+        top = delivery['CFF '].cff.topDictIndex[0]
+        self.assertGreater(len(top.GlobalSubrs), 0)
+        stream = io.BytesIO(); delivery.save(stream); stream.seek(0)
+        with TTFont(stream, recalcTimestamp=False) as reopened:
+            cff = reopened['CFF '].cff.topDictIndex[0]
+            self.assertTrue(all(len(cff.CharStrings[n].bytecode) <= 65535
+                                for n in reopened.getGlyphOrder()))
+            self.assertTrue(all(len(subr.bytecode) <= 128 for subr in cff.GlobalSubrs))
+            self.assertEqual(expected, revival.icon_records(m, reopened))
+            self.assertEqual(master['hmtx'].metrics, reopened['hmtx'].metrics)
+        self.assertEqual(expected, revival.icon_records(m, master))
+        self.assertEqual(0, len(master['CFF '].cff.topDictIndex[0].GlobalSubrs))
+
+    def test_release_files_exclude_python_runtime_caches(self):
+        cache = self.family / 'source/__pycache__/prepare.cpython-312.pyc'
+        cache.parent.mkdir(exist_ok=True)
+        cache.write_bytes(b'local interpreter cache')
+        self.assertNotIn(cache, revival.family_files(self.family))
+        self.assertNotIn('__pycache__', revival.checksums(self.family))
+        self.assertIn(self.family / 'source/font.ttx', revival.family_files(self.family))
+
+    def test_large_download_parts_keep_complete_assets_and_zip_limits(self):
+        generator = random.Random(1832)
+        files = {f'icon-{i}.svg': generator.randbytes(1200) for i in range(6)}
+        groups = revival.partition_zip_files(files, 3000)
+        self.assertEqual(3, len(groups))
+        self.assertEqual(files, {name: data for group in groups for name, data in group.items()})
+        for group in groups:
+            stream = io.BytesIO()
+            with zipfile.ZipFile(stream, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+                for name, data in group.items():
+                    archive.writestr(name, data)
+            self.assertLessEqual(len(stream.getvalue()), 3000)
+        with self.assertRaisesRegex(ValueError, 'single download asset'):
+            revival.partition_zip_files(files, 1000)
+
+    def test_raw_cff_xml_import_retains_the_same_editable_master(self):
+        m = revival.metadata(self.family)
+        original = revival.load_source(self.family, m)
+        expected = revival.icon_records(m, original)
+        with contextlib.redirect_stdout(io.StringIO()):
+            revival.import_font(Namespace(id=m['id'],
+                font=self.family / 'fonts' / (m['postscript_name'] + '.otf'),
+                replace=True, binary_charstrings=True))
+        self.assertIn('raw="1"', (self.family / 'source/font.ttx').read_text())
+        restored = revival.load_source(self.family, m)
+        self.assertEqual(expected, revival.icon_records(m, restored))
+        self.assertEqual(original.getBestCmap(), restored.getBestCmap())
+
+    def test_native_override_preserves_even_degenerate_source_contours(self):
+        m = revival.metadata(self.family)
+        font = revival.load_source(self.family, m)
+        name = m['icons'][0]['glyph']
+        drawing = 'M100 100H200V200H100V100ZM250 250H251H250ZM500 500Z'
+        revival.write_json(self.family / 'source/glyphs' / (name + '.json'),
+                           {'glyph': name, 'advance_width': font['hmtx'][name][0],
+                            'path': drawing, 'preserve_commands': True})
+        revival.apply_glyphs(font, self.family / 'source/glyphs')
+        pen = SVGPathPen(font.getGlyphSet())
+        font.getGlyphSet()[name].draw(pen)
+        self.assertEqual(drawing, pen.getCommands())
+
+    def test_rotated_override_keeps_fractional_coordinates_in_cff(self):
+        m = revival.metadata(self.family)
+        font = revival.load_source(self.family, m)
+        name = m['icons'][0]['glyph']
+        drawing = 'M100.015625 100.5L200.25 102.125L198.5 202.25Z M250.125 250.5Z'
+        revival.write_json(self.family / 'source/glyphs' / (name + '.json'),
+                           {'glyph': name, 'advance_width': font['hmtx'][name][0],
+                            'path': drawing, 'preserve_commands': True,
+                            'preserve_coordinates': True})
+        revival.apply_glyphs(font, self.family / 'source/glyphs')
+        stream = io.BytesIO(); font.save(stream); stream.seek(0)
+        restored = TTFont(stream)
+        pen = SVGPathPen(restored.getGlyphSet()); restored.getGlyphSet()[name].draw(pen)
+        expected = SVGPathPen(None); parse_path(drawing, expected)
+        self.assertEqual(expected.getCommands(), pen.getCommands())
+
+    def test_split_sprites_keep_each_icon_linked_to_its_own_file(self):
+        m = revival.metadata(self.family)
+        with revival.load_source(self.family, m) as font:
+            record = revival.icon_records(m, font)[0]
+        records = [copy.deepcopy(record) | {'id': 'test-' + str(i)} for i in range(3)]
+        revival.assign_icon_sprites({'sprite_max_bytes': 100}, records)
+        self.assertEqual(['icons.svg', 'icons-2.svg', 'icons-3.svg'], [r['_sprite_file'] for r in records])
+        self.assertIn('icons-multitone-3.svg#test-2', revival.icon_html_examples(records[2], 'collection/test')['sprite'])
+        self.assertNotIn('_sprite_file', revival.public_icon(records[2]))
+
+    def test_conversion_validation_ignores_invisible_isolated_points(self):
+        revival.export_glyph(Namespace(id=self.family.name, character='uniE000'))
+        edit = self.family / 'source/glyphs/uniE000.json'
+        data = json.loads(edit.read_text())
+        # The traced drawing stays unchanged; an isolated point below it has
+        # no ink and is discarded by the TrueType conversion.
+        data['path'] += ' M500 50Z'
+        data['preserve_commands'] = True
+        revival.write_json(edit, data)
+        profile = self.family / 'source/sizing.json'
+        revival.write_json(profile, {'schema_version': 1, 'rules': [
+            {'characters': '*', 'advance_width': [0, 3000],
+             'notes': 'This fixture tests visible outline registration.'}]})
+        revival.build_family(self.family)
+        revival.validate_family(self.family)
+
+    def test_encoded_delivery_preserves_full_tonal_gallery_artwork(self):
+        m = revival.metadata(self.family) | {'font_export_glyphs': 'encoded'}
+        master = revival.load_source(self.family, m)
+        original = revival.icon_records(m, master)
+        delivery = revival.font_delivery_master(master, m)
+        self.assertEqual(master.getBestCmap(), delivery.getBestCmap())
+        self.assertEqual({'.notdef', *master.getBestCmap().values()}, set(delivery.getGlyphOrder()))
+        self.assertGreater(len(master.getGlyphOrder()), len(delivery.getGlyphOrder()))
+        self.assertEqual(original, revival.gallery_icon_records(self.family, m, delivery))
+        for name in delivery.getGlyphOrder():
+            self.assertEqual(master['hmtx'][name], delivery['hmtx'][name])
+
+    def test_streamed_tonal_edits_match_the_complete_source(self):
+        m = revival.metadata(self.family) | {'font_export_glyphs': 'encoded'}
+        name = m['icons'][0]['multitone_layers'][0]['glyph']
+        revival.export_glyph(Namespace(id=self.family.name, character=name))
+        file = self.family / 'source/glyphs' / (name + '.json')
+        edit = json.loads(file.read_text())
+        edit['path'] += ' M500 500H510V510H500Z'
+        revival.write_json(file, edit)
+        complete = revival.load_source(self.family, m)
+        expected = revival.icon_records(m, complete)
+        encoded = revival.load_source(self.family, m, encoded_only=True)
+        before = revival.icon_records(m, encoded)
+        self.assertNotEqual(before, expected)
+        self.assertEqual(revival.source_icon_records(self.family, m, encoded), expected)
+        self.assertEqual(revival.icon_records(m, encoded), before)
+        revival.write_json(self.family / 'font.json', m)
+        revival.build_family(self.family)
+        proof = (self.family / 'specimens/specimen.pdf').read_bytes()
+        self.assertIn(b'/Subtype /Form', proof)
+        self.assertNotIn(b'/Subtype /TrueType', proof)
+
+    def test_reviewed_truetype_approximation_keeps_master_and_rejects_stale_data(self):
+        from fontTools.pens.boundsPen import BoundsPen
+        m = revival.metadata(self.family)
+        font = revival.load_source(self.family, m)
+        glyphs = font.getGlyphSet(); name = m['icons'][0]['glyph']
+        pen = SVGPathPen(glyphs); glyphs[name].draw(pen)
+        original = pen.getCommands()
+        bounds = BoundsPen(glyphs); glyphs[name].draw(bounds)
+        x0, y0, x1, y1 = bounds.bounds
+        item = {'glyph': name, 'advance_width': font['hmtx'][name][0],
+                'path': f'M{x0} {y0}H{x1}V{y1}H{x0}Z',
+                'master_sha256': hashlib.sha256(original.encode()).hexdigest(),
+                'max_bound_delta': 2, 'notes': 'Synthetic format-only test drawing.'}
+        file = self.family / 'source/truetype-glyphs' / (name + '.json')
+        revival.write_json(file, item)
+        selected = revival.truetype_approximations(self.family, font)
+        converted = revival.to_truetype(font, preserve_origins=True, approximations=selected)
+        self.assertEqual(font.getBestCmap(), converted.getBestCmap())
+        self.assertEqual(font['hmtx'][name][0], converted['hmtx'][name][0])
+        self.assertEqual(4, len(converted['glyf'][name].coordinates))
+        fractional_x = int(x0) + 0.015625
+        self.assertEqual(3, revival.cff_point_count('M0 0C0 1 1 1 0 0Z'))
+        self.assertEqual(4, revival.cff_point_count('M0 0H10V10H0Z'))
+        fractional = selected[name] | {'path': f'M{fractional_x} {y0}H{x1}V{y1}H{fractional_x}Z'}
+        delivery = revival.font_delivery_master(font, m | {'otf_uses_truetype_approximations': True},
+                                               {name: fractional})
+        delivery.save(self.family / 'reviewed-otf.otf')
+        with TTFont(self.family / 'reviewed-otf.otf') as reopened:
+            exported_glyphs = reopened.getGlyphSet()
+            exported_bounds = BoundsPen(exported_glyphs)
+            exported_glyphs[name].draw(exported_bounds)
+            self.assertEqual(fractional_x, exported_bounds.bounds[0])
+            self.assertEqual(font['hmtx'][name][0], reopened['hmtx'][name][0])
+        untouched = SVGPathPen(glyphs); glyphs[name].draw(untouched)
+        self.assertEqual(original, untouched.getCommands())
+        item['master_sha256'] = '0' * 64
+        revival.write_json(file, item)
+        with self.assertRaisesRegex(ValueError, 'Stale TrueType'):
+            revival.truetype_approximations(self.family, font)
+
     @classmethod
     def setUpClass(cls):
         # Exercise edits on a small real fixture while the live collection grows.
@@ -191,13 +379,31 @@ class IconWorkflowTests(unittest.TestCase):
             m = families[section['collection']]
             with self.subTest(section=section['id']):
                 self.assertTrue(section['historical_heading'])
-                self.assertTrue(set(section['printed_pages']) <= {i['printed_page'] for i in m['icons']})
+                page_key = 'pdf_page' if 'pdf_pages' in section else 'printed_page'
+                self.assertTrue(set(section[page_key + 's']) <= {i[page_key] for i in m['icons']})
                 self.assertTrue(set(section.get('icons', [])) <= {i['id'] for i in m['icons']})
                 selected = [i for i in m['icons'] if section in revival.icon_navigation(m, i, taxonomy)[1]]
                 self.assertTrue(selected)
         cuts = families['boston-cuts-1889']
         santa = next(i for i in cuts['icons'] if i['id'] == 'boston-1889-4202')
         self.assertEqual([s['id'] for s in revival.icon_navigation(cuts, santa, taxonomy)[1]], ['holiday-cuts'])
+
+    def test_unnumbered_leaf_uses_pdf_page_for_navigation_and_proofs(self):
+        m = revival.metadata(self.family)
+        m['icons'][0]['printed_page'] = None
+        revival.write_json(self.family / 'font.json', m)
+        revival.metadata(self.family)
+        section = {'id': 'metal-ornaments', 'collection': m['id'], 'pdf_pages': [281]}
+        taxonomy = {'collections': {m['id']: {'type': 'cuts'}}, 'sections': [section]}
+        self.assertEqual(revival.icon_navigation(m, m['icons'][0], taxonomy)[1], [section])
+        other = m['icons'][0] | {'pdf_page': 282}
+        self.assertEqual(revival.icon_navigation(m, other, taxonomy)[1], [])
+        revival.build_family(self.family)
+        self.assertTrue((self.family / 'specimens/specimen.pdf').exists())
+        for invalid in (0, -1, '121', True):
+            m['icons'][0]['printed_page'] = invalid
+            with self.assertRaises(ValueError):
+                revival.validate_icon_metadata(self.family, m)
 
     def test_web_bundle_resolves_copyable_html_and_stylesheet_assets(self):
         archive = self.family / "downloads/boston-cuts-1889-web.zip"

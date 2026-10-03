@@ -1,0 +1,472 @@
+{
+  "method": "Compare the full-detail master with explicitly approved downloadable-font simplifications. OTF, TTF and webfonts use the same reviewed paths; cubic-to-quadratic conversion retains the same em, advance and baseline.",
+  "icons": [
+    {
+      "id": "baltimore-1832-p141-122",
+      "glyph": "uniE078",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "2e112dd8a5923c6be1eedca48b0f965a8987e9ed13c6f9761b9db687816df289",
+      "raster_em_pixels": 1536,
+      "points_before": 57449,
+      "points_after": 33847
+    },
+    {
+      "id": "baltimore-1832-p141-123",
+      "glyph": "uniE079",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "a9c353259820211b19cfc254f3a06e71402700475a7d1b4d22a2a01ee03ba8ca",
+      "raster_em_pixels": 1536,
+      "points_before": 62296,
+      "points_after": 35491
+    },
+    {
+      "id": "baltimore-1832-p141-125",
+      "glyph": "uniE07B",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "e970189ed65be425874b240aa488535effb187aaeb51ec3e0178e39bb71e395e",
+      "raster_em_pixels": 1536,
+      "points_before": 68089,
+      "points_after": 37813
+    },
+    {
+      "id": "baltimore-1832-p143-126",
+      "glyph": "uniE07C",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "43f9e0f650cbd9919ff804626c7934703ae0bf4579afcec6f1f4671fcf63bd3b",
+      "raster_em_pixels": 1536,
+      "points_before": 62224,
+      "points_after": 35892
+    },
+    {
+      "id": "baltimore-1832-p143-127",
+      "glyph": "uniE07D",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "83a287b2228e10af68e6921cf2c2a70ee2ca089789dae0a1d6cb4530787e8ddf",
+      "raster_em_pixels": 1536,
+      "points_before": 71287,
+      "points_after": 40518
+    },
+    {
+      "id": "baltimore-1832-p143-128",
+      "glyph": "uniE07E",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "628553e9fe20312560f642ba08ed2cd80ed84605615a3ca1aafc0916ae4b26aa",
+      "raster_em_pixels": 1536,
+      "points_before": 69812,
+      "points_after": 38824
+    },
+    {
+      "id": "baltimore-1832-p143-129",
+      "glyph": "uniE07F",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "2171f5814f50b1de5c8456c2b8caa0dae7cbe391be9c2179af93f1f093a65979",
+      "raster_em_pixels": 1536,
+      "points_before": 60545,
+      "points_after": 34351
+    },
+    {
+      "id": "baltimore-1832-p145-130",
+      "glyph": "uniE080",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "7eb38dbb89dc0c51755b546eef20c76335f3a219b1bdec83d6c9d74b7987e91d",
+      "raster_em_pixels": 1536,
+      "points_before": 69092,
+      "points_after": 38944
+    },
+    {
+      "id": "baltimore-1832-p145-133",
+      "glyph": "uniE083",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "a8d7018718a550e20936f55e730a353b01912c20b4244dfeb64ed4cc3a5145b7",
+      "raster_em_pixels": 1536,
+      "points_before": 76125,
+      "points_after": 44304
+    },
+    {
+      "id": "baltimore-1832-p163-232",
+      "glyph": "uniE0E6",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "f1292ad9721119bb1420722aa7412e4d5edec476d51eacc947870bac7bc16866",
+      "raster_em_pixels": 1536,
+      "points_before": 124317,
+      "points_after": 50924
+    },
+    {
+      "id": "baltimore-1832-p165-233",
+      "glyph": "uniE0E7",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "8bc1f9de2615375ea4359fcdba89ba1361fbd785d61f2478716854909bf204be",
+      "raster_em_pixels": 1536,
+      "points_before": 113716,
+      "points_after": 48391
+    },
+    {
+      "id": "baltimore-1832-p165-234",
+      "glyph": "uniE0E8",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "0821b6074cfe73ea2a37e4693efbb14137270e380f04379460682bfdf760f15b",
+      "raster_em_pixels": 1536,
+      "points_before": 61363,
+      "points_after": 32851
+    },
+    {
+      "id": "baltimore-1832-p171-239",
+      "glyph": "uniE0E9",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "2281e9d529dc7a681019f45940cce23cd7c90061e813e9618a68ced9950b6bf0",
+      "raster_em_pixels": 1536,
+      "points_before": 108834,
+      "points_after": 52663
+    },
+    {
+      "id": "baltimore-1832-p173-241",
+      "glyph": "uniE0EB",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "3fcddea6421cd31509d2b4748c0b0d09921bb598d5448f0fd06540e73b094ec4",
+      "raster_em_pixels": 1536,
+      "points_before": 70987,
+      "points_after": 37146
+    },
+    {
+      "id": "baltimore-1832-p173-242",
+      "glyph": "uniE0EC",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "80894063adf29c38238191fedcb8a2ef1753b70126b6ed501697c44fc6050f30",
+      "raster_em_pixels": 1536,
+      "points_before": 111322,
+      "points_after": 48978
+    },
+    {
+      "id": "baltimore-1832-p175-243",
+      "glyph": "uniE0ED",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "f2ee1e8444f526ff8981deb9ce5a3da805d06537b0f0869088df0d1e384d7bf8",
+      "raster_em_pixels": 1536,
+      "points_before": 72844,
+      "points_after": 34364
+    },
+    {
+      "id": "baltimore-1832-p175-244",
+      "glyph": "uniE0EE",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "fe0749de69d9b2388b5384b03c7dab62d4c13c08c85de96815f3933d2cca1cf0",
+      "raster_em_pixels": 1536,
+      "points_before": 84309,
+      "points_after": 50991
+    },
+    {
+      "id": "baltimore-1832-p205-347",
+      "glyph": "uniE14F",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "1ff30768a5d7405d40bd092d5174da982d41dbca6fa3f30867754a6bd53549fc",
+      "raster_em_pixels": 1536,
+      "points_before": 58486,
+      "points_after": 33718
+    },
+    {
+      "id": "baltimore-1832-p207-355",
+      "glyph": "uniE157",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "c37c0609a9fd41cfd8851b09eec42f7ff72d907df4f09aaa9e748757ce109e13",
+      "raster_em_pixels": 1536,
+      "points_before": 62594,
+      "points_after": 46178
+    },
+    {
+      "id": "baltimore-1832-p207-356",
+      "glyph": "uniE158",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "18b636767272ccd0fd9c5ad2786104e426bd62844db732a7031a38eba6a5e691",
+      "raster_em_pixels": 1536,
+      "points_before": 59790,
+      "points_after": 37919
+    },
+    {
+      "id": "baltimore-1832-p209-357-25",
+      "glyph": "uniE171",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "459ce408868ec91233ec8807809c0256a070fc7c18d364fc0f9456c09298d7b4",
+      "raster_em_pixels": 1536,
+      "points_before": 63309,
+      "points_after": 45585
+    },
+    {
+      "id": "baltimore-1832-p211-358",
+      "glyph": "uniE172",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "b4da72b3f9fb03d82d10b97b6b8e9e094da8a11dc1f7f23e62fc9bb1decd6a3c",
+      "raster_em_pixels": 1536,
+      "points_before": 110870,
+      "points_after": 38381
+    },
+    {
+      "id": "baltimore-1832-p213-359",
+      "glyph": "uniE173",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "73b3f87a70908274a26453b3ad861cf21f27e6ed75533080da1296841324a33f",
+      "raster_em_pixels": 1536,
+      "points_before": 112781,
+      "points_after": 36289
+    },
+    {
+      "id": "baltimore-1832-p215-360",
+      "glyph": "uniE174",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "e647c24a488bfd1040c692303c277899146ffbdd5cd4b3a7e663213bb8410dc6",
+      "raster_em_pixels": 1536,
+      "points_before": 245842,
+      "points_after": 40597
+    },
+    {
+      "id": "baltimore-1832-p217-361",
+      "glyph": "uniE175",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "21d0975424fbd94bcb5bbbccbb006fbab1395886b7a7430cb59bd4b8d52b688f",
+      "raster_em_pixels": 1536,
+      "points_before": 288591,
+      "points_after": 36615
+    },
+    {
+      "id": "baltimore-1832-p219-362",
+      "glyph": "uniE176",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "3df51696151fe1797fc80e128ce1fc22c947721e8727124d1962ff38f5a55802",
+      "raster_em_pixels": 1536,
+      "points_before": 127809,
+      "points_after": 42989
+    },
+    {
+      "id": "baltimore-1832-p221-363",
+      "glyph": "uniE177",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "d15d79653e13f91df3ce1da7bc8a480b05c09ce5dcbf8cdde187b4b42068f6cd",
+      "raster_em_pixels": 1536,
+      "points_before": 254873,
+      "points_after": 35000
+    },
+    {
+      "id": "baltimore-1832-p223-364",
+      "glyph": "uniE178",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "7acad6d2d11318d39c24be9fe518431bf6bda8e9b35a532ea1c971bf1ac7ff9b",
+      "raster_em_pixels": 1536,
+      "points_before": 232132,
+      "points_after": 30637
+    },
+    {
+      "id": "baltimore-1832-p225-365",
+      "glyph": "uniE179",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "1b2bbd766a83ab9ce407bbab5110aad9235b1f7de3c4d3997c09e1bf8545e6ef",
+      "raster_em_pixels": 1536,
+      "points_before": 396756,
+      "points_after": 55985
+    },
+    {
+      "id": "baltimore-1832-p227-366",
+      "glyph": "uniE17A",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "9ce8fcd570512a4175eea55a868488ac2ee8be60aa2ec4338679db94ae855ea9",
+      "raster_em_pixels": 1536,
+      "points_before": 109419,
+      "points_after": 32102
+    },
+    {
+      "id": "baltimore-1832-p229-367",
+      "glyph": "uniE17B",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "03c58813f5c4206d28571a491facac17caddb0e891304a82c2075f74100dc817",
+      "raster_em_pixels": 1536,
+      "points_before": 86389,
+      "points_after": 44240
+    },
+    {
+      "id": "baltimore-1832-p231-368",
+      "glyph": "uniE17C",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "1e5155bb77ef47b075eae635b36c637750592925d01aa451dd428ef35dd5fa77",
+      "raster_em_pixels": 1536,
+      "points_before": 162781,
+      "points_after": 43240
+    }
+  ],
+  "visual_review": {
+    "sizes_px": [
+      48,
+      96,
+      192,
+      384
+    ],
+    "approximated_icons": 32,
+    "formats": [
+      "otf",
+      "ttf",
+      "woff",
+      "woff2"
+    ],
+    "result": "All 32 affected drawings reviewed beside the full-detail source. Subjects, framing and advance remain intact at normal display sizes. Enlargements show the documented simplification; use SVG for full historical linework. OTF/TTF comparisons show normal rasterizer differences in fine strokes, with no empty drawings.",
+    "proof": "../specimens/format-comparison.pdf",
+    "caption_cleanup": "The latest proofs include the measured removal of isolated catalogue fragments. Every retained illustration contour was verified unchanged.",
+    "straightening": "Revised proofs inspected after the recorded rigid rotations. Full-detail and font drawings share the same matrices, coordinate frame and original advances."
+  }
+}

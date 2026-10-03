@@ -8,6 +8,9 @@
 *.pdf binary
 *.zip binary
 *.ttx linguist-generated=true
+# FontTools raw CharString XML pads its final hexadecimal groups with spaces.
+collection/baltimore-cuts-1832/source/font.ttx whitespace=-blank-at-eol
+collection/baltimore-ornaments-1832/source/font.ttx whitespace=-blank-at-eol
 catalog.json linguist-generated=true
 index.html linguist-generated=true
 collection/*/SHA256SUMS.txt linguist-generated=true

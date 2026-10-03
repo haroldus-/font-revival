@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "id": "baltimore-symbols-1832",
+  "kind": "icons",
+  "name": "Baltimore Symbols 1832",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "BaltimoreSymbols1832-Regular",
+  "year": 1832,
+  "designer": "Baltimore Type Foundry; individual engravers generally unidentified (signed large cuts credited in the source inventory)",
+  "foundry": "Baltimore Type Foundry; F. Lucas, Jr., agent",
+  "description": "Historical symbols from A specimen of printing types and ornaments from the Baltimore Type Foundry (1832).",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Harold Lehmann",
+  "sample_text": "",
+  "observed": "Observed impressions from the supplied 1832 Baltimore specimen. Every crop is mapped to a one-based PDF page of this unpaginated book; original JP2 leaves and exact preparation records are retained.",
+  "reconstructed": "No new pictorial content. Thresholding, documented crop cleanup, cubic curve fitting and font-unit rounding interpret the scanned impressions. Names, search tags, Private Use assignments, scale and bearings are new project work. Paper, catalogue numbers and prices are excluded. Multi-tone companions separate observed ink strengths into three disjoint vector regions at default opacities 1, 0.55 and 0.25; these are modern interpretations, not evidence of separately printed inks.",
+  "sources": [
+    {
+      "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 183, Internet Archive leaf 182",
+      "url": "https://archive.org/details/ldpd_12198261_000/page/n182/mode/1up",
+      "file": "reference/pdf-183.jp2",
+      "rights": "1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design.",
+      "rights_url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2"
+    }
+  ],
+  "icons": [
+    {
+      "id": "baltimore-1832-p183-275",
+      "name": "Globe diagram of parallels",
+      "specimen_number": "275",
+      "printed_page": null,
+      "pdf_page": 183,
+      "tags": [
+        "globe",
+        "diagram",
+        "parallels",
+        "geography",
+        "education"
+      ],
+      "codepoint": "E000",
+      "glyph": "uniE000",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE000.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE000.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE000.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "baltimore-1832-p183-276",
+      "name": "Globe diagram of meridians",
+      "specimen_number": "276",
+      "printed_page": null,
+      "pdf_page": 183,
+      "tags": [
+        "globe",
+        "diagram",
+        "meridians",
+        "geography",
+        "education"
+      ],
+      "codepoint": "E001",
+      "glyph": "uniE001",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE001.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE001.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE001.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "baltimore-1832-p183-277",
+      "name": "Globe diagram of named circles",
+      "specimen_number": "277",
+      "printed_page": null,
+      "pdf_page": 183,
+      "tags": [
+        "globe",
+        "diagram",
+        "named",
+        "circles",
+        "geography",
+        "education"
+      ],
+      "codepoint": "E002",
+      "glyph": "uniE002",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE002.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE002.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE002.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "baltimore-1832-p183-278",
+      "name": "Globe diagram of climatic zones",
+      "specimen_number": "278",
+      "printed_page": null,
+      "pdf_page": 183,
+      "tags": [
+        "globe",
+        "diagram",
+        "climatic",
+        "zones",
+        "geography",
+        "education"
+      ],
+      "codepoint": "E003",
+      "glyph": "uniE003",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE003.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE003.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE003.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ]
+    }
+  ],
+  "revival": {
+    "author": "Harold Lehmann",
+    "tools": [
+      "Pillow 12.3.0",
+      "Potrace 1.16",
+      "fontTools 4.64.0",
+      "skia-pathops 0.9.0",
+      "NumPy 1.26.4 (optional exact mask preparation)",
+      "SciPy 1.11.4 (optional exact mask preparation)"
+    ],
+    "notes": "Full-book survey, individual impressions, duplicates and exclusions are recorded in source/inventory.json and the central Baltimore Cuts inventory."
+  },
+  "cff_charstring_chunk_bytes": 60000
+}

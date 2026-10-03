@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "archive_url": "https://archive.org/details/ldpd_12198261_000",
+  "jp2_url": "https://archive.org/download/ldpd_12198261_000/ldpd_12198261_000_jp2.zip",
+  "jp2_sha256": "3363a6248b17d69e0d428620f42f3db98ba96aab4fcbb662242811d98845f167",
+  "supplied_pdf_sha256": "022eb3e7a5f35e5ca8f85113d598f438f9cad6cec3dc6fcc6aaad2c5e62f2871",
+  "supplied_pdf": "workspace/icon-pilot/ldpd_12198261_000.pdf (identical to ~/Downloads/ldpd_12198261_000.pdf)",
+  "pages": [
+    {
+      "pdf_page": 7,
+      "archive_leaf": 6,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0006.jp2",
+      "original_file": "reference/pdf-007.jp2",
+      "sha256": "7a6133a23c2ec7e123b6be4373f9d9edbc43b9463d4ab99a49f4b188e6509025",
+      "prepared_file": "reference/pdf-007.png",
+      "prepared_sha256": "10d0ea15e3cef42d9bdf436666a2e32bf7827f3882e46f1eb8be79fddf05952d",
+      "prepared_size": [
+        3086,
+        5202
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 0 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 11,
+      "archive_leaf": 10,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0010.jp2",
+      "original_file": "reference/pdf-011.jp2",
+      "sha256": "aafe70016a38b396fdc519064aa083bfbd1729c5084ac3f9e59d34aeb1dac865",
+      "prepared_file": "reference/pdf-011.png",
+      "prepared_sha256": "19d74f2c5ecf6a0c60a45c9e470a8feadd8f726186641923b72a6d1108112883",
+      "prepared_size": [
+        3039,
+        5184
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 0 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 79,
+      "archive_leaf": 78,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0078.jp2",
+      "original_file": "reference/pdf-079.jp2",
+      "sha256": "af3867b0fd49b9dbcd269a2afb26d03806e173e70dc44129fc640324b289e4fb",
+      "prepared_file": "reference/pdf-079.png",
+      "prepared_sha256": "41ac6b5cd23ae99aac5043aae9c6e50e8b63837380fec08c8421e722faa17898",
+      "prepared_size": [
+        3044,
+        5200
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 0 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 81,
+      "archive_leaf": 80,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0080.jp2",
+      "original_file": "reference/pdf-081.jp2",
+      "sha256": "2193ad0137c039783455e19510d67da450e54af8059d210f0e8ac1dec1ff0dfe",
+      "prepared_file": "reference/pdf-081.png",
+      "prepared_sha256": "94986a4e7a2af4dec8b1ad1985e9162f3191f12d3a84318532262314649b62f3",
+      "prepared_size": [
+        3048,
+        5247
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 0 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 83,
+      "archive_leaf": 82,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0082.jp2",
+      "original_file": "reference/pdf-083.jp2",
+      "sha256": "149232f3998c9c73f50cad5ada7f2fed320d3e921b0b1abacc48bd6888e5ad57",
+      "prepared_file": "reference/pdf-083.png",
+      "prepared_sha256": "bbe4161c36e275155ec325391fa1143815dfd3ed30990924fd07093200f9c5da",
+      "prepared_size": [
+        5241,
+        3045
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 85,
+      "archive_leaf": 84,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0084.jp2",
+      "original_file": "reference/pdf-085.jp2",
+      "sha256": "4cfd4b9ca220daee42b7de131f8abc96d281ea6ddeb35f3e0fbd3578e620e75b",
+      "prepared_file": "reference/pdf-085.png",
+      "prepared_sha256": "51c880bf4339d71f3a27d35f136e6a160cd7ad8dd3b030c6ef324a461438bdaa",
+      "prepared_size": [
+        5250,
+        3057
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 87,
+      "archive_leaf": 86,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0086.jp2",
+      "original_file": "reference/pdf-087.jp2",
+      "sha256": "14fc136be9f8f628435b7f46e17951c6d2ed941b3c48969e951041d4a5f8af1c",
+      "prepared_file": "reference/pdf-087.png",
+      "prepared_sha256": "1e488004b2a1cab33a42e74cc8b3f8817921021cbc34543927663856cb68c95a",
+      "prepared_size": [
+        5240,
+        3047
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 89,
+      "archive_leaf": 88,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0088.jp2",
+      "original_file": "reference/pdf-089.jp2",
+      "sha256": "d0273c018c31ffa00250ad035ffc3149a8ad4927235a2974bb0dcc93ede510ea",
+      "prepared_file": "reference/pdf-089.png",
+      "prepared_sha256": "7f6b724adfb338336406a3e05b8d7e279a6524a4c1af0d5404f5638676a841e5",
+      "prepared_size": [
+        5231,
+        3044
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 91,
+      "archive_leaf": 90,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0090.jp2",
+      "original_file": "reference/pdf-091.jp2",
+      "sha256": "7c61821897015d5f5ec5cbd46216fa3928cc0bde77bbcc3571144462bcec8bc3",
+      "prepared_file": "reference/pdf-091.png",
+      "prepared_sha256": "05128bd34c68f09ca43e062c9c599f816d5990f55d94699decb383702b3442b4",
+      "prepared_size": [
+        5238,
+        3051
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 93,
+      "archive_leaf": 92,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0092.jp2",
+      "original_file": "reference/pdf-093.jp2",
+      "sha256": "081fdac44fcffc45479eb56913d820b34b52e04b278e73369f40cd724f8e7888",
+      "prepared_file": "reference/pdf-093.png",
+      "prepared_sha256": "517a38dc63adfac5dc3344df5211f5ea1d88b3a05d686b50eef96f3ddb3dcb4e",
+      "prepared_size": [
+        5225,
+        3042
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 95,
+      "archive_leaf": 94,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0094.jp2",
+      "original_file": "reference/pdf-095.jp2",
+      "sha256": "ac3a3f0e07265e7490d2a3074e40e8ed2563f893427b98376fb754d8a85ba299",
+      "prepared_file": "reference/pdf-095.png",
+      "prepared_sha256": "6e62231ac352007334564df6e0af2b80ca077cb6c267fee4aab4cc993ffb2cc4",
+      "prepared_size": [
+        5226,
+        3038
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 97,
+      "archive_leaf": 96,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0096.jp2",
+      "original_file": "reference/pdf-097.jp2",
+      "sha256": "39cffff921dc069640ab56b4ba50d9adce5e534015a83fc0f984aac4540b3665",
+      "prepared_file": "reference/pdf-097.png",
+      "prepared_sha256": "5e357873fc6c62734cf2470046c5ea0c6c8d33b60149f35a282056c2f0198bac",
+      "prepared_size": [
+        5190,
+        3022
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 99,
+      "archive_leaf": 98,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0098.jp2",
+      "original_file": "reference/pdf-099.jp2",
+      "sha256": "b8c232bab03cbcb0542b2be4634dcf4b18f92a6b6b7a11e3eb86c101959f551e",
+      "prepared_file": "reference/pdf-099.png",
+      "prepared_sha256": "97af70424293aebaa0b00c2b358615463be9f0f1f4c2c2f888cf20676da62d63",
+      "prepared_size": [
+        5198,
+        3044
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 101,
+      "archive_leaf": 100,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0100.jp2",
+      "original_file": "reference/pdf-101.jp2",
+      "sha256": "aa2bcc768c8448d71aa791e09631c92ea842071d5e19751b69068979b7488ed6",
+      "prepared_file": "reference/pdf-101.png",
+      "prepared_sha256": "f1096fd1c0ee7802e3dacc43560b3f46ba4d86d9e3dedbc6183cdb5988118c6d",
+      "prepared_size": [
+        5192,
+        3052
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 103,
+      "archive_leaf": 102,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0102.jp2",
+      "original_file": "reference/pdf-103.jp2",
+      "sha256": "5849dd277fceb2a18b0e7a5eaba6457c195860a77769c9b894b3aa72e0843e37",
+      "prepared_file": "reference/pdf-103.png",
+      "prepared_sha256": "82625b692c8b68e823f2503d25b8faaffa4fe1865edf86c091b2b1e71e1ed4b3",
+      "prepared_size": [
+        5251,
+        3069
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 105,
+      "archive_leaf": 104,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0104.jp2",
+      "original_file": "reference/pdf-105.jp2",
+      "sha256": "14088cdf217c4cdac00006c1df7440188f483a06b0ca77dd892d034aec6afd80",
+      "prepared_file": "reference/pdf-105.png",
+      "prepared_sha256": "48bf4bad2e48c973fad5451fb29d97d0603facd7a2736766c319c31f5a050e6a",
+      "prepared_size": [
+        5168,
+        3046
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 107,
+      "archive_leaf": 106,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0106.jp2",
+      "original_file": "reference/pdf-107.jp2",
+      "sha256": "dc0da2fc34a1ec2a84869234ece34762f0ca05f7d070f71f663e0bec6883a6dc",
+      "prepared_file": "reference/pdf-107.png",
+      "prepared_sha256": "2edf5b4d301b5d3d38d302cdcb30020ba8bbc057b2c32faa0d69af6a4a2dcc74",
+      "prepared_size": [
+        5257,
+        3069
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 109,
+      "archive_leaf": 108,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0108.jp2",
+      "original_file": "reference/pdf-109.jp2",
+      "sha256": "c59e3c83979393918d61fd14e9e97a7d9ca439aca7fd630dfe7b0227d11742e9",
+      "prepared_file": "reference/pdf-109.png",
+      "prepared_sha256": "8b9439f1ca5781b4e1075a697c5992cd4db7383a8ed443fcbb757b8a56208c75",
+      "prepared_size": [
+        3029,
+        5215
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 0 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 111,
+      "archive_leaf": 110,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0110.jp2",
+      "original_file": "reference/pdf-111.jp2",
+      "sha256": "9173803cb8fb9c73c19219e459f238d11c436ebd306be09968f6b9978da54676",
+      "prepared_file": "reference/pdf-111.png",
+      "prepared_sha256": "f2e71221f1e768e72eaa9dbcaadfa0fe881c33b3aa34941e4955f09a56633cf8",
+      "prepared_size": [
+        3052,
+        5239
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 0 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 113,
+      "archive_leaf": 112,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0112.jp2",
+      "original_file": "reference/pdf-113.jp2",
+      "sha256": "8b20b9c847a748ddeb7bcfc64d78d4ae3fabda1605328af1ff8123c80e36303e",
+      "prepared_file": "reference/pdf-113.png",
+      "prepared_sha256": "56e575f71c206aabb9e5e890837b4d8502cbf4e63dcb6ee4e95653b476368eec",
+      "prepared_size": [
+        3030,
+        5180
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 0 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 115,
+      "archive_leaf": 114,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0114.jp2",
+      "original_file": "reference/pdf-115.jp2",
+      "sha256": "8b137b1525838d89f7e1ae9cf360b27eb08d4f55f6df35ad77774da5ae97cbb0",
+      "prepared_file": "reference/pdf-115.png",
+      "prepared_sha256": "b0ea577a41f62f5a3961ba318141941d3741331e04d2932ad7b1bbd431d79678",
+      "prepared_size": [
+        3031,
+        5192
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 0 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 117,
+      "archive_leaf": 116,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0116.jp2",
+      "original_file": "reference/pdf-117.jp2",
+      "sha256": "d0507aea7d6159e38460aa72080b680a1ed5254a225cc487bc188ad919ef21e3",
+      "prepared_file": "reference/pdf-117.png",
+      "prepared_sha256": "acb29a71a21a5a5f36cb981eb53c3770a513ef3eb3d5b0230d9821a9e869364a",
+      "prepared_size": [
+        3066,
+        5205
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 0 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 119,
+      "archive_leaf": 118,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0118.jp2",
+      "original_file": "reference/pdf-119.jp2",
+      "sha256": "8af7aceaa11724d7bac87a77669dd4532ad5cb22a8d4dd1d2a8b437c82f11f68",
+      "prepared_file": "reference/pdf-119.png",
+      "prepared_sha256": "5774fe159e5582a0b90fb79b2b755e2daf5eddca1b3d07b13c1977cc6b9a3cbb",
+      "prepared_size": [
+        3032,
+        5196
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 0 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 131,
+      "archive_leaf": 130,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0130.jp2",
+      "original_file": "reference/pdf-131.jp2",
+      "sha256": "4f329fd8ef1aa1b1ed71d173c0122dd5411d69281340fe13dd35ed71e351e344",
+      "prepared_file": "reference/pdf-131.png",
+      "prepared_sha256": "54bd0ae0c71bd61cfa8575d99e730e4e3b22fc069c71a1f1fb2369c08aa014dc",
+      "prepared_size": [
+        5186,
+        3044
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 167,
+      "archive_leaf": 166,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0166.jp2",
+      "original_file": "reference/pdf-167.jp2",
+      "sha256": "d395a476999d81607a75177311871f464782517062e5c34c328f5e26951dc260",
+      "prepared_file": "reference/pdf-167.png",
+      "prepared_sha256": "23d90b2c067613cf7f44cde8d1c757659f6f9e755fdc86d1b5823f2092a8e02c",
+      "prepared_size": [
+        5198,
+        3036
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 169,
+      "archive_leaf": 168,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0168.jp2",
+      "original_file": "reference/pdf-169.jp2",
+      "sha256": "9665a78825b3f65b69bfcede3d7f8df85d9b62912ef01bab555509f1107ae99e",
+      "prepared_file": "reference/pdf-169.png",
+      "prepared_sha256": "ac2dbd3b452ba91d5ca602df168ac45c30f8dd5cfe5954683e408bc1bac69c72",
+      "prepared_size": [
+        5198,
+        3042
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 187,
+      "archive_leaf": 186,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0186.jp2",
+      "original_file": "reference/pdf-187.jp2",
+      "sha256": "109a0d160d1a921c3da1499a2188287f4584035e4b4e57bc1bf4a825895a4be4",
+      "prepared_file": "reference/pdf-187.png",
+      "prepared_sha256": "207b792539466670c9c117f213fd255e94e3ef80e25cef91674669b47f04f67f",
+      "prepared_size": [
+        5196,
+        3092
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    }
+  ]
+}

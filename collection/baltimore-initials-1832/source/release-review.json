@@ -1,0 +1,132 @@
+{
+  "review": "Revised downloadable-font and gallery review, version 1.001",
+  "browser": "Google Chrome, headless Linux",
+  "font_rendering": [
+    {
+      "family": "baltimore-initials-1832",
+      "format": "otf",
+      "icons": 38,
+      "sizes": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "loaded": "loaded",
+      "failures": []
+    },
+    {
+      "family": "baltimore-initials-1832",
+      "format": "woff2",
+      "icons": 38,
+      "sizes": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "loaded": "loaded",
+      "failures": []
+    }
+  ],
+  "cff_max_program_bytes": 60000,
+  "cff_global_subroutines": 64,
+  "cff_geometry_verification": "Normal CFF delivery retains the reviewed rigidly rotated drawings and original advances. Full-detail monochrome and tone overrides match the recorded matrices exactly. Documented font approximations, when present, share the same matrix and updated master fingerprint.",
+  "gallery": {
+    "views_checked": 64,
+    "widths_px": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "protocols": [
+      "http",
+      "file"
+    ],
+    "javascript_errors": 0,
+    "horizontal_overflow": false,
+    "baltimore_search_count": 819,
+    "populated_baltimore_sections": 34
+  },
+  "otf_sha256": "7511451fdc10d2a8b0faf9a43883d2bb70416c137f13142e46b32c8c98dd8955",
+  "straightening": {
+    "icons_reviewed": 38,
+    "icons_rotated": 22,
+    "full_detail_drawings_verified": 88,
+    "advance_changes": 0,
+    "source_audit": "straightening.json",
+    "retrace_examples": "straightening-retrace-review.json"
+  },
+  "tests_passed": 90,
+  "quadratic_font_rendering": [
+    {
+      "family": "baltimore-initials-1832",
+      "format": "ttf",
+      "icons": 38,
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "all_visible": true,
+      "same_raster_and_advance_as_ttf": true
+    },
+    {
+      "family": "baltimore-initials-1832",
+      "format": "woff",
+      "icons": 38,
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "all_visible": true,
+      "same_raster_and_advance_as_ttf": true
+    },
+    {
+      "family": "baltimore-initials-1832",
+      "format": "woff2",
+      "icons": 38,
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "all_visible": true,
+      "same_raster_and_advance_as_ttf": true
+    }
+  ],
+  "published_preview_compression": {
+    "method": "Lossless gzip storage of inline SVG path markup in the staged public gallery; plain downloadable SVGs and repository HTML remain complete.",
+    "browser_checks": [
+      {
+        "page": "icons/baltimore-1832-p231-368.html",
+        "protocol": "http",
+        "identical_paths": true,
+        "recolouring": true
+      },
+      {
+        "page": "icons/baltimore-1832-p127-70.html",
+        "protocol": "http",
+        "identical_paths": true,
+        "recolouring": true
+      },
+      {
+        "page": "icons/baltimore-1832-p231-368.html",
+        "protocol": "file",
+        "identical_paths": true,
+        "recolouring": true
+      },
+      {
+        "page": "icons/baltimore-1832-p127-70.html",
+        "protocol": "file",
+        "identical_paths": true,
+        "recolouring": true
+      }
+    ]
+  }
+}

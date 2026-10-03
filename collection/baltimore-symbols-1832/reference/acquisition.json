@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "archive_url": "https://archive.org/details/ldpd_12198261_000",
+  "jp2_url": "https://archive.org/download/ldpd_12198261_000/ldpd_12198261_000_jp2.zip",
+  "jp2_sha256": "3363a6248b17d69e0d428620f42f3db98ba96aab4fcbb662242811d98845f167",
+  "supplied_pdf_sha256": "022eb3e7a5f35e5ca8f85113d598f438f9cad6cec3dc6fcc6aaad2c5e62f2871",
+  "supplied_pdf": "workspace/icon-pilot/ldpd_12198261_000.pdf (identical to ~/Downloads/ldpd_12198261_000.pdf)",
+  "pages": [
+    {
+      "pdf_page": 183,
+      "archive_leaf": 182,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0182.jp2",
+      "original_file": "reference/pdf-183.jp2",
+      "sha256": "31d4b0f19ed756bf52bb8f789116407e7699f800a30cec4f740490f114e51db9",
+      "prepared_file": "reference/pdf-183.png",
+      "prepared_sha256": "a7a97af1c880c84c7003c64e31bb6894d58e76b89e8f87522d61479cf8a5fc56",
+      "prepared_size": [
+        5190,
+        3096
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    }
+  ]
+}

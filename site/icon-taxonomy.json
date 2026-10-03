@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "notes": "Navigation labels transcribed or shortened from the retained Boston specimen plates. Printed page numbers refer to each family’s source records. Technical symbol subjects subdivide the shared printed heading using reviewed tags. This taxonomy does not change icon IDs or codepoints.",
+  "notes": "Navigation labels transcribed or shortened from retained Boston and Baltimore specimen plates. Baltimore is unpaginated: pdf_pages are one-based scan positions, not invented printed numbers. Subject groupings are editorial and retain the enclosing historical heading. IDs and codepoints are permanent.",
   "types": {
     "cuts": "Cuts",
     "ornaments": "Ornaments",
@@ -18,6 +18,18 @@
       "type": "initials"
     },
     "boston-symbols-1889": {
+      "type": "symbols"
+    },
+    "baltimore-cuts-1832": {
+      "type": "cuts"
+    },
+    "baltimore-ornaments-1832": {
+      "type": "ornaments"
+    },
+    "baltimore-initials-1832": {
+      "type": "initials"
+    },
+    "baltimore-symbols-1832": {
       "type": "symbols"
     }
   },
@@ -1080,6 +1092,644 @@
       "collection": "boston-symbols-1889",
       "printed_pages": [
         257
+      ]
+    },
+    {
+      "id": "baltimore-small-metal",
+      "label": "Baltimore: Small metal ornaments",
+      "historical_heading": "METAL ORNAMENTS.",
+      "collection": "baltimore-cuts-1832",
+      "pdf_pages": [
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133,
+        135,
+        137,
+        139
+      ]
+    },
+    {
+      "id": "baltimore-almanac",
+      "label": "Baltimore: Almanac cuts",
+      "historical_heading": "ALMANAC CUTS.",
+      "collection": "baltimore-cuts-1832",
+      "pdf_pages": [
+        141,
+        143,
+        145
+      ]
+    },
+    {
+      "id": "baltimore-metal",
+      "label": "Baltimore: Metal ornaments, continued",
+      "historical_heading": "METAL ORNAMENTS. (continuation; individual cuts are numbered without a repeated heading)",
+      "collection": "baltimore-cuts-1832",
+      "pdf_pages": [
+        147,
+        149,
+        151,
+        153,
+        155,
+        157,
+        159,
+        161,
+        163,
+        165,
+        171,
+        173,
+        175,
+        177,
+        179,
+        181,
+        183,
+        185,
+        187,
+        189,
+        203,
+        205,
+        207
+      ],
+      "icons": [
+        "baltimore-1832-p147-134",
+        "baltimore-1832-p147-135",
+        "baltimore-1832-p147-136",
+        "baltimore-1832-p147-137",
+        "baltimore-1832-p149-138",
+        "baltimore-1832-p149-139",
+        "baltimore-1832-p149-140",
+        "baltimore-1832-p149-141",
+        "baltimore-1832-p149-142",
+        "baltimore-1832-p149-143",
+        "baltimore-1832-p149-144",
+        "baltimore-1832-p149-145",
+        "baltimore-1832-p149-146",
+        "baltimore-1832-p149-147",
+        "baltimore-1832-p149-148",
+        "baltimore-1832-p149-149",
+        "baltimore-1832-p149-150",
+        "baltimore-1832-p149-151",
+        "baltimore-1832-p151-152",
+        "baltimore-1832-p151-153",
+        "baltimore-1832-p151-154",
+        "baltimore-1832-p151-155",
+        "baltimore-1832-p151-156",
+        "baltimore-1832-p151-157",
+        "baltimore-1832-p151-158",
+        "baltimore-1832-p151-159",
+        "baltimore-1832-p151-160",
+        "baltimore-1832-p151-161",
+        "baltimore-1832-p151-162",
+        "baltimore-1832-p151-163",
+        "baltimore-1832-p153-164",
+        "baltimore-1832-p153-165",
+        "baltimore-1832-p153-166",
+        "baltimore-1832-p153-167",
+        "baltimore-1832-p153-168",
+        "baltimore-1832-p153-169",
+        "baltimore-1832-p153-170",
+        "baltimore-1832-p153-171",
+        "baltimore-1832-p153-172",
+        "baltimore-1832-p153-173",
+        "baltimore-1832-p153-174",
+        "baltimore-1832-p153-175",
+        "baltimore-1832-p153-176",
+        "baltimore-1832-p153-177",
+        "baltimore-1832-p155-178",
+        "baltimore-1832-p155-179",
+        "baltimore-1832-p155-180",
+        "baltimore-1832-p155-181",
+        "baltimore-1832-p155-182",
+        "baltimore-1832-p155-183",
+        "baltimore-1832-p155-184",
+        "baltimore-1832-p155-185",
+        "baltimore-1832-p155-186",
+        "baltimore-1832-p155-187",
+        "baltimore-1832-p155-188",
+        "baltimore-1832-p155-189",
+        "baltimore-1832-p155-190",
+        "baltimore-1832-p155-191",
+        "baltimore-1832-p157-192",
+        "baltimore-1832-p157-193",
+        "baltimore-1832-p157-194",
+        "baltimore-1832-p157-195",
+        "baltimore-1832-p157-196",
+        "baltimore-1832-p157-197",
+        "baltimore-1832-p157-198",
+        "baltimore-1832-p157-199",
+        "baltimore-1832-p157-200",
+        "baltimore-1832-p157-201",
+        "baltimore-1832-p157-202",
+        "baltimore-1832-p157-203",
+        "baltimore-1832-p157-204",
+        "baltimore-1832-p159-205",
+        "baltimore-1832-p159-206",
+        "baltimore-1832-p159-207",
+        "baltimore-1832-p159-208",
+        "baltimore-1832-p159-209",
+        "baltimore-1832-p159-210",
+        "baltimore-1832-p159-211",
+        "baltimore-1832-p159-212",
+        "baltimore-1832-p159-213",
+        "baltimore-1832-p159-214",
+        "baltimore-1832-p159-215",
+        "baltimore-1832-p159-216",
+        "baltimore-1832-p159-217",
+        "baltimore-1832-p161-218",
+        "baltimore-1832-p161-219",
+        "baltimore-1832-p161-220",
+        "baltimore-1832-p161-221",
+        "baltimore-1832-p161-222",
+        "baltimore-1832-p161-223",
+        "baltimore-1832-p161-224",
+        "baltimore-1832-p161-225",
+        "baltimore-1832-p161-226",
+        "baltimore-1832-p161-227",
+        "baltimore-1832-p161-228",
+        "baltimore-1832-p161-229",
+        "baltimore-1832-p163-230",
+        "baltimore-1832-p163-231",
+        "baltimore-1832-p163-232",
+        "baltimore-1832-p165-233",
+        "baltimore-1832-p165-234",
+        "baltimore-1832-p171-239",
+        "baltimore-1832-p171-240",
+        "baltimore-1832-p173-241",
+        "baltimore-1832-p173-242",
+        "baltimore-1832-p175-243",
+        "baltimore-1832-p175-244",
+        "baltimore-1832-p177-245",
+        "baltimore-1832-p177-246",
+        "baltimore-1832-p177-247",
+        "baltimore-1832-p177-248",
+        "baltimore-1832-p177-249",
+        "baltimore-1832-p177-250",
+        "baltimore-1832-p177-251",
+        "baltimore-1832-p177-252",
+        "baltimore-1832-p179-253",
+        "baltimore-1832-p179-254",
+        "baltimore-1832-p179-255",
+        "baltimore-1832-p179-256",
+        "baltimore-1832-p179-257",
+        "baltimore-1832-p179-258",
+        "baltimore-1832-p179-259",
+        "baltimore-1832-p179-260",
+        "baltimore-1832-p179-261",
+        "baltimore-1832-p179-262",
+        "baltimore-1832-p181-263",
+        "baltimore-1832-p181-264",
+        "baltimore-1832-p181-265",
+        "baltimore-1832-p181-266",
+        "baltimore-1832-p181-267",
+        "baltimore-1832-p181-268",
+        "baltimore-1832-p181-269",
+        "baltimore-1832-p183-270",
+        "baltimore-1832-p183-271",
+        "baltimore-1832-p183-272",
+        "baltimore-1832-p183-273",
+        "baltimore-1832-p183-274",
+        "baltimore-1832-p185-279",
+        "baltimore-1832-p185-280",
+        "baltimore-1832-p185-281",
+        "baltimore-1832-p185-282",
+        "baltimore-1832-p185-283",
+        "baltimore-1832-p185-284",
+        "baltimore-1832-p185-285",
+        "baltimore-1832-p185-286",
+        "baltimore-1832-p187-287",
+        "baltimore-1832-p187-288",
+        "baltimore-1832-p187-289",
+        "baltimore-1832-p187-290",
+        "baltimore-1832-p187-291",
+        "baltimore-1832-p187-292",
+        "baltimore-1832-p187-295",
+        "baltimore-1832-p189-296",
+        "baltimore-1832-p189-297",
+        "baltimore-1832-p189-298",
+        "baltimore-1832-p189-299",
+        "baltimore-1832-p189-300",
+        "baltimore-1832-p189-301",
+        "baltimore-1832-p189-302",
+        "baltimore-1832-p203-341",
+        "baltimore-1832-p203-342",
+        "baltimore-1832-p203-343",
+        "baltimore-1832-p203-344",
+        "baltimore-1832-p205-345",
+        "baltimore-1832-p205-346",
+        "baltimore-1832-p205-347",
+        "baltimore-1832-p205-348",
+        "baltimore-1832-p205-349",
+        "baltimore-1832-p205-350",
+        "baltimore-1832-p207-351",
+        "baltimore-1832-p207-352",
+        "baltimore-1832-p207-353",
+        "baltimore-1832-p207-354",
+        "baltimore-1832-p207-355",
+        "baltimore-1832-p207-356"
+      ]
+    },
+    {
+      "id": "baltimore-oval",
+      "label": "Baltimore: Oval vignettes",
+      "historical_heading": "METAL ORNAMENTS. (continuation, Nos. 303–340; editorial grouping)",
+      "collection": "baltimore-cuts-1832",
+      "pdf_pages": [
+        191,
+        193,
+        195,
+        197,
+        199,
+        201,
+        203
+      ],
+      "icons": [
+        "baltimore-1832-p191-303",
+        "baltimore-1832-p191-304",
+        "baltimore-1832-p191-305",
+        "baltimore-1832-p191-306",
+        "baltimore-1832-p191-307",
+        "baltimore-1832-p191-308",
+        "baltimore-1832-p193-309",
+        "baltimore-1832-p193-310",
+        "baltimore-1832-p193-311",
+        "baltimore-1832-p193-312",
+        "baltimore-1832-p193-313",
+        "baltimore-1832-p193-314",
+        "baltimore-1832-p195-315",
+        "baltimore-1832-p195-316",
+        "baltimore-1832-p195-317",
+        "baltimore-1832-p195-318",
+        "baltimore-1832-p195-319",
+        "baltimore-1832-p195-320",
+        "baltimore-1832-p197-321",
+        "baltimore-1832-p197-322",
+        "baltimore-1832-p197-323",
+        "baltimore-1832-p197-324",
+        "baltimore-1832-p197-325",
+        "baltimore-1832-p197-326",
+        "baltimore-1832-p199-327",
+        "baltimore-1832-p199-328",
+        "baltimore-1832-p199-329",
+        "baltimore-1832-p199-330",
+        "baltimore-1832-p199-331",
+        "baltimore-1832-p199-332",
+        "baltimore-1832-p201-333",
+        "baltimore-1832-p201-334",
+        "baltimore-1832-p201-335",
+        "baltimore-1832-p201-336",
+        "baltimore-1832-p201-337",
+        "baltimore-1832-p201-338",
+        "baltimore-1832-p203-339",
+        "baltimore-1832-p203-340"
+      ]
+    },
+    {
+      "id": "baltimore-primer",
+      "label": "Baltimore: New England Primer",
+      "historical_heading": "CUTS FOR THE NEW ENGLAND PRIMER.",
+      "collection": "baltimore-cuts-1832",
+      "pdf_pages": [
+        209
+      ]
+    },
+    {
+      "id": "baltimore-large",
+      "label": "Baltimore: Large cuts",
+      "historical_heading": "METAL ORNAMENTS. (continuation, Nos. 358–368; editorial grouping)",
+      "collection": "baltimore-cuts-1832",
+      "pdf_pages": [
+        211,
+        213,
+        215,
+        217,
+        219,
+        221,
+        223,
+        225,
+        227,
+        229,
+        231
+      ]
+    },
+    {
+      "id": "baltimore-brass",
+      "label": "Baltimore: Brass rules",
+      "historical_heading": "BRASS RULES.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        11
+      ]
+    },
+    {
+      "id": "baltimore-title",
+      "label": "Baltimore: Title-page border",
+      "historical_heading": "Title-page border (no printed section heading)",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        7
+      ]
+    },
+    {
+      "id": "baltimore-dashes",
+      "label": "Baltimore: Dashes",
+      "historical_heading": "DASHES.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        79,
+        81
+      ]
+    },
+    {
+      "id": "baltimore-scrolls",
+      "label": "Baltimore: Scrolls and seal",
+      "historical_heading": "Ornamental scrolls and seal (no printed section heading)",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        83
+      ]
+    },
+    {
+      "id": "baltimore-four-line-pica",
+      "label": "Baltimore: Four-line pica borders",
+      "historical_heading": "FLOWERS AND BORDERS. / FOUR-LINE PICA.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        85,
+        87,
+        89,
+        91
+      ],
+      "specimen_prefixes": [
+        "four-line-pica-"
+      ]
+    },
+    {
+      "id": "baltimore-five-line-pica",
+      "label": "Baltimore: Five-line pica borders",
+      "historical_heading": "FLOWERS AND BORDERS. / FIVE-LINE PICA.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        93
+      ],
+      "specimen_prefixes": [
+        "five-line-pica-"
+      ]
+    },
+    {
+      "id": "baltimore-six-line-pica",
+      "label": "Baltimore: Six-line pica borders",
+      "historical_heading": "FLOWERS AND BORDERS. / SIX-LINE PICA.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        95
+      ],
+      "specimen_prefixes": [
+        "six-line-pica-"
+      ]
+    },
+    {
+      "id": "baltimore-double-english",
+      "label": "Baltimore: Double English borders",
+      "historical_heading": "FLOWERS AND BORDERS. / DOUBLE ENGLISH.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        97,
+        99,
+        109
+      ],
+      "specimen_prefixes": [
+        "double-english-"
+      ]
+    },
+    {
+      "id": "baltimore-paragon",
+      "label": "Baltimore: Paragon borders",
+      "historical_heading": "FLOWERS AND BORDERS. / PARAGON.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        99
+      ],
+      "specimen_prefixes": [
+        "paragon-"
+      ]
+    },
+    {
+      "id": "baltimore-double-small-pica",
+      "label": "Baltimore: Double Small Pica borders",
+      "historical_heading": "FLOWERS AND BORDERS. / DOUBLE SMALL PICA.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        99,
+        101
+      ],
+      "specimen_prefixes": [
+        "double-small-pica-"
+      ]
+    },
+    {
+      "id": "baltimore-great-primer",
+      "label": "Baltimore: Great Primer borders",
+      "historical_heading": "FLOWERS AND BORDERS. / GREAT PRIMER.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        103,
+        105,
+        107
+      ],
+      "specimen_prefixes": [
+        "great-primer-"
+      ]
+    },
+    {
+      "id": "baltimore-double-great-primer",
+      "label": "Baltimore: Double Great Primer borders",
+      "historical_heading": "FLOWERS AND BORDERS. / DOUBLE GREAT PRIMER.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        107
+      ],
+      "specimen_prefixes": [
+        "double-great-primer-"
+      ]
+    },
+    {
+      "id": "baltimore-nonpareil",
+      "label": "Baltimore: Nonpareil borders",
+      "historical_heading": "FLOWERS AND BORDERS. / NONPAREIL.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        109
+      ],
+      "specimen_prefixes": [
+        "nonpareil-"
+      ]
+    },
+    {
+      "id": "baltimore-small-pica",
+      "label": "Baltimore: Small Pica borders",
+      "historical_heading": "FLOWERS AND BORDERS. / SMALL PICA.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        111,
+        119
+      ],
+      "specimen_prefixes": [
+        "small-pica-"
+      ]
+    },
+    {
+      "id": "baltimore-long-primer",
+      "label": "Baltimore: Long Primer borders",
+      "historical_heading": "FLOWERS AND BORDERS. / LONG PRIMER.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        111,
+        113
+      ],
+      "specimen_prefixes": [
+        "long-primer-"
+      ]
+    },
+    {
+      "id": "baltimore-brevier",
+      "label": "Baltimore: Brevier borders",
+      "historical_heading": "FLOWERS AND BORDERS. / BREVIER.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        113,
+        115
+      ],
+      "specimen_prefixes": [
+        "brevier-"
+      ]
+    },
+    {
+      "id": "baltimore-minion",
+      "label": "Baltimore: Minion borders",
+      "historical_heading": "FLOWERS AND BORDERS. / MINION.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        115
+      ],
+      "specimen_prefixes": [
+        "minion-"
+      ]
+    },
+    {
+      "id": "baltimore-english",
+      "label": "Baltimore: English borders",
+      "historical_heading": "FLOWERS AND BORDERS. / ENGLISH.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        117
+      ],
+      "specimen_prefixes": [
+        "english-"
+      ]
+    },
+    {
+      "id": "baltimore-pica",
+      "label": "Baltimore: Pica borders",
+      "historical_heading": "FLOWERS AND BORDERS. / PICA.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        119
+      ],
+      "specimen_prefixes": [
+        "pica-"
+      ]
+    },
+    {
+      "id": "baltimore-heading-dash",
+      "label": "Baltimore: Flowers and Borders heading dash",
+      "historical_heading": "FLOWERS AND BORDERS.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        85
+      ],
+      "specimen_prefixes": [
+        "heading-dash"
+      ]
+    },
+    {
+      "id": "baltimore-space-rules",
+      "label": "Baltimore: Space rules",
+      "historical_heading": "Space Rules.",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        109
+      ],
+      "specimen_prefixes": [
+        "long-primer-space",
+        "small-pica-space"
+      ]
+    },
+    {
+      "id": "baltimore-card-borders",
+      "label": "Baltimore: Card borders",
+      "historical_heading": "METAL ORNAMENTS. (Nos. 90, 235–238; editorial grouping)",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        131,
+        167,
+        169
+      ]
+    },
+    {
+      "id": "baltimore-ruled-fields",
+      "label": "Baltimore: Ruled fields",
+      "historical_heading": "METAL ORNAMENTS. (Nos. 293–294; editorial grouping)",
+      "collection": "baltimore-ornaments-1832",
+      "pdf_pages": [
+        187
+      ]
+    },
+    {
+      "id": "baltimore-six-line-initials",
+      "label": "Baltimore: Six-line ornamented letters",
+      "historical_heading": "SIX LINES PICA ORNAMENTED.",
+      "collection": "baltimore-initials-1832",
+      "pdf_pages": [
+        59
+      ]
+    },
+    {
+      "id": "baltimore-fluted-initials",
+      "label": "Baltimore: Eight-line fluted letters",
+      "historical_heading": "EIGHT LINES PICA FLUTED.",
+      "collection": "baltimore-initials-1832",
+      "pdf_pages": [
+        65
+      ]
+    },
+    {
+      "id": "baltimore-oak-initials",
+      "label": "Baltimore: Eight-line oak-leaf letters",
+      "historical_heading": "EIGHT LINES PICA OAK LEAF.",
+      "collection": "baltimore-initials-1832",
+      "pdf_pages": [
+        67
+      ]
+    },
+    {
+      "id": "baltimore-italic-initials",
+      "label": "Baltimore: Eight-line ornamented letters",
+      "historical_heading": "EIGHT LINES PICA ORNAMENTED.",
+      "collection": "baltimore-initials-1832",
+      "pdf_pages": [
+        69
+      ]
+    },
+    {
+      "id": "baltimore-geography",
+      "label": "Baltimore: Geography diagrams",
+      "historical_heading": "METAL ORNAMENTS. (Nos. 275–278; editorial grouping)",
+      "collection": "baltimore-symbols-1832",
+      "pdf_pages": [
+        183
       ]
     }
   ]

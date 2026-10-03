@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "font_metrics": {
+    "units_per_em": 2048,
+    "ascent": 1900,
+    "descent": -148,
+    "line_gap": 0,
+    "cap_height": 1800,
+    "x_height": 1800,
+    "win_ascent": 1900,
+    "win_descent": 148
+  },
+  "glyphs": {
+    "": {
+      "file": "reference/pdf-183.png",
+      "box": [
+        1619,
+        1604,
+        2304,
+        2367
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "paper_normalization_radius": 0,
+      "threshold": 170,
+      "frame_threshold": 200,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+      "multitone": {
+        "thresholds": {
+          "primary": 135,
+          "secondary": 170,
+          "tertiary": 200
+        },
+        "round_inputs": false
+      }
+    },
+    "": {
+      "file": "reference/pdf-183.png",
+      "box": [
+        2387,
+        1630,
+        3078,
+        2382
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "paper_normalization_radius": 0,
+      "threshold": 170,
+      "frame_threshold": 200,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+      "multitone": {
+        "thresholds": {
+          "primary": 135,
+          "secondary": 170,
+          "tertiary": 200
+        },
+        "round_inputs": false
+      }
+    },
+    "": {
+      "file": "reference/pdf-183.png",
+      "box": [
+        3171,
+        1619,
+        3867,
+        2387
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "paper_normalization_radius": 0,
+      "threshold": 170,
+      "frame_threshold": 200,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+      "multitone": {
+        "thresholds": {
+          "primary": 135,
+          "secondary": 170,
+          "tertiary": 200
+        },
+        "round_inputs": false
+      }
+    },
+    "": {
+      "file": "reference/pdf-183.png",
+      "box": [
+        3960,
+        1640,
+        4650,
+        2398
+      ],
+      "height": 1800,
+      "max_ink_dimension": 1800,
+      "center_vertical": true,
+      "y_min": 0,
+      "bearings": [
+        64,
+        64
+      ],
+      "paper_normalization_radius": 0,
+      "threshold": 170,
+      "frame_threshold": 200,
+      "blur": 0.3,
+      "component_min_area": 3,
+      "fill_holes": 0,
+      "tolerance": 0.15,
+      "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+      "multitone": {
+        "thresholds": {
+          "primary": 135,
+          "secondary": 170,
+          "tertiary": 200
+        },
+        "round_inputs": false
+      }
+    }
+  }
+}

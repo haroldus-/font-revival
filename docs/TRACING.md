@@ -27,6 +27,10 @@ Each participating family keeps:
   right, bottom]` in original image pixels, with y down and right/bottom exclusive.
   It records target outline height, baseline offset, sidebearings and any cleanup
   settings. Read `source/METHOD.md` before changing them.
+  An optional `rotation` is an exact counterclockwise quarter turn (0, 90, 180
+  or 270 degrees), applied after cropping and before cleanup. Erasure rectangles
+  use coordinates in that rotated crop. Historical comparison proofs show the
+  same upright orientation without applying the tracing cleanup to the scan.
 - `source/companions.json`: explicit SVG paths in font units with y up, or named
   transforms of earlier drawings. These supply new companions and documented
   repairs. An entry with the same character replaces its initial trace.
@@ -126,3 +130,33 @@ then rounded; the source masks, scaling and final coordinate precision are uncha
 If cubic intersections still fail, the final fallback uses quadratic curves with
 a maximum error of 0.05 font units, ten times finer than release TTF conversion.
 This remains vector artwork and passes the same fill checks before CFF import.
+
+For nested threshold contours that repeatedly create artificial tangencies,
+`multitone.round_inputs: false` selects the unrounded-curve operation first.
+The other representation and quadratic fallback remain available; finished
+regions still use integer font coordinates. Baltimore uses this option and
+direct grayscale thresholds so broad printed solids remain intact.
+
+For pathological dense engravings, `multitone.separation: "native-mask-bands"`
+partitions the original threshold masks before fitting their contours. It keeps
+native resolution and the common coordinate frame; no resampling is involved.
+The raster bands are disjoint; fitting and final coordinate rounding can make
+adjacent edges meet. Record the reason and inspect the result. The default remains
+checked vector subtraction. Baltimore No. 363 documents this exceptional case.
+
+Dense outlines that exceed FreeType’s glyph limits use the pinned system Cairo
+1.18.0 renderer (`libcairo2` on Ubuntu 24.04) for full-detail transparent PNGs.
+It rasterizes the master’s vector contours with nonzero winding and antialiasing,
+without going through a limited font outline buffer. Other families retain their
+existing rasterizer and output bytes.
+
+For isolated caption remnants, an optional `post_trace_remove_contours` list records rectangles in font coordinates after fitting. Preparation removes only complete contours whose control bounds lie inside a rectangle. Review these measured regions against the source and retain their evidence; this preserves the established coordinate frame and cannot clip a contour crossing the rectangle.
+
+For a reviewed orientation correction, `post_trace_transform` contains six affine
+coefficients in positive-up font coordinates. It runs after fitting and caption
+cleanup, with the same matrix for the solid drawing and every tone. Coordinates
+are stored on a 1/64-unit grid; `preserve_coordinates: true` in a glyph override
+keeps that precision when compiling CFF. Advances and contour order are retained.
+Use measured frame edges or other reliable references and compare the complete
+drawing before accepting a rotation; a historical pose or tapered edge is not a
+reason to straighten an object.

@@ -7,6 +7,13 @@ keeping fonts and download packages manageable. The 1,965 icons have global IDs
 and family-local codepoints. Source inventories record coverage, duplicates and
 the missing printed pages 217–218.
 
+The Baltimore 1832 volume adds Cuts (381), Ornaments (396), Initials (38) and
+Symbols (4). Its complete 238-page inventory is retained with Baltimore Cuts.
+All 368 catalogue numbers are represented; No. 357 contains 25 separate panels.
+The unpaginated leaves use `printed_page: null` and one-based `pdf_page` citations.
+Baltimore navigation sections use `pdf_pages` selectors; Boston retains its
+documented `printed_pages`. Neither field is inferred from the other.
+
 ## Delivery and use
 
 `build` produces individual transparent SVGs, an SVG symbol sprite, OTF and TTF
@@ -129,6 +136,36 @@ the already pinned skia-pathops 0.9.0 subtracts darker regions to make the regio
 disjoint. Normal builds use the committed contours and need no tracing tools.
 Export a layer by glyph name to refine it, then review both versions.
 
+An exceptionally detailed outline can exceed TrueType’s 65,535-point limit.
+Reviewed, format-specific paths in `source/truetype-glyphs/<glyph>.json` may
+replace the TTF/WOFF/WOFF2 drawing. The explicit
+`otf_uses_truetype_approximations` option applies the same reviewed drawing to
+downloadable OTFs when their full outlines also exceed renderer limits. Each records the canonical outline’s
+SHA256, unchanged advance, measured bounds allowance and preparation method.
+Stale fingerprints fail the build. SVG, the canonical master and tonal PNG
+retain full detail. Baltimore’s optional `source/prepare_truetype.py` prepares
+these explicitly documented approximations; normal release builds need no Potrace.
+Compare the formats at normal display sizes before accepting an approximation.
+The reference renderer also rejects TrueType glyphs with 4,095 or more contours
+and CFF outlines with more than 65,535 cubic points. The authoring tool checks
+all three counts; cubic and quadratic representations can need different numbers
+of points. Baltimore enables the OTF option so all downloadable fonts
+render reliably; use SVG for unrestricted full-detail artwork.
+
+For large unhinted CFF drawings, `cff_charstring_chunk_bytes: 60000` splits
+long drawing programs into shallow global subroutines. The encoded operands and
+outlines remain identical; each program stays within the Type 2 65,535-byte
+limit enforced by browser sanitizers. `check` verifies these program lengths.
+
+Baltimore Cuts and Ornaments export only encoded monochrome glyphs in their
+fonts. Private tone layers remain complete in the canonical master, SVGs and
+PNGs. `font_export_glyphs: "encoded"` records this distinction. Their large SVGs
+use lossless compact path notation, and `sprite_max_bytes` divides sprite
+files into manageable parts. The manifest and each HTML example name the
+correct part for that icon. Normal builds apply every full-detail glyph edit
+before artwork generation; the gallery reads those generated SVGs.
+The limit follows the [OpenType glyf and maxp specifications](https://learn.microsoft.com/en-us/typography/opentype/spec/maxp).
+
 SVG paths expose `--fr-primary-color`, `--fr-secondary-color`, `--fr-tertiary-color`
 and matching `--fr-…-opacity` custom properties. Each defaults to `currentColor`
 and its recorded opacity. For a two-tone appearance, use the same colour and
@@ -139,6 +176,7 @@ Each `font.json` icon entry records:
 
 - A globally unique permanent ID, such as `boston-1889-4202`, and a human name.
 - The printed specimen number, printed page, one-based PDF page and source index.
+  Use a null printed page for an unnumbered leaf; retain the actual PDF position.
 - A permanent BMP Private Use codepoint (`E000`–`F8FF`) and matching `uniXXXX` glyph.
 - Themes and likely search words (subjects, seasons, occasions, objects, visual
   features and common synonyms), plus a reviewed minimum display-size recommendation.
@@ -196,28 +234,39 @@ Icon builds also generate a smaller, deterministic web bundle in the family's
 `downloads/` folder. It contains the public assets and license under `collection/`
 so the gallery's HTML examples match the extracted paths. The gallery links to
 this committed ZIP, which is included in release rebuild checks.
+For very large collections, `web_bundle_max_bytes` produces ordinary numbered
+ZIP parts with a generated `downloads/bundles.json`. Download and extract every
+part into the same folder; complete assets are never split between archives.
 
 ### Publish the gallery
 
 `python scripts/build_site.py --output workspace/published` stages the public
 HTML and its asset dependencies, including individual icon pages and font
 subsets. The Pages workflow uses this same command. Local gallery files keep relative download
-links. The staged HTML links PDFs and ZIPs to their committed files on GitHub,
-so those large downloads are not duplicated in the published site. Editable
+links. The staged HTML links downloads and historical comparison PNGs to their
+committed files on GitHub, so these large assets are not duplicated in the
+published site. Interactive artwork and browsing fonts remain on the site. Editable
 masters, source scans and full proofs remain available in the repository.
+Large inline preview drawings are stored as deterministic gzip payloads in staged
+pages. `site/unpack-art.js` restores their exact SVG markup using the browser's
+[DecompressionStream API](https://developer.mozilla.org/en-US/docs/Web/API/DecompressionStream),
+so size and colour controls retain the original paths and tone classes. Older
+browsers load the linked SVG image as a fallback. Packing makes no coordinate
+changes and does not alter repository HTML or downloadable artwork.
 The assembler checks missing dependencies and the published size against
 [GitHub Pages' 1 GB limit](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
 Use an empty output directory when staging a new release.
 
 ## Coverage and remaining sources
 
-The requested expansion is Boston printed pp. 217–276 inclusive and the Baltimore
-book (`ldpd_12198261_000.pdf`) from the user's page 121 onward. Both supplied PDFs
+The Boston expansion covers printed pp. 217–276 inclusive. The Baltimore
+extraction covers the entire book (`ldpd_12198261_000.pdf`), including decorative
+material before PDF page 121. Both supplied PDFs
 are retained in `workspace/icon-pilot/`. The Boston archive record says printed
 pp. 217–218 are missing. The survey records this gap; the archive, Wikimedia copy
 and library catalogue search did not reveal a second digital copy supplying them.
-The Baltimore page-number interpretation still needs
-visual verification against that scan before inventorying it.
+The Baltimore book has no printed page numbers; its inventory cites PDF positions
+and records all 238 leaves, including blank versos.
 
 All 62 available Boston leaves in the range have been surveyed. Decorative
 initials and pictorial symbols are included by user approval; ordinary text and

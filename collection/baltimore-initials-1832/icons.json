@@ -1,0 +1,1947 @@
+{
+  "schema_version": 1,
+  "collection": "baltimore-initials-1832",
+  "version": "1.001",
+  "icons": [
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-m",
+      "name": "Six Line Pica Ornamented letter M",
+      "specimen_number": "six-line-pica-ornamented-m",
+      "printed_page": null,
+      "pdf_page": 59,
+      "tags": [
+        "letter",
+        "M",
+        "initial",
+        "decorated",
+        "floral",
+        "six",
+        "line",
+        "pica",
+        "ornamented",
+        "m"
+      ],
+      "codepoint": "E000",
+      "glyph": "uniE000",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE000.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE000.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE000.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p59-six-line-pica-ornamented-m.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p59-six-line-pica-ornamented-m",
+      "css_class": "fr-icon fr-baltimore-1832-p59-six-line-pica-ornamented-m",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p59-six-line-pica-ornamented-m.svg",
+        "png": "png/multitone/baltimore-1832-p59-six-line-pica-ornamented-m.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p59-six-line-pica-ornamented-m"
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-o",
+      "name": "Six Line Pica Ornamented letter O",
+      "specimen_number": "six-line-pica-ornamented-o",
+      "printed_page": null,
+      "pdf_page": 59,
+      "tags": [
+        "letter",
+        "O",
+        "initial",
+        "decorated",
+        "floral",
+        "six",
+        "line",
+        "pica",
+        "ornamented",
+        "o"
+      ],
+      "codepoint": "E001",
+      "glyph": "uniE001",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE001.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE001.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE001.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1801,
+      "viewBox": "0 -1900 1801 2048",
+      "aspect_ratio": 0.87939453125,
+      "svg": "svg/baltimore-1832-p59-six-line-pica-ornamented-o.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p59-six-line-pica-ornamented-o",
+      "css_class": "fr-icon fr-baltimore-1832-p59-six-line-pica-ornamented-o",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p59-six-line-pica-ornamented-o.svg",
+        "png": "png/multitone/baltimore-1832-p59-six-line-pica-ornamented-o.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p59-six-line-pica-ornamented-o"
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-d",
+      "name": "Six Line Pica Ornamented letter D",
+      "specimen_number": "six-line-pica-ornamented-d",
+      "printed_page": null,
+      "pdf_page": 59,
+      "tags": [
+        "letter",
+        "D",
+        "initial",
+        "decorated",
+        "floral",
+        "six",
+        "line",
+        "pica",
+        "ornamented",
+        "d"
+      ],
+      "codepoint": "E002",
+      "glyph": "uniE002",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE002.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE002.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE002.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p59-six-line-pica-ornamented-d.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p59-six-line-pica-ornamented-d",
+      "css_class": "fr-icon fr-baltimore-1832-p59-six-line-pica-ornamented-d",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p59-six-line-pica-ornamented-d.svg",
+        "png": "png/multitone/baltimore-1832-p59-six-line-pica-ornamented-d.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p59-six-line-pica-ornamented-d"
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-e",
+      "name": "Six Line Pica Ornamented letter E",
+      "specimen_number": "six-line-pica-ornamented-e",
+      "printed_page": null,
+      "pdf_page": 59,
+      "tags": [
+        "letter",
+        "E",
+        "initial",
+        "decorated",
+        "floral",
+        "six",
+        "line",
+        "pica",
+        "ornamented",
+        "e"
+      ],
+      "codepoint": "E003",
+      "glyph": "uniE003",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE003.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE003.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE003.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p59-six-line-pica-ornamented-e.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p59-six-line-pica-ornamented-e",
+      "css_class": "fr-icon fr-baltimore-1832-p59-six-line-pica-ornamented-e",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p59-six-line-pica-ornamented-e.svg",
+        "png": "png/multitone/baltimore-1832-p59-six-line-pica-ornamented-e.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p59-six-line-pica-ornamented-e"
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-r",
+      "name": "Six Line Pica Ornamented letter R",
+      "specimen_number": "six-line-pica-ornamented-r",
+      "printed_page": null,
+      "pdf_page": 59,
+      "tags": [
+        "letter",
+        "R",
+        "initial",
+        "decorated",
+        "floral",
+        "six",
+        "line",
+        "pica",
+        "ornamented",
+        "r"
+      ],
+      "codepoint": "E004",
+      "glyph": "uniE004",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE004.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE004.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE004.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p59-six-line-pica-ornamented-r.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p59-six-line-pica-ornamented-r",
+      "css_class": "fr-icon fr-baltimore-1832-p59-six-line-pica-ornamented-r",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p59-six-line-pica-ornamented-r.svg",
+        "png": "png/multitone/baltimore-1832-p59-six-line-pica-ornamented-r.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p59-six-line-pica-ornamented-r"
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-n",
+      "name": "Six Line Pica Ornamented letter N",
+      "specimen_number": "six-line-pica-ornamented-n",
+      "printed_page": null,
+      "pdf_page": 59,
+      "tags": [
+        "letter",
+        "N",
+        "initial",
+        "decorated",
+        "floral",
+        "six",
+        "line",
+        "pica",
+        "ornamented",
+        "n"
+      ],
+      "codepoint": "E005",
+      "glyph": "uniE005",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE005.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE005.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE005.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p59-six-line-pica-ornamented-n.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p59-six-line-pica-ornamented-n",
+      "css_class": "fr-icon fr-baltimore-1832-p59-six-line-pica-ornamented-n",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p59-six-line-pica-ornamented-n.svg",
+        "png": "png/multitone/baltimore-1832-p59-six-line-pica-ornamented-n.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p59-six-line-pica-ornamented-n"
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-c",
+      "name": "Six Line Pica Ornamented letter C",
+      "specimen_number": "six-line-pica-ornamented-c",
+      "printed_page": null,
+      "pdf_page": 59,
+      "tags": [
+        "letter",
+        "C",
+        "initial",
+        "decorated",
+        "floral",
+        "six",
+        "line",
+        "pica",
+        "ornamented",
+        "c"
+      ],
+      "codepoint": "E006",
+      "glyph": "uniE006",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE006.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE006.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE006.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1873,
+      "viewBox": "0 -1900 1873 2048",
+      "aspect_ratio": 0.91455078125,
+      "svg": "svg/baltimore-1832-p59-six-line-pica-ornamented-c.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p59-six-line-pica-ornamented-c",
+      "css_class": "fr-icon fr-baltimore-1832-p59-six-line-pica-ornamented-c",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p59-six-line-pica-ornamented-c.svg",
+        "png": "png/multitone/baltimore-1832-p59-six-line-pica-ornamented-c.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p59-six-line-pica-ornamented-c"
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-h",
+      "name": "Six Line Pica Ornamented letter H",
+      "specimen_number": "six-line-pica-ornamented-h",
+      "printed_page": null,
+      "pdf_page": 59,
+      "tags": [
+        "letter",
+        "H",
+        "initial",
+        "decorated",
+        "floral",
+        "six",
+        "line",
+        "pica",
+        "ornamented",
+        "h"
+      ],
+      "codepoint": "E007",
+      "glyph": "uniE007",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE007.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE007.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE007.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p59-six-line-pica-ornamented-h.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p59-six-line-pica-ornamented-h",
+      "css_class": "fr-icon fr-baltimore-1832-p59-six-line-pica-ornamented-h",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p59-six-line-pica-ornamented-h.svg",
+        "png": "png/multitone/baltimore-1832-p59-six-line-pica-ornamented-h.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p59-six-line-pica-ornamented-h"
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-a",
+      "name": "Six Line Pica Ornamented letter A",
+      "specimen_number": "six-line-pica-ornamented-a",
+      "printed_page": null,
+      "pdf_page": 59,
+      "tags": [
+        "letter",
+        "A",
+        "initial",
+        "decorated",
+        "floral",
+        "six",
+        "line",
+        "pica",
+        "ornamented"
+      ],
+      "codepoint": "E008",
+      "glyph": "uniE008",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE008.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE008.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE008.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p59-six-line-pica-ornamented-a.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p59-six-line-pica-ornamented-a",
+      "css_class": "fr-icon fr-baltimore-1832-p59-six-line-pica-ornamented-a",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p59-six-line-pica-ornamented-a.svg",
+        "png": "png/multitone/baltimore-1832-p59-six-line-pica-ornamented-a.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p59-six-line-pica-ornamented-a"
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-s",
+      "name": "Six Line Pica Ornamented letter S",
+      "specimen_number": "six-line-pica-ornamented-s",
+      "printed_page": null,
+      "pdf_page": 59,
+      "tags": [
+        "letter",
+        "S",
+        "initial",
+        "decorated",
+        "floral",
+        "six",
+        "line",
+        "pica",
+        "ornamented",
+        "s"
+      ],
+      "codepoint": "E009",
+      "glyph": "uniE009",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE009.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE009.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE009.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1657,
+      "viewBox": "0 -1900 1657 2048",
+      "aspect_ratio": 0.80908203125,
+      "svg": "svg/baltimore-1832-p59-six-line-pica-ornamented-s.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p59-six-line-pica-ornamented-s",
+      "css_class": "fr-icon fr-baltimore-1832-p59-six-line-pica-ornamented-s",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p59-six-line-pica-ornamented-s.svg",
+        "png": "png/multitone/baltimore-1832-p59-six-line-pica-ornamented-s.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p59-six-line-pica-ornamented-s"
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-b",
+      "name": "Eight Line Pica Fluted letter B",
+      "specimen_number": "eight-line-pica-fluted-b",
+      "printed_page": null,
+      "pdf_page": 65,
+      "tags": [
+        "letter",
+        "B",
+        "initial",
+        "decorated",
+        "inline",
+        "eight",
+        "line",
+        "pica",
+        "fluted",
+        "b"
+      ],
+      "codepoint": "E00A",
+      "glyph": "uniE00A",
+      "source_index": 1,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE00A.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE00A.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE00A.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p65-eight-line-pica-fluted-b.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p65-eight-line-pica-fluted-b",
+      "css_class": "fr-icon fr-baltimore-1832-p65-eight-line-pica-fluted-b",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p65-eight-line-pica-fluted-b.svg",
+        "png": "png/multitone/baltimore-1832-p65-eight-line-pica-fluted-b.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p65-eight-line-pica-fluted-b"
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-r",
+      "name": "Eight Line Pica Fluted letter R",
+      "specimen_number": "eight-line-pica-fluted-r",
+      "printed_page": null,
+      "pdf_page": 65,
+      "tags": [
+        "letter",
+        "R",
+        "initial",
+        "decorated",
+        "inline",
+        "eight",
+        "line",
+        "pica",
+        "fluted",
+        "r"
+      ],
+      "codepoint": "E00B",
+      "glyph": "uniE00B",
+      "source_index": 1,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE00B.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE00B.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE00B.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p65-eight-line-pica-fluted-r.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p65-eight-line-pica-fluted-r",
+      "css_class": "fr-icon fr-baltimore-1832-p65-eight-line-pica-fluted-r",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p65-eight-line-pica-fluted-r.svg",
+        "png": "png/multitone/baltimore-1832-p65-eight-line-pica-fluted-r.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p65-eight-line-pica-fluted-r"
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-u",
+      "name": "Eight Line Pica Fluted letter U",
+      "specimen_number": "eight-line-pica-fluted-u",
+      "printed_page": null,
+      "pdf_page": 65,
+      "tags": [
+        "letter",
+        "U",
+        "initial",
+        "decorated",
+        "inline",
+        "eight",
+        "line",
+        "pica",
+        "fluted",
+        "u"
+      ],
+      "codepoint": "E00C",
+      "glyph": "uniE00C",
+      "source_index": 1,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE00C.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE00C.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE00C.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p65-eight-line-pica-fluted-u.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p65-eight-line-pica-fluted-u",
+      "css_class": "fr-icon fr-baltimore-1832-p65-eight-line-pica-fluted-u",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p65-eight-line-pica-fluted-u.svg",
+        "png": "png/multitone/baltimore-1832-p65-eight-line-pica-fluted-u.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p65-eight-line-pica-fluted-u"
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-n",
+      "name": "Eight Line Pica Fluted letter N",
+      "specimen_number": "eight-line-pica-fluted-n",
+      "printed_page": null,
+      "pdf_page": 65,
+      "tags": [
+        "letter",
+        "N",
+        "initial",
+        "decorated",
+        "inline",
+        "eight",
+        "line",
+        "pica",
+        "fluted",
+        "n"
+      ],
+      "codepoint": "E00D",
+      "glyph": "uniE00D",
+      "source_index": 1,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE00D.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE00D.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE00D.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p65-eight-line-pica-fluted-n.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p65-eight-line-pica-fluted-n",
+      "css_class": "fr-icon fr-baltimore-1832-p65-eight-line-pica-fluted-n",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p65-eight-line-pica-fluted-n.svg",
+        "png": "png/multitone/baltimore-1832-p65-eight-line-pica-fluted-n.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p65-eight-line-pica-fluted-n"
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-t",
+      "name": "Eight Line Pica Fluted letter T",
+      "specimen_number": "eight-line-pica-fluted-t",
+      "printed_page": null,
+      "pdf_page": 65,
+      "tags": [
+        "letter",
+        "T",
+        "initial",
+        "decorated",
+        "inline",
+        "eight",
+        "line",
+        "pica",
+        "fluted",
+        "t"
+      ],
+      "codepoint": "E00E",
+      "glyph": "uniE00E",
+      "source_index": 1,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE00E.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE00E.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE00E.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p65-eight-line-pica-fluted-t.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p65-eight-line-pica-fluted-t",
+      "css_class": "fr-icon fr-baltimore-1832-p65-eight-line-pica-fluted-t",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p65-eight-line-pica-fluted-t.svg",
+        "png": "png/multitone/baltimore-1832-p65-eight-line-pica-fluted-t.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p65-eight-line-pica-fluted-t"
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-m",
+      "name": "Eight Line Pica Fluted letter M",
+      "specimen_number": "eight-line-pica-fluted-m",
+      "printed_page": null,
+      "pdf_page": 65,
+      "tags": [
+        "letter",
+        "M",
+        "initial",
+        "decorated",
+        "inline",
+        "eight",
+        "line",
+        "pica",
+        "fluted",
+        "m"
+      ],
+      "codepoint": "E00F",
+      "glyph": "uniE00F",
+      "source_index": 1,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE00F.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE00F.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE00F.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p65-eight-line-pica-fluted-m.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p65-eight-line-pica-fluted-m",
+      "css_class": "fr-icon fr-baltimore-1832-p65-eight-line-pica-fluted-m",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p65-eight-line-pica-fluted-m.svg",
+        "png": "png/multitone/baltimore-1832-p65-eight-line-pica-fluted-m.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p65-eight-line-pica-fluted-m"
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-o",
+      "name": "Eight Line Pica Fluted letter O",
+      "specimen_number": "eight-line-pica-fluted-o",
+      "printed_page": null,
+      "pdf_page": 65,
+      "tags": [
+        "letter",
+        "O",
+        "initial",
+        "decorated",
+        "inline",
+        "eight",
+        "line",
+        "pica",
+        "fluted",
+        "o"
+      ],
+      "codepoint": "E010",
+      "glyph": "uniE010",
+      "source_index": 1,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE010.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE010.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE010.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p65-eight-line-pica-fluted-o.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p65-eight-line-pica-fluted-o",
+      "css_class": "fr-icon fr-baltimore-1832-p65-eight-line-pica-fluted-o",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p65-eight-line-pica-fluted-o.svg",
+        "png": "png/multitone/baltimore-1832-p65-eight-line-pica-fluted-o.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p65-eight-line-pica-fluted-o"
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-s",
+      "name": "Eight Line Pica Fluted letter S",
+      "specimen_number": "eight-line-pica-fluted-s",
+      "printed_page": null,
+      "pdf_page": 65,
+      "tags": [
+        "letter",
+        "S",
+        "initial",
+        "decorated",
+        "inline",
+        "eight",
+        "line",
+        "pica",
+        "fluted",
+        "s"
+      ],
+      "codepoint": "E011",
+      "glyph": "uniE011",
+      "source_index": 1,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE011.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE011.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE011.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1711,
+      "viewBox": "0 -1900 1711 2048",
+      "aspect_ratio": 0.83544921875,
+      "svg": "svg/baltimore-1832-p65-eight-line-pica-fluted-s.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p65-eight-line-pica-fluted-s",
+      "css_class": "fr-icon fr-baltimore-1832-p65-eight-line-pica-fluted-s",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p65-eight-line-pica-fluted-s.svg",
+        "png": "png/multitone/baltimore-1832-p65-eight-line-pica-fluted-s.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p65-eight-line-pica-fluted-s"
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-e",
+      "name": "Eight Line Pica Fluted letter E",
+      "specimen_number": "eight-line-pica-fluted-e",
+      "printed_page": null,
+      "pdf_page": 65,
+      "tags": [
+        "letter",
+        "E",
+        "initial",
+        "decorated",
+        "inline",
+        "eight",
+        "line",
+        "pica",
+        "fluted",
+        "e"
+      ],
+      "codepoint": "E012",
+      "glyph": "uniE012",
+      "source_index": 1,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE012.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE012.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE012.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p65-eight-line-pica-fluted-e.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p65-eight-line-pica-fluted-e",
+      "css_class": "fr-icon fr-baltimore-1832-p65-eight-line-pica-fluted-e",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p65-eight-line-pica-fluted-e.svg",
+        "png": "png/multitone/baltimore-1832-p65-eight-line-pica-fluted-e.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p65-eight-line-pica-fluted-e"
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-p",
+      "name": "Eight Line Pica Oak Leaf letter P",
+      "specimen_number": "eight-line-pica-oak-leaf-p",
+      "printed_page": null,
+      "pdf_page": 67,
+      "tags": [
+        "letter",
+        "P",
+        "initial",
+        "decorated",
+        "leaf",
+        "eight",
+        "line",
+        "pica",
+        "oak",
+        "p"
+      ],
+      "codepoint": "E013",
+      "glyph": "uniE013",
+      "source_index": 2,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE013.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE013.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE013.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p67-eight-line-pica-oak-leaf-p.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-p",
+      "css_class": "fr-icon fr-baltimore-1832-p67-eight-line-pica-oak-leaf-p",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-p.svg",
+        "png": "png/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-p.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-p"
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-r",
+      "name": "Eight Line Pica Oak Leaf letter R",
+      "specimen_number": "eight-line-pica-oak-leaf-r",
+      "printed_page": null,
+      "pdf_page": 67,
+      "tags": [
+        "letter",
+        "R",
+        "initial",
+        "decorated",
+        "leaf",
+        "eight",
+        "line",
+        "pica",
+        "oak",
+        "r"
+      ],
+      "codepoint": "E014",
+      "glyph": "uniE014",
+      "source_index": 2,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE014.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE014.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE014.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p67-eight-line-pica-oak-leaf-r.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-r",
+      "css_class": "fr-icon fr-baltimore-1832-p67-eight-line-pica-oak-leaf-r",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-r.svg",
+        "png": "png/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-r.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-r"
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-i",
+      "name": "Eight Line Pica Oak Leaf letter I",
+      "specimen_number": "eight-line-pica-oak-leaf-i",
+      "printed_page": null,
+      "pdf_page": 67,
+      "tags": [
+        "letter",
+        "I",
+        "initial",
+        "decorated",
+        "leaf",
+        "eight",
+        "line",
+        "pica",
+        "oak",
+        "i"
+      ],
+      "codepoint": "E015",
+      "glyph": "uniE015",
+      "source_index": 2,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE015.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE015.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE015.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1551,
+      "viewBox": "0 -1900 1551 2048",
+      "aspect_ratio": 0.75732421875,
+      "svg": "svg/baltimore-1832-p67-eight-line-pica-oak-leaf-i.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-i",
+      "css_class": "fr-icon fr-baltimore-1832-p67-eight-line-pica-oak-leaf-i",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-i.svg",
+        "png": "png/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-i.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-i"
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-n",
+      "name": "Eight Line Pica Oak Leaf letter N",
+      "specimen_number": "eight-line-pica-oak-leaf-n",
+      "printed_page": null,
+      "pdf_page": 67,
+      "tags": [
+        "letter",
+        "N",
+        "initial",
+        "decorated",
+        "leaf",
+        "eight",
+        "line",
+        "pica",
+        "oak",
+        "n"
+      ],
+      "codepoint": "E016",
+      "glyph": "uniE016",
+      "source_index": 2,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE016.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE016.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE016.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p67-eight-line-pica-oak-leaf-n.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-n",
+      "css_class": "fr-icon fr-baltimore-1832-p67-eight-line-pica-oak-leaf-n",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-n.svg",
+        "png": "png/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-n.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-n"
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-t",
+      "name": "Eight Line Pica Oak Leaf letter T",
+      "specimen_number": "eight-line-pica-oak-leaf-t",
+      "printed_page": null,
+      "pdf_page": 67,
+      "tags": [
+        "letter",
+        "T",
+        "initial",
+        "decorated",
+        "leaf",
+        "eight",
+        "line",
+        "pica",
+        "oak",
+        "t"
+      ],
+      "codepoint": "E017",
+      "glyph": "uniE017",
+      "source_index": 2,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE017.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE017.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE017.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p67-eight-line-pica-oak-leaf-t.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-t",
+      "css_class": "fr-icon fr-baltimore-1832-p67-eight-line-pica-oak-leaf-t",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-t.svg",
+        "png": "png/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-t.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-t"
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-l",
+      "name": "Eight Line Pica Oak Leaf letter L",
+      "specimen_number": "eight-line-pica-oak-leaf-l",
+      "printed_page": null,
+      "pdf_page": 67,
+      "tags": [
+        "letter",
+        "L",
+        "initial",
+        "decorated",
+        "leaf",
+        "eight",
+        "line",
+        "pica",
+        "oak",
+        "l"
+      ],
+      "codepoint": "E018",
+      "glyph": "uniE018",
+      "source_index": 2,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE018.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE018.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE018.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p67-eight-line-pica-oak-leaf-l.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-l",
+      "css_class": "fr-icon fr-baltimore-1832-p67-eight-line-pica-oak-leaf-l",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-l.svg",
+        "png": "png/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-l.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-l"
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-u",
+      "name": "Eight Line Pica Oak Leaf letter U",
+      "specimen_number": "eight-line-pica-oak-leaf-u",
+      "printed_page": null,
+      "pdf_page": 67,
+      "tags": [
+        "letter",
+        "U",
+        "initial",
+        "decorated",
+        "leaf",
+        "eight",
+        "line",
+        "pica",
+        "oak",
+        "u"
+      ],
+      "codepoint": "E019",
+      "glyph": "uniE019",
+      "source_index": 2,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE019.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE019.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE019.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p67-eight-line-pica-oak-leaf-u.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-u",
+      "css_class": "fr-icon fr-baltimore-1832-p67-eight-line-pica-oak-leaf-u",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-u.svg",
+        "png": "png/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-u.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-u"
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-c",
+      "name": "Eight Line Pica Oak Leaf letter C",
+      "specimen_number": "eight-line-pica-oak-leaf-c",
+      "printed_page": null,
+      "pdf_page": 67,
+      "tags": [
+        "letter",
+        "C",
+        "initial",
+        "decorated",
+        "leaf",
+        "eight",
+        "line",
+        "pica",
+        "oak",
+        "c"
+      ],
+      "codepoint": "E01A",
+      "glyph": "uniE01A",
+      "source_index": 2,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE01A.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE01A.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE01A.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p67-eight-line-pica-oak-leaf-c.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-c",
+      "css_class": "fr-icon fr-baltimore-1832-p67-eight-line-pica-oak-leaf-c",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-c.svg",
+        "png": "png/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-c.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-c"
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-a",
+      "name": "Eight Line Pica Oak Leaf letter A",
+      "specimen_number": "eight-line-pica-oak-leaf-a",
+      "printed_page": null,
+      "pdf_page": 67,
+      "tags": [
+        "letter",
+        "A",
+        "initial",
+        "decorated",
+        "leaf",
+        "eight",
+        "line",
+        "pica",
+        "oak"
+      ],
+      "codepoint": "E01B",
+      "glyph": "uniE01B",
+      "source_index": 2,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE01B.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE01B.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE01B.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p67-eight-line-pica-oak-leaf-a.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-a",
+      "css_class": "fr-icon fr-baltimore-1832-p67-eight-line-pica-oak-leaf-a",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-a.svg",
+        "png": "png/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-a.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-a"
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-s",
+      "name": "Eight Line Pica Oak Leaf letter S",
+      "specimen_number": "eight-line-pica-oak-leaf-s",
+      "printed_page": null,
+      "pdf_page": 67,
+      "tags": [
+        "letter",
+        "S",
+        "initial",
+        "decorated",
+        "leaf",
+        "eight",
+        "line",
+        "pica",
+        "oak",
+        "s"
+      ],
+      "codepoint": "E01C",
+      "glyph": "uniE01C",
+      "source_index": 2,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE01C.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE01C.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE01C.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1868,
+      "viewBox": "0 -1900 1868 2048",
+      "aspect_ratio": 0.912109375,
+      "svg": "svg/baltimore-1832-p67-eight-line-pica-oak-leaf-s.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-s",
+      "css_class": "fr-icon fr-baltimore-1832-p67-eight-line-pica-oak-leaf-s",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-s.svg",
+        "png": "png/multitone/baltimore-1832-p67-eight-line-pica-oak-leaf-s.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p67-eight-line-pica-oak-leaf-s"
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-m",
+      "name": "Eight Line Pica Ornamented Capital letter M",
+      "specimen_number": "eight-line-pica-ornamented-capital-m",
+      "printed_page": null,
+      "pdf_page": 69,
+      "tags": [
+        "letter",
+        "M",
+        "initial",
+        "decorated",
+        "floral",
+        "eight",
+        "line",
+        "pica",
+        "ornamented",
+        "capital",
+        "m"
+      ],
+      "codepoint": "E01D",
+      "glyph": "uniE01D",
+      "source_index": 3,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE01D.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE01D.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE01D.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p69-eight-line-pica-ornamented-capital-m.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p69-eight-line-pica-ornamented-capital-m",
+      "css_class": "fr-icon fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-m",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p69-eight-line-pica-ornamented-capital-m.svg",
+        "png": "png/multitone/baltimore-1832-p69-eight-line-pica-ornamented-capital-m.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p69-eight-line-pica-ornamented-capital-m"
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-u",
+      "name": "Eight Line Pica Ornamented Capital letter U",
+      "specimen_number": "eight-line-pica-ornamented-capital-u",
+      "printed_page": null,
+      "pdf_page": 69,
+      "tags": [
+        "letter",
+        "U",
+        "initial",
+        "decorated",
+        "floral",
+        "eight",
+        "line",
+        "pica",
+        "ornamented",
+        "capital",
+        "u"
+      ],
+      "codepoint": "E01E",
+      "glyph": "uniE01E",
+      "source_index": 3,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE01E.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE01E.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE01E.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p69-eight-line-pica-ornamented-capital-u.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p69-eight-line-pica-ornamented-capital-u",
+      "css_class": "fr-icon fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-u",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p69-eight-line-pica-ornamented-capital-u.svg",
+        "png": "png/multitone/baltimore-1832-p69-eight-line-pica-ornamented-capital-u.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p69-eight-line-pica-ornamented-capital-u"
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-s",
+      "name": "Eight Line Pica Ornamented Capital letter S",
+      "specimen_number": "eight-line-pica-ornamented-capital-s",
+      "printed_page": null,
+      "pdf_page": 69,
+      "tags": [
+        "letter",
+        "S",
+        "initial",
+        "decorated",
+        "floral",
+        "eight",
+        "line",
+        "pica",
+        "ornamented",
+        "capital",
+        "s"
+      ],
+      "codepoint": "E01F",
+      "glyph": "uniE01F",
+      "source_index": 3,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE01F.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE01F.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE01F.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p69-eight-line-pica-ornamented-capital-s.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p69-eight-line-pica-ornamented-capital-s",
+      "css_class": "fr-icon fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-s",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p69-eight-line-pica-ornamented-capital-s.svg",
+        "png": "png/multitone/baltimore-1832-p69-eight-line-pica-ornamented-capital-s.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p69-eight-line-pica-ornamented-capital-s"
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-e",
+      "name": "Eight Line Pica Ornamented Capital letter E",
+      "specimen_number": "eight-line-pica-ornamented-capital-e",
+      "printed_page": null,
+      "pdf_page": 69,
+      "tags": [
+        "letter",
+        "E",
+        "initial",
+        "decorated",
+        "floral",
+        "eight",
+        "line",
+        "pica",
+        "ornamented",
+        "capital",
+        "e"
+      ],
+      "codepoint": "E020",
+      "glyph": "uniE020",
+      "source_index": 3,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE020.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE020.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE020.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p69-eight-line-pica-ornamented-capital-e.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p69-eight-line-pica-ornamented-capital-e",
+      "css_class": "fr-icon fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-e",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p69-eight-line-pica-ornamented-capital-e.svg",
+        "png": "png/multitone/baltimore-1832-p69-eight-line-pica-ornamented-capital-e.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p69-eight-line-pica-ornamented-capital-e"
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h",
+      "name": "Eight Line Pica Ornamented Lowercase letter h",
+      "specimen_number": "eight-line-pica-ornamented-lowercase-h",
+      "printed_page": null,
+      "pdf_page": 69,
+      "tags": [
+        "letter",
+        "h",
+        "initial",
+        "decorated",
+        "floral",
+        "eight",
+        "line",
+        "pica",
+        "ornamented",
+        "lowercase"
+      ],
+      "codepoint": "E021",
+      "glyph": "uniE021",
+      "source_index": 3,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE021.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE021.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE021.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1881,
+      "viewBox": "0 -1900 1881 2048",
+      "aspect_ratio": 0.91845703125,
+      "svg": "svg/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h",
+      "css_class": "fr-icon fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h.svg",
+        "png": "png/multitone/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h"
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u",
+      "name": "Eight Line Pica Ornamented Lowercase letter u",
+      "specimen_number": "eight-line-pica-ornamented-lowercase-u",
+      "printed_page": null,
+      "pdf_page": 69,
+      "tags": [
+        "letter",
+        "u",
+        "initial",
+        "decorated",
+        "floral",
+        "eight",
+        "line",
+        "pica",
+        "ornamented",
+        "lowercase"
+      ],
+      "codepoint": "E022",
+      "glyph": "uniE022",
+      "source_index": 3,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE022.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE022.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE022.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u",
+      "css_class": "fr-icon fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u.svg",
+        "png": "png/multitone/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u"
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m",
+      "name": "Eight Line Pica Ornamented Lowercase letter m",
+      "specimen_number": "eight-line-pica-ornamented-lowercase-m",
+      "printed_page": null,
+      "pdf_page": 69,
+      "tags": [
+        "letter",
+        "m",
+        "initial",
+        "decorated",
+        "floral",
+        "eight",
+        "line",
+        "pica",
+        "ornamented",
+        "lowercase"
+      ],
+      "codepoint": "E023",
+      "glyph": "uniE023",
+      "source_index": 3,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE023.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE023.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE023.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m",
+      "css_class": "fr-icon fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m.svg",
+        "png": "png/multitone/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m"
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a",
+      "name": "Eight Line Pica Ornamented Lowercase letter a",
+      "specimen_number": "eight-line-pica-ornamented-lowercase-a",
+      "printed_page": null,
+      "pdf_page": 69,
+      "tags": [
+        "letter",
+        "a",
+        "initial",
+        "decorated",
+        "floral",
+        "eight",
+        "line",
+        "pica",
+        "ornamented",
+        "lowercase"
+      ],
+      "codepoint": "E024",
+      "glyph": "uniE024",
+      "source_index": 3,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE024.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE024.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE024.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a",
+      "css_class": "fr-icon fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a.svg",
+        "png": "png/multitone/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a"
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n",
+      "name": "Eight Line Pica Ornamented Lowercase letter n",
+      "specimen_number": "eight-line-pica-ornamented-lowercase-n",
+      "printed_page": null,
+      "pdf_page": 69,
+      "tags": [
+        "letter",
+        "n",
+        "initial",
+        "decorated",
+        "floral",
+        "eight",
+        "line",
+        "pica",
+        "ornamented",
+        "lowercase"
+      ],
+      "codepoint": "E025",
+      "glyph": "uniE025",
+      "source_index": 3,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE025.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE025.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE025.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1928,
+      "viewBox": "0 -1900 1928 2048",
+      "aspect_ratio": 0.94140625,
+      "svg": "svg/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n",
+      "css_class": "fr-icon fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n.svg",
+        "png": "png/multitone/baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n"
+      }
+    }
+  ]
+}

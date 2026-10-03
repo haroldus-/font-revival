@@ -1,0 +1,410 @@
+[
+  {
+    "id": "baltimore-1832-p209-357-01",
+    "rule_centres": [
+      [
+        175.41333333333333,
+        588.0,
+        -0.0075
+      ],
+      [
+        174.22285714285715,
+        885.0,
+        -0.0025000000000000022
+      ]
+    ],
+    "native_centre_x": 1299.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-02",
+    "rule_centres": [
+      [
+        174.18267419962336,
+        885.0,
+        -0.0025000000000000022
+      ],
+      [
+        171.90772128060263,
+        1180.0,
+        -0.0175
+      ]
+    ],
+    "native_centre_x": 1302.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-03",
+    "rule_centres": [
+      [
+        171.87262357414448,
+        1180.0,
+        -0.0175
+      ],
+      [
+        170.2281368821293,
+        1464.0,
+        -0.0049999999999999975
+      ]
+    ],
+    "native_centre_x": 1305.0,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-04",
+    "rule_centres": [
+      [
+        170.08761904761906,
+        1464.0,
+        -0.0049999999999999975
+      ],
+      [
+        170.40190476190477,
+        1759.0,
+        -0.010000000000000002
+      ]
+    ],
+    "native_centre_x": 1310.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-05",
+    "rule_centres": [
+      [
+        169.68761904761905,
+        1761.0,
+        -0.0025000000000000022
+      ],
+      [
+        177.68761904761905,
+        2060.0,
+        -0.0175
+      ]
+    ],
+    "native_centre_x": 1315.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-06",
+    "rule_centres": [
+      [
+        177.70912547528516,
+        2060.0,
+        -0.0175
+      ],
+      [
+        186.1425855513308,
+        2345.0,
+        0.0
+      ]
+    ],
+    "native_centre_x": 1321.0,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-07",
+    "rule_centres": [
+      [
+        179.17142857142858,
+        593.0,
+        0.010000000000000002
+      ],
+      [
+        172.30666666666667,
+        893.0,
+        0.0
+      ]
+    ],
+    "native_centre_x": 1964.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-08",
+    "rule_centres": [
+      [
+        172.12761904761905,
+        893.0,
+        0.0
+      ],
+      [
+        170.46857142857144,
+        1191.0,
+        -0.0025000000000000022
+      ]
+    ],
+    "native_centre_x": 1969.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-09",
+    "rule_centres": [
+      [
+        170.45009416195856,
+        1191.0,
+        -0.0025000000000000022
+      ],
+      [
+        163.00376647834275,
+        1488.0,
+        -0.010000000000000002
+      ]
+    ],
+    "native_centre_x": 1972.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-10",
+    "rule_centres": [
+      [
+        162.8964218455744,
+        1488.0,
+        -0.010000000000000002
+      ],
+      [
+        166.10169491525423,
+        1770.0,
+        -0.015
+      ]
+    ],
+    "native_centre_x": 1977.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-11",
+    "rule_centres": [
+      [
+        99.60263653483993,
+        1776.0,
+        0.030000000000000006
+      ],
+      [
+        173.79472693032014,
+        2058.0,
+        -0.025
+      ]
+    ],
+    "native_centre_x": 1982.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-12",
+    "rule_centres": [
+      [
+        161.82857142857142,
+        2091.0,
+        -0.035
+      ],
+      [
+        179.0095238095238,
+        2361.0,
+        0.0025000000000000022
+      ]
+    ],
+    "native_centre_x": 1985.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-13",
+    "rule_centres": [
+      [
+        177.9623352165725,
+        585.0,
+        0.0
+      ],
+      [
+        168.38041431261772,
+        873.0,
+        0.0
+      ]
+    ],
+    "native_centre_x": 2636.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-14",
+    "rule_centres": [
+      [
+        168.39619047619047,
+        873.0,
+        0.0
+      ],
+      [
+        169.37333333333333,
+        1171.0,
+        -0.0025000000000000022
+      ]
+    ],
+    "native_centre_x": 2639.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-15",
+    "rule_centres": [
+      [
+        169.23584905660377,
+        1171.0,
+        -0.0025000000000000022
+      ],
+      [
+        157.1075471698113,
+        1460.0,
+        -0.0025000000000000022
+      ]
+    ],
+    "native_centre_x": 2642.0,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-16",
+    "rule_centres": [
+      [
+        137.54048964218455,
+        1462.0,
+        -0.0049999999999999975
+      ],
+      [
+        170.14500941619585,
+        1758.0,
+        -0.0175
+      ]
+    ],
+    "native_centre_x": 2647.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-17",
+    "rule_centres": [
+      [
+        170.27871939736346,
+        1758.0,
+        -0.0175
+      ],
+      [
+        168.36723163841808,
+        2039.0,
+        -0.0175
+      ]
+    ],
+    "native_centre_x": 2652.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-18",
+    "rule_centres": [
+      [
+        168.7,
+        2039.0,
+        -0.0175
+      ],
+      [
+        179.89811320754717,
+        2330.0,
+        -0.02
+      ]
+    ],
+    "native_centre_x": 2658.0,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-19",
+    "rule_centres": [
+      [
+        177.67935871743487,
+        579.0,
+        -0.010000000000000002
+      ],
+      [
+        171.5370741482966,
+        867.0,
+        -0.0125
+      ]
+    ],
+    "native_centre_x": 3290.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-20",
+    "rule_centres": [
+      [
+        171.5370741482966,
+        867.0,
+        -0.0125
+      ],
+      [
+        170.53907815631263,
+        1162.0,
+        -0.0125
+      ]
+    ],
+    "native_centre_x": 3290.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-21",
+    "rule_centres": [
+      [
+        170.2138613861386,
+        1162.0,
+        -0.0125
+      ],
+      [
+        167.55841584158415,
+        1450.0,
+        -0.0125
+      ]
+    ],
+    "native_centre_x": 3298.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-22",
+    "rule_centres": [
+      [
+        78.88095238095238,
+        1457.0,
+        0.025
+      ],
+      [
+        171.0515873015873,
+        1730.0,
+        -0.0125
+      ]
+    ],
+    "native_centre_x": 3304.0,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-23",
+    "rule_centres": [
+      [
+        79.51587301587301,
+        1739.0,
+        0.04
+      ],
+      [
+        175.53968253968253,
+        2004.0,
+        -0.0075
+      ]
+    ],
+    "native_centre_x": 3309.0,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  },
+  {
+    "id": "baltimore-1832-p209-357-24",
+    "rule_centres": [
+      [
+        75.8990099009901,
+        2047.0,
+        0.04
+      ],
+      [
+        182.83564356435645,
+        2293.0,
+        -0.0025000000000000022
+      ]
+    ],
+    "native_centre_x": 3314.5,
+    "method": "Maximum continuous dark rule within reviewed boundary neighbourhood; retains original line pixels."
+  }
+]

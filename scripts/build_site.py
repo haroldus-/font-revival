@@ -2,12 +2,16 @@
 """Assemble the public gallery; keep large downloads on the repository host.
 
 The editable masters, native scans and full proofs remain in the repository.
-Local galleries retain relative paths. Only the staged site's PDF/ZIP links are
-rewritten to the same committed files on GitHub, avoiding duplicate large assets
+Local galleries retain relative paths. Staged downloads and comparison previews
+link to the same committed files on GitHub, avoiding duplicate large assets
 in GitHub Pages' 1 GB published-site allowance.
 """
 import argparse
+import base64
+import gzip
 from html.parser import HTMLParser
+import html
+import os
 from pathlib import Path
 import re
 import shutil
@@ -16,17 +20,64 @@ from urllib.parse import quote, unquote, urlsplit
 REPO = Path(__file__).resolve().parents[1]
 DOWNLOAD_BASE = 'https://raw.githubusercontent.com/haroldus-/font-revival/main/'
 CSS_URL = re.compile(r'url\(\s*[\'"]?([^\s\)\'"]+)[\'"]?\s*\)')
+DETAIL_SVG = re.compile(r'(<svg\b[^>]*\bdata-icon-format="(multitone|monochrome)"[^>]*>)(.*?)(</svg>)', re.S)
+
+
+def pack_detail_artwork(content, helper_url, minimum=100_000):
+    """Losslessly pack large preview paths in the published HTML only.
+
+    The ordinary SVG download is also a visible fallback. The browser restores
+    the exact inline paths so the existing size and colour controls still work.
+    Local repository pages and downloadable artwork stay plain SVG.
+    """
+    packed = False
+
+    def replace(match):
+        nonlocal packed
+        opening, kind, artwork, closing = match.groups()
+        if len(artwork.encode()) < minimum:
+            return match.group()
+        prefix = 'multitone/' if kind == 'multitone' else ''
+        download = re.search(r'<a download href="([^"]+/svg/' + prefix + r'[^/"<>]+\.svg)">', content)
+        viewbox = re.search(r'viewBox="([^"]+)"', opening)
+        if not download or not viewbox:
+            return match.group()
+        x, y, width, height = viewbox.group(1).split()
+        payload = base64.b64encode(gzip.compress(artwork.encode(), mtime=0)).decode('ascii')
+        if len(payload) >= len(artwork):
+            return match.group()
+        packed = True
+        fallback = (f'<image data-fallback-href="{download.group(1)}" x="{x}" y="{y}" '
+                    f'width="{width}" height="{height}"/>')
+        return opening + fallback + '<script type="application/octet-stream" data-packed-svg>' + payload + '</script>' + closing
+
+    content = DETAIL_SVG.sub(replace, content)
+    if packed:
+        script = f'<script defer src="{html.escape(helper_url, quote=True)}"></script>\n'
+        content = content.replace('</body>', script + '</body>')
+    return content
 
 
 class References(HTMLParser):
     def __init__(self):
         super().__init__()
         self.urls = set()
+        self.downloads = set()
+        self.comparison_images = set()
+        self.inline_assets = set()
 
     def handle_starttag(self, tag, attrs):
+        attributes = dict(attrs)
+        if tag == 'a' and 'download' in attributes and attributes.get('href'):
+            self.downloads.add(attributes['href'])
+        comparison = tag == 'img' and 'comparison' in attributes.get('class', '').split()
+        if comparison and attributes.get('src'):
+            self.comparison_images.add(attributes['src'])
         for key, value in attrs:
             if key in ('src', 'href', 'data-art-chunk') and value:
                 self.urls.add(value)
+                if key in ('src', 'data-art-chunk') and not comparison:
+                    self.inline_assets.add(value)
 
 
 def local_path(root, origin, url):
@@ -55,21 +106,31 @@ def assemble(root, output, download_base=DOWNLOAD_BASE):
         destination.parent.mkdir(parents=True, exist_ok=True)
         if file.suffix in ('.html', '.css'):
             content = file.read_text()
+            if file.suffix == '.html' and '</body>' in content:
+                helper = os.path.relpath(root / 'site/unpack-art.js', file.parent)
+                content = pack_detail_artwork(content, Path(helper).as_posix())
             references = set(CSS_URL.findall(content))
+            downloads, comparisons, inline = set(), set(), set(references)
             if file.suffix == '.html':
                 parser = References(); parser.feed(content)
                 references.update(parser.urls)
+                downloads, comparisons = parser.downloads, parser.comparison_images
+                inline.update(parser.inline_assets)
             for url in sorted(references):
                 target = local_path(root, file, url)
                 if target is None:
                     continue
-                if target.suffix.lower() in ('.pdf', '.zip'):
+                remote_asset = target.suffix.lower() in ('.pdf', '.zip') or url in downloads or url in comparisons
+                if remote_asset:
                     remote = download_base + quote(target.relative_to(root).as_posix())
                     fragment = urlsplit(url).fragment
                     if fragment:
                         remote += '#' + fragment
-                    content = content.replace('"' + url + '"', '"' + remote + '"')
-                else:
+                    if url in comparisons:
+                        content = content.replace('src="' + url + '"', 'src="' + remote + '"')
+                    if url in downloads or target.suffix.lower() in ('.pdf', '.zip'):
+                        content = content.replace('href="' + url + '"', 'href="' + remote + '"')
+                if not remote_asset or url in inline:
                     pending.append(target)
             destination.write_text(content)
         else:

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "scope": "All ornaments and cuts in the 238-page supplied Baltimore specimen; unnumbered leaves use PDF page citations.",
+  "entries": [
+    {
+      "pdf_page": 183,
+      "specimen_number": "275",
+      "grid_box": [
+        312,
+        309,
+        444,
+        456
+      ],
+      "name": "Globe diagram of parallels",
+      "category": "symbols",
+      "rotation": 0,
+      "erase_page": [],
+      "id": "baltimore-1832-p183-275",
+      "icon_id": "baltimore-1832-p183-275",
+      "codepoint": "E000",
+      "printed_page": null,
+      "box": [
+        1619,
+        1604,
+        2304,
+        2367
+      ],
+      "file": "reference/pdf-183.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 0
+      },
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 183,
+      "specimen_number": "276",
+      "grid_box": [
+        460,
+        314,
+        593,
+        459
+      ],
+      "name": "Globe diagram of meridians",
+      "category": "symbols",
+      "rotation": 0,
+      "erase_page": [],
+      "id": "baltimore-1832-p183-276",
+      "icon_id": "baltimore-1832-p183-276",
+      "codepoint": "E001",
+      "printed_page": null,
+      "box": [
+        2387,
+        1630,
+        3078,
+        2382
+      ],
+      "file": "reference/pdf-183.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 0
+      },
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 183,
+      "specimen_number": "277",
+      "grid_box": [
+        611,
+        312,
+        745,
+        460
+      ],
+      "name": "Globe diagram of named circles",
+      "category": "symbols",
+      "rotation": 0,
+      "erase_page": [],
+      "id": "baltimore-1832-p183-277",
+      "icon_id": "baltimore-1832-p183-277",
+      "codepoint": "E002",
+      "printed_page": null,
+      "box": [
+        3171,
+        1619,
+        3867,
+        2387
+      ],
+      "file": "reference/pdf-183.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 0
+      },
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 183,
+      "specimen_number": "278",
+      "grid_box": [
+        763,
+        316,
+        896,
+        462
+      ],
+      "name": "Globe diagram of climatic zones",
+      "category": "symbols",
+      "rotation": 0,
+      "erase_page": [],
+      "id": "baltimore-1832-p183-278",
+      "icon_id": "baltimore-1832-p183-278",
+      "codepoint": "E003",
+      "printed_page": null,
+      "box": [
+        3960,
+        1640,
+        4650,
+        2398
+      ],
+      "file": "reference/pdf-183.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 0
+      },
+      "erase_crop_pixels": []
+    }
+  ],
+  "output_review": {
+    "coverage": "Every listed crop and generated three-tone artwork reviewed in contact sheets, with detailed source/format proofs for large or simplified outlines.",
+    "formats": "Full master and SVG retained; source comparison PDF, transparent tonal PNG and desktop/webfont proofs supplied.",
+    "source_navigation": "One-based PDF page, null printed page for this unpaginated volume."
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "collection": "baltimore-symbols-1832",
+  "version": "1.000",
+  "icons": [
+    {
+      "id": "baltimore-1832-p183-275",
+      "name": "Globe diagram of parallels",
+      "specimen_number": "275",
+      "printed_page": null,
+      "pdf_page": 183,
+      "tags": [
+        "globe",
+        "diagram",
+        "parallels",
+        "geography",
+        "education"
+      ],
+      "codepoint": "E000",
+      "glyph": "uniE000",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE000.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE000.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE000.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1872,
+      "viewBox": "0 -1900 1872 2048",
+      "aspect_ratio": 0.9140625,
+      "svg": "svg/baltimore-1832-p183-275.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p183-275",
+      "css_class": "fr-icon fr-baltimore-1832-p183-275",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p183-275.svg",
+        "png": "png/multitone/baltimore-1832-p183-275.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p183-275"
+      }
+    },
+    {
+      "id": "baltimore-1832-p183-276",
+      "name": "Globe diagram of meridians",
+      "specimen_number": "276",
+      "printed_page": null,
+      "pdf_page": 183,
+      "tags": [
+        "globe",
+        "diagram",
+        "meridians",
+        "geography",
+        "education"
+      ],
+      "codepoint": "E001",
+      "glyph": "uniE001",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE001.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE001.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE001.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1737,
+      "viewBox": "0 -1900 1737 2048",
+      "aspect_ratio": 0.84814453125,
+      "svg": "svg/baltimore-1832-p183-276.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p183-276",
+      "css_class": "fr-icon fr-baltimore-1832-p183-276",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p183-276.svg",
+        "png": "png/multitone/baltimore-1832-p183-276.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p183-276"
+      }
+    },
+    {
+      "id": "baltimore-1832-p183-277",
+      "name": "Globe diagram of named circles",
+      "specimen_number": "277",
+      "printed_page": null,
+      "pdf_page": 183,
+      "tags": [
+        "globe",
+        "diagram",
+        "named",
+        "circles",
+        "geography",
+        "education"
+      ],
+      "codepoint": "E002",
+      "glyph": "uniE002",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE002.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE002.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE002.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1689,
+      "viewBox": "0 -1900 1689 2048",
+      "aspect_ratio": 0.82470703125,
+      "svg": "svg/baltimore-1832-p183-277.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p183-277",
+      "css_class": "fr-icon fr-baltimore-1832-p183-277",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p183-277.svg",
+        "png": "png/multitone/baltimore-1832-p183-277.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p183-277"
+      }
+    },
+    {
+      "id": "baltimore-1832-p183-278",
+      "name": "Globe diagram of climatic zones",
+      "specimen_number": "278",
+      "printed_page": null,
+      "pdf_page": 183,
+      "tags": [
+        "globe",
+        "diagram",
+        "climatic",
+        "zones",
+        "geography",
+        "education"
+      ],
+      "codepoint": "E003",
+      "glyph": "uniE003",
+      "source_index": 0,
+      "recommended_min_px": 64,
+      "multitone_layers": [
+        {
+          "glyph": "uniE003.primary",
+          "role": "primary",
+          "opacity": 1
+        },
+        {
+          "glyph": "uniE003.secondary",
+          "role": "secondary",
+          "opacity": 0.55
+        },
+        {
+          "glyph": "uniE003.tertiary",
+          "role": "tertiary",
+          "opacity": 0.25
+        }
+      ],
+      "advance_width": 1760,
+      "viewBox": "0 -1900 1760 2048",
+      "aspect_ratio": 0.859375,
+      "svg": "svg/baltimore-1832-p183-278.svg",
+      "sprite": "web/icons.svg#baltimore-1832-p183-278",
+      "css_class": "fr-icon fr-baltimore-1832-p183-278",
+      "multitone": {
+        "svg": "svg/multitone/baltimore-1832-p183-278.svg",
+        "png": "png/multitone/baltimore-1832-p183-278.png",
+        "sprite": "web/icons-multitone.svg#baltimore-1832-p183-278"
+      }
+    }
+  ]
+}

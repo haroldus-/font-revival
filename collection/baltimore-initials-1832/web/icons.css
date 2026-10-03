@@ -1,0 +1,80 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-m { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-m::before { content: "\E000"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-o { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-o::before { content: "\E001"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-d { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-d::before { content: "\E002"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-e { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-e::before { content: "\E003"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-r { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-r::before { content: "\E004"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-n { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-n::before { content: "\E005"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-c { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-c::before { content: "\E006"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-h { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-h::before { content: "\E007"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-a { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-a::before { content: "\E008"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-s { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p59-six-line-pica-ornamented-s::before { content: "\E009"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-b { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-b::before { content: "\E00A"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-r { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-r::before { content: "\E00B"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-u { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-u::before { content: "\E00C"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-n { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-n::before { content: "\E00D"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-t { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-t::before { content: "\E00E"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-m { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-m::before { content: "\E00F"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-o { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-o::before { content: "\E010"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-s { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-s::before { content: "\E011"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-e { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p65-eight-line-pica-fluted-e::before { content: "\E012"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-p { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-p::before { content: "\E013"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-r { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-r::before { content: "\E014"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-i { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-i::before { content: "\E015"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-n { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-n::before { content: "\E016"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-t { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-t::before { content: "\E017"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-l { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-l::before { content: "\E018"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-u { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-u::before { content: "\E019"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-c { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-c::before { content: "\E01A"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-a { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-a::before { content: "\E01B"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-s { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p67-eight-line-pica-oak-leaf-s::before { content: "\E01C"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-m { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-m::before { content: "\E01D"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-u { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-u::before { content: "\E01E"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-s { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-s::before { content: "\E01F"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-e { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-capital-e::before { content: "\E020"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h::before { content: "\E021"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u::before { content: "\E022"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m::before { content: "\E023"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a::before { content: "\E024"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n { font-family: "Baltimore Initials 1832"; }
+.fr-baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n::before { content: "\E025"; }

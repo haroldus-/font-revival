@@ -1,0 +1,26 @@
+{
+  "title": "A specimen of printing types and ornaments from the Baltimore Type Foundry",
+  "publication_year": 1832,
+  "publication_place": "Baltimore",
+  "publisher": "Lucas & Deaver",
+  "holding_institution": "Columbia University Libraries",
+  "archive_item": "https://archive.org/details/ldpd_12198261_000",
+  "rights_evidence": [
+    {
+      "url": "https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2",
+      "statement": "Public domain",
+      "basis": "Catalogue rights field for this digitized 1832 volume."
+    },
+    {
+      "url": "https://www.copyright.gov/circs/circ15a.pdf",
+      "basis": "US publication from 1832, long beyond the maximum historical published-work copyright term."
+    },
+    {
+      "url": "https://library.columbia.edu/about/policies/copyright-online-collections.html",
+      "basis": "Library collection policy; no blanket copyright ownership or permission inferred."
+    }
+  ],
+  "project_license": "MIT",
+  "project_copyright": "Copyright (c) 2026 Harold Lehmann",
+  "historical_designs": "Not a modern font trace; no claim of ownership over the historical designs."
+}

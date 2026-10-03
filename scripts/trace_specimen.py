@@ -11,12 +11,14 @@ import argparse
 from concurrent.futures import ProcessPoolExecutor
 import hashlib
 import json
+import math
 import subprocess
 import tempfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from fontTools.agl import UV2AGL
+from fontTools.cffLib import PrivateDict
 from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.boundsPen import BoundsPen
@@ -27,7 +29,7 @@ from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.t2CharStringPen import T2CharStringPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.svgLib.path import parse_path
-from PIL import Image, ImageDraw, ImageFilter, ImageOps
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageOps
 
 import fontrevival
 
@@ -58,6 +60,11 @@ def components(mask, value):
 
 def clean_crop(image, entry):
     crop = image.crop(entry['box']).convert('L')
+    rotation = entry.get('rotation', 0)
+    if rotation not in (0, 90, 180, 270):
+        raise ValueError('Crop rotation must be a counterclockwise quarter turn.')
+    if rotation:
+        crop = crop.rotate(rotation, expand=True)
     # Optional illumination correction for weak impressions on uneven paper.
     # Estimate the paper locally without adding or closing engraved strokes.
     radius = entry.get('paper_normalization_radius', 0)
@@ -160,12 +167,31 @@ def trace_tones(image, entry, layers, potrace):
     reference = trace_mask(clean_crop(image, frame), frame, potrace)
     transform, advance = trace_transform(reference, entry)
     settings = entry['multitone']
+    if settings.get('separation') == 'native-mask-bands':
+        # A documented fallback for an engraving whose vector intersection
+        # graph cannot be resolved in practical time. Keep every native pixel;
+        # separate the nested masks before fitting the same Potrace curves.
+        covered = None
+        drawings = {}
+        for layer in layers:
+            tonal = entry | {'threshold': settings['thresholds'][layer['role']],
+                             'erase': entry.get('erase', []) + settings.get('erase', [])}
+            mask = clean_crop(image, tonal)
+            band = mask if covered is None else ImageChops.lighter(mask, ImageOps.invert(covered))
+            covered = mask if covered is None else ImageChops.darker(covered, mask)
+            rec = trace_mask(band, tonal, potrace)
+            out = SVGPathPen(None)
+            rec.replay(TransformPen(RoundingPen(out), transform))
+            drawings[layer['glyph']] = {'path': out.getCommands(), 'advance_width': advance}
+        return drawings
+
     traced = []
     for layer in layers:
         threshold = settings['thresholds'][layer['role']]
         tonal = entry | {'threshold': threshold, 'erase': entry.get('erase', []) + settings.get('erase', [])}
         rec = trace_mask(clean_crop(image, tonal), tonal, potrace)
         traced.append((layer, rec))
+
 
     def separate(round_inputs, quadratic=False):
         drawings, covered = {}, pathops.Path()
@@ -182,14 +208,17 @@ def trace_tones(image, entry, layers, potrace):
             covered = boolean_op(covered, shape, pathops.PathOp.UNION)
         return drawings
 
+    initial_rounding = settings.get('round_inputs', True)
+    if type(initial_rounding) is not bool:
+        raise ValueError('multitone.round_inputs must be boolean.')
     try:
-        return separate(round_inputs=True)
+        return separate(round_inputs=initial_rounding)
     except ValueError:
         # Integer rounding can create artificial tangencies before subtraction.
         # Retry with the original fitted curves, rounding only the final regions.
         # Existing successful traces, including the pilot, stay unchanged.
         try:
-            return separate(round_inputs=False)
+            return separate(round_inputs=not initial_rounding)
         except ValueError:
             # A final vector-only fallback avoids unstable cubic intersections.
             # Its 0.05-unit curve error is ten times finer than release TTFs.
@@ -226,9 +255,10 @@ def assemble(family, drawings, aliases, output, features='', metrics=None, extra
     order = list(named)
     charstrings, metrics = {}, {}
     for name, data in named.items():
-        pen = T2CharStringPen(data['advance_width'], None)
+        pen = T2CharStringPen(data['advance_width'], None,
+                             roundTolerance=0 if data.get('preserve_coordinates') else 0.5)
         parse_path(data['path'], pen)
-        charstrings[name] = pen.getCharString()
+        charstrings[name] = pen.getCharString(optimize=not data.get('preserve_commands', False))
         bounds = BoundsPen(None)
         parse_path(data['path'], bounds)
         metrics[name] = (data['advance_width'], round(bounds.bounds[0]) if bounds.bounds else 0)
@@ -266,6 +296,62 @@ def require_potrace(potrace):
 _decoded_images = {}
 
 
+def erase_disconnected_contours(svg, rectangles):
+    """Remove isolated caption remnants within measured font-space rectangles."""
+    from fontTools.pens.boundsPen import ControlBoundsPen
+    recorded = RecordingPen()
+    parse_path(svg, recorded)
+    output, current, removed = SVGPathPen(None), RecordingPen(), 0
+    for operation, points in recorded.value:
+        getattr(current, operation)(*points)
+        if operation not in ('closePath', 'endPath'):
+            continue
+        bounds = ControlBoundsPen(None)
+        current.replay(bounds)
+        box = bounds.bounds
+        erase = box is not None and any(x0 <= box[0] and y0 <= box[1] and
+                                       box[2] <= x1 and box[3] <= y1
+                                       for x0, y0, x1, y1 in rectangles)
+        if erase:
+            removed += 1
+        else:
+            current.replay(output)
+        current = RecordingPen()
+    if current.value:
+        current.replay(output)
+    return output.getCommands(), removed
+
+
+def transform_drawing(drawing, matrix):
+    """Apply a reviewed post-trace affine on a binary-exact 1/64-unit grid.
+
+    Whole contours, including isolated points, retain their order. Use the same
+    matrix for the monochrome drawing and every tone to retain registration.
+    """
+    if (len(matrix) != 6 or any(not isinstance(v, (int, float)) or
+                               not math.isfinite(v) for v in matrix)):
+        raise ValueError('post_trace_transform requires six finite numbers.')
+    pen = SVGPathPen(None)
+    parse_path(drawing['path'], TransformPen(
+        RoundingPen(pen, roundFunc=lambda v: round(v * 64) / 64), matrix))
+    return drawing | {'path': pen.getCommands(), 'preserve_coordinates': True,
+                      'preserve_commands': True}
+
+
+def transform_traced_drawing(drawing, matrix):
+    """Rotate the same canonical CFF geometry produced by the initial import.
+
+    CFF specialization joins some collinear line segments before a revision.
+    Reproduce that step before rotation; rounding an extra intermediate vertex
+    after rotation could otherwise introduce a tiny bend absent from the master.
+    """
+    pen = T2CharStringPen(drawing['advance_width'], None)
+    parse_path(drawing['path'], pen)
+    canonical = SVGPathPen(None)
+    pen.getCharString(private=PrivateDict()).draw(canonical)
+    return transform_drawing(drawing | {'path': canonical.getCommands()}, matrix)
+
+
 def prepare_entry(task):
     file, entry, layers, signature, cached, potrace, label = task
     if cached and cached.exists():
@@ -277,6 +363,14 @@ def prepare_entry(task):
         result = {'solid': trace(image, entry, potrace), 'tones': {}}
         if 'multitone' in entry:
             result['tones'] = trace_tones(image, entry, layers, potrace)
+        if entry.get('post_trace_remove_contours'):
+            for drawing in [result['solid'], *result['tones'].values()]:
+                drawing['path'], _ = erase_disconnected_contours(drawing['path'], entry['post_trace_remove_contours'])
+        if 'post_trace_transform' in entry:
+            matrix = entry['post_trace_transform']
+            result['solid'] = transform_traced_drawing(result['solid'], matrix)
+            result['tones'] = {name: transform_traced_drawing(drawing, matrix)
+                               for name, drawing in result['tones'].items()}
     except Exception as exc:
         raise ValueError(f'Tracing {label}: {exc}') from exc
     if cached:

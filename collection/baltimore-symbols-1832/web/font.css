@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Baltimore Symbols 1832";
+  src: url("./BaltimoreSymbols1832-Regular.woff2") format("woff2"),
+       url("./BaltimoreSymbols1832-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

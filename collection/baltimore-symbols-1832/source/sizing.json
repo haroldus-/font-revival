@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "characters": " ",
+      "ink_width": [
+        0,
+        0
+      ],
+      "ink_height": [
+        0,
+        0
+      ],
+      "advance_width": [
+        512,
+        512
+      ],
+      "notes": "New blank quarter-em space for desktop composition."
+    },
+    {
+      "characters": "",
+      "notes": "Globe diagram of parallels: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        1,
+        5
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1661,
+        1665
+      ],
+      "ink_height": [
+        1794,
+        1798
+      ],
+      "advance_width": [
+        1872,
+        1872
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Globe diagram of meridians: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1797,
+        1801
+      ],
+      "ink_width": [
+        1605,
+        1609
+      ],
+      "ink_height": [
+        1795,
+        1799
+      ],
+      "advance_width": [
+        1737,
+        1737
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Globe diagram of named circles: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        0,
+        4
+      ],
+      "y_max": [
+        1725,
+        1729
+      ],
+      "ink_width": [
+        1543,
+        1547
+      ],
+      "ink_height": [
+        1723,
+        1727
+      ],
+      "advance_width": [
+        1689,
+        1689
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Globe diagram of climatic zones: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        2,
+        6
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1577,
+        1581
+      ],
+      "ink_height": [
+        1793,
+        1797
+      ],
+      "advance_width": [
+        1760,
+        1760
+      ]
+    }
+  ],
+  "notes": "Icons keep their native aspect ratios and fit an 1800-unit maximum ink dimension in the 2048-unit em; shorter artwork is centred vertically. Bounds allow curve conversion and rounding."
+}

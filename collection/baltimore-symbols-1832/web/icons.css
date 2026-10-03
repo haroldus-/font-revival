@@ -1,0 +1,12 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-baltimore-1832-p183-275 { font-family: "Baltimore Symbols 1832"; }
+.fr-baltimore-1832-p183-275::before { content: "\E000"; }
+.fr-baltimore-1832-p183-276 { font-family: "Baltimore Symbols 1832"; }
+.fr-baltimore-1832-p183-276::before { content: "\E001"; }
+.fr-baltimore-1832-p183-277 { font-family: "Baltimore Symbols 1832"; }
+.fr-baltimore-1832-p183-277::before { content: "\E002"; }
+.fr-baltimore-1832-p183-278 { font-family: "Baltimore Symbols 1832"; }
+.fr-baltimore-1832-p183-278::before { content: "\E003"; }

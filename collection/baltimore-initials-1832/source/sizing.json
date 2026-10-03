@@ -1,0 +1,934 @@
+{
+  "schema_version": 1,
+  "notes": "Historical proportions and original advances retained. Reviewed rotations change ink bounds only; ranges include curve-conversion rounding and documented font approximations.",
+  "rules": [
+    {
+      "characters": " ",
+      "ink_width": [
+        0,
+        0
+      ],
+      "ink_height": [
+        0,
+        0
+      ],
+      "advance_width": [
+        512,
+        512
+      ],
+      "notes": "New blank quarter-em space for desktop composition."
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Six Line Pica Ornamented letter M: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        292,
+        296
+      ],
+      "y_max": [
+        1498,
+        1502
+      ],
+      "ink_width": [
+        1749,
+        1753
+      ],
+      "ink_height": [
+        1204,
+        1208
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Six Line Pica Ornamented letter O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        122,
+        126
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1664,
+        1668
+      ],
+      "ink_height": [
+        1671,
+        1675
+      ],
+      "advance_width": [
+        1801,
+        1801
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Six Line Pica Ornamented letter D: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        138,
+        142
+      ],
+      "y_max": [
+        1666,
+        1670
+      ],
+      "ink_width": [
+        1779,
+        1783
+      ],
+      "ink_height": [
+        1526,
+        1530
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Six Line Pica Ornamented letter E: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        20,
+        24
+      ],
+      "y_max": [
+        1775,
+        1779
+      ],
+      "ink_width": [
+        1796,
+        1800
+      ],
+      "ink_height": [
+        1753,
+        1757
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Six Line Pica Ornamented letter R: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        152,
+        156
+      ],
+      "y_max": [
+        1670,
+        1674
+      ],
+      "ink_width": [
+        1794,
+        1798
+      ],
+      "ink_height": [
+        1516,
+        1520
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Six Line Pica Ornamented letter N: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        111,
+        115
+      ],
+      "y_max": [
+        1685,
+        1689
+      ],
+      "ink_width": [
+        1703,
+        1707
+      ],
+      "ink_height": [
+        1572,
+        1576
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Six Line Pica Ornamented letter C: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        3,
+        7
+      ],
+      "y_max": [
+        1719,
+        1723
+      ],
+      "ink_width": [
+        1578,
+        1582
+      ],
+      "ink_height": [
+        1714,
+        1718
+      ],
+      "advance_width": [
+        1873,
+        1873
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Six Line Pica Ornamented letter H: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        195,
+        199
+      ],
+      "y_max": [
+        1576,
+        1580
+      ],
+      "ink_width": [
+        1796,
+        1800
+      ],
+      "ink_height": [
+        1379,
+        1383
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Six Line Pica Ornamented letter A: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        155,
+        159
+      ],
+      "y_max": [
+        1612,
+        1616
+      ],
+      "ink_width": [
+        1792,
+        1796
+      ],
+      "ink_height": [
+        1455,
+        1459
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Six Line Pica Ornamented letter S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1795,
+        1799
+      ],
+      "ink_width": [
+        1474,
+        1478
+      ],
+      "ink_height": [
+        1789,
+        1793
+      ],
+      "advance_width": [
+        1657,
+        1657
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Fluted letter B: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        130,
+        134
+      ],
+      "y_max": [
+        1704,
+        1708
+      ],
+      "ink_width": [
+        1803,
+        1807
+      ],
+      "ink_height": [
+        1572,
+        1576
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Fluted letter R: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        199,
+        203
+      ],
+      "y_max": [
+        1614,
+        1618
+      ],
+      "ink_width": [
+        1740,
+        1744
+      ],
+      "ink_height": [
+        1412,
+        1416
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Fluted letter U: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        67,
+        71
+      ],
+      "y_max": [
+        1692,
+        1696
+      ],
+      "ink_width": [
+        1782,
+        1786
+      ],
+      "ink_height": [
+        1623,
+        1627
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Fluted letter N: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        87,
+        91
+      ],
+      "y_max": [
+        1703,
+        1707
+      ],
+      "ink_width": [
+        1773,
+        1777
+      ],
+      "ink_height": [
+        1614,
+        1618
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Fluted letter T: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        41,
+        45
+      ],
+      "y_max": [
+        1742,
+        1746
+      ],
+      "ink_width": [
+        1782,
+        1786
+      ],
+      "ink_height": [
+        1698,
+        1702
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Fluted letter M: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        248,
+        252
+      ],
+      "y_max": [
+        1547,
+        1551
+      ],
+      "ink_width": [
+        1763,
+        1767
+      ],
+      "ink_height": [
+        1297,
+        1301
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Eight Line Pica Fluted letter O: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        30,
+        34
+      ],
+      "y_max": [
+        1765,
+        1769
+      ],
+      "ink_width": [
+        1795,
+        1799
+      ],
+      "ink_height": [
+        1733,
+        1737
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1711,
+        1711
+      ],
+      "notes": "Eight Line Pica Fluted letter S: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        23,
+        27
+      ],
+      "y_max": [
+        1781,
+        1785
+      ],
+      "ink_width": [
+        1569,
+        1573
+      ],
+      "ink_height": [
+        1755,
+        1759
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Fluted letter E: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        79,
+        83
+      ],
+      "y_max": [
+        1728,
+        1732
+      ],
+      "ink_width": [
+        1739,
+        1743
+      ],
+      "ink_height": [
+        1647,
+        1651
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Eight Line Pica Oak Leaf letter P: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        105,
+        109
+      ],
+      "y_max": [
+        1713,
+        1717
+      ],
+      "ink_width": [
+        1794,
+        1798
+      ],
+      "ink_height": [
+        1607,
+        1611
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Oak Leaf letter R: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        301,
+        305
+      ],
+      "y_max": [
+        1585,
+        1589
+      ],
+      "ink_width": [
+        1786,
+        1790
+      ],
+      "ink_height": [
+        1282,
+        1286
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1551,
+        1551
+      ],
+      "notes": "Eight Line Pica Oak Leaf letter I: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        47,
+        51
+      ],
+      "y_max": [
+        1805,
+        1809
+      ],
+      "ink_width": [
+        1437,
+        1441
+      ],
+      "ink_height": [
+        1755,
+        1759
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Oak Leaf letter N: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        246,
+        250
+      ],
+      "y_max": [
+        1624,
+        1628
+      ],
+      "ink_width": [
+        1795,
+        1799
+      ],
+      "ink_height": [
+        1375,
+        1379
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Eight Line Pica Oak Leaf letter T: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        155,
+        159
+      ],
+      "y_max": [
+        1640,
+        1644
+      ],
+      "ink_width": [
+        1791,
+        1795
+      ],
+      "ink_height": [
+        1483,
+        1487
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Oak Leaf letter L: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        145,
+        149
+      ],
+      "y_max": [
+        1660,
+        1664
+      ],
+      "ink_width": [
+        1796,
+        1800
+      ],
+      "ink_height": [
+        1513,
+        1517
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Eight Line Pica Oak Leaf letter U: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        171,
+        175
+      ],
+      "y_max": [
+        1593,
+        1597
+      ],
+      "ink_width": [
+        1796,
+        1800
+      ],
+      "ink_height": [
+        1420,
+        1424
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Eight Line Pica Oak Leaf letter C: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        50,
+        54
+      ],
+      "y_max": [
+        1790,
+        1794
+      ],
+      "ink_width": [
+        1786,
+        1790
+      ],
+      "ink_height": [
+        1738,
+        1742
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Eight Line Pica Oak Leaf letter A: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        282,
+        286
+      ],
+      "y_max": [
+        1544,
+        1548
+      ],
+      "ink_width": [
+        1796,
+        1800
+      ],
+      "ink_height": [
+        1260,
+        1264
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Eight Line Pica Oak Leaf letter S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        -1,
+        3
+      ],
+      "y_max": [
+        1761,
+        1765
+      ],
+      "ink_width": [
+        1735,
+        1739
+      ],
+      "ink_height": [
+        1760,
+        1764
+      ],
+      "advance_width": [
+        1868,
+        1868
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Ornamented Capital letter M: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        400,
+        404
+      ],
+      "y_max": [
+        1392,
+        1396
+      ],
+      "ink_width": [
+        1816,
+        1820
+      ],
+      "ink_height": [
+        990,
+        994
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Ornamented Capital letter U: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        90,
+        94
+      ],
+      "y_max": [
+        1695,
+        1699
+      ],
+      "ink_width": [
+        1814,
+        1818
+      ],
+      "ink_height": [
+        1603,
+        1607
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Eight Line Pica Ornamented Capital letter S: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        148,
+        152
+      ],
+      "y_max": [
+        1690,
+        1694
+      ],
+      "ink_width": [
+        1798,
+        1802
+      ],
+      "ink_height": [
+        1540,
+        1544
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Ornamented Capital letter E: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        219,
+        223
+      ],
+      "y_max": [
+        1597,
+        1601
+      ],
+      "ink_width": [
+        1835,
+        1839
+      ],
+      "ink_height": [
+        1375,
+        1379
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1881,
+        1881
+      ],
+      "notes": "Eight Line Pica Ornamented Lowercase letter h: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        4,
+        8
+      ],
+      "y_max": [
+        1796,
+        1800
+      ],
+      "ink_width": [
+        1738,
+        1742
+      ],
+      "ink_height": [
+        1790,
+        1794
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Eight Line Pica Ornamented Lowercase letter u: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        28,
+        32
+      ],
+      "y_max": [
+        1764,
+        1768
+      ],
+      "ink_width": [
+        1795,
+        1799
+      ],
+      "ink_height": [
+        1734,
+        1738
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Ornamented Lowercase letter m: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        315,
+        319
+      ],
+      "y_max": [
+        1460,
+        1464
+      ],
+      "ink_width": [
+        1797,
+        1801
+      ],
+      "ink_height": [
+        1143,
+        1147
+      ]
+    },
+    {
+      "characters": "",
+      "notes": "Eight Line Pica Ornamented Lowercase letter a: reviewed source aspect ratio, uniform scaling and 64-unit sidebearings.",
+      "y_min": [
+        50,
+        54
+      ],
+      "y_max": [
+        1611,
+        1615
+      ],
+      "ink_width": [
+        1797,
+        1801
+      ],
+      "ink_height": [
+        1559,
+        1563
+      ],
+      "advance_width": [
+        1928,
+        1928
+      ]
+    },
+    {
+      "characters": "",
+      "advance_width": [
+        1928,
+        1928
+      ],
+      "notes": "Eight Line Pica Ornamented Lowercase letter n: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and advance; ink bounds follow the rotation.",
+      "y_min": [
+        175,
+        179
+      ],
+      "y_max": [
+        1663,
+        1667
+      ],
+      "ink_width": [
+        1805,
+        1809
+      ],
+      "ink_height": [
+        1485,
+        1489
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4138 @@
+{
+  "schema_version": 1,
+  "method": "Survey all icons at display sizes. Measure clear frames, baselines, opposing tips and repeated-strip edges. Crop-contained pieces share their printed strip rotation. Positive angles are counterclockwise in positive-up font coordinates; preserve all artwork contours and advances on a 1/64-unit grid.",
+  "icons": [
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-m",
+      "glyph": "uniE000",
+      "name": "Six Line Pica Ornamented letter M",
+      "specimen_number": "six-line-pica-ornamented-m",
+      "pdf_page": 59,
+      "bottom": {
+        "angle": 0.904,
+        "support": 0.846,
+        "span": 0.946,
+        "line": [
+          0.015784275067562935,
+          792.883614284932
+        ],
+        "points": 691,
+        "x_range": [
+          133,
+          905
+        ]
+      },
+      "top": {
+        "angle": 0.69,
+        "support": 0.706,
+        "span": 0.939,
+        "line": [
+          0.01204946206856576,
+          196.18523488912578
+        ],
+        "points": 577,
+        "x_range": [
+          89,
+          855
+        ]
+      },
+      "ink_box": [
+        64,
+        197,
+        930,
+        807
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": 0.797,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9999032536967122,
+        0.013909825546301248,
+        -0.013909825546301248,
+        0.9999032536967122,
+        12.612106428040635,
+        -13.32200015367539
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE000": {
+          "before": {
+            "sha256": "d5a283c28bd8287b632b946c294cca93e3c50ecc5d21b9f226601b2be29990c4",
+            "contours": 132,
+            "operations": 2124,
+            "bounds": [
+              127.0,
+              284.1344736058182,
+              1862.0,
+              1505.2495059114854
+            ]
+          },
+          "after": {
+            "sha256": "1f06c655e43a7939e694da96acf5f45a6e0d21e481f0de3e4cd95d69e7dc274d",
+            "contours": 132,
+            "operations": 2124,
+            "bounds": [
+              119.02210537586367,
+              294.07225770919916,
+              1870.3612622538446,
+              1500.1766617841058
+            ]
+          }
+        },
+        "uniE000.primary": {
+          "before": {
+            "sha256": "41879f9bd9a89d61bf2071e8e2bc314fb861fc6e606d2d5cabe9f43674e5733f",
+            "contours": 292,
+            "operations": 3015,
+            "bounds": [
+              128.5,
+              284.6061230866019,
+              1862.0,
+              1504.414213562373
+            ]
+          },
+          "after": {
+            "sha256": "ebea667e4ea0e120e4783bbec4eff4b3ad6a1be041dba3c7048b2e7a3aac3116",
+            "contours": 292,
+            "operations": 3015,
+            "bounds": [
+              120.58126807634656,
+              294.61593425718775,
+              1870.328313979329,
+              1499.2491313523385
+            ]
+          }
+        },
+        "uniE000.secondary": {
+          "before": {
+            "sha256": "32f756ec5b6eeee6fd7b625ca9276906229cf6e8def0ea5a1b1e895dbeeefc39",
+            "contours": 408,
+            "operations": 5221,
+            "bounds": [
+              127.0,
+              284.1344736058182,
+              1862.0,
+              1505.2495059114854
+            ]
+          },
+          "after": {
+            "sha256": "cdbed9254b925b1f9bf85c037314f94ad7b2389ddd6b0385ee93c877beb0aa18",
+            "contours": 408,
+            "operations": 5221,
+            "bounds": [
+              119.02210537586367,
+              294.07225770919916,
+              1870.3612622538446,
+              1500.1766617841058
+            ]
+          }
+        },
+        "uniE000.tertiary": {
+          "before": {
+            "sha256": "ae8da50c7afec18d4e534d767f636c0ce6f53f87b688253011108f6bc2dc6c80",
+            "contours": 297,
+            "operations": 5292,
+            "bounds": [
+              64.0,
+              268.7340136762891,
+              1864.0,
+              1531.0
+            ]
+          },
+          "after": {
+            "sha256": "d5f5d9876f0ad245cb2683bfc13b2e3aaabed9c53a506686ec2c252e4ed7f43e",
+            "contours": 297,
+            "operations": 5292,
+            "bounds": [
+              69.24000034534289,
+              273.95256518198624,
+              1872.344119568791,
+              1525.640625
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-o",
+      "glyph": "uniE001",
+      "name": "Six Line Pica Ornamented letter O",
+      "specimen_number": "six-line-pica-ornamented-o",
+      "pdf_page": 59,
+      "bottom": {
+        "angle": -5.534,
+        "support": 0.14,
+        "span": 0.154,
+        "line": [
+          -0.09689609540113589,
+          930.8417626787392
+        ],
+        "points": 110,
+        "x_range": [
+          432,
+          553
+        ]
+      },
+      "top": {
+        "angle": -2.547,
+        "support": 0.143,
+        "span": 0.145,
+        "line": [
+          -0.04448039138325562,
+          70.36206107472573
+        ],
+        "points": 112,
+        "x_range": [
+          339,
+          453
+        ]
+      },
+      "ink_box": [
+        34,
+        51,
+        866,
+        887
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-d",
+      "glyph": "uniE002",
+      "name": "Six Line Pica Ornamented letter D",
+      "specimen_number": "six-line-pica-ornamented-d",
+      "pdf_page": 59,
+      "bottom": {
+        "angle": -0.854,
+        "support": 0.531,
+        "span": 0.531,
+        "line": [
+          -0.014914039387584531,
+          885.2253925172942
+        ],
+        "points": 450,
+        "x_range": [
+          141,
+          590
+        ]
+      },
+      "top": {
+        "angle": -1.363,
+        "support": 0.541,
+        "span": 0.54,
+        "line": [
+          -0.02380197123766247,
+          128.1612614971636
+        ],
+        "points": 458,
+        "x_range": [
+          59,
+          516
+        ]
+      },
+      "ink_box": [
+        33,
+        116,
+        931,
+        883
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -1.109,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9998126842597242,
+        -0.019354492847012118,
+        0.019354492847012118,
+        0.9998126842597242,
+        -17.238471188685043,
+        18.82631527076785
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE002": {
+          "before": {
+            "sha256": "54442964408eba5276cc6580fe1f643b22848b707a00f8118f55af4b849cfe93",
+            "contours": 106,
+            "operations": 1741,
+            "bounds": [
+              66.52665226791933,
+              131.5857864376269,
+              1862.0544700339615,
+              1668.75
+            ]
+          },
+          "after": {
+            "sha256": "7864397563732e5c25513dd4293069380d6195b73805f1e3101c8f22b91f7cf1",
+            "contours": 106,
+            "operations": 1741,
+            "bounds": [
+              80.77258486736484,
+              140.0972838256811,
+              1861.5499402070432,
+              1668.0667509148575
+            ]
+          }
+        },
+        "uniE002.primary": {
+          "before": {
+            "sha256": "d90ccffd66f15560453e71ad96cd5002a324275995fcc6c2af035dc51a8bb7c5",
+            "contours": 196,
+            "operations": 2197,
+            "bounds": [
+              67.6027403689745,
+              136.0,
+              1861.2013904954613,
+              1667.6568542494924
+            ]
+          },
+          "after": {
+            "sha256": "837c190b46e17bacb11f01445a2b4b09fb174bbf8f4dd69c7a51aa66d3ad4dd1",
+            "contours": 196,
+            "operations": 2197,
+            "bounds": [
+              81.8383139804285,
+              142.801759018945,
+              1860.4560698208963,
+              1666.9332160181425
+            ]
+          }
+        },
+        "uniE002.secondary": {
+          "before": {
+            "sha256": "4c3139870e2b1188c114782f3be028d5e1b7babca64d91c0ccc24b67f30d4558",
+            "contours": 279,
+            "operations": 3986,
+            "bounds": [
+              66.52665226791933,
+              131.5857864376269,
+              1862.0544700339615,
+              1668.75
+            ]
+          },
+          "after": {
+            "sha256": "087b937e3a0e1dbff4fa818ddce80f73e2c2472ce3e4a241ab1c161295863cfe",
+            "contours": 279,
+            "operations": 3986,
+            "bounds": [
+              80.77258486736484,
+              140.0972838256811,
+              1861.5499402070432,
+              1668.0667509148575
+            ]
+          }
+        },
+        "uniE002.tertiary": {
+          "before": {
+            "sha256": "ec7b6cd85342e24db65cb8b2c96dd313740df97401048fc227ec38f0d58ffa6c",
+            "contours": 228,
+            "operations": 3984,
+            "bounds": [
+              63.85046584300227,
+              131.34314575050763,
+              1864.0,
+              1669.0
+            ]
+          },
+          "after": {
+            "sha256": "75d6b4df3bd8bdd604b9e58af318dc20e85e942591b40fa784219c1c09851e43",
+            "contours": 228,
+            "operations": 3984,
+            "bounds": [
+              78.07147970339989,
+              139.0141901445073,
+              1863.7641552118166,
+              1671.140625
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-e",
+      "glyph": "uniE003",
+      "name": "Six Line Pica Ornamented letter E",
+      "specimen_number": "six-line-pica-ornamented-e",
+      "pdf_page": 59,
+      "bottom": {
+        "angle": -0.606,
+        "support": 0.927,
+        "span": 0.927,
+        "line": [
+          -0.010576150874919388,
+          940.0865459562363
+        ],
+        "points": 785,
+        "x_range": [
+          120,
+          904
+        ]
+      },
+      "top": {
+        "angle": 0.012,
+        "support": 0.724,
+        "span": 0.723,
+        "line": [
+          0.00020122354329927302,
+          68.16671999837978
+        ],
+        "points": 613,
+        "x_range": [
+          185,
+          797
+        ]
+      },
+      "ink_box": [
+        32,
+        61,
+        930,
+        938
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-r",
+      "glyph": "uniE004",
+      "name": "Six Line Pica Ornamented letter R",
+      "specimen_number": "six-line-pica-ornamented-r",
+      "pdf_page": 59,
+      "bottom": {
+        "angle": 0.321,
+        "support": 0.639,
+        "span": 0.77,
+        "line": [
+          0.00559749474321005,
+          866.6322622309389
+        ],
+        "points": 541,
+        "x_range": [
+          115,
+          766
+        ]
+      },
+      "top": {
+        "angle": -0.033,
+        "support": 0.655,
+        "span": 0.654,
+        "line": [
+          -0.0005752796567651897,
+          115.84939875908248
+        ],
+        "points": 554,
+        "x_range": [
+          59,
+          612
+        ]
+      },
+      "ink_box": [
+        33,
+        114,
+        930,
+        873
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-n",
+      "glyph": "uniE005",
+      "name": "Six Line Pica Ornamented letter N",
+      "specimen_number": "six-line-pica-ornamented-n",
+      "pdf_page": 59,
+      "bottom": {
+        "angle": -0.456,
+        "support": 0.435,
+        "span": 0.828,
+        "line": [
+          -0.007960637629874314,
+          892.3737189139098
+        ],
+        "points": 349,
+        "x_range": [
+          114,
+          778
+        ]
+      },
+      "top": {
+        "angle": -0.636,
+        "support": 0.719,
+        "span": 0.908,
+        "line": [
+          -0.011101531224930138,
+          112.81003075440931
+        ],
+        "points": 577,
+        "x_range": [
+          60,
+          788
+        ]
+      },
+      "ink_box": [
+        35,
+        105,
+        887,
+        895
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -0.546,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9999545946802527,
+        -0.009529353485488841,
+        0.009529353485488841,
+        0.9999545946802527,
+        -8.532647408703575,
+        9.227161547783794
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE005": {
+          "before": {
+            "sha256": "5e0f32e5179a26ad0e8de3fbbfd445f088ea481358984403d4901832fd1fb8ef",
+            "contours": 56,
+            "operations": 1112,
+            "bounds": [
+              69.52665226791933,
+              110.25,
+              1776.25,
+              1689.0
+            ]
+          },
+          "after": {
+            "sha256": "6073f8195147f3bdaa621b9cfe1413c62e8f9c9debf7c1767bcb4b1c2f32adfb",
+            "contours": 56,
+            "operations": 1112,
+            "bounds": [
+              76.37338104042743,
+              113.234375,
+              1781.266912365192,
+              1687.4375
+            ]
+          }
+        },
+        "uniE005.primary": {
+          "before": {
+            "sha256": "c1d847758687d01cda35de2d4089069a0bc82f54860f90e98d426dd2e3417d01",
+            "contours": 96,
+            "operations": 1292,
+            "bounds": [
+              70.5464400750007,
+              109.01771565496246,
+              1774.0,
+              1687.111111111111
+            ]
+          },
+          "after": {
+            "sha256": "d8710354fc80ca938ddda888627aa38391b5e759caa9b923f98683127b704b3e",
+            "contours": 96,
+            "operations": 1292,
+            "bounds": [
+              77.42014717475912,
+              115.88120907265235,
+              1779.018508013376,
+              1684.4992706063401
+            ]
+          }
+        },
+        "uniE005.secondary": {
+          "before": {
+            "sha256": "05e8a2813a6791f285724d41f151dfd95da406e90e295fcb7e51eac38350ed0d",
+            "contours": 154,
+            "operations": 2461,
+            "bounds": [
+              69.52665226791933,
+              110.0,
+              1776.25,
+              1689.0
+            ]
+          },
+          "after": {
+            "sha256": "c7f620e124f9849b5a1cbcf8a45bf4a7934cde901b4156ce7b07d9068543f644",
+            "contours": 154,
+            "operations": 2461,
+            "bounds": [
+              76.37338104042743,
+              113.234375,
+              1781.266912365192,
+              1687.4375
+            ]
+          }
+        },
+        "uniE005.tertiary": {
+          "before": {
+            "sha256": "583f80bd4668f08bc93562d0a62cf8e19f69f199d9a2fef108ebfc4906aa2d7c",
+            "contours": 125,
+            "operations": 2602,
+            "bounds": [
+              63.959481645095735,
+              106.25,
+              1863.75,
+              1693.6568542494924
+            ]
+          },
+          "after": {
+            "sha256": "2392537131cb86f17c4a99036ac5acf88f0eb2f7424e79ba60b014d87787208a",
+            "contours": 125,
+            "operations": 2602,
+            "bounds": [
+              57.37713714631636,
+              113.10772785456122,
+              1868.5509615384615,
+              1692.000724720787
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-c",
+      "glyph": "uniE006",
+      "name": "Six Line Pica Ornamented letter C",
+      "specimen_number": "six-line-pica-ornamented-c",
+      "pdf_page": 59,
+      "bottom": {
+        "angle": 0.036,
+        "support": 0.163,
+        "span": 0.162,
+        "line": [
+          0.0006325727773420481,
+          945.2784327301329
+        ],
+        "points": 121,
+        "x_range": [
+          429,
+          549
+        ]
+      },
+      "top": {
+        "angle": 0.595,
+        "support": 0.183,
+        "span": 0.49,
+        "line": [
+          0.010382666685816399,
+          90.64815477195782
+        ],
+        "points": 136,
+        "x_range": [
+          416,
+          780
+        ]
+      },
+      "ink_box": [
+        114,
+        90,
+        903,
+        946
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-h",
+      "glyph": "uniE007",
+      "name": "Six Line Pica Ornamented letter H",
+      "specimen_number": "six-line-pica-ornamented-h",
+      "pdf_page": 59,
+      "bottom": {
+        "angle": 0.114,
+        "support": 0.926,
+        "span": 0.941,
+        "line": [
+          0.001995943825040628,
+          848.0468548646606
+        ],
+        "points": 784,
+        "x_range": [
+          109,
+          905
+        ]
+      },
+      "top": {
+        "angle": 0.041,
+        "support": 0.877,
+        "span": 0.923,
+        "line": [
+          0.0007072725994123563,
+          161.7951960718518
+        ],
+        "points": 743,
+        "x_range": [
+          59,
+          840
+        ]
+      },
+      "ink_box": [
+        33,
+        161,
+        931,
+        851
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-a",
+      "glyph": "uniE008",
+      "name": "Six Line Pica Ornamented letter A",
+      "specimen_number": "six-line-pica-ornamented-a",
+      "pdf_page": 59,
+      "bottom": {
+        "angle": -0.742,
+        "support": 0.751,
+        "span": 0.865,
+        "line": [
+          -0.012946515523620371,
+          863.5452090042496
+        ],
+        "points": 635,
+        "x_range": [
+          104,
+          835
+        ]
+      },
+      "top": {
+        "angle": 0.048,
+        "support": 0.143,
+        "span": 0.142,
+        "line": [
+          0.0008319252943984984,
+          143.8611415648794
+        ],
+        "points": 121,
+        "x_range": [
+          360,
+          480
+        ]
+      },
+      "ink_box": [
+        32,
+        144,
+        929,
+        865
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -0.742,
+      "reference": "bottom edge",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9999161454794026,
+        -0.012949981066171628,
+        0.012949981066171628,
+        0.9999161454794026,
+        -11.574147201698471,
+        12.559250816327108
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE008": {
+          "before": {
+            "sha256": "77644b8aac2ce48b599024819edb2406f8e34386eac3232546acdb4212175daf",
+            "contours": 55,
+            "operations": 1182,
+            "bounds": [
+              63.758373219432244,
+              168.0,
+              1861.0,
+              1612.0
+            ]
+          },
+          "after": {
+            "sha256": "7ae2b7488f37e8a63db7ae4d79830bf968594b28c1062bcc5776316f4feff440",
+            "contours": 55,
+            "operations": 1182,
+            "bounds": [
+              57.588649003833424,
+              156.95062885485544,
+              1851.7812732236432,
+              1614.2598184607173
+            ]
+          }
+        },
+        "uniE008.primary": {
+          "before": {
+            "sha256": "5847446f53eeffb8d2846fba00969bf1a3f7c1e7a97216926c95d784f6aa0fb0",
+            "contours": 70,
+            "operations": 1208,
+            "bounds": [
+              66.68762352212867,
+              168.60612308660185,
+              1859.0,
+              1610.0
+            ]
+          },
+          "after": {
+            "sha256": "c2031aeee091096fd232818e27c8f78294943a1da10790801115c9ab20275676",
+            "contours": 70,
+            "operations": 1208,
+            "bounds": [
+              59.766953268258554,
+              157.54180046959996,
+              1849.765763850928,
+              1612.3460933918116
+            ]
+          }
+        },
+        "uniE008.secondary": {
+          "before": {
+            "sha256": "9aee276db0537ce7f6c0648055fe2fc6e914ad5a3f8fb30ce0d7bf4ea90a2b36",
+            "contours": 112,
+            "operations": 2408,
+            "bounds": [
+              64.10557280900008,
+              168.0,
+              1861.0,
+              1612.0
+            ]
+          },
+          "after": {
+            "sha256": "db59ce218ff415d0aa2ee4ff5b32876c28e1f648a5d9b12ff51bcb8c190272f7",
+            "contours": 112,
+            "operations": 2408,
+            "bounds": [
+              57.93464470343555,
+              156.95062885485544,
+              1851.7812732236432,
+              1614.2598184607173
+            ]
+          }
+        },
+        "uniE008.tertiary": {
+          "before": {
+            "sha256": "b5e4d76fe8d713d2c91068b98b608886bd823a18ee2b75706f9150cbdde29857",
+            "contours": 122,
+            "operations": 2762,
+            "bounds": [
+              64.0,
+              155.40192378864668,
+              1864.0,
+              1644.0
+            ]
+          },
+          "after": {
+            "sha256": "ab08ef785262b61cf4097e7a9bed87f0c53c0fbdef3319fa60b04b0b6480cb13",
+            "contours": 122,
+            "operations": 2762,
+            "bounds": [
+              57.5,
+              149.91199695840527,
+              1854.7656622141371,
+              1647.9069748371821
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-s",
+      "glyph": "uniE009",
+      "name": "Six Line Pica Ornamented letter S",
+      "specimen_number": "six-line-pica-ornamented-s",
+      "pdf_page": 59,
+      "bottom": {
+        "angle": 0.081,
+        "support": 0.238,
+        "span": 0.238,
+        "line": [
+          0.00142156431220266,
+          945.4412612652266
+        ],
+        "points": 165,
+        "x_range": [
+          320,
+          485
+        ]
+      },
+      "top": {
+        "angle": -0.072,
+        "support": 0.203,
+        "span": 0.508,
+        "line": [
+          -0.0012641357208097812,
+          53.98865306361756
+        ],
+        "points": 141,
+        "x_range": [
+          318,
+          670
+        ]
+      },
+      "ink_box": [
+        34,
+        52,
+        771,
+        947
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-b",
+      "glyph": "uniE00A",
+      "name": "Eight Line Pica Fluted letter B",
+      "specimen_number": "eight-line-pica-fluted-b",
+      "pdf_page": 65,
+      "bottom": {
+        "angle": -2.419,
+        "support": 0.802,
+        "span": 0.802,
+        "line": [
+          -0.04224589863040022,
+          903.1154377561996
+        ],
+        "points": 676,
+        "x_range": [
+          71,
+          746
+        ]
+      },
+      "top": {
+        "angle": -1.701,
+        "support": 0.708,
+        "span": 0.711,
+        "line": [
+          -0.029688540521094875,
+          117.27489729667597
+        ],
+        "points": 597,
+        "x_range": [
+          63,
+          662
+        ]
+      },
+      "ink_box": [
+        37,
+        99,
+        931,
+        901
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -2.419,
+      "reference": "bottom edge",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9991088886712529,
+        -0.04220697309798389,
+        0.04220697309798389,
+        0.9991088886712529,
+        -37.127244467273286,
+        41.48952226232882
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE00A": {
+          "before": {
+            "sha256": "dbb198aaf748400273bae5ba094f272ad864fc64d57bcc5c0906b6613a774e45",
+            "contours": 16,
+            "operations": 798,
+            "bounds": [
+              71.60612308660187,
+              97.75,
+              1863.414213562373,
+              1701.75
+            ]
+          },
+          "after": {
+            "sha256": "ef4ed85929785a897b9463a75e6c79b1ab55637c8ff275f8d4f9a307e642757e",
+            "contours": 16,
+            "operations": 798,
+            "bounds": [
+              44.98641659612859,
+              132.0223182362495,
+              1849.8157005943444,
+              1706.328364174767
+            ]
+          }
+        },
+        "uniE00A.primary": {
+          "before": {
+            "sha256": "0a128544f161d0ce60e03dd7355735483f5bae9439b95173b6279f109be68c48",
+            "contours": 22,
+            "operations": 765,
+            "bounds": [
+              83.25,
+              100.0,
+              1864.0,
+              1703.0
+            ]
+          },
+          "after": {
+            "sha256": "7ec43c1974d98bc3e911d26f717458a74e45a60823130d03dc9b1445a195dd61",
+            "contours": 22,
+            "operations": 765,
+            "bounds": [
+              93.27245728700288,
+              132.60197601007016,
+              1850.2653624344664,
+              1704.4630105170431
+            ]
+          }
+        },
+        "uniE00A.secondary": {
+          "before": {
+            "sha256": "3f7535e130e6cb747d6cfe97f6c9d9066af3b4f68464a66ccd170af2dc7592e8",
+            "contours": 55,
+            "operations": 1648,
+            "bounds": [
+              71.60612308660187,
+              97.75,
+              1863.0,
+              1702.0
+            ]
+          },
+          "after": {
+            "sha256": "41cb7a60166263d176686c68af585182c3d2c1e92d181e6d68deac351cdb0900",
+            "contours": 55,
+            "operations": 1648,
+            "bounds": [
+              44.98641659612859,
+              132.0223182362495,
+              1849.9251326188541,
+              1706.328364174767
+            ]
+          }
+        },
+        "uniE00A.tertiary": {
+          "before": {
+            "sha256": "7d59e785effc1ddfc305bc0467c92db04a5649f29e6f5b296cb561f76bb493a9",
+            "contours": 42,
+            "operations": 1996,
+            "bounds": [
+              64.0,
+              95.25,
+              1864.0,
+              1704.5555555555557
+            ]
+          },
+          "after": {
+            "sha256": "46834e6106e987bcefca9b550e0d4fe64d22cf915b9e01d377043fffc520fad7",
+            "contours": 42,
+            "operations": 1996,
+            "bounds": [
+              37.73833966782688,
+              127.9131096194921,
+              1850.722701967084,
+              1713.676011702626
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-r",
+      "glyph": "uniE00B",
+      "name": "Eight Line Pica Fluted letter R",
+      "specimen_number": "eight-line-pica-fluted-r",
+      "pdf_page": 65,
+      "bottom": {
+        "angle": -1.711,
+        "support": 0.638,
+        "span": 0.806,
+        "line": [
+          -0.02987584169074631,
+          860.6774420835546
+        ],
+        "points": 531,
+        "x_range": [
+          90,
+          760
+        ]
+      },
+      "top": {
+        "angle": -1.093,
+        "support": 0.669,
+        "span": 0.669,
+        "line": [
+          -0.019083198721615707,
+          153.96604694584522
+        ],
+        "points": 557,
+        "x_range": [
+          59,
+          615
+        ]
+      },
+      "ink_box": [
+        33,
+        143,
+        916,
+        857
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -1.402,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9997006363282259,
+        -0.024467074302828677,
+        0.024467074302828677,
+        0.9997006363282259,
+        -21.731780292955637,
+        23.855686932523554
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE00B": {
+          "before": {
+            "sha256": "b40a3f53c20676218ba9d5c79b1381201adf1d133a5b0e5746ed682263de1f6a",
+            "contours": 15,
+            "operations": 805,
+            "bounds": [
+              66.7340136762891,
+              184.80384757729337,
+              1833.4444444444443,
+              1614.0
+            ]
+          },
+          "after": {
+            "sha256": "766eb393f27f2fb767e5d382803af8947ce0ad46196de0556f27a85ed506baea",
+            "contours": 15,
+            "operations": 805,
+            "bounds": [
+              82.84605562828676,
+              201.359375,
+              1825.2781770743181,
+              1615.59375
+            ]
+          }
+        },
+        "uniE00B.primary": {
+          "before": {
+            "sha256": "f21695e8b3f9992aec68018a654b3659ac556b6947065dc1d21e245cb29ca402",
+            "contours": 39,
+            "operations": 899,
+            "bounds": [
+              67.60769515458674,
+              185.0,
+              1832.8854381999831,
+              1612.0
+            ]
+          },
+          "after": {
+            "sha256": "4a9be5b46b0aaf4c901152a7aa37e70ac0af1f8c53f95f87d7380df60cfad902",
+            "contours": 39,
+            "operations": 899,
+            "bounds": [
+              82.75398351016803,
+              202.75,
+              1824.9175412603586,
+              1614.5627445683697
+            ]
+          }
+        },
+        "uniE00B.secondary": {
+          "before": {
+            "sha256": "9d92fffdba08d1e892a1de5d107c2842bd6e6db0931701c681da2abb8cfa094c",
+            "contours": 70,
+            "operations": 1781,
+            "bounds": [
+              66.7340136762891,
+              184.80384757729337,
+              1833.4444444444443,
+              1614.0
+            ]
+          },
+          "after": {
+            "sha256": "a0b0aaf0918251dd06fd54e2e96c846e6ed21f504e44a2fcd340eafa3e5cab51",
+            "contours": 70,
+            "operations": 1781,
+            "bounds": [
+              82.578125,
+              201.359375,
+              1825.2781770743181,
+              1615.59375
+            ]
+          }
+        },
+        "uniE00B.tertiary": {
+          "before": {
+            "sha256": "57f768e16b08be3226bd0f289d28582e3d964fa88d4c94faa72469c0ce9c34a2",
+            "contours": 48,
+            "operations": 1953,
+            "bounds": [
+              63.87129070824723,
+              184.0,
+              1864.0,
+              1615.75
+            ]
+          },
+          "after": {
+            "sha256": "5b53337db786f84db29c2a5bccc82473cec61b2969635af99b90395941caae2a",
+            "contours": 48,
+            "operations": 1953,
+            "bounds": [
+              80.71002652657788,
+              200.453125,
+              1855.9070891104495,
+              1616.6544259531115
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-u",
+      "glyph": "uniE00C",
+      "name": "Eight Line Pica Fluted letter U",
+      "specimen_number": "eight-line-pica-fluted-u",
+      "pdf_page": 65,
+      "bottom": {
+        "angle": -1.78,
+        "support": 0.169,
+        "span": 0.168,
+        "line": [
+          -0.03108340774326077,
+          929.2047441076649
+        ],
+        "points": 142,
+        "x_range": [
+          436,
+          577
+        ]
+      },
+      "top": {
+        "angle": -1.461,
+        "support": 0.981,
+        "span": 1.0,
+        "line": [
+          -0.02550104410650382,
+          115.70901811011736
+        ],
+        "points": 826,
+        "x_range": [
+          59,
+          900
+        ]
+      },
+      "ink_box": [
+        33,
+        93,
+        926,
+        915
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -1.461,
+      "reference": "top edge",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.999674911475535,
+        -0.025496497139437756,
+        0.025496497139437756,
+        0.999674911475535,
+        -22.633462087909745,
+        24.87120291443648
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE00C": {
+          "before": {
+            "sha256": "e9d23c31b2e673583e9908a46cbfa1323162ae79e9ab2337b2fcb0e49bc5ddfa",
+            "contours": 8,
+            "operations": 670,
+            "bounds": [
+              65.75049408851471,
+              68.25566683793627,
+              1854.5225424859373,
+              1715.0
+            ]
+          },
+          "after": {
+            "sha256": "a8773f3be410ab394440d64dfffa487299b0fb1d18a40a5504db1371ae03f69d",
+            "contours": 8,
+            "operations": 670,
+            "bounds": [
+              84.79566748732779,
+              68.98695481164353,
+              1868.734375,
+              1693.90625
+            ]
+          }
+        },
+        "uniE00C.primary": {
+          "before": {
+            "sha256": "0236d90f8c8343d1ae6248acf7ff1af303c8a9f45eebadf20df5c3375c6c64a7",
+            "contours": 12,
+            "operations": 639,
+            "bounds": [
+              66.60769515458674,
+              69.60769515458674,
+              1853.0405183549042,
+              1713.6568542494924
+            ]
+          },
+          "after": {
+            "sha256": "7b1c50b91484bb3dbc2404efa46dca935b42e04b3ff921add12d4376b85b26f2",
+            "contours": 12,
+            "operations": 639,
+            "bounds": [
+              85.88988275054734,
+              70.58442331587038,
+              1867.4643151065504,
+              1692.921875
+            ]
+          }
+        },
+        "uniE00C.secondary": {
+          "before": {
+            "sha256": "39718ea5f34761c8281171563a41f4ff055874967729f8a90eb27205c7263208",
+            "contours": 37,
+            "operations": 1377,
+            "bounds": [
+              65.75049408851471,
+              68.25566683793627,
+              1854.5555555555557,
+              1715.0
+            ]
+          },
+          "after": {
+            "sha256": "5972760989945f766e7539adf0d46e7df0620b9251152d87f937bad0b46bf82b",
+            "contours": 37,
+            "operations": 1377,
+            "bounds": [
+              84.79566748732779,
+              68.98695481164353,
+              1868.734375,
+              1693.90625
+            ]
+          }
+        },
+        "uniE00C.tertiary": {
+          "before": {
+            "sha256": "b4a904ba45918df947264e23d79a6b45f9a96c1598237f51b40f68137e84b652",
+            "contours": 32,
+            "operations": 1564,
+            "bounds": [
+              64.25,
+              67.08488361429545,
+              1864.0,
+              1733.0
+            ]
+          },
+          "after": {
+            "sha256": "1a7815bd51badb10cf7bae39487c65aca6ed47a5e41b1f5b9ac4947350175a13",
+            "contours": 32,
+            "operations": 1564,
+            "bounds": [
+              83.30661490882312,
+              67.64063435191008,
+              1884.5291952533116,
+              1709.8914840059747
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-n",
+      "glyph": "uniE00D",
+      "name": "Eight Line Pica Fluted letter N",
+      "specimen_number": "eight-line-pica-fluted-n",
+      "pdf_page": 65,
+      "bottom": {
+        "angle": -1.577,
+        "support": 0.708,
+        "span": 0.92,
+        "line": [
+          -0.02753501481915173,
+          916.6476311617209
+        ],
+        "points": 588,
+        "x_range": [
+          78,
+          842
+        ]
+      },
+      "top": {
+        "angle": -1.845,
+        "support": 0.834,
+        "span": 0.987,
+        "line": [
+          -0.03222025228740766,
+          116.07763267615687
+        ],
+        "points": 693,
+        "x_range": [
+          84,
+          903
+        ]
+      },
+      "ink_box": [
+        47,
+        84,
+        929,
+        914
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -1.711,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9995541461881808,
+        -0.029858145254130605,
+        0.029858145254130605,
+        0.9995541461881808,
+        -26.442527654123865,
+        29.184520455619236
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE00D": {
+          "before": {
+            "sha256": "f707ffe77958daf5121995e72a4834456414dceb36eb91e11a9d9cf8919c8643",
+            "contours": 8,
+            "operations": 723,
+            "bounds": [
+              93.38295520296367,
+              69.0,
+              1861.3565625910815,
+              1731.5225424859373
+            ]
+          },
+          "after": {
+            "sha256": "0ba49b399797ccbd0226e787ccbab4a7f1e216ab060c11897d05f56a960ac88f",
+            "contours": 8,
+            "operations": 723,
+            "bounds": [
+              105.8386338690682,
+              88.8083033166628,
+              1880.5800939145136,
+              1705.0466898642603
+            ]
+          }
+        },
+        "uniE00D.primary": {
+          "before": {
+            "sha256": "f2cd058fa95bdbad4b8d8daeaa2440352a020d76cb1655628dd47345a14ea480",
+            "contours": 26,
+            "operations": 802,
+            "bounds": [
+              94.5,
+              70.0,
+              1859.5225424859373,
+              1731.0
+            ]
+          },
+          "after": {
+            "sha256": "8c4d01a038c87498fe596182c31f0ed739c82e7d6dc38765676bbe27ab6aebfa",
+            "contours": 26,
+            "operations": 802,
+            "bounds": [
+              106.84375,
+              89.140625,
+              1878.1172047778184,
+              1704.6875
+            ]
+          }
+        },
+        "uniE00D.secondary": {
+          "before": {
+            "sha256": "786f3fc90abc7698185332c155008b232fe73175e302908321f1d7bc511757df",
+            "contours": 59,
+            "operations": 1625,
+            "bounds": [
+              93.38295520296367,
+              69.0,
+              1861.0816326530612,
+              1731.5225424859373
+            ]
+          },
+          "after": {
+            "sha256": "33fe0c260af3b15a4d253c04334e37d99614dc098c62d4d3b56183037792df8c",
+            "contours": 59,
+            "operations": 1625,
+            "bounds": [
+              105.8386338690682,
+              88.8083033166628,
+              1880.5800939145136,
+              1705.0466898642603
+            ]
+          }
+        },
+        "uniE00D.tertiary": {
+          "before": {
+            "sha256": "53647a6eaf8b8ab185ccb1a068b4eec11b703417aaf1909cc9ee2190cc295eab",
+            "contours": 40,
+            "operations": 1808,
+            "bounds": [
+              64.0,
+              67.0,
+              1864.1769145362398,
+              1733.0
+            ]
+          },
+          "after": {
+            "sha256": "60e578c762d72fa5a84c38e44a03e7ab49bedd24cd14b1c99338c5d94ad86384",
+            "contours": 40,
+            "operations": 1808,
+            "bounds": [
+              78.48342214126197,
+              86.578125,
+              1881.1646813228049,
+              1706.688850308642
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-t",
+      "glyph": "uniE00E",
+      "name": "Eight Line Pica Fluted letter T",
+      "specimen_number": "eight-line-pica-fluted-t",
+      "pdf_page": 65,
+      "bottom": {
+        "angle": -1.697,
+        "support": 0.644,
+        "span": 0.649,
+        "line": [
+          -0.029620955072703493,
+          941.2799491402625
+        ],
+        "points": 545,
+        "x_range": [
+          223,
+          771
+        ]
+      },
+      "top": {
+        "angle": -1.539,
+        "support": 1.0,
+        "span": 1.0,
+        "line": [
+          -0.026874786672435844,
+          92.80104185189738
+        ],
+        "points": 846,
+        "x_range": [
+          58,
+          903
+        ]
+      },
+      "ink_box": [
+        32,
+        68,
+        929,
+        934
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -1.618,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9996012938702081,
+        -0.028235674119912034,
+        0.028235674119912034,
+        0.9996012938702081,
+        -25.02775399880142,
+        27.578025368407793
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE00E": {
+          "before": {
+            "sha256": "f9ced55eb45bbf58c5d7b59856df7bff0663c217eb1a12385ba28142677c3a6a",
+            "contours": 7,
+            "operations": 522,
+            "bounds": [
+              64.34314575050762,
+              29.0,
+              1862.3137084989849,
+              1764.0
+            ]
+          },
+          "after": {
+            "sha256": "3c988bf6bc51164af35350fb9e186583ba09899cac455389da953da57973652d",
+            "contours": 7,
+            "operations": 522,
+            "bounds": [
+              86.98464225136364,
+              43.25,
+              1870.9611905754068,
+              1743.579074462543
+            ]
+          }
+        },
+        "uniE00E.primary": {
+          "before": {
+            "sha256": "e8a11f7a9d80c6b7591641b5a05f5165d6d1bc3d6f6a50efd922b9bbb1562d44",
+            "contours": 14,
+            "operations": 527,
+            "bounds": [
+              66.75049408851471,
+              31.0,
+              1859.7259631025504,
+              1763.5319726474218
+            ]
+          },
+          "after": {
+            "sha256": "57800a6c5bd4f613ae941ba497bbc919f6ab9d8af8b6d9f32a00ef028ffa1508",
+            "contours": 14,
+            "operations": 527,
+            "bounds": [
+              89.4363829158305,
+              44.5,
+              1868.7767094189235,
+              1741.286704859525
+            ]
+          }
+        },
+        "uniE00E.secondary": {
+          "before": {
+            "sha256": "35d033c3089ae2059135e83e7d7f9d9d6ed9e31fcb734d1d71d7a303b62c1b7b",
+            "contours": 41,
+            "operations": 1129,
+            "bounds": [
+              64.34314575050762,
+              29.0,
+              1862.3137084989849,
+              1764.0
+            ]
+          },
+          "after": {
+            "sha256": "f1c861733187b7634a8e7493c32c26e6f915b05fa06bd22d45f763dcf847ffbd",
+            "contours": 41,
+            "operations": 1129,
+            "bounds": [
+              86.98464225136364,
+              43.25,
+              1870.9611905754068,
+              1743.579074462543
+            ]
+          }
+        },
+        "uniE00E.tertiary": {
+          "before": {
+            "sha256": "20bc6bb1735b2c4316bf845477c677f3289fc55f9cf6121d75da3a12377acd81",
+            "contours": 28,
+            "operations": 1288,
+            "bounds": [
+              64.0,
+              28.34314575050762,
+              1863.8854381999831,
+              1772.0
+            ]
+          },
+          "after": {
+            "sha256": "984b307002e5a8adee554396f56b8015119737e6b17c158dd9ae5c9dc69168b9",
+            "contours": 28,
+            "operations": 1288,
+            "bounds": [
+              84.73272699068255,
+              39.99534866443421,
+              1871.8672398715894,
+              1784.657459891059
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-m",
+      "glyph": "uniE00F",
+      "name": "Eight Line Pica Fluted letter M",
+      "specimen_number": "eight-line-pica-fluted-m",
+      "pdf_page": 65,
+      "bottom": {
+        "angle": -1.736,
+        "support": 0.878,
+        "span": 1.0,
+        "line": [
+          -0.0303059396105218,
+          837.9320226320878
+        ],
+        "points": 744,
+        "x_range": [
+          59,
+          905
+        ]
+      },
+      "top": {
+        "angle": -1.662,
+        "support": 0.772,
+        "span": 1.0,
+        "line": [
+          -0.02902151656607436,
+          190.54478274929863
+        ],
+        "points": 654,
+        "x_range": [
+          59,
+          905
+        ]
+      },
+      "ink_box": [
+        33,
+        163,
+        931,
+        836
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -1.699,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9995603777407783,
+        -0.029648798469963357,
+        0.029648798469963357,
+        0.9995603777407783,
+        -26.260122765077348,
+        28.977101758344133
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE00F": {
+          "before": {
+            "sha256": "98c7dd3a8bd736452734525a8489a27efb655c806fe662fe6c7589e8caf1b9c0",
+            "contours": 20,
+            "operations": 1109,
+            "bounds": [
+              66.58578643762691,
+              227.67157287525382,
+              1862.3484692283496,
+              1573.0
+            ]
+          },
+          "after": {
+            "sha256": "352f378c11f7c0f6dd7ed3cc819a38181bf39c1f630043a76119b45bf3e338c8",
+            "contours": 20,
+            "operations": 1109,
+            "bounds": [
+              81.23685849751828,
+              249.7351950259588,
+              1845.739420048491,
+              1549.234375
+            ]
+          }
+        },
+        "uniE00F.primary": {
+          "before": {
+            "sha256": "0fb53077ca238c8459e6704df92cf0204a5f576fc9f517db8c73ee8720c55792",
+            "contours": 41,
+            "operations": 1168,
+            "bounds": [
+              67.25,
+              228.44444444444446,
+              1860.9657453878187,
+              1571.5980762113534
+            ]
+          },
+          "after": {
+            "sha256": "26c389e2011e25407724ff77fab45005f50c02e8742cc89635388833c8683693",
+            "contours": 41,
+            "operations": 1168,
+            "bounds": [
+              82.13444077352003,
+              250.76346570348178,
+              1844.75,
+              1548.171875
+            ]
+          }
+        },
+        "uniE00F.secondary": {
+          "before": {
+            "sha256": "ea88a33df2f7adf0eda6bde8303dca3bac9146c9f5fbb8e747432a23c142de7a",
+            "contours": 81,
+            "operations": 2366,
+            "bounds": [
+              66.58578643762691,
+              227.67157287525382,
+              1862.3484692283496,
+              1573.0
+            ]
+          },
+          "after": {
+            "sha256": "aeb6aea8db37e35ac485cdc4a339eaa503166e5907a717744c02fb0e106a0eca",
+            "contours": 81,
+            "operations": 2366,
+            "bounds": [
+              81.23685849751828,
+              249.7351950259588,
+              1845.739420048491,
+              1549.234375
+            ]
+          }
+        },
+        "uniE00F.tertiary": {
+          "before": {
+            "sha256": "725b0418f01fbe07319ae63ee7354f477caccb06ece17376cd471e936be611ee",
+            "contours": 63,
+            "operations": 2683,
+            "bounds": [
+              64.0,
+              225.88888888888889,
+              1863.6264622060605,
+              1574.0
+            ]
+          },
+          "after": {
+            "sha256": "1f0f2a36b23fb413fb5657115be0eab328d02fdbfdc13ad2126f382669f7bf35",
+            "contours": 63,
+            "operations": 2683,
+            "bounds": [
+              78.25393683706864,
+              245.95107421071097,
+              1846.7523223894098,
+              1551.2724960678104
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-o",
+      "glyph": "uniE010",
+      "name": "Eight Line Pica Fluted letter O",
+      "specimen_number": "eight-line-pica-fluted-o",
+      "pdf_page": 65,
+      "bottom": {
+        "angle": -0.426,
+        "support": 0.181,
+        "span": 0.194,
+        "line": [
+          -0.007433405309101967,
+          935.5549149632286
+        ],
+        "points": 153,
+        "x_range": [
+          414,
+          578
+        ]
+      },
+      "top": {
+        "angle": -2.436,
+        "support": 0.157,
+        "span": 0.161,
+        "line": [
+          -0.04254018332182134,
+          87.75952078705176
+        ],
+        "points": 133,
+        "x_range": [
+          391,
+          527
+        ]
+      },
+      "ink_box": [
+        33,
+        66,
+        931,
+        934
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-s",
+      "glyph": "uniE011",
+      "name": "Eight Line Pica Fluted letter S",
+      "specimen_number": "eight-line-pica-fluted-s",
+      "pdf_page": 65,
+      "bottom": {
+        "angle": -2.372,
+        "support": 0.401,
+        "span": 0.727,
+        "line": [
+          -0.04142029299363859,
+          950.5196740949453
+        ],
+        "points": 299,
+        "x_range": [
+          55,
+          596
+        ]
+      },
+      "top": {
+        "angle": -1.623,
+        "support": 0.322,
+        "span": 0.61,
+        "line": [
+          -0.02833504802938341,
+          71.75865066435453
+        ],
+        "points": 240,
+        "x_range": [
+          293,
+          747
+        ]
+      },
+      "ink_box": [
+        32,
+        51,
+        822,
+        949
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -1.9,
+      "reference": "upper and lower terminal bars",
+      "pivot": [
+        855.5,
+        900
+      ],
+      "matrix": [
+        0.9994502159417572,
+        -0.033155178388526274,
+        0.033155178388526274,
+        0.9994502159417572,
+        -29.369320287846982,
+        28.859060763802745
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE011": {
+          "before": {
+            "sha256": "af1e4a6650a62d8e3f101fd766d591fa2184923e2b62fab846474360ec909c78",
+            "contours": 4,
+            "operations": 906,
+            "bounds": [
+              64.60769515458674,
+              0.44444444444444464,
+              1646.5980762113534,
+              1797.0901699437495
+            ]
+          },
+          "after": {
+            "sha256": "7a0e8250ba42d3705b0afce202b9dea90786137f7b38d93f60a69296b18f2c1d",
+            "contours": 4,
+            "operations": 906,
+            "bounds": [
+              68.453125,
+              25.481226607981196,
+              1639.2603512427586,
+              1782.9190615988384
+            ]
+          }
+        },
+        "uniE011.primary": {
+          "before": {
+            "sha256": "917df4ab36af164165daa2ec8f3bdf7e4ddd09979c9b89302c1b31da17c79718",
+            "contours": 17,
+            "operations": 860,
+            "bounds": [
+              67.2786404500042,
+              2.0,
+              1646.5225424859373,
+              1797.3485046046062
+            ]
+          },
+          "after": {
+            "sha256": "3d994ff707e4507515341a1ebccf15a558f375f4dd557dc1b891c0a51b423d7e",
+            "contours": 17,
+            "operations": 860,
+            "bounds": [
+              71.24515946935108,
+              26.849328697657963,
+              1640.1045467938925,
+              1781.578125
+            ]
+          }
+        },
+        "uniE011.secondary": {
+          "before": {
+            "sha256": "c7afa73975622897e83c4e68a7c9ba9a788557b62d6f233ef5f9288bab6015f9",
+            "contours": 42,
+            "operations": 1848,
+            "bounds": [
+              64.60769515458674,
+              0.44444444444444464,
+              1646.5980762113534,
+              1796.75
+            ]
+          },
+          "after": {
+            "sha256": "98b4e939c6abba6ea083f47aa3ca2c0a33d055ec8c24828433c0c95a3e656521",
+            "contours": 42,
+            "operations": 1848,
+            "bounds": [
+              68.453125,
+              25.481226607981196,
+              1639.5625,
+              1782.9190615988384
+            ]
+          }
+        },
+        "uniE011.tertiary": {
+          "before": {
+            "sha256": "caec8fcea512620be610f8ceb2b371d71e230525511a8e41d2a92d7fa7a22475",
+            "contours": 26,
+            "operations": 2303,
+            "bounds": [
+              64.0,
+              -0.24950591148528822,
+              1647.0,
+              1799.88
+            ]
+          },
+          "after": {
+            "sha256": "c9b084b9cea43b77ed8fe95d5ea2cab084cefe3b2223290220d66fe34b2362b5",
+            "contours": 26,
+            "operations": 2303,
+            "bounds": [
+              65.95327265696037,
+              24.825209301938607,
+              1639.5625,
+              1785.6066755963227
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-e",
+      "glyph": "uniE012",
+      "name": "Eight Line Pica Fluted letter E",
+      "specimen_number": "eight-line-pica-fluted-e",
+      "pdf_page": 65,
+      "bottom": {
+        "angle": -2.396,
+        "support": 0.978,
+        "span": 0.989,
+        "line": [
+          -0.041833915457590964,
+          923.7004589663192
+        ],
+        "points": 826,
+        "x_range": [
+          67,
+          902
+        ]
+      },
+      "top": {
+        "angle": -1.963,
+        "support": 0.717,
+        "span": 0.909,
+        "line": [
+          -0.034269704357675596,
+          106.432795761368
+        ],
+        "points": 606,
+        "x_range": [
+          98,
+          865
+        ]
+      },
+      "ink_box": [
+        32,
+        77,
+        928,
+        921
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -2.179,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9992769191585597,
+        -0.0380215575296089,
+        0.0380215575296089,
+        0.9992769191585597,
+        -33.5223518454995,
+        37.30355421583931
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE012": {
+          "before": {
+            "sha256": "502a3e5adb341dc5754567464005aedbf3156f545f6cf16c844663d2ae445d26",
+            "contours": 6,
+            "operations": 773,
+            "bounds": [
+              64.3524199845511,
+              57.0,
+              1856.8113883008418,
+              1745.0
+            ]
+          },
+          "after": {
+            "sha256": "65f97766da3dc24bb15459342df13740cad805f7edac7342bd5cdad707785358",
+            "contours": 6,
+            "operations": 773,
+            "bounds": [
+              90.1137885624758,
+              80.95701985040898,
+              1830.914286338562,
+              1729.900486810065
+            ]
+          }
+        },
+        "uniE012.primary": {
+          "before": {
+            "sha256": "afd56483b41203c4a31d2126e90a4e68968d3247e32abeed8e9ad5ecdc6e3e0f",
+            "contours": 14,
+            "operations": 745,
+            "bounds": [
+              66.95948164509574,
+              58.0,
+              1854.0,
+              1744.6595648100574
+            ]
+          },
+          "after": {
+            "sha256": "7dcbcf2d30ef63c46ac4617089e1f086165054a051c3a8db62b8e5b829e3359d",
+            "contours": 14,
+            "operations": 745,
+            "bounds": [
+              92.12241412204082,
+              87.94785788062647,
+              1829.734375,
+              1731.0748669440047
+            ]
+          }
+        },
+        "uniE012.secondary": {
+          "before": {
+            "sha256": "3b6e751f8ccdaa7cfda0709ce7ae3847fc3b4f3b03d2c271365c9dad0707ccdb",
+            "contours": 43,
+            "operations": 1621,
+            "bounds": [
+              64.3524199845511,
+              57.0,
+              1856.8113883008418,
+              1745.0
+            ]
+          },
+          "after": {
+            "sha256": "a0c8a96e6cd15b98f249a7ce258069f3af8d9937dba8006b592c596ef6daf4d1",
+            "contours": 43,
+            "operations": 1621,
+            "bounds": [
+              90.1137885624758,
+              80.95701985040898,
+              1830.914286338562,
+              1729.5001905424647
+            ]
+          }
+        },
+        "uniE012.tertiary": {
+          "before": {
+            "sha256": "38881c390aaa4d7a9b94b3413dc9491f1177c71debbeeec62c40d4b4799dd257",
+            "contours": 35,
+            "operations": 2062,
+            "bounds": [
+              64.21539030917347,
+              53.34314575050762,
+              1864.2872536767063,
+              1746.6595648100574
+            ]
+          },
+          "after": {
+            "sha256": "b1b53e80d3385e40f2543fc70adaa07bdf8836bbc469e67fc95942c18792de4b",
+            "contours": 35,
+            "operations": 2062,
+            "bounds": [
+              88.33856963207303,
+              77.0466102421741,
+              1836.1000184635427,
+              1734.4111812113974
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-p",
+      "glyph": "uniE013",
+      "name": "Eight Line Pica Oak Leaf letter P",
+      "specimen_number": "eight-line-pica-oak-leaf-p",
+      "pdf_page": 67,
+      "bottom": {
+        "angle": 0.315,
+        "support": 0.611,
+        "span": 0.62,
+        "line": [
+          0.005501091574566213,
+          889.4985745595134
+        ],
+        "points": 517,
+        "x_range": [
+          136,
+          660
+        ]
+      },
+      "top": {
+        "angle": -0.887,
+        "support": 0.696,
+        "span": 0.762,
+        "line": [
+          -0.015481985161188346,
+          106.70979760933078
+        ],
+        "points": 589,
+        "x_range": [
+          67,
+          711
+        ]
+      },
+      "ink_box": [
+        33,
+        93,
+        930,
+        895
+      ],
+      "status": "unchanged",
+      "review_note": "Opposed shadow and face edges disagree; no reliable rigid correction.",
+      "angle_degrees": 0.315,
+      "reference": "bottom edge"
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-r",
+      "glyph": "uniE014",
+      "name": "Eight Line Pica Oak Leaf letter R",
+      "specimen_number": "eight-line-pica-oak-leaf-r",
+      "pdf_page": 67,
+      "bottom": {
+        "angle": -0.733,
+        "support": 0.89,
+        "span": 0.929,
+        "line": [
+          -0.012801559403292438,
+          802.5745434932521
+        ],
+        "points": 754,
+        "x_range": [
+          119,
+          905
+        ]
+      },
+      "top": {
+        "angle": -0.318,
+        "support": 0.623,
+        "span": 0.625,
+        "line": [
+          -0.005547625017031062,
+          160.22261290190875
+        ],
+        "points": 528,
+        "x_range": [
+          59,
+          588
+        ]
+      },
+      "ink_box": [
+        33,
+        157,
+        931,
+        800
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -0.525,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9999580202055561,
+        -0.009162850352625722,
+        0.009162850352625722,
+        0.9999580202055561,
+        -8.206096795519272,
+        8.870769554930689
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE014": {
+          "before": {
+            "sha256": "06ff1f4ab3df180b68a43902bba36753e431c32268114cfd980dbfd5edabd89d",
+            "contours": 32,
+            "operations": 1610,
+            "bounds": [
+              64.0,
+              297.4019237886467,
+              1863.070213021178,
+              1586.0
+            ]
+          },
+          "after": {
+            "sha256": "6fa0f6dfb5b82dc3db2d916817883c9151ce1dc44bf3d2d7d34cfd901b47f23a",
+            "contours": 32,
+            "operations": 1610,
+            "bounds": [
+              70.15625,
+              302.88946425634987,
+              1857.8283339663085,
+              1587.296875
+            ]
+          }
+        },
+        "uniE014.primary": {
+          "before": {
+            "sha256": "5f61083baac4be9272c8dd880b44f21c1fb418910d8d0dccecd1b7e45edd2ee3",
+            "contours": 44,
+            "operations": 1625,
+            "bounds": [
+              66.0,
+              298.5,
+              1862.0820393249937,
+              1586.2659863237109
+            ]
+          },
+          "after": {
+            "sha256": "da4e9992a999a073d68acf194696697e02ae06c5d66e1ad7b8f8559950dd819f",
+            "contours": 44,
+            "operations": 1625,
+            "bounds": [
+              72.15625,
+              303.62107082789817,
+              1856.8436838932232,
+              1587.2481396579883
+            ]
+          }
+        },
+        "uniE014.secondary": {
+          "before": {
+            "sha256": "20e76f2e077daaf2daf2689af0019fbe0a24055cdce7ea9b192d3f5bfbb80367",
+            "contours": 134,
+            "operations": 3487,
+            "bounds": [
+              64.0,
+              297.4019237886467,
+              1863.070213021178,
+              1586.0
+            ]
+          },
+          "after": {
+            "sha256": "aced31e6d74c4b022cf9fad4013535194607e5c1ab0940a43177c86e5d39b281",
+            "contours": 134,
+            "operations": 3487,
+            "bounds": [
+              70.15625,
+              302.88946425634987,
+              1857.8283339663085,
+              1587.296875
+            ]
+          }
+        },
+        "uniE014.tertiary": {
+          "before": {
+            "sha256": "72063d327aad600c26c37d4c8d214c558d3859531d7527e937f210c70851c0c2",
+            "contours": 139,
+            "operations": 3876,
+            "bounds": [
+              63.734013676289095,
+              212.73987041127393,
+              1864.237604307034,
+              1587.3378353727671
+            ]
+          },
+          "after": {
+            "sha256": "f7169785c0513ffdc508d2cdd678e87742b166706a07ef966aa6efd87340b565",
+            "contours": 139,
+            "operations": 3876,
+            "bounds": [
+              64.31231970442586,
+              218.81846352571384,
+              1859.0260586709992,
+              1589.078125
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-i",
+      "glyph": "uniE015",
+      "name": "Eight Line Pica Oak Leaf letter I",
+      "specimen_number": "eight-line-pica-oak-leaf-i",
+      "pdf_page": 67,
+      "bottom": {
+        "angle": -0.8,
+        "support": 0.87,
+        "span": 0.87,
+        "line": [
+          -0.01397088337800029,
+          928.7762530922993
+        ],
+        "points": 582,
+        "x_range": [
+          140,
+          721
+        ]
+      },
+      "top": {
+        "angle": 0.051,
+        "support": 0.859,
+        "span": 0.859,
+        "line": [
+          0.0008893518157594317,
+          52.71752825786244
+        ],
+        "points": 575,
+        "x_range": [
+          53,
+          627
+        ]
+      },
+      "ink_box": [
+        32,
+        52,
+        742,
+        925
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -0.8,
+      "reference": "bottom edge",
+      "pivot": [
+        775.5,
+        900
+      ],
+      "matrix": [
+        0.9999025240093042,
+        -0.013962180339145272,
+        0.013962180339145272,
+        0.9999025240093042,
+        -12.490369674446232,
+        10.915399244633363
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE015": {
+          "before": {
+            "sha256": "1b6723719ad8c739d25ccf5c525511ee6ceb62e2fc9adec8d37eea41aaab8a11",
+            "contours": 14,
+            "operations": 758,
+            "bounds": [
+              64.86156123669389,
+              48.5,
+              1486.0,
+              1797.2012653667603
+            ]
+          },
+          "after": {
+            "sha256": "93cf4515fb15ab59f845fabcde87370976f0f9e560b8870dfb7c0e5dd559851c",
+            "contours": 14,
+            "operations": 758,
+            "bounds": [
+              55.90122536393061,
+              49.1544063318497,
+              1494.46875,
+              1806.618837917871
+            ]
+          }
+        },
+        "uniE015.primary": {
+          "before": {
+            "sha256": "37e2b5995b8b29de721a825038fa610183f8aa0b979f586b40c3c084596f52f4",
+            "contours": 16,
+            "operations": 749,
+            "bounds": [
+              66.625,
+              50.0,
+              1484.8113883008418,
+              1797.0
+            ]
+          },
+          "after": {
+            "sha256": "c527c45b6d1a9448a10304251c2adb3aac5960588bfbc03dbcd17809a4f6906e",
+            "contours": 16,
+            "operations": 749,
+            "bounds": [
+              57.63588881280727,
+              50.22185914367607,
+              1493.0334716153889,
+              1806.3374150555378
+            ]
+          }
+        },
+        "uniE015.secondary": {
+          "before": {
+            "sha256": "02430cfaf811e90cc915ececccef32b8a0fe8e941bb61ab277b3c3d3c92e1685",
+            "contours": 71,
+            "operations": 1673,
+            "bounds": [
+              64.86156123669389,
+              48.5,
+              1486.0,
+              1797.2012653667603
+            ]
+          },
+          "after": {
+            "sha256": "7303c5f1a48579535ed53208baeca4ceea4ab826e24f6d8e1684083dae55237c",
+            "contours": 71,
+            "operations": 1673,
+            "bounds": [
+              55.90122536393061,
+              49.1544063318497,
+              1494.546517975886,
+              1806.578125
+            ]
+          }
+        },
+        "uniE015.tertiary": {
+          "before": {
+            "sha256": "533770a8d64508c05ec5f2e294fe2d6d804b255d22a966c8edd58d24d722b4c0",
+            "contours": 56,
+            "operations": 1876,
+            "bounds": [
+              64.1875,
+              -0.04051835490426825,
+              1487.414213562373,
+              1800.0
+            ]
+          },
+          "after": {
+            "sha256": "03bbd22762101000b79ef814f3b8c2ba2d428f0c703e28fefb00e468d7e3ef84",
+            "contours": 56,
+            "operations": 1876,
+            "bounds": [
+              55.11505588232489,
+              7.9902838415150494,
+              1495.6928679230625,
+              1809.3617249378424
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-n",
+      "glyph": "uniE016",
+      "name": "Eight Line Pica Oak Leaf letter N",
+      "specimen_number": "eight-line-pica-oak-leaf-n",
+      "pdf_page": 67,
+      "bottom": {
+        "angle": -1.327,
+        "support": 0.522,
+        "span": 0.806,
+        "line": [
+          -0.02316135426790275,
+          831.2026620000198
+        ],
+        "points": 442,
+        "x_range": [
+          104,
+          786
+        ]
+      },
+      "top": {
+        "angle": -0.546,
+        "support": 0.823,
+        "span": 0.921,
+        "line": [
+          -0.009534860554976095,
+          149.00254379058686
+        ],
+        "points": 697,
+        "x_range": [
+          59,
+          838
+        ]
+      },
+      "ink_box": [
+        33,
+        134,
+        931,
+        829
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -0.546,
+      "reference": "top edge",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9999545946802527,
+        -0.009529353485488841,
+        0.009529353485488841,
+        0.9999545946802527,
+        -8.532647408703575,
+        9.227161547783794
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE016": {
+          "before": {
+            "sha256": "6ee7191a55e85f31f26d6c7acc33f05f83a237ca4d510da54e54fbce486aee79",
+            "contours": 34,
+            "operations": 1178,
+            "bounds": [
+              65.0,
+              241.25,
+              1863.1961524227067,
+              1632.0
+            ]
+          },
+          "after": {
+            "sha256": "9b821cf5533e8397edac1fd3649226fe11bf8633eae43c6abb7aca1ffe434eb8",
+            "contours": 34,
+            "operations": 1178,
+            "bounds": [
+              70.859375,
+              248.26878679229574,
+              1868.0672163571403,
+              1625.53125
+            ]
+          }
+        },
+        "uniE016.primary": {
+          "before": {
+            "sha256": "6efeacdbb83aa469de363e8a59fb738c0f3d5a70c137f2f841e72c14046f693b",
+            "contours": 40,
+            "operations": 1204,
+            "bounds": [
+              66.58578643762691,
+              241.25,
+              1861.75,
+              1616.75
+            ]
+          },
+          "after": {
+            "sha256": "9f7ab9f00a1aefc199b8f7504dfbe27069f7af29df43fe85185cc17f0288869c",
+            "contours": 40,
+            "operations": 1204,
+            "bounds": [
+              71.4375,
+              248.26231899589425,
+              1866.569733224391,
+              1611.8058316764555
+            ]
+          }
+        },
+        "uniE016.secondary": {
+          "before": {
+            "sha256": "1e69cb16c70c29693fb42e07eacc6bfd222852358b331f875af5be17305c2a23",
+            "contours": 112,
+            "operations": 2545,
+            "bounds": [
+              65.0,
+              241.0,
+              1863.1961524227067,
+              1632.0
+            ]
+          },
+          "after": {
+            "sha256": "133899ccc63840aedcf0a9373e4379af55ffba769ae40ca03bea3b8b0fd67d6d",
+            "contours": 112,
+            "operations": 2545,
+            "bounds": [
+              70.859375,
+              247.9814283008503,
+              1868.0672163571403,
+              1625.53125
+            ]
+          }
+        },
+        "uniE016.tertiary": {
+          "before": {
+            "sha256": "1d012dd71b9bd039be1d39a9fb86b5d13eed3d07a711cf6111c3bfa19db56478",
+            "contours": 127,
+            "operations": 2887,
+            "bounds": [
+              64.0,
+              165.0,
+              1864.0,
+              1635.0466893034632
+            ]
+          },
+          "after": {
+            "sha256": "a7c4ba741cc8764e26c94352aeb7c1431cedf0f677e2ef2af822acac47d39b6f",
+            "contours": 127,
+            "operations": 2887,
+            "bounds": [
+              69.63611085304365,
+              161.96875,
+              1868.7854237388265,
+              1628.574302990458
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-t",
+      "glyph": "uniE017",
+      "name": "Eight Line Pica Oak Leaf letter T",
+      "specimen_number": "eight-line-pica-oak-leaf-t",
+      "pdf_page": 67,
+      "bottom": {
+        "angle": -1.037,
+        "support": 0.504,
+        "span": 0.553,
+        "line": [
+          -0.018107327166749516,
+          877.043022310191
+        ],
+        "points": 426,
+        "x_range": [
+          279,
+          746
+        ]
+      },
+      "top": {
+        "angle": -0.027,
+        "support": 0.933,
+        "span": 0.942,
+        "line": [
+          -0.00046697824721721724,
+          130.52724592161343
+        ],
+        "points": 789,
+        "x_range": [
+          59,
+          855
+        ]
+      },
+      "ink_box": [
+        33,
+        128,
+        930,
+        871
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-l",
+      "glyph": "uniE018",
+      "name": "Eight Line Pica Oak Leaf letter L",
+      "specimen_number": "eight-line-pica-oak-leaf-l",
+      "pdf_page": 67,
+      "bottom": {
+        "angle": -0.778,
+        "support": 0.933,
+        "span": 0.941,
+        "line": [
+          -0.013583772094859215,
+          880.0100226385154
+        ],
+        "points": 789,
+        "x_range": [
+          109,
+          904
+        ]
+      },
+      "top": {
+        "angle": -0.206,
+        "support": 0.598,
+        "span": 0.598,
+        "line": [
+          -0.003596979198820485,
+          123.55721791371316
+        ],
+        "points": 506,
+        "x_range": [
+          59,
+          564
+        ]
+      },
+      "ink_box": [
+        33,
+        120,
+        930,
+        878
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -0.492,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9999631317709949,
+        -0.008586914390147094,
+        0.008586914390147094,
+        0.9999631317709949,
+        -7.692681978371557,
+        8.310966878206273
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE018": {
+          "before": {
+            "sha256": "53284f774a76fd1d598d862cfcc48c3336ce3545d526b6f4d690a52071ae63bb",
+            "contours": 13,
+            "operations": 883,
+            "bounds": [
+              65.5,
+              141.06391670948406,
+              1862.414213562373,
+              1658.75
+            ]
+          },
+          "after": {
+            "sha256": "2aaf988e7047807e153bfb6db371cb6d453b740fafe77cd88cd42c1b778500b8",
+            "contours": 13,
+            "operations": 883,
+            "bounds": [
+              61.07179663241336,
+              146.5268015091214,
+              1859.0935052154855,
+              1661.7625009150986
+            ]
+          }
+        },
+        "uniE018.primary": {
+          "before": {
+            "sha256": "571b6e95cf866c1d96d52017967fb184da70baa1ea6d5bb403e1b2f98a61ca22",
+            "contours": 15,
+            "operations": 908,
+            "bounds": [
+              68.1809200727272,
+              142.3618401454544,
+              1861.3606797749978,
+              1655.6568542494924
+            ]
+          },
+          "after": {
+            "sha256": "1b3ee8cde648430672cc0c0f8af5be408678b6a85fd1c5cf6c5548e004132296",
+            "contours": 15,
+            "operations": 908,
+            "bounds": [
+              63.36441681654971,
+              147.98137446728188,
+              1858.5625,
+              1660.423609134128
+            ]
+          }
+        },
+        "uniE018.secondary": {
+          "before": {
+            "sha256": "57398f5da380b127560e9ff3ff6375ea403668e19c6312250f6b1a1fc6385865",
+            "contours": 75,
+            "operations": 1964,
+            "bounds": [
+              65.5,
+              141.06391670948406,
+              1862.414213562373,
+              1658.75
+            ]
+          },
+          "after": {
+            "sha256": "f4e4e0de33b0bd00cc5a11ebd45ebf40a15ed7137df6e6ea2515b3ef816b0c01",
+            "contours": 75,
+            "operations": 1964,
+            "bounds": [
+              61.07179663241336,
+              146.5268015091214,
+              1859.0935052154855,
+              1661.7625009150986
+            ]
+          }
+        },
+        "uniE018.tertiary": {
+          "before": {
+            "sha256": "ffa667c6333943beea8764e490dc27b727065265ba0273b4a6a92d12b844b613",
+            "contours": 59,
+            "operations": 2237,
+            "bounds": [
+              64.0,
+              140.06391670948406,
+              1864.1547005383793,
+              1660.0
+            ]
+          },
+          "after": {
+            "sha256": "7fbf28b725af6c3346280d99b55eb205ec06562b41b64d81cf2e9a5efe1f1707",
+            "contours": 59,
+            "operations": 2237,
+            "bounds": [
+              59.553805296129184,
+              145.57043875216473,
+              1861.0112455776728,
+              1665.546875
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-u",
+      "glyph": "uniE019",
+      "name": "Eight Line Pica Oak Leaf letter U",
+      "specimen_number": "eight-line-pica-oak-leaf-u",
+      "pdf_page": 67,
+      "bottom": {
+        "angle": 0.033,
+        "support": 0.184,
+        "span": 0.183,
+        "line": [
+          0.0005832055760139952,
+          861.49367113949
+        ],
+        "points": 156,
+        "x_range": [
+          384,
+          539
+        ]
+      },
+      "top": {
+        "angle": 0.119,
+        "support": 0.933,
+        "span": 0.933,
+        "line": [
+          0.002075166580382457,
+          155.48487253289235
+        ],
+        "points": 789,
+        "x_range": [
+          68,
+          856
+        ]
+      },
+      "ink_box": [
+        33,
+        153,
+        930,
+        863
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-c",
+      "glyph": "uniE01A",
+      "name": "Eight Line Pica Oak Leaf letter C",
+      "specimen_number": "eight-line-pica-oak-leaf-c",
+      "pdf_page": 67,
+      "bottom": {
+        "angle": 3.826,
+        "support": 0.143,
+        "span": 0.146,
+        "line": [
+          0.06687730218120497,
+          887.2004212120822
+        ],
+        "points": 120,
+        "x_range": [
+          442,
+          565
+        ]
+      },
+      "top": {
+        "angle": 0.106,
+        "support": 0.202,
+        "span": 0.536,
+        "line": [
+          0.0018557527701600397,
+          54.660758913728834
+        ],
+        "points": 170,
+        "x_range": [
+          371,
+          822
+        ]
+      },
+      "ink_box": [
+        37,
+        54,
+        930,
+        923
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-a",
+      "glyph": "uniE01B",
+      "name": "Eight Line Pica Oak Leaf letter A",
+      "specimen_number": "eight-line-pica-oak-leaf-a",
+      "pdf_page": 67,
+      "bottom": {
+        "angle": -0.158,
+        "support": 0.846,
+        "span": 0.886,
+        "line": [
+          -0.002764484223188837,
+          806.2371140328265
+        ],
+        "points": 716,
+        "x_range": [
+          115,
+          864
+        ]
+      },
+      "top": {
+        "angle": 0.346,
+        "support": 0.135,
+        "span": 0.134,
+        "line": [
+          0.006046860128389536,
+          175.28338834774502
+        ],
+        "points": 114,
+        "x_range": [
+          371,
+          484
+        ]
+      },
+      "ink_box": [
+        33,
+        177,
+        930,
+        807
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-s",
+      "glyph": "uniE01C",
+      "name": "Eight Line Pica Oak Leaf letter S",
+      "specimen_number": "eight-line-pica-oak-leaf-s",
+      "pdf_page": 67,
+      "bottom": {
+        "angle": 0.028,
+        "support": 0.152,
+        "span": 0.602,
+        "line": [
+          0.0004958135214615957,
+          946.7741289568863
+        ],
+        "points": 121,
+        "x_range": [
+          191,
+          668
+        ]
+      },
+      "top": {
+        "angle": -1.076,
+        "support": 0.27,
+        "span": 0.56,
+        "line": [
+          -0.01879049318047407,
+          82.60633343845491
+        ],
+        "points": 214,
+        "x_range": [
+          310,
+          754
+        ]
+      },
+      "ink_box": [
+        31,
+        68,
+        900,
+        948
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-m",
+      "glyph": "uniE01D",
+      "name": "Eight Line Pica Ornamented Capital letter M",
+      "specimen_number": "eight-line-pica-ornamented-capital-m",
+      "pdf_page": 69,
+      "bottom": {
+        "angle": -1.37,
+        "support": 0.72,
+        "span": 0.839,
+        "line": [
+          -0.023921546434771353,
+          758.8686344214385
+        ],
+        "points": 609,
+        "x_range": [
+          77,
+          786
+        ]
+      },
+      "top": {
+        "angle": -1.687,
+        "support": 0.511,
+        "span": 0.841,
+        "line": [
+          -0.02945614587457565,
+          269.07602955481
+        ],
+        "points": 432,
+        "x_range": [
+          172,
+          883
+        ]
+      },
+      "ink_box": [
+        33,
+        242,
+        930,
+        756
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -1.529,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9996439475842477,
+        -0.02668291697288435,
+        0.02668291697288435,
+        0.9996439475842477,
+        -23.67139074681064,
+        26.042779136037552
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE01D": {
+          "before": {
+            "sha256": "afc71790822d203c8b1bea56684c8903fe5021caca792249b8218458a9f16636",
+            "contours": 117,
+            "operations": 2580,
+            "bounds": [
+              64.86156123669389,
+              386.0,
+              1863.0,
+              1415.0
+            ]
+          },
+          "after": {
+            "sha256": "80c6624d9c5263da1bfcb3a9e0e0315a9f2ad2f6cc3b799829e5539d451d726c",
+            "contours": 117,
+            "operations": 2580,
+            "bounds": [
+              54.91202742091813,
+              401.93832390226163,
+              1872.6286665660027,
+              1394.2823475182802
+            ]
+          }
+        },
+        "uniE01D.primary": {
+          "before": {
+            "sha256": "eda5dcd3716517e01083dbaa165a7a52730b84d974f0bf236027ec55a62ade83",
+            "contours": 116,
+            "operations": 2558,
+            "bounds": [
+              65.875,
+              386.73987041127396,
+              1862.5373835392495,
+              1413.6568542494924
+            ]
+          },
+          "after": {
+            "sha256": "01ce6c8394337c9e19ec03359e2c0751db0cb1080cae56c79109d3346e3fae16",
+            "contours": 116,
+            "operations": 2558,
+            "bounds": [
+              55.889736107156736,
+              402.1656659327038,
+              1872.1628062892132,
+              1393.0739073199793
+            ]
+          }
+        },
+        "uniE01D.secondary": {
+          "before": {
+            "sha256": "978f5984c97b0a8c78f8fbd03c109041273d7cd98afbd4fed736fdc51128affb",
+            "contours": 219,
+            "operations": 5223,
+            "bounds": [
+              64.86156123669389,
+              386.0,
+              1863.0,
+              1415.0
+            ]
+          },
+          "after": {
+            "sha256": "2d24599d2a2c2ca2802753087718a9b0f50459966a88ad3296633f01ec7b3415",
+            "contours": 219,
+            "operations": 5223,
+            "bounds": [
+              54.91202742091813,
+              401.93832390226163,
+              1872.6286665660027,
+              1394.2823475182802
+            ]
+          }
+        },
+        "uniE01D.tertiary": {
+          "before": {
+            "sha256": "b51f30d003a53079d626a7c88e177892a6d5552c90d117aa86977b1d4e89c728",
+            "contours": 219,
+            "operations": 5571,
+            "bounds": [
+              64.0,
+              385.0,
+              1863.7846096908265,
+              1415.5
+            ]
+          },
+          "after": {
+            "sha256": "9ea0f0cbf2aa26a77dd65ea53e8adf5e467815e6918310b97f78e1cb3edbaa08",
+            "contours": 219,
+            "operations": 5571,
+            "bounds": [
+              54.02009722449599,
+              400.7776787398841,
+              1873.4211427836365,
+              1401.1751331081668
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-u",
+      "glyph": "uniE01E",
+      "name": "Eight Line Pica Ornamented Capital letter U",
+      "specimen_number": "eight-line-pica-ornamented-capital-u",
+      "pdf_page": 69,
+      "bottom": {
+        "angle": 5.022,
+        "support": 0.11,
+        "span": 0.109,
+        "line": [
+          0.08788299143315308,
+          873.3950538649409
+        ],
+        "points": 93,
+        "x_range": [
+          290,
+          382
+        ]
+      },
+      "top": {
+        "angle": -1.383,
+        "support": 0.794,
+        "span": 0.865,
+        "line": [
+          -0.024145154470686547,
+          114.19298172083033
+        ],
+        "points": 672,
+        "x_range": [
+          144,
+          875
+        ]
+      },
+      "ink_box": [
+        33,
+        93,
+        930,
+        906
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -1.383,
+      "reference": "top edge",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9997086949501869,
+        -0.024135559678494598,
+        0.024135559678494598,
+        0.9997086949501869,
+        -21.441185642625328,
+        23.528854074900664
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE01E": {
+          "before": {
+            "sha256": "a24b9e80efece3ec4dead511c46b702797be51e1e19eef1751e8b25a85ce0cc2",
+            "contours": 35,
+            "operations": 1391,
+            "bounds": [
+              64.90444533343494,
+              86.44444444444444,
+              1861.8260697860555,
+              1713.5
+            ]
+          },
+          "after": {
+            "sha256": "8ff0e42d0bfe8d6ade9166ee9a23db1bbc53e1335306f5549c482feba8a9c210",
+            "contours": 35,
+            "operations": 1391,
+            "bounds": [
+              60.821561238737075,
+              91.82181806429568,
+              1876.7852470715657,
+              1696.9045527046812
+            ]
+          }
+        },
+        "uniE01E.primary": {
+          "before": {
+            "sha256": "3c0aa2e9ab5ba0a8971765125823a6ca58f6eb9ff511196cd8a007cd4961beb9",
+            "contours": 42,
+            "operations": 1361,
+            "bounds": [
+              65.74222329737074,
+              87.80618520421514,
+              1859.8181818181818,
+              1712.6568542494924
+            ]
+          },
+          "after": {
+            "sha256": "4f126e790353f07ba22e31f7bd0f6739074ad5d6d14a1e0bda4b8c07c75397c0",
+            "contours": 42,
+            "operations": 1361,
+            "bounds": [
+              61.635383030611976,
+              93.49457952512032,
+              1874.8081303323165,
+              1695.842008919989
+            ]
+          }
+        },
+        "uniE01E.secondary": {
+          "before": {
+            "sha256": "254d89d8d87ef338fca60f6480b3c1ac7b3a67cfe159643dfeca65ce0e14290a",
+            "contours": 81,
+            "operations": 2816,
+            "bounds": [
+              64.90444533343494,
+              86.44444444444444,
+              1861.8260697860555,
+              1713.5
+            ]
+          },
+          "after": {
+            "sha256": "f3bb4b3c04e87609732f279e35a704eb47461f0337590b5d02fa5de2329b2077",
+            "contours": 81,
+            "operations": 2816,
+            "bounds": [
+              60.821561238737075,
+              91.82181806429568,
+              1876.7852470715657,
+              1696.9045527046812
+            ]
+          }
+        },
+        "uniE01E.tertiary": {
+          "before": {
+            "sha256": "91c739145cf5dacc2a847aa7da6d072fdfab95633cd8a663cf6ea2f4b126017d",
+            "contours": 83,
+            "operations": 3131,
+            "bounds": [
+              64.0,
+              84.78127283247419,
+              1864.0,
+              1715.0901699437495
+            ]
+          },
+          "after": {
+            "sha256": "e192825021d25064c01802c52f81254bbaf4b6f36e14df22aa5c6f04f92187ea",
+            "contours": 83,
+            "operations": 3131,
+            "bounds": [
+              59.91514519477412,
+              90.20465282598327,
+              1878.9405440744883,
+              1700.266901396932
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-s",
+      "glyph": "uniE01F",
+      "name": "Eight Line Pica Ornamented Capital letter S",
+      "specimen_number": "eight-line-pica-ornamented-capital-s",
+      "pdf_page": 69,
+      "bottom": {
+        "angle": -0.584,
+        "support": 0.213,
+        "span": 0.504,
+        "line": [
+          -0.010196993336735882,
+          874.4105024829021
+        ],
+        "points": 181,
+        "x_range": [
+          91,
+          518
+        ]
+      },
+      "top": {
+        "angle": -0.604,
+        "support": 0.204,
+        "span": 0.518,
+        "line": [
+          -0.010545928583841452,
+          112.8743852567397
+        ],
+        "points": 173,
+        "x_range": [
+          421,
+          860
+        ]
+      },
+      "ink_box": [
+        32,
+        104,
+        931,
+        874
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-e",
+      "glyph": "uniE020",
+      "name": "Eight Line Pica Ornamented Capital letter E",
+      "specimen_number": "eight-line-pica-ornamented-capital-e",
+      "pdf_page": 69,
+      "bottom": {
+        "angle": -2.0,
+        "support": 0.855,
+        "span": 0.855,
+        "line": [
+          -0.03492295266001085,
+          854.5701492767611
+        ],
+        "points": 724,
+        "x_range": [
+          59,
+          782
+        ]
+      },
+      "top": {
+        "angle": -1.835,
+        "support": 0.789,
+        "span": 0.791,
+        "line": [
+          -0.03204459645710848,
+          175.48847802676784
+        ],
+        "points": 668,
+        "x_range": [
+          202,
+          871
+        ]
+      },
+      "ink_box": [
+        32,
+        148,
+        930,
+        852
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -1.917,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9994403346094262,
+        -0.03345171977340179,
+        0.03345171977340179,
+        0.9994403346094262,
+        -29.567030359548447,
+        32.751156713075716
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE020": {
+          "before": {
+            "sha256": "966c9ca8501dd9db0e71f9aa316cecffcecff2b05af62d3f6be22d1c31c0a3fb",
+            "contours": 100,
+            "operations": 2212,
+            "bounds": [
+              64.0,
+              195.0,
+              1863.0,
+              1605.4444444444443
+            ]
+          },
+          "after": {
+            "sha256": "58cc1c1a128c52717ba94fd11cd1f09b8f50c5bceda5f9a05881a3fda0f03d58",
+            "contours": 100,
+            "operations": 2212,
+            "bounds": [
+              43.359375,
+              221.3638388965511,
+              1879.8931281469465,
+              1598.6805783305815
+            ]
+          }
+        },
+        "uniE020.primary": {
+          "before": {
+            "sha256": "817269812d0275febaf72e411b16c47b3f914f432d92487148a6f90770b0b90f",
+            "contours": 99,
+            "operations": 2131,
+            "bounds": [
+              64.0,
+              196.0,
+              1861.2725424859373,
+              1604.230656273187
+            ]
+          },
+          "after": {
+            "sha256": "b6cce65b568d90c0566706c59d888669c016c25c91ca6f1bf9769c4ad8eb5ab7",
+            "contours": 99,
+            "operations": 2131,
+            "bounds": [
+              43.421875,
+              221.921875,
+              1878.1014009209289,
+              1581.2716403466038
+            ]
+          }
+        },
+        "uniE020.secondary": {
+          "before": {
+            "sha256": "5a028be9a7df3ae4ac4425203db7591a112ffc9192cb1524f02f0126232fab86",
+            "contours": 203,
+            "operations": 4474,
+            "bounds": [
+              64.0,
+              195.0,
+              1863.0,
+              1605.4444444444443
+            ]
+          },
+          "after": {
+            "sha256": "0e442888aed04f48df774cf56e8ef5b731afab416a7e35113b29848b6fbe5a11",
+            "contours": 203,
+            "operations": 4474,
+            "bounds": [
+              43.359375,
+              221.3638388965511,
+              1879.8931281469465,
+              1598.6805783305815
+            ]
+          }
+        },
+        "uniE020.tertiary": {
+          "before": {
+            "sha256": "b11505fd2cac17c4d7b3e85a76c80a716087590185898ca3548945d53f0cdec4",
+            "contours": 242,
+            "operations": 4976,
+            "bounds": [
+              64.0,
+              194.0,
+              1864.1961524227067,
+              1606.0
+            ]
+          },
+          "after": {
+            "sha256": "c3511724dcb8d79fe46a6ce42442cd004253804085121d9c57a60f8be7f49062",
+            "contours": 242,
+            "operations": 4976,
+            "bounds": [
+              43.296875,
+              220.1661510841319,
+              1881.0774513680606,
+              1600.140625
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h",
+      "glyph": "uniE021",
+      "name": "Eight Line Pica Ornamented Lowercase letter h",
+      "specimen_number": "eight-line-pica-ornamented-lowercase-h",
+      "pdf_page": 69,
+      "bottom": {
+        "angle": -1.181,
+        "support": 0.294,
+        "span": 0.679,
+        "line": [
+          -0.020617921360098178,
+          946.4876443981624
+        ],
+        "points": 242,
+        "x_range": [
+          125,
+          683
+        ]
+      },
+      "top": {
+        "angle": -0.929,
+        "support": 0.42,
+        "span": 0.42,
+        "line": [
+          -0.01621567986974846,
+          59.33283716456642
+        ],
+        "points": 346,
+        "x_range": [
+          238,
+          583
+        ]
+      },
+      "ink_box": [
+        33,
+        50,
+        907,
+        949
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -1.055,
+      "reference": "mean of upper and lower horizontal edges",
+      "pivot": [
+        940.5,
+        900
+      ],
+      "matrix": [
+        0.9998304813878142,
+        -0.018412183135410536,
+        0.018412183135410536,
+        0.9998304813878142,
+        -16.411532567108722,
+        17.469224989820873
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE021": {
+          "before": {
+            "sha256": "c8bd3881fa06d5a6c18087292117311e1bf53d7b2dff6fa7cc10481698815347",
+            "contours": 105,
+            "operations": 1957,
+            "bounds": [
+              65.0,
+              -0.09297044867450399,
+              1814.8213209169694,
+              1797.75
+            ]
+          },
+          "after": {
+            "sha256": "cb668cd76bc1e9106ad0ca5cbac87f58a6a66ee07ad7792858d41f1b056a254b",
+            "contours": 105,
+            "operations": 1957,
+            "bounds": [
+              65.95081318105635,
+              5.62303175677221,
+              1806.3382871891613,
+              1797.6736677011543
+            ]
+          }
+        },
+        "uniE021.primary": {
+          "before": {
+            "sha256": "331dfb8cb133690eacf162450bfc0db58bcb04c5a7e5748701c8a45593670e76",
+            "contours": 92,
+            "operations": 1883,
+            "bounds": [
+              67.0,
+              2.0,
+              1814.6568542494924,
+              1795.0
+            ]
+          },
+          "after": {
+            "sha256": "6509fb710c812cb37f5ce62a0efb06e8bad028bbc2882f53cb42e254633580a2",
+            "contours": 92,
+            "operations": 1883,
+            "bounds": [
+              67.9366728804687,
+              7.725675007161585,
+              1806.1088074819975,
+              1796.3650838550716
+            ]
+          }
+        },
+        "uniE021.secondary": {
+          "before": {
+            "sha256": "3ef4da81e42628d5b6ae69a40f1bec9fcf90a7f6e394f964dc212f561d0c3313",
+            "contours": 181,
+            "operations": 3896,
+            "bounds": [
+              65.0,
+              -0.09297044867450399,
+              1814.8213209169694,
+              1797.75
+            ]
+          },
+          "after": {
+            "sha256": "32906af5f3bfe79dd800d6f0a2292d66164ce793dd481d6bcda11524cde8e293",
+            "contours": 181,
+            "operations": 3896,
+            "bounds": [
+              65.95081318105635,
+              5.62303175677221,
+              1806.3382871891613,
+              1797.6736677011543
+            ]
+          }
+        },
+        "uniE021.tertiary": {
+          "before": {
+            "sha256": "7faea48a1637b491e5430735e452ee3e5b5e4951610eaa3c394c9ab0c5bfb85c",
+            "contours": 218,
+            "operations": 4314,
+            "bounds": [
+              64.0,
+              -0.09297044867450666,
+              1817.4646256377994,
+              1800.0
+            ]
+          },
+          "after": {
+            "sha256": "aaf33798639dcb6b85d190bbf7dba20c0c46d181c35f79862c9c221957911ee2",
+            "contours": 218,
+            "operations": 4314,
+            "bounds": [
+              64.9767561983471,
+              5.62303175677221,
+              1809.022632726607,
+              1799.945210167405
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u",
+      "glyph": "uniE022",
+      "name": "Eight Line Pica Ornamented Lowercase letter u",
+      "specimen_number": "eight-line-pica-ornamented-lowercase-u",
+      "pdf_page": 69,
+      "bottom": {
+        "angle": -0.793,
+        "support": 0.18,
+        "span": 0.498,
+        "line": [
+          -0.013836305901283985,
+          937.5484777100537
+        ],
+        "points": 152,
+        "x_range": [
+          262,
+          683
+        ]
+      },
+      "top": {
+        "angle": -1.528,
+        "support": 0.355,
+        "span": 0.67,
+        "line": [
+          -0.026673390172717425,
+          248.57234285125517
+        ],
+        "points": 300,
+        "x_range": [
+          242,
+          808
+        ]
+      },
+      "ink_box": [
+        34,
+        227,
+        931,
+        934
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m",
+      "glyph": "uniE023",
+      "name": "Eight Line Pica Ornamented Lowercase letter m",
+      "specimen_number": "eight-line-pica-ornamented-lowercase-m",
+      "pdf_page": 69,
+      "bottom": {
+        "angle": -0.962,
+        "support": 0.461,
+        "span": 0.802,
+        "line": [
+          -0.01678836486472071,
+          797.6259971390197
+        ],
+        "points": 390,
+        "x_range": [
+          76,
+          754
+        ]
+      },
+      "top": {
+        "angle": 0.822,
+        "support": 0.163,
+        "span": 0.711,
+        "line": [
+          0.014351867914022058,
+          271.9210074097929
+        ],
+        "points": 138,
+        "x_range": [
+          198,
+          799
+        ]
+      },
+      "ink_box": [
+        33,
+        268,
+        930,
+        796
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -0.962,
+      "reference": "lower baseline segments",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9998590501295502,
+        -0.016789278544164135,
+        0.016789278544164135,
+        0.9998590501295502,
+        -14.974475014634184,
+        16.311719399978983
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE023": {
+          "before": {
+            "sha256": "df9a5b1500d7c3ff9c2781c04721bb8d659af0e6de0e2b9d3b1574c0677290ea",
+            "contours": 95,
+            "operations": 2416,
+            "bounds": [
+              66.06381114318103,
+              306.0,
+              1862.0,
+              1476.0
+            ]
+          },
+          "after": {
+            "sha256": "849d609adb6407f779641a183fa389c892db66bd49709c5f6d8375c66a71868a",
+            "contours": 95,
+            "operations": 2416,
+            "bounds": [
+              58.670712933248694,
+              316.9218045017829,
+              1857.4400414163097,
+              1462.117667293228
+            ]
+          }
+        },
+        "uniE023.primary": {
+          "before": {
+            "sha256": "ca6024a8de751d432b4111a187e4a3465e1c5dc5a3527aea3a0f5c9093e4bbc9",
+            "contours": 79,
+            "operations": 2305,
+            "bounds": [
+              67.55555555555556,
+              306.68629150101526,
+              1862.4095399636365,
+              1364.5555555555557
+            ]
+          },
+          "after": {
+            "sha256": "609283dc2416b79acb627cd7087ff59fe01a92f48671f3a6bf64d7051de8614a",
+            "contours": 79,
+            "operations": 2305,
+            "bounds": [
+              60.23062159064318,
+              318.1543847787611,
+              1857.7510422259443,
+              1358.893019808309
+            ]
+          }
+        },
+        "uniE023.secondary": {
+          "before": {
+            "sha256": "9b2ae9791bbba8ec58372a38615e9d27e109fc0e67cc745c51fb8c2d21ad14da",
+            "contours": 185,
+            "operations": 4889,
+            "bounds": [
+              66.06381114318103,
+              306.0,
+              1862.4095399636365,
+              1476.0
+            ]
+          },
+          "after": {
+            "sha256": "c844def6845452c972cd7bcbc563f58706c79a13db32326868b864ad9648fd41",
+            "contours": 185,
+            "operations": 4889,
+            "bounds": [
+              58.670712933248694,
+              316.9218045017829,
+              1857.7510422259443,
+              1462.117667293228
+            ]
+          }
+        },
+        "uniE023.tertiary": {
+          "before": {
+            "sha256": "8595e709d234a32ae7d86f7c26ed2455cacfec9eff6cb0e9c00dcf2826b82e0a",
+            "contours": 184,
+            "operations": 5332,
+            "bounds": [
+              63.90983005625053,
+              305.25,
+              1864.0,
+              1495.0
+            ]
+          },
+          "after": {
+            "sha256": "92e48b29594c0b610ee4ddea5f597d49dc58305f197cbd3d015315f8157b30cc",
+            "contours": 184,
+            "operations": 5332,
+            "bounds": [
+              56.550678328585825,
+              315.859375,
+              1859.374753766112,
+              1489.095384901214
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a",
+      "glyph": "uniE024",
+      "name": "Eight Line Pica Ornamented Lowercase letter a",
+      "specimen_number": "eight-line-pica-ornamented-lowercase-a",
+      "pdf_page": 69,
+      "bottom": {
+        "angle": -1.411,
+        "support": 0.231,
+        "span": 0.596,
+        "line": [
+          -0.024629651281027617,
+          928.1476914571084
+        ],
+        "points": 196,
+        "x_range": [
+          193,
+          698
+        ]
+      },
+      "top": {
+        "angle": -1.585,
+        "support": 0.364,
+        "span": 0.544,
+        "line": [
+          -0.027672365129869033,
+          164.18933183787715
+        ],
+        "points": 309,
+        "x_range": [
+          340,
+          801
+        ]
+      },
+      "ink_box": [
+        32,
+        143,
+        931,
+        923
+      ],
+      "status": "unchanged",
+      "review_note": "Level at display sizes, or no unambiguous horizontal reference; retain the historical form."
+    },
+    {
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n",
+      "glyph": "uniE025",
+      "name": "Eight Line Pica Ornamented Lowercase letter n",
+      "specimen_number": "eight-line-pica-ornamented-lowercase-n",
+      "pdf_page": 69,
+      "bottom": {
+        "angle": -2.294,
+        "support": 0.412,
+        "span": 0.701,
+        "line": [
+          -0.040062131795291785,
+          878.3775793832624
+        ],
+        "points": 349,
+        "x_range": [
+          97,
+          690
+        ]
+      },
+      "top": {
+        "angle": 0.216,
+        "support": 0.181,
+        "span": 0.474,
+        "line": [
+          0.003777211978313283,
+          123.44813942125589
+        ],
+        "points": 153,
+        "x_range": [
+          280,
+          681
+        ]
+      },
+      "ink_box": [
+        33,
+        124,
+        931,
+        874
+      ],
+      "status": "rotate",
+      "review_note": "Before/after display-size comparison inspected. Rotation improves the measured horizontal reference; irregular edges and intentional slants remain.",
+      "angle_degrees": -2.294,
+      "reference": "lower baseline segments",
+      "pivot": [
+        964.0,
+        900
+      ],
+      "matrix": [
+        0.9991985922272285,
+        -0.04002715692033048,
+        0.04002715692033048,
+        0.9991985922272285,
+        -35.251884135345705,
+        39.30744626669298
+      ],
+      "coordinate_grid": 0.015625,
+      "drawings": {
+        "uniE025": {
+          "before": {
+            "sha256": "ad3becffe23bb7b5fea9df6ca3dad26e60f1d5700bad5d18acc13ff72e1cdc61",
+            "contours": 55,
+            "operations": 1624,
+            "bounds": [
+              65.0,
+              149.0,
+              1862.4320274812007,
+              1651.0
+            ]
+          },
+          "after": {
+            "sha256": "40992bbdcb2c1b7ab040f579c15db1abdef5f759388525b9d50d17767c771e77",
+            "contours": 55,
+            "operations": 1624,
+            "bounds": [
+              44.09789387758481,
+              177.39567284236338,
+              1850.7368389363887,
+              1664.7275171108652
+            ]
+          }
+        },
+        "uniE025.primary": {
+          "before": {
+            "sha256": "dc63e36054c0d50d37d5331d9aaa30f8681b8742a2c841efcf5c09c9ef265558",
+            "contours": 47,
+            "operations": 1479,
+            "bounds": [
+              67.0,
+              152.0,
+              1860.0,
+              1649.7443331620636
+            ]
+          },
+          "after": {
+            "sha256": "c40425abcaaf29278c8d54f79c9b467bebdbaaf44af5f2c043d05d4c14f09ea6",
+            "contours": 47,
+            "operations": 1479,
+            "bounds": [
+              45.65625,
+              179.14456237896272,
+              1848.3364260014491,
+              1662.4790171027294
+            ]
+          }
+        },
+        "uniE025.secondary": {
+          "before": {
+            "sha256": "6849c42b28d5216e60279dcff76c81d92a24f6b68ebcf7fc60cec48dc0666ec7",
+            "contours": 99,
+            "operations": 3169,
+            "bounds": [
+              65.0,
+              149.0,
+              1862.4320274812007,
+              1651.0
+            ]
+          },
+          "after": {
+            "sha256": "ae2db70fbd16b41bcfb1902799a81bfc2699a2c9de955b7cc2a1be8d449f1e60",
+            "contours": 99,
+            "operations": 3169,
+            "bounds": [
+              44.09789387758481,
+              177.39567284236338,
+              1850.7368389363887,
+              1664.7275171108652
+            ]
+          }
+        },
+        "uniE025.tertiary": {
+          "before": {
+            "sha256": "b4527d69f9c34cec3e5a9da45e63c288255d1e5871c736e0c7bb7b75ac32783a",
+            "contours": 126,
+            "operations": 3709,
+            "bounds": [
+              64.0,
+              147.0,
+              1864.2216498636094,
+              1653.1183431952663
+            ]
+          },
+          "after": {
+            "sha256": "9f15780045ae8e5eb9844e079fba7b4c07cba68cc541e7228a5d47332640de65",
+            "contours": 126,
+            "operations": 3709,
+            "bounds": [
+              43.07771025837655,
+              176.07763078876772,
+              1852.5931910134411,
+              1666.7463986993423
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "validation": {
+    "icons_reviewed": 38,
+    "rotated_icons": 22,
+    "unchanged_icons": 16,
+    "full_detail_drawings_verified": 88,
+    "rotated_font_approximations": 0,
+    "geometry": "Identical rigid matrices apply to all four drawings on a 1/64-unit grid. Every contour and advance retained; bounds remain inside the original em and advance box.",
+    "visual_review": "Every proposed rotation inspected side by side at a 192-pixel em. Local frame edges take precedence when a containing strip has slightly different page curvature. Full-detail before/after proofs retain 48, 96, 192 and 384 pixel views. Intentional slants and irregular edges remain.",
+    "proof": "../specimens/straightening-review.pdf"
+  }
+}

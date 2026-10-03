@@ -1,0 +1,610 @@
+[
+  {
+    "id": "baltimore-1832-p59-six-line-pica-ornamented-m",
+    "pdf_page": 59,
+    "grid_box": [
+      102,
+      164,
+      264,
+      287
+    ],
+    "box": [
+      534,
+      859,
+      1383,
+      1503
+    ]
+  },
+  {
+    "id": "baltimore-1832-p59-six-line-pica-ornamented-o",
+    "pdf_page": 59,
+    "grid_box": [
+      264,
+      164,
+      381,
+      287
+    ],
+    "box": [
+      1383,
+      859,
+      1995,
+      1503
+    ]
+  },
+  {
+    "id": "baltimore-1832-p59-six-line-pica-ornamented-d",
+    "pdf_page": 59,
+    "grid_box": [
+      381,
+      164,
+      514,
+      287
+    ],
+    "box": [
+      1995,
+      859,
+      2692,
+      1503
+    ]
+  },
+  {
+    "id": "baltimore-1832-p59-six-line-pica-ornamented-e",
+    "pdf_page": 59,
+    "grid_box": [
+      514,
+      164,
+      628,
+      287
+    ],
+    "box": [
+      2692,
+      859,
+      3289,
+      1503
+    ]
+  },
+  {
+    "id": "baltimore-1832-p59-six-line-pica-ornamented-r",
+    "pdf_page": 59,
+    "grid_box": [
+      628,
+      164,
+      759,
+      287
+    ],
+    "box": [
+      3289,
+      859,
+      3975,
+      1503
+    ]
+  },
+  {
+    "id": "baltimore-1832-p59-six-line-pica-ornamented-n",
+    "pdf_page": 59,
+    "grid_box": [
+      759,
+      164,
+      891,
+      287
+    ],
+    "box": [
+      3975,
+      859,
+      4666,
+      1503
+    ]
+  },
+  {
+    "id": "baltimore-1832-p59-six-line-pica-ornamented-c",
+    "pdf_page": 59,
+    "grid_box": [
+      102,
+      324,
+      216,
+      449
+    ],
+    "box": [
+      534,
+      1697,
+      1131,
+      2351
+    ]
+  },
+  {
+    "id": "baltimore-1832-p59-six-line-pica-ornamented-h",
+    "pdf_page": 59,
+    "grid_box": [
+      216,
+      324,
+      359,
+      449
+    ],
+    "box": [
+      1131,
+      1697,
+      1880,
+      2351
+    ]
+  },
+  {
+    "id": "baltimore-1832-p59-six-line-pica-ornamented-a",
+    "pdf_page": 59,
+    "grid_box": [
+      359,
+      324,
+      495,
+      449
+    ],
+    "box": [
+      1880,
+      1697,
+      2592,
+      2351
+    ]
+  },
+  {
+    "id": "baltimore-1832-p59-six-line-pica-ornamented-s",
+    "pdf_page": 59,
+    "grid_box": [
+      785,
+      324,
+      887,
+      449
+    ],
+    "box": [
+      4111,
+      1697,
+      4645,
+      2351
+    ]
+  },
+  {
+    "id": "baltimore-1832-p65-eight-line-pica-fluted-b",
+    "pdf_page": 65,
+    "grid_box": [
+      90.00191901746305,
+      122.0495106505469,
+      258.1078487814239,
+      301.0938399539436
+    ],
+    "box": [
+      469,
+      636,
+      1345,
+      1569
+    ]
+  },
+  {
+    "id": "baltimore-1832-p65-eight-line-pica-fluted-r",
+    "pdf_page": 65,
+    "grid_box": [
+      251.9669928996354,
+      122.0495106505469,
+      440.99021301093836,
+      301.0938399539436
+    ],
+    "box": [
+      1313,
+      636,
+      2298,
+      1569
+    ]
+  },
+  {
+    "id": "baltimore-1832-p65-eight-line-pica-fluted-u",
+    "pdf_page": 65,
+    "grid_box": [
+      433,
+      122,
+      594,
+      301
+    ],
+    "box": [
+      2256,
+      636,
+      3095,
+      1569
+    ]
+  },
+  {
+    "id": "baltimore-1832-p65-eight-line-pica-fluted-n",
+    "pdf_page": 65,
+    "grid_box": [
+      589.9059681443101,
+      122.0495106505469,
+      750.911533294953,
+      301.0938399539436
+    ],
+    "box": [
+      3074,
+      636,
+      3913,
+      1569
+    ]
+  },
+  {
+    "id": "baltimore-1832-p65-eight-line-pica-fluted-t",
+    "pdf_page": 65,
+    "grid_box": [
+      750,
+      122,
+      915,
+      301
+    ],
+    "box": [
+      3908,
+      636,
+      4768,
+      1569
+    ]
+  },
+  {
+    "id": "baltimore-1832-p65-eight-line-pica-fluted-m",
+    "pdf_page": 65,
+    "grid_box": [
+      95.95087315294569,
+      311.0727307618499,
+      300.1343312224141,
+      486.08712339282283
+    ],
+    "box": [
+      500,
+      1621,
+      1564,
+      2533
+    ]
+  },
+  {
+    "id": "baltimore-1832-p65-eight-line-pica-fluted-o",
+    "pdf_page": 65,
+    "grid_box": [
+      295.9124928036845,
+      311.0727307618499,
+      448.09057762425635,
+      486.08712339282283
+    ],
+    "box": [
+      1542,
+      1621,
+      2335,
+      2533
+    ]
+  },
+  {
+    "id": "baltimore-1832-p65-eight-line-pica-fluted-s",
+    "pdf_page": 65,
+    "grid_box": [
+      622.9130685089234,
+      311.0727307618499,
+      755.1333717136825,
+      486.08712339282283
+    ],
+    "box": [
+      3246,
+      1621,
+      3935,
+      2533
+    ]
+  },
+  {
+    "id": "baltimore-1832-p65-eight-line-pica-fluted-e",
+    "pdf_page": 65,
+    "grid_box": [
+      753.0224525043177,
+      311.0727307618499,
+      919.9769717904433,
+      486.08712339282283
+    ],
+    "box": [
+      3924,
+      1621,
+      4794,
+      2533
+    ]
+  },
+  {
+    "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-p",
+    "pdf_page": 67,
+    "grid_box": [
+      86,
+      117,
+      245,
+      271
+    ],
+    "box": [
+      448,
+      609,
+      1275,
+      1411
+    ]
+  },
+  {
+    "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-r",
+    "pdf_page": 67,
+    "grid_box": [
+      245,
+      117,
+      438,
+      271
+    ],
+    "box": [
+      1275,
+      609,
+      2280,
+      1411
+    ]
+  },
+  {
+    "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-i",
+    "pdf_page": 67,
+    "grid_box": [
+      438,
+      117,
+      555,
+      271
+    ],
+    "box": [
+      2280,
+      609,
+      2889,
+      1411
+    ]
+  },
+  {
+    "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-n",
+    "pdf_page": 67,
+    "grid_box": [
+      555,
+      117,
+      734,
+      271
+    ],
+    "box": [
+      2889,
+      609,
+      3821,
+      1411
+    ]
+  },
+  {
+    "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-t",
+    "pdf_page": 67,
+    "grid_box": [
+      734,
+      117,
+      914,
+      271
+    ],
+    "box": [
+      3821,
+      609,
+      4758,
+      1411
+    ]
+  },
+  {
+    "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-l",
+    "pdf_page": 67,
+    "grid_box": [
+      88,
+      300,
+      255,
+      451
+    ],
+    "box": [
+      458,
+      1562,
+      1328,
+      2348
+    ]
+  },
+  {
+    "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-u",
+    "pdf_page": 67,
+    "grid_box": [
+      255,
+      300,
+      430,
+      451
+    ],
+    "box": [
+      1328,
+      1562,
+      2239,
+      2348
+    ]
+  },
+  {
+    "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-c",
+    "pdf_page": 67,
+    "grid_box": [
+      430,
+      300,
+      576,
+      451
+    ],
+    "box": [
+      2239,
+      1562,
+      2999,
+      2348
+    ]
+  },
+  {
+    "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-a",
+    "pdf_page": 67,
+    "grid_box": [
+      572.9927007299269,
+      300.03841721091044,
+      773.1463695735689,
+      451.01805608912787
+    ],
+    "box": [
+      2983,
+      1562,
+      4025,
+      2348
+    ]
+  },
+  {
+    "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-s",
+    "pdf_page": 67,
+    "grid_box": [
+      770,
+      300,
+      914,
+      451
+    ],
+    "box": [
+      4009,
+      1562,
+      4758,
+      2348
+    ]
+  },
+  {
+    "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-m",
+    "pdf_page": 69,
+    "grid_box": [
+      130,
+      156,
+      402,
+      323
+    ],
+    "box": [
+      682,
+      819,
+      2109,
+      1695
+    ]
+  },
+  {
+    "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-u",
+    "pdf_page": 69,
+    "grid_box": [
+      402,
+      156,
+      570,
+      323
+    ],
+    "box": [
+      2109,
+      819,
+      2991,
+      1695
+    ]
+  },
+  {
+    "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-s",
+    "pdf_page": 69,
+    "grid_box": [
+      550.0285877644368,
+      156.08919382504288,
+      726.1292166952544,
+      323.04173813607775
+    ],
+    "box": [
+      2886,
+      819,
+      3810,
+      1695
+    ]
+  },
+  {
+    "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-e",
+    "pdf_page": 69,
+    "grid_box": [
+      720.0304936153993,
+      156.08919382504288,
+      923.0036211168286,
+      323.04173813607775
+    ],
+    "box": [
+      3778,
+      819,
+      4843,
+      1695
+    ]
+  },
+  {
+    "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h",
+    "pdf_page": 69,
+    "grid_box": [
+      142,
+      335,
+      286,
+      489
+    ],
+    "box": [
+      745,
+      1758,
+      1501,
+      2566
+    ]
+  },
+  {
+    "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u",
+    "pdf_page": 69,
+    "grid_box": [
+      286,
+      335,
+      431,
+      489
+    ],
+    "box": [
+      1501,
+      1758,
+      2261,
+      2566
+    ]
+  },
+  {
+    "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m",
+    "pdf_page": 69,
+    "grid_box": [
+      431,
+      335,
+      619,
+      489
+    ],
+    "box": [
+      2261,
+      1758,
+      3248,
+      2566
+    ]
+  },
+  {
+    "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a",
+    "pdf_page": 69,
+    "grid_box": [
+      619,
+      335,
+      761,
+      489
+    ],
+    "box": [
+      3248,
+      1758,
+      3993,
+      2566
+    ]
+  },
+  {
+    "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n",
+    "pdf_page": 69,
+    "grid_box": [
+      761,
+      335,
+      908,
+      489
+    ],
+    "box": [
+      3993,
+      1758,
+      4764,
+      2566
+    ]
+  }
+]

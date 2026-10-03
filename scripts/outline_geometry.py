@@ -61,6 +61,41 @@ def _subdivide(path, pieces):
     return result
 
 
+class _Contains:
+    """Exact fill queries with a lazy contour index for intricate engravings.
+
+    A contour cannot affect winding outside its bounds. Each cell retains all
+    contours whose conservative control bounds intersect it, including enclosing
+    contours and holes; PathOps still evaluates their original curves and fill.
+    """
+
+    def __init__(self, path):
+        self.path = path
+        self.contours = [(p, p.controlPointBounds) for p in path.contours]
+        self.cells = {}
+        self.bounds = path.controlPointBounds if self.contours else (0, 0, 0, 0)
+
+    def __call__(self, point):
+        import pathops
+        from math import floor
+
+        if len(self.contours) < 32:
+            return self.path.contains(point)
+        x0, y0, x1, y1 = self.bounds
+        width, height = max((x1 - x0) / 32, 1), max((y1 - y0) / 32, 1)
+        col, row = floor((point[0] - x0) / width), floor((point[1] - y0) / height)
+        key = col, row
+        if key not in self.cells:
+            left, bottom = x0 + col * width, y0 + row * height
+            subset = pathops.Path()
+            subset.fillType = self.path.fillType
+            for contour, (a, b, c, d) in self.contours:
+                if c >= left and a <= left + width and d >= bottom and b <= bottom + height:
+                    subset.addPath(contour)
+            self.cells[key] = subset
+        return self.cells[key].contains(point)
+
+
 def boolean_op(first, second, operation):
     """Check the fill, then retry a degenerate sweep in equivalent frames.
 
@@ -79,6 +114,7 @@ def boolean_op(first, second, operation):
         pathops.PathOp.REVERSE_DIFFERENCE: lambda a, b: b and not a,
     }
     predicate = predicates[operation]
+    first_contains, second_contains = _Contains(first), _Contains(second)
     bounds = [path.bounds for path in (first, second) if len(path)]
     samples = []
     if bounds:
@@ -88,19 +124,20 @@ def boolean_op(first, second, operation):
             for col in range(64):
                 point = (x0 + (col + .5) * (x1 - x0) / 64,
                          y0 + (row + .5) * (y1 - y0) / 64)
-                expected = predicate(first.contains(point), second.contains(point))
+                expected = predicate(first_contains(point), second_contains(point))
                 samples.append((point, expected))
 
     def matches(result, tolerance=.05):
+        result_contains = _Contains(result)
         for (x, y), expected in samples:
-            if result.contains((x, y)) == expected:
+            if result_contains((x, y)) == expected:
                 continue
             # Ignore float-level uncertainty directly on a split curve. This
             # tolerance is well below the final half-unit coordinate rounding.
             nearby = [(x + dx, y + dy) for dx, dy in
                       ((-tolerance, 0), (tolerance, 0), (0, -tolerance), (0, tolerance))]
-            if all(predicate(first.contains(p), second.contains(p)) == expected
-                   and result.contains(p) != expected for p in nearby):
+            if all(predicate(first_contains(p), second_contains(p)) == expected
+                   and result_contains(p) != expected for p in nearby):
                 return False
         return True
 

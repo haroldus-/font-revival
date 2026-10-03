@@ -88,7 +88,7 @@ The [1894 Ryan / November 1888 survey](docs/PROSPECTS-1894-1888.md) records the 
 
 The icon collection revives historical artwork as three-tone SVGs and transparent
 PNGs, plus solid SVGs, sprites, desktop fonts and CSS webfonts. The Boston 1889
-revival contains **1,965 icons**. The original **Father Christmas, No. 4202** pilot
+revival contains **1,965 icons**, joined by **819 Baltimore 1832 icons**. The original **Father Christmas, No. 4202** pilot
 retains its engraving, proportions and character assignment. Browse the compact
 monochrome grid by subject, collection, type or specimen section; open an icon
 for its three-tone previews, downloads and HTML examples.
@@ -99,6 +99,10 @@ for its three-tone previews, downloads and HTML examples.
 | [Boston Ornaments 1889](collection/boston-ornaments-1889/) | 715 | [ZIP](collection/boston-ornaments-1889/downloads/boston-ornaments-1889-web.zip) |
 | [Boston Initials 1889](collection/boston-initials-1889/) | 312 | [ZIP](collection/boston-initials-1889/downloads/boston-initials-1889-web.zip) |
 | [Boston Symbols 1889](collection/boston-symbols-1889/) | 460 | [ZIP](collection/boston-symbols-1889/downloads/boston-symbols-1889-web.zip) |
+| [Baltimore Cuts 1832](collection/baltimore-cuts-1832/) | 381 | [ZIP parts](collection/baltimore-cuts-1832/README.md#web-bundle-parts) |
+| [Baltimore Ornaments 1832](collection/baltimore-ornaments-1832/) | 396 | [ZIP parts](collection/baltimore-ornaments-1832/README.md#web-bundle-parts) |
+| [Baltimore Initials 1832](collection/baltimore-initials-1832/) | 38 | [ZIP](collection/baltimore-initials-1832/downloads/baltimore-initials-1832-web.zip) |
+| [Baltimore Symbols 1832](collection/baltimore-symbols-1832/) | 4 | [ZIP](collection/baltimore-symbols-1832/downloads/baltimore-symbols-1832-web.zip) |
 
 [![Father Christmas source and revival](collection/boston-cuts-1889/specimens/preview.png)](collection/boston-cuts-1889/)
 
@@ -113,7 +117,11 @@ The survey covers the available pages in the requested Boston range, printed
 217–276, including decorative initials and pictorial symbols. Ordinary text and
 numerals are excluded; repeated compositions are documented in the retained
 inventory. Printed pages 217–218 are missing from the historical scan and could
-not be revived. Baltimore remains pending.
+not be revived. The Baltimore survey covers all 238 PDF pages of the unpaginated
+1832 specimen, including cuts 1–368, 25 separate New England Primer panels,
+border strips and repeat pieces, dashes, rules, decorated letters and geography
+diagrams. Its [book inventory](collection/baltimore-cuts-1832/source/book-inventory.json)
+records every leaf, repeats and exclusions; source citations use PDF page numbers.
 
 ## Use the fonts
 

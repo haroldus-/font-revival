@@ -1,0 +1,762 @@
+[
+  {
+    "id": "baltimore-1832-p213-359",
+    "native_crop_rectangle": [
+      1250,
+      0,
+      2050,
+      35
+    ],
+    "font_rectangle": [
+      704,
+      1493,
+      1121,
+      1516
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE173",
+        "removed_contours": 14,
+        "before_sha256": "206cd3bbe4582d3cca511cb809146a12b328e0210eafdefb5532c17660f20f37",
+        "after_sha256": "34ff2fbd0f1c103e2fd3dfd12900735cfd25e2bb8f797843941d927688c4ab5f"
+      },
+      {
+        "glyph": "uniE173.primary",
+        "removed_contours": 14,
+        "before_sha256": "f1e0a20146d04f224215a7a2bcabba8ea1c47253094df51e82a41a764ccaad78",
+        "after_sha256": "33cf2e831ad5cb40e6716127cdb46b25de65f0d29f881221d2d0e40595c4c9a5"
+      },
+      {
+        "glyph": "uniE173.secondary",
+        "removed_contours": 20,
+        "before_sha256": "11435b770acb8adb8136513e49d395fbe434ed5612d73c64dd60f813c5492420",
+        "after_sha256": "a4eb2c3fe2aa2469e6a5c1f8848f448745b95fef89e340bd905ca9cf2d2ccb99"
+      },
+      {
+        "glyph": "uniE173.tertiary",
+        "removed_contours": 19,
+        "before_sha256": "889d088ae7b6457c07b6bdb92f21c8180cccb156da4c993ecbb236ba865115c5",
+        "after_sha256": "c6f8d3a3cda70c514b920502091bd65b16226c430ef055f2468c353229ddf9a9"
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p217-361",
+    "native_crop_rectangle": [
+      1600,
+      0,
+      2280,
+      80
+    ],
+    "font_rectangle": [
+      733,
+      1574,
+      1024,
+      1613
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE175",
+        "removed_contours": 20,
+        "before_sha256": "3acc1f90b26bf17df6d5dee88e67b42d0eb68106c913a2715c33807d7ca222be",
+        "after_sha256": "ae53ed710b196cb7c6a3c01303c1c08fc53d56592270377f22d68f74d17172f3"
+      },
+      {
+        "glyph": "uniE175.primary",
+        "removed_contours": 31,
+        "before_sha256": "c3a49913f7fac83f215e19fdf73ee2987ed528e2cf7954c9dba5eca8e1187c03",
+        "after_sha256": "9d650268b5ce47545612edabf9321153230d31bc2216949a8d811f669b0d432b"
+      },
+      {
+        "glyph": "uniE175.secondary",
+        "removed_contours": 39,
+        "before_sha256": "ed6e1fd944f982e42aef893b2d9faa8680f3a2b60b73cc7c0ad905ead5619184",
+        "after_sha256": "3719c746cadd52e00820e7e9b5fbb5c8d3e084684bd4c4cc8feae3ca481aac9e"
+      },
+      {
+        "glyph": "uniE175.tertiary",
+        "removed_contours": 40,
+        "before_sha256": "d1d51d17a4e71af557d07c2f928d117979967af0d44224ec928a40bef6ce5055",
+        "after_sha256": "ec546793fefea0aea94c9782f78a5efaeeed7c85164c7a7b3c089b1115eee771"
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p219-362",
+    "native_crop_rectangle": [
+      1940,
+      0,
+      2660,
+      55
+    ],
+    "font_rectangle": [
+      828,
+      1171,
+      1117,
+      1197
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE176",
+        "removed_contours": 14,
+        "before_sha256": "1515621fd0bfd108076bd71988ecdf79f62979b9565854dc4199af6299b2c36d",
+        "after_sha256": "bd515154c90c0db1ae096cbed4f6b7d46846cc0d29f85a9e19cd7ee8d3e692e2"
+      },
+      {
+        "glyph": "uniE176.primary",
+        "removed_contours": 15,
+        "before_sha256": "25dc485e5a27bc207b609ea05c909243030aba2956e2b3e4859504bc0a21a8e5",
+        "after_sha256": "54beeb6568cfb0ea3bdd3464357487326aef200e4faf3422636297a909c57471"
+      },
+      {
+        "glyph": "uniE176.secondary",
+        "removed_contours": 22,
+        "before_sha256": "f3719a2a0a3aaf69f1a6036963022ad7412b264d28f92f97583e5a2fd2d956b8",
+        "after_sha256": "4465d31a7fdb5479714a41b23d32fb428419511c6499cfacc01d7046d9c6bea2"
+      },
+      {
+        "glyph": "uniE176.tertiary",
+        "removed_contours": 27,
+        "before_sha256": "b5cbce179dcaa052152082c5bfc8a3fe2afb7d42ab931e50618916ae8b48909d",
+        "after_sha256": "5c876d0b6871da3614239abaebfaba0aeec5bdf1811104a3b55f1465f0042ad4"
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p127-69",
+    "native_crop_rectangles_before_rotation": [
+      [
+        570,
+        0,
+        880,
+        25
+      ]
+    ],
+    "font_rectangles": [
+      [
+        620,
+        469,
+        664,
+        962
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE044",
+        "removed_contours": 3,
+        "before_sha256": "d0f2a1c1f984ec28fba2e6b30422c407db694f514da0f6a00f025ecd79afa60e",
+        "after_sha256": "db663d38d6f7db280948c3027840692797108543b5bb7f600e19f4432d676a60",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE044.primary",
+        "removed_contours": 3,
+        "before_sha256": "bb41e7810bee98e8c581bba99b56856c98d469b4c660c95b35b66d6c80fb4eb0",
+        "after_sha256": "605e4e3fa0bf1566724d0c7716546558651b2b3fcb1eb94ff2c24ef880025ec6",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 1,
+        "max_outside_alpha_delta": 1
+      },
+      {
+        "glyph": "uniE044.secondary",
+        "removed_contours": 4,
+        "before_sha256": "3256a4d393c6e1f4ba8fb8d860c83274298ff8f026b64259414dedad0c8502d6",
+        "after_sha256": "4efa684ad607c57ed288065610fb45037ec5881cdfa7cfc0ad3a8406e718ca47",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE044.tertiary",
+        "removed_contours": 6,
+        "before_sha256": "0a92867389aa02be0d07ba218778dc208f63e87dea03ea0b6c3be4a1cd223b1e",
+        "after_sha256": "e23125047b671d342a7ab966e3121ffc75162f18dcca7078d1e554e5341eb67b",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p127-70",
+    "native_crop_rectangles_before_rotation": [
+      [
+        100,
+        0,
+        750,
+        50
+      ]
+    ],
+    "font_rectangles": [
+      [
+        806,
+        206,
+        923,
+        1662
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE045",
+        "removed_contours": 15,
+        "before_sha256": "9e88b00823c4256cd7d79c1bc33d540cdd5a1801225075db0209b0d858e9b573",
+        "after_sha256": "c7545e7ff288c212d6d07b3eb494ee862070f5824fa16046ceadfb6446ef41e3",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 7,
+        "max_outside_alpha_delta": 7
+      },
+      {
+        "glyph": "uniE045.primary",
+        "removed_contours": 15,
+        "before_sha256": "cee87171f2faf3083a887e7409871dd9f6dbdc5eaf300c7a185b161dbce23b20",
+        "after_sha256": "0a2fa24a97b03a89c85cbb46503445ac956e1e33761c54e9d3c5b9588a5315ce",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 3,
+        "max_outside_alpha_delta": 3
+      },
+      {
+        "glyph": "uniE045.secondary",
+        "removed_contours": 31,
+        "before_sha256": "43943935c94953f3037ef48b3206296e840a227de943e530e9295ea52b7c8169",
+        "after_sha256": "2c610b34e83ef2d667e45161ca74ecd0ecded93bc0025a03d7556fcae29d5481",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 2,
+        "max_outside_alpha_delta": 2
+      },
+      {
+        "glyph": "uniE045.tertiary",
+        "removed_contours": 34,
+        "before_sha256": "d75ed6844b034c0ade8535534058e023f66b95c55d201b86157875f8a455b799",
+        "after_sha256": "d6fa6d33cefe1a1b4aa0bb00a992df71cc096e2d5c33013dc29e4f9ca727264f",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 1,
+        "max_outside_alpha_delta": 2
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p157-197",
+    "native_crop_rectangles_before_rotation": [
+      [
+        350,
+        0,
+        1020,
+        28
+      ]
+    ],
+    "font_rectangles": [
+      [
+        491,
+        1289,
+        1424,
+        1333
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE0C3",
+        "removed_contours": 14,
+        "before_sha256": "947e6f9960d358c2699cf47ea46777f57b8476dec3381bb865fe89d2abf96d4d",
+        "after_sha256": "4bc3657b80f0e962b91d87327b8be97e215f271aed1d9abfee5d14c69ddde42c",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0C3.primary",
+        "removed_contours": 14,
+        "before_sha256": "833fff2017dbf44347b12e9a8886935ba244b828f550f573d4e4690d6ae64a8a",
+        "after_sha256": "0757e36e3c95eacfc91bcd18695751209c6b15901509eb6a4168d7012b95b118",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0C3.secondary",
+        "removed_contours": 22,
+        "before_sha256": "c148d6173c2d131924659b9cd08c6241a60187100db60e224eb0ea7dda5ab656",
+        "after_sha256": "a25fff711297eb1e4a92c0aa2a5d735430143de44b5a7e6834e52133bbbf120f",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0C3.tertiary",
+        "removed_contours": 25,
+        "before_sha256": "70e2dedf634be0700fdf9b2497d2dac22fc7d5dc146fe99d2a5498168894721a",
+        "after_sha256": "c6a70d5a70d1e185d49b3f2d1cc5b93a4eeb2111608d306e2eb1777e43565503",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p159-206",
+    "native_crop_rectangles_before_rotation": [
+      [
+        0,
+        600,
+        70,
+        619
+      ]
+    ],
+    "font_rectangles": [
+      [
+        62,
+        -12,
+        271,
+        58
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE0CC",
+        "removed_contours": 2,
+        "before_sha256": "d5a503a40817fc5675daa673d0f383f9fcf0271082bca0c105c2493a1b70cfe9",
+        "after_sha256": "8b3aeb2c6a6fb946fb259fd57f45d27abc079a47f4b9cb5319ed1e5fe602db8c",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0CC.primary",
+        "removed_contours": 2,
+        "before_sha256": "6cfbced78b3c412c8a6060fe965108901466e72493237a49151878d91ec220ee",
+        "after_sha256": "6ef3c7fa13d0fba800b8ba30138cdea82a9994e3c4294c214b552de3c4e94068",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0CC.secondary",
+        "removed_contours": 2,
+        "before_sha256": "95bf67861b978c550348ed7d3e6f5d34c32d5eb029e3108d81111cb49183deb7",
+        "after_sha256": "df081966f5ea5ac5cddd4ff23b532048fcd0b25e156dfba98eadf5b08497b939",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0CC.tertiary",
+        "removed_contours": 4,
+        "before_sha256": "69bcf49be810df5dde7c0201cd1431651cf661abac18aef666b34e9610cd3ac6",
+        "after_sha256": "5b5bb59e5ead80ed0f693a88ed320d0ec38869dfc38d4d019052b6350ebedb23",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      }
+    ],
+    "bounds_note": "The bottom allowance includes a fitted control point extending five units beyond the native crop edge."
+  },
+  {
+    "id": "baltimore-1832-p177-250",
+    "native_crop_rectangles_before_rotation": [
+      [
+        752,
+        425,
+        796,
+        712
+      ]
+    ],
+    "font_rectangles": [
+      [
+        1759,
+        94,
+        1866,
+        770
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE0F4",
+        "removed_contours": 19,
+        "before_sha256": "5d0ce17310eeb0a1f8875daa133703f93a925bec13f47c6803a04144e1a1f47b",
+        "after_sha256": "85e947f334929a0c023a029bf8c0eebcbd8c55f6fb41f90d9dfbd7ec9f01eeb5",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0F4.primary",
+        "removed_contours": 28,
+        "before_sha256": "1b64ef520639f069d522389dc088ee53b316a1bedd748583e88f1bf9952b2fa7",
+        "after_sha256": "d2762783c7b6fe9b0fe8b81bf4a3b48eb95281a8eb836066bacd74aae4f2afa7",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0F4.secondary",
+        "removed_contours": 44,
+        "before_sha256": "f4284ff0579548acf46c81a65f0b488e7cd9e72a7506fb5d183b9dd27cb8eeff",
+        "after_sha256": "6c6c77bdd6d829807b5e4a054f60fdc5aeffb9ec634c58b63c97f32747ee0261",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0F4.tertiary",
+        "removed_contours": 34,
+        "before_sha256": "6701b90d2b7d56d2073b85c768e73645d728df0a22abb7fa6836bc70e47fb6b1",
+        "after_sha256": "632c2cb2b03f951d27d9125a32a818d85e3d8203c9a7f17cac1dc2d4b60916cd",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p177-251",
+    "native_crop_rectangles_before_rotation": [
+      [
+        0,
+        550,
+        36,
+        701
+      ]
+    ],
+    "font_rectangles": [
+      [
+        62,
+        34,
+        154,
+        407
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE0F5",
+        "removed_contours": 5,
+        "before_sha256": "7f9b652bb678bb682fe2c02c6cbd4768cb6d1b1530f2714a3ce40209a0454fee",
+        "after_sha256": "6973649448da9beca781918bc1deebf9997e8bbc0b397be66a87a1c933eeed05",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0F5.primary",
+        "removed_contours": 3,
+        "before_sha256": "07216e8a124aa825cea766474efdabacced2804080a55a6fbed0a6f0cbff48c1",
+        "after_sha256": "d59d0bc70a0c179f8f95c4d89c4141651531019f7f6e0147988eac24dbf4f1bb",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0F5.secondary",
+        "removed_contours": 11,
+        "before_sha256": "14a5e1f41244f2af75bb67cfa7e6e03985e719234121ff691b2bcc77c47dafe0",
+        "after_sha256": "4878c1389e48eee8fcaadca8a7d4c9b0589deedf0207b18e03b4e160b8d3889f",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE0F5.tertiary",
+        "removed_contours": 12,
+        "before_sha256": "2f204a145a7bc864aebbfe3bfc7d86a463b1ca902fc96153e579cd309a9f1455",
+        "after_sha256": "028e24b6ce4547c8f34ee4b520b40dec8429e17a1cdbdc3e2160623487f6f133",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p189-302",
+    "native_crop_rectangles_before_rotation": [
+      [
+        500,
+        0,
+        1100,
+        38
+      ],
+      [
+        0,
+        958,
+        1307,
+        980
+      ]
+    ],
+    "font_rectangles": [
+      [
+        1394,
+        265,
+        1453,
+        1118
+      ],
+      [
+        62,
+        -28,
+        98,
+        1826
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE122",
+        "removed_contours": 21,
+        "before_sha256": "a32d3f15643b8a483e49958edd9a87e515f5b4e41e0f6188a876a8dd1b167a7d",
+        "after_sha256": "2fa7b766e6bdc4fc396fb25b580e79ba3330de0623a347ffb815f64fa3b38a08",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 8,
+        "max_outside_alpha_delta": 8
+      },
+      {
+        "glyph": "uniE122.primary",
+        "removed_contours": 22,
+        "before_sha256": "73b470395dcc9f4046436333bf34fb6d053a8b0ddfba6482989af391f28d657b",
+        "after_sha256": "5f21d425bf272e9e6d8603c3fdb2de5b8330b28886124aeca262e3e6fe731bf6",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 1,
+        "max_outside_alpha_delta": 1
+      },
+      {
+        "glyph": "uniE122.secondary",
+        "removed_contours": 38,
+        "before_sha256": "1f03629319e2b596bfba0ef83e1c051cc8f3f84bd863e228a93c8eee4e7c94ba",
+        "after_sha256": "7013873c12763102f7ed2ae354cd9ba2b322722ff943acdeb802bde0dde42bd4",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE122.tertiary",
+        "removed_contours": 49,
+        "before_sha256": "a3a87753c7dfcea8ef382faf89a6ba10c8367bb39757dcb4ac6ddf66ca7f660c",
+        "after_sha256": "194884b20ac36591e99526168e983235f8d25b1d308990433d87943198dae80f",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p197-324",
+    "native_crop_rectangles_before_rotation": [
+      [
+        0,
+        860,
+        1168,
+        903
+      ]
+    ],
+    "font_rectangles": [
+      [
+        62,
+        188,
+        1911,
+        261
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE138",
+        "removed_contours": 28,
+        "before_sha256": "86a7866ff1204105b1915bbf02bafb09e95dd6371d22a8d6713439303fc46178",
+        "after_sha256": "8ee5a02a31503f11d1fbda11eb355a7eddce0d4cc503407cef9bf86be2e3ca92",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE138.primary",
+        "removed_contours": 27,
+        "before_sha256": "50205763966e5059018472be01faa519aa7aace52348a67fc49c67bae21e9c7f",
+        "after_sha256": "d41e41a1a54c8a6cc6ffeaf82b46641b63eafe762407ec9c7867ed651143a6f3",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE138.secondary",
+        "removed_contours": 50,
+        "before_sha256": "67cf2e841518c369b1c9363006f3251415f68ee2b4030ca7189a2544542f20b7",
+        "after_sha256": "348b2ab041f7db78943617f021c8f4209409bec2335280ba3c8fa2b836dd4680",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE138.tertiary",
+        "removed_contours": 64,
+        "before_sha256": "d68be78d522e27a24f23dbd1d46c36a2cf7fde09afae68f24b87ead0dee7d2d0",
+        "after_sha256": "1d23f939b1d0b9ec43a21d9f4954a6c80d6405b819dea69f458bb080775b317a",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p197-326",
+    "native_crop_rectangles_before_rotation": [
+      [
+        0,
+        868,
+        1178,
+        904
+      ]
+    ],
+    "font_rectangles": [
+      [
+        8,
+        190,
+        1928,
+        254
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE13A",
+        "removed_contours": 21,
+        "before_sha256": "f89e12a9799738fdb89311a240dc06fd170b883727b366e3f5156bf60571d36d",
+        "after_sha256": "25d9929b966a1592bc7f00f816d84a5d1fd7397450879ae3bbc318d6992d06e9",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE13A.primary",
+        "removed_contours": 22,
+        "before_sha256": "13d5797c4989d65dee6993bcea1a178c3132d1a78eb8fe7ff4e5be5544389617",
+        "after_sha256": "ce365f7ea9c4f7e30c1e7d28c66203d892ce9a1371e34e1ab1f79378eb9099d6",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE13A.secondary",
+        "removed_contours": 38,
+        "before_sha256": "bbeb0b189281a0c8c8b2cef438661dc413b6c6bf78baff252703894b568656e1",
+        "after_sha256": "489e285e9f1f6effd9f44b1a45ee33870b44a7eaa19197ffaa0b69e61d2c71d2",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE13A.tertiary",
+        "removed_contours": 30,
+        "before_sha256": "ff04c4d3ebffb835a43a692af34c247b37aa28d677d70ba747e35e6c6db561db",
+        "after_sha256": "14f7d15d211951b39f1afe17473057a7dfaa140cf956230cba968584698ecc07",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p205-346",
+    "native_crop_rectangles_before_rotation": [
+      [
+        0,
+        1060,
+        328,
+        1081
+      ]
+    ],
+    "font_rectangles": [
+      [
+        62,
+        587,
+        103,
+        1156
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE14E",
+        "removed_contours": 7,
+        "before_sha256": "797538447487150fff67ef2d9affc412b333034a2206c6866e025810d9312dab",
+        "after_sha256": "1f722b7eda8671a04c4ef82c2010713192e31a77103a0612a2b0ca58d70aee54",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE14E.primary",
+        "removed_contours": 7,
+        "before_sha256": "caf3abb1530a129f526e2cca01f00f36828bc7bc24319401adb536902b3adf25",
+        "after_sha256": "07937ed0266efde1dc10e2a12902fe37daa65d421b6eae92dcb0ccfad8785c93",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE14E.secondary",
+        "removed_contours": 11,
+        "before_sha256": "a77fb0c3513be2a15414a5686a162ec5a47d29c47fc55939da033dddf06dc668",
+        "after_sha256": "17b36c36475c0751a7f196b501ccc9a405c7837df836f28813c21e44d18f74a9",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE14E.tertiary",
+        "removed_contours": 12,
+        "before_sha256": "65ee7a673ef54cf7bd4692bdce70bb0b70d9d85b2e2bce5a53375de7120f8990",
+        "after_sha256": "62f1f2004ab692e2db1b59ccf6db9ee8554022812be0eed6c904b9dbfbff5ab6",
+        "retained_curve_commands_identical": true,
+        "max_added_alpha_delta": 0,
+        "max_outside_alpha_delta": 0
+      }
+    ]
+  },
+  {
+    "id": "baltimore-1832-p207-356",
+    "native_crop_rectangles_before_rotation": [
+      [
+        460,
+        0,
+        1000,
+        12
+      ]
+    ],
+    "font_rectangles": [
+      [
+        583,
+        1545,
+        1259,
+        1565
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE158",
+        "removed_contours": 7,
+        "before_sha256": "41011cff45ea1ad2257ce63c644caa85daac8f6e78d21e3222ef585da76d7644",
+        "after_sha256": "da104d87face040993575e8940215107f54385a485cb1932d67be378537580f2",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE158.primary",
+        "removed_contours": 8,
+        "before_sha256": "5920d13c90348893ff773d59178c41c3f2d461c415da0e2da0926ece34dcc3a4",
+        "after_sha256": "cf5a867090df7a5a5712199b2052c8c0e32b8dbfceb7c08487a05a132b25e453",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE158.secondary",
+        "removed_contours": 10,
+        "before_sha256": "7c90277af211ee9692025e20dc91c713a142aca322bc43fedb4f08d6c0fbed1b",
+        "after_sha256": "1f2ed503ee1da2577dea01d36473b1964c38154240db2e5e7480ce4f382ef237",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE158.tertiary",
+        "removed_contours": 9,
+        "before_sha256": "d16fa89475a6f087eca048af7c300b582c3e021dd7d5cbb0e59077bfcd6b495a",
+        "after_sha256": "832e0d29dc4976bdc8f57e23e417eac92f359b507fe51fa17df5738d0f679cb1",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      }
+    ],
+    "approximation_removed_contours": 6
+  }
+]

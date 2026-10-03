@@ -1,0 +1,50 @@
+[
+  {
+    "glyph": "uniE00A",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "ef4ed85929785a897b9463a75e6c79b1ab55637c8ff275f8d4f9a307e642757e"
+  },
+  {
+    "glyph": "uniE00A.primary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "7ec43c1974d98bc3e911d26f717458a74e45a60823130d03dc9b1445a195dd61"
+  },
+  {
+    "glyph": "uniE00A.secondary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "41cb7a60166263d176686c68af585182c3d2c1e92d181e6d68deac351cdb0900"
+  },
+  {
+    "glyph": "uniE00A.tertiary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "46834e6106e987bcefca9b550e0d4fe64d22cf915b9e01d377043fffc520fad7"
+  },
+  {
+    "glyph": "uniE01D",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "80c6624d9c5263da1bfcb3a9e0e0315a9f2ad2f6cc3b799829e5539d451d726c"
+  },
+  {
+    "glyph": "uniE01D.primary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "01ce6c8394337c9e19ec03359e2c0751db0cb1080cae56c79109d3346e3fae16"
+  },
+  {
+    "glyph": "uniE01D.secondary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "2d24599d2a2c2ca2802753087718a9b0f50459966a88ad3296633f01ec7b3415"
+  },
+  {
+    "glyph": "uniE01D.tertiary",
+    "visible_shape_match": true,
+    "serialized_match": true,
+    "sha256": "9ea0f0cbf2aa26a77dd65ea53e8adf5e467815e6918310b97f78e1cb3edbaa08"
+  }
+]

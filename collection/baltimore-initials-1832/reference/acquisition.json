@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "archive_url": "https://archive.org/details/ldpd_12198261_000",
+  "jp2_url": "https://archive.org/download/ldpd_12198261_000/ldpd_12198261_000_jp2.zip",
+  "jp2_sha256": "3363a6248b17d69e0d428620f42f3db98ba96aab4fcbb662242811d98845f167",
+  "supplied_pdf_sha256": "022eb3e7a5f35e5ca8f85113d598f438f9cad6cec3dc6fcc6aaad2c5e62f2871",
+  "supplied_pdf": "workspace/icon-pilot/ldpd_12198261_000.pdf (identical to ~/Downloads/ldpd_12198261_000.pdf)",
+  "pages": [
+    {
+      "pdf_page": 59,
+      "archive_leaf": 58,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0058.jp2",
+      "original_file": "reference/pdf-059.jp2",
+      "sha256": "c3de3c7e055ce509112a1dbd9e57403ca408dda9b6e0c49fe0b7d3ea6042c490",
+      "prepared_file": "reference/pdf-059.png",
+      "prepared_sha256": "0dd7dd0494242ed4ed981133654d077dcb3ba23c23d71bb9aa63f4dc8eead06f",
+      "prepared_size": [
+        5237,
+        3033
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 65,
+      "archive_leaf": 64,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0064.jp2",
+      "original_file": "reference/pdf-065.jp2",
+      "sha256": "d73dda59b8f489d86c5c968daf116078001d2277d7dd5e2950a6927efe4360bc",
+      "prepared_file": "reference/pdf-065.png",
+      "prepared_sha256": "388a8a13c0a07964904c33baeb8fe5c4486ade5dd87f3e710c1fb069baf00844",
+      "prepared_size": [
+        5211,
+        3047
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 67,
+      "archive_leaf": 66,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0066.jp2",
+      "original_file": "reference/pdf-067.jp2",
+      "sha256": "b5faf2ecc001c712c4b2490b27784f1d30f68364713c2008426940e6f0320f15",
+      "prepared_file": "reference/pdf-067.png",
+      "prepared_sha256": "eaf8bac4126f7637381c74e937bf61d17fd32ac2eb72fda6bf272b9ecbb56bbe",
+      "prepared_size": [
+        5206,
+        3025
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    },
+    {
+      "pdf_page": 69,
+      "archive_leaf": 68,
+      "zip_member": "ldpd_12198261_000_jp2/ldpd_12198261_000_0068.jp2",
+      "original_file": "reference/pdf-069.jp2",
+      "sha256": "1418dd7213a6e6715e88213affb8b2c22e8d37c3d7ba3fff7a8c656ad0952ed6",
+      "prepared_file": "reference/pdf-069.png",
+      "prepared_sha256": "00ecb2366367d414a8a397b13608d79c6a15c637f0a4d4e6e91a4d57a453fcee",
+      "prepared_size": [
+        5247,
+        3056
+      ],
+      "preparation": "Pillow 12.3.0 grayscale conversion; 90 degree counterclockwise rotation; no resampling."
+    }
+  ]
+}

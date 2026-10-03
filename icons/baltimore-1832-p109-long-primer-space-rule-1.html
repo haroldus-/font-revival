@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Space rule 1, long primer: three-tone and monochrome SVGs, icon fonts and HTML examples.">
+  <meta name="theme-color" content="#f4f0e7">
+  <title>Space rule 1, long primer — Ornaments &amp; cuts — Font Revival</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23a5422c'/%3E%3Ctext x='15' y='48' font-family='serif' font-size='48' fill='%23f4f0e7'%3Ef%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../site/icon-fonts/icons.css">
+  <link rel="stylesheet" href="../site/icons.css">
+  <script defer src="../site/icon-detail.js"></script>
+  <style>
+    @font-face{font-family:"erebus-1894";src:url("../collection/erebus-1894/web/Erebus1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"hades-1894";src:url("../collection/hades-1894/web/Hades1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"quaint-gothic-1894";src:url("../collection/quaint-gothic-1894/web/QuaintGothic1894-Regular.woff2") format("woff2");font-display:swap}
+@font-face{font-family:"remington-1888";src:url("../collection/remington-1888/web/Remington1888-Regular.woff2") format("woff2");font-display:swap}
+        :root{--paper:#f4f0e7;--ink:#24251f;--muted:#68675c;--rule:#cbc6b8;--red:#a5422c;--sample-size:56px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:hover{color:var(--red)}a:focus-visible,input:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-100px;background:var(--paper);padding:12px}.skip:focus{top:12px}header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:24px 0 0;gap:18px 20px}.wordmark{display:inline-flex;align-items:center;gap:12px;white-space:nowrap;font-family:"quaint-gothic-1894",sans-serif;font-size:25px;font-weight:normal;text-decoration:none;letter-spacing:normal}nav{display:flex;gap:26px;font-size:13px}.hero{padding:32px 0 70px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px 40px;align-items:end}.eyebrow{display:grid;grid-column:1 / -1;font-family:"erebus-1894",serif;color:var(--red);font-size:clamp(24px,3vw,36px);letter-spacing:4px;text-transform:uppercase;margin:0}h1{font-family:"oriole-1894",serif;font-weight:normal;font-size:clamp(64px,8.4vw,112px);line-height:1.2;letter-spacing:normal;margin:0;position:relative;height:2.5em}h1 em{color:var(--red);font-weight:normal;font-style:normal}.intro{font-family:"remington-1888",monospace;font-size:19px;max-width:360px;justify-self:end;margin:0 0 6px;color:var(--muted)}.intro a{font-family:Arial,Helvetica,sans-serif;display:inline-block;margin-top:20px;color:var(--ink);font-size:13px}.collection-bar{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:16px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.collection-bar h2{font-size:11px;font-weight:normal;letter-spacing:2px;margin:0;text-transform:uppercase}.collection-bar span{color:var(--muted);font-size:12px}.tester{display:flex;gap:32px;align-items:end;padding:28px 0 36px}.text-control{flex:1}.tester label{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}input[type=text]{width:100%;border:0;border-bottom:1px solid var(--rule);border-radius:0;background:transparent;font:16px Arial;color:var(--ink);padding:10px 0}input[type=range]{accent-color:var(--red);width:160px}output{font-variant-numeric:tabular-nums}.font-card{border-top:1px solid var(--rule);padding:32px 0 36px}.card-meta{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1.3px}.font-card h2{font-size:clamp(68px,8vw,104px);font-weight:400;line-height:1.4;margin:22px 0 8px}.description{color:var(--muted);max-width:720px;font-size:14px;margin:0 0 20px}.type-sample{font-size:var(--sample-size);line-height:1.65;padding:6px 0 20px;overflow-wrap:anywhere;min-height:130px}.coverage{font-size:11px;color:var(--muted);letter-spacing:.3px}.downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.downloads a{border:1px solid var(--rule);text-decoration:none;padding:8px 14px;font-size:11px}.downloads a:hover{border-color:var(--red);background:#eee6d9}.mission{border-top:1px solid var(--ink);padding:55px 0 65px;display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:25px}.mission h2{font-family:"quaint-gothic-1894",sans-serif;font-size:39px;line-height:1.2;font-weight:normal;letter-spacing:normal;margin:0}.mission p{font-family:"remington-1888",monospace;font-size:14px;color:var(--muted);margin:0 0 18px}.mission a{color:var(--ink)}footer{border-top:1px solid var(--rule);padding:22px 0 35px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}.notice{font-size:11px!important}
+    .wordmark-stop{color:var(--red)}
+    .header-ornament{display:block;flex:none;height:40pt;width:auto;pointer-events:none}
+    .header-rule{display:flex;align-items:center;flex:0 0 100%;gap:8px}
+    .header-rule .terminal{height:28pt}
+    .header-rule > span{height:1px;background:var(--ink);flex:1}
+    .tester .field-label{display:flex;align-items:center;gap:9px}
+    .field-manicule{display:block;flex:none;width:30px;height:auto}
+    /* The generator resolves this shared ornament URL for each page's depth. */
+    details > summary{display:flex;align-items:center;gap:8px;list-style:none;cursor:pointer}
+    details > summary::marker{content:""}
+    details > summary::-webkit-details-marker{display:none}
+    details > summary::before{content:"";flex:0 0 18px;width:18px;height:18px;background:url("../collection/boston-ornaments-1889/svg/boston-1889-p258-word-1-3.svg") center / contain no-repeat;transform:rotate(0deg)}
+    details[open] > summary::before{transform:rotate(90deg)}
+    details > summary:focus-visible{outline:3px solid var(--red);outline-offset:5px}
+    /* Hades includes its shadow offset; both faces share one origin and wrapping. */
+    .eyebrow > span{grid-area:1 / 1;min-width:0}
+    .eyebrow-shadow{font-family:"hades-1894",serif;color:var(--muted);visibility:hidden;pointer-events:none;user-select:none}
+    .eyebrow.is-layered .eyebrow-shadow{visibility:visible}
+    .eyebrow-face{position:relative}
+    .hero-face{position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;opacity:1;transition:opacity 1.4s ease}
+    .hero-face.is-hidden{opacity:0}
+    .hero-line{display:block;width:max-content;max-width:100%;white-space:nowrap;align-self:center}
+    .hero-animation-toggle{border:0;border-bottom:1px solid var(--rule);background:none;padding:0;color:var(--muted);font:11px Arial,Helvetica,sans-serif;cursor:pointer}
+    .hero-animation-control{height:22px;margin-top:12px}
+    @media(max-width:650px){.wrap{width:calc(100% - 40px)}header{padding:20px 0 0;justify-content:center;gap:16px}nav{gap:14px}.hero{grid-template-columns:1fr;padding:28px 0 55px;gap:28px}h1{font-size:clamp(50px,16vw,64px)}.intro{justify-self:start;max-width:440px;font-size:17px}.tester{flex-direction:column;align-items:stretch;gap:20px}.size-control{display:flex;gap:20px;align-items:center}.size-control label{margin:0}.font-card h2{font-size:clamp(32px,8vw,52px);overflow-wrap:anywhere}.mission{grid-template-columns:1fr;gap:24px;padding:40px 0}.mission h2{font-size:34px}.type-sample{font-size:min(var(--sample-size),64px)}footer{flex-direction:column;gap:8px}}
+    @media(max-width:360px){.wordmark{font-size:21px;gap:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-face{transition:none}}
+
+  </style>
+</head>
+<body class="icon-detail-page">
+  <a class="skip" href="#icon">Skip to icon</a>
+  <div class="wrap">
+    <header class="site-header">
+  <a class="wordmark" href="../index.html">
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-left.svg" width="58" height="53" alt="">
+    <span>Font Revival<span class="wordmark-stop">.</span></span>
+    <img class="header-ornament ribbon" src="../site/header-ornaments/ribbon-right.svg" width="58" height="53" alt="">
+  </a>
+  <nav aria-label="Main"><a href="../index.html#collection">Typefaces</a><a href="../icons.html" aria-current="page">Ornaments &amp; cuts</a><a href="https://github.com/haroldus-/font-revival">GitHub ↗</a></nav>
+  <div class="header-rule" aria-hidden="true">
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-left.svg" width="91" height="53" alt="">
+    <span></span>
+    <img class="header-ornament terminal" src="../site/header-ornaments/terminal-right.svg" width="91" height="53" alt="">
+  </div>
+</header>
+    <main id="icon">
+      <p class="back-link"><a href="../icons.html#collection">← All ornaments &amp; cuts</a></p>
+      <article class="icon-card" id="baltimore-1832-p109-long-primer-space-rule-1">
+  <p class="card-meta"><a href="../icons.html?collection=baltimore-ornaments-1832#collection">Baltimore Ornaments 1832</a><span>No. long-primer-space-rule-1</span></p>
+  <h1>Space rule 1, long primer</h1>
+  <ul class="tags" aria-label="Themes and search terms"><li>rule</li><li>line</li><li>divider</li><li>space</li><li>long</li><li>primer</li><li>education</li><li>school</li></ul>
+  <div class="section-links"><a href="../icons.html?section=baltimore-space-rules#collection">Baltimore: Space rules</a></div>
+  <p>Specimen PDF page 109 (unnumbered leaf).</p>
+  <div class="tester controls">
+    <div class="size-control"><label for="icon-size">ICON SIZE / <output id="size-output" for="icon-size">192</output> PX</label><input id="icon-size" type="range" min="16" max="320" value="192"></div>
+    <div class="colour-control"><label for="icon-color">COLOUR</label><input type="color" id="icon-color" value="#24251f"></div>
+  </div>
+  <div class="renderings" role="group" aria-label="Formats for Space rule 1, long primer">
+    <figure><div class="art"><svg data-icon-format="multitone" role="img" aria-label="Space rule 1, long primer — three-tone" viewBox="0 -1900 1928 2048" style="width:0.941406em;height:1em"><path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M1832.0625 946.21875C1831 943.25 1788.96875 942.0625 1712.96875 942.53125c-111.03125 0.140625 -192.046875 -0.296875 -369.09375 -0.875c-42.015625 -0.1875 -78.015625 -0.484375 -80.046875 -1.453125c-2.03125 -1.953125 -4.03125 -1.921875 -5 0.109375c-2.9375 3.046875 -282.9375 5.46875 -405 3.828125c-52.03125 -1 -117.046875 -1.734375 -297.09375 -2.25c-44.015625 -0.15625 -170.03125 0.28125 -281.03125 1.421875C165.6875 943.4375 73.6875 944.21875 71.671875 943.265625c-1.015625 -0.984375 -3.125 -5.9375 -3.1875 -9.9375c-0.140625 -7 1.859375 -7.046875 52.890625 -6.03125C149.390625 927.75 246.40625 927.875 336.40625 927.140625c176 -1.40625 351.03125 -1.78125 445.078125 -0.609375C813.5 926.921875 894.5 926.34375 959.5 926.09375c66.015625 -0.28125 161.03125 -0.109375 213.046875 -0.125c51 0.015625 134.03125 0.40625 185.03125 0.421875c52.015625 0 157.03125 -0.03125 234.046875 -0.515625c77.015625 0.5 167.015625 -0.234375 202.015625 -0.90625l60.984375 -1.1875l-0.78125 11.015625c-0.8125 10.015625 -2.765625 12.0625 -10.75 13.21875c-4.984375 1.09375 -11.015625 -0.796875 -11.03125 -1.796875Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M1828.0625 946.296875c-0.046875 -2 -22.078125 -3.578125 -50.078125 -3.03125C1751 943.796875 1706 944.65625 1678.984375 944.1875c-25.984375 0.5 -51.953125 3 -56.921875 4.09375c-4.984375 1.09375 -12 0.234375 -15.046875 -1.703125c-2.03125 -1.96875 -33.0625 -3.359375 -74.0625 -2.578125c-38.984375 0.765625 -95.015625 -0.15625 -125.015625 0.421875c-45 -0.125 -103.015625 0 -149.984375 1.90625c-4 0.078125 -27.015625 -0.484375 -51.03125 -1.015625c-24.015625 -0.53125 -48.015625 -0.078125 -51.96875 2c-4.96875 2.09375 -9.96875 2.203125 -11 0.21875c-1.03125 -1.984375 -34.078125 -3.34375 -73.0625 -2.59375c-114 1.203125 -199.015625 0.859375 -270.046875 0.21875c-36.015625 -0.296875 -113.03125 -0.8125 -171.046875 -0.6875C394.75 944.015625 247.734375 944.859375 162.734375 945.5C88.75 946.9375 71.703125 945.265625 68.625 941.328125c-7.203125 -10.875 -2.328125 -16.96875 13.6875 -16.28125c8 -0.140625 77.015625 -0.484375 153.015625 -0.953125c76.03125 0.53125 180.046875 0.515625 230.0625 0.546875c50 0.03125 144 -0.78125 210.03125 -0.0625c66 -0.265625 149.015625 -0.875 186.015625 -0.59375c36.046875 1.3125 121.046875 0.65625 189.046875 0.34375c68.015625 -0.3125 158.03125 -0.046875 199.046875 0.15625c91.015625 0.234375 251.046875 0.140625 453.0625 -0.765625c59.015625 -0.140625 111.015625 -0.140625 137.03125 0.359375l-45.984375 0.890625c-35 0.671875 -125 1.40625 -202.015625 0.90625c-77.015625 0.484375 -182.03125 0.515625 -234.046875 0.515625c-51 -0.015625 -134.03125 -0.40625 -185.03125 -0.421875c-52.015625 0.015625 -147.03125 -0.15625 -213.046875 0.125c-65 0.25 -146 0.828125 -178.015625 0.4375C687.4375 925.359375 512.40625 925.734375 336.40625 927.140625c-90 0.734375 -187.015625 0.609375 -215.03125 0.15625c-51.03125 -1.015625 -53.03125 -0.96875 -52.890625 6.03125c0.0625 4 2.171875 8.953125 3.1875 9.9375C73.6875 944.21875 165.6875 943.4375 275.703125 943.3125c111 -1.140625 237.015625 -1.578125 281.03125 -1.421875c180.046875 0.515625 245.0625 1.25 297.09375 2.25c122.0625 1.640625 402.0625 -0.78125 405 -3.828125c0.96875 -2.03125 2.96875 -2.0625 5 -0.109375c2.03125 0.96875 38.03125 1.265625 80.046875 1.453125c177.046875 0.578125 258.0625 1.015625 369.09375 0.875c76 -0.46875 118.03125 0.71875 119.09375 3.6875c0.015625 1 6.046875 2.890625 11.03125 1.796875c7.984375 -1.15625 9.9375 -3.203125 10.75 -13.21875l0.796875 -10.015625c1 -0.015625 1 -0.015625 1 -0.015625c1.03125 0.984375 3.140625 6.9375 3.25 12.9375c0.203125 10 -0.78125 11.015625 -14.78125 11.28125c-9 0.1875 -16.03125 -1.6875 -16.046875 -2.6875Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M1144.96875 948.515625c-37.015625 -0.296875 -85.015625 -0.359375 -128.03125 -0.53125c-67.984375 1.3125 -144.015625 0.78125 -170.03125 0.28125C783.859375 946.484375 674.828125 945.59375 527.796875 945.4375c-65 0.265625 -146.015625 0.828125 -179.03125 0.46875c-34 -0.34375 -59.984375 1.15625 -61.9375 3.203125c-0.96875 2.015625 -4.96875 2.09375 -9 0.171875C273.78125 947.359375 229.75 946.203125 178.765625 947.1875c-93.984375 1.828125 -113 1.1875 -114.15625 -6.78125c-1.3125 -15.984375 5.5625 -23.125 19.625 -19.390625c11.046875 1.78125 74.078125 2.5625 282.09375 1.546875C604.34375 920.953125 753.375 921.078125 792.40625 922.328125C812.421875 922.9375 901.4375 923.21875 990.421875 921.5c88.015625 0.296875 180.015625 -0.484375 202.03125 0.09375C1216.46875 922.125 1296.484375 921.578125 1371.5 922.125c75.015625 -0.453125 181.03125 -0.5 237.03125 -0.578125c55.03125 0.9375 133.03125 0.421875 174.03125 -0.375c50.984375 -0.984375 67 -0.296875 72.0625 2.609375l-15 0.296875c-26.015625 -0.5 -78.015625 -0.5 -137.03125 -0.359375c-202.015625 0.90625 -362.046875 1 -453.0625 0.765625c-41.015625 -0.203125 -131.03125 -0.46875 -199.046875 -0.15625c-68 0.3125 -153 0.96875 -189.046875 -0.34375c-37 -0.28125 -120.015625 0.328125 -186.015625 0.59375c-66.03125 -0.71875 -160.03125 0.09375 -210.03125 0.0625C415.375 924.609375 311.359375 924.625 235.328125 924.09375c-76 0.46875 -145.015625 0.8125 -153.015625 0.953125c-16.015625 -0.6875 -20.890625 5.40625 -13.6875 16.28125c3.078125 3.9375 20.125 5.609375 94.109375 4.171875c85 -0.640625 232.015625 -1.484375 467.0625 -1.03125c58.015625 -0.125 135.03125 0.390625 171.046875 0.6875c71.03125 0.640625 156.046875 0.984375 270.046875 -0.21875c38.984375 -0.75 72.03125 0.609375 73.0625 2.59375c0 0 1 -0.015625 1.015625 0.984375ZM1827.140625 950.3125c-1.046875 -1.96875 -26.078125 -3.484375 -56.078125 -2.90625c-30.015625 -0.421875 -67.015625 -0.703125 -83.03125 -1.390625c-15 0.28125 -39 0.75 -52.953125 3.015625c-15.96875 2.3125 -25.96875 2.5 -29 0.5625C1603.046875 947.65625 1589 945.921875 1572.046875 948.25c-16 0.3125 -42.984375 0.828125 -60.03125 -0.84375c-20.03125 -1.609375 -32.03125 -1.375 -34.96875 1.6875c-2.9375 3.046875 -7.9375 3.15625 -15 0.28125c-6.03125 -1.875 -36.0625 -3.296875 -68.078125 -3.6875c-31 0.609375 -68.984375 1.34375 -85.015625 0.65625C1297.96875 946.546875 1283.96875 946.828125 1274.96875 947c-3 0.046875 -6 0.109375 -8 0.15625c-6.984375 1.125 -38 0.734375 -69.984375 1.34375c-10.015625 -0.796875 -25.015625 -0.515625 -44.015625 -0.140625c1 -0.03125 0.984375 -1.03125 1.984375 -1.046875c3.953125 -2.078125 27.953125 -2.53125 51.96875 -2c24.015625 0.53125 47.03125 1.09375 51.03125 1.015625c46.96875 -1.90625 104.984375 -2.03125 149.984375 -1.90625c30 -0.578125 86.03125 0.34375 125.015625 -0.421875c41 -0.78125 72.03125 0.609375 74.0625 2.578125c3.046875 1.9375 10.0625 2.796875 15.046875 1.703125c4.96875 -1.09375 30.9375 -3.59375 56.921875 -4.09375c27.015625 0.46875 72.015625 -0.390625 99 -0.921875c28 -0.546875 50.03125 1.03125 50.078125 3.03125c0.015625 1 7.046875 2.875 16.046875 2.6875c14 -0.265625 14.984375 -1.28125 14.78125 -11.28125c-0.109375 -6 -2.21875 -11.953125 -3.25 -12.9375c0 0 0 0 -1 0.015625l-0.015625 -1c3.015625 0.9375 3.0625 2.9375 4.09375 4.921875c2.09375 4.96875 3.21875 10.9375 1.25 12.984375c-0.953125 2.015625 0.0625 3 3.0625 2.9375c2 -0.046875 3.03125 1.9375 1.078125 3.984375c-1.90625 5.03125 -33.890625 5.65625 -36.96875 1.703125ZM588.859375 844.25c-3.078125 -3.953125 6.8125 -9.140625 12.875 -6.25c2.03125 1.953125 3.09375 4.9375 2.109375 5.953125c-2.890625 5.0625 -11.890625 5.234375 -14.984375 0.296875Z"/></svg></div><figcaption>Three-tone SVG</figcaption></figure>
+    <figure><div class="art"><svg data-icon-format="monochrome" role="img" aria-label="Space rule 1, long primer" viewBox="0 -1900 1928 2048" style="width:0.941406em;height:1em"><path fill="currentColor" transform="scale(1,-1)" d="M1828.0625 946.296875c-0.046875 -2 -22.078125 -3.578125 -50.078125 -3.03125C1751 943.796875 1706 944.65625 1678.984375 944.1875c-25.984375 0.5 -51.953125 3 -56.921875 4.09375c-4.984375 1.09375 -12 0.234375 -15.046875 -1.703125c-2.03125 -1.96875 -33.0625 -3.359375 -74.0625 -2.578125c-38.984375 0.765625 -95.015625 -0.15625 -125.015625 0.421875c-45 -0.125 -103.015625 0 -149.984375 1.90625c-4 0.078125 -27.015625 -0.484375 -51.03125 -1.015625c-24.015625 -0.53125 -48.015625 -0.078125 -51.96875 2c-4.96875 2.09375 -9.96875 2.203125 -11 0.21875c-1.03125 -1.984375 -34.078125 -3.34375 -73.0625 -2.59375c-114 1.203125 -199.015625 0.859375 -270.046875 0.21875c-36.015625 -0.296875 -113.03125 -0.8125 -171.046875 -0.6875C394.75 944.015625 247.734375 944.859375 162.734375 945.5C88.75 946.9375 71.703125 945.265625 68.625 941.328125c-7.203125 -10.875 -2.328125 -16.96875 13.6875 -16.28125c8 -0.140625 77.015625 -0.484375 153.015625 -0.953125c76.03125 0.53125 180.046875 0.515625 230.0625 0.546875c50 0.03125 144 -0.78125 210.03125 -0.0625c66 -0.265625 149.015625 -0.875 186.015625 -0.59375c36.046875 1.3125 121.046875 0.65625 189.046875 0.34375c68.015625 -0.3125 158.03125 -0.046875 199.046875 0.15625c91.015625 0.234375 251.046875 0.140625 453.0625 -0.765625c82 -0.578125 151.03125 0.078125 153.046875 1.046875c1.03125 0.984375 3.140625 6.9375 3.25 12.9375c0.203125 10 -0.78125 11.015625 -14.78125 11.28125c-9 0.1875 -16.03125 -1.6875 -16.046875 -2.6875Z"/></svg></div><figcaption>Monochrome SVG</figcaption></figure>
+    <figure><div class="art" role="img" aria-label="Space rule 1, long primer"><span class="grid-icon" aria-hidden="true" style="font-family:'browse-baltimore-ornaments-1832'">&#xE16C;</span></div><figcaption>Monochrome icon font</figcaption></figure>
+  </div>
+  <p>All downloadable fonts use reviewed simplifications for the most detailed engravings. The editable master, SVGs and tonal PNGs retain the full historical outlines; use SVG for enlarged artwork.</p>
+  <div class="downloads"><a download href="../collection/baltimore-ornaments-1832/downloads/baltimore-ornaments-1832-web.zip">Web bundle ZIP 1 of 2</a> <a download href="../collection/baltimore-ornaments-1832/downloads/baltimore-ornaments-1832-web-2.zip">Web bundle ZIP 2 of 2</a><a download href="../collection/baltimore-ornaments-1832/svg/multitone/baltimore-1832-p109-long-primer-space-rule-1.svg">Three-tone SVG</a><a download href="../collection/baltimore-ornaments-1832/png/multitone/baltimore-1832-p109-long-primer-space-rule-1.png">Three-tone PNG</a><a download href="../collection/baltimore-ornaments-1832/web/icons-multitone-4.svg">Three-tone sprite</a><a download href="../collection/baltimore-ornaments-1832/svg/baltimore-1832-p109-long-primer-space-rule-1.svg">Monochrome SVG</a><a download href="../collection/baltimore-ornaments-1832/web/icons.svg">Monochrome sprite</a><a download href="../collection/baltimore-ornaments-1832/fonts/BaltimoreOrnaments1832-Regular.otf">OTF</a> <a download href="../collection/baltimore-ornaments-1832/fonts/BaltimoreOrnaments1832-Regular.ttf">TTF</a> <a download href="../collection/baltimore-ornaments-1832/web/BaltimoreOrnaments1832-Regular.woff2">WOFF2</a><a href="../collection/baltimore-ornaments-1832/specimens/specimen.pdf">Comparison PDF</a><a href="../collection/baltimore-ornaments-1832/font.json">Source record</a></div>
+  <details><summary>Use this icon in HTML</summary>
+    <p>Download every part: <a download href="../collection/baltimore-ornaments-1832/downloads/baltimore-ornaments-1832-web.zip">Web bundle ZIP 1 of 2</a> <a download href="../collection/baltimore-ornaments-1832/downloads/baltimore-ornaments-1832-web-2.zip">Web bundle ZIP 2 of 2</a>. Extract all parts into the same folder, then place the <code>collection</code> folder beside your HTML file. Together the parts include all SVGs, PNGs, fonts, CSS, instructions and the license. Keep the subfolders together for these examples.</p>
+    <h3>Three-tone image</h3>
+    <p>This displays all three tones with a transparent background. Set the height; the width follows the original proportions.</p>
+    <pre><code data-example="image">&lt;img src=&quot;collection/baltimore-ornaments-1832/svg/multitone/baltimore-1832-p109-long-primer-space-rule-1.svg&quot;
+     alt=&quot;Space rule 1, long primer&quot; height=&quot;96&quot;&gt;</code></pre>
+    <p>An image has its own colour context, so page CSS cannot recolour its internal regions. For a decorative image beside a text label, use <code>alt=""</code>.</p>
+    <h3>Three-tone with your own colours</h3>
+    <p>On an HTTP(S) page, load the sprite from the same site. This complete example uses dark primary ink and two strengths of red. Each region has an independent colour and opacity; set the secondary and tertiary values alike for a two-tone appearance.</p>
+    <pre><code data-example="sprite">&lt;style&gt;
+  .revival-cut {
+    display: inline-block;
+    font-size: 96px;
+    height: 1em;
+    width: 0.941406em;
+    vertical-align: middle;
+    --fr-primary-color: #24251f;
+    --fr-secondary-color: #a5422c;
+    --fr-tertiary-color: #a5422c;
+    --fr-primary-opacity: 1;
+    --fr-secondary-opacity: 0.55;
+    --fr-tertiary-opacity: 0.25;
+  }
+&lt;/style&gt;
+&lt;svg class=&quot;revival-cut&quot; role=&quot;img&quot; aria-label=&quot;Space rule 1, long primer&quot;&gt;
+  &lt;use href=&quot;collection/baltimore-ornaments-1832/web/icons-multitone-4.svg#baltimore-1832-p109-long-primer-space-rule-1&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+    <h3>Monochrome icon font</h3>
+    <p>Copy the whole <code>web/</code> folder, including CSS and webfonts. Font size and colour use ordinary CSS. The icon font draws the solid version; use SVG for three-tone artwork.</p>
+    <pre><code data-example="font">&lt;link rel=&quot;stylesheet&quot; href=&quot;collection/baltimore-ornaments-1832/web/icons.css&quot;&gt;
+&lt;span class=&quot;fr-icon fr-baltimore-1832-p109-long-primer-space-rule-1&quot; aria-hidden=&quot;true&quot;
+      style=&quot;font-size:96px;color:#a5422c&quot;&gt;&lt;/span&gt;
+&lt;span&gt;Space rule 1, long primer&lt;/span&gt;</code></pre>
+    <p>The decorative font icon is hidden from screen readers and has a visible text label. An icon conveying meaning on its own needs <code>role="img"</code> and an <code>aria-label</code> instead of <code>aria-hidden</code>.</p>
+  </details>
+  <details><summary>Compare with the historical impression</summary><img class="comparison" loading="lazy" src="../collection/baltimore-ornaments-1832/specimens/baltimore-1832-p109-long-primer-space-rule-1.png" alt="Historical scan beside the three-tone and monochrome vector revivals"></details>
+</article>
+    </main>
+    <footer><span>© 2026 Harold Lehmann</span><span><a href="https://github.com/haroldus-/font-revival/blob/main/LICENSE">MIT License</a> · Made to be shared.</span></footer>
+  </div>
+</body>
+</html>

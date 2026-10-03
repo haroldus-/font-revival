@@ -1,0 +1,8 @@
+{
+  "glyph": "uniE172.primary",
+  "advance_width": 1928,
+  "path": "M363.09375 969.265625C362.84375 954.265625 317.71875 948.03125 260.78125 952.015625C177.9375 961.421875 154.6875 946.828125 153.640625 885.828125C152.6875 829.84375 175.359375 810.453125 247.46875 816.21875C300.53125 819.3125 648.609375 821.375 1022.5625 814.984375C1680.515625 806.75 1797.890625 827.75 1799.625 929.734375C1800.140625 959.734375 1592.375 975.28125 1082.453125 983.984375C688.515625 990.71875 363.34375 984.265625 363.09375 969.265625Z",
+  "preserve_commands": true,
+  "preserve_coordinates": true,
+  "notes": "Full-detail drawing rotated -0.978 degrees about (964.0, 900) using the reviewed axis between opposite tips or rule ends. Every contour and the original advance are retained; the same matrix applies to all tones. See straightening.json; caption cleanup precedes rotation."
+}

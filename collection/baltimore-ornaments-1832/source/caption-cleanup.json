@@ -1,0 +1,110 @@
+[
+  {
+    "id": "baltimore-1832-p85-four-line-pica-2-strip",
+    "native_crop_rectangles_before_rotation": [
+      [
+        1800,
+        0,
+        2350,
+        25
+      ]
+    ],
+    "font_rectangles": [
+      [
+        858,
+        1001,
+        1111,
+        1018
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE084",
+        "removed_contours": 6,
+        "before_sha256": "2638da39d9ceb537badd4b67631adce0898e9850ff4d2ab4f12601949d258d2a",
+        "after_sha256": "0c5d4511c36edc2a61b5ed7194f49821af70e958542e1948ed0c526979547eb8",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE084.primary",
+        "removed_contours": 6,
+        "before_sha256": "c5b3f07e197c8988c3298611366dba36f0d374e51aeb3066023a30c1ff38d196",
+        "after_sha256": "ed23f019cbffa3c0cfd833a45581a0fc02a1f2071ca056cd3b7834b1e8f780ba",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE084.secondary",
+        "removed_contours": 8,
+        "before_sha256": "373567c6078a4aa14ac8c933821cb97d309e0a5c220982081be327bc8a9e0c62",
+        "after_sha256": "d09a9da50f1739f34bfb0af281191dadec33566392a4c22fcb39c05e76cca70a",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE084.tertiary",
+        "removed_contours": 10,
+        "before_sha256": "5f2f091c5f03d81d64e7355f7730c903dfe51db3fdc9872a7801da346ff124f0",
+        "after_sha256": "c38e551b51829636d02d780a63756bf9dcfc5ed3d67d9d05fbe38df827e56539",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      }
+    ],
+    "approximation_removed_contours": 6
+  },
+  {
+    "id": "baltimore-1832-p85-four-line-pica-3-strip",
+    "native_crop_rectangles_before_rotation": [
+      [
+        1800,
+        0,
+        2350,
+        25
+      ]
+    ],
+    "font_rectangles": [
+      [
+        862,
+        1002,
+        1116,
+        1018
+      ]
+    ],
+    "glyphs": [
+      {
+        "glyph": "uniE085",
+        "removed_contours": 6,
+        "before_sha256": "30458de6a65c0b71b8020ab8ef3905f626414106c598e2cad8a80b88f7b9e897",
+        "after_sha256": "5e716854aacfe9cf0e890d746dfb660e3d19e317ec32110d59bbd24553c217dc",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE085.primary",
+        "removed_contours": 6,
+        "before_sha256": "5338fcef60c33d185916b1675e11f523edf36087def0ecbeb1b39df1704b5928",
+        "after_sha256": "52ae2ce9e0ef71170f639b5d9e70c9d31e5089cdeb534a17be942dac0d3f2d5e",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE085.secondary",
+        "removed_contours": 12,
+        "before_sha256": "4a6b2a85594cfb320c2ebbfa8e24980cadbe0492a9cf0c57ea3ced504cd60ccc",
+        "after_sha256": "591952f38f3f34ab27361b13ff9a92b77549da12b961f72701478ed3418ba72d",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      },
+      {
+        "glyph": "uniE085.tertiary",
+        "removed_contours": 12,
+        "before_sha256": "02ff36c17a7c88eaffd854f8fd41cb718aa1ce0bedf3a346dc092d3c7a6e551e",
+        "after_sha256": "9e505333dd1d4b1595dbb42796674c48c3358cb791bc198ed580c1164f5fccb6",
+        "retained_curve_commands_identical": true,
+        "max_outside_alpha_delta": 0
+      }
+    ],
+    "approximation_removed_contours": 6
+  }
+]

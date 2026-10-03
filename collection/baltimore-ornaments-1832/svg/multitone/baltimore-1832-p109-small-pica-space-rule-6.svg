@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1900 1928 2048" role="img" aria-label="Short space rule, small pica — three-tone">
+<title>Short space rule, small pica — three-tone</title>
+<metadata>Copyright (c) 2026 Harold Lehmann; MIT. Layered vector interpretation of source tones; paper is transparent.</metadata>
+<path class="fr-primary" fill="var(--fr-primary-color,currentColor)" fill-opacity="var(--fr-primary-opacity,1)" transform="scale(1,-1)" d="M88 918C82 908 80 893 86 889c6 -6 399 -14 875 -17c777 -6 920 0 881 40C1823 931 98 935 88 918Z"/>
+<path class="fr-secondary" fill="var(--fr-secondary-color,currentColor)" fill-opacity="var(--fr-secondary-opacity,0.55)" transform="scale(1,-1)" d="M88 933C49 904 84 856 144 856c304 2 1600 0 1640 -2c39 -4 51 6 52 36C1785 870 1563 868 961 872C485 875 92 883 86 889c-6 4 -4 19 2 29c10 16 1531 13 1732 -3c-43 18 -210 20 -845 28C418 949 105 945 88 933Z"/>
+<path class="fr-tertiary" fill="var(--fr-tertiary-color,currentColor)" fill-opacity="var(--fr-tertiary-opacity,0.25)" transform="scale(1,-1)" d="M82 945C67 935 59 910 67 889c4 -11 9 -18 35 -24C70 880 59 911 88 933c17 12 330 16 887 10c635 -8 802 -10 845 -28c13 -1 21 -2 22 -3c9 -9 8 -16 -6 -22c-1 -16 -4 -26 -13 -32c25 4 35 10 37 17c7 16 5 37 -6 47C1829 947 119 968 82 945ZM180 856c110 -7 332 -8 785 -11c492 -1 718 0 819 9c-38 2 -1246 4 -1604 2Z"/>
+</svg>

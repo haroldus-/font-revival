@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "icons_reviewed": 4,
+  "icons_rotated": 0,
+  "method": "Inspect all four geographic diagrams at normal and enlarged display sizes; use central axes and repeated hatching rather than curved labels.",
+  "icons": [
+    {
+      "id": "baltimore-1832-p183-275",
+      "status": "unchanged",
+      "reference": "Central equator is level; preserve the curved parallels and arched title.",
+      "svg_sha256": "34c5428ab19375255aca747f3c0a448bad908b90a06fa63d3371021e9d14d291"
+    },
+    {
+      "id": "baltimore-1832-p183-276",
+      "status": "unchanged",
+      "reference": "Central meridian is upright; curved side meridians are intentional.",
+      "svg_sha256": "ff546c11e4908529ea9e31364edd4ac0cd62bf5c37f004c70ee7661ca2357551"
+    },
+    {
+      "id": "baltimore-1832-p183-277",
+      "status": "unchanged",
+      "reference": "Equator and central polar axis are level and upright; labels follow the curved parallels.",
+      "svg_sha256": "fb72a1f124624c908a404bbbf1e2e7ff04361e0be2e8a5019b8707aeeec26277"
+    },
+    {
+      "id": "baltimore-1832-p183-278",
+      "status": "unchanged",
+      "reference": "Vertical hatching is upright; latitude bands and lettering are intentionally curved.",
+      "svg_sha256": "46cc16e8eb387f967e10b1930162b98e97981ffb42f780b994643e788b0d2412"
+    }
+  ]
+}

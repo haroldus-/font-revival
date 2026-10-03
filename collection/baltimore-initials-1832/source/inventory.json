@@ -1,0 +1,1621 @@
+{
+  "schema_version": 1,
+  "scope": "All ornaments and cuts in the 238-page supplied Baltimore specimen; unnumbered leaves use PDF page citations.",
+  "entries": [
+    {
+      "pdf_page": 59,
+      "specimen_number": "six-line-pica-ornamented-m",
+      "key": "six-line-pica-ornamented-m",
+      "grid_box": [
+        102,
+        164,
+        264,
+        287
+      ],
+      "name": "Six Line Pica Ornamented letter M",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "M",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-m",
+      "icon_id": "baltimore-1832-p59-six-line-pica-ornamented-m",
+      "codepoint": "E000",
+      "printed_page": null,
+      "box": [
+        534,
+        859,
+        1383,
+        1503
+      ],
+      "file": "reference/pdf-059.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 59,
+      "specimen_number": "six-line-pica-ornamented-o",
+      "key": "six-line-pica-ornamented-o",
+      "grid_box": [
+        264,
+        164,
+        381,
+        287
+      ],
+      "name": "Six Line Pica Ornamented letter O",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "O",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-o",
+      "icon_id": "baltimore-1832-p59-six-line-pica-ornamented-o",
+      "codepoint": "E001",
+      "printed_page": null,
+      "box": [
+        1383,
+        859,
+        1995,
+        1503
+      ],
+      "file": "reference/pdf-059.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 59,
+      "specimen_number": "six-line-pica-ornamented-d",
+      "key": "six-line-pica-ornamented-d",
+      "grid_box": [
+        381,
+        164,
+        514,
+        287
+      ],
+      "name": "Six Line Pica Ornamented letter D",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "D",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-d",
+      "icon_id": "baltimore-1832-p59-six-line-pica-ornamented-d",
+      "codepoint": "E002",
+      "printed_page": null,
+      "box": [
+        1995,
+        859,
+        2692,
+        1503
+      ],
+      "file": "reference/pdf-059.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 59,
+      "specimen_number": "six-line-pica-ornamented-e",
+      "key": "six-line-pica-ornamented-e",
+      "grid_box": [
+        514,
+        164,
+        628,
+        287
+      ],
+      "name": "Six Line Pica Ornamented letter E",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "E",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-e",
+      "icon_id": "baltimore-1832-p59-six-line-pica-ornamented-e",
+      "codepoint": "E003",
+      "printed_page": null,
+      "box": [
+        2692,
+        859,
+        3289,
+        1503
+      ],
+      "file": "reference/pdf-059.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 59,
+      "specimen_number": "six-line-pica-ornamented-r",
+      "key": "six-line-pica-ornamented-r",
+      "grid_box": [
+        628,
+        164,
+        759,
+        287
+      ],
+      "name": "Six Line Pica Ornamented letter R",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "R",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-r",
+      "icon_id": "baltimore-1832-p59-six-line-pica-ornamented-r",
+      "codepoint": "E004",
+      "printed_page": null,
+      "box": [
+        3289,
+        859,
+        3975,
+        1503
+      ],
+      "file": "reference/pdf-059.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 59,
+      "specimen_number": "six-line-pica-ornamented-n",
+      "key": "six-line-pica-ornamented-n",
+      "grid_box": [
+        759,
+        164,
+        891,
+        287
+      ],
+      "name": "Six Line Pica Ornamented letter N",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "N",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-n",
+      "icon_id": "baltimore-1832-p59-six-line-pica-ornamented-n",
+      "codepoint": "E005",
+      "printed_page": null,
+      "box": [
+        3975,
+        859,
+        4666,
+        1503
+      ],
+      "file": "reference/pdf-059.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 59,
+      "specimen_number": "six-line-pica-ornamented-c",
+      "key": "six-line-pica-ornamented-c",
+      "grid_box": [
+        102,
+        324,
+        216,
+        449
+      ],
+      "name": "Six Line Pica Ornamented letter C",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "C",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-c",
+      "icon_id": "baltimore-1832-p59-six-line-pica-ornamented-c",
+      "codepoint": "E006",
+      "printed_page": null,
+      "box": [
+        534,
+        1697,
+        1131,
+        2351
+      ],
+      "file": "reference/pdf-059.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 59,
+      "specimen_number": "six-line-pica-ornamented-h",
+      "key": "six-line-pica-ornamented-h",
+      "grid_box": [
+        216,
+        324,
+        359,
+        449
+      ],
+      "name": "Six Line Pica Ornamented letter H",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "H",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-h",
+      "icon_id": "baltimore-1832-p59-six-line-pica-ornamented-h",
+      "codepoint": "E007",
+      "printed_page": null,
+      "box": [
+        1131,
+        1697,
+        1880,
+        2351
+      ],
+      "file": "reference/pdf-059.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 59,
+      "specimen_number": "six-line-pica-ornamented-a",
+      "key": "six-line-pica-ornamented-a",
+      "grid_box": [
+        359,
+        324,
+        495,
+        449
+      ],
+      "name": "Six Line Pica Ornamented letter A",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "A",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-a",
+      "icon_id": "baltimore-1832-p59-six-line-pica-ornamented-a",
+      "codepoint": "E008",
+      "printed_page": null,
+      "box": [
+        1880,
+        1697,
+        2592,
+        2351
+      ],
+      "file": "reference/pdf-059.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 59,
+      "specimen_number": "six-line-pica-ornamented-s",
+      "key": "six-line-pica-ornamented-s",
+      "grid_box": [
+        785,
+        324,
+        887,
+        449
+      ],
+      "name": "Six Line Pica Ornamented letter S",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "S",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p59-six-line-pica-ornamented-s",
+      "icon_id": "baltimore-1832-p59-six-line-pica-ornamented-s",
+      "codepoint": "E009",
+      "printed_page": null,
+      "box": [
+        4111,
+        1697,
+        4645,
+        2351
+      ],
+      "file": "reference/pdf-059.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 65,
+      "specimen_number": "eight-line-pica-fluted-b",
+      "key": "eight-line-pica-fluted-b",
+      "grid_box": [
+        90.00191901746305,
+        122.0495106505469,
+        258.1078487814239,
+        301.0938399539436
+      ],
+      "name": "Eight Line Pica Fluted letter B",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "B",
+        "initial",
+        "decorated",
+        "inline"
+      ],
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-b",
+      "icon_id": "baltimore-1832-p65-eight-line-pica-fluted-b",
+      "codepoint": "E00A",
+      "printed_page": null,
+      "box": [
+        469,
+        636,
+        1345,
+        1569
+      ],
+      "file": "reference/pdf-065.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 8000,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 65,
+      "specimen_number": "eight-line-pica-fluted-r",
+      "key": "eight-line-pica-fluted-r",
+      "grid_box": [
+        251.9669928996354,
+        122.0495106505469,
+        440.99021301093836,
+        301.0938399539436
+      ],
+      "name": "Eight Line Pica Fluted letter R",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "R",
+        "initial",
+        "decorated",
+        "inline"
+      ],
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-r",
+      "icon_id": "baltimore-1832-p65-eight-line-pica-fluted-r",
+      "codepoint": "E00B",
+      "printed_page": null,
+      "box": [
+        1313,
+        636,
+        2298,
+        1569
+      ],
+      "file": "reference/pdf-065.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 8000,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 65,
+      "specimen_number": "eight-line-pica-fluted-u",
+      "key": "eight-line-pica-fluted-u",
+      "grid_box": [
+        433,
+        122,
+        594,
+        301
+      ],
+      "name": "Eight Line Pica Fluted letter U",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "U",
+        "initial",
+        "decorated",
+        "inline"
+      ],
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-u",
+      "icon_id": "baltimore-1832-p65-eight-line-pica-fluted-u",
+      "codepoint": "E00C",
+      "printed_page": null,
+      "box": [
+        2256,
+        636,
+        3095,
+        1569
+      ],
+      "file": "reference/pdf-065.png",
+      "status": "source-and-output-reviewed",
+      "erase_page": [
+        [
+          433,
+          205,
+          439,
+          301
+        ]
+      ],
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 8000,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": [
+        [
+          0,
+          432,
+          31,
+          932
+        ]
+      ]
+    },
+    {
+      "pdf_page": 65,
+      "specimen_number": "eight-line-pica-fluted-n",
+      "key": "eight-line-pica-fluted-n",
+      "grid_box": [
+        589.9059681443101,
+        122.0495106505469,
+        750.911533294953,
+        301.0938399539436
+      ],
+      "name": "Eight Line Pica Fluted letter N",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "N",
+        "initial",
+        "decorated",
+        "inline"
+      ],
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-n",
+      "icon_id": "baltimore-1832-p65-eight-line-pica-fluted-n",
+      "codepoint": "E00D",
+      "printed_page": null,
+      "box": [
+        3074,
+        636,
+        3913,
+        1569
+      ],
+      "file": "reference/pdf-065.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 8000,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 65,
+      "specimen_number": "eight-line-pica-fluted-t",
+      "key": "eight-line-pica-fluted-t",
+      "grid_box": [
+        750,
+        122,
+        915,
+        301
+      ],
+      "name": "Eight Line Pica Fluted letter T",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "T",
+        "initial",
+        "decorated",
+        "inline"
+      ],
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-t",
+      "icon_id": "baltimore-1832-p65-eight-line-pica-fluted-t",
+      "codepoint": "E00E",
+      "printed_page": null,
+      "box": [
+        3908,
+        636,
+        4768,
+        1569
+      ],
+      "file": "reference/pdf-065.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 8000,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 65,
+      "specimen_number": "eight-line-pica-fluted-m",
+      "key": "eight-line-pica-fluted-m",
+      "grid_box": [
+        95.95087315294569,
+        311.0727307618499,
+        300.1343312224141,
+        486.08712339282283
+      ],
+      "name": "Eight Line Pica Fluted letter M",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "M",
+        "initial",
+        "decorated",
+        "inline"
+      ],
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-m",
+      "icon_id": "baltimore-1832-p65-eight-line-pica-fluted-m",
+      "codepoint": "E00F",
+      "printed_page": null,
+      "box": [
+        500,
+        1621,
+        1564,
+        2533
+      ],
+      "file": "reference/pdf-065.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 8000,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 65,
+      "specimen_number": "eight-line-pica-fluted-o",
+      "key": "eight-line-pica-fluted-o",
+      "grid_box": [
+        295.9124928036845,
+        311.0727307618499,
+        448.09057762425635,
+        486.08712339282283
+      ],
+      "name": "Eight Line Pica Fluted letter O",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "O",
+        "initial",
+        "decorated",
+        "inline"
+      ],
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-o",
+      "icon_id": "baltimore-1832-p65-eight-line-pica-fluted-o",
+      "codepoint": "E010",
+      "printed_page": null,
+      "box": [
+        1542,
+        1621,
+        2335,
+        2533
+      ],
+      "file": "reference/pdf-065.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 8000,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 65,
+      "specimen_number": "eight-line-pica-fluted-s",
+      "key": "eight-line-pica-fluted-s",
+      "grid_box": [
+        622.9130685089234,
+        311.0727307618499,
+        755.1333717136825,
+        486.08712339282283
+      ],
+      "name": "Eight Line Pica Fluted letter S",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "S",
+        "initial",
+        "decorated",
+        "inline"
+      ],
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-s",
+      "icon_id": "baltimore-1832-p65-eight-line-pica-fluted-s",
+      "codepoint": "E011",
+      "printed_page": null,
+      "box": [
+        3246,
+        1621,
+        3935,
+        2533
+      ],
+      "file": "reference/pdf-065.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 8000,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 65,
+      "specimen_number": "eight-line-pica-fluted-e",
+      "key": "eight-line-pica-fluted-e",
+      "grid_box": [
+        753.0224525043177,
+        311.0727307618499,
+        919.9769717904433,
+        486.08712339282283
+      ],
+      "name": "Eight Line Pica Fluted letter E",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "E",
+        "initial",
+        "decorated",
+        "inline"
+      ],
+      "id": "baltimore-1832-p65-eight-line-pica-fluted-e",
+      "icon_id": "baltimore-1832-p65-eight-line-pica-fluted-e",
+      "codepoint": "E012",
+      "printed_page": null,
+      "box": [
+        3924,
+        1621,
+        4794,
+        2533
+      ],
+      "file": "reference/pdf-065.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 8000,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 67,
+      "specimen_number": "eight-line-pica-oak-leaf-p",
+      "key": "eight-line-pica-oak-leaf-p",
+      "grid_box": [
+        86,
+        117,
+        245,
+        271
+      ],
+      "name": "Eight Line Pica Oak Leaf letter P",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "P",
+        "initial",
+        "decorated",
+        "leaf"
+      ],
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-p",
+      "icon_id": "baltimore-1832-p67-eight-line-pica-oak-leaf-p",
+      "codepoint": "E013",
+      "printed_page": null,
+      "box": [
+        448,
+        609,
+        1275,
+        1411
+      ],
+      "file": "reference/pdf-067.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 67,
+      "specimen_number": "eight-line-pica-oak-leaf-r",
+      "key": "eight-line-pica-oak-leaf-r",
+      "grid_box": [
+        245,
+        117,
+        438,
+        271
+      ],
+      "name": "Eight Line Pica Oak Leaf letter R",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "R",
+        "initial",
+        "decorated",
+        "leaf"
+      ],
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-r",
+      "icon_id": "baltimore-1832-p67-eight-line-pica-oak-leaf-r",
+      "codepoint": "E014",
+      "printed_page": null,
+      "box": [
+        1275,
+        609,
+        2280,
+        1411
+      ],
+      "file": "reference/pdf-067.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 67,
+      "specimen_number": "eight-line-pica-oak-leaf-i",
+      "key": "eight-line-pica-oak-leaf-i",
+      "grid_box": [
+        438,
+        117,
+        555,
+        271
+      ],
+      "name": "Eight Line Pica Oak Leaf letter I",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "I",
+        "initial",
+        "decorated",
+        "leaf"
+      ],
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-i",
+      "icon_id": "baltimore-1832-p67-eight-line-pica-oak-leaf-i",
+      "codepoint": "E015",
+      "printed_page": null,
+      "box": [
+        2280,
+        609,
+        2889,
+        1411
+      ],
+      "file": "reference/pdf-067.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 67,
+      "specimen_number": "eight-line-pica-oak-leaf-n",
+      "key": "eight-line-pica-oak-leaf-n",
+      "grid_box": [
+        555,
+        117,
+        734,
+        271
+      ],
+      "name": "Eight Line Pica Oak Leaf letter N",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "N",
+        "initial",
+        "decorated",
+        "leaf"
+      ],
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-n",
+      "icon_id": "baltimore-1832-p67-eight-line-pica-oak-leaf-n",
+      "codepoint": "E016",
+      "printed_page": null,
+      "box": [
+        2889,
+        609,
+        3821,
+        1411
+      ],
+      "file": "reference/pdf-067.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 67,
+      "specimen_number": "eight-line-pica-oak-leaf-t",
+      "key": "eight-line-pica-oak-leaf-t",
+      "grid_box": [
+        734,
+        117,
+        914,
+        271
+      ],
+      "name": "Eight Line Pica Oak Leaf letter T",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "T",
+        "initial",
+        "decorated",
+        "leaf"
+      ],
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-t",
+      "icon_id": "baltimore-1832-p67-eight-line-pica-oak-leaf-t",
+      "codepoint": "E017",
+      "printed_page": null,
+      "box": [
+        3821,
+        609,
+        4758,
+        1411
+      ],
+      "file": "reference/pdf-067.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 67,
+      "specimen_number": "eight-line-pica-oak-leaf-l",
+      "key": "eight-line-pica-oak-leaf-l",
+      "grid_box": [
+        88,
+        300,
+        255,
+        451
+      ],
+      "name": "Eight Line Pica Oak Leaf letter L",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "L",
+        "initial",
+        "decorated",
+        "leaf"
+      ],
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-l",
+      "icon_id": "baltimore-1832-p67-eight-line-pica-oak-leaf-l",
+      "codepoint": "E018",
+      "printed_page": null,
+      "box": [
+        458,
+        1562,
+        1328,
+        2348
+      ],
+      "file": "reference/pdf-067.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 67,
+      "specimen_number": "eight-line-pica-oak-leaf-u",
+      "key": "eight-line-pica-oak-leaf-u",
+      "grid_box": [
+        255,
+        300,
+        430,
+        451
+      ],
+      "name": "Eight Line Pica Oak Leaf letter U",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "U",
+        "initial",
+        "decorated",
+        "leaf"
+      ],
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-u",
+      "icon_id": "baltimore-1832-p67-eight-line-pica-oak-leaf-u",
+      "codepoint": "E019",
+      "printed_page": null,
+      "box": [
+        1328,
+        1562,
+        2239,
+        2348
+      ],
+      "file": "reference/pdf-067.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 67,
+      "specimen_number": "eight-line-pica-oak-leaf-c",
+      "key": "eight-line-pica-oak-leaf-c",
+      "grid_box": [
+        430,
+        300,
+        576,
+        451
+      ],
+      "name": "Eight Line Pica Oak Leaf letter C",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "C",
+        "initial",
+        "decorated",
+        "leaf"
+      ],
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-c",
+      "icon_id": "baltimore-1832-p67-eight-line-pica-oak-leaf-c",
+      "codepoint": "E01A",
+      "printed_page": null,
+      "box": [
+        2239,
+        1562,
+        2999,
+        2348
+      ],
+      "file": "reference/pdf-067.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 67,
+      "specimen_number": "eight-line-pica-oak-leaf-a",
+      "key": "eight-line-pica-oak-leaf-a",
+      "grid_box": [
+        572.9927007299269,
+        300.03841721091044,
+        773.1463695735689,
+        451.01805608912787
+      ],
+      "name": "Eight Line Pica Oak Leaf letter A",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "A",
+        "initial",
+        "decorated",
+        "leaf"
+      ],
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-a",
+      "icon_id": "baltimore-1832-p67-eight-line-pica-oak-leaf-a",
+      "codepoint": "E01B",
+      "printed_page": null,
+      "box": [
+        2983,
+        1562,
+        4025,
+        2348
+      ],
+      "file": "reference/pdf-067.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 67,
+      "specimen_number": "eight-line-pica-oak-leaf-s",
+      "key": "eight-line-pica-oak-leaf-s",
+      "grid_box": [
+        770,
+        300,
+        914,
+        451
+      ],
+      "name": "Eight Line Pica Oak Leaf letter S",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "S",
+        "initial",
+        "decorated",
+        "leaf"
+      ],
+      "id": "baltimore-1832-p67-eight-line-pica-oak-leaf-s",
+      "icon_id": "baltimore-1832-p67-eight-line-pica-oak-leaf-s",
+      "codepoint": "E01C",
+      "printed_page": null,
+      "box": [
+        4009,
+        1562,
+        4758,
+        2348
+      ],
+      "file": "reference/pdf-067.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 69,
+      "specimen_number": "eight-line-pica-ornamented-capital-m",
+      "key": "eight-line-pica-ornamented-capital-m",
+      "grid_box": [
+        130,
+        156,
+        402,
+        323
+      ],
+      "name": "Eight Line Pica Ornamented Capital letter M",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "M",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-m",
+      "icon_id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-m",
+      "codepoint": "E01D",
+      "printed_page": null,
+      "box": [
+        682,
+        819,
+        2109,
+        1695
+      ],
+      "file": "reference/pdf-069.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 69,
+      "specimen_number": "eight-line-pica-ornamented-capital-u",
+      "key": "eight-line-pica-ornamented-capital-u",
+      "grid_box": [
+        402,
+        156,
+        570,
+        323
+      ],
+      "name": "Eight Line Pica Ornamented Capital letter U",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "U",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "erase_page": [
+        [
+          548,
+          241,
+          571,
+          324
+        ]
+      ],
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-u",
+      "icon_id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-u",
+      "codepoint": "E01E",
+      "printed_page": null,
+      "box": [
+        2109,
+        819,
+        2991,
+        1695
+      ],
+      "file": "reference/pdf-069.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": [
+        [
+          766,
+          446,
+          887,
+          881
+        ]
+      ]
+    },
+    {
+      "pdf_page": 69,
+      "specimen_number": "eight-line-pica-ornamented-capital-s",
+      "key": "eight-line-pica-ornamented-capital-s",
+      "grid_box": [
+        550.0285877644368,
+        156.08919382504288,
+        726.1292166952544,
+        323.04173813607775
+      ],
+      "name": "Eight Line Pica Ornamented Capital letter S",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "S",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "erase_page": [
+        [
+          550,
+          156,
+          576,
+          210
+        ]
+      ],
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-s",
+      "icon_id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-s",
+      "codepoint": "E01F",
+      "printed_page": null,
+      "box": [
+        2886,
+        819,
+        3810,
+        1695
+      ],
+      "file": "reference/pdf-069.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": [
+        [
+          0,
+          0,
+          136,
+          283
+        ]
+      ]
+    },
+    {
+      "pdf_page": 69,
+      "specimen_number": "eight-line-pica-ornamented-capital-e",
+      "key": "eight-line-pica-ornamented-capital-e",
+      "grid_box": [
+        720.0304936153993,
+        156.08919382504288,
+        923.0036211168286,
+        323.04173813607775
+      ],
+      "name": "Eight Line Pica Ornamented Capital letter E",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "E",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-e",
+      "icon_id": "baltimore-1832-p69-eight-line-pica-ornamented-capital-e",
+      "codepoint": "E020",
+      "printed_page": null,
+      "box": [
+        3778,
+        819,
+        4843,
+        1695
+      ],
+      "file": "reference/pdf-069.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": [
+        [
+          0,
+          0,
+          35,
+          876
+        ]
+      ]
+    },
+    {
+      "pdf_page": 69,
+      "specimen_number": "eight-line-pica-ornamented-lowercase-h",
+      "key": "eight-line-pica-ornamented-lowercase-h",
+      "grid_box": [
+        142,
+        335,
+        286,
+        489
+      ],
+      "name": "Eight Line Pica Ornamented Lowercase letter h",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "h",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h",
+      "icon_id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-h",
+      "codepoint": "E021",
+      "printed_page": null,
+      "box": [
+        745,
+        1758,
+        1501,
+        2566
+      ],
+      "file": "reference/pdf-069.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 69,
+      "specimen_number": "eight-line-pica-ornamented-lowercase-u",
+      "key": "eight-line-pica-ornamented-lowercase-u",
+      "grid_box": [
+        286,
+        335,
+        431,
+        489
+      ],
+      "name": "Eight Line Pica Ornamented Lowercase letter u",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "u",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u",
+      "icon_id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-u",
+      "codepoint": "E022",
+      "printed_page": null,
+      "box": [
+        1501,
+        1758,
+        2261,
+        2566
+      ],
+      "file": "reference/pdf-069.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 69,
+      "specimen_number": "eight-line-pica-ornamented-lowercase-m",
+      "key": "eight-line-pica-ornamented-lowercase-m",
+      "grid_box": [
+        431,
+        335,
+        619,
+        489
+      ],
+      "name": "Eight Line Pica Ornamented Lowercase letter m",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "m",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m",
+      "icon_id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-m",
+      "codepoint": "E023",
+      "printed_page": null,
+      "box": [
+        2261,
+        1758,
+        3248,
+        2566
+      ],
+      "file": "reference/pdf-069.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 69,
+      "specimen_number": "eight-line-pica-ornamented-lowercase-a",
+      "key": "eight-line-pica-ornamented-lowercase-a",
+      "grid_box": [
+        619,
+        335,
+        761,
+        489
+      ],
+      "name": "Eight Line Pica Ornamented Lowercase letter a",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "a",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a",
+      "icon_id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-a",
+      "codepoint": "E024",
+      "printed_page": null,
+      "box": [
+        3248,
+        1758,
+        3993,
+        2566
+      ],
+      "file": "reference/pdf-069.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    },
+    {
+      "pdf_page": 69,
+      "specimen_number": "eight-line-pica-ornamented-lowercase-n",
+      "key": "eight-line-pica-ornamented-lowercase-n",
+      "grid_box": [
+        761,
+        335,
+        908,
+        489
+      ],
+      "name": "Eight Line Pica Ornamented Lowercase letter n",
+      "category": "initials",
+      "tags": [
+        "letter",
+        "n",
+        "initial",
+        "decorated",
+        "floral"
+      ],
+      "id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n",
+      "icon_id": "baltimore-1832-p69-eight-line-pica-ornamented-lowercase-n",
+      "codepoint": "E025",
+      "printed_page": null,
+      "box": [
+        3993,
+        1758,
+        4764,
+        2566
+      ],
+      "file": "reference/pdf-069.png",
+      "status": "source-and-output-reviewed",
+      "cleanup_parameters": {
+        "threshold": 170,
+        "component_min_area": 3,
+        "blur": 0.3,
+        "fill_holes": 0,
+        "paper_normalization_radius": 256
+      },
+      "rotation": 0,
+      "erase_crop_pixels": []
+    }
+  ],
+  "output_review": {
+    "coverage": "Every listed crop and generated three-tone artwork reviewed in contact sheets, with detailed source/format proofs for large or simplified outlines.",
+    "formats": "Full master and SVG retained; source comparison PDF, transparent tonal PNG and desktop/webfont proofs supplied.",
+    "source_navigation": "One-based PDF page, null printed page for this unpaginated volume."
+  }
+}

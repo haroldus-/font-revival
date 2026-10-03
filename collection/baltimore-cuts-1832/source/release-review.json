@@ -1,0 +1,140 @@
+{
+  "review": "Revised downloadable-font and gallery review, version 1.001",
+  "browser": "Google Chrome, headless Linux",
+  "font_rendering": [
+    {
+      "family": "baltimore-cuts-1832",
+      "format": "otf",
+      "icons": 381,
+      "sizes": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "loaded": "loaded",
+      "failures": []
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "format": "woff2",
+      "icons": 381,
+      "sizes": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "loaded": "loaded",
+      "failures": []
+    }
+  ],
+  "cff_max_program_bytes": 60000,
+  "cff_global_subroutines": 710,
+  "cff_geometry_verification": "Lossless CFF subroutine packaging is covered by the regression suite. The 1.001 drawings use the same reviewed rigid rotations as the complete masters; 14 compact drawings are rotated and their master fingerprints updated.",
+  "gallery": {
+    "views_checked": 64,
+    "widths_px": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "protocols": [
+      "http",
+      "file"
+    ],
+    "javascript_errors": 0,
+    "horizontal_overflow": false,
+    "baltimore_search_count": 819,
+    "populated_baltimore_sections": 34
+  },
+  "otf_sha256": "3576168f2a62c0d49d0ce9dbc17f96ac359eaec86a34ccad24aaf782563571aa",
+  "straightening": {
+    "icons_reviewed": 381,
+    "icons_rotated": 167,
+    "full_detail_drawings_verified": 668,
+    "advance_changes": 0,
+    "source_audit": "straightening.json",
+    "retrace_examples": "straightening-retrace-review.json"
+  },
+  "quadratic_font_rendering": [
+    {
+      "family": "baltimore-cuts-1832",
+      "format": "ttf",
+      "icons": 381,
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "all_visible": true,
+      "same_raster_and_advance_as_ttf": true
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "format": "woff",
+      "icons": 381,
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "all_visible": true,
+      "same_raster_and_advance_as_ttf": true
+    },
+    {
+      "family": "baltimore-cuts-1832",
+      "format": "woff2",
+      "icons": 381,
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "all_visible": true,
+      "same_raster_and_advance_as_ttf": true
+    }
+  ],
+  "tests_passed": 90,
+  "generated_svg_examples": {
+    "ids": [
+      "baltimore-1832-p127-65",
+      "baltimore-1832-p127-70",
+      "baltimore-1832-p209-357-16"
+    ],
+    "result": "Generated monochrome SVGs rasterize identically to their rotated full-detail overrides at a 512-pixel em. Tonal PNGs were inspected on white; the complete drawings remain aligned."
+  },
+  "published_preview_compression": {
+    "method": "Lossless gzip storage of inline SVG path markup in the staged public gallery; plain downloadable SVGs and repository HTML remain complete.",
+    "browser_checks": [
+      {
+        "page": "icons/baltimore-1832-p231-368.html",
+        "protocol": "http",
+        "identical_paths": true,
+        "recolouring": true
+      },
+      {
+        "page": "icons/baltimore-1832-p127-70.html",
+        "protocol": "http",
+        "identical_paths": true,
+        "recolouring": true
+      },
+      {
+        "page": "icons/baltimore-1832-p231-368.html",
+        "protocol": "file",
+        "identical_paths": true,
+        "recolouring": true
+      },
+      {
+        "page": "icons/baltimore-1832-p127-70.html",
+        "protocol": "file",
+        "identical_paths": true,
+        "recolouring": true
+      }
+    ]
+  }
+}

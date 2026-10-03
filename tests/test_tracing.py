@@ -22,6 +22,106 @@ import trace_specimen as tracing
 
 
 class TracingTests(unittest.TestCase):
+    def test_retrace_rotation_matches_initial_cff_line_specialization(self):
+        import math
+        angle = math.radians(.571)
+        matrix = [math.cos(angle), math.sin(angle), -math.sin(angle), math.cos(angle), 3, 2]
+        traced = {'path': 'M0 0H20H40V40H0Z', 'advance_width': 100}
+        canonical = traced | {'path': 'M0 0H40V40H0Z'}
+        self.assertEqual(tracing.transform_drawing(canonical, matrix),
+                         tracing.transform_traced_drawing(traced, matrix))
+
+    def test_post_trace_rotation_preserves_contours_advance_and_tone_registration(self):
+        import math
+        angle = math.radians(1.5)
+        matrix = [math.cos(angle), math.sin(angle), -math.sin(angle), math.cos(angle), 10, -5]
+        solid = {'path': 'M20 10H100V80H20Z M50 40Z', 'advance_width': 200}
+        tone = {'path': 'M20 10H60V80H20Z', 'advance_width': 200}
+        result = tracing.transform_drawing(solid, matrix)
+        layer = tracing.transform_drawing(tone, matrix)
+        first, second = RecordingPen(), RecordingPen()
+        parse_path(result['path'], first); parse_path(layer['path'], second)
+        self.assertEqual(first.value[0], second.value[0])
+        self.assertEqual(first.value[3], second.value[3])
+        self.assertEqual(2, sum(op == 'moveTo' for op, _ in first.value))
+        self.assertEqual(200, result['advance_width'])
+        self.assertTrue(result['preserve_coordinates'])
+        x, y = first.value[0][1][0]
+        self.assertAlmostEqual(x, 20 * matrix[0] + 10 * matrix[2] + 10, delta=1/128)
+        self.assertAlmostEqual(y, 20 * matrix[1] + 10 * matrix[3] - 5, delta=1/128)
+        for invalid in ([1, 0], [1, 0, 0, 1, float('nan'), 0]):
+            with self.assertRaises(ValueError):
+                tracing.transform_drawing(solid, invalid)
+
+    def test_caption_cleanup_removes_only_wholly_contained_contours(self):
+        path = 'M0 0H20V20H0Z M50 50H52V52H50Z M54 54Z M54 54H60V60H54Z'
+        result, removed = tracing.erase_disconnected_contours(path, [[49, 49, 55, 55]])
+        self.assertEqual(2, removed)
+        pen = RecordingPen(); parse_path(result, pen)
+        self.assertEqual(2, sum(op == 'moveTo' for op, _ in pen.value))
+        bounds = BoundsPen(None); parse_path(result, bounds)
+        self.assertEqual((0, 0, 60, 60), bounds.bounds)
+
+    def test_native_tone_bands_partition_pixels_before_curve_fitting(self):
+        image = Image.new('L', (60, 40), 255)
+        draw = ImageDraw.Draw(image)
+        for x, gray in [(5, 90), (20, 150), (35, 185)]:
+            draw.rectangle((x, 5, x+10, 35), fill=gray)
+        entry = {'box': [0, 0, 60, 40], 'blur': 0, 'fill_holes': 0,
+                 'component_min_area': 1, 'height': 1800,
+                 'multitone': {'separation': 'native-mask-bands',
+                               'thresholds': {'primary': 135, 'secondary': 170, 'tertiary': 200}}}
+        masks = []
+        rec = RecordingPen(); parse_path('M0 0H100V100H0Z', rec)
+        def capture(mask, *args):
+            masks.append(mask.copy()); return rec
+        layers = [{'glyph': role, 'role': role} for role in ('primary', 'secondary', 'tertiary')]
+        with patch.object(tracing, 'trace_mask', side_effect=capture):
+            tracing.trace_tones(image, entry, layers, 'potrace')
+        bands = masks[-3:]
+        expected = tracing.clean_crop(image, entry | {'threshold': 200})
+        for pixels in zip(*(im.tobytes() for im in bands), expected.tobytes()):
+            self.assertEqual(sum(p == 0 for p in pixels[:3]), int(pixels[3] == 0))
+
+    def test_unrounded_tone_separation_keeps_fitted_curves_until_final_output(self):
+        try:
+            import outline_geometry
+            import pathops
+        except ImportError:
+            self.skipTest('Optional tracing geometry dependencies are unavailable')
+        rec = RecordingPen()
+        parse_path('M0 0L300 600L900 700L1100 0Z', rec)
+        entry = {'box': [0, 0, 20, 20], 'height': 1800,
+                 'max_ink_dimension': 1800, 'fill_holes': 0,
+                 'multitone': {'round_inputs': False,
+                               'thresholds': {'primary': 135}}}
+        observed = []
+        original = outline_geometry.boolean_op
+        def capture(first, second, operation):
+            observed.append(first.bounds)
+            return original(first, second, operation)
+        with patch.object(tracing, 'trace_mask', return_value=rec), \
+             patch.object(outline_geometry, 'boolean_op', side_effect=capture):
+            result = tracing.trace_tones(Image.new('L', (20, 20), 0), entry,
+                                         [{'glyph': 'tone', 'role': 'primary'}], 'potrace')
+        self.assertNotEqual(round(observed[0][3]), observed[0][3])
+        bounds = BoundsPen(None)
+        parse_path(result['tone']['path'], bounds)
+        self.assertEqual(round(observed[0][3]), bounds.bounds[3])
+
+    def test_sideways_cut_rotation_preserves_all_ink(self):
+        image = Image.new('L', (28, 18), 255)
+        draw = ImageDraw.Draw(image)
+        draw.rectangle((3, 3, 7, 13), fill=0)
+        draw.rectangle((8, 10, 24, 13), fill=0)
+        entry = {'box': [0, 0, 28, 18], 'blur': 0, 'fill_holes': 0}
+        original = tracing.clean_crop(image, entry)
+        for angle in (90, 180, 270):
+            rotated = tracing.clean_crop(image, entry | {'rotation': angle})
+            self.assertEqual(rotated.tobytes(), original.rotate(angle, expand=True).tobytes())
+        with self.assertRaises(ValueError):
+            tracing.clean_crop(image, entry | {'rotation': 45})
+
     def test_local_paper_correction_recovers_faint_ink_without_paper(self):
         image = Image.new('L', (60, 30))
         for x in range(60):

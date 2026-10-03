@@ -1,0 +1,393 @@
+# PDF page | catalogue number | 1000px-width box | name
+121|1|87,167,125,194|Three-masted ship, two lines minion
+121|2|87,220,129,247|Sailing ship, two lines brevier
+121|3|494,220,533,247|Small house, two lines brevier
+121|4|86,273,157,303|Low shoe with striped upper
+121|5|88,331,135,376|Sailing ship, two lines pica
+121|6|518,330,573,378|Sailing ship, four lines minion
+121|7|84,401,174,456|Eagle with striped shield, left
+121|8|216,401,306,456|Eagle with striped shield, right
+121|9|348,401,405,463|Single-masted sailboat
+121|10|440,401,511,463|Two-sailed boat
+121|11|548,401,630,463|Ship on rolling waves
+121|12|668,401,753,456|House with trees
+121|13|786,401,878,456|Farm buildings
+123|14|137,91,202,148|Tall boot with turned cuff
+123|15|244,94,334,146|Cow facing right
+123|16|356,91,448,148|Cow facing left
+123|17|484,97,611,145|Horse-drawn cart
+123|18|675,92,773,150|Two wooden barrels
+123|19|815,96,923,150|Plough on the ground
+123|20|137,181,207,242|Axe
+123|21|259,182,347,243|Bat with spread wings
+123|22|394,179,490,246|Seated cat
+123|23|524,183,638,246|Dog standing on grass
+123|24|671,179,777,245|Broad-brimmed hat
+123|25|808,178,920,245|Seated dog
+123|26|141,276,228,342|Long gun
+123|27|274,284,344,341|Top hat
+123|28|382,280,496,343|House and trees
+123|29|532,283,642,346|Lidded vase
+123|30|676,289,782,343|Wooden tub
+123|31|816,285,920,347|Bent stove pipe
+123|32|135,378,248,442|Metal pot
+123|33|305,379,397,444|Racket with net
+123|34|436,380,525,448|Perched owl
+123|35|580,374,647,448|Long-handled spoon
+123|36|680,389,800,449|Rat on the ground
+123|37|850,382,921,449|Radiant sun face
+125|38|123,101,229,168|Lidded urn
+125|39|263,101,364,168|Classical urn with handles
+125|40|398,102,496,166|Barrel spilling grain
+125|41|530,97,640,169|Horned cow
+125|42|669,101,773,167|Hen
+125|43|810,104,908,167|Bee in profile
+125|44|124,196,245,270|Eagle with striped shield
+125|45|258,201,478,267|Eagle with outstretched wings
+125|46|490,191,628,272|Eagle with raised wings
+125|47|649,196,749,272|Radiant eagle and shield
+125|48|777,195,913,273|Eagle with E Pluribus Unum banner
+125|49|123,291,219,368|Winged figure kneeling beside a column
+125|50|267,297,420,368|Grasshopper in profile
+125|51|455,295,597,370|Crouching rat
+125|52|628,289,761,369|Horse and handler
+125|53|802,293,911,369|Horse standing
+125|54|123,389,237,468|Cow being milked
+125|55|289,391,413,468|Cow on grass
+125|56|462,389,700,467|Large four-horse stagecoach
+125|57|732,395,913,463|Small four-horse stagecoach
+127|58|124,70,356,145|One Eighth ribbon
+127|59|413,73,645,145|One Quarter ribbon
+127|60|682,74,916,145|One Half ribbon
+127|61|124,168,285,247|Pointing hand, right
+127|62|310,165,501,248|Combination ruled register
+127|63|538,165,725,248|Register ruled table
+127|64|754,173,917,247|Pointing hand, left
+127|65|128,266,362,336|Ornamental rectangular label
+127|66|371,266,624,337|Beaded oval-ended label
+127|67|656,263,748,340|Fresh Teas package
+127|68|778,266,914,339|Tea merchants
+127|69|126,357,361,431|Standing figure with feather headdress, large
+127|70|390,358,559,433|Standing figure with feather headdress, small
+127|71|600,360,765,436|Wrapped bale
+127|72|798,358,917,439|Wooden barrel on its side
+129|73|106,114,247,193|Johnson-labelled cylindrical container
+129|74|269,111,415,195|Stemmed goblet in profile
+129|75|450,115,591,193|Bottle labelled Bitters
+129|76|626,117,742,191|Ornamental urn in profile
+129|77|774,115,892,197|Figures surrounding an oval shield
+129|78|106,216,366,280|Covered canal boat
+129|79|382,210,571,288|Open rowing boat
+129|80|600,210,748,290|Man with one hand on his hip
+129|81|765,217,894,285|Potted rose
+129|82|104,311,339,378|Postscript ribbon
+129|83|372,305,595,386|Finis with palm and laurel
+129|84|625,307,709,388|Tall top hat
+129|85|741,305,895,386|Screw and handle
+129|86|106,412,321,474|Violin and bow
+129|87|377,405,500,484|Open book and stacked books
+129|88|548,406,732,483|Chair components
+129|89|759,402,894,483|Ornamental chair seat and back
+131|90|94,94,578,425|Draped card border with cherub
+131|91|639,274,723,385|Small house and tree
+131|92|639,112,724,187|Wrapped ball in a square frame
+131|93|770,84,858,426|Flowers and foliage on the ground
+133|94|119,120,263,278|Bouquet in a vase
+133|95|267,124,391,279|Leafy tree
+133|96|397,123,533,280|Tree with potted plants
+133|97|539,123,721,272|Printing press
+133|98|730,125,902,277|Three-masted ship under sail
+133|99|119,300,357,462|Seated figure in a radiating ornamental panel
+133|100|355,309,513,456|Large top hat
+133|101|523,310,705,464|Two oval shields with standing figures
+133|102|708,302,907,465|Ship and scroll ribbon
+135|103|88,117,332,274|Eagle and shield against a dark sky
+135|104|328,118,662,270|E Pluribus Unum eagle and shield
+135|105|659,113,887,279|Indemnity eagle with banner
+135|106|89,299,353,450|Woman pouring coins from a cornucopia
+135|107|353,304,615,461|Woman with raised arm and cornucopia
+135|108|616,296,887,452|Woman holding lottery tickets
+137|109|91,119,339,279|Small paddle steamboat
+137|110|346,121,715,279|Large paddle steamboat
+137|111|719,121,896,281|Bearded theatrical mask
+137|112|89,309,259,466|Woman beside a horse-drawn chariot
+137|113|260,301,514,461|Shipped sailing ship
+137|114|513,305,650,464|Sailing ship with furled lower sails
+137|115|649,308,895,465|Two stoves
+139|116|89,135,412,278|Large pointing hand, right
+139|117|410,118,653,279|Angel with Everlasting Gospel banner
+139|118|650,117,900,278|Firefighters at a burning building
+139|119|96,307,341,466|Justice and Liberty beside an oval shield
+139|120|335,308,577,465|Two seated men with ship and merchandise
+139|121|570,308,900,451|Large pointing hand, left
+141|122|153,141,513,288|Winter skating and woodcutting
+141|123|558,140,922,287|Farmyard and barn work
+141|124|155,318,517,468|Digging and fence repair
+141|125|561,320,922,463|Ploughing with a horse
+143|126|90,150,447,293|Sheep shearing beneath a tree
+143|127|498,148,863,291|Mowing with scythes
+143|128|90,332,450,478|Harvesting grain with sickles
+143|129|498,331,863,475|Sowing seed in a field
+145|130|109,149,469,298|Cider press and barrels
+145|131|515,149,875,294|Harvesting corn beside a cart
+145|132|111,340,472,481|Ox cart carrying hay
+145|133|520,326,882,477|Threshing with flails in a barn
+147|134|145,114,412,272|Domed public building
+147|135|476,98,853,262|Flying eagle with lowered head
+147|136|109,286,486,498|Eagle above an empty scroll
+147|137|513,282,895,500|Radiant eagle over a name scroll
+149|138|138,125,340,228|Eagle with shield, arrows and olive branch
+149|139|344,124,527,220|Flying eagle carrying a branch
+149|140|535,116,668,221|Eagle perched on a rock
+149|141|674,112,919,219|Flying eagle with E Pluribus Unum ribbon
+149|142|143,249,326,350|Bear standing
+149|143|341,245,495,348|Lion standing
+149|144|510,248,647,347|Dog with curled tail
+149|145|665,235,789,341|Donkey standing
+149|146|797,232,933,342|Antlered deer
+149|147|146,379,282,478|Sheep standing
+149|148|292,372,471,478|Spotted pig
+149|149|488,372,601,470|Hen in profile
+149|150|624,371,739,470|Rooster
+149|151|756,362,934,466|Swan on a pond
+151|152|120,114,317,210|Paddle steamboat with smoke
+151|153|334,120,571,215|Passenger launch with oars
+151|154|586,116,785,224|Square piano
+151|155|801,124,901,226|Tall hat with buckle
+151|156|118,246,331,341|Lyre and musical score in foliage
+151|157|332,244,555,345|Open music book and instruments
+151|158|565,246,678,345|Open book with leafy branches
+151|159|683,247,902,350|Auction Sale banner with mallets
+151|160|114,361,359,465|Four-horse passenger coach
+151|161|375,374,565,476|Man beside a horse and loaded cart
+151|162|586,377,730,472|Field cannon
+151|163|756,376,905,482|Arm and hammer in a laurel wreath
+153|164|114,121,234,224|Pocket watch and chain
+153|165|237,123,354,226|Rose with buds
+153|166|361,123,483,224|Broad-brimmed hat with ribbon
+153|167|497,126,557,225|Decorated bottle
+153|168|566,126,677,225|Ornamental vessel in profile
+153|169|682,139,777,229|Tree in profile
+153|170|780,127,902,230|Running figure beside a sentry box
+153|171|111,245,261,351|Eagle and shield with two standing figures
+153|172|282,251,424,350|Crowned coat of arms with lion and unicorn
+153|173|438,249,662,353|Winged woman scattering coins, left
+153|174|683,257,905,362|Winged woman scattering coins, right
+153|175|114,373,362,477|Grave and headstone beneath a tree
+153|176|390,378,627,480|Standing man holding a hat
+153|177|646,383,905,484|Woman walking in a garden
+155|178|104,125,325,229|Heart pierced by arrow with torch and roses
+155|179|348,126,410,228|Flowering plant in a pot
+155|180|427,108,719,230|Flying eagle carrying arrows and branch
+155|181|719,114,891,233|Eagle with striped shield and trumpet
+155|182|98,244,237,363|Eagle and shield above waves
+155|183|256,244,398,360|Eagle perched on an arch
+155|184|411,248,570,365|Phoenix rising from flames
+155|185|586,243,731,369|Songbird perched on a branch
+155|186|748,249,894,369|Bird of prey on a branch
+155|187|98,379,256,500|Wading bird beside water
+155|188|262,382,416,501|Waterbird with raised wings
+155|189|437,382,576,502|Owl perched on a branch
+155|190|592,381,745,506|Game bird in grass
+155|191|757,384,892,502|Bird nest with eggs
+157|192|132,103,322,213|Cow standing on grass
+157|193|321,95,472,218|Seated monkey drinking
+157|194|474,107,618,218|Striped cat with arched back
+157|195|620,108,769,221|Pig standing
+157|196|769,104,923,220|Fox walking
+157|197|134,227,398,348|Farmer ploughing with two horses
+157|198|420,237,648,348|Plough
+157|199|669,238,923,348|Wheat sheaf with scythe and rake
+157|200|132,366,361,485|Harvest tools and sheaves
+157|201|357,363,524,485|Beehive surrounded by flowers
+157|202|539,368,689,488|Pineapple
+157|203|701,370,816,490|Tree in profile
+157|204|828,370,922,488|Globe on an ornate stand
+159|205|106,94,387,219|Washington portrait with eagle and drapery
+159|206|397,99,514,222|Oval portrait of George Washington
+159|207|518,102,634,217|Bell
+159|208|638,98,899,220|Cannon on a carriage
+159|209|105,232,198,348|Saddle with stirrup
+159|210|215,233,475,353|Two-horse passenger carriage
+159|211|476,234,740,353|Carriage and detached wheel assembly
+159|212|754,243,899,353|Small enclosed carriage
+159|213|104,371,272,480|Ornamental lyre
+159|214|276,369,416,480|Open music book with instruments and leaves
+159|215|428,373,563,485|Drum on a base
+159|216|576,368,674,490|Chair with woven seat
+159|217|687,371,899,489|Number field inside a leafy oval
+161|218|115,106,371,223|Long paddle steamboat
+161|219|393,107,640,219|Three stoves
+161|220|660,102,911,221|Steam locomotive and wagons
+161|221|115,235,372,353|Two top hats
+161|222|381,244,547,357|Tall boot and two shoes
+161|223|561,238,760,354|Masonic emblems with sun and moon
+161|224|777,236,910,357|Carpenter's tools and foliage
+161|225|117,372,289,487|Shipped harbour scene
+161|226|290,372,431,491|Single-masted sailing boat
+161|227|432,373,589,487|Anvil and hammer
+161|228|586,372,754,487|Sailor beside cargo and ships
+161|229|756,369,913,487|Seated woman with anchor and shield
+163|230|183,143,286,257|Open umbrella
+163|231|168,304,299,415|Hanging lamp with two candles
+163|232|307,130,850,430|Large cow in a landscape
+165|233|102,79,580,464|Large eagle standing on a rock
+165|234|603,116,895,462|Large ship with striped flag
+167|235|80,127,575,465|Leaf-cornered rectangular card border
+167|236|602,97,872,480|Scroll-cornered rectangular card border
+169|237|94,126,608,449|Tree and branch card border
+169|238|639,143,848,424|Fine floral rectangular card border
+171|239|106,114,576,454|Woman in a horse-drawn chariot with lottery ribbon
+171|240|591,113,890,454|Large single-masted sailing boat
+173|241|103,169,492,446|Two-storey house with fenced garden
+173|242|500,162,898,465|Two-storey house with trees and iron fence
+175|243|82,185,526,442|Eagle, stars and E Pluribus Unum ribbon
+175|244|527,181,888,442|Farm landscape with plough and hay wagon
+177|245|113,133,349,280|Radiant eagle with striped shield
+177|246|384,140,639,280|Eagle with stars and waving ribbon
+177|247|671,130,902,281|Eagle and shield with raised right wing
+177|248|113,322,312,461|Eagle and shield against engraved sky
+177|249|308,331,493,465|Eagle and shield with leafy sprays
+177|250|491,328,641,465|Bull lowering its head
+177|251|632,331,776,466|Antelope with long curved horns
+177|252|772,318,903,462|Horned ox in profile
+179|253|109,150,257,282|Spotted dog with raised tail
+179|254|266,148,418,281|Long-haired goat
+179|255|427,144,578,277|Kangaroo seated
+179|256|584,141,737,275|Leaping antelope
+179|257|743,132,897,262|Raccoon with arched back
+179|258|111,336,265,469|Walrus with tusks
+179|259|265,333,414,467|Zebra standing
+179|260|415,321,609,461|Owl in a flowering tree
+179|261|606,322,759,456|Crested bird on a flowering branch
+179|262|757,315,907,456|Sailing boat above barrels and bales
+181|263|113,98,323,243|Shipped eagle above an oval ship scene
+181|264|326,103,570,249|Woman with anchor beside cargo
+181|265|573,116,730,249|Ship above barrels and bales
+181|266|736,121,903,251|Seated woman with rake and sheaf
+181|267|108,292,357,431|Seated woman with agricultural tools
+181|268|358,290,592,436|Harvest fruit and tools around a barrel
+181|269|591,296,902,442|Basket overflowing with flowers
+183|270|105,125,390,260|Basket of flowers with curved handle
+183|271|393,122,564,262|Rose spray with leaves and buds
+183|272|556,126,771,269|Broad-brimmed top hat
+183|273|768,126,900,270|Water Proof hat
+183|274|107,306,298,452|Terrestrial globe in a frame
+183|275|312,309,444,456|Globe diagram of parallels
+183|276|460,314,593,459|Globe diagram of meridians
+183|277|611,312,745,460|Globe diagram of named circles
+183|278|763,316,896,462|Globe diagram of climatic zones
+185|279|105,137,293,275|Open Holy Bible on stacked books
+185|280|287,137,495,279|Two seated figures beside a Masonic altar
+185|281|487,130,640,281|Constitution and Justice arch
+185|282|632,141,896,278|Horse, eagle shield and lyre
+185|283|103,320,373,461|Crowned oval shield with lion and unicorn
+185|284|369,323,568,467|Oval eagle shield with ship and beehive
+185|285|562,322,782,469|Ornamental balance beam
+185|286|781,332,898,468|Chair with curved back
+187|287|92,128,334,273|Stringed instruments with musical score
+187|288|338,126,551,265|Harp and open book
+187|289|556,116,698,256|Harp in a floral wreath
+187|290|704,109,885,251|Bearded theatrical face with flowing hair
+187|291|121,302,378,443|Suspended oil lamp
+187|292|408,295,469,439|Small train with loaded wagon
+187|293|498,280,553,449|Fine parallel rules, first set
+187|294|582,272,639,451|Fine parallel rules, second set
+187|295|670,264,889,449|Radiant eye
+189|296|140,85,405,265|Seated woman reading to a boy
+189|297|405,87,613,263|Woman milking a cow
+189|298|612,83,873,260|Large horned ox
+189|299|882,82,929,258|Number field with parallel rules
+189|300|142,291,404,457|Boy chasing a windblown hat
+189|301|402,284,670,458|Printing press with Tyrants' Foe, the People's Friend ribbon
+189|302|677,274,929,463|Round table with books and quill
+191|303|161,83,387,250|Oval portrait of a man
+191|304|403,78,631,252|Oval wind face blowing through clouds
+191|305|647,78,873,251|Oval owl in a tree
+191|306|168,282,390,450|Oval boy holding a bottle
+191|307|406,282,632,450|Oval hen beside a farm building
+191|308|647,275,875,447|Oval horse cart and driver
+193|309|190,116,417,285|Oval man walking beside trees
+193|310|430,108,657,280|Oval crowned woman beneath an arch
+193|311|676,104,902,276|Oval songbird on a branch
+193|312|196,314,419,482|Oval fox beneath a tree
+193|313|433,307,662,479|Oval running hare
+193|314|681,305,909,471|Oval turtle in reeds
+195|315|146,95,372,267|Oval seated woman with a fan
+195|316|387,99,614,270|Oval insect on a leafy branch
+195|317|632,102,856,270|Oval standing man beneath curtains
+195|318|148,295,372,461|Oval duck beside reeds
+195|319|385,291,615,463|Oval dog with a curled tail
+195|320|632,296,859,463|Oval soldier marching beside a tree
+197|321|167,113,394,284|Oval archer beside a tree
+197|322|415,113,640,284|Oval coiled snake
+197|323|661,114,885,285|Oval baby in a cradle
+197|324|172,312,397,481|Oval gentleman with a cane
+197|325|404,311,631,484|Oval rat beside a fence
+197|326|659,313,886,484|Oval seated cat
+199|327|106,109,333,279|Oval traveller with a dog
+199|328|347,112,570,281|Oval long-haired goat
+199|329|591,109,819,281|Oval child reading by a window
+199|330|109,310,332,477|Oval crowned king beneath an arch
+199|331|347,309,577,480|Oval seated girl at a round table
+199|332|590,312,817,481|Oval man carrying a sack
+201|333|136,139,359,306|Oval farmer ploughing
+201|334|373,138,601,311|Oval child standing indoors
+201|335|617,134,848,306|Oval bird on a tree branch
+201|336|138,338,358,503|Oval seated reader beside an open book
+201|337|376,334,604,506|Oval grasshopper
+201|338|621,336,849,507|Oval donkey beside a barn
+203|339|119,107,343,278|Oval bird with long tail on a branch
+203|340|365,110,592,282|Oval man standing beside a ship
+203|341|609,104,831,282|Woman with wheel scattering coins
+203|342|115,318,393,490|Seated woman with trident, ships and cargo
+203|343|403,306,583,496|Mounted trumpeter
+203|344|601,300,834,499|Standing man with a book and branch
+205|345|139,98,484,306|Radiant E Pluribus Unum eagle
+205|346|511,101,574,309|Canal boat with tow horse
+205|347|602,110,946,305|Globe, telescope and books
+205|348|136,318,390,507|Shipped sailing vessel with cargo
+205|349|388,317,654,518|Eagle perched on an empty name panel
+205|350|651,318,942,516|Sheep and lamb in a landscape
+207|351|49,78,327,285|Mother with two children reading
+207|352|330,82,590,283|Elephant
+207|353|590,71,834,277|Protection phoenix rising from flames
+207|354|57,303,321,498|Large rooster on grass
+207|355|319,295,556,506|Beehive beneath fruit trees
+207|356|551,291,842,496|Farmer ploughing in an octagonal frame
+209|357-01|190,110,299,168|Primer: Adam and Eve beside a tree
+209|357-02|190,165,300,224|Primer: open Holy Bible
+209|357-03|191,220,300,279|Primer: cat catching a mouse
+209|357-04|192,274,301,333|Primer: man with a dog
+209|357-05|193,329,302,389|Primer: flying eagle
+209|357-06|194,385,303,444|Primer: man running beside a house
+209|357-07|315,109,424,170|Primer: hourglass
+209|357-08|316,165,425,226|Primer: open book
+209|357-09|316,222,426,282|Primer: man reclining
+209|357-10|317,277,427,338|Primer: figures in a boat
+209|357-11|318,333,428,392|Primer: lion
+209|357-12|319,388,428,448|Primer: moon and clouds
+209|357-13|441,109,551,165|Primer: reaper with a scythe
+209|357-14|442,161,551,222|Primer: seated figure beside buildings
+209|357-15|442,218,552,278|Primer: whale spouting
+209|357-16|443,274,553,333|Primer: scales above a reclining figure
+209|357-17|444,329,554,385|Primer: two figures fighting
+209|357-18|445,381,555,443|Primer: figure falling from a tree
+209|357-19|567,107,671,165|Primer: birds in a tree
+209|357-20|567,161,671,221|Primer: leafy tree
+209|357-21|568,216,673,276|Primer: kneeling figure beside an altar
+209|357-22|569,272,674,331|Primer: kneeling figure before a king
+209|357-23|570,327,675,383|Primer: chest and seated figure
+209|357-24|571,379,676,440|Primer: two men beneath a tree
+209|357-25|687,102,915,304|Primer: man at a burning stake with gathered figures
+211|358|114,126,850,504|Large paddle steamboat with flags
+213|359|219,64,893,520|Horse led by a man, facing right
+215|360|33,6,973,583|Horse and handler in a rural landscape
+217|361|73,122,899,771|Prancing horse with handler
+219|362|54,185,937,471|Four-horse coach at speed
+221|363|21,233,914,550|Four-horse coach in a wooded landscape
+223|364|10,247,965,614|Stagecoach on the road to Washington
+225|365|36,31,948,622|Tiger with palm trees
+227|366|5,226,920,581|Early steam locomotive with freight and passengers
+229|367|326,160,731,555|Sailing ship with blank stern panel
+231|368|43,119,690,713|Large eagle and shield with stars and banner

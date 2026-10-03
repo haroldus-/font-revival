@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Baltimore Initials 1832";
+  src: url("./BaltimoreInitials1832-Regular.woff2") format("woff2"),
+       url("./BaltimoreInitials1832-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

@@ -1,0 +1,122 @@
+{
+  "method": "Compare the full-detail master with explicitly approved downloadable-font simplifications. OTF, TTF and webfonts use the same reviewed paths; cubic-to-quadratic conversion retains the same em, advance and baseline.",
+  "icons": [
+    {
+      "id": "baltimore-1832-p167-235",
+      "glyph": "uniE001",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "dd6209a015cd584f59525be74f72f6b0d85c12c7744a0336165c66dab11c84eb",
+      "raster_em_pixels": 1536,
+      "points_before": 93653,
+      "points_after": 42116
+    },
+    {
+      "id": "baltimore-1832-p169-237",
+      "glyph": "uniE003",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "c6d351fa8edee7c156a55b99841788f5a01d87bd55fce022815ddb03bfb90e8e",
+      "raster_em_pixels": 1536,
+      "points_before": 57072,
+      "points_after": 27319
+    },
+    {
+      "id": "baltimore-1832-p85-four-line-pica-1-strip",
+      "glyph": "uniE083",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "a8f36faecde425f80e6cf1193cd3176b44491af823ebe577221292c772d2396e",
+      "raster_em_pixels": 1536,
+      "points_before": 66052,
+      "points_after": 28894
+    },
+    {
+      "id": "baltimore-1832-p85-four-line-pica-2-strip",
+      "glyph": "uniE084",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "5ffa4071872c5729fefdb4002843302ac1625e59c7c7cc61b722d2c7b2a30c3e",
+      "raster_em_pixels": 1536,
+      "points_before": 56011,
+      "points_after": 25154
+    },
+    {
+      "id": "baltimore-1832-p85-four-line-pica-3-strip",
+      "glyph": "uniE085",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "b4f4668ea8c16f1230de8d9d45d9fb29ac59c8a66e23902e494164fb87ca9419",
+      "raster_em_pixels": 1536,
+      "points_before": 60101,
+      "points_after": 26559
+    },
+    {
+      "id": "baltimore-1832-p87-four-line-pica-4-strip",
+      "glyph": "uniE086",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "98fe28300cd423d2e159daa8e82a66f2af2241d4495dcc259e1593b2b7eebe9f",
+      "raster_em_pixels": 1536,
+      "points_before": 91841,
+      "points_after": 36296
+    },
+    {
+      "id": "baltimore-1832-p95-six-line-pica-1-strip",
+      "glyph": "uniE093",
+      "sizes_px": [
+        48,
+        96,
+        192,
+        384
+      ],
+      "master_sha256": "af91a29fcb37888327dda12ab4f3b160b2c8a59d7ab46ceb33f65e7bd5d4c029",
+      "raster_em_pixels": 1536,
+      "points_before": 59570,
+      "points_after": 22837
+    }
+  ],
+  "visual_review": {
+    "sizes_px": [
+      48,
+      96,
+      192,
+      384
+    ],
+    "approximated_icons": 7,
+    "formats": [
+      "otf",
+      "ttf",
+      "woff",
+      "woff2"
+    ],
+    "result": "All 7 affected drawings reviewed beside the full-detail source. Subjects, framing and advance remain intact at normal display sizes. Enlargements show the documented simplification; use SVG for full historical linework. OTF/TTF comparisons show normal rasterizer differences in fine strokes, with no empty drawings.",
+    "proof": "../specimens/format-comparison.pdf",
+    "caption_cleanup": "The latest proofs include the measured removal of isolated catalogue fragments. Every retained illustration contour was verified unchanged.",
+    "straightening": "Revised proofs inspected after the recorded rigid rotations. Full-detail and font drawings share the same matrices, coordinate frame and original advances."
+  }
+}

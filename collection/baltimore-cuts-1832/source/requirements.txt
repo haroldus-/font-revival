@@ -1,0 +1,4 @@
+# Optional exact acceleration for Baltimore native-resolution source preparation.
+-r ../../../requirements-tracing.txt
+numpy==1.26.4
+scipy==1.11.4

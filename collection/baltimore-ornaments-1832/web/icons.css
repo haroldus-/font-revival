@@ -1,0 +1,796 @@
+/* Copyright (c) 2026 Harold Lehmann; MIT. Keep LICENSE with redistributed assets. */
+@import url("./font.css");
+.fr-icon { display: inline-block; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; letter-spacing: 0; }
+.fr-icon::before { display: inline-block; font-style: normal; font-weight: 400; font-synthesis: none; }
+.fr-baltimore-1832-p131-90 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p131-90::before { content: "\E000"; }
+.fr-baltimore-1832-p167-235 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p167-235::before { content: "\E001"; }
+.fr-baltimore-1832-p167-236 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p167-236::before { content: "\E002"; }
+.fr-baltimore-1832-p169-237 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p169-237::before { content: "\E003"; }
+.fr-baltimore-1832-p169-238 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p169-238::before { content: "\E004"; }
+.fr-baltimore-1832-p187-293 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p187-293::before { content: "\E005"; }
+.fr-baltimore-1832-p187-294 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p187-294::before { content: "\E006"; }
+.fr-baltimore-1832-p79-pica-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-pica-1::before { content: "\E007"; }
+.fr-baltimore-1832-p79-pica-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-pica-2::before { content: "\E008"; }
+.fr-baltimore-1832-p79-pica-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-pica-3::before { content: "\E009"; }
+.fr-baltimore-1832-p79-pica-4 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-pica-4::before { content: "\E00A"; }
+.fr-baltimore-1832-p79-pica-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-pica-5::before { content: "\E00B"; }
+.fr-baltimore-1832-p79-pica-6 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-pica-6::before { content: "\E00C"; }
+.fr-baltimore-1832-p79-pica-7 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-pica-7::before { content: "\E00D"; }
+.fr-baltimore-1832-p79-long-primer-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-1::before { content: "\E00E"; }
+.fr-baltimore-1832-p79-long-primer-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-2::before { content: "\E00F"; }
+.fr-baltimore-1832-p79-long-primer-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-3::before { content: "\E010"; }
+.fr-baltimore-1832-p79-long-primer-4 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-4::before { content: "\E011"; }
+.fr-baltimore-1832-p79-long-primer-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-5::before { content: "\E012"; }
+.fr-baltimore-1832-p79-long-primer-6 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-6::before { content: "\E013"; }
+.fr-baltimore-1832-p79-long-primer-7 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-7::before { content: "\E014"; }
+.fr-baltimore-1832-p79-long-primer-8 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-8::before { content: "\E015"; }
+.fr-baltimore-1832-p79-long-primer-9 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-9::before { content: "\E016"; }
+.fr-baltimore-1832-p79-long-primer-10 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-10::before { content: "\E017"; }
+.fr-baltimore-1832-p79-long-primer-11 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-11::before { content: "\E018"; }
+.fr-baltimore-1832-p79-long-primer-12 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-12::before { content: "\E019"; }
+.fr-baltimore-1832-p79-long-primer-13 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-13::before { content: "\E01A"; }
+.fr-baltimore-1832-p79-long-primer-14 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-14::before { content: "\E01B"; }
+.fr-baltimore-1832-p79-long-primer-15 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-15::before { content: "\E01C"; }
+.fr-baltimore-1832-p79-long-primer-16 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-16::before { content: "\E01D"; }
+.fr-baltimore-1832-p79-long-primer-17 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-17::before { content: "\E01E"; }
+.fr-baltimore-1832-p79-long-primer-18 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-long-primer-18::before { content: "\E01F"; }
+.fr-baltimore-1832-p79-burgeois-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-burgeois-1::before { content: "\E020"; }
+.fr-baltimore-1832-p79-burgeois-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-burgeois-2::before { content: "\E021"; }
+.fr-baltimore-1832-p79-burgeois-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-burgeois-3::before { content: "\E022"; }
+.fr-baltimore-1832-p79-burgeois-4 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-burgeois-4::before { content: "\E023"; }
+.fr-baltimore-1832-p79-burgeois-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-burgeois-5::before { content: "\E024"; }
+.fr-baltimore-1832-p79-burgeois-6 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-burgeois-6::before { content: "\E025"; }
+.fr-baltimore-1832-p79-burgeois-7 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-burgeois-7::before { content: "\E026"; }
+.fr-baltimore-1832-p79-brevier-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-brevier-1::before { content: "\E027"; }
+.fr-baltimore-1832-p79-brevier-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-brevier-2::before { content: "\E028"; }
+.fr-baltimore-1832-p79-brevier-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-brevier-3::before { content: "\E029"; }
+.fr-baltimore-1832-p79-brevier-4 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-brevier-4::before { content: "\E02A"; }
+.fr-baltimore-1832-p79-brevier-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-brevier-5::before { content: "\E02B"; }
+.fr-baltimore-1832-p79-minion-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-minion-1::before { content: "\E02C"; }
+.fr-baltimore-1832-p79-minion-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-minion-2::before { content: "\E02D"; }
+.fr-baltimore-1832-p79-minion-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-minion-3::before { content: "\E02E"; }
+.fr-baltimore-1832-p79-minion-4 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-minion-4::before { content: "\E02F"; }
+.fr-baltimore-1832-p79-minion-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p79-minion-5::before { content: "\E030"; }
+.fr-baltimore-1832-p81-long-primer-19 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-19::before { content: "\E031"; }
+.fr-baltimore-1832-p81-long-primer-20 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-20::before { content: "\E032"; }
+.fr-baltimore-1832-p81-long-primer-21 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-21::before { content: "\E033"; }
+.fr-baltimore-1832-p81-long-primer-22 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-22::before { content: "\E034"; }
+.fr-baltimore-1832-p81-long-primer-23 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-23::before { content: "\E035"; }
+.fr-baltimore-1832-p81-long-primer-24 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-24::before { content: "\E036"; }
+.fr-baltimore-1832-p81-long-primer-25 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-25::before { content: "\E037"; }
+.fr-baltimore-1832-p81-long-primer-26 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-26::before { content: "\E038"; }
+.fr-baltimore-1832-p81-long-primer-27 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-27::before { content: "\E039"; }
+.fr-baltimore-1832-p81-long-primer-28 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-28::before { content: "\E03A"; }
+.fr-baltimore-1832-p81-long-primer-29 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-29::before { content: "\E03B"; }
+.fr-baltimore-1832-p81-long-primer-30 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-30::before { content: "\E03C"; }
+.fr-baltimore-1832-p81-long-primer-31 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-long-primer-31::before { content: "\E03D"; }
+.fr-baltimore-1832-p81-burgeois-8 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-burgeois-8::before { content: "\E03E"; }
+.fr-baltimore-1832-p81-burgeois-9 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-burgeois-9::before { content: "\E03F"; }
+.fr-baltimore-1832-p81-burgeois-10 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-burgeois-10::before { content: "\E040"; }
+.fr-baltimore-1832-p81-burgeois-11 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-burgeois-11::before { content: "\E041"; }
+.fr-baltimore-1832-p81-burgeois-12 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-burgeois-12::before { content: "\E042"; }
+.fr-baltimore-1832-p81-brevier-6 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-brevier-6::before { content: "\E043"; }
+.fr-baltimore-1832-p81-brevier-7 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-brevier-7::before { content: "\E044"; }
+.fr-baltimore-1832-p81-brevier-8 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-brevier-8::before { content: "\E045"; }
+.fr-baltimore-1832-p81-brevier-9 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-brevier-9::before { content: "\E046"; }
+.fr-baltimore-1832-p81-minion-6 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-minion-6::before { content: "\E047"; }
+.fr-baltimore-1832-p81-minion-7 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-minion-7::before { content: "\E048"; }
+.fr-baltimore-1832-p81-minion-8 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-minion-8::before { content: "\E049"; }
+.fr-baltimore-1832-p81-nonpareil-unnumbered { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p81-nonpareil-unnumbered::before { content: "\E04A"; }
+.fr-baltimore-1832-p83-floral-scroll { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p83-floral-scroll::before { content: "\E04B"; }
+.fr-baltimore-1832-p83-mask-scroll { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p83-mask-scroll::before { content: "\E04C"; }
+.fr-baltimore-1832-p83-seal { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p83-seal::before { content: "\E04D"; }
+.fr-baltimore-1832-p85-four-line-pica-1-face { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p85-four-line-pica-1-face::before { content: "\E04E"; }
+.fr-baltimore-1832-p85-four-line-pica-2-oval { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p85-four-line-pica-2-oval::before { content: "\E04F"; }
+.fr-baltimore-1832-p87-four-line-pica-4 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p87-four-line-pica-4::before { content: "\E050"; }
+.fr-baltimore-1832-p87-four-line-pica-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p87-four-line-pica-5::before { content: "\E051"; }
+.fr-baltimore-1832-p87-four-line-pica-6 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p87-four-line-pica-6::before { content: "\E052"; }
+.fr-baltimore-1832-p89-four-line-pica-7 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p89-four-line-pica-7::before { content: "\E053"; }
+.fr-baltimore-1832-p89-four-line-pica-8-key { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p89-four-line-pica-8-key::before { content: "\E054"; }
+.fr-baltimore-1832-p89-four-line-pica-9-rosette { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p89-four-line-pica-9-rosette::before { content: "\E055"; }
+.fr-baltimore-1832-p91-four-line-pica-10 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p91-four-line-pica-10::before { content: "\E056"; }
+.fr-baltimore-1832-p91-four-line-pica-11 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p91-four-line-pica-11::before { content: "\E057"; }
+.fr-baltimore-1832-p91-four-line-pica-12 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p91-four-line-pica-12::before { content: "\E058"; }
+.fr-baltimore-1832-p91-four-line-pica-12-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p91-four-line-pica-12-corner::before { content: "\E059"; }
+.fr-baltimore-1832-p91-four-line-pica-13-key { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p91-four-line-pica-13-key::before { content: "\E05A"; }
+.fr-baltimore-1832-p93-five-line-pica-1-cross { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p93-five-line-pica-1-cross::before { content: "\E05B"; }
+.fr-baltimore-1832-p93-five-line-pica-2-square { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p93-five-line-pica-2-square::before { content: "\E05C"; }
+.fr-baltimore-1832-p93-five-line-pica-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p93-five-line-pica-3::before { content: "\E05D"; }
+.fr-baltimore-1832-p95-six-line-pica-1-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p95-six-line-pica-1-corner::before { content: "\E05E"; }
+.fr-baltimore-1832-p95-six-line-pica-1-flower { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p95-six-line-pica-1-flower::before { content: "\E05F"; }
+.fr-baltimore-1832-p95-six-line-pica-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p95-six-line-pica-2::before { content: "\E060"; }
+.fr-baltimore-1832-p97-double-english-1-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p97-double-english-1-corner::before { content: "\E061"; }
+.fr-baltimore-1832-p97-double-english-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p97-double-english-1::before { content: "\E062"; }
+.fr-baltimore-1832-p97-double-english-2-key { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p97-double-english-2-key::before { content: "\E063"; }
+.fr-baltimore-1832-p97-double-english-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p97-double-english-3::before { content: "\E064"; }
+.fr-baltimore-1832-p97-double-english-4-rosette { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p97-double-english-4-rosette::before { content: "\E065"; }
+.fr-baltimore-1832-p99-double-english-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p99-double-english-5::before { content: "\E066"; }
+.fr-baltimore-1832-p99-paragon-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p99-paragon-1::before { content: "\E067"; }
+.fr-baltimore-1832-p99-paragon-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p99-paragon-2::before { content: "\E068"; }
+.fr-baltimore-1832-p99-double-small-pica-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p99-double-small-pica-1::before { content: "\E069"; }
+.fr-baltimore-1832-p99-double-small-pica-1-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p99-double-small-pica-1-corner::before { content: "\E06A"; }
+.fr-baltimore-1832-p101-double-small-pica-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-2::before { content: "\E06B"; }
+.fr-baltimore-1832-p101-double-small-pica-2-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-2-corner::before { content: "\E06C"; }
+.fr-baltimore-1832-p101-double-small-pica-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-3::before { content: "\E06D"; }
+.fr-baltimore-1832-p101-double-small-pica-4 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-4::before { content: "\E06E"; }
+.fr-baltimore-1832-p101-double-small-pica-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-5::before { content: "\E06F"; }
+.fr-baltimore-1832-p101-double-small-pica-6 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-6::before { content: "\E070"; }
+.fr-baltimore-1832-p101-double-small-pica-7 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-7::before { content: "\E071"; }
+.fr-baltimore-1832-p101-double-small-pica-7-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-7-corner::before { content: "\E072"; }
+.fr-baltimore-1832-p103-great-primer-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p103-great-primer-1::before { content: "\E073"; }
+.fr-baltimore-1832-p103-great-primer-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p103-great-primer-2::before { content: "\E074"; }
+.fr-baltimore-1832-p103-great-primer-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p103-great-primer-3::before { content: "\E075"; }
+.fr-baltimore-1832-p103-great-primer-4 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p103-great-primer-4::before { content: "\E076"; }
+.fr-baltimore-1832-p103-great-primer-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p103-great-primer-5::before { content: "\E077"; }
+.fr-baltimore-1832-p105-great-primer-6 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p105-great-primer-6::before { content: "\E078"; }
+.fr-baltimore-1832-p105-great-primer-7 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p105-great-primer-7::before { content: "\E079"; }
+.fr-baltimore-1832-p105-great-primer-8 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p105-great-primer-8::before { content: "\E07A"; }
+.fr-baltimore-1832-p105-great-primer-9 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p105-great-primer-9::before { content: "\E07B"; }
+.fr-baltimore-1832-p105-great-primer-10 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p105-great-primer-10::before { content: "\E07C"; }
+.fr-baltimore-1832-p105-great-primer-10-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p105-great-primer-10-corner::before { content: "\E07D"; }
+.fr-baltimore-1832-p107-great-primer-11 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p107-great-primer-11::before { content: "\E07E"; }
+.fr-baltimore-1832-p107-great-primer-14 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p107-great-primer-14::before { content: "\E07F"; }
+.fr-baltimore-1832-p107-great-primer-14-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p107-great-primer-14-corner::before { content: "\E080"; }
+.fr-baltimore-1832-p107-double-great-primer-flower { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p107-double-great-primer-flower::before { content: "\E081"; }
+.fr-baltimore-1832-p107-double-great-primer-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p107-double-great-primer-corner::before { content: "\E082"; }
+.fr-baltimore-1832-p85-four-line-pica-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p85-four-line-pica-1-strip::before { content: "\E083"; }
+.fr-baltimore-1832-p85-four-line-pica-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p85-four-line-pica-2-strip::before { content: "\E084"; }
+.fr-baltimore-1832-p85-four-line-pica-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p85-four-line-pica-3-strip::before { content: "\E085"; }
+.fr-baltimore-1832-p87-four-line-pica-4-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p87-four-line-pica-4-strip::before { content: "\E086"; }
+.fr-baltimore-1832-p87-four-line-pica-5-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p87-four-line-pica-5-strip::before { content: "\E087"; }
+.fr-baltimore-1832-p87-four-line-pica-6-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p87-four-line-pica-6-strip::before { content: "\E088"; }
+.fr-baltimore-1832-p89-four-line-pica-7-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p89-four-line-pica-7-strip::before { content: "\E089"; }
+.fr-baltimore-1832-p89-four-line-pica-8-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p89-four-line-pica-8-strip::before { content: "\E08A"; }
+.fr-baltimore-1832-p89-four-line-pica-9-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p89-four-line-pica-9-strip::before { content: "\E08B"; }
+.fr-baltimore-1832-p91-four-line-pica-10-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p91-four-line-pica-10-strip::before { content: "\E08C"; }
+.fr-baltimore-1832-p91-four-line-pica-11-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p91-four-line-pica-11-strip::before { content: "\E08D"; }
+.fr-baltimore-1832-p91-four-line-pica-12-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p91-four-line-pica-12-strip::before { content: "\E08E"; }
+.fr-baltimore-1832-p91-four-line-pica-13-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p91-four-line-pica-13-strip::before { content: "\E08F"; }
+.fr-baltimore-1832-p93-five-line-pica-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p93-five-line-pica-1-strip::before { content: "\E090"; }
+.fr-baltimore-1832-p93-five-line-pica-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p93-five-line-pica-2-strip::before { content: "\E091"; }
+.fr-baltimore-1832-p93-five-line-pica-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p93-five-line-pica-3-strip::before { content: "\E092"; }
+.fr-baltimore-1832-p95-six-line-pica-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p95-six-line-pica-1-strip::before { content: "\E093"; }
+.fr-baltimore-1832-p95-six-line-pica-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p95-six-line-pica-2-strip::before { content: "\E094"; }
+.fr-baltimore-1832-p95-six-line-pica-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p95-six-line-pica-3-strip::before { content: "\E095"; }
+.fr-baltimore-1832-p97-double-english-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p97-double-english-1-strip::before { content: "\E096"; }
+.fr-baltimore-1832-p97-double-english-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p97-double-english-2-strip::before { content: "\E097"; }
+.fr-baltimore-1832-p97-double-english-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p97-double-english-3-strip::before { content: "\E098"; }
+.fr-baltimore-1832-p97-double-english-4-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p97-double-english-4-strip::before { content: "\E099"; }
+.fr-baltimore-1832-p99-double-english-5-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p99-double-english-5-strip::before { content: "\E09A"; }
+.fr-baltimore-1832-p99-paragon-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p99-paragon-1-strip::before { content: "\E09B"; }
+.fr-baltimore-1832-p99-paragon-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p99-paragon-2-strip::before { content: "\E09C"; }
+.fr-baltimore-1832-p99-double-small-pica-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p99-double-small-pica-1-strip::before { content: "\E09D"; }
+.fr-baltimore-1832-p101-double-small-pica-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-2-strip::before { content: "\E09E"; }
+.fr-baltimore-1832-p101-double-small-pica-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-3-strip::before { content: "\E09F"; }
+.fr-baltimore-1832-p101-double-small-pica-4-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-4-strip::before { content: "\E0A0"; }
+.fr-baltimore-1832-p101-double-small-pica-5-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-5-strip::before { content: "\E0A1"; }
+.fr-baltimore-1832-p101-double-small-pica-6-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-6-strip::before { content: "\E0A2"; }
+.fr-baltimore-1832-p101-double-small-pica-7-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p101-double-small-pica-7-strip::before { content: "\E0A3"; }
+.fr-baltimore-1832-p103-great-primer-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p103-great-primer-1-strip::before { content: "\E0A4"; }
+.fr-baltimore-1832-p103-great-primer-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p103-great-primer-2-strip::before { content: "\E0A5"; }
+.fr-baltimore-1832-p103-great-primer-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p103-great-primer-3-strip::before { content: "\E0A6"; }
+.fr-baltimore-1832-p103-great-primer-4-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p103-great-primer-4-strip::before { content: "\E0A7"; }
+.fr-baltimore-1832-p103-great-primer-5-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p103-great-primer-5-strip::before { content: "\E0A8"; }
+.fr-baltimore-1832-p105-great-primer-6-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p105-great-primer-6-strip::before { content: "\E0A9"; }
+.fr-baltimore-1832-p105-great-primer-7-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p105-great-primer-7-strip::before { content: "\E0AA"; }
+.fr-baltimore-1832-p105-great-primer-8-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p105-great-primer-8-strip::before { content: "\E0AB"; }
+.fr-baltimore-1832-p105-great-primer-9-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p105-great-primer-9-strip::before { content: "\E0AC"; }
+.fr-baltimore-1832-p105-great-primer-10-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p105-great-primer-10-strip::before { content: "\E0AD"; }
+.fr-baltimore-1832-p107-great-primer-11-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p107-great-primer-11-strip::before { content: "\E0AE"; }
+.fr-baltimore-1832-p107-great-primer-12-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p107-great-primer-12-strip::before { content: "\E0AF"; }
+.fr-baltimore-1832-p107-great-primer-13-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p107-great-primer-13-strip::before { content: "\E0B0"; }
+.fr-baltimore-1832-p107-great-primer-14-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p107-great-primer-14-strip::before { content: "\E0B1"; }
+.fr-baltimore-1832-p107-double-great-primer-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p107-double-great-primer-1-strip::before { content: "\E0B2"; }
+.fr-baltimore-1832-p111-long-primer-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-1-strip::before { content: "\E0B3"; }
+.fr-baltimore-1832-p111-long-primer-1-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-1-piece::before { content: "\E0B4"; }
+.fr-baltimore-1832-p111-long-primer-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-2-strip::before { content: "\E0B5"; }
+.fr-baltimore-1832-p111-long-primer-2-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-2-piece::before { content: "\E0B6"; }
+.fr-baltimore-1832-p111-long-primer-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-3-strip::before { content: "\E0B7"; }
+.fr-baltimore-1832-p111-long-primer-3-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-3-piece::before { content: "\E0B8"; }
+.fr-baltimore-1832-p111-long-primer-4-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-4-strip::before { content: "\E0B9"; }
+.fr-baltimore-1832-p111-long-primer-4-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-4-piece::before { content: "\E0BA"; }
+.fr-baltimore-1832-p111-long-primer-5-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-5-strip::before { content: "\E0BB"; }
+.fr-baltimore-1832-p111-long-primer-5-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-5-piece::before { content: "\E0BC"; }
+.fr-baltimore-1832-p111-long-primer-6-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-6-strip::before { content: "\E0BD"; }
+.fr-baltimore-1832-p111-long-primer-6-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-6-piece::before { content: "\E0BE"; }
+.fr-baltimore-1832-p111-long-primer-7-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-7-strip::before { content: "\E0BF"; }
+.fr-baltimore-1832-p111-long-primer-7-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-7-piece::before { content: "\E0C0"; }
+.fr-baltimore-1832-p111-long-primer-8-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-8-strip::before { content: "\E0C1"; }
+.fr-baltimore-1832-p111-long-primer-8-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-8-piece::before { content: "\E0C2"; }
+.fr-baltimore-1832-p111-long-primer-9-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-9-strip::before { content: "\E0C3"; }
+.fr-baltimore-1832-p111-long-primer-9-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-9-piece::before { content: "\E0C4"; }
+.fr-baltimore-1832-p111-long-primer-10-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-10-strip::before { content: "\E0C5"; }
+.fr-baltimore-1832-p111-long-primer-10-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-10-piece::before { content: "\E0C6"; }
+.fr-baltimore-1832-p111-long-primer-11-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-11-strip::before { content: "\E0C7"; }
+.fr-baltimore-1832-p111-long-primer-11-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-11-piece::before { content: "\E0C8"; }
+.fr-baltimore-1832-p111-long-primer-12-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-12-strip::before { content: "\E0C9"; }
+.fr-baltimore-1832-p111-long-primer-12-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-long-primer-12-piece::before { content: "\E0CA"; }
+.fr-baltimore-1832-p113-brevier-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-brevier-1-strip::before { content: "\E0CB"; }
+.fr-baltimore-1832-p113-brevier-1-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-brevier-1-piece::before { content: "\E0CC"; }
+.fr-baltimore-1832-p113-brevier-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-brevier-2-strip::before { content: "\E0CD"; }
+.fr-baltimore-1832-p113-brevier-2-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-brevier-2-piece::before { content: "\E0CE"; }
+.fr-baltimore-1832-p113-brevier-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-brevier-3-strip::before { content: "\E0CF"; }
+.fr-baltimore-1832-p113-brevier-4-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-brevier-4-strip::before { content: "\E0D0"; }
+.fr-baltimore-1832-p113-brevier-4-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-brevier-4-piece::before { content: "\E0D1"; }
+.fr-baltimore-1832-p115-minion-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-1-strip::before { content: "\E0D2"; }
+.fr-baltimore-1832-p115-minion-1-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-1-piece::before { content: "\E0D3"; }
+.fr-baltimore-1832-p115-minion-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-2-strip::before { content: "\E0D4"; }
+.fr-baltimore-1832-p115-minion-2-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-2-piece::before { content: "\E0D5"; }
+.fr-baltimore-1832-p115-minion-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-3-strip::before { content: "\E0D6"; }
+.fr-baltimore-1832-p115-minion-3-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-3-piece::before { content: "\E0D7"; }
+.fr-baltimore-1832-p115-minion-4-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-4-strip::before { content: "\E0D8"; }
+.fr-baltimore-1832-p115-minion-5-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-5-strip::before { content: "\E0D9"; }
+.fr-baltimore-1832-p115-minion-5-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-5-piece::before { content: "\E0DA"; }
+.fr-baltimore-1832-p115-minion-6-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-6-strip::before { content: "\E0DB"; }
+.fr-baltimore-1832-p115-minion-6-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-6-piece::before { content: "\E0DC"; }
+.fr-baltimore-1832-p115-minion-7-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-7-strip::before { content: "\E0DD"; }
+.fr-baltimore-1832-p115-minion-7-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-7-piece::before { content: "\E0DE"; }
+.fr-baltimore-1832-p115-minion-8-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-8-strip::before { content: "\E0DF"; }
+.fr-baltimore-1832-p115-minion-8-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-8-piece::before { content: "\E0E0"; }
+.fr-baltimore-1832-p115-minion-9-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-9-strip::before { content: "\E0E1"; }
+.fr-baltimore-1832-p115-minion-10-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-10-strip::before { content: "\E0E2"; }
+.fr-baltimore-1832-p115-minion-10-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-minion-10-piece::before { content: "\E0E3"; }
+.fr-baltimore-1832-p119-small-pica-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-small-pica-1-strip::before { content: "\E0E4"; }
+.fr-baltimore-1832-p119-small-pica-1-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-small-pica-1-piece::before { content: "\E0E5"; }
+.fr-baltimore-1832-p119-small-pica-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-small-pica-2-strip::before { content: "\E0E6"; }
+.fr-baltimore-1832-p119-small-pica-2-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-small-pica-2-piece::before { content: "\E0E7"; }
+.fr-baltimore-1832-p119-small-pica-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-small-pica-3-strip::before { content: "\E0E8"; }
+.fr-baltimore-1832-p119-small-pica-3-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-small-pica-3-piece::before { content: "\E0E9"; }
+.fr-baltimore-1832-p119-small-pica-4-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-small-pica-4-strip::before { content: "\E0EA"; }
+.fr-baltimore-1832-p119-small-pica-4-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-small-pica-4-piece::before { content: "\E0EB"; }
+.fr-baltimore-1832-p109-nonpareil-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-1-strip::before { content: "\E0EC"; }
+.fr-baltimore-1832-p109-nonpareil-1-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-1-piece::before { content: "\E0ED"; }
+.fr-baltimore-1832-p109-nonpareil-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-2-strip::before { content: "\E0EE"; }
+.fr-baltimore-1832-p109-nonpareil-2-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-2-piece::before { content: "\E0EF"; }
+.fr-baltimore-1832-p109-nonpareil-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-3-strip::before { content: "\E0F0"; }
+.fr-baltimore-1832-p109-nonpareil-3-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-3-piece::before { content: "\E0F1"; }
+.fr-baltimore-1832-p109-nonpareil-4-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-4-strip::before { content: "\E0F2"; }
+.fr-baltimore-1832-p109-nonpareil-4-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-4-piece::before { content: "\E0F3"; }
+.fr-baltimore-1832-p109-nonpareil-5-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-5-strip::before { content: "\E0F4"; }
+.fr-baltimore-1832-p109-nonpareil-6-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-6-strip::before { content: "\E0F5"; }
+.fr-baltimore-1832-p109-nonpareil-6-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-6-piece::before { content: "\E0F6"; }
+.fr-baltimore-1832-p109-nonpareil-7-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-7-strip::before { content: "\E0F7"; }
+.fr-baltimore-1832-p109-nonpareil-8-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-8-strip::before { content: "\E0F8"; }
+.fr-baltimore-1832-p109-nonpareil-9-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-9-strip::before { content: "\E0F9"; }
+.fr-baltimore-1832-p109-nonpareil-9-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-9-piece::before { content: "\E0FA"; }
+.fr-baltimore-1832-p109-nonpareil-10-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-10-strip::before { content: "\E0FB"; }
+.fr-baltimore-1832-p109-nonpareil-11-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-11-strip::before { content: "\E0FC"; }
+.fr-baltimore-1832-p109-nonpareil-12-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-12-strip::before { content: "\E0FD"; }
+.fr-baltimore-1832-p109-nonpareil-13-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-13-strip::before { content: "\E0FE"; }
+.fr-baltimore-1832-p109-nonpareil-13-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-13-piece::before { content: "\E0FF"; }
+.fr-baltimore-1832-p109-nonpareil-14-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-14-strip::before { content: "\E100"; }
+.fr-baltimore-1832-p109-nonpareil-14-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-14-piece::before { content: "\E101"; }
+.fr-baltimore-1832-p111-small-pica-5-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-small-pica-5-strip::before { content: "\E102"; }
+.fr-baltimore-1832-p111-small-pica-6-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-small-pica-6-strip::before { content: "\E103"; }
+.fr-baltimore-1832-p111-small-pica-6-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-small-pica-6-piece::before { content: "\E104"; }
+.fr-baltimore-1832-p111-small-pica-7-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-small-pica-7-strip::before { content: "\E105"; }
+.fr-baltimore-1832-p111-small-pica-7-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-small-pica-7-piece::before { content: "\E106"; }
+.fr-baltimore-1832-p111-small-pica-8-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-small-pica-8-strip::before { content: "\E107"; }
+.fr-baltimore-1832-p111-small-pica-9-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-small-pica-9-strip::before { content: "\E108"; }
+.fr-baltimore-1832-p111-small-pica-9-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-small-pica-9-piece::before { content: "\E109"; }
+.fr-baltimore-1832-p111-small-pica-10-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-small-pica-10-strip::before { content: "\E10A"; }
+.fr-baltimore-1832-p113-long-primer-13-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-13-strip::before { content: "\E10B"; }
+.fr-baltimore-1832-p113-long-primer-14-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-14-strip::before { content: "\E10C"; }
+.fr-baltimore-1832-p113-long-primer-14-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-14-piece::before { content: "\E10D"; }
+.fr-baltimore-1832-p113-long-primer-15-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-15-strip::before { content: "\E10E"; }
+.fr-baltimore-1832-p113-long-primer-16-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-16-strip::before { content: "\E10F"; }
+.fr-baltimore-1832-p113-long-primer-17-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-17-strip::before { content: "\E110"; }
+.fr-baltimore-1832-p113-long-primer-17-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-17-piece::before { content: "\E111"; }
+.fr-baltimore-1832-p113-long-primer-18-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-18-strip::before { content: "\E112"; }
+.fr-baltimore-1832-p113-long-primer-18-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-18-piece::before { content: "\E113"; }
+.fr-baltimore-1832-p113-long-primer-19-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-19-strip::before { content: "\E114"; }
+.fr-baltimore-1832-p113-long-primer-20-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-20-strip::before { content: "\E115"; }
+.fr-baltimore-1832-p113-long-primer-21-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-21-strip::before { content: "\E116"; }
+.fr-baltimore-1832-p113-long-primer-22-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-22-strip::before { content: "\E117"; }
+.fr-baltimore-1832-p113-long-primer-22-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-22-piece::before { content: "\E118"; }
+.fr-baltimore-1832-p113-long-primer-23-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-23-strip::before { content: "\E119"; }
+.fr-baltimore-1832-p113-long-primer-23-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-23-piece::before { content: "\E11A"; }
+.fr-baltimore-1832-p113-long-primer-24-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-24-strip::before { content: "\E11B"; }
+.fr-baltimore-1832-p113-long-primer-24-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-24-piece::before { content: "\E11C"; }
+.fr-baltimore-1832-p113-long-primer-25-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-25-strip::before { content: "\E11D"; }
+.fr-baltimore-1832-p113-long-primer-25-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-25-piece::before { content: "\E11E"; }
+.fr-baltimore-1832-p113-long-primer-26-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-26-strip::before { content: "\E11F"; }
+.fr-baltimore-1832-p113-long-primer-26-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-26-piece::before { content: "\E120"; }
+.fr-baltimore-1832-p115-brevier-5-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-5-strip::before { content: "\E121"; }
+.fr-baltimore-1832-p115-brevier-5-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-5-piece::before { content: "\E122"; }
+.fr-baltimore-1832-p115-brevier-6-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-6-strip::before { content: "\E123"; }
+.fr-baltimore-1832-p115-brevier-6-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-6-piece::before { content: "\E124"; }
+.fr-baltimore-1832-p115-brevier-7-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-7-strip::before { content: "\E125"; }
+.fr-baltimore-1832-p115-brevier-7-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-7-piece::before { content: "\E126"; }
+.fr-baltimore-1832-p115-brevier-8-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-8-strip::before { content: "\E127"; }
+.fr-baltimore-1832-p115-brevier-9-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-9-strip::before { content: "\E128"; }
+.fr-baltimore-1832-p115-brevier-9-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-9-piece::before { content: "\E129"; }
+.fr-baltimore-1832-p115-brevier-10-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-10-strip::before { content: "\E12A"; }
+.fr-baltimore-1832-p115-brevier-11-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-11-strip::before { content: "\E12B"; }
+.fr-baltimore-1832-p115-brevier-12-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-12-strip::before { content: "\E12C"; }
+.fr-baltimore-1832-p115-brevier-12-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-12-piece::before { content: "\E12D"; }
+.fr-baltimore-1832-p115-brevier-13-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-13-strip::before { content: "\E12E"; }
+.fr-baltimore-1832-p115-brevier-13-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-13-piece::before { content: "\E12F"; }
+.fr-baltimore-1832-p115-brevier-14-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-14-strip::before { content: "\E130"; }
+.fr-baltimore-1832-p115-brevier-14-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-14-piece::before { content: "\E131"; }
+.fr-baltimore-1832-p115-brevier-15-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-15-strip::before { content: "\E132"; }
+.fr-baltimore-1832-p115-brevier-15-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-15-piece::before { content: "\E133"; }
+.fr-baltimore-1832-p117-english-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-1-strip::before { content: "\E134"; }
+.fr-baltimore-1832-p117-english-1-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-1-piece::before { content: "\E135"; }
+.fr-baltimore-1832-p117-english-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-2-strip::before { content: "\E136"; }
+.fr-baltimore-1832-p117-english-2-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-2-piece::before { content: "\E137"; }
+.fr-baltimore-1832-p117-english-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-3-strip::before { content: "\E138"; }
+.fr-baltimore-1832-p117-english-3-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-3-piece::before { content: "\E139"; }
+.fr-baltimore-1832-p117-english-4-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-4-strip::before { content: "\E13A"; }
+.fr-baltimore-1832-p117-english-4-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-4-piece::before { content: "\E13B"; }
+.fr-baltimore-1832-p117-english-5-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-5-strip::before { content: "\E13C"; }
+.fr-baltimore-1832-p117-english-6-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-6-strip::before { content: "\E13D"; }
+.fr-baltimore-1832-p117-english-6-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-6-piece::before { content: "\E13E"; }
+.fr-baltimore-1832-p117-english-7-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-7-strip::before { content: "\E13F"; }
+.fr-baltimore-1832-p117-english-7-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-7-piece::before { content: "\E140"; }
+.fr-baltimore-1832-p117-english-8-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-8-strip::before { content: "\E141"; }
+.fr-baltimore-1832-p117-english-9-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-9-strip::before { content: "\E142"; }
+.fr-baltimore-1832-p117-english-9-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-9-piece::before { content: "\E143"; }
+.fr-baltimore-1832-p117-english-10-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-10-strip::before { content: "\E144"; }
+.fr-baltimore-1832-p117-english-10-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-10-piece::before { content: "\E145"; }
+.fr-baltimore-1832-p117-english-11-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-11-strip::before { content: "\E146"; }
+.fr-baltimore-1832-p117-english-11-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-11-piece::before { content: "\E147"; }
+.fr-baltimore-1832-p117-english-12-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-12-strip::before { content: "\E148"; }
+.fr-baltimore-1832-p117-english-12-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-12-piece::before { content: "\E149"; }
+.fr-baltimore-1832-p117-english-13-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-13-strip::before { content: "\E14A"; }
+.fr-baltimore-1832-p117-english-14-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-14-strip::before { content: "\E14B"; }
+.fr-baltimore-1832-p117-english-14-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-14-piece::before { content: "\E14C"; }
+.fr-baltimore-1832-p117-english-15-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-15-strip::before { content: "\E14D"; }
+.fr-baltimore-1832-p117-english-15-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-15-piece::before { content: "\E14E"; }
+.fr-baltimore-1832-p119-pica-1-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-1-strip::before { content: "\E14F"; }
+.fr-baltimore-1832-p119-pica-1-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-1-piece::before { content: "\E150"; }
+.fr-baltimore-1832-p119-pica-2-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-2-strip::before { content: "\E151"; }
+.fr-baltimore-1832-p119-pica-3-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-3-strip::before { content: "\E152"; }
+.fr-baltimore-1832-p119-pica-3-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-3-piece::before { content: "\E153"; }
+.fr-baltimore-1832-p119-pica-4-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-4-strip::before { content: "\E154"; }
+.fr-baltimore-1832-p119-pica-4-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-4-piece::before { content: "\E155"; }
+.fr-baltimore-1832-p119-pica-5-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-5-strip::before { content: "\E156"; }
+.fr-baltimore-1832-p119-pica-5-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-5-piece::before { content: "\E157"; }
+.fr-baltimore-1832-p119-pica-6-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-6-strip::before { content: "\E158"; }
+.fr-baltimore-1832-p119-pica-7-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-7-strip::before { content: "\E159"; }
+.fr-baltimore-1832-p119-pica-8-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-8-strip::before { content: "\E15A"; }
+.fr-baltimore-1832-p119-pica-8-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-8-piece::before { content: "\E15B"; }
+.fr-baltimore-1832-p119-pica-9-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-9-strip::before { content: "\E15C"; }
+.fr-baltimore-1832-p119-pica-10-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-10-strip::before { content: "\E15D"; }
+.fr-baltimore-1832-p119-pica-10-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-10-piece::before { content: "\E15E"; }
+.fr-baltimore-1832-p119-pica-11-strip { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-11-strip::before { content: "\E15F"; }
+.fr-baltimore-1832-p119-pica-11-piece { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-11-piece::before { content: "\E160"; }
+.fr-baltimore-1832-p109-nonpareil-7-square { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-nonpareil-7-square::before { content: "\E161"; }
+.fr-baltimore-1832-p111-small-pica-9-star { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p111-small-pica-9-star::before { content: "\E162"; }
+.fr-baltimore-1832-p113-long-primer-22-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p113-long-primer-22-corner::before { content: "\E163"; }
+.fr-baltimore-1832-p115-brevier-13-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p115-brevier-13-corner::before { content: "\E164"; }
+.fr-baltimore-1832-p117-english-1-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-1-corner::before { content: "\E165"; }
+.fr-baltimore-1832-p117-english-4-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-4-corner::before { content: "\E166"; }
+.fr-baltimore-1832-p117-english-14-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p117-english-14-corner::before { content: "\E167"; }
+.fr-baltimore-1832-p119-pica-5-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-pica-5-corner::before { content: "\E168"; }
+.fr-baltimore-1832-p119-small-pica-1-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p119-small-pica-1-corner::before { content: "\E169"; }
+.fr-baltimore-1832-p109-double-english-check-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-double-english-check-1::before { content: "\E16A"; }
+.fr-baltimore-1832-p109-double-english-check-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-double-english-check-2::before { content: "\E16B"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-1::before { content: "\E16C"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-2::before { content: "\E16D"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-3::before { content: "\E16E"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-4 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-4::before { content: "\E16F"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-5::before { content: "\E170"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-6 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-6::before { content: "\E171"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-7 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-long-primer-space-rule-7::before { content: "\E172"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-1::before { content: "\E173"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-2::before { content: "\E174"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-3::before { content: "\E175"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-4 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-4::before { content: "\E176"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-5::before { content: "\E177"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-6 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-6::before { content: "\E178"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-7 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p109-small-pica-space-rule-7::before { content: "\E179"; }
+.fr-baltimore-1832-p85-heading-dash { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p85-heading-dash::before { content: "\E17A"; }
+.fr-baltimore-1832-p11-brass-rule-1 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-1::before { content: "\E17B"; }
+.fr-baltimore-1832-p11-brass-rule-2 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-2::before { content: "\E17C"; }
+.fr-baltimore-1832-p11-brass-rule-3 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-3::before { content: "\E17D"; }
+.fr-baltimore-1832-p11-brass-rule-4 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-4::before { content: "\E17E"; }
+.fr-baltimore-1832-p11-brass-rule-5 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-5::before { content: "\E17F"; }
+.fr-baltimore-1832-p11-brass-rule-6 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-6::before { content: "\E180"; }
+.fr-baltimore-1832-p11-brass-rule-7 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-7::before { content: "\E181"; }
+.fr-baltimore-1832-p11-brass-rule-8 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-8::before { content: "\E182"; }
+.fr-baltimore-1832-p11-brass-rule-9 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-9::before { content: "\E183"; }
+.fr-baltimore-1832-p11-brass-rule-10 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-10::before { content: "\E184"; }
+.fr-baltimore-1832-p11-brass-rule-11 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-11::before { content: "\E185"; }
+.fr-baltimore-1832-p11-brass-rule-12 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-12::before { content: "\E186"; }
+.fr-baltimore-1832-p11-brass-rule-13 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-13::before { content: "\E187"; }
+.fr-baltimore-1832-p11-brass-rule-14 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-14::before { content: "\E188"; }
+.fr-baltimore-1832-p11-brass-rule-15 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-15::before { content: "\E189"; }
+.fr-baltimore-1832-p11-brass-rule-16 { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p11-brass-rule-16::before { content: "\E18A"; }
+.fr-baltimore-1832-p7-title-corner { font-family: "Baltimore Ornaments 1832"; }
+.fr-baltimore-1832-p7-title-corner::before { content: "\E18B"; }
