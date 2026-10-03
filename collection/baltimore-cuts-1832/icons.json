@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "collection": "baltimore-cuts-1832",
-  "version": "1.001",
+  "version": "1.002",
   "icons": [
     {
       "id": "baltimore-1832-p121-1",
@@ -16735,7 +16735,7 @@
       "multitone": {
         "svg": "svg/multitone/baltimore-1832-p209-357-20.svg",
         "png": "png/multitone/baltimore-1832-p209-357-20.png",
-        "sprite": "web/icons-multitone-9.svg#baltimore-1832-p209-357-20"
+        "sprite": "web/icons-multitone-10.svg#baltimore-1832-p209-357-20"
       }
     },
     {

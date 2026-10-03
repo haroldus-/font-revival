@@ -169,3 +169,41 @@ rounded bends at redundant intermediate vertices. Retracing Nos. 65, 70 and
 the comparison hashes are retained in `straightening-retrace-review.json`.
 
 The straightening review also removed one detached pale price-numeral tip beside No. 70. Its pre-rotation control bounds are [787,248,810,303]; the narrow rectangle [780,240,820,310] removes only that contour, before the common rotation. `straightening.json` retains both original and cleaned hashes and contour counts. All illustration contours, spacing and font drawings remain unchanged by this additional cleanup.
+
+## Primer upper boundaries (1.002)
+
+The 24 small panels on PDF page 209 share printed horizontal rules. Some original
+crop boxes began below these rules; several upper-boundary searches consequently
+selected a line inside the illustration. That removed frame segments and, in the
+most severe case, the standing figure's head in panel 357-24.
+
+The revised recipes retain each complete observed upper rule and the adjoining
+illustration. First-row panels keep their original outer crop without an upper
+erasure. For the internal dividers, the independently measured bottom rule of
+the preceding panel locates the correct line. A six-native-pixel allowance above
+its centre retains the rule's thickness and irregular edge. Rectangular erasures
+exclude the neighbouring illustration above it. Natural breaks in the printed
+rules remain; no border segment or illustration detail is newly drawn. Existing
+bottom erasures retain their exact source coordinates.
+
+The expanded crops use explicit height, ink width, baseline and bearing settings
+to preserve the original scan-to-font affine. This prevents reframing from moving
+or rescaling the existing artwork. Advances and reviewed rotations are unchanged.
+The same frame applies to the monochrome outline and all three tone layers.
+`primer-top-review.json` retains the original recipes, source hash, revised crop
+boxes, rule measurements, unchanged transforms and before/after outline hashes.
+Its 1.002 drawings supersede the corresponding 1.001 straightening outline hashes;
+the rotation measurements and matrices remain valid.
+
+With the pinned preparation dependencies and Potrace 1.16, reproduce the 96
+candidate outlines without modifying the canonical edits:
+
+```sh
+python collection/baltimore-cuts-1832/source/restore_primer_tops.py \
+  --output workspace/primer-top-edits --potrace /path/to/potrace
+```
+
+The retained `specimens/primer-top-review.pdf` compares all 24 source impressions
+and before/after drawings, with monochrome examples at 48, 96 and 192 pixels.
+`specimens/primer-font-comparison.pdf` compares representative changed characters
+in the previous and current TrueType fonts.

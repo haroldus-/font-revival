@@ -8304,22 +8304,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: Adam and Eve beside a tree: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: Adam and Eve beside a tree: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         413,
         417
       ],
       "y_max": [
-        1380,
-        1384
+        1384,
+        1388
       ],
       "ink_width": [
         1797,
         1801
       ],
       "ink_height": [
-        965,
-        969
+        969,
+        973
       ]
     },
     {
@@ -8328,22 +8328,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: open Holy Bible: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: open Holy Bible: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         445,
         449
       ],
       "y_max": [
-        1374,
-        1378
+        1392,
+        1396
       ],
       "ink_width": [
         1730,
         1734
       ],
       "ink_height": [
-        927,
-        931
+        945,
+        949
       ]
     },
     {
@@ -8352,22 +8352,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: cat catching a mouse: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: cat catching a mouse: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         456,
         460
       ],
       "y_max": [
-        1342,
-        1346
+        1373,
+        1377
       ],
       "ink_width": [
-        1756,
-        1760
+        1755,
+        1759
       ],
       "ink_height": [
-        885,
-        889
+        916,
+        920
       ]
     },
     {
@@ -8376,22 +8376,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: man with a dog: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: man with a dog: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         436,
         440
       ],
       "y_max": [
-        1376,
-        1380
+        1401,
+        1405
       ],
       "ink_width": [
         1786,
         1790
       ],
       "ink_height": [
-        938,
-        942
+        963,
+        967
       ]
     },
     {
@@ -8400,22 +8400,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: flying eagle: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: flying eagle: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         438,
         442
       ],
       "y_max": [
-        1391,
-        1395
+        1422,
+        1426
       ],
       "ink_width": [
         1782,
         1786
       ],
       "ink_height": [
-        951,
-        955
+        982,
+        986
       ]
     },
     {
@@ -8424,22 +8424,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: man running beside a house: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Primer: man running beside a house: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         453,
         457
       ],
       "y_max": [
-        1343,
-        1347
+        1387,
+        1391
       ],
       "ink_width": [
-        1793,
-        1797
+        1792,
+        1796
       ],
       "ink_height": [
-        888,
-        892
+        932,
+        936
       ]
     },
     {
@@ -8448,22 +8448,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: hourglass: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: hourglass: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         404,
         408
       ],
       "y_max": [
-        1381,
-        1385
+        1406,
+        1410
       ],
       "ink_width": [
-        1798,
-        1802
+        1797,
+        1801
       ],
       "ink_height": [
-        975,
-        979
+        1000,
+        1004
       ]
     },
     {
@@ -8472,22 +8472,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: open book: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Primer: open book: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         419,
         423
       ],
       "y_max": [
-        1378,
-        1382
+        1397,
+        1401
       ],
       "ink_width": [
         1798,
         1802
       ],
       "ink_height": [
-        957,
-        961
+        976,
+        980
       ]
     },
     {
@@ -8496,22 +8496,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: man reclining: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Primer: man reclining: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         430,
         434
       ],
       "y_max": [
-        1366,
-        1370
+        1389,
+        1393
       ],
       "ink_width": [
         1789,
         1793
       ],
       "ink_height": [
-        934,
-        938
+        957,
+        961
       ]
     },
     {
@@ -8520,22 +8520,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: figures in a boat: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: figures in a boat: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         448,
         452
       ],
       "y_max": [
-        1354,
-        1358
+        1373,
+        1377
       ],
       "ink_width": [
         1783,
         1787
       ],
       "ink_height": [
-        904,
-        908
+        923,
+        927
       ]
     },
     {
@@ -8544,22 +8544,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: lion: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: lion: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         466,
         470
       ],
       "y_max": [
-        1374,
-        1378
+        1415,
+        1419
       ],
       "ink_width": [
-        1782,
-        1786
+        1783,
+        1787
       ],
       "ink_height": [
-        906,
-        910
+        947,
+        951
       ]
     },
     {
@@ -8568,22 +8568,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: moon and clouds: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: moon and clouds: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         436,
         440
       ],
       "y_max": [
-        1333,
-        1337
+        1445,
+        1449
       ],
       "ink_width": [
         1779,
         1783
       ],
       "ink_height": [
-        895,
-        899
+        1006,
+        1010
       ]
     },
     {
@@ -8592,22 +8592,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: reaper with a scythe: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Primer: reaper with a scythe: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         448,
         452
       ],
       "y_max": [
-        1348,
-        1352
+        1369,
+        1373
       ],
       "ink_width": [
         1796,
         1800
       ],
       "ink_height": [
-        898,
-        902
+        919,
+        923
       ]
     },
     {
@@ -8616,22 +8616,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: seated figure beside buildings: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Primer: seated figure beside buildings: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         419,
         423
       ],
       "y_max": [
-        1377,
-        1381
+        1393,
+        1397
       ],
       "ink_width": [
         1797,
         1801
       ],
       "ink_height": [
-        956,
-        960
+        972,
+        976
       ]
     },
     {
@@ -8640,22 +8640,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: whale spouting: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Primer: whale spouting: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         441,
         445
       ],
       "y_max": [
-        1354,
-        1358
+        1373,
+        1377
       ],
       "ink_width": [
         1774,
         1778
       ],
       "ink_height": [
-        911,
-        915
+        930,
+        934
       ]
     },
     {
@@ -8664,22 +8664,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: scales above a reclining figure: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: scales above a reclining figure: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         442,
         446
       ],
       "y_max": [
-        1383,
-        1387
+        1423,
+        1427
       ],
       "ink_width": [
-        1778,
-        1782
+        1777,
+        1781
       ],
       "ink_height": [
-        939,
-        943
+        979,
+        983
       ]
     },
     {
@@ -8688,22 +8688,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: two figures fighting: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: two figures fighting: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         460,
         464
       ],
       "y_max": [
-        1359,
-        1363
+        1379,
+        1383
       ],
       "ink_width": [
-        1782,
-        1786
+        1780,
+        1784
       ],
       "ink_height": [
-        897,
-        901
+        917,
+        921
       ]
     },
     {
@@ -8712,22 +8712,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: figure falling from a tree: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: figure falling from a tree: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         437,
         441
       ],
       "y_max": [
-        1370,
-        1374
+        1389,
+        1393
       ],
       "ink_width": [
         1786,
         1790
       ],
       "ink_height": [
-        930,
-        934
+        949,
+        953
       ]
     },
     {
@@ -8736,22 +8736,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: birds in a tree: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: birds in a tree: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         422,
         426
       ],
       "y_max": [
-        1374,
-        1378
+        1388,
+        1392
       ],
       "ink_width": [
         1752,
         1756
       ],
       "ink_height": [
-        950,
-        954
+        964,
+        968
       ]
     },
     {
@@ -8760,22 +8760,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: leafy tree: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: leafy tree: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         402,
         406
       ],
       "y_max": [
-        1393,
-        1397
+        1411,
+        1415
       ],
       "ink_width": [
         1783,
         1787
       ],
       "ink_height": [
-        989,
-        993
+        1007,
+        1011
       ]
     },
     {
@@ -8784,22 +8784,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: kneeling figure beside an altar: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: kneeling figure beside an altar: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         426,
         430
       ],
       "y_max": [
-        1389,
-        1393
+        1407,
+        1411
       ],
       "ink_width": [
-        1780,
-        1784
+        1781,
+        1785
       ],
       "ink_height": [
-        961,
-        965
+        979,
+        983
       ]
     },
     {
@@ -8808,22 +8808,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: kneeling figure before a king: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: kneeling figure before a king: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         458,
         462
       ],
       "y_max": [
-        1357,
-        1361
+        1409,
+        1413
       ],
       "ink_width": [
-        1784,
-        1788
+        1783,
+        1787
       ],
       "ink_height": [
-        897,
-        901
+        949,
+        953
       ]
     },
     {
@@ -8832,22 +8832,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: chest and seated figure: source aspect ratio, uniform scaling and original advance retained. Reviewed rigid rotation preserves every contour and the original advance; ink bearings reflect that rotation.",
+      "notes": "Primer: chest and seated figure: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         469,
         473
       ],
       "y_max": [
-        1338,
-        1342
+        1404,
+        1408
       ],
       "ink_width": [
         1786,
         1790
       ],
       "ink_height": [
-        866,
-        870
+        932,
+        936
       ]
     },
     {
@@ -8856,22 +8856,22 @@
         1928,
         1928
       ],
-      "notes": "Primer: two men beneath a tree: source aspect ratio, uniform scaling and original advance retained.",
+      "notes": "Primer: two men beneath a tree: full observed top boundary restored; original scan-to-font scale, position and advance retained. See primer-top-review.json.",
       "y_min": [
         470,
         474
       ],
       "y_max": [
-        1326,
-        1330
+        1457,
+        1461
       ],
       "ink_width": [
         1792,
         1796
       ],
       "ink_height": [
-        854,
-        858
+        985,
+        989
       ]
     },
     {

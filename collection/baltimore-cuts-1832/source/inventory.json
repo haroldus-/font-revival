@@ -11920,7 +11920,7 @@
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -11929,36 +11929,6 @@
         "paper_normalization_radius": 0
       },
       "erase_crop_pixels": [
-        [
-          0,
-          0,
-          89,
-          14
-        ],
-        [
-          90,
-          0,
-          222,
-          13
-        ],
-        [
-          223,
-          0,
-          356,
-          12
-        ],
-        [
-          357,
-          0,
-          489,
-          11
-        ],
-        [
-          490,
-          0,
-          578,
-          10
-        ],
         [
           0,
           314,
@@ -11998,13 +11968,13 @@
       "printed_page": null,
       "box": [
         1010,
-        882,
+        874,
         1595,
         1191
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -12015,87 +11985,81 @@
       "erase_crop_pixels": [
         [
           0,
-          0,
-          92,
-          2
-        ],
-        [
-          93,
-          0,
-          492,
-          1
-        ],
-        [
-          493,
-          0,
-          584,
-          0
-        ],
-        [
-          0,
-          305,
+          313,
           35,
-          309
+          317
         ],
         [
           36,
-          304,
+          312,
           92,
-          309
+          317
         ],
         [
           93,
-          303,
+          311,
           149,
-          309
+          317
         ],
         [
           150,
-          302,
+          310,
           206,
-          309
+          317
         ],
         [
           207,
-          301,
+          309,
           263,
-          309
+          317
         ],
         [
           264,
-          300,
+          308,
           321,
-          309
+          317
         ],
         [
           322,
-          299,
+          307,
           378,
-          309
+          317
         ],
         [
           379,
-          298,
+          306,
           435,
-          309
+          317
         ],
         [
           436,
-          297,
+          305,
           492,
-          309
+          317
         ],
         [
           493,
-          296,
+          304,
           549,
-          309
+          317
         ],
         [
           550,
-          295,
+          303,
           584,
-          309
+          317
+        ],
+        [
+          0,
+          0,
+          289,
+          4
+        ],
+        [
+          290,
+          0,
+          584,
+          3
         ]
       ]
     },
@@ -12118,13 +12082,13 @@
       "printed_page": null,
       "box": [
         1015,
-        1180,
+        1164,
         1595,
         1483
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -12135,45 +12099,93 @@
       "erase_crop_pixels": [
         [
           0,
-          0,
-          32,
-          3
-        ],
-        [
-          33,
-          0,
-          90,
-          2
-        ],
-        [
-          91,
-          0,
-          147,
-          1
-        ],
-        [
-          148,
-          0,
-          204,
-          0
-        ],
-        [
-          0,
-          287,
+          303,
           189,
-          303
+          319
         ],
         [
           190,
-          286,
+          302,
           390,
-          303
+          319
         ],
         [
           391,
-          285,
+          301,
           579,
-          303
+          319
+        ],
+        [
+          0,
+          0,
+          1,
+          14
+        ],
+        [
+          2,
+          0,
+          58,
+          13
+        ],
+        [
+          59,
+          0,
+          116,
+          12
+        ],
+        [
+          117,
+          0,
+          173,
+          11
+        ],
+        [
+          174,
+          0,
+          230,
+          10
+        ],
+        [
+          231,
+          0,
+          287,
+          9
+        ],
+        [
+          288,
+          0,
+          344,
+          8
+        ],
+        [
+          345,
+          0,
+          401,
+          7
+        ],
+        [
+          402,
+          0,
+          458,
+          6
+        ],
+        [
+          459,
+          0,
+          516,
+          5
+        ],
+        [
+          517,
+          0,
+          573,
+          4
+        ],
+        [
+          574,
+          0,
+          579,
+          3
         ]
       ]
     },
@@ -12196,13 +12208,13 @@
       "printed_page": null,
       "box": [
         1021,
-        1467,
+        1452,
         1600,
         1776
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -12213,45 +12225,69 @@
       "erase_crop_pixels": [
         [
           0,
-          297,
+          312,
           39,
-          309
+          324
         ],
         [
           40,
-          296,
+          311,
           139,
-          309
+          324
         ],
         [
           140,
-          295,
+          310,
           239,
-          309
+          324
         ],
         [
           240,
-          294,
+          309,
           339,
-          309
+          324
         ],
         [
           340,
-          293,
+          308,
           439,
-          309
+          324
         ],
         [
           440,
-          292,
+          307,
           539,
-          309
+          324
         ],
         [
           540,
-          291,
+          306,
           578,
-          309
+          324
+        ],
+        [
+          0,
+          0,
+          84,
+          6
+        ],
+        [
+          85,
+          0,
+          284,
+          5
+        ],
+        [
+          285,
+          0,
+          484,
+          4
+        ],
+        [
+          485,
+          0,
+          578,
+          3
         ]
       ]
     },
@@ -12274,13 +12310,13 @@
       "printed_page": null,
       "box": [
         1026,
-        1765,
+        1746,
         1605,
         2073
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -12291,69 +12327,105 @@
       "erase_crop_pixels": [
         [
           0,
-          302,
+          321,
           32,
-          308
+          327
         ],
         [
           33,
-          301,
+          320,
           89,
-          308
+          327
         ],
         [
           90,
-          300,
+          319,
           146,
-          308
+          327
         ],
         [
           147,
-          299,
+          318,
           203,
-          308
+          327
         ],
         [
           204,
-          298,
+          317,
           260,
-          308
+          327
         ],
         [
           261,
-          297,
+          316,
           318,
-          308
+          327
         ],
         [
           319,
-          296,
+          315,
           375,
-          308
+          327
         ],
         [
           376,
-          295,
+          314,
           432,
-          308
+          327
         ],
         [
           433,
-          294,
+          313,
           489,
-          308
+          327
         ],
         [
           490,
-          293,
+          312,
           546,
-          308
+          327
         ],
         [
           547,
-          292,
+          311,
           578,
-          308
+          327
+        ],
+        [
+          0,
+          0,
+          84,
+          8
+        ],
+        [
+          85,
+          0,
+          184,
+          7
+        ],
+        [
+          185,
+          0,
+          284,
+          6
+        ],
+        [
+          285,
+          0,
+          384,
+          5
+        ],
+        [
+          385,
+          0,
+          484,
+          4
+        ],
+        [
+          485,
+          0,
+          578,
+          3
         ]
       ]
     },
@@ -12376,13 +12448,13 @@
       "printed_page": null,
       "box": [
         1031,
-        2063,
+        2044,
         1611,
         2360
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -12393,15 +12465,75 @@
       "erase_crop_pixels": [
         [
           0,
-          0,
-          32,
-          0
+          303,
+          579,
+          316
         ],
         [
           0,
+          0,
+          55,
+          13
+        ],
+        [
+          56,
+          0,
+          113,
+          12
+        ],
+        [
+          114,
+          0,
+          170,
+          11
+        ],
+        [
+          171,
+          0,
+          227,
+          10
+        ],
+        [
+          228,
+          0,
           284,
+          9
+        ],
+        [
+          285,
+          0,
+          341,
+          8
+        ],
+        [
+          342,
+          0,
+          398,
+          7
+        ],
+        [
+          399,
+          0,
+          455,
+          6
+        ],
+        [
+          456,
+          0,
+          513,
+          5
+        ],
+        [
+          514,
+          0,
+          570,
+          4
+        ],
+        [
+          571,
+          0,
           579,
-          297
+          3
         ]
       ]
     },
@@ -12430,7 +12562,7 @@
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -12439,48 +12571,6 @@
         "paper_normalization_radius": 0
       },
       "erase_crop_pixels": [
-        [
-          0,
-          0,
-          39,
-          14
-        ],
-        [
-          40,
-          0,
-          139,
-          15
-        ],
-        [
-          140,
-          0,
-          239,
-          16
-        ],
-        [
-          240,
-          0,
-          339,
-          17
-        ],
-        [
-          340,
-          0,
-          439,
-          18
-        ],
-        [
-          440,
-          0,
-          539,
-          19
-        ],
-        [
-          540,
-          0,
-          578,
-          20
-        ],
         [
           0,
           321,
@@ -12508,13 +12598,13 @@
       "printed_page": null,
       "box": [
         1680,
-        893,
+        883,
         2259,
         1201
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -12525,21 +12615,27 @@
       "erase_crop_pixels": [
         [
           0,
-          301,
+          311,
           89,
-          308
+          318
         ],
         [
           90,
-          300,
+          310,
           489,
-          308
+          318
         ],
         [
           490,
-          299,
+          309,
           578,
-          308
+          318
+        ],
+        [
+          0,
+          0,
+          578,
+          3
         ]
       ]
     },
@@ -12562,13 +12658,13 @@
       "printed_page": null,
       "box": [
         1680,
-        1191,
+        1180,
         2265,
         1488
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -12579,15 +12675,27 @@
       "erase_crop_pixels": [
         [
           443,
-          297,
+          308,
           542,
-          297
+          308
         ],
         [
           543,
-          296,
+          307,
           584,
-          297
+          308
+        ],
+        [
+          0,
+          0,
+          289,
+          4
+        ],
+        [
+          290,
+          0,
+          584,
+          3
         ]
       ]
     },
@@ -12610,13 +12718,13 @@
       "printed_page": null,
       "box": [
         1685,
-        1478,
+        1475,
         2270,
         1791
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -12627,99 +12735,93 @@
       "erase_crop_pixels": [
         [
           0,
-          0,
-          42,
-          11
-        ],
-        [
-          43,
-          0,
-          142,
-          10
-        ],
-        [
-          143,
-          0,
-          242,
-          9
-        ],
-        [
-          243,
-          0,
-          342,
-          8
-        ],
-        [
-          343,
-          0,
-          442,
-          7
-        ],
-        [
-          443,
-          0,
-          542,
-          6
-        ],
-        [
-          543,
-          0,
-          584,
-          5
-        ],
-        [
-          0,
-          298,
+          301,
           59,
-          313
+          316
         ],
         [
           60,
-          297,
+          300,
           125,
-          313
+          316
         ],
         [
           126,
-          296,
+          299,
           192,
-          313
+          316
         ],
         [
           193,
-          295,
+          298,
           259,
-          313
+          316
         ],
         [
           260,
-          294,
+          297,
           325,
-          313
+          316
         ],
         [
           326,
-          293,
+          296,
           392,
-          313
+          316
         ],
         [
           393,
-          292,
+          295,
           459,
-          313
+          316
         ],
         [
           460,
-          291,
+          294,
           525,
-          313
+          316
         ],
         [
           526,
-          290,
+          293,
           584,
-          313
+          316
+        ],
+        [
+          0,
+          0,
+          87,
+          8
+        ],
+        [
+          88,
+          0,
+          187,
+          7
+        ],
+        [
+          188,
+          0,
+          287,
+          6
+        ],
+        [
+          288,
+          0,
+          387,
+          5
+        ],
+        [
+          388,
+          0,
+          487,
+          4
+        ],
+        [
+          488,
+          0,
+          584,
+          3
         ]
       ]
     },
@@ -12742,13 +12844,13 @@
       "printed_page": null,
       "box": [
         1690,
-        1781,
+        1755,
         2275,
         2084
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -12758,112 +12860,154 @@
       },
       "erase_crop_pixels": [
         [
-          510,
           0,
-          542,
-          0
-        ],
-        [
-          543,
-          0,
-          575,
-          1
-        ],
-        [
-          576,
-          0,
-          584,
-          2
-        ],
-        [
-          0,
-          286,
+          312,
           32,
-          303
+          329
         ],
         [
           33,
-          285,
+          311,
           72,
-          303
+          329
         ],
         [
           73,
-          284,
+          310,
           112,
-          303
+          329
         ],
         [
           113,
-          283,
+          309,
           152,
-          303
+          329
         ],
         [
           153,
-          282,
+          308,
           192,
-          303
+          329
         ],
         [
           193,
-          281,
+          307,
           232,
-          303
+          329
         ],
         [
           233,
-          280,
+          306,
           272,
-          303
+          329
         ],
         [
           273,
-          279,
+          305,
           312,
-          303
+          329
         ],
         [
           313,
-          278,
+          304,
           352,
-          303
+          329
         ],
         [
           353,
-          277,
+          303,
           392,
-          303
+          329
         ],
         [
           393,
-          276,
+          302,
           432,
-          303
+          329
         ],
         [
           433,
-          275,
+          301,
           472,
-          303
+          329
         ],
         [
           473,
-          274,
+          300,
           512,
-          303
+          329
         ],
         [
           513,
-          273,
+          299,
           552,
-          303
+          329
         ],
         [
           553,
-          272,
+          298,
           584,
-          303
+          329
+        ],
+        [
+          0,
+          0,
+          20,
+          12
+        ],
+        [
+          21,
+          0,
+          87,
+          11
+        ],
+        [
+          88,
+          0,
+          154,
+          10
+        ],
+        [
+          155,
+          0,
+          220,
+          9
+        ],
+        [
+          221,
+          0,
+          287,
+          8
+        ],
+        [
+          288,
+          0,
+          354,
+          7
+        ],
+        [
+          355,
+          0,
+          420,
+          6
+        ],
+        [
+          421,
+          0,
+          487,
+          5
+        ],
+        [
+          488,
+          0,
+          554,
+          4
+        ],
+        [
+          555,
+          0,
+          584,
+          3
         ]
       ]
     },
@@ -12886,13 +13030,13 @@
       "printed_page": null,
       "box": [
         1696,
-        2073,
+        2040,
         2275,
         2371
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -12903,147 +13047,117 @@
       "erase_crop_pixels": [
         [
           0,
-          0,
-          18,
-          26
+          322,
+          89,
+          331
         ],
         [
-          19,
+          90,
+          323,
+          489,
+          331
+        ],
+        [
+          490,
+          324,
+          578,
+          331
+        ],
+        [
+          0,
+          0,
+          6,
+          18
+        ],
+        [
+          7,
           0,
           46,
-          25
+          17
         ],
         [
           47,
           0,
-          75,
-          24
+          86,
+          16
         ],
         [
-          76,
+          87,
           0,
-          103,
-          23
+          126,
+          15
         ],
         [
-          104,
+          127,
           0,
-          132,
-          22
+          166,
+          14
         ],
         [
-          133,
+          167,
           0,
-          160,
-          21
+          206,
+          13
         ],
         [
-          161,
-          0,
-          189,
-          20
-        ],
-        [
-          190,
-          0,
-          218,
-          19
-        ],
-        [
-          219,
+          207,
           0,
           246,
-          18
+          12
         ],
         [
           247,
           0,
-          275,
-          17
+          286,
+          11
         ],
         [
-          276,
+          287,
           0,
-          303,
-          16
+          326,
+          10
         ],
         [
-          304,
+          327,
           0,
-          332,
-          15
+          366,
+          9
         ],
         [
-          333,
+          367,
           0,
-          360,
-          14
+          406,
+          8
         ],
         [
-          361,
-          0,
-          389,
-          13
-        ],
-        [
-          390,
-          0,
-          418,
-          12
-        ],
-        [
-          419,
+          407,
           0,
           446,
-          11
+          7
         ],
         [
           447,
           0,
-          475,
-          10
-        ],
-        [
-          476,
-          0,
-          503,
-          9
-        ],
-        [
-          504,
-          0,
-          532,
-          8
-        ],
-        [
-          533,
-          0,
-          560,
-          7
-        ],
-        [
-          561,
-          0,
-          578,
+          486,
           6
         ],
         [
+          487,
           0,
-          289,
-          89,
-          298
+          526,
+          5
         ],
         [
-          90,
-          290,
-          489,
-          298
+          527,
+          0,
+          566,
+          4
         ],
         [
-          490,
-          291,
+          567,
+          0,
           578,
-          298
+          3
         ]
       ]
     },
@@ -13072,7 +13186,7 @@
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -13081,12 +13195,6 @@
         "paper_normalization_radius": 0
       },
       "erase_crop_pixels": [
-        [
-          0,
-          0,
-          584,
-          9
-        ],
         [
           0,
           301,
@@ -13114,13 +13222,13 @@
       "printed_page": null,
       "box": [
         2350,
-        872,
+        863,
         2929,
         1180
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -13131,21 +13239,27 @@
       "erase_crop_pixels": [
         [
           0,
-          302,
+          311,
           89,
-          308
+          317
         ],
         [
           90,
-          301,
+          310,
           489,
-          308
+          317
         ],
         [
           490,
-          300,
+          309,
           578,
-          308
+          317
+        ],
+        [
+          0,
+          0,
+          578,
+          3
         ]
       ]
     },
@@ -13168,13 +13282,13 @@
       "printed_page": null,
       "box": [
         2350,
-        1170,
+        1160,
         2934,
         1478
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -13185,27 +13299,33 @@
       "erase_crop_pixels": [
         [
           0,
-          0,
-          92,
-          0
-        ],
-        [
-          0,
-          293,
+          303,
           91,
-          308
+          318
         ],
         [
           92,
-          292,
+          302,
           492,
-          308
+          318
         ],
         [
           493,
-          291,
+          301,
           583,
-          308
+          318
+        ],
+        [
+          0,
+          0,
+          289,
+          4
+        ],
+        [
+          290,
+          0,
+          583,
+          3
         ]
       ]
     },
@@ -13228,13 +13348,13 @@
       "printed_page": null,
       "box": [
         2355,
-        1467,
+        1449,
         2940,
         1770
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -13245,69 +13365,81 @@
       "erase_crop_pixels": [
         [
           0,
-          298,
+          316,
           35,
-          303
+          321
         ],
         [
           36,
-          297,
+          315,
           92,
-          303
+          321
         ],
         [
           93,
-          296,
+          314,
           149,
-          303
+          321
         ],
         [
           150,
-          295,
+          313,
           206,
-          303
+          321
         ],
         [
           207,
-          294,
+          312,
           263,
-          303
+          321
         ],
         [
           264,
-          293,
+          311,
           321,
-          303
+          321
         ],
         [
           322,
-          292,
+          310,
           378,
-          303
+          321
         ],
         [
           379,
-          291,
+          309,
           435,
-          303
+          321
         ],
         [
           436,
-          290,
+          308,
           492,
-          303
+          321
         ],
         [
           493,
-          289,
+          307,
           549,
-          303
+          321
         ],
         [
           550,
-          288,
+          306,
           584,
-          303
+          321
+        ],
+        [
+          0,
+          0,
+          287,
+          4
+        ],
+        [
+          288,
+          0,
+          584,
+          3
         ]
       ]
     },
@@ -13330,13 +13462,13 @@
       "printed_page": null,
       "box": [
         2360,
-        1760,
+        1742,
         2945,
         2047
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -13347,81 +13479,141 @@
       "erase_crop_pixels": [
         [
           0,
-          0,
+          304,
           35,
-          1
+          305
         ],
         [
           36,
-          0,
+          303,
           92,
-          0
-        ],
-        [
-          0,
-          286,
-          35,
-          287
-        ],
-        [
-          36,
-          285,
-          92,
-          287
+          305
         ],
         [
           93,
-          284,
+          302,
           149,
-          287
+          305
         ],
         [
           150,
-          283,
+          301,
           206,
-          287
+          305
         ],
         [
           207,
-          282,
+          300,
           263,
-          287
+          305
         ],
         [
           264,
-          281,
+          299,
           321,
-          287
+          305
         ],
         [
           322,
-          280,
+          298,
           378,
-          287
+          305
         ],
         [
           379,
-          279,
+          297,
           435,
-          287
+          305
         ],
         [
           436,
-          278,
+          296,
           492,
-          287
+          305
         ],
         [
           493,
-          277,
+          295,
           549,
-          287
+          305
         ],
         [
           550,
-          276,
+          294,
           584,
-          287
+          305
+        ],
+        [
+          0,
+          0,
+          1,
+          14
+        ],
+        [
+          2,
+          0,
+          58,
+          13
+        ],
+        [
+          59,
+          0,
+          116,
+          12
+        ],
+        [
+          117,
+          0,
+          173,
+          11
+        ],
+        [
+          174,
+          0,
+          230,
+          10
+        ],
+        [
+          231,
+          0,
+          287,
+          9
+        ],
+        [
+          288,
+          0,
+          344,
+          8
+        ],
+        [
+          345,
+          0,
+          401,
+          7
+        ],
+        [
+          402,
+          0,
+          458,
+          6
+        ],
+        [
+          459,
+          0,
+          516,
+          5
+        ],
+        [
+          517,
+          0,
+          573,
+          4
+        ],
+        [
+          574,
+          0,
+          584,
+          3
         ]
       ]
     },
@@ -13444,13 +13636,13 @@
       "printed_page": null,
       "box": [
         2366,
-        2036,
+        2023,
         2950,
         2344
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -13461,123 +13653,153 @@
       "erase_crop_pixels": [
         [
           0,
-          0,
-          34,
-          6
-        ],
-        [
-          35,
-          0,
-          91,
-          5
-        ],
-        [
-          92,
-          0,
-          149,
-          4
-        ],
-        [
-          150,
-          0,
-          206,
-          3
-        ],
-        [
-          207,
-          0,
-          263,
-          2
-        ],
-        [
-          264,
-          0,
-          320,
-          1
-        ],
-        [
-          321,
-          0,
-          377,
-          0
-        ],
-        [
-          0,
-          302,
+          315,
           17,
-          308
+          321
         ],
         [
           18,
-          301,
+          314,
           66,
-          308
+          321
         ],
         [
           67,
-          300,
+          313,
           117,
-          308
+          321
         ],
         [
           118,
-          299,
+          312,
           166,
-          308
+          321
         ],
         [
           167,
-          298,
+          311,
           217,
-          308
+          321
         ],
         [
           218,
-          297,
+          310,
           266,
-          308
+          321
         ],
         [
           267,
-          296,
+          309,
           317,
-          308
+          321
         ],
         [
           318,
-          295,
+          308,
           366,
-          308
+          321
         ],
         [
           367,
-          294,
+          307,
           417,
-          308
+          321
         ],
         [
           418,
-          293,
+          306,
           466,
-          308
+          321
         ],
         [
           467,
-          292,
+          305,
           517,
-          308
+          321
         ],
         [
           518,
-          291,
+          304,
           566,
-          308
+          321
         ],
         [
           567,
-          290,
+          303,
           583,
-          308
+          321
+        ],
+        [
+          0,
+          0,
+          0,
+          14
+        ],
+        [
+          1,
+          0,
+          57,
+          13
+        ],
+        [
+          58,
+          0,
+          115,
+          12
+        ],
+        [
+          116,
+          0,
+          172,
+          11
+        ],
+        [
+          173,
+          0,
+          229,
+          10
+        ],
+        [
+          230,
+          0,
+          286,
+          9
+        ],
+        [
+          287,
+          0,
+          343,
+          8
+        ],
+        [
+          344,
+          0,
+          400,
+          7
+        ],
+        [
+          401,
+          0,
+          457,
+          6
+        ],
+        [
+          458,
+          0,
+          515,
+          5
+        ],
+        [
+          516,
+          0,
+          572,
+          4
+        ],
+        [
+          573,
+          0,
+          583,
+          3
         ]
       ]
     },
@@ -13606,7 +13828,7 @@
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -13615,48 +13837,6 @@
         "paper_normalization_radius": 0
       },
       "erase_crop_pixels": [
-        [
-          0,
-          0,
-          26,
-          17
-        ],
-        [
-          27,
-          0,
-          126,
-          16
-        ],
-        [
-          127,
-          0,
-          226,
-          15
-        ],
-        [
-          227,
-          0,
-          326,
-          14
-        ],
-        [
-          327,
-          0,
-          426,
-          13
-        ],
-        [
-          427,
-          0,
-          526,
-          12
-        ],
-        [
-          527,
-          0,
-          552,
-          11
-        ],
         [
           0,
           309,
@@ -13720,13 +13900,13 @@
       "printed_page": null,
       "box": [
         3014,
-        861,
+        853,
         3567,
         1175
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -13737,87 +13917,93 @@
       "erase_crop_pixels": [
         [
           0,
-          0,
+          314,
           76,
+          322
+        ],
+        [
+          77,
+          313,
+          156,
+          322
+        ],
+        [
+          157,
+          312,
+          236,
+          322
+        ],
+        [
+          237,
+          311,
+          316,
+          322
+        ],
+        [
+          317,
+          310,
+          396,
+          322
+        ],
+        [
+          397,
+          309,
+          476,
+          322
+        ],
+        [
+          477,
+          308,
+          552,
+          322
+        ],
+        [
+          0,
+          0,
+          36,
+          10
+        ],
+        [
+          37,
+          0,
+          116,
+          9
+        ],
+        [
+          117,
+          0,
+          196,
+          8
+        ],
+        [
+          197,
+          0,
+          276,
           7
         ],
         [
-          77,
+          277,
           0,
-          156,
+          356,
           6
         ],
         [
-          157,
+          357,
           0,
-          236,
+          436,
           5
         ],
         [
-          237,
+          437,
           0,
-          316,
+          516,
           4
         ],
         [
-          317,
+          517,
           0,
-          396,
+          552,
           3
-        ],
-        [
-          397,
-          0,
-          476,
-          2
-        ],
-        [
-          477,
-          0,
-          552,
-          1
-        ],
-        [
-          0,
-          306,
-          76,
-          314
-        ],
-        [
-          77,
-          305,
-          156,
-          314
-        ],
-        [
-          157,
-          304,
-          236,
-          314
-        ],
-        [
-          237,
-          303,
-          316,
-          314
-        ],
-        [
-          317,
-          302,
-          396,
-          314
-        ],
-        [
-          397,
-          301,
-          476,
-          314
-        ],
-        [
-          477,
-          300,
-          552,
-          314
         ]
       ]
     },
@@ -13840,13 +14026,13 @@
       "printed_page": null,
       "box": [
         3019,
-        1164,
+        1148,
         3578,
         1473
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -13857,45 +14043,93 @@
       "erase_crop_pixels": [
         [
           0,
-          291,
+          307,
           79,
-          309
+          325
         ],
         [
           80,
-          290,
+          306,
           159,
-          309
+          325
         ],
         [
           160,
-          289,
+          305,
           239,
-          309
+          325
         ],
         [
           240,
-          288,
+          304,
           319,
-          309
+          325
         ],
         [
           320,
-          287,
+          303,
           399,
-          309
+          325
         ],
         [
           400,
-          286,
+          302,
           479,
-          309
+          325
         ],
         [
           480,
-          285,
+          301,
           558,
-          309
+          325
+        ],
+        [
+          0,
+          0,
+          31,
+          10
+        ],
+        [
+          32,
+          0,
+          111,
+          9
+        ],
+        [
+          112,
+          0,
+          191,
+          8
+        ],
+        [
+          192,
+          0,
+          271,
+          7
+        ],
+        [
+          272,
+          0,
+          351,
+          6
+        ],
+        [
+          352,
+          0,
+          431,
+          5
+        ],
+        [
+          432,
+          0,
+          511,
+          4
+        ],
+        [
+          512,
+          0,
+          558,
+          3
         ]
       ]
     },
@@ -13918,13 +14152,13 @@
       "printed_page": null,
       "box": [
         3025,
-        1462,
+        1436,
         3583,
         1754
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -13934,52 +14168,94 @@
       },
       "erase_crop_pixels": [
         [
-          539,
           0,
-          557,
-          0
-        ],
-        [
-          0,
-          273,
+          299,
           78,
-          292
+          318
         ],
         [
           79,
-          272,
+          298,
           159,
-          292
+          318
         ],
         [
           160,
-          271,
+          297,
           238,
-          292
+          318
         ],
         [
           239,
-          270,
+          296,
           319,
-          292
+          318
         ],
         [
           320,
-          269,
+          295,
           398,
-          292
+          318
         ],
         [
           399,
-          268,
+          294,
           479,
-          292
+          318
         ],
         [
           480,
-          267,
+          293,
           557,
-          292
+          318
+        ],
+        [
+          0,
+          0,
+          33,
+          10
+        ],
+        [
+          34,
+          0,
+          113,
+          9
+        ],
+        [
+          114,
+          0,
+          193,
+          8
+        ],
+        [
+          194,
+          0,
+          273,
+          7
+        ],
+        [
+          274,
+          0,
+          353,
+          6
+        ],
+        [
+          354,
+          0,
+          433,
+          5
+        ],
+        [
+          434,
+          0,
+          513,
+          4
+        ],
+        [
+          514,
+          0,
+          557,
+          3
         ]
       ]
     },
@@ -14002,13 +14278,13 @@
       "printed_page": null,
       "box": [
         3030,
-        1744,
+        1716,
         3588,
         2031
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -14018,64 +14294,82 @@
       },
       "erase_crop_pixels": [
         [
-          442,
           0,
-          466,
-          0
-        ],
-        [
-          467,
-          0,
-          491,
-          1
-        ],
-        [
-          492,
-          0,
-          516,
-          2
-        ],
-        [
-          517,
-          0,
-          541,
-          3
-        ],
-        [
-          542,
-          0,
-          557,
-          4
-        ],
-        [
-          0,
-          264,
+          292,
           79,
-          287
+          315
         ],
         [
           80,
-          263,
+          291,
           212,
-          287
+          315
         ],
         [
           213,
-          262,
+          290,
           345,
-          287
+          315
         ],
         [
           346,
-          261,
+          289,
           478,
-          287
+          315
         ],
         [
           479,
-          260,
+          288,
           557,
-          287
+          315
+        ],
+        [
+          0,
+          0,
+          34,
+          10
+        ],
+        [
+          35,
+          0,
+          114,
+          9
+        ],
+        [
+          115,
+          0,
+          194,
+          8
+        ],
+        [
+          195,
+          0,
+          274,
+          7
+        ],
+        [
+          275,
+          0,
+          354,
+          6
+        ],
+        [
+          355,
+          0,
+          434,
+          5
+        ],
+        [
+          435,
+          0,
+          514,
+          4
+        ],
+        [
+          515,
+          0,
+          557,
+          3
         ]
       ]
     },
@@ -14098,13 +14392,13 @@
       "printed_page": null,
       "box": [
         3035,
-        2020,
+        1991,
         3594,
         2312
       ],
       "file": "reference/pdf-209.png",
       "status": "source-and-output-reviewed",
-      "cleanup": "Shared top and bottom rules separated at their measured line centres; no borders drawn.",
+      "cleanup": "Full observed upper rule and adjoining detail retained; neighbouring panel separated above the rule. Bottom separation unchanged. See source/primer-top-review.json.",
       "cleanup_parameters": {
         "threshold": 170,
         "component_min_area": 3,
@@ -14115,159 +14409,57 @@
       "erase_crop_pixels": [
         [
           0,
-          0,
-          17,
-          14
-        ],
-        [
-          18,
-          0,
-          41,
-          15
-        ],
-        [
-          42,
-          0,
-          67,
-          16
-        ],
-        [
-          68,
-          0,
-          91,
-          17
-        ],
-        [
-          92,
-          0,
-          117,
-          18
-        ],
-        [
-          118,
-          0,
-          141,
-          19
-        ],
-        [
-          142,
-          0,
-          167,
-          20
-        ],
-        [
-          168,
-          0,
-          191,
-          21
-        ],
-        [
-          192,
-          0,
-          217,
-          22
-        ],
-        [
-          218,
-          0,
-          241,
-          23
-        ],
-        [
-          242,
-          0,
-          267,
-          24
-        ],
-        [
-          268,
-          0,
-          291,
-          25
-        ],
-        [
-          292,
-          0,
-          317,
-          26
-        ],
-        [
-          318,
-          0,
-          341,
-          27
-        ],
-        [
-          342,
-          0,
-          367,
-          28
-        ],
-        [
-          368,
-          0,
-          391,
-          29
-        ],
-        [
-          392,
-          0,
-          417,
-          30
-        ],
-        [
-          418,
-          0,
-          441,
-          31
-        ],
-        [
-          442,
-          0,
-          467,
-          32
-        ],
-        [
-          468,
-          0,
-          491,
-          33
-        ],
-        [
-          492,
-          0,
-          517,
-          34
-        ],
-        [
-          518,
-          0,
-          541,
-          35
-        ],
-        [
-          542,
-          0,
-          558,
-          36
-        ],
-        [
-          0,
-          276,
+          305,
           79,
-          292
+          321
         ],
         [
           80,
-          275,
+          304,
           479,
-          292
+          321
         ],
         [
           480,
-          274,
+          303,
           558,
-          292
+          321
+        ],
+        [
+          0,
+          0,
+          7,
+          8
+        ],
+        [
+          8,
+          0,
+          140,
+          7
+        ],
+        [
+          141,
+          0,
+          274,
+          6
+        ],
+        [
+          275,
+          0,
+          407,
+          5
+        ],
+        [
+          408,
+          0,
+          540,
+          4
+        ],
+        [
+          541,
+          0,
+          558,
+          3
         ]
       ]
     },

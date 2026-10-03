@@ -1,0 +1,5274 @@
+{
+  "schema_version": 1,
+  "version": "1.002",
+  "source_file": "reference/pdf-209.png",
+  "source_sha256": "5e24a4840604334728d2a235bb5a2255c94c60c17cd42063784653a1cec687a5",
+  "source_url": "https://archive.org/details/ldpd_12198261_000/page/n208/mode/1up",
+  "pdf_page": 209,
+  "method": "Retain the full printed upper rule from the original scan. Internal dividers use the independently measured bottom rule of the preceding panel; first-row panels retain their original uncropped outer top. Erase only above the reviewed rule, preserving its natural gaps and irregularities. Original scan-to-font affine, advance, lower separation and reviewed post-trace rotation are unchanged. No new border or pictorial content is drawn.",
+  "icons": [
+    {
+      "id": "baltimore-1832-p209-357-01",
+      "glyph": "uniE159",
+      "old_box": [
+        1010,
+        574,
+        1589,
+        893
+      ],
+      "box": [
+        1010,
+        574,
+        1589,
+        893
+      ],
+      "top_rule": {
+        "centre_x": 1299.5,
+        "centre_y": 588.0,
+        "slope": -0.0075,
+        "score": 175.41333333333333,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.3205699020480855,
+        0,
+        0,
+        0.3205699020480855,
+        51.17720391807658,
+        385.33229105893247
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          89,
+          14
+        ],
+        [
+          90,
+          0,
+          222,
+          13
+        ],
+        [
+          223,
+          0,
+          356,
+          12
+        ],
+        [
+          357,
+          0,
+          489,
+          11
+        ],
+        [
+          490,
+          0,
+          578,
+          10
+        ]
+      ],
+      "after_top_erase": [],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1010,
+          574,
+          1589,
+          893
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            89,
+            14
+          ],
+          [
+            90,
+            0,
+            222,
+            13
+          ],
+          [
+            223,
+            0,
+            356,
+            12
+          ],
+          [
+            357,
+            0,
+            489,
+            11
+          ],
+          [
+            490,
+            0,
+            578,
+            10
+          ],
+          [
+            0,
+            314,
+            89,
+            319
+          ],
+          [
+            90,
+            313,
+            489,
+            319
+          ],
+          [
+            490,
+            312,
+            578,
+            319
+          ]
+        ],
+        "post_trace_transform": [
+          0.9999861088685836,
+          -0.005270869934771615,
+          0.005270869934771615,
+          0.9999861088685836,
+          -4.73039189060904,
+          5.093620635394586
+        ],
+        "straightening_note": "-0.302 degrees; mean of upper and lower frame rules; see straightening.json."
+      },
+      "drawings": {
+        "uniE159": {
+          "before_sha256": "e3f07bea77ea36ba63d8a9bb2f40be07219ce81f52ef6ace4f78bb2748333e3e",
+          "after_sha256": "2ad44cf11bfb47838487ede8eef88b17e85aa6f5859cb1efdc4a5ab73d064b77"
+        },
+        "uniE159.primary": {
+          "before_sha256": "811501704bf22997b078b5c9dc4023ad105da3ae31ffb201ff6fa8b49ae26a17",
+          "after_sha256": "95d506ca4a3779d5d30a2ad51b996e9be15d6d8d10a1a9de888103c6f1fd9a95"
+        },
+        "uniE159.secondary": {
+          "before_sha256": "4d5fb9962ae022c1ffaab4fb283fb5498ab840156d0ad89b961df4d8671eb203",
+          "after_sha256": "a2754c0565e59cdb7b056e5c76cf3ab090beb3fd96e2c6b1f1fdfc48f23a825d"
+        },
+        "uniE159.tertiary": {
+          "before_sha256": "81028fe0835bd230a21d9bd0a8ca13eea1a79957d1a7d678714f5a6c4d32a17d",
+          "after_sha256": "a17949dabbba7c960a84469770c4117b91785e213f2c005b04d84666cefc7dfe"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-02",
+      "glyph": "uniE15A",
+      "old_box": [
+        1010,
+        882,
+        1595,
+        1191
+      ],
+      "box": [
+        1010,
+        874,
+        1595,
+        1191
+      ],
+      "top_rule": {
+        "centre_x": 1299.5,
+        "centre_y": 885.0,
+        "slope": -0.0025000000000000022,
+        "score": 174.22285714285715,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.30758714969241285,
+        0,
+        0,
+        0.30758714969241285,
+        52.311688311688314,
+        407.2746594322523
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          92,
+          2
+        ],
+        [
+          93,
+          0,
+          492,
+          1
+        ],
+        [
+          493,
+          0,
+          584,
+          0
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          289,
+          4
+        ],
+        [
+          290,
+          0,
+          584,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1010,
+          882,
+          1595,
+          1191
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            92,
+            2
+          ],
+          [
+            93,
+            0,
+            492,
+            1
+          ],
+          [
+            493,
+            0,
+            584,
+            0
+          ],
+          [
+            0,
+            305,
+            35,
+            309
+          ],
+          [
+            36,
+            304,
+            92,
+            309
+          ],
+          [
+            93,
+            303,
+            149,
+            309
+          ],
+          [
+            150,
+            302,
+            206,
+            309
+          ],
+          [
+            207,
+            301,
+            263,
+            309
+          ],
+          [
+            264,
+            300,
+            321,
+            309
+          ],
+          [
+            322,
+            299,
+            378,
+            309
+          ],
+          [
+            379,
+            298,
+            435,
+            309
+          ],
+          [
+            436,
+            297,
+            492,
+            309
+          ],
+          [
+            493,
+            296,
+            549,
+            309
+          ],
+          [
+            550,
+            295,
+            584,
+            309
+          ]
+        ],
+        "post_trace_transform": [
+          0.9998584634640222,
+          -0.016824180198889684,
+          0.016824180198889684,
+          0.9998584634640222,
+          -15.005320958318087,
+          16.345892594109728
+        ],
+        "straightening_note": "-0.964 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE15A": {
+          "before_sha256": "1faed88e5e3b7b11d06fdca12ca3c5fbe2a22bb8d768efe5d2ce5edc3884cdfd",
+          "after_sha256": "8b84aed7b5a470efb1bf28c6c198266e0e3536a0461f64acf578c09a812ae5ba"
+        },
+        "uniE15A.primary": {
+          "before_sha256": "43a01a13fa608ccca2e32d245b638eeaa2f204a7d572915eef5ccfc21001bb61",
+          "after_sha256": "50810a7e0cf28051d59c3783adec7f59071bbdaf4e59323f2796371f73fb1171"
+        },
+        "uniE15A.secondary": {
+          "before_sha256": "10edd609549af1e1b3caaef6a3b3b251625ec6b234aac4ae0c1748883c88de40",
+          "after_sha256": "901728384d6ab6787999df3d012b3c0251b07d9c726595e8e9ebd6da6bf99a8a"
+        },
+        "uniE15A.tertiary": {
+          "before_sha256": "316858a623e736e6720072db84e5be5116e1ef69e6ea606257f6dc4af7cea5f2",
+          "after_sha256": "2a011bb7796a7ef4bb68abf62c07e1806017af472a55cd52ee780fa6607e19b5"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-03",
+      "glyph": "uniE15B",
+      "old_box": [
+        1015,
+        1180,
+        1595,
+        1483
+      ],
+      "box": [
+        1015,
+        1164,
+        1595,
+        1483
+      ],
+      "top_rule": {
+        "centre_x": 1302.5,
+        "centre_y": 1180.0,
+        "slope": -0.0175,
+        "score": 171.90772128060263,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.31023784901758017,
+        0,
+        0,
+        0.31023784901758017,
+        52.21096173733196,
+        392.76582914385995
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          32,
+          3
+        ],
+        [
+          33,
+          0,
+          90,
+          2
+        ],
+        [
+          91,
+          0,
+          147,
+          1
+        ],
+        [
+          148,
+          0,
+          204,
+          0
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          1,
+          14
+        ],
+        [
+          2,
+          0,
+          58,
+          13
+        ],
+        [
+          59,
+          0,
+          116,
+          12
+        ],
+        [
+          117,
+          0,
+          173,
+          11
+        ],
+        [
+          174,
+          0,
+          230,
+          10
+        ],
+        [
+          231,
+          0,
+          287,
+          9
+        ],
+        [
+          288,
+          0,
+          344,
+          8
+        ],
+        [
+          345,
+          0,
+          401,
+          7
+        ],
+        [
+          402,
+          0,
+          458,
+          6
+        ],
+        [
+          459,
+          0,
+          516,
+          5
+        ],
+        [
+          517,
+          0,
+          573,
+          4
+        ],
+        [
+          574,
+          0,
+          579,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1015,
+          1180,
+          1595,
+          1483
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            32,
+            3
+          ],
+          [
+            33,
+            0,
+            90,
+            2
+          ],
+          [
+            91,
+            0,
+            147,
+            1
+          ],
+          [
+            148,
+            0,
+            204,
+            0
+          ],
+          [
+            0,
+            287,
+            189,
+            303
+          ],
+          [
+            190,
+            286,
+            390,
+            303
+          ],
+          [
+            391,
+            285,
+            579,
+            303
+          ]
+        ],
+        "post_trace_transform": [
+          0.9999895449391362,
+          -0.004572746704043463,
+          0.004572746704043463,
+          0.9999895449391362,
+          -4.105393354966418,
+          4.417537377475355
+        ],
+        "straightening_note": "-0.262 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE15B": {
+          "before_sha256": "bdcd865f1996128a12374d4e4bf68e7c82f7ebea7a45d53a289ddaa2a1a58a4f",
+          "after_sha256": "956d7b2dc45e90073b856578451f91db4ab01014a798929164c73d47e6cae6a7"
+        },
+        "uniE15B.primary": {
+          "before_sha256": "374978edeee29712b3cd00eee04ab915c3d65853a6cabb37e5500ccb7edf8e3e",
+          "after_sha256": "7dcdd4f617fe8724c4c0f54ac9e8bdd31c1110a0124fdb0bf968f21b3568ac40"
+        },
+        "uniE15B.secondary": {
+          "before_sha256": "5dafc13b226088ed0c15000c18d43d6c395d64de80827ac57d831aa587df8870",
+          "after_sha256": "5e79356f04fa9ad9300d39e1c54780286c716b9c0ada3756256bd917fabe6304"
+        },
+        "uniE15B.tertiary": {
+          "before_sha256": "3deae2dfb655ae88ff21f59d0b1928c17f1dee7accdf7cc620349c68e00d24b1",
+          "after_sha256": "fce12f947b0b09cc5ab3b2aff637721b54324d739572463ed1cab8a73851027a"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-04",
+      "glyph": "uniE15C",
+      "old_box": [
+        1021,
+        1467,
+        1600,
+        1776
+      ],
+      "box": [
+        1021,
+        1452,
+        1600,
+        1776
+      ],
+      "top_rule": {
+        "centre_x": 1305.0,
+        "centre_y": 1464.0,
+        "slope": -0.0049999999999999975,
+        "score": 170.2281368821293,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.31639556342846575,
+        0,
+        0,
+        0.31639556342846575,
+        51.976968589718304,
+        378.2918994390683
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          84,
+          6
+        ],
+        [
+          85,
+          0,
+          284,
+          5
+        ],
+        [
+          285,
+          0,
+          484,
+          4
+        ],
+        [
+          485,
+          0,
+          578,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1021,
+          1467,
+          1600,
+          1776
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            297,
+            39,
+            309
+          ],
+          [
+            40,
+            296,
+            139,
+            309
+          ],
+          [
+            140,
+            295,
+            239,
+            309
+          ],
+          [
+            240,
+            294,
+            339,
+            309
+          ],
+          [
+            340,
+            293,
+            439,
+            309
+          ],
+          [
+            440,
+            292,
+            539,
+            309
+          ],
+          [
+            540,
+            291,
+            578,
+            309
+          ]
+        ],
+        "post_trace_transform": [
+          0.9999480546503647,
+          -0.010192546342851952,
+          0.010192546342851952,
+          0.9999480546503647,
+          -9.123216391518389,
+          9.872365489181107
+        ],
+        "straightening_note": "-0.584 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE15C": {
+          "before_sha256": "d81e0827220b9abf605ee785665c286fd7c98ae75159b99f19cb535c054d0d9b",
+          "after_sha256": "132639f3d1390e1f2d74b9e1fc601c316b06e0cffe917a2722fa32f28c88b32a"
+        },
+        "uniE15C.primary": {
+          "before_sha256": "65244e87fe39fdddecb3f78803088ba821e9b9d5381b1cb98e6d0861a4106866",
+          "after_sha256": "87942ad3dcac3fcba8b0b3217d113c95d9eeefb4fbdc08d87eda6fc2936be796"
+        },
+        "uniE15C.secondary": {
+          "before_sha256": "44db73db5cb52e2ff83a9f17cca98bfadf95f901b3aac7abaefefc4448222cfa",
+          "after_sha256": "0fa11a2dfe4c5a7eda19a1ee84d7c1fa9da7c0cf61dfe269ed3962e3456d462e"
+        },
+        "uniE15C.tertiary": {
+          "before_sha256": "d82dcc752856713618bf85a2c1d5ba9efffe44d01d807ebcb97d8e88a706e660",
+          "after_sha256": "7d5ccbe0b2e456e00c4aaf7c7491d1aa45b7326ea9c5ddcb3f0b8bdd94053412"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-05",
+      "glyph": "uniE15D",
+      "old_box": [
+        1026,
+        1765,
+        1605,
+        2073
+      ],
+      "box": [
+        1026,
+        1746,
+        1605,
+        2073
+      ],
+      "top_rule": {
+        "centre_x": 1310.5,
+        "centre_y": 1759.0,
+        "slope": -0.010000000000000002,
+        "score": 170.40190476190477,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.31533923350148774,
+        0,
+        0,
+        0.31533923350148774,
+        50.48406813294387,
+        392.776842912857
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          84,
+          8
+        ],
+        [
+          85,
+          0,
+          184,
+          7
+        ],
+        [
+          185,
+          0,
+          284,
+          6
+        ],
+        [
+          285,
+          0,
+          384,
+          5
+        ],
+        [
+          385,
+          0,
+          484,
+          4
+        ],
+        [
+          485,
+          0,
+          578,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1026,
+          1765,
+          1605,
+          2073
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            302,
+            32,
+            308
+          ],
+          [
+            33,
+            301,
+            89,
+            308
+          ],
+          [
+            90,
+            300,
+            146,
+            308
+          ],
+          [
+            147,
+            299,
+            203,
+            308
+          ],
+          [
+            204,
+            298,
+            260,
+            308
+          ],
+          [
+            261,
+            297,
+            318,
+            308
+          ],
+          [
+            319,
+            296,
+            375,
+            308
+          ],
+          [
+            376,
+            295,
+            432,
+            308
+          ],
+          [
+            433,
+            294,
+            489,
+            308
+          ],
+          [
+            490,
+            293,
+            546,
+            308
+          ],
+          [
+            547,
+            292,
+            578,
+            308
+          ]
+        ],
+        "post_trace_transform": [
+          0.999838733627968,
+          -0.01795847257483846,
+          0.01795847257483846,
+          0.999838733627968,
+          -16.00716453471583,
+          17.457107296972936
+        ],
+        "straightening_note": "-1.029 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE15D": {
+          "before_sha256": "92299f862e8393216b97b37628b3cc02f1c8d878f37bdf69b9d892aaab2e1ddf",
+          "after_sha256": "894fcfbcef9a798a812f559cad3c4e00d02ad57c3e83cb90d1eb472e3e3a62a4"
+        },
+        "uniE15D.primary": {
+          "before_sha256": "9e3987b683755a0ecf389daf9804104309311e9924e640df40fe4bc1e3d82f9c",
+          "after_sha256": "b77cbfa2d64371db76bac5c10f88541a7441082f383ab027b43477ff8dd542c2"
+        },
+        "uniE15D.secondary": {
+          "before_sha256": "2ad6a8a9a9a4dd97775dc3db826e2c3529432f1a6c9a989fb555ed06764585e3",
+          "after_sha256": "f52abf2fc5fe529441c767b979e607ff1c6b3aa00a5faf2110c3d6dde1cc8449"
+        },
+        "uniE15D.tertiary": {
+          "before_sha256": "dbe4237f4f6d93df6b80d3d38f7507c8f28abe0ce7965fdef3ac3f8b0255cf24",
+          "after_sha256": "3c158f73d0ef6c8cd0ce432ea13533f14388f28f34f59a6891639f0576116fab"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-06",
+      "glyph": "uniE15E",
+      "old_box": [
+        1031,
+        2063,
+        1611,
+        2360
+      ],
+      "box": [
+        1031,
+        2044,
+        1611,
+        2360
+      ],
+      "top_rule": {
+        "centre_x": 1315.5,
+        "centre_y": 2060.0,
+        "slope": -0.0175,
+        "score": 177.68761904761905,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.313588850174216,
+        0,
+        0,
+        0.313588850174216,
+        51.45644599303136,
+        401.3937282229965
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          32,
+          0
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          55,
+          13
+        ],
+        [
+          56,
+          0,
+          113,
+          12
+        ],
+        [
+          114,
+          0,
+          170,
+          11
+        ],
+        [
+          171,
+          0,
+          227,
+          10
+        ],
+        [
+          228,
+          0,
+          284,
+          9
+        ],
+        [
+          285,
+          0,
+          341,
+          8
+        ],
+        [
+          342,
+          0,
+          398,
+          7
+        ],
+        [
+          399,
+          0,
+          455,
+          6
+        ],
+        [
+          456,
+          0,
+          513,
+          5
+        ],
+        [
+          514,
+          0,
+          570,
+          4
+        ],
+        [
+          571,
+          0,
+          579,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1031,
+          2063,
+          1611,
+          2360
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            32,
+            0
+          ],
+          [
+            0,
+            284,
+            579,
+            297
+          ]
+        ]
+      },
+      "drawings": {
+        "uniE15E": {
+          "before_sha256": "9e493445be70b3bb7af42519184f223239e93f72b3f45ce5b1a9811e979630a4",
+          "after_sha256": "d27cec03f47432edbcc34c1075e5a2357fdc5276eb8be029860623b124e31231"
+        },
+        "uniE15E.primary": {
+          "before_sha256": "cc953bf9ddfac8bbe6e7db4ef0fbc0129d0828d2602746b083503b5ae66b6f77",
+          "after_sha256": "6afd6449b5c0079a33275d64834879279d49ace32c88024795e546af6e41f11d"
+        },
+        "uniE15E.secondary": {
+          "before_sha256": "de828de9255e4a9ef910edc09d057445f58e8053622fa4ecab753fcea4e52674",
+          "after_sha256": "ba27f24681202f6bc9643a70afd1604633e2eb4e17f87de3aa24751737f8cf30"
+        },
+        "uniE15E.tertiary": {
+          "before_sha256": "ed36e4c40c4f3f3f2a952bea3fa4cf649e479962f667a1b4b043bbffe665055a",
+          "after_sha256": "c64576e24da3a14fe0c7e15146236f0266199e980da5f59d73f02faf14f449c6"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-07",
+      "glyph": "uniE15F",
+      "old_box": [
+        1675,
+        574,
+        2254,
+        904
+      ],
+      "box": [
+        1675,
+        574,
+        2254,
+        904
+      ],
+      "top_rule": {
+        "centre_x": 1964.5,
+        "centre_y": 593.0,
+        "slope": 0.010000000000000002,
+        "score": 179.17142857142858,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.31935588943491366,
+        0,
+        0,
+        0.31935588943491366,
+        51.86447620147328,
+        369.39018970389094
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          39,
+          14
+        ],
+        [
+          40,
+          0,
+          139,
+          15
+        ],
+        [
+          140,
+          0,
+          239,
+          16
+        ],
+        [
+          240,
+          0,
+          339,
+          17
+        ],
+        [
+          340,
+          0,
+          439,
+          18
+        ],
+        [
+          440,
+          0,
+          539,
+          19
+        ],
+        [
+          540,
+          0,
+          578,
+          20
+        ]
+      ],
+      "after_top_erase": [],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1675,
+          574,
+          2254,
+          904
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            39,
+            14
+          ],
+          [
+            40,
+            0,
+            139,
+            15
+          ],
+          [
+            140,
+            0,
+            239,
+            16
+          ],
+          [
+            240,
+            0,
+            339,
+            17
+          ],
+          [
+            340,
+            0,
+            439,
+            18
+          ],
+          [
+            440,
+            0,
+            539,
+            19
+          ],
+          [
+            540,
+            0,
+            578,
+            20
+          ],
+          [
+            0,
+            321,
+            578,
+            330
+          ]
+        ],
+        "post_trace_transform": [
+          0.9999844036286483,
+          0.00558502457082831,
+          -0.00558502457082831,
+          0.9999844036286483,
+          5.041557015728564,
+          -5.36992695206186
+        ],
+        "straightening_note": "+0.320 degrees; mean of upper and lower frame rules; see straightening.json."
+      },
+      "drawings": {
+        "uniE15F": {
+          "before_sha256": "61c91741529919218f11b117b06a5085c4b5e495f89e449e5d07ee73513e7bfc",
+          "after_sha256": "c3355e3ddd85d04fe67edf2aa79ccadba2e8952780ed1b6cb0da5848fb24db0d"
+        },
+        "uniE15F.primary": {
+          "before_sha256": "c8ab672c291264b61e94ca2820d8707fc63abfa51fc0f85b155d7278f4765c1e",
+          "after_sha256": "3b9fd6371230959acc5655e20489f4f4e36aae88efabb8275249c514c4c189ce"
+        },
+        "uniE15F.secondary": {
+          "before_sha256": "9956662c153c0a4016a198ac0dba9ec2dd7d7400800120d7d54e79431526c0e5",
+          "after_sha256": "65115f39706cde7555d918e84f06ab3bd3b5f155c1ac003db25a0d3a665fa794"
+        },
+        "uniE15F.tertiary": {
+          "before_sha256": "f5a665fe95565985329a7806cc34d5414b63b8709173603256b1a1cddcd85621",
+          "after_sha256": "42b212222d7f1ab7fe0d7d5fa65110478ebd8803c385774ca4d16d04bda9d90e"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-08",
+      "glyph": "uniE160",
+      "old_box": [
+        1680,
+        893,
+        2259,
+        1201
+      ],
+      "box": [
+        1680,
+        883,
+        2259,
+        1201
+      ],
+      "top_rule": {
+        "centre_x": 1964.5,
+        "centre_y": 893.0,
+        "slope": 0.0,
+        "score": 172.30666666666667,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.3189759343393256,
+        0,
+        0,
+        0.3189759343393256,
+        51.878914495105626,
+        384.6943780748195
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          578,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1680,
+          893,
+          2259,
+          1201
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            301,
+            89,
+            308
+          ],
+          [
+            90,
+            300,
+            489,
+            308
+          ],
+          [
+            490,
+            299,
+            578,
+            308
+          ]
+        ]
+      },
+      "drawings": {
+        "uniE160": {
+          "before_sha256": "91a36e65d2dd168b258a9cd7543638c6ea6ad1cd7b436b38a836a6ab2e967830",
+          "after_sha256": "d060669f4f6b5fd4b255d508e6aa9dc598d016095d7ca1b688b464ede85fb95c"
+        },
+        "uniE160.primary": {
+          "before_sha256": "29c2e8401405ae8d7b068fc2b6639dc4a94b950d61d51c0b89131af48fa6b262",
+          "after_sha256": "2b0c20fbd37c9633836f42b28854acfddbbde34345d6e73faff369844f68d3bf"
+        },
+        "uniE160.secondary": {
+          "before_sha256": "dd54cd43c9796a5a1c223a3f9ea659a044d1c75da61f7b2bf8bbe1df71a0d202",
+          "after_sha256": "dd6a9057462216dabb4128c3637a71d006d386372de04384e6acef9139afab9c"
+        },
+        "uniE160.tertiary": {
+          "before_sha256": "aa9137a747455fb4ca4e922fa51ff3c04ef21c77d40109d0b3ac0bc54b3f2efa",
+          "after_sha256": "028df4a8f884477ced30fe2d5ac558d5967a95fc117f0e186a1a92f0f20af0dc"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-09",
+      "glyph": "uniE161",
+      "old_box": [
+        1680,
+        1191,
+        2265,
+        1488
+      ],
+      "box": [
+        1680,
+        1180,
+        2265,
+        1488
+      ],
+      "top_rule": {
+        "centre_x": 1969.5,
+        "centre_y": 1191.0,
+        "slope": -0.0025000000000000022,
+        "score": 170.46857142857144,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.31523642732049034,
+        0,
+        0,
+        0.31523642732049034,
+        51.39054290718039,
+        419.2644483362522
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          289,
+          4
+        ],
+        [
+          290,
+          0,
+          584,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1680,
+          1191,
+          2265,
+          1488
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            443,
+            297,
+            542,
+            297
+          ],
+          [
+            543,
+            296,
+            584,
+            297
+          ]
+        ]
+      },
+      "drawings": {
+        "uniE161": {
+          "before_sha256": "cc7ddbda38cb12a799bded1cf2b4a60bbf8db0e7d4f6182a8762c4eb9627cf81",
+          "after_sha256": "440643446731aa4a62cc15cf65f3a44c1657dcae76dcfd52fdb69660011df890"
+        },
+        "uniE161.primary": {
+          "before_sha256": "22537b99142f16d9d7e52a8480994c82acfe39b04fa054df9a626abd5ad78b65",
+          "after_sha256": "b93a5d6f0598d04139f0c61df4b0a63e8775b4b3ab660c27d253fb68d728264d"
+        },
+        "uniE161.secondary": {
+          "before_sha256": "5269fcfc53bae81368be0b265117ee982c38e543dbec5b0f348fd0041b749eef",
+          "after_sha256": "41ee01f44eac80ceecb4af2ed6a7a37cad2b07647a7e3aa981d2405cd89cb9cc"
+        },
+        "uniE161.tertiary": {
+          "before_sha256": "3d71f6b04b6605136f2b0e6a2de81ca6d6989c87c780efc5af8389a2c829d771",
+          "after_sha256": "c5a662a37daa207d96583babe60bee24fcf54207af6dc1019a6197c30a390065"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-10",
+      "glyph": "uniE162",
+      "old_box": [
+        1685,
+        1478,
+        2270,
+        1791
+      ],
+      "box": [
+        1685,
+        1475,
+        2270,
+        1791
+      ],
+      "top_rule": {
+        "centre_x": 1972.5,
+        "centre_y": 1488.0,
+        "slope": -0.010000000000000002,
+        "score": 163.00376647834275,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.3163114541998245,
+        0,
+        0,
+        0.3163114541998245,
+        42.490821114411936,
+        377.93113787351683
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          42,
+          11
+        ],
+        [
+          43,
+          0,
+          142,
+          10
+        ],
+        [
+          143,
+          0,
+          242,
+          9
+        ],
+        [
+          243,
+          0,
+          342,
+          8
+        ],
+        [
+          343,
+          0,
+          442,
+          7
+        ],
+        [
+          443,
+          0,
+          542,
+          6
+        ],
+        [
+          543,
+          0,
+          584,
+          5
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          87,
+          8
+        ],
+        [
+          88,
+          0,
+          187,
+          7
+        ],
+        [
+          188,
+          0,
+          287,
+          6
+        ],
+        [
+          288,
+          0,
+          387,
+          5
+        ],
+        [
+          388,
+          0,
+          487,
+          4
+        ],
+        [
+          488,
+          0,
+          584,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1685,
+          1478,
+          2270,
+          1791
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            42,
+            11
+          ],
+          [
+            43,
+            0,
+            142,
+            10
+          ],
+          [
+            143,
+            0,
+            242,
+            9
+          ],
+          [
+            243,
+            0,
+            342,
+            8
+          ],
+          [
+            343,
+            0,
+            442,
+            7
+          ],
+          [
+            443,
+            0,
+            542,
+            6
+          ],
+          [
+            543,
+            0,
+            584,
+            5
+          ],
+          [
+            0,
+            298,
+            59,
+            313
+          ],
+          [
+            60,
+            297,
+            125,
+            313
+          ],
+          [
+            126,
+            296,
+            192,
+            313
+          ],
+          [
+            193,
+            295,
+            259,
+            313
+          ],
+          [
+            260,
+            294,
+            325,
+            313
+          ],
+          [
+            326,
+            293,
+            392,
+            313
+          ],
+          [
+            393,
+            292,
+            459,
+            313
+          ],
+          [
+            460,
+            291,
+            525,
+            313
+          ],
+          [
+            526,
+            290,
+            584,
+            313
+          ]
+        ],
+        "post_trace_transform": [
+          0.9998925328992174,
+          -0.014660240529660666,
+          0.014660240529660666,
+          0.9998925328992174,
+          -13.090618191540237,
+          14.229192261297158
+        ],
+        "straightening_note": "-0.840 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE162": {
+          "before_sha256": "4cbcf53559526effb7306c2791c3202dbdeaf8274618135d092a54b5beb206b6",
+          "after_sha256": "596dd10b9f14f55bf6b2e92559ab84385f1c9d2d80a47f7b57e6c96376987de6"
+        },
+        "uniE162.primary": {
+          "before_sha256": "993d64f5fb81ab55533b5e5c62e49ac109305b30c2150bedca55c82269686961",
+          "after_sha256": "7c653cde70fbf780d9329510700b3c5cf0d8a5bdcb9ec081380e83c105fe249c"
+        },
+        "uniE162.secondary": {
+          "before_sha256": "61019f0b691f060a87b323ed54cf84bccbda16d29ca6bdce81293f6145e5150a",
+          "after_sha256": "6174c8c959bb87df27141a8c81fd193afcfff0d80caa11699102448fbb4b6b90"
+        },
+        "uniE162.tertiary": {
+          "before_sha256": "72f327ca6acd8a60b93a0268cee152ca48e8bfa1b843ad6c0947f19a1c24ef31",
+          "after_sha256": "d07d3578ea22824ffc3d2fb272ef8ed9bfa5d7aa587f54c230573d603f0b6228"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-11",
+      "glyph": "uniE163",
+      "old_box": [
+        1690,
+        1781,
+        2275,
+        2084
+      ],
+      "box": [
+        1690,
+        1755,
+        2275,
+        2084
+      ],
+      "top_rule": {
+        "centre_x": 1977.5,
+        "centre_y": 1770.0,
+        "slope": -0.015,
+        "score": 166.10169491525423,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.3167549392822873,
+        0,
+        0,
+        0.3167549392822873,
+        39.17479479474268,
+        380.52189957704877
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          510,
+          0,
+          542,
+          0
+        ],
+        [
+          543,
+          0,
+          575,
+          1
+        ],
+        [
+          576,
+          0,
+          584,
+          2
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          20,
+          12
+        ],
+        [
+          21,
+          0,
+          87,
+          11
+        ],
+        [
+          88,
+          0,
+          154,
+          10
+        ],
+        [
+          155,
+          0,
+          220,
+          9
+        ],
+        [
+          221,
+          0,
+          287,
+          8
+        ],
+        [
+          288,
+          0,
+          354,
+          7
+        ],
+        [
+          355,
+          0,
+          420,
+          6
+        ],
+        [
+          421,
+          0,
+          487,
+          5
+        ],
+        [
+          488,
+          0,
+          554,
+          4
+        ],
+        [
+          555,
+          0,
+          584,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1690,
+          1781,
+          2275,
+          2084
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            510,
+            0,
+            542,
+            0
+          ],
+          [
+            543,
+            0,
+            575,
+            1
+          ],
+          [
+            576,
+            0,
+            584,
+            2
+          ],
+          [
+            0,
+            286,
+            32,
+            303
+          ],
+          [
+            33,
+            285,
+            72,
+            303
+          ],
+          [
+            73,
+            284,
+            112,
+            303
+          ],
+          [
+            113,
+            283,
+            152,
+            303
+          ],
+          [
+            153,
+            282,
+            192,
+            303
+          ],
+          [
+            193,
+            281,
+            232,
+            303
+          ],
+          [
+            233,
+            280,
+            272,
+            303
+          ],
+          [
+            273,
+            279,
+            312,
+            303
+          ],
+          [
+            313,
+            278,
+            352,
+            303
+          ],
+          [
+            353,
+            277,
+            392,
+            303
+          ],
+          [
+            393,
+            276,
+            432,
+            303
+          ],
+          [
+            433,
+            275,
+            472,
+            303
+          ],
+          [
+            473,
+            274,
+            512,
+            303
+          ],
+          [
+            513,
+            273,
+            552,
+            303
+          ],
+          [
+            553,
+            272,
+            584,
+            303
+          ]
+        ],
+        "post_trace_transform": [
+          0.9996717890300825,
+          -0.02561863027943415,
+          0.02561863027943415,
+          0.9996717890300825,
+          -22.740371876490208,
+          24.991749462300277
+        ],
+        "straightening_note": "-1.468 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE163": {
+          "before_sha256": "7033ca0082f74d4fff16098aced02bbbd096f658b1c0ae984907b5d0be646b8d",
+          "after_sha256": "e90badf71ddebd6084c004eb3c12a347f3bcc380e15b4d29737639c9cc0d186b"
+        },
+        "uniE163.primary": {
+          "before_sha256": "96078ce6de8ecaee5a909f47ed94382736cd4080e4cc397b105651af6ab99177",
+          "after_sha256": "1bf034272a0d351fb8da14ecd0bbb5b6aa5b2aace9dc8d2bfff47955a38d4a04"
+        },
+        "uniE163.secondary": {
+          "before_sha256": "a600e2c8bf42484f319398599745246ed98b175a408b46cb5ce037c85869c35a",
+          "after_sha256": "3021e465100296fc25d0ed67f81e6135de9712f407da8c0f4e21ab28788e928d"
+        },
+        "uniE163.tertiary": {
+          "before_sha256": "0f759af6035a406783d87860c0e2b6f2009a62772ac329180505655da30ae32d",
+          "after_sha256": "22f55b26f10c1fa767692a1e7789dcb4ba76b872640c6698ca0eaf4ac6b78bff"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-12",
+      "glyph": "uniE164",
+      "old_box": [
+        1696,
+        2073,
+        2275,
+        2371
+      ],
+      "box": [
+        1696,
+        2040,
+        2275,
+        2371
+      ],
+      "top_rule": {
+        "centre_x": 1982.5,
+        "centre_y": 2058.0,
+        "slope": -0.025,
+        "score": 173.79472693032014,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.3163089310021263,
+        0,
+        0,
+        0.3163089310021263,
+        32.36910689978737,
+        416.36364449774885
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          18,
+          26
+        ],
+        [
+          19,
+          0,
+          46,
+          25
+        ],
+        [
+          47,
+          0,
+          75,
+          24
+        ],
+        [
+          76,
+          0,
+          103,
+          23
+        ],
+        [
+          104,
+          0,
+          132,
+          22
+        ],
+        [
+          133,
+          0,
+          160,
+          21
+        ],
+        [
+          161,
+          0,
+          189,
+          20
+        ],
+        [
+          190,
+          0,
+          218,
+          19
+        ],
+        [
+          219,
+          0,
+          246,
+          18
+        ],
+        [
+          247,
+          0,
+          275,
+          17
+        ],
+        [
+          276,
+          0,
+          303,
+          16
+        ],
+        [
+          304,
+          0,
+          332,
+          15
+        ],
+        [
+          333,
+          0,
+          360,
+          14
+        ],
+        [
+          361,
+          0,
+          389,
+          13
+        ],
+        [
+          390,
+          0,
+          418,
+          12
+        ],
+        [
+          419,
+          0,
+          446,
+          11
+        ],
+        [
+          447,
+          0,
+          475,
+          10
+        ],
+        [
+          476,
+          0,
+          503,
+          9
+        ],
+        [
+          504,
+          0,
+          532,
+          8
+        ],
+        [
+          533,
+          0,
+          560,
+          7
+        ],
+        [
+          561,
+          0,
+          578,
+          6
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          6,
+          18
+        ],
+        [
+          7,
+          0,
+          46,
+          17
+        ],
+        [
+          47,
+          0,
+          86,
+          16
+        ],
+        [
+          87,
+          0,
+          126,
+          15
+        ],
+        [
+          127,
+          0,
+          166,
+          14
+        ],
+        [
+          167,
+          0,
+          206,
+          13
+        ],
+        [
+          207,
+          0,
+          246,
+          12
+        ],
+        [
+          247,
+          0,
+          286,
+          11
+        ],
+        [
+          287,
+          0,
+          326,
+          10
+        ],
+        [
+          327,
+          0,
+          366,
+          9
+        ],
+        [
+          367,
+          0,
+          406,
+          8
+        ],
+        [
+          407,
+          0,
+          446,
+          7
+        ],
+        [
+          447,
+          0,
+          486,
+          6
+        ],
+        [
+          487,
+          0,
+          526,
+          5
+        ],
+        [
+          527,
+          0,
+          566,
+          4
+        ],
+        [
+          567,
+          0,
+          578,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          1696,
+          2073,
+          2275,
+          2371
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            18,
+            26
+          ],
+          [
+            19,
+            0,
+            46,
+            25
+          ],
+          [
+            47,
+            0,
+            75,
+            24
+          ],
+          [
+            76,
+            0,
+            103,
+            23
+          ],
+          [
+            104,
+            0,
+            132,
+            22
+          ],
+          [
+            133,
+            0,
+            160,
+            21
+          ],
+          [
+            161,
+            0,
+            189,
+            20
+          ],
+          [
+            190,
+            0,
+            218,
+            19
+          ],
+          [
+            219,
+            0,
+            246,
+            18
+          ],
+          [
+            247,
+            0,
+            275,
+            17
+          ],
+          [
+            276,
+            0,
+            303,
+            16
+          ],
+          [
+            304,
+            0,
+            332,
+            15
+          ],
+          [
+            333,
+            0,
+            360,
+            14
+          ],
+          [
+            361,
+            0,
+            389,
+            13
+          ],
+          [
+            390,
+            0,
+            418,
+            12
+          ],
+          [
+            419,
+            0,
+            446,
+            11
+          ],
+          [
+            447,
+            0,
+            475,
+            10
+          ],
+          [
+            476,
+            0,
+            503,
+            9
+          ],
+          [
+            504,
+            0,
+            532,
+            8
+          ],
+          [
+            533,
+            0,
+            560,
+            7
+          ],
+          [
+            561,
+            0,
+            578,
+            6
+          ],
+          [
+            0,
+            289,
+            89,
+            298
+          ],
+          [
+            90,
+            290,
+            489,
+            298
+          ],
+          [
+            490,
+            291,
+            578,
+            298
+          ]
+        ],
+        "post_trace_transform": [
+          0.999878544030276,
+          -0.015585159219444962,
+          0.015585159219444962,
+          0.999878544030276,
+          -13.909559742686548,
+          15.13340386029654
+        ],
+        "straightening_note": "-0.893 degrees; mean of divergent upper and lower frame rules; retain original trapezoid; see straightening.json."
+      },
+      "drawings": {
+        "uniE164": {
+          "before_sha256": "4ec3c78395e0dc56b54c43b47e2d28ba619a4636d19342f867e27a873b757418",
+          "after_sha256": "52436b7548af897272723609e6ff6c9323e7e502ea6876e1685db5407eacd70a"
+        },
+        "uniE164.primary": {
+          "before_sha256": "8a837661c904a2f0c56321be17b5cd7244dd26437918c6ac79e358dfd3dc1731",
+          "after_sha256": "707d578e6e2c2213fe91d2d8723059b69362c82f2b7aa693303d3f05c5dfe899"
+        },
+        "uniE164.secondary": {
+          "before_sha256": "b4b22d092b5fa0b1f37ef9ecd03a9b36fcc5e54b589cbcaae5660c91234060f3",
+          "after_sha256": "bbf1eb07b0d2a7f116a930005bf8f772f00a9593da088c6eab987fe825b6e129"
+        },
+        "uniE164.tertiary": {
+          "before_sha256": "6d16932d98a87033ccb10ffd816378aaa24b92c7986cc0aa39b4b6ad3a292217",
+          "after_sha256": "24fa579350524eab13ced764aaea11250a2cb31b5772900413bba345533c67e0"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-13",
+      "glyph": "uniE165",
+      "old_box": [
+        2344,
+        574,
+        2929,
+        882
+      ],
+      "box": [
+        2344,
+        574,
+        2929,
+        882
+      ],
+      "top_rule": {
+        "centre_x": 2636.5,
+        "centre_y": 585.0,
+        "slope": 0.0,
+        "score": 177.9623352165725,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.30931354631046026,
+        0,
+        0,
+        0.30931354631046026,
+        51.62745814758159,
+        415.9243000241297
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          584,
+          9
+        ]
+      ],
+      "after_top_erase": [],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          2344,
+          574,
+          2929,
+          882
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            584,
+            9
+          ],
+          [
+            0,
+            301,
+            584,
+            308
+          ]
+        ]
+      },
+      "drawings": {
+        "uniE165": {
+          "before_sha256": "aa94f9cef63972c99f7d64da94b419d6c2ad8512adf0d8910a4fa77dd4751ecf",
+          "after_sha256": "873111186631677bc05b05e4603f71c4b01f7c1586fccde469b7bcd8db961f91"
+        },
+        "uniE165.primary": {
+          "before_sha256": "7461894bbb2d49d7408f863f6727f24e84b95789dbd250468232c76ce6dfa73f",
+          "after_sha256": "e6f9791f9e63f5257a976f906e58f72be9f5bf64813b9f1f4ba15738eecac81d"
+        },
+        "uniE165.secondary": {
+          "before_sha256": "cecb8c447b03b27b9ff9daf29ba54705416ae31e6b70ea1ef6272b85058d1d29",
+          "after_sha256": "bf5dc20c2f2600cc4b4143f5a47bfa8d65a5a337467906c7221abfa40cf8a7af"
+        },
+        "uniE165.tertiary": {
+          "before_sha256": "3ac9f3a1d362381cc102f3d43803b183e0a03f15ca0cf63698f624d001393e2d",
+          "after_sha256": "217a77536178c5e2b6b5a60fdc909d6a2f4108d17247029eec6e0dc76ab8118e"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-14",
+      "glyph": "uniE166",
+      "old_box": [
+        2350,
+        872,
+        2929,
+        1180
+      ],
+      "box": [
+        2350,
+        863,
+        2929,
+        1180
+      ],
+      "top_rule": {
+        "centre_x": 2636.5,
+        "centre_y": 873.0,
+        "slope": 0.0,
+        "score": 168.38041431261772,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.31774007573343643,
+        0,
+        0,
+        0.31774007573343643,
+        51.60813704639598,
+        387.9618679555672
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          578,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          2350,
+          872,
+          2929,
+          1180
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            302,
+            89,
+            308
+          ],
+          [
+            90,
+            301,
+            489,
+            308
+          ],
+          [
+            490,
+            300,
+            578,
+            308
+          ]
+        ]
+      },
+      "drawings": {
+        "uniE166": {
+          "before_sha256": "08cbd32e49f5998084a02bd89b20ae6845450b4b08a45c9dacc076f3e2be0215",
+          "after_sha256": "24d6b58dc6889168f23eb417e58bf8c1d5c173049b4c6a90c45468b72e6b9f07"
+        },
+        "uniE166.primary": {
+          "before_sha256": "0efad86196280895088d5949989aafc777c8736070fae163dd451c1807e55e0e",
+          "after_sha256": "3c93e53ef20f9457a8931976215979db3430e18bce312351379967b27265288b"
+        },
+        "uniE166.secondary": {
+          "before_sha256": "936f01e9765945b4f197440d7ea06741c1a8e50e228ddca91d8366e9793987b1",
+          "after_sha256": "17fb170afda972286a76a9d05ed1a2df28c0052cac69d6a14ea206d9ad0e0fa8"
+        },
+        "uniE166.tertiary": {
+          "before_sha256": "f66eadd5ad5d1fcdd46b2f5aa73cd6d8668c0e49bc9f842f6655f2ecfa85f95b",
+          "after_sha256": "62a950970cdda341e70e7e997b28f2086c3ab42a66b09d61f4e90d243f67fe5c"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-15",
+      "glyph": "uniE167",
+      "old_box": [
+        2350,
+        1170,
+        2934,
+        1478
+      ],
+      "box": [
+        2350,
+        1160,
+        2934,
+        1478
+      ],
+      "top_rule": {
+        "centre_x": 2639.5,
+        "centre_y": 1171.0,
+        "slope": -0.0025000000000000022,
+        "score": 169.37333333333333,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.3119584055459272,
+        0,
+        0,
+        0.3119584055459272,
+        51.52166377816291,
+        382.5991151438449
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          92,
+          0
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          289,
+          4
+        ],
+        [
+          290,
+          0,
+          583,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          2350,
+          1170,
+          2934,
+          1478
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            92,
+            0
+          ],
+          [
+            0,
+            293,
+            91,
+            308
+          ],
+          [
+            92,
+            292,
+            492,
+            308
+          ],
+          [
+            493,
+            291,
+            583,
+            308
+          ]
+        ]
+      },
+      "drawings": {
+        "uniE167": {
+          "before_sha256": "2d5de952cac0650560c0c438b38257ce03718b24a0199990211c553d4b90eb44",
+          "after_sha256": "db01d3f6cf954a414c03e203d31d29bbc13c23f16f20ed7d88681025358ad51a"
+        },
+        "uniE167.primary": {
+          "before_sha256": "144ba6940a48fe905aaff300ce5362790444abe56af8991be226227d3885e0d1",
+          "after_sha256": "0ebbf8e74e634da38d55bcdb378eed1251b01117d8a4e20f9906a69891a7a7b3"
+        },
+        "uniE167.secondary": {
+          "before_sha256": "591803a3e284e79bfc1543bb9a4118e1c67de4f1c827490c0a35061699a9a217",
+          "after_sha256": "b9f20bf9c1a4e1c0ac93f6298b347fdb811abbe4efce213830f1abc01e12741e"
+        },
+        "uniE167.tertiary": {
+          "before_sha256": "caa9be0f6a342e065531cde5fd716ebd58e43483c70154a55dbcc1756bd7da8e",
+          "after_sha256": "8174f189ef19ab168c3e4515dfacdd337d4b6869cd27e4f8e7d054b918bb1e7f"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-16",
+      "glyph": "uniE168",
+      "old_box": [
+        2355,
+        1467,
+        2940,
+        1770
+      ],
+      "box": [
+        2355,
+        1449,
+        2940,
+        1770
+      ],
+      "top_rule": {
+        "centre_x": 2642.0,
+        "centre_y": 1460.0,
+        "slope": -0.0025000000000000022,
+        "score": 157.1075471698113,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.3155680224403927,
+        0,
+        0,
+        0.3155680224403927,
+        46.01262272089761,
+        399.9163078466224
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          287,
+          4
+        ],
+        [
+          288,
+          0,
+          584,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          2355,
+          1467,
+          2940,
+          1770
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            298,
+            35,
+            303
+          ],
+          [
+            36,
+            297,
+            92,
+            303
+          ],
+          [
+            93,
+            296,
+            149,
+            303
+          ],
+          [
+            150,
+            295,
+            206,
+            303
+          ],
+          [
+            207,
+            294,
+            263,
+            303
+          ],
+          [
+            264,
+            293,
+            321,
+            303
+          ],
+          [
+            322,
+            292,
+            378,
+            303
+          ],
+          [
+            379,
+            291,
+            435,
+            303
+          ],
+          [
+            436,
+            290,
+            492,
+            303
+          ],
+          [
+            493,
+            289,
+            549,
+            303
+          ],
+          [
+            550,
+            288,
+            584,
+            303
+          ]
+        ],
+        "post_trace_transform": [
+          0.9998470853433399,
+          -0.017487307695241722,
+          0.017487307695241722,
+          0.9998470853433399,
+          -15.59116719669714,
+          16.995387809207045
+        ],
+        "straightening_note": "-1.002 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE168": {
+          "before_sha256": "74908c2af826b0dbb1f0711e677bb48df3b2fccd3276455906be3fcacb9b455d",
+          "after_sha256": "698b00f4d1def0bd6f8e177a29ebf876bf033918c62e32a47960c537a17121e5"
+        },
+        "uniE168.primary": {
+          "before_sha256": "45fe0b9bbbc4d5107310bf1e4820ec3fc3a66e5c73c080c4eb5fcc168251fccf",
+          "after_sha256": "66e6828f6ffb47c413b4b2377635edde3a5db3203a08617785e9785799e318a1"
+        },
+        "uniE168.secondary": {
+          "before_sha256": "6af72e43461b0efa79b34448581380ed6c9fb82df5f21ff6736f1b4837481e48",
+          "after_sha256": "fc0b52c292e626d6e74db046490920f32505a7cc07457672bebf48a111b40129"
+        },
+        "uniE168.tertiary": {
+          "before_sha256": "9a975c3c3faf227239f40ef15ef2de9a03fc6ac1311fbec99cac268663e6be8f",
+          "after_sha256": "7ebb94bb06bd1af23fcde5321e9a462db4651cf55a921fc5e725c147a2ed8b22"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-17",
+      "glyph": "uniE169",
+      "old_box": [
+        2360,
+        1760,
+        2945,
+        2047
+      ],
+      "box": [
+        2360,
+        1742,
+        2945,
+        2047
+      ],
+      "top_rule": {
+        "centre_x": 2647.5,
+        "centre_y": 1758.0,
+        "slope": -0.0175,
+        "score": 170.14500941619585,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.3164204530108177,
+        0,
+        0,
+        0.3164204530108177,
+        44.8988156408089,
+        431.2437954930615
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          35,
+          1
+        ],
+        [
+          36,
+          0,
+          92,
+          0
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          1,
+          14
+        ],
+        [
+          2,
+          0,
+          58,
+          13
+        ],
+        [
+          59,
+          0,
+          116,
+          12
+        ],
+        [
+          117,
+          0,
+          173,
+          11
+        ],
+        [
+          174,
+          0,
+          230,
+          10
+        ],
+        [
+          231,
+          0,
+          287,
+          9
+        ],
+        [
+          288,
+          0,
+          344,
+          8
+        ],
+        [
+          345,
+          0,
+          401,
+          7
+        ],
+        [
+          402,
+          0,
+          458,
+          6
+        ],
+        [
+          459,
+          0,
+          516,
+          5
+        ],
+        [
+          517,
+          0,
+          573,
+          4
+        ],
+        [
+          574,
+          0,
+          584,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          2360,
+          1760,
+          2945,
+          2047
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            35,
+            1
+          ],
+          [
+            36,
+            0,
+            92,
+            0
+          ],
+          [
+            0,
+            286,
+            35,
+            287
+          ],
+          [
+            36,
+            285,
+            92,
+            287
+          ],
+          [
+            93,
+            284,
+            149,
+            287
+          ],
+          [
+            150,
+            283,
+            206,
+            287
+          ],
+          [
+            207,
+            282,
+            263,
+            287
+          ],
+          [
+            264,
+            281,
+            321,
+            287
+          ],
+          [
+            322,
+            280,
+            378,
+            287
+          ],
+          [
+            379,
+            279,
+            435,
+            287
+          ],
+          [
+            436,
+            278,
+            492,
+            287
+          ],
+          [
+            493,
+            277,
+            549,
+            287
+          ],
+          [
+            550,
+            276,
+            584,
+            287
+          ]
+        ],
+        "post_trace_transform": [
+          0.9998406087525856,
+          -0.01785376960921681,
+          0.01785376960921681,
+          0.9998406087525856,
+          -15.914739485787678,
+          17.354486025957954
+        ],
+        "straightening_note": "-1.023 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE169": {
+          "before_sha256": "6eed9c26c305c1b958a75aeeba39c4804886e06c96668105954b1c2f9b6525ae",
+          "after_sha256": "8b6510ee104b8dd37f18ca4317bd1cdaf7e3eea9c874e37329c23f8529c7735f"
+        },
+        "uniE169.primary": {
+          "before_sha256": "f3f8e4c8817dcc44284cea95f947afd0f0bdd542fe1a0feac50c6f679457c5bc",
+          "after_sha256": "ecf8c31f959525f29a6cffb53f80512948130df39ff8e99f7917bc7001976ddf"
+        },
+        "uniE169.secondary": {
+          "before_sha256": "84a13b8d64d64067c965c179500875dc04f119c9e8992eb3202abd2898cd417d",
+          "after_sha256": "d5b241da8807b31eb61f6fddb4d2df8ead7966cd80918760fffe2aeda2a99db4"
+        },
+        "uniE169.tertiary": {
+          "before_sha256": "1fadc01039406b2c66c76f598002df50bbac7091206c7c55b7526429019721d9",
+          "after_sha256": "0a78e830f73048ca886a8e2c3a371795cd183b57fa656088e495d18dbbd8802a"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-18",
+      "glyph": "uniE16A",
+      "old_box": [
+        2366,
+        2036,
+        2950,
+        2344
+      ],
+      "box": [
+        2366,
+        2023,
+        2950,
+        2344
+      ],
+      "top_rule": {
+        "centre_x": 2652.5,
+        "centre_y": 2039.0,
+        "slope": -0.0175,
+        "score": 168.36723163841808,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.3165873700351142,
+        0,
+        0,
+        0.3165873700351142,
+        47.4088431390973,
+        388.59124196661674
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          34,
+          6
+        ],
+        [
+          35,
+          0,
+          91,
+          5
+        ],
+        [
+          92,
+          0,
+          149,
+          4
+        ],
+        [
+          150,
+          0,
+          206,
+          3
+        ],
+        [
+          207,
+          0,
+          263,
+          2
+        ],
+        [
+          264,
+          0,
+          320,
+          1
+        ],
+        [
+          321,
+          0,
+          377,
+          0
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          0,
+          14
+        ],
+        [
+          1,
+          0,
+          57,
+          13
+        ],
+        [
+          58,
+          0,
+          115,
+          12
+        ],
+        [
+          116,
+          0,
+          172,
+          11
+        ],
+        [
+          173,
+          0,
+          229,
+          10
+        ],
+        [
+          230,
+          0,
+          286,
+          9
+        ],
+        [
+          287,
+          0,
+          343,
+          8
+        ],
+        [
+          344,
+          0,
+          400,
+          7
+        ],
+        [
+          401,
+          0,
+          457,
+          6
+        ],
+        [
+          458,
+          0,
+          515,
+          5
+        ],
+        [
+          516,
+          0,
+          572,
+          4
+        ],
+        [
+          573,
+          0,
+          583,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          2366,
+          2036,
+          2950,
+          2344
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            34,
+            6
+          ],
+          [
+            35,
+            0,
+            91,
+            5
+          ],
+          [
+            92,
+            0,
+            149,
+            4
+          ],
+          [
+            150,
+            0,
+            206,
+            3
+          ],
+          [
+            207,
+            0,
+            263,
+            2
+          ],
+          [
+            264,
+            0,
+            320,
+            1
+          ],
+          [
+            321,
+            0,
+            377,
+            0
+          ],
+          [
+            0,
+            302,
+            17,
+            308
+          ],
+          [
+            18,
+            301,
+            66,
+            308
+          ],
+          [
+            67,
+            300,
+            117,
+            308
+          ],
+          [
+            118,
+            299,
+            166,
+            308
+          ],
+          [
+            167,
+            298,
+            217,
+            308
+          ],
+          [
+            218,
+            297,
+            266,
+            308
+          ],
+          [
+            267,
+            296,
+            317,
+            308
+          ],
+          [
+            318,
+            295,
+            366,
+            308
+          ],
+          [
+            367,
+            294,
+            417,
+            308
+          ],
+          [
+            418,
+            293,
+            466,
+            308
+          ],
+          [
+            467,
+            292,
+            517,
+            308
+          ],
+          [
+            518,
+            291,
+            566,
+            308
+          ],
+          [
+            567,
+            290,
+            583,
+            308
+          ]
+        ],
+        "post_trace_transform": [
+          0.9997971749108027,
+          -0.02013973784282898,
+          0.02013973784282898,
+          0.9997971749108027,
+          -17.930240672559847,
+          19.597249860764805
+        ],
+        "straightening_note": "-1.154 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE16A": {
+          "before_sha256": "71ca6e4f006b4c28695a4beed7acca98ca2a6e5c67feee420a7d79b78ff49ec1",
+          "after_sha256": "eebe38302fbd54e4a0af2d0302299b582563ef6d5c9b881e5cd91c06769cfba2"
+        },
+        "uniE16A.primary": {
+          "before_sha256": "857ad0e494848ad30246331f48b6b7c606783d5a9cfe67a35e517cef1b5d6fb9",
+          "after_sha256": "4f10482b087cd1ccf2451ea490de825857b13bfeaef6f7d19df01809849e9621"
+        },
+        "uniE16A.secondary": {
+          "before_sha256": "e149d6907ab7eb967eb99b4c5d0020dc2a7ffe1c1e6b8e3dd0a63bd684ec8994",
+          "after_sha256": "489cc60a3a6139a632969bd08205a750f5867e9d3435208c5bb5e570f7cbbcf4"
+        },
+        "uniE16A.tertiary": {
+          "before_sha256": "61e4d6f6a8af6e2d1515a2b044be45a618156bde63ef19ded66d499cba344224",
+          "after_sha256": "62d2f64177c772ea72785654b6a7bc7d5046acbce22fc6fd06f874c8b19d9c94"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-19",
+      "glyph": "uniE16B",
+      "old_box": [
+        3014,
+        563,
+        3567,
+        872
+      ],
+      "box": [
+        3014,
+        563,
+        3567,
+        872
+      ],
+      "top_rule": {
+        "centre_x": 3290.5,
+        "centre_y": 579.0,
+        "slope": -0.010000000000000002,
+        "score": 177.67935871743487,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.3261278763810279,
+        0,
+        0,
+        0.3261278763810279,
+        51.28101282113991,
+        402.8199433462318
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          26,
+          17
+        ],
+        [
+          27,
+          0,
+          126,
+          16
+        ],
+        [
+          127,
+          0,
+          226,
+          15
+        ],
+        [
+          227,
+          0,
+          326,
+          14
+        ],
+        [
+          327,
+          0,
+          426,
+          13
+        ],
+        [
+          427,
+          0,
+          526,
+          12
+        ],
+        [
+          527,
+          0,
+          552,
+          11
+        ]
+      ],
+      "after_top_erase": [],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          3014,
+          563,
+          3567,
+          872
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            26,
+            17
+          ],
+          [
+            27,
+            0,
+            126,
+            16
+          ],
+          [
+            127,
+            0,
+            226,
+            15
+          ],
+          [
+            227,
+            0,
+            326,
+            14
+          ],
+          [
+            327,
+            0,
+            426,
+            13
+          ],
+          [
+            427,
+            0,
+            526,
+            12
+          ],
+          [
+            527,
+            0,
+            552,
+            11
+          ],
+          [
+            0,
+            309,
+            76,
+            309
+          ],
+          [
+            77,
+            308,
+            156,
+            309
+          ],
+          [
+            157,
+            307,
+            236,
+            309
+          ],
+          [
+            237,
+            306,
+            316,
+            309
+          ],
+          [
+            317,
+            305,
+            396,
+            309
+          ],
+          [
+            397,
+            304,
+            476,
+            309
+          ],
+          [
+            477,
+            303,
+            552,
+            309
+          ]
+        ],
+        "post_trace_transform": [
+          0.9999234382823715,
+          -0.012374068593653214,
+          0.012374068593653214,
+          0.9999234382823715,
+          -11.06285623849403,
+          11.997507670147343
+        ],
+        "straightening_note": "-0.709 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE16B": {
+          "before_sha256": "e7e251132af40a8a86f1c132d38af1259a743259f0acbf4c5bc520fa2cc2e4b9",
+          "after_sha256": "c41a3914a2548af13430ce7bc3acec480569240d7cd7c3c2d8f3a9d362518fcc"
+        },
+        "uniE16B.primary": {
+          "before_sha256": "954f080d5cc6d95e338fca6c5b944baba54a4994088ea2ca9a6bfe45addce4b4",
+          "after_sha256": "bba820a786ba99d2d645b04a6ca4c24ca7ba25f59c5f81ae0956e65b953ca843"
+        },
+        "uniE16B.secondary": {
+          "before_sha256": "2f1be0550cf5804d6abdfb54c382cc3f62efe1190ea6192d7172c800ea4570c8",
+          "after_sha256": "fb73f8cf22e34b2c489a900c293186071635762c6e3c6da28c17f5aa7eae8e8d"
+        },
+        "uniE16B.tertiary": {
+          "before_sha256": "8c8819976cd47db805d83017006f523f7a62e7cb42377bfe466895af495c85f7",
+          "after_sha256": "6fedcc43c0046ff33ce6e90b66a8c2b650c4573b9f54bab08937a5d1eac26fc5"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-20",
+      "glyph": "uniE16C",
+      "old_box": [
+        3014,
+        861,
+        3567,
+        1175
+      ],
+      "box": [
+        3014,
+        853,
+        3567,
+        1175
+      ],
+      "top_rule": {
+        "centre_x": 3290.5,
+        "centre_y": 867.0,
+        "slope": -0.0125,
+        "score": 171.5370741482966,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.33185840707964603,
+        0,
+        0,
+        0.33185840707964603,
+        42.42920353982301,
+        355.6223386461202
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          76,
+          7
+        ],
+        [
+          77,
+          0,
+          156,
+          6
+        ],
+        [
+          157,
+          0,
+          236,
+          5
+        ],
+        [
+          237,
+          0,
+          316,
+          4
+        ],
+        [
+          317,
+          0,
+          396,
+          3
+        ],
+        [
+          397,
+          0,
+          476,
+          2
+        ],
+        [
+          477,
+          0,
+          552,
+          1
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          36,
+          10
+        ],
+        [
+          37,
+          0,
+          116,
+          9
+        ],
+        [
+          117,
+          0,
+          196,
+          8
+        ],
+        [
+          197,
+          0,
+          276,
+          7
+        ],
+        [
+          277,
+          0,
+          356,
+          6
+        ],
+        [
+          357,
+          0,
+          436,
+          5
+        ],
+        [
+          437,
+          0,
+          516,
+          4
+        ],
+        [
+          517,
+          0,
+          552,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          3014,
+          861,
+          3567,
+          1175
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            76,
+            7
+          ],
+          [
+            77,
+            0,
+            156,
+            6
+          ],
+          [
+            157,
+            0,
+            236,
+            5
+          ],
+          [
+            237,
+            0,
+            316,
+            4
+          ],
+          [
+            317,
+            0,
+            396,
+            3
+          ],
+          [
+            397,
+            0,
+            476,
+            2
+          ],
+          [
+            477,
+            0,
+            552,
+            1
+          ],
+          [
+            0,
+            306,
+            76,
+            314
+          ],
+          [
+            77,
+            305,
+            156,
+            314
+          ],
+          [
+            157,
+            304,
+            236,
+            314
+          ],
+          [
+            237,
+            303,
+            316,
+            314
+          ],
+          [
+            317,
+            302,
+            396,
+            314
+          ],
+          [
+            397,
+            301,
+            476,
+            314
+          ],
+          [
+            477,
+            300,
+            552,
+            314
+          ]
+        ],
+        "post_trace_transform": [
+          0.9999251562812653,
+          -0.012234452823360322,
+          0.012234452823360322,
+          0.9999251562812653,
+          -10.938858196164054,
+          11.861371868580477
+        ],
+        "straightening_note": "-0.701 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE16C": {
+          "before_sha256": "df37047a00a5efc55d376f5ac73c6331bec6a56acc237f086ad033c4bea3afef",
+          "after_sha256": "ab5399e3883a5e0215126d16925e05963229327cde2adefb9074d4eab23e379a"
+        },
+        "uniE16C.primary": {
+          "before_sha256": "023e050fec8fa9019b7c6d3d4115c11325778da3e76f21ad34ac2541994dafbb",
+          "after_sha256": "b46010bf2d811e17dc5458b15bad2142bede9e6ba316b01f3eb116902c40d681"
+        },
+        "uniE16C.secondary": {
+          "before_sha256": "15209516bd41770846ac2864c48f231724b1ad2c25ed3cc910d345dbbb2aa56b",
+          "after_sha256": "dfade33034ac94e49c73b8ebeabb914e9eea048719b77ead1254a0458a1d3e87"
+        },
+        "uniE16C.tertiary": {
+          "before_sha256": "0e61a0fb7cb676b5783abb468f601b792843d7fa536443d2ed1924a05e7bd077",
+          "after_sha256": "0557db896ca895fce282af255e867b9092aeab5612d89b9bc9e5985182e4a527"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-21",
+      "glyph": "uniE16D",
+      "old_box": [
+        3019,
+        1164,
+        3578,
+        1473
+      ],
+      "box": [
+        3019,
+        1148,
+        3578,
+        1473
+      ],
+      "top_rule": {
+        "centre_x": 3290.5,
+        "centre_y": 1162.0,
+        "slope": -0.0125,
+        "score": 170.53907815631263,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.33043219544898556,
+        0,
+        0,
+        0.33043219544898556,
+        42.39847838248138,
+        346.2445686189346
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          31,
+          10
+        ],
+        [
+          32,
+          0,
+          111,
+          9
+        ],
+        [
+          112,
+          0,
+          191,
+          8
+        ],
+        [
+          192,
+          0,
+          271,
+          7
+        ],
+        [
+          272,
+          0,
+          351,
+          6
+        ],
+        [
+          352,
+          0,
+          431,
+          5
+        ],
+        [
+          432,
+          0,
+          511,
+          4
+        ],
+        [
+          512,
+          0,
+          558,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          3019,
+          1164,
+          3578,
+          1473
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            291,
+            79,
+            309
+          ],
+          [
+            80,
+            290,
+            159,
+            309
+          ],
+          [
+            160,
+            289,
+            239,
+            309
+          ],
+          [
+            240,
+            288,
+            319,
+            309
+          ],
+          [
+            320,
+            287,
+            399,
+            309
+          ],
+          [
+            400,
+            286,
+            479,
+            309
+          ],
+          [
+            480,
+            285,
+            558,
+            309
+          ]
+        ],
+        "post_trace_transform": [
+          0.9999232221618356,
+          -0.012391520548033538,
+          0.012391520548033538,
+          0.9999232221618356,
+          -11.078354657239672,
+          12.014525862652249
+        ],
+        "straightening_note": "-0.710 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE16D": {
+          "before_sha256": "24dc1b682f61196ed7c39a2a9ac9fcbc2f9ecc73a1523399abaadcbf431749c3",
+          "after_sha256": "3f6cb7809096310f8dbbdf16b75f9ddf195bc1858ef9a14ca3278372417ee840"
+        },
+        "uniE16D.primary": {
+          "before_sha256": "54da9103ef1ce751a269f4bdf0e349f7b341c3b178840d32df2881100f80c11f",
+          "after_sha256": "7fb6b5091ad98fbd6a2d6c9df8d0bbed73d29e486b928ebf2b2bafff311ba272"
+        },
+        "uniE16D.secondary": {
+          "before_sha256": "101d08d8e6e1253e9ba43e29a968456af60d2897f7f97df1b9b8939ccdd0b859",
+          "after_sha256": "723121b7913d8dccbbb12310a778026b09f6573af77e3c53b84120ef281eefb1"
+        },
+        "uniE16D.tertiary": {
+          "before_sha256": "c3abb736b2acf91c7535b9c5f93064c80670d6771bdedfdf92df902712cfc496",
+          "after_sha256": "e44362546e71ca47fd89a2ace6ae425a2fff4160020156e8ae9f82f1ad380009"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-22",
+      "glyph": "uniE16E",
+      "old_box": [
+        3025,
+        1462,
+        3583,
+        1754
+      ],
+      "box": [
+        3025,
+        1436,
+        3583,
+        1754
+      ],
+      "top_rule": {
+        "centre_x": 3298.5,
+        "centre_y": 1450.0,
+        "slope": -0.0125,
+        "score": 167.55841584158415,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.32886237543284147,
+        0,
+        0,
+        0.32886237543284147,
+        45.39106385638655,
+        374.9363929223739
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          539,
+          0,
+          557,
+          0
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          33,
+          10
+        ],
+        [
+          34,
+          0,
+          113,
+          9
+        ],
+        [
+          114,
+          0,
+          193,
+          8
+        ],
+        [
+          194,
+          0,
+          273,
+          7
+        ],
+        [
+          274,
+          0,
+          353,
+          6
+        ],
+        [
+          354,
+          0,
+          433,
+          5
+        ],
+        [
+          434,
+          0,
+          513,
+          4
+        ],
+        [
+          514,
+          0,
+          557,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          3025,
+          1462,
+          3583,
+          1754
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            539,
+            0,
+            557,
+            0
+          ],
+          [
+            0,
+            273,
+            78,
+            292
+          ],
+          [
+            79,
+            272,
+            159,
+            292
+          ],
+          [
+            160,
+            271,
+            238,
+            292
+          ],
+          [
+            239,
+            270,
+            319,
+            292
+          ],
+          [
+            320,
+            269,
+            398,
+            292
+          ],
+          [
+            399,
+            268,
+            479,
+            292
+          ],
+          [
+            480,
+            267,
+            557,
+            292
+          ]
+        ],
+        "post_trace_transform": [
+          0.9999264319874636,
+          -0.01212974083896505,
+          0.01212974083896505,
+          0.9999264319874636,
+          -10.845847190983443,
+          11.759281380045195
+        ],
+        "straightening_note": "-0.695 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE16E": {
+          "before_sha256": "1725404000fb19e14302810084f6a1fe1b2f1e05cb61472f753ab63de1e80321",
+          "after_sha256": "471a6d209b61b3806cd8668db7b1bca370a7c24beaf6bbd8d30495ec45c44675"
+        },
+        "uniE16E.primary": {
+          "before_sha256": "d1df076d4b985e768c80dbf7dd87bf6340f071ed7676db318320cc5fec9b1479",
+          "after_sha256": "254b214d0a3be25195de16bfc27ef9181728822263fed81a4ab886c918f357ad"
+        },
+        "uniE16E.secondary": {
+          "before_sha256": "57e90b72d334fa1b2599472a505eab76f075d150479caa75bb5645dbf88dd9ad",
+          "after_sha256": "382fd347353d255d5505b5f0e8c5af4c354c5c332134f7bbe61b7cdee1308b2b"
+        },
+        "uniE16E.tertiary": {
+          "before_sha256": "dc2308552c8fe21afe0e8cc4aebe656bc4078228e7d3a08d390a9a6b785ad61f",
+          "after_sha256": "aa269c70a41d7103c321fc5f8678e0e48d135007d13b99dac4e5877d44c33a87"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-23",
+      "glyph": "uniE16F",
+      "old_box": [
+        3030,
+        1744,
+        3588,
+        2031
+      ],
+      "box": [
+        3030,
+        1716,
+        3588,
+        2031
+      ],
+      "top_rule": {
+        "centre_x": 3304.0,
+        "centre_y": 1730.0,
+        "slope": -0.0125,
+        "score": 171.0515873015873,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.3287070854638422,
+        0,
+        0,
+        0.3287070854638422,
+        47.56464572680789,
+        376.94551068021855
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          442,
+          0,
+          466,
+          0
+        ],
+        [
+          467,
+          0,
+          491,
+          1
+        ],
+        [
+          492,
+          0,
+          516,
+          2
+        ],
+        [
+          517,
+          0,
+          541,
+          3
+        ],
+        [
+          542,
+          0,
+          557,
+          4
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          34,
+          10
+        ],
+        [
+          35,
+          0,
+          114,
+          9
+        ],
+        [
+          115,
+          0,
+          194,
+          8
+        ],
+        [
+          195,
+          0,
+          274,
+          7
+        ],
+        [
+          275,
+          0,
+          354,
+          6
+        ],
+        [
+          355,
+          0,
+          434,
+          5
+        ],
+        [
+          435,
+          0,
+          514,
+          4
+        ],
+        [
+          515,
+          0,
+          557,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          3030,
+          1744,
+          3588,
+          2031
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            442,
+            0,
+            466,
+            0
+          ],
+          [
+            467,
+            0,
+            491,
+            1
+          ],
+          [
+            492,
+            0,
+            516,
+            2
+          ],
+          [
+            517,
+            0,
+            541,
+            3
+          ],
+          [
+            542,
+            0,
+            557,
+            4
+          ],
+          [
+            0,
+            264,
+            79,
+            287
+          ],
+          [
+            80,
+            263,
+            212,
+            287
+          ],
+          [
+            213,
+            262,
+            345,
+            287
+          ],
+          [
+            346,
+            261,
+            478,
+            287
+          ],
+          [
+            479,
+            260,
+            557,
+            287
+          ]
+        ],
+        "post_trace_transform": [
+          0.999971575673983,
+          -0.007539750930357091,
+          0.007539750930357091,
+          0.999971575673983,
+          -6.758374787040936,
+          7.293901790279506
+        ],
+        "straightening_note": "-0.432 degrees; bottom edge; see straightening.json."
+      },
+      "drawings": {
+        "uniE16F": {
+          "before_sha256": "f54d45d4d903fa084bc52b8a280993fc7fa5f9b8c1a3b162dae11f4edeecb452",
+          "after_sha256": "e040a6eaa22ba2d83bc1981a20ce02b14dc59df39932a5a2de6c3c0c535fcad3"
+        },
+        "uniE16F.primary": {
+          "before_sha256": "e374afc0f01079255c148a9b0f17e72bbbba51e26f32a561d8369cc0b03a6583",
+          "after_sha256": "1c6d8121e21f6879868f530d86d41fcbfd49d819d4ca02421fb0123ea9f81cc9"
+        },
+        "uniE16F.secondary": {
+          "before_sha256": "c3d98b8b9608d7e24a7fb79174bc78820b79be18e413e051326118ff3fba55bf",
+          "after_sha256": "689d571c649a4bd5631ca1f6f1fb486ba50c18bcbdf707f68320317143e164a7"
+        },
+        "uniE16F.tertiary": {
+          "before_sha256": "7fc98071c2425032c4cbd7e72b44718e0a6093e0bf888b329d35aa0eee654c46",
+          "after_sha256": "fe93b10ec1c7ac15181b78bc8c824cbcff2243a9d88e82cfd03cb356e23ccc77"
+        }
+      }
+    },
+    {
+      "id": "baltimore-1832-p209-357-24",
+      "glyph": "uniE170",
+      "old_box": [
+        3035,
+        2020,
+        3594,
+        2312
+      ],
+      "box": [
+        3035,
+        1991,
+        3594,
+        2312
+      ],
+      "top_rule": {
+        "centre_x": 3309.0,
+        "centre_y": 2004.0,
+        "slope": -0.0075,
+        "score": 175.53968253968253,
+        "upper_margin_pixels": 6
+      },
+      "source_to_font": [
+        0.32828743388655846,
+        0,
+        0,
+        0.32828743388655846,
+        47.91391573955863,
+        405.2708371329564
+      ],
+      "advance_width": 1928,
+      "before_top_erase": [
+        [
+          0,
+          0,
+          17,
+          14
+        ],
+        [
+          18,
+          0,
+          41,
+          15
+        ],
+        [
+          42,
+          0,
+          67,
+          16
+        ],
+        [
+          68,
+          0,
+          91,
+          17
+        ],
+        [
+          92,
+          0,
+          117,
+          18
+        ],
+        [
+          118,
+          0,
+          141,
+          19
+        ],
+        [
+          142,
+          0,
+          167,
+          20
+        ],
+        [
+          168,
+          0,
+          191,
+          21
+        ],
+        [
+          192,
+          0,
+          217,
+          22
+        ],
+        [
+          218,
+          0,
+          241,
+          23
+        ],
+        [
+          242,
+          0,
+          267,
+          24
+        ],
+        [
+          268,
+          0,
+          291,
+          25
+        ],
+        [
+          292,
+          0,
+          317,
+          26
+        ],
+        [
+          318,
+          0,
+          341,
+          27
+        ],
+        [
+          342,
+          0,
+          367,
+          28
+        ],
+        [
+          368,
+          0,
+          391,
+          29
+        ],
+        [
+          392,
+          0,
+          417,
+          30
+        ],
+        [
+          418,
+          0,
+          441,
+          31
+        ],
+        [
+          442,
+          0,
+          467,
+          32
+        ],
+        [
+          468,
+          0,
+          491,
+          33
+        ],
+        [
+          492,
+          0,
+          517,
+          34
+        ],
+        [
+          518,
+          0,
+          541,
+          35
+        ],
+        [
+          542,
+          0,
+          558,
+          36
+        ]
+      ],
+      "after_top_erase": [
+        [
+          0,
+          0,
+          7,
+          8
+        ],
+        [
+          8,
+          0,
+          140,
+          7
+        ],
+        [
+          141,
+          0,
+          274,
+          6
+        ],
+        [
+          275,
+          0,
+          407,
+          5
+        ],
+        [
+          408,
+          0,
+          540,
+          4
+        ],
+        [
+          541,
+          0,
+          558,
+          3
+        ]
+      ],
+      "before_recipe": {
+        "file": "reference/pdf-209.png",
+        "box": [
+          3035,
+          2020,
+          3594,
+          2312
+        ],
+        "height": 1800,
+        "max_ink_dimension": 1800,
+        "center_vertical": true,
+        "y_min": 0,
+        "bearings": [
+          64,
+          64
+        ],
+        "paper_normalization_radius": 0,
+        "threshold": 170,
+        "frame_threshold": 200,
+        "blur": 0.3,
+        "component_min_area": 3,
+        "fill_holes": 0,
+        "tolerance": 0.15,
+        "notes": "Observed historical impression. Direct grayscale thresholds preserve broad solid ink; no local paper normalization. Uniform scaling preserves proportions. Catalogue captions excluded; three tones interpret scanned ink strength.",
+        "multitone": {
+          "thresholds": {
+            "primary": 135,
+            "secondary": 170,
+            "tertiary": 200
+          },
+          "round_inputs": false
+        },
+        "erase": [
+          [
+            0,
+            0,
+            17,
+            14
+          ],
+          [
+            18,
+            0,
+            41,
+            15
+          ],
+          [
+            42,
+            0,
+            67,
+            16
+          ],
+          [
+            68,
+            0,
+            91,
+            17
+          ],
+          [
+            92,
+            0,
+            117,
+            18
+          ],
+          [
+            118,
+            0,
+            141,
+            19
+          ],
+          [
+            142,
+            0,
+            167,
+            20
+          ],
+          [
+            168,
+            0,
+            191,
+            21
+          ],
+          [
+            192,
+            0,
+            217,
+            22
+          ],
+          [
+            218,
+            0,
+            241,
+            23
+          ],
+          [
+            242,
+            0,
+            267,
+            24
+          ],
+          [
+            268,
+            0,
+            291,
+            25
+          ],
+          [
+            292,
+            0,
+            317,
+            26
+          ],
+          [
+            318,
+            0,
+            341,
+            27
+          ],
+          [
+            342,
+            0,
+            367,
+            28
+          ],
+          [
+            368,
+            0,
+            391,
+            29
+          ],
+          [
+            392,
+            0,
+            417,
+            30
+          ],
+          [
+            418,
+            0,
+            441,
+            31
+          ],
+          [
+            442,
+            0,
+            467,
+            32
+          ],
+          [
+            468,
+            0,
+            491,
+            33
+          ],
+          [
+            492,
+            0,
+            517,
+            34
+          ],
+          [
+            518,
+            0,
+            541,
+            35
+          ],
+          [
+            542,
+            0,
+            558,
+            36
+          ],
+          [
+            0,
+            276,
+            79,
+            292
+          ],
+          [
+            80,
+            275,
+            479,
+            292
+          ],
+          [
+            480,
+            274,
+            558,
+            292
+          ]
+        ]
+      },
+      "drawings": {
+        "uniE170": {
+          "before_sha256": "c04fe80cbb3ed197e6ba6da0a101639aed71506dfc0bd3a8cb58bf382e96192b",
+          "after_sha256": "3932b2c3a49215f90d9c2ef7ecfa58ed4d15fe425e3a392fd4aeb11ed71e07aa"
+        },
+        "uniE170.primary": {
+          "before_sha256": "548bc76acd325055aadd3dd56c6a8fdad6325e21effacbaf3f084a4d08f280df",
+          "after_sha256": "3d010595df28ee0b7b2ffed9ebb661d1c569effa11537a6530fe9fb3ebbcea25"
+        },
+        "uniE170.secondary": {
+          "before_sha256": "61919bd5e3033cebf0af6ae3b3c0ebe80f7f104c8b9095a95fca53cc6ae2e738",
+          "after_sha256": "9d873dcb15fd1392bcbc3272a7544ab91c6f6f3898929c3d155a5f838eabf03d"
+        },
+        "uniE170.tertiary": {
+          "before_sha256": "155d29c61ace28119d6b641ac7d781522528f5b386f529ba8d0177f50f167bc1",
+          "after_sha256": "b9116107bcdc0ba8c8bbd5cb67001c1ddb95fc2148f468fdbdcc3cc9ca803799"
+        }
+      }
+    }
+  ],
+  "validation": {
+    "reproduced_glyphs": 96,
+    "reproduced_edits_byte_identical": true,
+    "original_scan_to_font_transforms_unchanged": true,
+    "original_advances_unchanged": true,
+    "all_outline_bounds_within_original_font_frames": true,
+    "retained_mask_comparisons": 72,
+    "mask_thresholds": [
+      135,
+      170,
+      200
+    ],
+    "changed_pixels_below_restored_top_strip": 0,
+    "retained_mask_method": "Compare original and revised masks below the original top crop/erasure limit plus four native pixels of blur guard; align the padded mask coordinates by the crop offset.",
+    "changed_encoded_glyphs": 24,
+    "all_other_encoded_outlines_unchanged": true,
+    "character_map_unchanged": true,
+    "glyph_order_unchanged": true,
+    "open_type_features_unchanged": true
+  },
+  "drawing_hash_format": "SHA256 of SVG path commands: before canonical glyph exports and after editable glyph JSON."
+}

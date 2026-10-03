@@ -4,7 +4,7 @@ Historical cuts from A specimen of printing types and ornaments from the Baltimo
 
 ![Historical scan beside the vector revival](specimens/preview.png)
 
-**381 icon(s) · Version 1.001 · MIT**
+**381 icon(s) · Version 1.002 · MIT**
 
 [SVG files](svg/) · [SVG sprite](web/icons.svg) · [OTF](fonts/BaltimoreCuts1832-Regular.otf) · [TTF](fonts/BaltimoreCuts1832-Regular.ttf) · [WOFF2](web/BaltimoreCuts1832-Regular.woff2) · [Comparison and size proof](specimens/specimen.pdf) · [Icon manifest](icons.json) · [Changes](CHANGELOG.md)
 
@@ -100,7 +100,7 @@ Keep the included LICENSE with redistributed assets.
 
 **Observed:** Impressions from the 1832 Baltimore specimen. Every crop is mapped to a one-based PDF page of this unpaginated book; original JP2 leaves and exact preparation records are retained.
 
-**Interpreted or new:** No new pictorial content. Thresholding, documented crop cleanup, cubic curve fitting and font-unit rounding interpret the scanned impressions. Names, search tags, Private Use assignments, scale and bearings are new project work. Paper, catalogue numbers and prices are excluded. Multi-tone companions separate observed ink strengths into three disjoint vector regions at default opacities 1, 0.55 and 0.25; these are modern interpretations, not evidence of separately printed inks. Format-specific downloadable-font approximations include modern fine diagonal coverage screening for seven especially dense cuts; original engraved linework remains in the master and SVG. In version 1.001, 167 complete cuts and their tone layers receive documented rigid rotations to level observed frames or bases; no historical contour is redrawn or removed.
+**Interpreted or new:** No new pictorial content. Thresholding, documented crop cleanup, cubic curve fitting and font-unit rounding interpret the scanned impressions. Names, search tags, Private Use assignments, scale and bearings are new project work. Paper, catalogue numbers and prices are excluded. Multi-tone companions separate observed ink strengths into three disjoint vector regions at default opacities 1, 0.55 and 0.25; these are modern interpretations, not evidence of separately printed inks. Format-specific downloadable-font approximations include modern fine diagonal coverage screening for seven especially dense cuts; original engraved linework remains in the master and SVG. In version 1.001, 167 complete cuts and their tone layers receive documented rigid rotations to level observed frames or bases; no historical contour is redrawn or removed. Version 1.002 restores the full observed upper boundaries of Primer panels 357-01–357-24 from PDF page 209, including previously clipped illustration detail; original scale, position, advances and reviewed rotations are retained.
 
 - [A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 121, Internet Archive leaf 120](https://archive.org/details/ldpd_12198261_000/page/n120/mode/1up) — 1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design. [Rights basis](https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2).
 - [A specimen of printing types and ornaments from the Baltimore Type Foundry (1832), unnumbered leaf; PDF page 123, Internet Archive leaf 122](https://archive.org/details/ldpd_12198261_000/page/n122/mode/1up) — 1832 US publication, public domain by age; Columbia University Libraries historical scan, distributed through Internet Archive. DPLA item c773fb687c8cc1c610a04becf6baf8e2 records Public domain. No modern digital font or redrawing was used. The MIT license applies to original project work, not ownership of the historical design. [Rights basis](https://dp.la/item/c773fb687c8cc1c610a04becf6baf8e2).
@@ -183,8 +183,8 @@ All downloadable fonts use reviewed simplifications for the most detailed engrav
 
 Download every part and extract them into the same folder.
 
-- [ZIP part 1](downloads/baltimore-cuts-1832-web.zip) — 89.4 MB
+- [ZIP part 1](downloads/baltimore-cuts-1832-web.zip) — 89.5 MB
 - [ZIP part 2](downloads/baltimore-cuts-1832-web-2.zip) — 89.2 MB
-- [ZIP part 3](downloads/baltimore-cuts-1832-web-3.zip) — 86.8 MB
-- [ZIP part 4](downloads/baltimore-cuts-1832-web-4.zip) — 80.4 MB
+- [ZIP part 3](downloads/baltimore-cuts-1832-web-3.zip) — 87.1 MB
+- [ZIP part 4](downloads/baltimore-cuts-1832-web-4.zip) — 80.3 MB
 - [ZIP part 5](downloads/baltimore-cuts-1832-web-5.zip) — 23.6 MB
