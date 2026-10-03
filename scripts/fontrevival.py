@@ -1139,11 +1139,12 @@ The example hides a decorative icon from screen readers and supplies visible
 text. For an icon that conveys meaning on its own, use `role="img"` and an
 `aria-label` instead of `aria-hidden`. Font size and colour use ordinary CSS.
 
-Install the OTF or TTF for desktop use. The manifest lists Private Use codepoints
-(pilot: U+{first["codepoint"]}); these are not ordinary text characters. IDs and
-codepoints are permanent within this collection. Keep the included LICENSE with
-redistributed assets. Detailed cuts need display sizes: the pilot is recommended
-from {first["recommended_min_px"]} px, with 16–192 pt proofs supplied for review.
+Install the OTF or TTF for desktop use. The manifest lists each icon's Private Use
+codepoint and recommended minimum display size. These codepoints are not ordinary
+text characters; IDs and codepoints are permanent within this collection.
+The example above uses U+{first["codepoint"]} and is recommended from
+{first["recommended_min_px"]} px. The 16–192 pt proofs show how detail holds up at different sizes.
+Keep the included LICENSE with redistributed assets.
 
 ## Evidence and editing
 
@@ -1372,6 +1373,40 @@ def site_ornament_outputs(collections):
     return outputs
 
 
+def site_preview_outputs(collections):
+    """Render the shared link preview from existing tone paths and site colours."""
+    record = next((record for _, records in collections for record in records
+                   if record['id'] == 'baltimore-1832-p161-225'), None)
+    if record is None:
+        return {}
+    from outline_raster import rasterize
+    from PIL.PngImagePlugin import PngInfo
+
+    css = (ROOT / 'site/shared.css').read_text()
+    palette = dict(re.findall(r'--(paper|red|ink|muted):\s*(#[0-9a-fA-F]{6})', css))
+    colours = dict(zip(('primary', 'secondary', 'tertiary'),
+                       (palette['ink'], palette['red'], palette['muted'])))
+    bounds = BoundsPen(None)
+    for layer in record['tones']:
+        parse_path(layer['path'], bounds)
+    x0, y0, x1, y1 = bounds.bounds
+    width, height, margin = 1200, 630, 60
+    scale = min((width - 2 * margin) / (x1 - x0), (height - 2 * margin) / (y1 - y0))
+    origin = (width / 2 - scale * (x0 + x1) / 2,
+              height / 2 + scale * (y0 + y1) / 2)
+    preview = Image.new('RGB', (width, height), palette['paper'])
+    for layer in record['tones']:
+        mask = rasterize(layer['path'], width, height, scale, origin)
+        # Three solid site colours replace the artwork's default black opacities.
+        preview.paste(colours[layer['role']], (0, 0), mask)
+    info = PngInfo()
+    info.add_text('Copyright', COPYRIGHT_NOTICE + '; MIT')
+    info.add_text('Source', record['id'] + '; Baltimore specimen (1832), PDF page 161')
+    buffer = io.BytesIO()
+    preview.save(buffer, format='PNG', pnginfo=info)
+    return {'site/social-preview.png': buffer.getvalue()}
+
+
 def catalog_outputs():
     """Render the catalog without writes or a temporary copy of the collection."""
     entries, icon_collections = [], []
@@ -1405,7 +1440,9 @@ def catalog_outputs():
         template = template.replace(token, replacement)
     brand_styles = [style for style in styles if any(f'font-family:"{family}"' in style
                    for family in ("quaint-gothic-1894", "erebus-1894", "hades-1894", "remington-1888"))]
-    return {"catalog.json": catalog, "index.html": template} | site_ornament_outputs(icon_collections) | icon_catalog_outputs(icon_collections, brand_styles)
+    return ({"catalog.json": catalog, "index.html": template}
+            | site_ornament_outputs(icon_collections) | site_preview_outputs(icon_collections)
+            | icon_catalog_outputs(icon_collections, brand_styles))
 
 
 def icon_navigation(m, record, taxonomy):

@@ -13,7 +13,7 @@
   "license": "MIT",
   "copyright": "Copyright (c) 2026 Harold Lehmann",
   "sample_text": "",
-  "observed": "Observed impressions from the supplied 1832 Baltimore specimen. Every crop is mapped to a one-based PDF page of this unpaginated book; original JP2 leaves and exact preparation records are retained.",
+  "observed": "Impressions from the 1832 Baltimore specimen. Every crop is mapped to a one-based PDF page of this unpaginated book; original JP2 leaves and exact preparation records are retained.",
   "reconstructed": "No new pictorial content. Thresholding, documented crop cleanup, cubic curve fitting and font-unit rounding interpret the scanned impressions. Names, search tags, Private Use assignments, scale and bearings are new project work. Paper, catalogue numbers and prices are excluded. Multi-tone companions separate observed ink strengths into three disjoint vector regions at default opacities 1, 0.55 and 0.25; these are modern interpretations, not evidence of separately printed inks. Separations between joined repeat pieces are inferred from their printed arrangement; complete strips retain the observed context. Version 1.001 applies reviewed rigid rotations to 230 icons to level measured horizontal references, preserving every contour, original scale and advance; source/straightening.json records the evidence and matrices.",
   "sources": [
     {

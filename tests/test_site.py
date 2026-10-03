@@ -12,6 +12,28 @@ SPEC.loader.exec_module(site)
 
 
 class PublicSiteTests(unittest.TestCase):
+    def test_social_images_are_published_from_absolute_metadata_urls(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp) / 'repository'; root.mkdir()
+            output = Path(temp) / 'published'
+            image_url = site.SITE_BASE + 'site/preview.png'
+            files = {
+                'index.html': f'<meta property="og:image" content="{image_url}">',
+                'icons.html': f'<meta name="twitter:image" content="{image_url}">',
+                'site/preview.png': 'preview',
+                'catalog.json': '{}', 'icons.json': '{}', 'LICENSE': 'MIT',
+            }
+            for name, content in files.items():
+                file = root / name; file.parent.mkdir(parents=True, exist_ok=True); file.write_text(content)
+            site.assemble(root, output)
+            self.assertEqual((output / 'site/preview.png').read_text(), 'preview')
+            for page in ('index.html', 'icons.html'):
+                self.assertEqual((output / page).read_text(), files[page])
+            self.assertIsNone(site.local_path(root, root / 'index.html', 'https://example.test/preview.png'))
+            (root / 'site/preview.png').unlink()
+            with self.assertRaisesRegex(ValueError, 'Missing gallery asset'):
+                site.assemble(root, output)
+
     def test_published_artwork_round_trips_without_changing_paths_or_accessibility(self):
         artwork = '<path class="fr-primary" transform="scale(1 -1)" d="' + 'M0 0L123.015625 456.984375Z' * 5000 + '"/>'
         original = ('<body><svg data-icon-format="multitone" aria-label="Historical &amp; new" '

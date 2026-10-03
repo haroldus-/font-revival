@@ -85,11 +85,12 @@ The example hides a decorative icon from screen readers and supplies visible
 text. For an icon that conveys meaning on its own, use `role="img"` and an
 `aria-label` instead of `aria-hidden`. Font size and colour use ordinary CSS.
 
-Install the OTF or TTF for desktop use. The manifest lists Private Use codepoints
-(pilot: U+E000); these are not ordinary text characters. IDs and
-codepoints are permanent within this collection. Keep the included LICENSE with
-redistributed assets. Detailed cuts need display sizes: the pilot is recommended
-from 32 px, with 16–192 pt proofs supplied for review.
+Install the OTF or TTF for desktop use. The manifest lists each icon's Private Use
+codepoint and recommended minimum display size. These codepoints are not ordinary
+text characters; IDs and codepoints are permanent within this collection.
+The example above uses U+E000 and is recommended from
+32 px. The 16–192 pt proofs show how detail holds up at different sizes.
+Keep the included LICENSE with redistributed assets.
 
 ## Evidence and editing
 

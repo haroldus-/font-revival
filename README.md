@@ -1,6 +1,6 @@
 # Font Revival
 
-**Historical forms. Shared futures.**
+**Old forms. New life**
 
 An open collection of historical typefaces, revived as usable digital fonts.
 Download them, study their sources, and use them in your own work.
@@ -88,7 +88,7 @@ The [1894 Ryan / November 1888 survey](docs/PROSPECTS-1894-1888.md) records the 
 
 The icon collection revives historical artwork as three-tone SVGs and transparent
 PNGs, plus solid SVGs, sprites, desktop fonts and CSS webfonts. The Boston 1889
-revival contains **1,965 icons**, joined by **819 Baltimore 1832 icons**. The original **Father Christmas, No. 4202** pilot
+revival contains **1,965 icons**, joined by **819 Baltimore 1832 icons**. The **Father Christmas, No. 4202** cut
 retains its engraving, proportions and character assignment. Browse the compact
 monochrome grid by subject, collection, type or specimen section; open an icon
 for its three-tone previews, downloads and HTML examples.
@@ -113,8 +113,8 @@ for its three-tone previews, downloads and HTML examples.
 [Comparison PDF](collection/boston-cuts-1889/specimens/specimen.pdf) ·
 [Repeatable icon workflow](docs/ICONS.md)
 
-The survey covers the available pages in the requested Boston range, printed
-217–276, including decorative initials and pictorial symbols. Ordinary text and
+The Boston survey covers the available printed pages 217–276, including
+decorative initials and pictorial symbols. Ordinary text and
 numerals are excluded; repeated compositions are documented in the retained
 inventory. Printed pages 217–218 are missing from the historical scan and could
 not be revived. The Baltimore survey covers all 238 PDF pages of the unpaginated
@@ -178,6 +178,3 @@ reference material retains that status. Project code, documentation, and digital
 fonts are [MIT licensed](LICENSE). Copyright (c) 2026 Harold Lehmann.
 Historical public-domain designs and reference material retain their existing
 rights status. See [source policy](docs/SOURCES.md).
-
-The initial revivals were prepared with GPT-5.6 Sol. The fonts are reviewed
-through their sources, font files, and visual proofs.

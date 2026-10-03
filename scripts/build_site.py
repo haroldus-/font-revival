@@ -18,6 +18,7 @@ import shutil
 from urllib.parse import quote, unquote, urlsplit
 
 REPO = Path(__file__).resolve().parents[1]
+SITE_BASE = 'https://haroldus-.github.io/font-revival/'
 DOWNLOAD_BASE = 'https://raw.githubusercontent.com/haroldus-/font-revival/main/'
 CSS_URL = re.compile(r'url\(\s*[\'"]?([^\s\)\'"]+)[\'"]?\s*\)')
 DETAIL_SVG = re.compile(r'(<svg\b[^>]*\bdata-icon-format="(multitone|monochrome)"[^>]*>)(.*?)(</svg>)', re.S)
@@ -68,6 +69,11 @@ class References(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         attributes = dict(attrs)
+        if tag == 'meta' and (attributes.get('property') in ('og:image', 'og:image:secure_url')
+                              or attributes.get('name') == 'twitter:image'):
+            if attributes.get('content'):
+                self.urls.add(attributes['content'])
+                self.inline_assets.add(attributes['content'])
         if tag == 'a' and 'download' in attributes and attributes.get('href'):
             self.downloads.add(attributes['href'])
         comparison = tag == 'img' and 'comparison' in attributes.get('class', '').split()
@@ -81,6 +87,9 @@ class References(HTMLParser):
 
 
 def local_path(root, origin, url):
+    # Social previews need absolute public URLs, but remain local dependencies.
+    if url.startswith(SITE_BASE):
+        url = '/' + url[len(SITE_BASE):]
     parts = urlsplit(url)
     if parts.scheme or parts.netloc or not parts.path:
         return None

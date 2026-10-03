@@ -310,7 +310,7 @@
       "description": "An ornamental display face with rounded strokes, knob-ended curls, and an irregular rhythm.",
       "license": "MIT",
       "sample_text": "Picking Nasturtiums",
-      "observed": "A–Z, a–z and 0–9 from the 1892 patent and period foundry specimens. Larger impressions inform title-critical forms.",
+      "observed": "A–Z, a–z and 0–9 from the 1892 patent and period foundry specimens. Larger impressions clarify fine details.",
       "reconstructed": "Punctuation and symbols are newly drawn companions. Spacing is adapted for digital use.",
       "sources": [
         {
@@ -331,7 +331,7 @@
           "title": "H. Berthold specimen catalogue (1909), Zierschrift Skandia, p. 428",
           "url": "https://resolver.staatsbibliothek-berlin.de/SBB000308EA00000263",
           "file": "reference/1909-berthold-skandia-specimen.jpg",
-          "rights": "1909 historical printing, treated as public domain in the supplied source record; publication predates the maximum US term",
+          "rights": "1909 historical printing, treated as public domain in the source record; publication predates the maximum US term",
           "rights_url": "https://www.copyright.gov/circs/circ15a.pdf"
         },
         {

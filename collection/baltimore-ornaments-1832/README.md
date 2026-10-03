@@ -85,11 +85,12 @@ The example hides a decorative icon from screen readers and supplies visible
 text. For an icon that conveys meaning on its own, use `role="img"` and an
 `aria-label` instead of `aria-hidden`. Font size and colour use ordinary CSS.
 
-Install the OTF or TTF for desktop use. The manifest lists Private Use codepoints
-(pilot: U+E000); these are not ordinary text characters. IDs and
-codepoints are permanent within this collection. Keep the included LICENSE with
-redistributed assets. Detailed cuts need display sizes: the pilot is recommended
-from 64 px, with 16–192 pt proofs supplied for review.
+Install the OTF or TTF for desktop use. The manifest lists each icon's Private Use
+codepoint and recommended minimum display size. These codepoints are not ordinary
+text characters; IDs and codepoints are permanent within this collection.
+The example above uses U+E000 and is recommended from
+64 px. The 16–192 pt proofs show how detail holds up at different sizes.
+Keep the included LICENSE with redistributed assets.
 
 ## Evidence and editing
 
@@ -97,7 +98,7 @@ from 64 px, with 16–192 pt proofs supplied for review.
 
 **Designer:** Baltimore Type Foundry; individual engravers generally unidentified (signed large cuts credited in the source inventory)
 
-**Observed:** Observed impressions from the supplied 1832 Baltimore specimen. Every crop is mapped to a one-based PDF page of this unpaginated book; original JP2 leaves and exact preparation records are retained.
+**Observed:** Impressions from the 1832 Baltimore specimen. Every crop is mapped to a one-based PDF page of this unpaginated book; original JP2 leaves and exact preparation records are retained.
 
 **Interpreted or new:** No new pictorial content. Thresholding, documented crop cleanup, cubic curve fitting and font-unit rounding interpret the scanned impressions. Names, search tags, Private Use assignments, scale and bearings are new project work. Paper, catalogue numbers and prices are excluded. Multi-tone companions separate observed ink strengths into three disjoint vector regions at default opacities 1, 0.55 and 0.25; these are modern interpretations, not evidence of separately printed inks. Separations between joined repeat pieces are inferred from their printed arrangement; complete strips retain the observed context. Version 1.001 applies reviewed rigid rotations to 230 icons to level measured horizontal references, preserving every contour, original scale and advance; source/straightening.json records the evidence and matrices.
 
